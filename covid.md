@@ -1,7 +1,7 @@
 ---
 layout: page1	
 permalink: /covid/
-title: null
+title: 
 ---
 ## Failles et Séismes Logistics (COVID 2020)
 {: style="color:black; font-size: 130%; font-weight: bold; text-align: center;"}
