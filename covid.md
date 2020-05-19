@@ -3,6 +3,7 @@ layout: page1
 permalink: /covid/
 title: 
 ---
+
 ## Failles et Séismes Logistics (COVID 2020)
 {: style="color:black; font-size: 130%; font-weight: bold; text-align: center;"}
 
@@ -12,12 +13,12 @@ title:
 ## Offices
 {: style="color:black; font-size: 120%; font-weight: bold; text-align: center;"}
 
-<iframe width='100%' height='855' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTvzAeXsQvhbrdU0sDBWMPcAfn-KFVYUdvEPuXnYphuxGbs5UbBrKJEa7SY8uK-DYmRAsy0GK9QjlM-/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe width='100%' height='855' seamless frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTvzAeXsQvhbrdU0sDBWMPcAfn-KFVYUdvEPuXnYphuxGbs5UbBrKJEa7SY8uK-DYmRAsy0GK9QjlM-/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 ## June2020
 {: style="color:black; font-size: 120%; font-weight: bold; text-align: center;"}
 
-<iframe width='100%' height='1250' src="https://docs.google.com/spreadsheets/d/1LqgM6Bv2DC2UVbdPMaUVlNOLNo_1f_3WZ5FWqHEc8L4/edit?usp=sharing"></iframe>
+<iframe width='100%' height='1250' seamless frameborder="0" src="https://docs.google.com/spreadsheets/d/1LqgM6Bv2DC2UVbdPMaUVlNOLNo_1f_3WZ5FWqHEc8L4/edit?usp=sharing"></iframe>
 
 ## FAQ
 {: style="color:black; font-size: 120%; font-weight: bold; text-align: center;"}
