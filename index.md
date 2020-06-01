@@ -5,7 +5,7 @@ permalink: /
 published: true
 ---
 
-{% include image.html url="images/BHAT3.png" caption="" height="230px" align="left" %}
+{% include image.html url="images/FF81B509-8DBA-44C7-92EF-609BCC8C5486.jpeg" caption="" height="230px" align="left" %}
 
 
 
