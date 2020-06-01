@@ -5,7 +5,7 @@ permalink: /
 published: true
 ---
 
-{% include image.html url="images/BHAT4.png" caption="" height="230px" align="left" %}
+{% include image.html url="images/BHAT4.jpg" caption="" height="290px" align="left" %}
 
 
 
