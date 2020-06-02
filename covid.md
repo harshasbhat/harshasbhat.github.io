@@ -7,6 +7,7 @@ title:
 ## Failles et Séismes Logistics (COVID 2020)
 {: style="color:black; font-size: 130%; font-weight: bold; text-align: center;"}
 
+<!-- 
 [Offices](#offices)  ---  [June2020](#june2020)  ---  [FAQ](#faq)
 {: style="color:blue; font-size: 120%; font-weight: bold; text-align: center;"}
 
@@ -21,10 +22,11 @@ title:
 [Top]({{ site.url }}/covid/)
 
 <iframe width='100%' height='1300' seamless frameborder="0" src="https://docs.google.com/spreadsheets/d/1LqgM6Bv2DC2UVbdPMaUVlNOLNo_1f_3WZ5FWqHEc8L4/edit?usp=sharing"></iframe>
+ -->
 
 ## FAQ
 {: style="color:black; font-size: 120%; font-weight: bold; text-align: center;"}
-[Top]({{ site.url }}/covid/)
+<!-- [Top]({{ site.url }}/covid/) -->
 
 
 {: style="color:black; font-size: 100%; font-weight: bold; text-align: left;"}
@@ -32,6 +34,11 @@ title:
 
 Every Monday starting June 8 2020. Exception for experimental folks, IT staff and Admin staff.
 <ins>You are, however, highly encouraged to work from home as much as possible.</ins>
+
+{: style="color:black; font-size: 100%; font-weight: bold; text-align: left;"}
+* What should I do when I get there?
+
+Please visit [http://www.geosciences.ens.fr/pra/index.php](http://www.geosciences.ens.fr/pra/index.php)
 
 {: style="color:black; font-size: 100%; font-weight: bold; text-align: left;"}
 * Can I go to my office or is there a new office allocated for me?
@@ -91,7 +98,7 @@ Monday through Friday 7am through 9pm. ENS is closed on weekends and holidays.
 {: style="color:black; font-size: 100%; font-weight: bold; text-align: left;"}
 * For any other questions/concerns/worries please email me and I'll do my best to sort it.
 
-[Top]({{ site.url }}/covid/)
+<!-- [Top]({{ site.url }}/covid/) -->
 
 
 {% include new-window-fix.html %}
