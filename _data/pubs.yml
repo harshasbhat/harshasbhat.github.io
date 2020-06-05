@@ -1,36 +1,23 @@
 publications:
-    - title:     "Seismic Radiation From An Explosion In Rock Having An Anisotropic Distribution Of Fractures"
-      author:    M. Rogers-Martinez, C. G. Sammis, H. S. Bhat  
-      year:    2019
-      journal:    to be submitted to Bull. Seis. Soc. Am. 
-      pdf: 
-      doi:
-      pubnum:     40
-      type:           article
-      booktitle:
-      publisher:
-      editor:
-      school:
-      arxiv: 	
-    - title:     "Modeling earthquakes with off-fault damage using the combined finite discrete element method"
-      author:    K. Okubo, E. Rougier, Z. Lei, H. S. Bhat   
-      year:    2019
-      journal:    submitted to J. Comp. Part. Mech.
-      pdf:   https://arxiv.org/pdf/1911.03468
-      doi:
-      pubnum:     39
-      type:           article
-      booktitle:
-      publisher:
-      editor:
-      school:
-      arxiv: 	arXiv:1911.03468 [physics.geo-ph]
+#    - title:     "Seismic Radiation From An Explosion In Rock Having An Anisotropic Distribution Of Fractures"
+#      author:    M. Rogers-Martinez, C. G. Sammis, H. S. Bhat  
+#      year:    2019
+#      journal:    to be submitted to Bull. Seis. Soc. Am. 
+#      pdf: 
+#      doi:
+#      pubnum:     40
+#      type:           article
+#      booktitle:
+#      publisher:
+#      editor:
+#      school:
+#      arxiv: 	
     - title:     "Interseismic loading of subduction megathrust drives long term uplift in northern Chile"
       author:    R. Jolivet, M. Simons, Z. Duputel, J.-A. Olive, H. S. Bhat, Q. Bletery
-      year:    2019
-      journal:    under review Geophys. Rev. Lett. 
-      pdf: 
-      doi:
+      year:    2020
+      journal:    Geophys. Rev. Lett. 
+      pdf:  https://www.dropbox.com/s/oz3llka0c5ax1up/JolivetSimonsDuputel2020a.pdf?dl=0
+      doi:  10.1029/2019GL085377
       pubnum:     38
       type:           article
       booktitle:
@@ -40,7 +27,7 @@ publications:
       arxiv: 	
     - title:     "Supershear Tsunamis: Insights from the Mw 7.5 Palu Earthquake"
       author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna, H. Z. Abidin 
-      year:    2019
+      year:    2020
       journal:    under review in Nature Geoscience
       pdf: https://arxiv.org/pdf/1910.14547
       doi:
@@ -51,10 +38,23 @@ publications:
       editor:
       school:
       arxiv: 	arXiv:1910.14547 [physics.geo-ph]
+    - title:     "Modeling earthquakes with off-fault damage using the combined finite discrete element method"
+      author:    K. Okubo, E. Rougier, Z. Lei, H. S. Bhat   
+      year:    2020
+      journal:    to appear in J. Comp. Part. Mech.
+      pdf:   https://arxiv.org/pdf/1911.03468
+      doi:
+      pubnum:     39
+      type:           article
+      booktitle:
+      publisher:
+      editor:
+      school:
+      arxiv: 	arXiv:1911.03468 [physics.geo-ph]
     - title:     "Signature of supershear transition seen in damage and aftershock pattern"
       author:    J. Jara, L. Bruhat, S. Antoine, K. Okubo, M. Y. Thomas, E. Rougier, A. J. Rosakis, C. G. Sammis, Y. Klinger, R. Jolivet, H. S. Bhat
-      year:    2019
-      journal:    under review in Nature Geoscience
+      year:    2020
+      journal:    to be submitted
       pdf: https://arxiv.org/pdf/1909.12672
       doi:
       pubnum:     36
