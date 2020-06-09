@@ -5,9 +5,14 @@ permalink: /
 published: true
 ---
 
+<!-- 
 {% include image.html url="images/BHAT4.jpg" caption="" height="290px" align="left" %}
+ -->
 
 
+<h1 class="animate__animated animate__fadeInLeft animate__delay-0.1s">
+{% include image.html url="images/BHAT4.jpg" caption="" height="290px" align="left" %}
+</h1>
 
 I am a [CNRS] Research Scientist working at the [Laboratoire de Géologie] [LG] in [Ecole Normale Supérieure] [ENS].
 
