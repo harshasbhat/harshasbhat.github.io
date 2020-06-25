@@ -1,56 +1,4 @@
 publications:
-#    - title:     "Seismic Radiation From An Explosion In Rock Having An Anisotropic Distribution Of Fractures"
-#      author:    M. Rogers-Martinez, C. G. Sammis, H. S. Bhat  
-#      year:    2019
-#      journal:    to be submitted to Bull. Seis. Soc. Am. 
-#      pdf: 
-#      doi:
-#      pubnum:     40
-#      type:           article
-#      booktitle:
-#      publisher:
-#      editor:
-#      school:
-#      arxiv: 	
-    - title:     "Interseismic loading of subduction megathrust drives long term uplift in northern Chile"
-      author:    R. Jolivet, M. Simons, Z. Duputel, J.-A. Olive, H. S. Bhat, Q. Bletery
-      year:    2020
-      journal:    Geophys. Rev. Lett. 
-      pdf:  https://www.dropbox.com/s/oz3llka0c5ax1up/JolivetSimonsDuputel2020a.pdf?dl=0
-      doi:  10.1029/2019GL085377
-      pubnum:     38
-      type:           article
-      booktitle:
-      publisher:
-      editor:
-      school:
-      arxiv: 	
-    - title:     "Supershear Tsunamis: Insights from the Mw 7.5 Palu Earthquake"
-      author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna, H. Z. Abidin 
-      year:    2020
-      journal:    under review in Nature Geoscience
-      pdf: https://arxiv.org/pdf/1910.14547.pdf
-      doi:
-      pubnum:     37
-      type:           article
-      booktitle:
-      publisher:
-      editor:
-      school:
-      arxiv: 	arXiv:1910.14547 [physics.geo-ph]
-    - title:     "Modeling earthquakes with off-fault damage using the combined finite discrete element method"
-      author:    K. Okubo, E. Rougier, Z. Lei, H. S. Bhat   
-      year:    2020
-      journal:    to appear in J. Comp. Part. Mech.
-      pdf:   https://arxiv.org/pdf/1911.03468
-      doi:
-      pubnum:     39
-      type:           article
-      booktitle:
-      publisher:
-      editor:
-      school:
-      arxiv: 	arXiv:1911.03468 [physics.geo-ph]
     - title:     "Signature of supershear transition seen in damage and aftershock pattern"
       author:    J. Jara, L. Bruhat, S. Antoine, K. Okubo, M. Y. Thomas, E. Rougier, A. J. Rosakis, C. G. Sammis, Y. Klinger, R. Jolivet, H. S. Bhat
       year:    2020
@@ -64,11 +12,50 @@ publications:
       editor:
       school:
       arxiv: 	arXiv:1909.12672 [physics.geo-ph]
+    - title:     "Supershear Tsunamis: Insights from the Mw 7.5 Palu Earthquake"
+      author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna, H. Z. Abidin 
+      year:    2020
+      journal:    under review in Nature Geoscience
+      pdf: https://arxiv.org/pdf/1910.14547.pdf
+      doi:
+      pubnum:     37
+      type:           article
+      booktitle:
+      publisher:
+      editor:
+      school:
+      arxiv: 	arXiv:1910.14547 [physics.geo-ph]
+    - title:     "Interseismic loading of subduction megathrust drives long term uplift in northern Chile"
+      author:    R. Jolivet, M. Simons, Z. Duputel, J.-A. Olive, H. S. Bhat, Q. Bletery
+      year:    2020
+      journal:    Geophys. Rev. Lett. 
+      pdf:  https://www.dropbox.com/s/oz3llka0c5ax1up/JolivetSimonsDuputel2020a.pdf?dl=1
+      doi:  10.1029/2019GL085377
+      pubnum:     38
+      type:           article
+      booktitle:
+      publisher:
+      editor:
+      school:
+      arxiv: 	
+    - title:     "Modeling earthquakes with off-fault damage using the combined finite discrete element method"
+      author:    K. Okubo, E. Rougier, Z. Lei, H. S. Bhat   
+      year:    2020
+      journal:   J. Comp. Part. Mech.
+      pdf:   https://www.dropbox.com/s/6wirqsbq2ucvw4n/OkuboRougierLei2020a.pdf?dl=1
+      doi:   10.1007/s40571-020-00335-4
+      pubnum:     39
+      type:           article
+      booktitle:
+      publisher:
+      editor:
+      school:
+      arxiv: 	arXiv:1911.03468 [physics.geo-ph]
     - title:     "Dynamics, radiation and overall energy budget of earthquake rupture with coseismic off-fault damage"
       author:    K. Okubo, H. S. Bhat, E. Rougier, S. Marty, A. Schubnel, Z. Lei, E. E. Knight and Y. Klinger
       year:    2019
       journal:   J. Geophys. Res.
-      pdf: https://www.dropbox.com/s/vevgoaji0h192pi/OkuboBhatRougier2019a.pdf?dl=0
+      pdf: https://www.dropbox.com/s/vevgoaji0h192pi/OkuboBhatRougier2019a.pdf?dl=1
       doi: 10. 1029/2019JB017304
       pubnum:     35
       type:           article
@@ -81,7 +68,7 @@ publications:
       author:    S. Marty, F. X. Passelègue, J. Aubry, A. Schubnel, H. S. Bhat and R. Madariaga
       year:    2019
       journal:    Geophys. Res. Lett.
-      pdf:    https://www.dropbox.com/s/nbrjd9c6i2fcb03/MartyPassel%C3%A8gueAubry2019a.pdf?dl=0
+      pdf:    https://www.dropbox.com/s/nbrjd9c6i2fcb03/MartyPassel%C3%A8gueAubry2019a.pdf?dl=1
       doi:    	10.1029/2018GL080519
       pubnum:     34
       type:           article
@@ -94,7 +81,7 @@ publications:
       author:    J. Aubry, F. X. Passelègue, D. Deldicque, F. Girault, S. Marty, A. Lahfid, H. S. Bhat, J. Escartin and A. Schubnel
       year:    2018
       journal:    Geophys. Res. Lett.
-      pdf:     https://www.dropbox.com/s/1zea3frruippi25/AubryPassel%C3%A8gueDeldicque2018a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/1zea3frruippi25/AubryPassel%C3%A8gueDeldicque2018a.pdf?dl=1
       doi:     10.1029/2018GL079263
       pubnum:     32
       type:           article
@@ -106,7 +93,7 @@ publications:
       author:    Y. Klinger, K. Okubo, A. Vallage, J. Champenois, A. Delorme, E. Rougier, Z. Lei, E. E. Knight, A. Munjiza, S. Baize, R. Langridge and H. S. Bhat
       year:    2018
       journal:    Geophys. Res. Lett.
-      pdf:     https://www.dropbox.com/s/0mibog9x6gujat5/KlingerOkuboVallage2018a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/0mibog9x6gujat5/KlingerOkuboVallage2018a.pdf?dl=1
       doi:     10.1029/2018GL078842
       pubnum:     31
       type:           article
@@ -118,7 +105,7 @@ publications:
       author:    V. M. Cruz-Atienza, C. D. Villafuerte and H. S. Bhat
       year:    2018
       journal:    Nat. Commun.
-      pdf:     https://www.dropbox.com/s/2e2fem1ic69de85/Cruz-AtienzaVillafuerteBhat2018a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/2e2fem1ic69de85/Cruz-AtienzaVillafuerteBhat2018a.pdf?dl=1
       doi:     10.1038/s41467-018-05150-3
       pubnum:     30
       type:           article
@@ -130,7 +117,7 @@ publications:
       author:    M. Y. Thomas and H. S. Bhat
       year:    2018
       journal:    Geophys. J. Int.
-      pdf:     https://www.dropbox.com/s/bugecrldtjdvtlb/ThomasBhat2018a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/bugecrldtjdvtlb/ThomasBhat2018a.pdf?dl=1
       doi:     https://doi.org/10.1093/gji/ggy129
       pubnum:     29
       type:           article
@@ -142,7 +129,7 @@ publications:
       author:    P. Romanet, H. S. Bhat, R. Jolivet and R. Madariaga
       year:    2018
       journal:    Geophys. Res. Lett.
-      pdf:     https://www.dropbox.com/s/txwwre30xgpthoa/RomanetBhatJolivet2018a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/txwwre30xgpthoa/RomanetBhatJolivet2018a.pdf?dl=1
       doi:     10.1029/2018GL077579
       pubnum:     28
       type:           article
@@ -154,7 +141,7 @@ publications:
       author:    V. Gabuchian, A. J. Rosakis, H. S. Bhat, R. Madariaga and H. Kanamori
       year:    2017
       journal:    Nature
-      pdf:     https://www.dropbox.com/s/163b7zszzf3h57l/GabuchianRosakisBhat2017a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/163b7zszzf3h57l/GabuchianRosakisBhat2017a.pdf?dl=1
       doi:     10.1038/nature22045
       pubnum:     27
       type:           article
@@ -166,7 +153,7 @@ publications:
       author:    M. Y. Thomas, H. S. Bhat and Y. Klinger
       year:    2017
       journal:
-      pdf:     https://www.dropbox.com/s/1q10pjrxcrhruzx/ThomasBhatKlinger2017a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/1q10pjrxcrhruzx/ThomasBhatKlinger2017a.pdf?dl=1
       doi:     10.1002/9781119156895.ch14
       pubnum:     26
       type:           incollection
@@ -178,7 +165,7 @@ publications:
       author:    F. X. Passelègue, S. Latour, A. Schubnel, S. Nielsen, H. S. Bhat and R. Madariaga
       year:    2017
       journal:
-      pdf:     https://www.dropbox.com/s/i45q6s360x15d1p/Passel%C3%A8gueLatourSchubnel2017a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/i45q6s360x15d1p/Passel%C3%A8gueLatourSchubnel2017a.pdf?dl=1
       doi:     10.1002/9781119156895.ch12
       pubnum:     25
       type:           incollection
@@ -190,7 +177,7 @@ publications:
       author:    T. Perol and H. S. Bhat
       year:    2016
       journal:    Pure Appl. Geophys.
-      pdf:     https://www.dropbox.com/s/0kfikq3ier9s7vw/PerolBhat2016a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/0kfikq3ier9s7vw/PerolBhat2016a.pdf?dl=1
       doi:     10.1007/s00024-016-1354-4
       pubnum:     24
       type:           article
@@ -202,7 +189,7 @@ publications:
       author:    F. X. Passelègue, A. Schubnel, S. Nielsen, H. S. Bhat, D. Deldicque and R. Madariaga
       year:    2016
       journal:    J. Geophys. Res.
-      pdf:     https://www.dropbox.com/s/q1ro5zzv5cup7a7/Passel%C3%A8gueSchubnelNielsen2016a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/q1ro5zzv5cup7a7/Passel%C3%A8gueSchubnelNielsen2016a.pdf?dl=1
       doi:     10.1002/2015JB012694
       pubnum:     23
       type:           article
@@ -214,7 +201,7 @@ publications:
       author:    M. Mello, H. S. Bhat and A. J. Rosakis
       year:    2016
       journal:    J. Mech. Phys. Solids
-      pdf:     https://www.dropbox.com/s/m2qcy709oo6i2wn/MelloBhatRosakis2016a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/m2qcy709oo6i2wn/MelloBhatRosakis2016a.pdf?dl=1
       doi:     10.1016/j.jmps.2016.02.031
       pubnum:     22
       type:           article
@@ -226,7 +213,7 @@ publications:
       author:    A. Vallage, Y. Klinger, R. Grandin, H. S. Bhat and M. Pierrot-Deseilligny
       year:    2015
       journal:    Geology
-      pdf:     https://www.dropbox.com/s/6cu3cqrbsomxopl/VallageKlingerGrandin2015a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/6cu3cqrbsomxopl/VallageKlingerGrandin2015a.pdf?dl=1
       doi:     10.1130/G37290.1
       pubnum:     21
       type:           article
@@ -238,7 +225,7 @@ publications:
       author:    W. B. Frank, N. M. Shapiro, A. L. Husker, V. Kostoglodov, H. S. Bhat and M. Campillo
       year:    2015
       journal:    Earth Planet. Sc. Lett.
-      pdf:     https://www.dropbox.com/s/tfwxg7azv6sh0mo/FrankShapiroHusker2015a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/tfwxg7azv6sh0mo/FrankShapiroHusker2015a.pdf?dl=1
       doi:     10.1016/j.epsl.2014.12.051
       pubnum:     20
       type:           article
@@ -250,7 +237,7 @@ publications:
       author:    H. Siriki, H. S. Bhat, X. Lu and S. Krishnan
       year:    2015
       journal:    Bull. Seism. Soc. Am.
-      pdf:     https://www.dropbox.com/s/phy3zz83rqtuvn4/SirikiBhatLu2015b.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/phy3zz83rqtuvn4/SirikiBhatLu2015b.pdf?dl=1
       doi:     10.1785/0120140110
       pubnum:     19
       type:           article
@@ -262,7 +249,7 @@ publications:
       author:    M. Mello, H. S. Bhat, A. J. Rosakis and H. Kanamori
       year:    2014
       journal:    Earth Planet. Sc. Lett.
-      pdf:     https://www.dropbox.com/s/97zmh8bfkzpe0dw/MelloBhatRosakis2014a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/97zmh8bfkzpe0dw/MelloBhatRosakis2014a.pdf?dl=1
       doi:     10.1016/j.epsl.2013.11.030
       pubnum:     18
       type:           article
@@ -274,7 +261,7 @@ publications:
       author:    F. X. Passelègue, A. Schubnel, S. Nielsen, H. S. Bhat and R. Madariaga
       year:    2013
       journal:    Science
-      pdf:     https://www.dropbox.com/s/1rgw99lbgcaro35/Passel%C3%A8gueSchubnelNielsen2013a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/1rgw99lbgcaro35/Passel%C3%A8gueSchubnelNielsen2013a.pdf?dl=1
       doi:     10.1126/science.1235637
       pubnum:     17
       type:           article
@@ -286,7 +273,7 @@ publications:
       author:    H. S. Bhat, A. J. Rosakis and C. G. Sammis
       year:    2012
       journal:    J. Appl. Mech.
-      pdf:     https://www.dropbox.com/s/cprsauuo5awr2hv/BhatRosakisSammis2012a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/cprsauuo5awr2hv/BhatRosakisSammis2012a.pdf?dl=1
       doi:     10.1115/1.4005897
       pubnum:     16
       type:           article
@@ -298,7 +285,7 @@ publications:
       author:    H. S. Bhat, C. G. Sammis and A. J. Rosakis
       year:    2011
       journal:    Pure Appl. Geophys.
-      pdf:     https://www.dropbox.com/s/rb0a4t0eb5mulr5/BhatSammisRosakis2011a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/rb0a4t0eb5mulr5/BhatSammisRosakis2011a.pdf?dl=1
       doi:     10.1007/s00024-011-0271-9
       pubnum:     15
       type:           article
@@ -310,7 +297,7 @@ publications:
       author:    H. S. Bhat, R. L. Biegel, A. J. Rosakis and C. G. Sammis
       year:    2010
       journal:    Tectonophysics
-      pdf:     https://www.dropbox.com/s/fudsuo5r08379jr/BhatBiegelRosakis2010a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/fudsuo5r08379jr/BhatBiegelRosakis2010a.pdf?dl=1
       doi:     10.1016/j.tecto.2010.03.016
       pubnum:     14
       type:           article
@@ -322,7 +309,7 @@ publications:
       author:    R. L. Biegel, H. S. Bhat, C. G. Sammis and A. J. Rosakis
       year:    2010
       journal:    Tectonophysics
-      pdf:     https://www.dropbox.com/s/gr4tcnqlrv0q7z7/BiegelBhatSammis2010a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/gr4tcnqlrv0q7z7/BiegelBhatSammis2010a.pdf?dl=1
       doi:     10.1016/j.tecto.2010.03.020
       pubnum:     13
       type:           article
@@ -334,7 +321,7 @@ publications:
       author:    M. Mello, H. S. Bhat, A. J. Rosakis and H. Kanamori
       year:    2010
       journal:    Tectonophysics
-      pdf:     https://www.dropbox.com/s/p5x8rf7nc92w21f/MelloBhatRosakis2010a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/p5x8rf7nc92w21f/MelloBhatRosakis2010a.pdf?dl=1
       doi:     10.1016/j.tecto.2010.07.003
       pubnum:     11
       type:           article
@@ -346,7 +333,7 @@ publications:
       author:    E. L. Templeton, H. S. Bhat, R. Dmowska and J. R. Rice
       year:    2010
       journal:    Bull. Seism. Soc. Am.
-      pdf:     https://www.dropbox.com/s/jc0jefik0xufdh1/TempletonBhatDmowska2010a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/jc0jefik0xufdh1/TempletonBhatDmowska2010a.pdf?dl=1
       doi:     10.1785/012009012110.1785/0120090121
       pubnum:     10
       type:           article
@@ -358,7 +345,7 @@ publications:
       author:    R. A. Harris, M. Barall, R. J. Archuleta, E. M. Dunham, B. Aagaard, J.-P. Ampuero, H. S. Bhat, V. Cruz-Atienza, L. Dalguer, P. Dawson, S. M. Day, B. Duan, G. Ely, Y. Kaneko, Y. Kase, N. Lapusta, Y. Liu, S. Ma, D. D. Oglesby, K. B. Olsen, A. Pitarka, S. Song and E. L. Templeton
       year:    2009
       journal:    Seismol. Res. Lett.
-      pdf:     https://www.dropbox.com/s/7emu09lkmeyjv1o/HarrisBarallArchuleta2009a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/7emu09lkmeyjv1o/HarrisBarallArchuleta2009a.pdf?dl=1
       doi:     10.1785/gssrl.80.1.119
       pubnum:     9
       type:           article
@@ -370,7 +357,7 @@ publications:
       author:    C. G. Sammis, A. J. Rosakis and H. S. Bhat
       year:    2009
       journal:    Pure Appl. Geophys.
-      pdf:     https://www.dropbox.com/s/3rb59tlzgc7k5j0/SammisRosakisBhat2009a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/3rb59tlzgc7k5j0/SammisRosakisBhat2009a.pdf?dl=1
       doi:     10.1007/s00024-009-0512-3
       pubnum:     8
       type:           article
@@ -382,7 +369,7 @@ publications:
       author:    E. L. Templeton, A. Baudet, H. S. Bhat, R. Dmowska, J. R. Rice, A. J. Rosakis and C. E. Rousseau
       year:    2009
       journal:    J. Geophys. Res.
-      pdf:     https://www.dropbox.com/s/e544q34vwwc48wd/TempletonBaudetBhat2009a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/e544q34vwwc48wd/TempletonBaudetBhat2009a.pdf?dl=1
       doi:     10.1029/2008JB006174
       pubnum:     7
       type:           article
@@ -394,7 +381,7 @@ publications:
       author:    E. M. Dunham and H. S. Bhat
       year:    2008
       journal:    J. Geophys. Res.
-      pdf:    https://www.dropbox.com/s/mxi8ll79krl48k4/DunhamBhat2008a.pdf?dl=0
+      pdf:    https://www.dropbox.com/s/mxi8ll79krl48k4/DunhamBhat2008a.pdf?dl=1
       doi:     10.1029/2007JB005182
       pubnum:     6
       type:           article
@@ -406,7 +393,7 @@ publications:
       author:    H. S. Bhat, R. Dmowska, G. C. P. King, Y. Klinger and J. R. Rice
       year:    2007
       journal:    J. Geophys. Res.
-      pdf:     https://www.dropbox.com/s/avmfwjcuho7ke61/BhatDmowskaKing2007a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/avmfwjcuho7ke61/BhatDmowskaKing2007a.pdf?dl=1
       doi:     10.1029/2006JB004425
       pubnum:     5
       type:           article
@@ -418,7 +405,7 @@ publications:
       author:    H. S. Bhat, M. Olives, R. Dmowska and J. R. Rice
       year:    2007
       journal:    J. Geophys. Res.
-      pdf:     https://www.dropbox.com/s/v4fbahsd0xbm87m/BhatOlivesDmowska2007a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/v4fbahsd0xbm87m/BhatOlivesDmowska2007a.pdf?dl=1
       doi:     10.1029/2007JB005027
       pubnum:     4
       type:           article
@@ -430,7 +417,7 @@ publications:
       author:    H. S. Bhat
       year:    2007
       journal:
-      pdf:     https://www.dropbox.com/s/065olp4sm5q4x8u/Bhat2007a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/065olp4sm5q4x8u/Bhat2007a.pdf?dl=1
       doi:
       pubnum:     3
       type:           phdthesis
@@ -442,7 +429,7 @@ publications:
       author:    S. Fliss, H. S. Bhat, R. Dmowska and J. R. Rice
       year:    2005
       journal:    J. Geophys. Res.
-      pdf:     https://www.dropbox.com/s/5i4q66g04mj0bxm/FlissBhatDmowska2005a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/5i4q66g04mj0bxm/FlissBhatDmowska2005a.pdf?dl=1
       doi:     10.1029/2004JB003368
       pubnum:     2
       type:           article
@@ -454,7 +441,7 @@ publications:
       author:    H. S. Bhat, R. Dmowska, J. R. Rice and N. Kame
       year:    2004
       journal:    Bull. Seism. Soc. Am.
-      pdf:     https://www.dropbox.com/s/03agirigo7ve9rg/BhatDmowskaRice2004a.pdf?dl=0
+      pdf:     https://www.dropbox.com/s/03agirigo7ve9rg/BhatDmowskaRice2004a.pdf?dl=1
       doi:     10.1785/0120040601
       pubnum:     1
       type:           article
