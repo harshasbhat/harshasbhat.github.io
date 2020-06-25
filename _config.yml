@@ -3,7 +3,6 @@ description: Harsha S. Bhat's webpage
 sourcecode: https://github.com/gchauras/www
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md"]
-plugins: ['jekyll/scholar']
 
 url: ""    # the base hostname & protocol for your site
 baseurl: ""                  # the subpath of your site, e.g. /blog
