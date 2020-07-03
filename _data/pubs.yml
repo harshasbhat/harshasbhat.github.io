@@ -1,4 +1,17 @@
 publications:
+    - title:     "Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle"
+      author:    L. Jeandet Ribes, N. Cubas, H. S. Bhat, P. Steer
+      year:    2020
+      journal:    submitted to Geophys. Res. Lett.
+      pdf: 
+      doi:
+      pubnum:     
+      type:           
+      booktitle:
+      publisher:
+      editor:
+      school:
+      arxiv: 	
     - title:     "Signature of supershear transition seen in damage and aftershock pattern"
       author:    J. Jara, L. Bruhat, S. Antoine, K. Okubo, M. Y. Thomas, E. Rougier, A. J. Rosakis, C. G. Sammis, Y. Klinger, R. Jolivet, H. S. Bhat
       year:    2020
@@ -28,7 +41,7 @@ publications:
     - title:     "Interseismic loading of subduction megathrust drives long term uplift in northern Chile"
       author:    R. Jolivet, M. Simons, Z. Duputel, J.-A. Olive, H. S. Bhat, Q. Bletery
       year:    2020
-      journal:    Geophys. Rev. Lett. 
+      journal:    Geophys. Res. Lett. 
       pdf:  https://www.dropbox.com/s/oz3llka0c5ax1up/JolivetSimonsDuputel2020a.pdf?dl=1
       doi:  10.1029/2019GL085377
       pubnum:     38
