@@ -1,0 +1,134 @@
+%!TEX root = CurriculumVitae.tex
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{epstopdf}
+\usepackage{datetime}
+\usepackage{enumerate}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\newtimeformat{dottime}{\twodigit{\THEHOUR}:\twodigit{\THEMINUTE}}
+\settimeformat{ampmtime}
+\usepackage[margin=1pt,font=small,labelfont=bf]{caption}
+\usepackage{fancyhdr}
+\usepackage{xhfill}
+\usepackage[inline]{enumitem}
+\usepackage{soul}
+\usepackage{scrextend}
+\usepackage{lastpage}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{etoolbox}
+\usepackage{tikz}
+\usepackage{sectsty}
+\sectionfont{\normalsize}
+\def\thesection{Section \alph{section}: \hspace{-12pt}}
+
+\newrobustcmd*{\mytriangle}[2]{\tikz{\filldraw[draw=#1,fill=#1,rotate=#2] (0,0) --
+(0.2cm,0) -- (0.1cm,0.2cm);}}
+
+\newrobustcmd*{\mytriangleb}{\tikz{\filldraw[draw=Black,fill=Black,rotate=-90] (0,0) --
+(0.2cm,0) -- (0.1cm,0.2cm);}~}
+
+\newrobustcmd*{\mytriangleg}{\tikz{\filldraw[draw=OliveGreen,fill=ForestGreen,rotate=-90] (0,0) --
+(0.2cm,0) -- (0.1cm,0.2cm);}~}
+
+\newcommand{\mycircle}[2][OrangeRed,fill=OrangeRed]{\tikz[baseline=-0.5ex]\draw[#1,fill=#1,radius=#2] (0,0) circle ;}%
+
+\newcommand{\raisedrule}[2][1em]{\leaders\hbox{\rule[#1]{1pt}{#2}}\hfill}
+
+\setlength{\parindent}{0pt}
+
+%\usepackage{hyperref}
+%\hypersetup{colorlinks=false,citecolor=cyan,linkcolor=black,linktocpage=true}
+        
+\renewcommand{\refname}{}
+\newcounter{mycounter}  
+\newenvironment{enumeratenew}
+ {\begin{list}{~}{\usecounter{mycounter} \labelsep=0em \labelwidth=5pt \leftmargin=0pt \itemindent=5pt}}
+ {\end{list}}
+
+\definecolor{MyGray}{rgb}{0.95,0.95,0.975}
+
+\definecolor{mycolor}{rgb}{0.02, 0.435, 0.698}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\newcommand{\subtitle}[1]{
+%{\mytriangle{OrangeRed}{-90}~\textbf{\textcolor{NavyBlue}{#1}}}~\mytriangle{OrangeRed}{90}\xrfill[2pt]{1.5pt}[OrangeRed]\\%{\color{OrangeRed}\hrulefill}\\ \mytriangle{BrickRed}{-90}~
+{\textbf{\textcolor{BrickRed}{{#1}}}}\\[-5pt]\noindent
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\newcommand{\subtitlea}[2]{
+%{\mytriangle{OrangeRed}{-90}~\textbf{\textcolor{NavyBlue}{#1}}}~\mytriangle{OrangeRed}{90}\xrfill[2pt]{1.5pt}[OrangeRed]\\%{\color{OrangeRed}\hrulefill}\\ \mytriangle{BrickRed}{-90}~
+{\textbf{\textcolor{BrickRed}{{#1}}}}\\[-5pt]
+\begin{addmargin}[1em]{0em}
+#2
+\end{addmargin}
+\vspace{10pt}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{tightcenter}{%
+  \setlength\topsep{0pt}
+  \setlength\parskip{0pt}
+  \begin{center}
+}{%
+  \end{center}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\newenvironment{list3}{
+\vspace{-0.4in}
+  \begin{enumerate}{%
+      \setlength{\itemsep}{-0.2in}
+      \setlength{\parsep}{-0.2in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{-0.8in}}}{\end{enumerate}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%       
+
+\usepackage[firstinits=true,backend=bibtex,style=authoryear,sorting=none,maxbibnames=99,maxnames=15]{biblatex}
+ 
+\renewbibmacro{in:}{}
+
+\DeclareFieldFormat{journaltitle}{\textit{#1}}
+\DeclareFieldFormat[article,book,proceedings,inbook,incollection,inproceedings,patent,thesis,unpublished]{title}{\textit{\textcolor{Black}{#1}}}
+\DeclareFieldFormat
+  [article,inbook,incollection,inproceedings,patent,thesis,unpublished]
+  {title}{\mkbibquote{\textcolor{Black}{\bf \textit{#1}}\isdot}}
+\AtEveryBibitem{
+%\clearfield{year}
+\clearfield{volume}
+\clearfield{number}
+\clearfield{pages}
+}
+\DeclareFieldFormat{labelnumberwidth}{~~~~~~\mytriangle{Black}{-90}}
+\defbibenvironment{bibliography}
+  {\list
+     {\printtext[labelnumberwidth]{%
+        \printfield{prefixnumber}%
+        \printfield{labelnumber}}}
+     {\setlength{\labelwidth}{\labelnumberwidth}%
+      \setlength{\leftmargin}{\labelwidth}%
+      \setlength{\labelsep}{2pt}%
+      \addtolength{\leftmargin}{\labelsep}% 
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength\bibhang{10pt}
+      \setlength{\parsep}{\bibparsep}}%
+      \renewcommand*{\makelabel}[1]{\hss##1}}
+  {\endlist}
+  {\item}
+
+\addbibresource{~/Dropbox/Public/CollectedPapers/MasterBibliography.bib}
+
+\fancypagestyle{rest}
+{      
+\fancyhead[L]{}
+\fancyhead[R]{}
+\fancyhead[C]{}
+\fancyfoot[C]{[\thepage]}
+\fancyfoot[R]{\tiny \color{Gray}Last Modified \today}
+}
+\setlength{\footskip}{0.5cm}
+\setlength{\voffset}{0.0cm} 
+\setlength{\headheight}{-6pt} 
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+
+   
