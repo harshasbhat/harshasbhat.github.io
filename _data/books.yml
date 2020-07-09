@@ -1,26 +1,27 @@
 publications:
     - title:     "Fault Zone Dynamic Processes : Evolution of Fault Properties During Seismic Rupture, Geophysical Monograph 227"
-      author:     
+      author:    
       year:    2017
       journal:    
-      pdf:     https://www.dropbox.com/s/ldibcatyqlacwuq/ThomasMitchellBhat2017a.pdf?dl=0
-      doi:     10.1002/9781119156895
-      pubnum:     
-      type:           proceedings
-      booktitle:           
-      publisher:     American Geophysical Union (AGU)
-      editor:          Thomas, M. Y., Mitchell, T. M., and Bhat, H. S.
-      school:      
+      pdf: 		ThomasMitchellBhat2017a.pdf
+      doi:		10.1002/9781119156895
+      pubnum:     	
+      type:         proceedings  
+      booktitle:	""
+      publisher:	American Geophysical Union (AGU)
+      editor:   M. Y. Thomas, T. M. Mitchell, & H. S. Bhat
+      school:	
+      arxiv: 	
     - title:     "The mechanics of faulting: From laboratory to earthquakes"
-      author:     
+      author:    
       year:    2012
       journal:    
-      pdf:     https://www.dropbox.com/s/w6k60t927f79bfn/BizzarriBhat2012a.pdf?dl=0
-      doi:     
-      pubnum:     16
-      type:           proceedings
-      booktitle:           
-      publisher:     Research Signpost
-      editor:          Bizzarri, A. and Bhat, H. S.
-      school:      
-     
+      pdf: 		BizzarriBhat2012a.pdf
+      doi:		
+      pubnum:     	
+      type:         proceedings  
+      booktitle:	""
+      publisher:	Research Signpost
+      editor:   A. Bizzarri & H. S. Bhat
+      school:	
+      arxiv: 	

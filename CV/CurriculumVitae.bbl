@@ -1,0 +1,2248 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{thomas2017a}{proceedings}{}
+    \name{editor}{3}{}{%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Marion\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=MTM}{%
+         family={Mitchell},
+         familyi={M\bibinitperiod},
+         given={Thomas\bibnamedelima M.},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={Harsha\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Geophysical Union (AGU)}%
+    }
+    \strng{namehash}{TMYMTMBHS1}
+    \strng{fullhash}{TMYMTMBHS1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1002/9781119156895
+    \endverb
+    \field{title}{Fault Zone Dynamic Processes : Evolution of Fault Properties
+  During Seismic Rupture, Geophysical Monograph 227}
+    \field{year}{2017}
+  \endentry
+
+  \entry{bizzarri2012}{proceedings}{}
+    \name{editor}{2}{}{%
+      {{hash=BA}{%
+         family={Bizzarri},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Research Signpost}%
+    }
+    \strng{namehash}{BABHS1}
+    \strng{fullhash}{BABHS1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{isbn}{978-81-308-0502-3}
+    \field{title}{The mechanics of faulting: From laboratory to earthquakes}
+    \field{year}{2012}
+  \endentry
+
+  \entry{romanet2019}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RP}{%
+         family={Romanet},
+         familyi={R\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={Harsha\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chaillat},
+         familyi={C\bibinitperiod},
+         given={St{\'e}phanie},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Madariaga},
+         familyi={M\bibinitperiod},
+         given={Ra{\`u}l},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RPBHSCSMR1}
+    \strng{fullhash}{RPBHSCSMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{title}{Fast algorithms to model quasi-dynamic earthquake cycles in
+  complex fault networks}
+    \field{journaltitle}{to be subm. J. Geophys. Res.}
+    \field{year}{2019}
+  \endentry
+
+  \entry{jara2019}{article}{}
+    \name{author}{8}{}{%
+      {{hash=JJ}{%
+         family={Jara},
+         familyi={J\bibinitperiod},
+         given={Jorge},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Bruhat},
+         familyi={B\bibinitperiod},
+         given={Lucile},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Antoine},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=OK}{%
+         family={Okubo},
+         familyi={O\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={M.\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Klinger},
+         familyi={K\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jolivet},
+         familyi={J\bibinitperiod},
+         given={Romain},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JJBLASOKTMYKYJRBHS1}
+    \strng{fullhash}{JJBLASOKTMYKYJRBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{title}{Supershear transition signature in aftershock patterns}
+    \field{journaltitle}{to be submitted}
+    \field{year}{2019}
+  \endentry
+
+  \entry{martinez2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=RMM}{%
+         family={Rogers-Martinez},
+         familyi={R\bibinithyphendelim M\bibinitperiod},
+         given={Marshall},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SCG}{%
+         family={Sammis},
+         familyi={S\bibinitperiod},
+         given={Charles\bibnamedelima G.},
+         giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={Harsha\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RMMSCGBHS1}
+    \strng{fullhash}{RMMSCGBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{title}{Seismic Radiation From An Explosion In Rock Having An
+  Anisotropic Distribution Of Fractures}
+    \field{journaltitle}{to be submitted}
+    \field{year}{2019}
+  \endentry
+
+  \entry{thomas2019b}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Marion\bibnamedelima Y},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TMYBHS1}
+    \strng{fullhash}{TMYBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{title}{Combined effects of fault roughness and off-fault damage on
+  earthquake dynamics}
+    \field{journaltitle}{in prep}
+    \field{year}{2019}
+  \endentry
+
+  \entry{jeandet2020}{article}{}
+    \name{author}{4}{}{%
+      {{hash=JRL}{%
+         family={Jeandet\bibnamedelima Ribes},
+         familyi={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Louise},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CN}{%
+         family={Cubas},
+         familyi={C\bibinitperiod},
+         given={Nadaya},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={Harsha\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Steer},
+         familyi={S\bibinitperiod},
+         given={Philippe},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JRLCNBHSSP1}
+    \strng{fullhash}{JRLCNBHSSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{year}
+    \field{title}{Response of a single fault to transient normal stress change,
+  and implications of large erosional events on the seismic cycle}
+    \field{journaltitle}{subm. Geophys. Res. Lett.}
+    \field{year}{2020}
+  \endentry
+
+  \entry{amlani2020}{article}{}
+    \name{author}{9}{}{%
+      {{hash=AF}{%
+         family={Amlani},
+         familyi={A\bibinitperiod},
+         given={Faisal},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={Harsha\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SWJF}{%
+         family={Simons},
+         familyi={S\bibinitperiod},
+         given={Wim J.\bibnamedelima F.},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schubnel},
+         familyi={S\bibinitperiod},
+         given={Alexandre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VC}{%
+         family={Vigny},
+         familyi={V\bibinitperiod},
+         given={Christophe},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RAJ}{%
+         family={Rosakis},
+         familyi={R\bibinitperiod},
+         given={Ares\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Efendi},
+         familyi={E\bibinitperiod},
+         given={Joni},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=EA}{%
+         family={Elbanna},
+         familyi={E\bibinitperiod},
+         given={Ahmed},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AHZ}{%
+         family={Abidin},
+         familyi={A\bibinitperiod},
+         given={Hasanuddin\bibnamedelima Z.},
+         giveni={H\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AFBHSSWJFSAVCRAJEJEAAHZ1}
+    \strng{fullhash}{AFBHSSWJFSAVCRAJEJEAAHZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb arXiv:1910.14547 [physics.geo-ph]
+    \endverb
+    \field{title}{Supershear Tsunamis and insights from the $M_w$ 7.5 Palu
+  Earthquake}
+    \field{journaltitle}{under review in Nat. Geosci.}
+    \field{year}{2020}
+  \endentry
+
+  \entry{jolivet2020}{article}{}
+    \name{author}{6}{}{%
+      {{hash=JR}{%
+         family={Jolivet},
+         familyi={J\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=SM}{%
+         family={Simons},
+         familyi={S\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=DZ}{%
+         family={Duputel},
+         familyi={D\bibinitperiod},
+         given={Z},
+         giveni={Z},
+      }}%
+      {{hash=OJA}{%
+         family={Olive},
+         familyi={O\bibinitperiod},
+         given={J-A},
+         giveni={J\bibinithyphendelim A\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H\bibnamedelima S},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BQ}{%
+         family={Bletery},
+         familyi={B\bibinitperiod},
+         given={Quentin},
+         giveni={Q\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JRSMDZOJABHSBQ1}
+    \strng{fullhash}{JRSMDZOJABHSBQ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1029/2019GL085377
+    \endverb
+    \field{number}{8}
+    \field{pages}{e2019GL085377}
+    \field{title}{Interseismic Loading of Subduction Megathrust Drives
+  Long-Term Uplift in Northern Chile}
+    \field{volume}{47}
+    \field{journaltitle}{Geophys. Res. Lett.}
+    \field{year}{2020}
+  \endentry
+
+  \entry{okubo2020}{article}{}
+    \name{author}{4}{}{%
+      {{hash=OK}{%
+         family={Okubo},
+         familyi={O\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Rougier},
+         familyi={R\bibinitperiod},
+         given={E},
+         giveni={E},
+      }}%
+      {{hash=LZ}{%
+         family={Lei},
+         familyi={L\bibinitperiod},
+         given={Z.},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OKRELZBHS1}
+    \strng{fullhash}{OKRELZBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1007/s40571-020-00335-4
+    \endverb
+    \field{title}{Modeling earthquakes with off-fault damage using the combined
+  finite discrete element method}
+    \field{journaltitle}{J. Comp. Part. Mech.}
+    \field{year}{2020}
+  \endentry
+
+  \entry{okubo2019}{article}{}
+    \name{author}{8}{}{%
+      {{hash=OK}{%
+         family={Okubo},
+         familyi={O\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Rougier},
+         familyi={R\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Marty},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schubnel},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Lei},
+         familyi={L\bibinitperiod},
+         given={Z.},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=KEE}{%
+         family={Knight},
+         familyi={K\bibinitperiod},
+         given={E.\bibnamedelima E.},
+         giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Klinger},
+         familyi={K\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OKBHSREMSSALZKEEKY1}
+    \strng{fullhash}{OKBHSREMSSALZKEEKY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10. 1029/2019JB017304
+    \endverb
+    \field{title}{Dynamics, radiation and overall energy budget of earthquake
+  rupture with coseismic off-fault damage}
+    \field{volume}{124}
+    \field{journaltitle}{J. Geophys. Res.}
+    \field{year}{2019}
+  \endentry
+
+  \entry{marty2019}{article}{}
+    \name{author}{6}{}{%
+      {{hash=MS}{%
+         family={Marty},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PFX}{%
+         family={Passel{\`e}gue},
+         familyi={P\bibinitperiod},
+         given={Fran{\c c}ois\bibnamedelima X.},
+         giveni={F\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Aubry},
+         familyi={A\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schubnel},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={Harsha\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Madariaga},
+         familyi={M\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MSPFXAJSABHSMR1}
+    \strng{fullhash}{MSPFXAJSABHSMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1029/2018GL080519
+    \endverb
+    \field{title}{Origin of high-frequency radiation during laboratory
+  earthquakes}
+    \field{volume}{46}
+    \field{journaltitle}{Geophys. Res. Lett.}
+    \field{year}{2019}
+  \endentry
+
+  \entry{aubry2018}{article}{}
+    \name{author}{9}{}{%
+      {{hash=AJ}{%
+         family={Aubry},
+         familyi={A\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PFX}{%
+         family={Passel{\`e}gue},
+         familyi={P\bibinitperiod},
+         given={Fran{\c c}ois\bibnamedelima X.},
+         giveni={F\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=DD}{%
+         family={Deldicque},
+         familyi={D\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={Girault},
+         familyi={G\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Marty},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Lahfid},
+         familyi={L\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Escartin},
+         familyi={E\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schubnel},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AJPFXDDGFMSLABHSEJSA1}
+    \strng{fullhash}{AJPFXDDGFMSLABHSEJSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1029/2018GL079263
+    \endverb
+    \field{title}{Frictional heating processes and energy budget during
+  laboratory earthquakes}
+    \field{volume}{45}
+    \field{journaltitle}{Geophys. Res. Lett.}
+    \field{year}{2018}
+  \endentry
+
+  \entry{klinger2018}{article}{}
+    \name{author}{13}{}{%
+      {{hash=KY}{%
+         family={Klinger},
+         familyi={K\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=OK}{%
+         family={Okubo},
+         familyi={O\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=VA}{%
+         family={Vallage},
+         familyi={V\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Champenois},
+         familyi={C\bibinitperiod},
+         given={Johann},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Delorme},
+         familyi={D\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Rougier},
+         familyi={R\bibinitperiod},
+         given={Esteban},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Lei},
+         familyi={L\bibinitperiod},
+         given={Zhou},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=KEE}{%
+         family={Knight},
+         familyi={K\bibinitperiod},
+         given={Earl\bibnamedelima E.},
+         giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Munjiza},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Satriano},
+         familyi={S\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Baize},
+         familyi={B\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Langridge},
+         familyi={L\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={Harsha\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KYOKVACJDARELZKEEMASCBSLRBHS1}
+    \strng{fullhash}{KYOKVACJDARELZKEEMASCBSLRBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1029/2018GL078842
+    \endverb
+    \field{title}{Earthquake damage patterns resolve complex rupture processes}
+    \field{journaltitle}{Geophys. Res. Lett.}
+    \field{year}{2018}
+  \endentry
+
+  \entry{cruz2018}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CAVM}{%
+         family={Cruz-Atienza},
+         familyi={C\bibinithyphendelim A\bibinitperiod},
+         given={V.\bibnamedelima M.},
+         giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=VCD}{%
+         family={Villafuerte},
+         familyi={V\bibinitperiod},
+         given={C.\bibnamedelima D.},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CAVMVCDBHS1}
+    \strng{fullhash}{CAVMVCDBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1038/s41467-018-05150-3
+    \endverb
+    \field{number}{1}
+    \field{pages}{2900}
+    \field{title}{Rapid tremor migration and pore-pressure waves in subduction
+  zones}
+    \field{volume}{9}
+    \field{journaltitle}{Nat. Commun.}
+    \field{year}{2018}
+  \endentry
+
+  \entry{thomas2018a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Marion\bibnamedelima Y},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={Harsha\bibnamedelima S},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{TMYBHS2}
+    \strng{fullhash}{TMYBHS2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1093/gji/ggy129
+    \endverb
+    \field{number}{2}
+    \field{pages}{1267\bibrangedash 1280}
+    \field{title}{Dynamic evolution of off-fault medium during an earthquake: a
+  micromechanics based model}
+    \field{volume}{214}
+    \field{journaltitle}{Geophys. J. Int.}
+    \field{year}{2018}
+  \endentry
+
+  \entry{romanet2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RP}{%
+         family={Romanet},
+         familyi={R\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={Jolivet},
+         familyi={J\bibinitperiod},
+         given={Romain},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Madariaga},
+         familyi={M\bibinitperiod},
+         given={Ra{\`u}l},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RPBHSJRMR1}
+    \strng{fullhash}{RPBHSJRMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1029/2018GL077579
+    \endverb
+    \field{title}{Fast and slow earthquakes emerge due to fault geometrical
+  complexity}
+    \field{journaltitle}{Geophys. Res. Lett.}
+    \field{year}{2018}
+  \endentry
+
+  \entry{gabuchian2017}{article}{}
+    \name{author}{5}{}{%
+      {{hash=GV}{%
+         family={Gabuchian},
+         familyi={G\bibinitperiod},
+         given={Vahe},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=RAJ}{%
+         family={Rosakis},
+         familyi={R\bibinitperiod},
+         given={A.\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Madariaga},
+         familyi={M\bibinitperiod},
+         given={Ra{\`u}l},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kanamori},
+         familyi={K\bibinitperiod},
+         given={Hiroo},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \keyw{thrust}
+    \strng{namehash}{GVRAJBHSMRKH1}
+    \strng{fullhash}{GVRAJBHSMRKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1038/nature22045
+    \endverb
+    \field{number}{336--339}
+    \field{title}{Experimental evidence that thrust earthquake ruptures might
+  open faults}
+    \field{volume}{545}
+    \field{journaltitle}{Nature}
+    \field{year}{2017}
+  \endentry
+
+  \entry{thomas2017b}{incollection}{}
+    \name{author}{3}{}{%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={M.\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Klinger},
+         familyi={K\bibinitperiod},
+         given={Yann},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \name{editor}{3}{}{%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={M.\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MTM}{%
+         family={Mitchell},
+         familyi={M\bibinitperiod},
+         given={T.\bibnamedelima M.},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Geophysical Union (AGU)}%
+    }
+    \strng{namehash}{TMYBHSKY1}
+    \strng{fullhash}{TMYBHSKY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{booktitle}{Fault Zone Dynamic Processes : Evolution of Fault
+  Properties During Seismic Rupture, Geophysical Monograph 227}
+    \verb{doi}
+    \verb 10.1002/9781119156895.ch14
+    \endverb
+    \field{pages}{255\bibrangedash 280}
+    \field{title}{Effect of Brittle off-fault Damage on Earthquake Rupture
+  Dynamics}
+    \field{year}{2017}
+  \endentry
+
+  \entry{passelegue2017}{incollection}{}
+    \name{author}{6}{}{%
+      {{hash=PFX}{%
+         family={Passel{\`e}gue},
+         familyi={P\bibinitperiod},
+         given={Fran{\c c}ois\bibnamedelima X.},
+         giveni={F\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Latour},
+         familyi={L\bibinitperiod},
+         given={Soumaya},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schubnel},
+         familyi={S\bibinitperiod},
+         given={Alexandre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Nielsen},
+         familyi={N\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={Harsha\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Madariaga},
+         familyi={M\bibinitperiod},
+         given={Ra{\`u}l},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \name{editor}{3}{}{%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={M.\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MTM}{%
+         family={Mitchell},
+         familyi={M\bibinitperiod},
+         given={T.\bibnamedelima M.},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Geophysical Union (AGU)}%
+    }
+    \strng{namehash}{PFXLSSANSBHSMR1}
+    \strng{fullhash}{PFXLSSANSBHSMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{booktitle}{Fault Zone Dynamic Processes : Evolution of Fault
+  Properties During Seismic Rupture, Geophysical Monograph 227}
+    \field{chapter}{12}
+    \verb{doi}
+    \verb 10.1002/9781119156895.ch12
+    \endverb
+    \field{pages}{229\bibrangedash 242}
+    \field{title}{Precursory Processes during Laboratory Earthquakes}
+    \field{year}{2017}
+  \endentry
+
+  \entry{perol2016}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PT}{%
+         family={Perol},
+         familyi={P\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PTBHS1}
+    \strng{fullhash}{PTBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1007/s00024-016-1354-4
+    \endverb
+    \field{pages}{1\bibrangedash 12}
+    \field{title}{Micromechanics based permeability evolution in brittle
+  materials at high strain rates}
+    \field{journaltitle}{Pure Appl. Geophys.}
+    \field{year}{2016}
+  \endentry
+
+  \entry{passelegue2016b}{article}{}
+    \name{author}{6}{}{%
+      {{hash=PFX}{%
+         family={Passel{\`e}gue},
+         familyi={P\bibinitperiod},
+         given={Fran{\c c}ois\bibnamedelima X.},
+         giveni={F\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schubnel},
+         familyi={S\bibinitperiod},
+         given={Alexandre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Nielsen},
+         familyi={N\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={Harsha\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DD}{%
+         family={Deldicque},
+         familyi={D\bibinitperiod},
+         given={Damien},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Madariaga},
+         familyi={M\bibinitperiod},
+         given={Ra{\`u}l},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PFXSANSBHSDDMR1}
+    \strng{fullhash}{PFXSANSBHSDDMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1002/2015JB012694
+    \endverb
+    \field{title}{Dynamic rupture processes inferred from laboratory
+  microearthquakes}
+    \field{volume}{121}
+    \field{journaltitle}{J. Geophys. Res.}
+    \field{year}{2016}
+  \endentry
+
+  \entry{mello2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MM}{%
+         family={Mello},
+         familyi={M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RAJ}{%
+         family={Rosakis},
+         familyi={R\bibinitperiod},
+         given={A.\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MMBHSRAJ1}
+    \strng{fullhash}{MMBHSRAJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1016/j.jmps.2016.02.031
+    \endverb
+    \field{pages}{153\bibrangedash 181}
+    \field{title}{Spatiotemporal properties of sub-Rayleigh and supershear
+  rupture velocity fields : Theory and Experiments}
+    \field{volume}{93}
+    \field{journaltitle}{J. Mech. Phys. Solids}
+    \field{year}{2016}
+  \endentry
+
+  \entry{vallage2015}{article}{}
+    \name{author}{5}{}{%
+      {{hash=VA}{%
+         family={Vallage},
+         familyi={V\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=KY}{%
+         family={Klinger},
+         familyi={K\bibinitperiod},
+         given={Y},
+         giveni={Y},
+      }}%
+      {{hash=GR}{%
+         family={Grandin},
+         familyi={G\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=PDM}{%
+         family={Pierrot-Deseilligny},
+         familyi={P\bibinithyphendelim D\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Geological Society of America}%
+    }
+    \strng{namehash}{VAKYGRBHSPDM1}
+    \strng{fullhash}{VAKYGRBHSPDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1130/G37290.1
+    \endverb
+    \field{number}{12}
+    \field{pages}{1079\bibrangedash 1082}
+    \field{title}{{Inelastic surface deformation during the 2013 Mw 7.7
+  {Balochistan, Pakistan}, earthquake}}
+    \field{volume}{43}
+    \field{journaltitle}{Geology}
+    \field{year}{2015}
+  \endentry
+
+  \entry{frank2015}{article}{}
+    \name{author}{6}{}{%
+      {{hash=FWB}{%
+         family={Frank},
+         familyi={F\bibinitperiod},
+         given={W\bibnamedelima B},
+         giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=SNM}{%
+         family={Shapiro},
+         familyi={S\bibinitperiod},
+         given={N\bibnamedelima M},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HAL}{%
+         family={Husker},
+         familyi={H\bibinitperiod},
+         given={A\bibnamedelima L},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kostoglodov},
+         familyi={K\bibinitperiod},
+         given={V},
+         giveni={V},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H\bibnamedelima S},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Campillo},
+         familyi={C\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{FWBSNMHALKVBHSCM1}
+    \strng{fullhash}{FWBSNMHALKVBHSCM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1016/j.epsl.2014.12.051
+    \endverb
+    \field{pages}{135\bibrangedash 143}
+    \field{title}{Along-fault pore-pressure evolution during a slow-slip event
+  in Guerrero, Mexico}
+    \field{volume}{413}
+    \field{journaltitle}{Earth Planet. Sc. Lett.}
+    \field{year}{2015}
+  \endentry
+
+  \entry{siriki2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SH}{%
+         family={Siriki},
+         familyi={S\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Krishnan},
+         familyi={K\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SHBHSLXKS1}
+    \strng{fullhash}{SHBHSLXKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1785/0120140110
+    \endverb
+    \field{number}{4}
+    \field{pages}{2250\bibrangedash 2273}
+    \field{title}{A Laboratory Earthquake-Based Stochastic Seismic Source
+  Generation Algorithm for Strike-Slip Faults}
+    \field{volume}{105}
+    \field{journaltitle}{Bull. Seism. Soc. Am.}
+    \field{year}{2015}
+  \endentry
+
+  \entry{mello2014}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MM}{%
+         family={Mello},
+         familyi={M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RAJ}{%
+         family={Rosakis},
+         familyi={R\bibinitperiod},
+         given={A.\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kanamori},
+         familyi={K\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MMBHSRAJKH1}
+    \strng{fullhash}{MMBHSRAJKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1016/j.epsl.2013.11.030
+    \endverb
+    \field{pages}{89\bibrangedash 96}
+    \field{title}{Reproducing The Supershear Portion Of The 2002 Denali
+  Earthquake Rupture In Laboratory}
+    \field{volume}{387}
+    \field{journaltitle}{Earth Planet. Sc. Lett.}
+    \field{year}{2014}
+  \endentry
+
+  \entry{passelegue2013}{article}{}
+    \name{author}{5}{}{%
+      {{hash=PFX}{%
+         family={Passel{\`e}gue},
+         familyi={P\bibinitperiod},
+         given={Fran{\c c}ois\bibnamedelima X.},
+         giveni={F\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schubnel},
+         familyi={S\bibinitperiod},
+         given={Alexandre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Nielsen},
+         familyi={N\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={Harsha\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Madariaga},
+         familyi={M\bibinitperiod},
+         given={Ra{\`u}l},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PFXSANSBHSMR1}
+    \strng{fullhash}{PFXSANSBHSMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{year}
+    \field{abstract}{%
+    Supershear earthquake ruptures propagate faster than the shear wave
+  velocity. Although there is evidence that this occurs in nature, it has not
+  been experimentally demonstrated with the use of crustal rocks. We performed
+  stick-slip experiments with Westerly granite under controlled upper-crustal
+  stress conditions. Supershear ruptures systematically occur when the normal
+  stress exceeds 43 megapascals (MPa) with resulting stress drops on the order
+  of 3 to 25 MPa, comparable to the stress drops inferred by seismology for
+  crustal earthquakes. In our experiments, the sub-Rayleigh--to--supershear
+  transition length is a few centimeters at most, suggesting that the rupture
+  of asperities along a fault may propagate locally at supershear velocities.
+  In turn, these sudden accelerations and decelerations could play an important
+  role in the generation of high-frequency radiation and the overall
+  rupture-energy budget.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.1235637
+    \endverb
+    \field{number}{6137}
+    \field{pages}{1208\bibrangedash 1211}
+    \field{title}{From Sub-Rayleigh to Supershear Ruptures During Stick-Slip
+  Experiments on Crustal Rocks}
+    \field{volume}{340}
+    \field{journaltitle}{Science}
+    \field{year}{2013}
+  \endentry
+
+  \entry{bhat2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RAJ}{%
+         family={Rosakis},
+         familyi={R\bibinitperiod},
+         given={A.\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SCG}{%
+         family={Sammis},
+         familyi={S\bibinitperiod},
+         given={C.\bibnamedelima G.},
+         giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BHSRAJSCG1}
+    \strng{fullhash}{BHSRAJSCG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1115/1.4005897
+    \endverb
+    \field{number}{3}
+    \field{title}{A Micromechanics Based Constitutive Model For Brittle Failure
+  at High Strain Rates}
+    \field{volume}{79}
+    \field{journaltitle}{J. Appl. Mech.}
+    \field{year}{2012}
+  \endentry
+
+  \entry{bhat2011a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SCG}{%
+         family={Sammis},
+         familyi={S\bibinitperiod},
+         given={C.\bibnamedelima G.},
+         giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=RAJ}{%
+         family={Rosakis},
+         familyi={R\bibinitperiod},
+         given={A.\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BHSSCGRAJ1}
+    \strng{fullhash}{BHSSCGRAJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1007/s00024-011-0271-9
+    \endverb
+    \field{number}{12}
+    \field{pages}{1\bibrangedash 18}
+    \field{title}{The Micromechanics of Westerley Granite at Large Compressive
+  Loads}
+    \field{volume}{168}
+    \field{journaltitle}{Pure Appl. Geophys.}
+    \field{year}{2011}
+  \endentry
+
+  \entry{bhat2010a}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BRL}{%
+         family={Biegel},
+         familyi={B\bibinitperiod},
+         given={R.\bibnamedelima L.},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=RAJ}{%
+         family={Rosakis},
+         familyi={R\bibinitperiod},
+         given={A.\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SCG}{%
+         family={Sammis},
+         familyi={S\bibinitperiod},
+         given={C.\bibnamedelima G},
+         giveni={C\bibinitperiod\bibinitdelim G},
+      }}%
+    }
+    \strng{namehash}{BHSBRLRAJSCG1}
+    \strng{fullhash}{BHSBRLRAJSCG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1016/j.tecto.2010.03.016
+    \endverb
+    \field{number}{3}
+    \field{pages}{263\bibrangedash 271}
+    \field{title}{The Effect of Asymmetric Damage on Dynamic Shear Rupture
+  Propagation II: With Mismatch in Bulk Elasticity}
+    \field{volume}{493}
+    \field{journaltitle}{Tectonophysics}
+    \field{year}{2010}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{biegel2010}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BRL}{%
+         family={Biegel},
+         familyi={B\bibinitperiod},
+         given={R.\bibnamedelima L.},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SCG}{%
+         family={Sammis},
+         familyi={S\bibinitperiod},
+         given={C.\bibnamedelima G.},
+         giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=RAJ}{%
+         family={Rosakis},
+         familyi={R\bibinitperiod},
+         given={A.\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BRLBHSSCGRAJ1}
+    \strng{fullhash}{BRLBHSSCGRAJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1016/j.tecto.2010.03.020
+    \endverb
+    \field{number}{3}
+    \field{pages}{254\bibrangedash 262}
+    \field{title}{The Effect of Asymmetric Damage on Dynamic Shear Rupture
+  Propagation I: No Mismatch in Bulk Elasticity}
+    \field{volume}{493}
+    \field{journaltitle}{Tectonophysics}
+    \field{year}{2010}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{mello2010}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MM}{%
+         family={Mello},
+         familyi={M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RAJ}{%
+         family={Rosakis},
+         familyi={R\bibinitperiod},
+         given={A.\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kanamori},
+         familyi={K\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MMBHSRAJKH1}
+    \strng{fullhash}{MMBHSRAJKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1016/j.tecto.2010.07.003
+    \endverb
+    \field{pages}{297\bibrangedash 326}
+    \field{title}{Identifying the unique ground motion signatures of supershear
+  earthquakes: Theory and experiments}
+    \field{volume}{493}
+    \field{journaltitle}{Tectonophysics}
+    \field{year}{2010}
+  \endentry
+
+  \entry{templeton2010}{article}{}
+    \name{author}{4}{}{%
+      {{hash=TEL}{%
+         family={Templeton},
+         familyi={T\bibinitperiod},
+         given={E.\bibnamedelima L.},
+         giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dmowska},
+         familyi={D\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RJR}{%
+         family={Rice},
+         familyi={R\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TELBHSDRRJR1}
+    \strng{fullhash}{TELBHSDRRJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1785/012009012110.1785/0120090121
+    \endverb
+    \field{number}{4}
+    \field{pages}{1485\bibrangedash 1497}
+    \field{title}{Dynamic rupture through a branched fault configuration at
+  Yucca Mountain and resulting ground motions}
+    \field{volume}{100}
+    \field{journaltitle}{Bull. Seism. Soc. Am.}
+    \field{year}{2010}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{harris2009}{article}{}
+    \name{author}{23}{}{%
+      {{hash=HRA}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={R.\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Barall},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ARJ}{%
+         family={Archuleta},
+         familyi={A\bibinitperiod},
+         given={R.\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=DEM}{%
+         family={Dunham},
+         familyi={D\bibinitperiod},
+         given={E.\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=AB}{%
+         family={Aagaard},
+         familyi={A\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=AJP}{%
+         family={Ampuero},
+         familyi={A\bibinitperiod},
+         given={J-P},
+         giveni={J\bibinithyphendelim P\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CAV}{%
+         family={Cruz-Atienza},
+         familyi={C\bibinithyphendelim A\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Dalguer},
+         familyi={D\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Dawson},
+         familyi={D\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DSM}{%
+         family={Day},
+         familyi={D\bibinitperiod},
+         given={S.\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=DB}{%
+         family={Duan},
+         familyi={D\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=EG}{%
+         family={Ely},
+         familyi={E\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Kaneko},
+         familyi={K\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Kase},
+         familyi={K\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Lapusta},
+         familyi={L\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ODD}{%
+         family={Oglesby},
+         familyi={O\bibinitperiod},
+         given={D.\bibnamedelima D.},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=OKB}{%
+         family={Olsen},
+         familyi={O\bibinitperiod},
+         given={K.\bibnamedelima B.},
+         giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pitarka},
+         familyi={P\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TEL}{%
+         family={Templeton},
+         familyi={T\bibinitperiod},
+         given={E.\bibnamedelima L.},
+         giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HRA+1}
+    \strng{fullhash}{HRABMARJDEMABAJPBHSCAVDLDPDSMDBEGKYKYLNLYMSODDOKBPASSTEL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1785/gssrl.80.1.119
+    \endverb
+    \field{number}{1}
+    \field{title}{The {SCEC/USGS} dynamic earthquake rupture code verification
+  exercise}
+    \field{volume}{80}
+    \field{journaltitle}{Seismol. Res. Lett.}
+    \field{year}{2009}
+  \endentry
+
+  \entry{sammis2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SCG}{%
+         family={Sammis},
+         familyi={S\bibinitperiod},
+         given={C.\bibnamedelima G.},
+         giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=RAJ}{%
+         family={Rosakis},
+         familyi={R\bibinitperiod},
+         given={A.\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SCGRAJBHS1}
+    \strng{fullhash}{SCGRAJBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1007/s00024-009-0512-3
+    \endverb
+    \field{title}{Effects of Off-fault Damage on Earthquake Rupture
+  Propagation: Experimental Studies}
+    \field{volume}{166}
+    \field{journaltitle}{Pure Appl. Geophys.}
+    \field{year}{2009}
+  \endentry
+
+  \entry{templeton2009}{article}{}
+    \name{author}{7}{}{%
+      {{hash=TEL}{%
+         family={Templeton},
+         familyi={T\bibinitperiod},
+         given={E.\bibnamedelima L.},
+         giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Baudet},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dmowska},
+         familyi={D\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RJR}{%
+         family={Rice},
+         familyi={R\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=RAJ}{%
+         family={Rosakis},
+         familyi={R\bibinitperiod},
+         given={A.\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=RCE}{%
+         family={Rousseau},
+         familyi={R\bibinitperiod},
+         given={C.\bibnamedelima E.},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TELBABHSDRRJRRAJRCE1}
+    \strng{fullhash}{TELBABHSDRRJRRAJRCE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1029/2008JB006174
+    \endverb
+    \field{title}{Finite Element Simulations of Dynamic Shear Rupture
+  Experiments and Dynamic Path Selection Along Kinked and Branched Faults}
+    \field{volume}{B08304}
+    \field{journaltitle}{J. Geophys. Res.}
+    \field{year}{2009}
+  \endentry
+
+  \entry{dunham2008a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DEM}{%
+         family={Dunham},
+         familyi={D\bibinitperiod},
+         given={E.\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DEMBHS1}
+    \strng{fullhash}{DEMBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{year}
+    \field{abstract}{%
+    Radiating shear and Rayleigh waves from supershear ruptures form Mach waves
+  that transmit large-amplitude ground motion and stresses to locations far
+  from the fault. We simulate bilateral ruptures on a finite-width vertical
+  strike-slip fault (of width W and half-length L with L >> W) breaking the
+  surface of an elastic half-space, and focus on the wavefield out to distances
+  comparable to L. At distances much smaller than W, two-dimensional
+  plane-strain slip-pulse models (i.e., models in which the lateral extent of
+  the slip zone is unbounded) accurately predict the subsurface wavefield.
+  Amplitudes in the shear Mach wedge of those models are undiminished with
+  distance from the fault. When viewed from distances far greater than W,
+  rupture is accurately modeled as a moving point source that produces a shear
+  Mach cone and, on the free surface, Rayleigh-wave Mach fronts. Geometrical
+  spreading of the shear Mach cone occurs radially and amplitudes there
+  decrease with the inverse square-root of distance. The transition between
+  these two asymptotic limits occurs at distances comparable to W. Similar
+  considerations suggest that Rayleigh Mach waves suffer no attenuation in the
+  ideally elastic medium studied here. The rate at which fault strength weakens
+  at the rupture front exerts a strong influence on the off-fault fields only
+  in the immediate vicinity of the fault (for both sub-Rayleigh and supershear
+  ruptures) and at the Mach fronts of supershear ruptures. More rapid weakening
+  generates larger amplitudes at the Mach fronts.%
+    }
+    \verb{doi}
+    \verb 10.1029/2007JB005182
+    \endverb
+    \field{number}{B08319}
+    \field{title}{Attenuation of radiated ground motion and stresses from
+  three-dimensional supershear ruptures}
+    \field{volume}{113}
+    \field{journaltitle}{J. Geophys. Res.}
+    \field{year}{2008}
+  \endentry
+
+  \entry{bhat2007a}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dmowska},
+         familyi={D\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KGCP}{%
+         family={King},
+         familyi={K\bibinitperiod},
+         given={G.\bibnamedelima C.\bibnamedelima P.},
+         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+      {{hash=KY}{%
+         family={Klinger},
+         familyi={K\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=RJR}{%
+         family={Rice},
+         familyi={R\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \keyw{MustRead}
+    \strng{namehash}{BHSDRKGCPKYRJR1}
+    \strng{fullhash}{BHSDRKGCPKYRJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{year}
+    \field{abstract}{%
+    We extend a model of a two-dimensional self-healing slip pulse, propagating
+  dynamically in steady-state with slip-weakening failure crite- rion, to the
+  supershear regime, in order to study the off-fault stressing in- duced by
+  such a slip pulse and investigate features unique to the supershear range.
+  Specifically, we show that there exists a non-attenuating stress field behind
+  the Mach front that radiates high stresses arbitrarily far from the fault
+  (practically this would be limited to distances comparable to the depth of
+  the seismogenic zone), thus being capable of creating fresh damage or induc-
+  ing Coulomb failure in known structures at large distances away from the main
+  fault. We allow for both strike-slip and dip-slip failure induced by such a
+  slip pulse. We show that off-fault damage is controlled by the speed of the
+  slip-pulse, scaled stress drop and principal stress orientation of the
+  pre-stress field. We apply this model to study damage features induced during
+  the 2001 Kokoxili (Kunlun) event in Tibet, for which it has been suggested
+  that much of the rupture was supershear. We argue that an interval of
+  simultaneous in- duced normal faulting is more likely due to a slip
+  partitioning mechanism suggested previously than to the special features of
+  supershear rupture. How- ever, those features do provide an explanation for
+  otherwise anomalous ground cracking at several kilometers from the main
+  fault. We also make some es- timates of fracture energy which, for a given
+  net slip and dynamic stress drop, is lower than for a sub-Rayleigh slip
+  pulse, because part of the energy fed by the far-field stress is radiated
+  back along the Mach fronts.%
+    }
+    \verb{doi}
+    \verb 10.1029/2006JB004425
+    \endverb
+    \field{title}{Off-fault damage patterns due to supershear ruptures with
+  application to the 2001 ${M}_w$ 8.1 Kokoxili (Kunlun) Tibet earthquake}
+    \field{volume}{B06301}
+    \field{journaltitle}{J. Geophys. Res.}
+    \field{year}{2007}
+  \endentry
+
+  \entry{bhat2007b}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={Olives},
+         familyi={O\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dmowska},
+         familyi={D\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RJR}{%
+         family={Rice},
+         familyi={R\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BHSOMDRRJR1}
+    \strng{fullhash}{BHSOMDRRJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1029/2007JB005027
+    \endverb
+    \field{title}{Role of fault branches in earthquake rupture dynamics}
+    \field{volume}{B11309}
+    \field{journaltitle}{J. Geophys. Res.}
+    \field{year}{2007}
+  \endentry
+
+  \entry{bhat2007c}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BHS1}
+    \strng{fullhash}{BHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{year}
+    \field{title}{Role of Geometric Complexities and Off-Fault Damage in
+  Dynamic Rupture Propagation}
+    \list{institution}{1}{%
+      {Harvard University}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2007}
+  \endentry
+
+  \entry{fliss2005}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FS}{%
+         family={Fliss},
+         familyi={F\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dmowska},
+         familyi={D\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RJR}{%
+         family={Rice},
+         familyi={R\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \keyw{MustRead}
+    \strng{namehash}{FSBHSDRRJR1}
+    \strng{fullhash}{FSBHSDRRJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1029/2004JB003368
+    \endverb
+    \field{title}{Fault branching and rupture directivity}
+    \field{volume}{B06312}
+    \field{journaltitle}{J. Geophys. Res.}
+    \field{year}{2005}
+  \endentry
+
+  \entry{bhat2004}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dmowska},
+         familyi={D\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RJR}{%
+         family={Rice},
+         familyi={R\bibinitperiod},
+         given={J.\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kame},
+         familyi={K\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BHSDRRJRKN1}
+    \strng{fullhash}{BHSDRRJRKN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{year}
+    \verb{doi}
+    \verb 10.1785/0120040601
+    \endverb
+    \field{pages}{S202\bibrangedash S213}
+    \field{title}{Dynamic slip transfer from the Denali to Totschunda faults,
+  Alaska: Testing theory for fault branching}
+    \field{volume}{94}
+    \field{journaltitle}{Bull. Seism. Soc. Am.}
+    \field{year}{2004}
+  \endentry
+\enddatalist
+\endinput

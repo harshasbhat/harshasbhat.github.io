@@ -26,7 +26,7 @@ More info: [CV], [Google Scholar], [Short Biography] [BIO], [ORCID], [Contact De
 
 [CONTACT]: /contact/
 [BIO]: /bio/
-[CV]: https://www.dropbox.com/s/y8kl0oo2b7uksvk/CurriculumVitae.pdf?dl=0
+[CV]: {{ base }}/CV/CurriculumVitae.pdf
 [directions]: files/directions.pdf
 [LG]: http://www.geologie.ens.fr
 [ENS]: http://www.ens.fr

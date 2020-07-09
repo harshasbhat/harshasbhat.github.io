@@ -1,25 +1,40 @@
 publications:
     - title:     "Fast algorithms to model quasi-dynamic earthquake cycles in complex fault networks"
-      author:     Romanet, Pierre
+      author:    P. Romanet
       year:    2017
-      journal:
-      pdf:     https://www.dropbox.com/s/8jdb5p1epo5dv6o/Romanet2017a.pdf?dl=0
-      doi:
-      pubnum:
-      type:        phdthesis
-      booktitle:
-      publisher:
-      editor:
-      school:   Institut de Physique du Globe de Paris
+      journal:    
+      pdf: 		Romanet2017a.pdf
+      doi:		
+      pubnum:     	
+      type:         phdthesis  
+      booktitle:	""
+      publisher:	
+      editor:   
+      school:	Institut de Physique du Globe de Paris
+      arxiv: 	
     - title:     "Dynamic earthquake ruptures on multiscale fault and fracture networks"
-      author:
+      author:    K. Okubo
       year:    2018
-      journal:
-      pdf:     https://www.dropbox.com/s/9dip8bxom7t3p4t/Okubo2018a.pdf?dl=0
-      doi:
-      pubnum:
-      type:           phdthesis
-      booktitle:
-      publisher:
-      editor:
-      school: Institut de Physique du Globe de Paris
+      journal:    
+      pdf: 		Okubo2018a.pdf
+      doi:		
+      pubnum:     	
+      type:         phdthesis  
+      booktitle:	""
+      publisher:	
+      editor:   
+      school:	Institut de Physique du Globe de Paris
+      arxiv: 	
+    - title:     "Role of Geometric Complexities and Off-Fault Damage in Dynamic Rupture Propagation"
+      author:    H. S. Bhat
+      year:    2007
+      journal:    
+      pdf: 		Bhat2007a.pdf
+      doi:		
+      pubnum:     	
+      type:         phdthesis  
+      booktitle:	""
+      publisher:	
+      editor:   
+      school:	Harvard University
+      arxiv: 	
