@@ -1,22 +1,4 @@
 #- title: "Research"
 #  href: "/research/"
-#
 - title: "Publications"
   href: "/publications/"
-#- title: "COVID"
-#  href: "/covid/"
-#
-#- title: "Group"
-#  href: "/group/"
-#
-#- title: "News"
-#  href: "/news/"
-#
-#- title: "Misc."
-#  href: "/misc/"
-#
-#  subcategories:
-#   - subtitle: "Item 1"
-#     subhref: "/miscellany/item-1/"
-#   - subtitle: "Item 2"
-#     subhref: "/miscellany/item-2/"

@@ -6,12 +6,12 @@
 $font-weight-normal: 350;
 $font-weight-bold:   600;
 
-$base-font-family: "Source Code Pro Regular", "Lato", -apple-system, "San Francisco", "Helvetica Neue", Helvetica, Roboto, "Segoe UI", "Segoe WP", Arial, Ubuntu, sans-serif;
+$base-font-family: "Arial", "Lato", -apple-system, "San Francisco", "Helvetica Neue", Helvetica, Roboto, "Segoe UI", "Segoe WP", Arial, Ubuntu, sans-serif;
 $base-font-size:   13pt;
 $base-line-height: 1.25;
 
 $heading-font-family: $base-font-family;
-$heading-font-size:   15pt;
+$heading-font-size:   14pt;
 $heading-line-height: 1.5;
 
 $small-font-size:  0.875em;
@@ -36,16 +36,16 @@ $text-color:        $black;
 $text-light-color:  $grey;
 $url-color:         $harvard;
 $url-hover-color:   $blue;
-$header-text-color: $grey-vdark;
-$header-hover-color:$harvard;
-$header-hover-url:  $harvard;
+$header-text-color: $harvard;
+$header-hover-color:$blue;
+$header-hover-url:  $blue;
 $line-color:        $grey-light;
 
 // Width of the content area
-$content-width:    50em;
+$content-width:    60em;
 $content-min-width:15em;
 $mobile:           33em;
-$desktop:          50em;
+$desktop:          60em;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {

@@ -93,19 +93,22 @@ a {
     text-decoration: none;
     &:hover {
         color: $url-hover-color;
-        text-decoration: ul;
+        text-decoration: underline;
     }
 }
 
 // Blockquotes
 blockquote {
-    background-color: $dark-background;
-    border-left: 4px solid darken($line-color, 66%);
+    background-color: lighten($harvard, 59.5%);
+    border-left: 0.5px solid $header-text-color;
+    border-top: 0.25px solid $header-text-color;
+    border-right: 0.5px solid $header-text-color;
+    border-bottom: 0.25px solid $header-text-color;
     padding-left:   1.0em;
-    padding-right:  0.8em;
-    padding-top:    0.8em;
-    padding-bottom: 0.001em;
-    font-style: italic;
+    padding-right:  0.0em;
+    padding-top:    0.01em;
+    padding-bottom: 0.01em;
+//     font-style: italic;
     > :last-child {
         margin-bottom: 0;
     }
