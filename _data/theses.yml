@@ -1,9 +1,22 @@
 publications:
-    - title:     "Fast algorithms to model quasi-dynamic earthquake cycles in complex fault networks"
-      author:    P. Romanet
-      year:    2017
+    - title:     "High frequency radiation and foreshocks during laboratory earthquakes"
+      author:    Marty, S.
+      year:    2020
       journal:    
-      pdf: 		Romanet2017a.pdf
+      pdf: 		Marty2020a.pdf
+      doi:		
+      pubnum:     
+      type:         phdthesis  
+      booktitle:
+      publisher:
+      editor:
+      school:   Ecole Normale Supérieure
+      arxiv: 	
+    - title:     "Dynamic earthquake ruptures on multiscale fault and fracture networks"
+      author:    K. Okubo
+      year:    2018
+      journal:    
+      pdf: 		Okubo2018a.pdf
       doi:		
       pubnum:     	
       type:         phdthesis  
@@ -12,11 +25,11 @@ publications:
       editor:   
       school:	Institut de Physique du Globe de Paris
       arxiv: 	
-    - title:     "Dynamic earthquake ruptures on multiscale fault and fracture networks"
-      author:    K. Okubo
-      year:    2018
+    - title:     "Fast algorithms to model quasi-dynamic earthquake cycles in complex fault networks"
+      author:    P. Romanet
+      year:    2017
       journal:    
-      pdf: 		Okubo2018a.pdf
+      pdf: 		Romanet2017a.pdf
       doi:		
       pubnum:     	
       type:         phdthesis  
