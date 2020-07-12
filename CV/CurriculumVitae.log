@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.19)  3 JUL 2020 14:15
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.19)  12 JUL 2020 14:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1283,11 +1283,11 @@ LaTeX Font Info:    ... okay on input line 16.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=455.24411pt
-* \textheight=717.00946pt
+* \textheight=702.78308pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
 * \topmargin=-38.1381pt
@@ -1533,101 +1533,104 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--141
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 
  []
 
 
-Overfull \hbox (4.44394pt too wide) in paragraph at lines 200--200
+Overfull \hbox (4.44394pt too wide) in paragraph at lines 204--204
 []\TU/TimesNewRoman(0)/m/n/10.95 Micromechanics Based Permeability Evolution In
  Brittle Materials At High
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 
  []
 
 
-Overfull \hbox (5.81801pt too wide) in paragraph at lines 200--200
+Overfull \hbox (5.81801pt too wide) in paragraph at lines 204--204
 []\TU/TimesNewRoman(0)/m/n/10.95 Identifying the unique ground motion signature
 s of supershear earthquakes:
  []
 
 
-Overfull \hbox (2.22144pt too wide) in paragraph at lines 200--200
+Overfull \hbox (2.22144pt too wide) in paragraph at lines 204--204
 []\TU/TimesNewRoman(0)/m/n/10.95 Source mechanics of near-field s-wave generati
 on from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 
  []
 
+Package biblatex Info: Reference segment=2 on input line 212.
+Package biblatex Info: Setting label 'refsegment:02' on input line 212.
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
-
- []
-
-Package biblatex Info: Reference segment=2 on input line 208.
-Package biblatex Info: Setting label 'refsegment:02' on input line 208.
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--210
+Underfull \hbox (badness 10000) in paragraph at lines 207--214
 
  []
 
 [3]
-Package biblatex Info: Reference segment=0 on input line 211.
-Package biblatex Info: Reference segment=3 on input line 214.
-Package biblatex Info: Setting label 'refsegment:03' on input line 214.
+Package biblatex Info: Reference segment=0 on input line 215.
+Package biblatex Info: Reference segment=3 on input line 218.
+Package biblatex Info: Setting label 'refsegment:03' on input line 218.
  [4] [5]
-Package biblatex Info: Reference segment=0 on input line 218.
+Package biblatex Info: Reference segment=0 on input line 222.
  
 AED: lastpage setting LastPage
 [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
  (./CurriculumVitae.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 227.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 231.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
 Package rerunfilecheck Info: File `CurriculumVitae.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'CurriculumVitae.run.xml'.
 \openout1 = `CurriculumVitae.run.xml'.
 
@@ -1636,7 +1639,7 @@ Package logreq Info: Writing requests to 'CurriculumVitae.run.xml'.
 Here is how much of TeX's memory you used:
  43162 strings out of 492916
  852767 string characters out of 6133345
- 1336805 words of memory out of 5000000
+ 1335808 words of memory out of 5000000
  46665 multiletter control sequences out of 15000+600000
  539638 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

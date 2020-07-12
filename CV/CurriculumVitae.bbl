@@ -123,7 +123,7 @@
     \field{year}{2019}
   \endentry
 
-  \entry{jara2019}{article}{}
+  \entry{jara2020}{article}{}
     \name{author}{8}{}{%
       {{hash=JJ}{%
          family={Jara},
@@ -178,11 +178,12 @@
     \strng{fullhash}{JJBLASOKTMYKYJRBHS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2019}
+    \field{labelyear}{2020}
     \field{labeldatesource}{year}
-    \field{title}{Supershear transition signature in aftershock patterns}
+    \field{title}{Signature of supershear transition seen in damage and
+  aftershock pattern}
     \field{journaltitle}{to be submitted}
-    \field{year}{2019}
+    \field{year}{2020}
   \endentry
 
   \entry{martinez2019}{article}{}
@@ -348,9 +349,6 @@
     \field{labeltitlesource}{title}
     \field{labelyear}{2020}
     \field{labeldatesource}{year}
-    \verb{doi}
-    \verb arXiv:1910.14547 [physics.geo-ph]
-    \endverb
     \field{title}{Supershear Tsunamis and insights from the $M_w$ 7.5 Palu
   Earthquake}
     \field{journaltitle}{under review in Nat. Geosci.}
@@ -1225,8 +1223,8 @@
     \endverb
     \field{number}{12}
     \field{pages}{1079\bibrangedash 1082}
-    \field{title}{{Inelastic surface deformation during the 2013 Mw 7.7
-  {Balochistan, Pakistan}, earthquake}}
+    \field{title}{Inelastic surface deformation during the 2013 Mw 7.7
+  Balochistan, Pakistan, earthquake}
     \field{volume}{43}
     \field{journaltitle}{Geology}
     \field{year}{2015}
@@ -1856,7 +1854,7 @@
     \verb 10.1785/gssrl.80.1.119
     \endverb
     \field{number}{1}
-    \field{title}{The {SCEC/USGS} dynamic earthquake rupture code verification
+    \field{title}{The SCEC/USGS dynamic earthquake rupture code verification
   exercise}
     \field{volume}{80}
     \field{journaltitle}{Seismol. Res. Lett.}
