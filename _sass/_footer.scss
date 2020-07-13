@@ -19,3 +19,25 @@
 .site-footer a:hover {
     color: $url-hover-color;
 }
+
+.site-footer2 {
+    font-size: $vsmall_font_size;
+    color: #999;
+    border-top: 0px solid $line-color;
+    padding-top: $spacing-unit;
+    float: none;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:  0;
+    margin-bottom:$spacing-unit;
+    text-align: left;
+    @extend %clearfix;
+}
+
+.site-footer2 a {
+    color: inherit;
+}
+
+.site-footer2 a:hover {
+    color: $url-hover-color;
+}

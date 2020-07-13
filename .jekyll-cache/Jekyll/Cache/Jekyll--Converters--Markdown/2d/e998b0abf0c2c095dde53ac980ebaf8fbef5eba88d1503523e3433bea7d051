@@ -1,4 +1,4 @@
-I"�<!-- 
+I")<!-- 
 <div class="captioned-img alignleft">
     <a href="images/BHAT4.jpg">
     
@@ -9,7 +9,7 @@
  -->
 
 <h1 class="animate__animated animate__zoomIn animate__delay-0.1s">
-<div class="captioned-img alignleft">
+<div class="captioned-img alignright">
     <a href="images/BHAT4.jpg">
     
     <img src="images/BHAT4.jpg" height="250px" />
@@ -24,7 +24,9 @@
 
 <p>You can reach me at <a href="files/directions.pdf">Laboratoire de Géologie, 24 Rue Lhomond, 75005 Paris</a></p>
 
-<p>More info: <a href="/CV/CurriculumVitae.pdf">CV</a>, <a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>, <a href="/bio/">Short Biography</a>, <a href="https://orcid.org/0000-0003-0361-1854">ORCID</a>, <a href="/contact/">Contact Details</a></p>
+<p>➢<a href="/CV/CurriculumVitae.pdf">CV</a>    ➢<a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>    ➢<a href="/bio/"><ins>Short Biography</ins></a>   ➢<a href="https://orcid.org/0000-0003-0361-1854">ORCID 0000-0003-0361-1854</a>   ➢<a href="/contact/">Contact Details</a></p>
+
+<p><ins>text</ins></p>
 
 <script>
 //open external links in a new window
