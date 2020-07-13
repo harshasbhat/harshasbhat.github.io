@@ -20,7 +20,7 @@ I work mainly at the interface between Earthquake Physics and Solid Mechanics ma
 
 You can reach me at [Laboratoire de Géologie, 24 Rue Lhomond, 75005 Paris] [directions]
 
-More info: [CV], [Google Scholar], [Short Biography] [BIO], [ORCID], [Contact Details] [CONTACT]
+ [<ins>CV</ins>][CV]  &nbsp; [<ins>Google Scholar</ins>][Google Scholar]  &nbsp; [<ins>Short Biography</ins>] [BIO] &nbsp; [<ins>ORCID 0000-0003-0361-1854</ins>][ORCID 0000-0003-0361-1854] &nbsp; [<ins>Contact Details</ins>][CONTACT]
 
 {% include new-window-fix.html %}
 
@@ -32,4 +32,4 @@ More info: [CV], [Google Scholar], [Short Biography] [BIO], [ORCID], [Contact De
 [ENS]: http://www.ens.fr
 [Google Scholar]: http://scholar.google.com/citations?user={{site.author.scholar}}&hl=en&oi=ao
 [CNRS]: http://www.cnrs.fr/index.html
-[ORCID]: https://orcid.org/0000-0003-0361-1854
+[ORCID 0000-0003-0361-1854]: https://orcid.org/0000-0003-0361-1854
