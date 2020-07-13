@@ -1,4 +1,4 @@
-I"ç<!-- 
+I"ä<!-- 
 <div class="captioned-img alignleft">
     <a href="images/BHAT4.jpg">
     
@@ -8,11 +8,11 @@
 
  -->
 
-<h1 class="animate__animated animate__fadeInLeft animate__delay-0.1s">
-<div class="captioned-img alignleft">
+<h1 class="animate__animated animate__zoomIn animate__delay-0.1s">
+<div class="captioned-img alignright">
     <a href="images/BHAT4.jpg">
     
-    <img src="images/BHAT4.jpg" height="290px" />
+    <img src="images/BHAT4.jpg" height="250px" />
     </a>
 </div>
 
