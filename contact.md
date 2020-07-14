@@ -12,10 +12,10 @@ published: true
 
 > **Address**<br>
 ---
-Harsha Bhat Suresh<br>
+Harsha S. Bhat<br>
 Laboratoire de Géologie<br>
 24 rue Lhomond<br>
-75005 Paris
+75005 Paris, France
 
 <br>
 
