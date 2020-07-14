@@ -1,4 +1,6 @@
-#- title: "Research"
-#  href: "/research/"
+- title: "About"
+  href: "/about/"
 - title: "Publications"
   href: "/publications/"
+- title: "Contact"
+  href: "/contact/"

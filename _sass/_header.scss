@@ -1,6 +1,6 @@
 .site-header {
     border-bottom: 0px solid $line-color;
-    position: relative;
+    position: left;
     font-family: $heading-font-family;
     font-size:   $heading-font-size;
     font-weight: $font-weight-bold;
@@ -11,7 +11,7 @@
 
 .site-header a {
     color: $header-text-color;
-    border-bottom: 0px;
+    border-bottom: 0.1px;
 }
 .site-header a:hover {
     color: $header-hover-color;
@@ -21,7 +21,7 @@
 
 .site-title {
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     float: left;
     letter-spacing: 2px;
     color: $header-hover-color;
