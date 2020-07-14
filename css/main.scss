@@ -36,16 +36,16 @@ $text-color:        $black;
 $text-light-color:  $grey;
 $url-color:         $harvard;
 $url-hover-color:   $blue;
-$header-text-color: $harvard;
+$header-text-color: $black;
 $header-hover-color:$blue;
 $header-hover-url:  $blue;
 $line-color:        $grey-light;
 
 // Width of the content area
-$content-width:    40em;
+$content-width:    45em;
 $content-min-width:15em;
 $mobile:           33em;
-$desktop:          40em;
+$desktop:          45em;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {

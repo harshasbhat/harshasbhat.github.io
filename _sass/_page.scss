@@ -25,6 +25,7 @@
     margin-bottom: $spacing-unit * 0.8;
     margin-top:    $spacing-unit * 0.8;
     @extend %clearfix;
+    text-align:  justified
 }
 
 .post p {

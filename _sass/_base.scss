@@ -20,6 +20,7 @@ body {
     background-color: $background;
     margin: 0 $spacing-unit/2;
     -webkit-text-size-adjust: 100%;
+    text-align: justify
 }
 
 // bold elements
@@ -33,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $font-weight-bold;
     font-size:   $heading-font-size;
     line-height: $heading-line-height;
-    color:       $text-color;
+    color:       $harvard;
     text-transform: uppercase;
 }
 
@@ -99,15 +100,16 @@ a {
 
 // Blockquotes
 blockquote {
-    background-color: lighten($harvard, 59.5%);
-    border-left: 0.5px solid $header-text-color;
-    border-top: 0.25px solid $header-text-color;
-    border-right: 0.5px solid $header-text-color;
-    border-bottom: 0.25px solid $header-text-color;
+    background-color: lighten($harvard, 58.5%);
+    border-left: 0.01px solid lighten($harvard, 59.5%);
+    border-top: 0.01px solid lighten($harvard, 59.5%);
+    border-right: 0.01px solid lighten($harvard, 59.5%);
+    border-bottom: 0.011px solid lighten($harvard, 59.5%);
     padding-left:   1.0em;
-    padding-right:  0.0em;
+    padding-right:  1.0em;
     padding-top:    0.01em;
     padding-bottom: 0.01em;
+    text-align: center;
 //     font-style: italic;
     > :last-child {
         margin-bottom: 0;
@@ -116,11 +118,10 @@ blockquote {
 
 // Code formatting
 pre, code {
-    border: 1px solid $line-color;
+    border: 0px solid $line-color;
     border-radius: 3px;
-    background-color: $dark-background;
+    background-color: lighten($harvard, 59.5%);
     font-family: monospace;
-    font-size: $small-font-size;
 }
 
 code {
