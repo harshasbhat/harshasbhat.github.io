@@ -17,7 +17,7 @@ I am a solid mechanician and earthquake source physicist by training. After comp
 
 I did my postdoctoral studies jointly between at [Caltech] [4] and the [University of Southern California] [5]. Here I worked with [Prof. Ares J. Rosakis] [7] and [Prof. Charles G. Sammis] [8]. 
 
-I joined [CNRS] in Jan. 2012 as a Senior Research Scientist, and began working at the [Institut de Physique du Globe de Paris (IPGP)] [6] until Apr. 2016. I work mainly at the interface between tectonics, seismology, solid mechanics and rock mechanics. 
+I joined [CNRS] in Jan. 2012 as a Grade 1 Research Scientist, and began working at the [Institut de Physique du Globe de Paris (IPGP)] [6] until Apr. 2016. I work mainly at the interface between tectonics, seismology, solid mechanics and rock mechanics. 
 
 I have been awarded the [Prix Michel Gouilloud Schlumberger] [9] from the [Academié des Sciences] [10]. You can watch the ceremony [here.] [11]
 
