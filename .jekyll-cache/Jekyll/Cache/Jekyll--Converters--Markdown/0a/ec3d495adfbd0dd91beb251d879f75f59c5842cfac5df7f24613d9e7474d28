@@ -1,11 +1,4 @@
-I"�<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.778239979044!2d2.344141616290045!3d48.84336850971738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e905a58849%3A0x6c1d0dc24c54a979!2s24%20Rue%20Lhomond%2C%2075005%20Paris!5e0!3m2!1sfr!2sfr!4v1594901867016!5m2!1sfr!2sfr" width="" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-<blockquote>
-  <p>Directions to reach me at <a href="/files/directions.pdf">Laboratoire de Géologie, 24 Rue Lhomond, 75005 Paris</a></p>
-</blockquote>
-
-<p><br /></p>
-
+I"<p><br /></p>
 <blockquote>
   <h2 id="address"><strong>Address</strong><br /></h2>
   <p>Harsha S. Bhat<br />
@@ -18,8 +11,17 @@ Laboratoire de Géologie<br />
 
 <blockquote>
   <h2 id="email"><strong>Email</strong><br /></h2>
-  <p><code class="highlighter-rouge">firstname.lastname@ens.fr</code></p>
+  <p><img src="/images/email.png" class="responsive" /></p>
 </blockquote>
+
+<p><br /></p>
+
+<blockquote>
+  <p><a href="https://goo.gl/maps/imridvjJr7GPFYjY8">Directions to reach Ecole Normale Supérieure</a><br /><br />
+<a href="/files/directions.pdf">Directions to my office (Room E203) at Laboratoire de Géologie</a></p>
+</blockquote>
+
+<p><br /></p>
 
 <script>
 //open external links in a new window
@@ -47,5 +49,13 @@ function pdf_new_window ()
 pdf_new_window()
 external_new_window();
 </script>
+
+<style>
+.responsive {
+  width: 200px;
+  max-width: 300px;
+  height: auto;
+}
+</style>
 
 :ET
