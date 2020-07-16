@@ -16,7 +16,7 @@ Laboratoire de Géologie<br>
 
 > **Email**<br>
 ---
-<img src="{{site.baseurl}}/images/email.png" class="responsive">
+<a href="mailto:harsha.bhat@ens.fr"><img src="{{site.baseurl}}/images/email.png" class="responsive"></a>
 
 <br>
 
