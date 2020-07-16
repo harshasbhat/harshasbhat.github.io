@@ -5,11 +5,6 @@ permalink: /
 published: true
 ---
 
-<!-- 
-{% include image.html url="images/BHAT4.jpg" caption="" height="290px" align="left" %}
- -->
-
-
 <h1 class="animate__animated animate__zoomIn animate__delay-0.1s">
 {% include image.html url="images/BHAT4.jpg" caption="" height="350px" align="center" %}
 </h1>
