@@ -3,10 +3,10 @@ layout: page
 permalink: /publications/
 title: 
 ---
+<a name="top"></a>
 
 > [● **Publications**](#peer-reviewed-publications)  &nbsp;  [● **Books**](#books)  &nbsp;  [● **PhD Theses**](#theses)
 
-<a name="top"></a>
 
 <br>
 ## Publications
@@ -23,11 +23,10 @@ title:
 {% assign year = {{pub.year}} %}
 {% endif %} 
 
-<!-- <span style="color: #c90016; font-size: 70%;">📃</span>  -->
-> {% if pub.pdf %}[**{{pub.title}}**]({{ base }}/files/{{pub.pdf}}){% else %} **{{pub.title}}** {% endif %}
-<br>*{{pub.author}}*<br>
-{% if {{pub.type}} == "article" %}<span style="text-decoration:underline">***{{pub.journal}}***</span>
-{% elsif {{pub.type}} == "inproceeding" or {{pub.type}} == "incollection" %}in ***{{pub.booktitle}}***
+ > {% if pub.pdf %}[**{{pub.title}}**]({{ base }}/files/{{pub.pdf}}){% else %} **{{pub.title}}** {% endif %}
+<br>{{pub.author}}<br>
+{% if {{pub.type}} == "article" %}<span style="color:#777">***{{pub.journal}}***</span>
+{% elsif {{pub.type}} == "inproceeding" or {{pub.type}} == "incollection" %}in <span style="color:#777">***{{pub.booktitle}}***</span>
 eds. *{{pub.editor}}*
 {% endif %}{% if pub.doi %}<br>*doi:{{pub.doi}}* {% endif %}{% if pub.arxiv %} <br>*arXiv:{{pub.arxiv}}[physics.geo-ph]* {% endif %}<!-- ({{pub.year}}) -->
 <br>

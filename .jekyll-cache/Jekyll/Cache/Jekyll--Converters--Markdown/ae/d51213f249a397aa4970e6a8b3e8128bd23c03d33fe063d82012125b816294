@@ -1,0 +1,57 @@
+I"<blockquote>
+  <h2 id="address"><strong>Address</strong><br /></h2>
+  <p>Harsha S. Bhat<br />
+Laboratoire de Géologie<br />
+24 rue Lhomond<br />
+75005 Paris, France</p>
+</blockquote>
+
+<p><br /></p>
+
+<blockquote>
+  <h2 id="email"><strong>Email</strong><br /></h2>
+</blockquote>
+<div class="captioned-img aligncenter">
+    <a href="images/email.png">
+    
+    <img src="images/email.png" height="350px" />
+    </a>
+</div>
+
+<p><br /></p>
+
+<blockquote>
+  <p><a href="https://goo.gl/maps/imridvjJr7GPFYjY8">Directions to reach Ecole Normale Supérieure</a><br /><br />
+<a href="/files/directions.pdf">Directions to my office (Room E203) at Laboratoire de Géologie</a></p>
+</blockquote>
+
+<p><br /></p>
+
+<script>
+//open external links in a new window
+function external_new_window() {
+    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+    var b = c[a];
+    b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+    }
+}
+//open PDF links in a new window
+function pdf_new_window ()
+{
+    if (!document.getElementsByTagName) return false;
+    var links = document.getElementsByTagName("a");
+    for (var eleLink=0; eleLink < links.length; eleLink ++) {
+    if ((links[eleLink].href.indexOf('.pdf') !== -1)||(links[eleLink].href.indexOf('.doc') !== -1)||(links[eleLink].href.indexOf('.docx') !== -1)) {
+        links[eleLink].onclick =
+        function() {
+            window.open(this.href);
+            return false;
+        }
+    }
+    }
+} 
+pdf_new_window()
+external_new_window();
+</script>
+
+:ET

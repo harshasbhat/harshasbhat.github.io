@@ -5,11 +5,6 @@ permalink: /contact/
 published: true
 ---
 
-> Directions to reach me at [Laboratoire de Géologie, 24 Rue Lhomond, 75005 Paris] [directions] 
-
-
-<br>
-
 > **Address**<br>
 ---
 Harsha S. Bhat<br>
@@ -21,22 +16,25 @@ Laboratoire de Géologie<br>
 
 > **Email**<br>
 ---
-`firstname.lastname@ens.fr`
+<img src="{{site.baseurl}}/images/email.png" class="responsive">
 
-<!-- 
-{:.centery}
-![]({{site.baseurl}}/images/BHATContact.png)
- -->
+<br>
+
+> [Directions to reach Ecole Normale Supérieure][gmaps]<br><br>
+> [Directions to my office (Room E203) at Laboratoire de Géologie] [directions] 
+
+
+<br>
 
 {% include new-window-fix.html %}
 
-<!-- 
+[directions]: {{site.baseurl}}/files/directions.pdf
+[gmaps]: https://goo.gl/maps/imridvjJr7GPFYjY8
+
 <style>
-.centery {
-  text-align: center;
+.responsive {
+  width: 200px;
+  max-width: 300px;
+  height: auto;
 }
 </style>
- -->
-
-
-[directions]: {{site.baseurl}}/files/directions.pdf
