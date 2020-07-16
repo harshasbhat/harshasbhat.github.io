@@ -6,7 +6,7 @@ published: true
 ---
 
 <h1 class="animate__animated animate__zoomIn animate__delay-0.1s">
-{% include image.html url="images/BHAT4.jpg" caption="" height="350px" align="center" %}
+{% include image.html url="images/BHAT4.jpg" caption="" height="450px" align="center" %}
 </h1>
 
 > I am a [CNRS] Research Scientist working at the [Laboratoire de Géologie] [LG] in [Ecole Normale Supérieure] [ENS]. I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology.
