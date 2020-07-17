@@ -6,6 +6,7 @@ title:
 
 
 > [● **Curriculum Vitae**][CV]  &nbsp;   [● **Google Scholar**][Google Scholar]  &nbsp;  [● **ORCID 0000-0003-0361-1854**][ORCID 0000-0003-0361-1854] &nbsp; 
+{: style="color:$harvard; font-size: 110%; font-weight: bold; text-align: center;"}
 
 {% include new-window-fix.html %}
 
