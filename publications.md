@@ -9,7 +9,7 @@ title:
 {: style="color:$harvard; font-size: 110%; font-weight: bold; text-align: center;"}
 
 <br>
-## Publications
+## Articles
 {: style="color:grey; font-size: 110%; font-weight: bold; text-align: center;"}
 {% assign year = 1980 %}
 
