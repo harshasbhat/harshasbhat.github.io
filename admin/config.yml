@@ -2,7 +2,7 @@ backend:
   name: github
   repo: harshasbhat/harshasbhat.github.io
   branch: master
-  site_domain: relaxed-swanson-d4ba6c.netlify.com
+  site_domain: https://gallant-shannon-8fdba0.netlify.app
 
 media_folder: "images/"
 
