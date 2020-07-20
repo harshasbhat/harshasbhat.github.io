@@ -5,7 +5,7 @@ title:
 ---
 <a name="top"></a>
 
-> [● **Publications**](#peer-reviewed-publications)  &nbsp;  [● **Books**](#books)  &nbsp;  [● **PhD Theses**](#theses)
+> [● **Articles**](#peer-reviewed-publications)  &nbsp;  [● **Books**](#books)  &nbsp;  [● **Theses**](#theses)
 {: style="color:$harvard; font-size: 110%; font-weight: bold; text-align: center;"}
 
 <br>
