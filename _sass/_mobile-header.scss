@@ -1,27 +1,36 @@
 @include media-query($mobile) {
     .site-nav h1 {
-        border-bottom: 1px solid $line-color;
+        border-bottom: 0px solid $line-color;
         cursor: pointer;
         display: none; /* Standard. IE8+, Saf, FF3+ */
         height: 23px;
         left: auto;
-        margin-top: 10px;
+        margin-top: 0px;
         position: static;
         white-space: nowrap;
     }
 
     .site-nav .menu {
         display: block;
-        left: -3px;
-        min-width: 215px;
-        padding: 4px 0;
+        left: -13px;
+        min-width: 100px;
+        padding: -5px -5px;
         position: relative;
         right: -3px;
-        z-index: 999;
+        z-index: 1;
+        border-right: none;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 10px 10px;
     }
 
     .site-nav .menu.open {
         display: block;
+        border-right: none;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
     }
 
     .site-nav .menu li {
@@ -35,6 +44,11 @@
     }
     .site-nav ul.menu a:hover {
         color: $header-hover-color;
+        display: block;
+        border-right: none;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
     }
 
     .site-nav a,
@@ -44,7 +58,7 @@
 
     .site-nav .menu > li {
         height: auto;
-        text-align: left;
+        text-align: right;
     }
 
     .site-nav .sub-menu {
