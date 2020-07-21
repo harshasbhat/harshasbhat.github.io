@@ -28,7 +28,7 @@
 }
 
 .site-nav {
-    background: $background;
+    background: transparentize($white, 1);
 }
 
 .site-nav ul {
