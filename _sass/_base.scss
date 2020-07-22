@@ -20,7 +20,7 @@ body {
     background-color: $background;
     margin: 0 $spacing-unit/2;
     -webkit-text-size-adjust: 100%;
-    text-align: justify
+    text-align: left
 }
 
 // bold elements
@@ -90,33 +90,40 @@ li {
 
 // Links
 a {
-    color: $url-color;
+    color: $blue;
     text-decoration: none;
+    font-weight: italic;
     &:hover {
         color: $url-hover-color;
         text-decoration: underline;
+        font-weight: none;
     }
 }
 
 // Blockquotes
 blockquote {
-    background-color: lighten($harvard, 62.5%);
-    border-left: 0.01px solid lighten($harvard, 59.5%);
-    border-top: 0.01px solid lighten($harvard, 59.5%);
-    border-right: 0.01px solid lighten($harvard, 59.5%);
-    border-bottom: 0.01px solid lighten($harvard, 59.5%);
-    border-radius: 0.5em;
-    border: solid lighten($harvard, 0.5%);
-    border-width: 0.01em;
-    border-left-width: 0.01em;
-    padding-left:   1.0em;
+    background-color: lighten($harvard, 99.5%);
+    margin-left: 0.025*$content-width;
+    margin-right: 0.0*$content-width;
+    border-left: 0.01px solid lighten($harvard, 79.5%);
+    border-top: 0.01px solid lighten($harvard, 79.5%);
+    border-right: 0.01px solid lighten($harvard, 79.5%);
+    border-bottom: 0.01px solid lighten($harvard, 79.5%);
+    border-radius: 1em;
+    border: double lighten($black, 75.5%);
+    border-width: 0.0em;
+    border-left-width: 0.1em;
+    border-right-width: 0.1em;
+    border-bottom-width: 0.0em;
+    border-top-width: 0.0em;
+    padding-left:   2.0em;
     padding-right:  1.0em;
     padding-top:    0.01em;
     padding-bottom: 0.01em;
-    text-align: center;
-    -webkit-box-shadow: 0 10px 5px #777;
-    -moz-box-shadow: 0 5px 10px #777;
-    box-shadow: 0 5px 10px #777;
+    text-align: left;
+//     -webkit-box-shadow: 22px 31px 14px -18px rgba(77,66,77,0.5);
+// -moz-box-shadow: 22px 31px 14px -18px rgba(77,66,77,0.5);
+// box-shadow: 22px 31px 14px -18px rgba(77,66,77,0.5);
     margin-top:10px;
 //     font-style: italic;
     > :last-child {
