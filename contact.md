@@ -4,24 +4,16 @@ title: null
 permalink: /contact/
 published: true
 ---
-<br>
-> **Address**<br>
----
 Harsha S. Bhat<br>
 Laboratoire de Géologie<br>
 24 rue Lhomond<br>
 75005 Paris, France
-
-<br>
-
-> **Email**<br>
----
+<br><br>
 <a href="mailto:harsha.bhat@ens.fr"><img src="{{site.baseurl}}/images/email.png" class="responsive"></a>
 
-<br>
 
-> [Directions to reach Ecole Normale Supérieure][gmaps]<br><br>
-> [Directions to my office (Room E203) at Laboratoire de Géologie] [directions] 
+[Directions to reach Ecole Normale Supérieure][gmaps]<br>
+[Directions to my office (Room E203) at Laboratoire de Géologie] [directions] 
 
 
 <br>
