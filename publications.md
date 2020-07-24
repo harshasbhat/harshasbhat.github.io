@@ -4,10 +4,18 @@ permalink: /publications/
 title: 
 ---
 <a name="top"></a>
-{% include new-window-fix.html %}
-
 <br><br><br>
+<style>
+    #link_bar a { display: inline;margin-right: 0.25em; font-weight: bold; border-radius: 0.7em; padding: 3px 6px; float:center; color:#3047c9; background-color:#fff; border: 2px solid #dce0f2;}
+</style>
+<div id="link_bar">
+    <a href="#peer-reviewed-publications">Articles</a>
+    <a href="#books">Books</a>
+    <a href="#theses">Theses</a>
+</div>
+<!-- 
 [● **Articles**](#peer-reviewed-publications)  &nbsp;  [● **Books**](#books)  &nbsp;  [● **Theses**](#theses)
+ -->
 <!-- {: style="color:$harvard; font-size: 110%; font-weight: bold; text-align: center;"} -->
 
 ## Articles

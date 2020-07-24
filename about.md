@@ -3,11 +3,16 @@ layout: page
 permalink: /about/
 title: 
 ---
-
-{% include new-window-fix.html %}
 <br><br><br>
-[● **CV**][CV]  &nbsp; [● **GScholar**][Google Scholar]  &nbsp;  [● **ORCID**][ORCID 0000-0003-0361-1854] &nbsp; 
-
+<style>
+    #link_bar a { display: inline;margin-right: 0.25em; font-weight: bold; border-radius: 0.7em; padding: 3px 6px; float:center; color:#3047c9; background-color:#fff; border: 2px solid #dce0f2;}
+</style>
+<div id="link_bar">
+    <a href="{{ base }}/CV/CurriculumVitae.pdf">CV</a>
+    <a href="http://scholar.google.com/citations?user={{site.author.scholar}}&hl=en&oi=ao">GScholar</a>
+    <a href="https://orcid.org/0000-0003-0361-1854">ORCID</a>
+</div>
+{% include new-window-fix.html %}
 > I am a [CNRS] researcher at the [Laboratoire de Géologie] [LG] in [Ecole Normale Supérieure] [ENS]. 
 <br><br>
 I am a solid mechanician and earthquake source physicist by training. After completing my Ph.D at [Harvard University] [1], under the guidance of [Prof. James R. Rice] [2] and [Dr. Renata Dmowska] [3].
