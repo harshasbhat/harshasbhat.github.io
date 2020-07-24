@@ -6,7 +6,7 @@
         height: 23px;
         left: auto;
         margin-top: 0px;
-        position: static;
+        position: relative;
         white-space: nowrap;
     }
 
@@ -16,13 +16,16 @@
         min-width: 100px;
         padding: -5px -5px;
         position: relative;
-        right: -3px;
+        right: 3px;
+        top: 1px;
         z-index: 1;
         border-right: none;
     border-left: none;
     border-bottom: none;
     border-top: none;
-    border-radius: 10px 10px;
+    border-radius: 1px 1px;
+    float: left;
+    border: 0px;
     }
 
     .site-nav .menu.open {
@@ -31,12 +34,15 @@
     border-left: none;
     border-bottom: none;
     border-top: none;
+    position:relative;
+    margin-bottom: 120px;
     }
 
     .site-nav .menu li {
         display: block;
         margin: 0;
         color: $header-text-color;
+    position:relative;
     }
 
     .site-nav ul.menu a {
@@ -59,6 +65,7 @@
     .site-nav .menu > li {
         height: auto;
         text-align: right;
+        border: 0px;
     }
 
     .site-nav .sub-menu {

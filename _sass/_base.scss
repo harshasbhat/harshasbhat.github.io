@@ -102,21 +102,21 @@ a {
 
 // Blockquotes
 blockquote {
-    background-color: lighten($harvard, 99.5%);
-    margin-left: 0.025*$content-width;
+    background-color: lighten($blue, 49%);
+    margin-left: 0.0*$content-width;
     margin-right: 0.0*$content-width;
     border-left: 0.01px solid lighten($harvard, 79.5%);
     border-top: 0.01px solid lighten($harvard, 79.5%);
     border-right: 0.01px solid lighten($harvard, 79.5%);
     border-bottom: 0.01px solid lighten($harvard, 79.5%);
     border-radius: 1em;
-    border: double lighten($black, 75.5%);
+    border: double lighten($blue, 35.5%);
     border-width: 0.0em;
-    border-left-width: 0.1em;
-    border-right-width: 0.1em;
-    border-bottom-width: 0.0em;
-    border-top-width: 0.0em;
-    padding-left:   2.0em;
+//     border-left-width: 0.1em;
+//     border-right-width: 0.1em;
+//     border-bottom-width: 0.1em;
+//     border-top-width: 0.1em;
+    padding-left:   1.0em;
     padding-right:  1.0em;
     padding-top:    0.01em;
     padding-bottom: 0.01em;
