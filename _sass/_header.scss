@@ -1,6 +1,6 @@
 .site-header {
     border-bottom: 0px solid $line-color;
-    position: left;
+    position: left -webkit-sticky;
     font-family: $heading-font-family;
     font-size:   $heading-font-size;
     font-weight: $font-weight-bold;
