@@ -6,7 +6,8 @@ title:
 <a name="top"></a>
 <br><br><br>
 <style>
-    #link_bar a { display: inline;margin-right: 0.25em; font-weight: bold; border-radius: 0.7em; padding: 3px 6px; float:center; color:#3047c9; background-color:#fff; border: 2px solid #dce0f2;}
+    #link_bar a { display: inline;margin-right: 0.25em; font-weight: bold; border-radius: 0.7em; padding: 3px 6px; float:center; color:#3047c9; background-color:#fff; border: 1px solid #dce0f2;}
+    #link_bar a:hover { display: inline;margin-right: 0.25em; font-weight: bold; border-radius: 0.7em; padding: 3px 6px; float:center; color:#3047c9; background-color:#dce0f2; border: 1px solid #dce0f2; text-decoration:none;}
 </style>
 <div id="link_bar">
     <a href="#peer-reviewed-publications">Articles</a>
@@ -34,14 +35,13 @@ title:
 
 {% assign year = {{pub.year}} %}
 {% endif %} 
-> {% if pub.pdf %}["{{pub.title}}"]({{ base }}/files/{{pub.pdf}}){% else %} {{pub.title}} {% endif %}
+> <a href="#top"><img src="{{site.baseurl}}/images/top.png" class="responsive" width="75px" align="right"></a>
+<br> {% if pub.pdf %}["{{pub.title}}"]({{ base }}/files/{{pub.pdf}}){% else %} {{pub.title}} {% endif %}
 ({{pub.year}})<br>{{pub.author}}<br>
-{% if {{pub.type}} == "article" %}<span style="color:#000">***{{pub.journal}}***</span>
+{% if {{pub.type}} == "article" %}<span style="color:#000">***{{pub.journal}}*** <br></span>
 {% elsif {{pub.type}} == "inproceeding" or {{pub.type}} == "incollection" %}in <span style="color:#777">***{{pub.booktitle}}***</span>
-<br>eds. *{{pub.editor}}*
-{% endif %}{% if pub.doi %}<br>[*doi:{{pub.doi}}*](https://doi.org/{{pub.doi}}) {% endif %}{% if pub.arxiv %} <br>[*arXiv:{{pub.arxiv}}[physics.geo-ph]*](https://arxiv.org/pdf/{{pub.arxiv}}.pdf){% endif %}
-<br>
-<a href="#top"><img src="{{site.baseurl}}/images/top.png" class="responsive" width="70px" align="left"></a>
+<br>eds. *{{pub.editor}}*<br>
+{% endif %}{% if pub.doi %}[*doi:{{pub.doi}}*](https://doi.org/{{pub.doi}}) <br> {% endif %}{% if pub.arxiv %} [*arXiv:{{pub.arxiv}}[physics.geo-ph]*](https://arxiv.org/pdf/{{pub.arxiv}}.pdf) <br>{% endif %}
 
 
 {% endfor %}
@@ -51,11 +51,12 @@ title:
 {: style="text-decoration: underline; color:black; font-size: 110%; font-weight: bold; text-align: center;"}
 
 {% for pub in site.data.books.publications %}
-> {% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %}{{pub.title}} {% endif %}
+> <a href="#top"><img src="{{site.baseurl}}/images/top.png" class="responsive" width="75px" align="right"></a><br> 
+{% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %}{{pub.title}} {% endif %}
 <br>edited by {{pub.editor}}<br>
 {{pub.publisher}} {% if pub.doi %} <br>[*doi:{{pub.doi}}*](https://doi.org/{{pub.doi}})  {% endif %}({{pub.year}}) 
 <br>
-<a href="#top"><img src="{{site.baseurl}}/images/top.png" class="responsive" width="70px" align="left"></a>
+
 
 
 {% endfor %}
@@ -66,11 +67,10 @@ title:
 {: style="text-decoration: underline; color:black; font-size: 110%; font-weight: bold; text-align: center;"}
 
 {% for pub in site.data.theses.publications %}
-> {% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %}{{pub.title}} {% endif %} ({{pub.year}})<br>
+> <a href="#top"><img src="{{site.baseurl}}/images/top.png" class="responsive" width="75px" align="right"></a><br> 
+{% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %}{{pub.title}} {% endif %} ({{pub.year}})<br>
 *{{pub.author}}*<br>
 **{{pub.school}}** 
-<br>
-<a href="#top"><img src="{{site.baseurl}}/images/top.png" class="responsive" width="70px" align="left"></a>
 
 
 {% endfor %}

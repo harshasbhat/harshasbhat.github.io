@@ -9,7 +9,7 @@ Laboratoire de Géologie<br>
 24 rue Lhomond<br>
 75005 Paris, France
 <br><br>
-<a href="mailto:harsha.bhat@ens.fr"><img src="{{site.baseurl}}/images/email.png" class="responsive"></a>
+<img src="{{site.baseurl}}/images/email.png" class="responsive">
 
 
 [Directions to reach Ecole Normale Supérieure][gmaps]<br>

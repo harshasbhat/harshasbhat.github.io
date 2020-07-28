@@ -1,4 +1,17 @@
 publications:
+    - title:     "Loi de friction et modélisation numérique du cycle sismique"
+      author:    M. Y. Thomas & H. S. Bhat
+      year:    2020/2021
+      journal:    
+      pdf: 		
+      doi:		
+      pubnum:     	
+      type:         incollection   
+      booktitle:	"Le cycle Sismique"
+      publisher:	ISTE Editions
+      editor:   F. Rolandone
+      school:	
+      arxiv: 	
     - title:     "Signature of supershear transition seen in damage and aftershock pattern"
       author:    J. Jara, L. Bruhat, S. Antoine, K. Okubo, M. Y. Thomas, Y. Klinger, R. Jolivet & H. S. Bhat
       year:    2020
