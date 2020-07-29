@@ -26,6 +26,9 @@
 \newrobustcmd*{\mytriangle}[2]{\tikz{\filldraw[draw=#1,fill=#1,rotate=#2] (0,0) --
 (0.2cm,0) -- (0.1cm,0.2cm);}}
 
+\newrobustcmd*{\mysquare}[2]{\tikz{\filldraw[draw=#1,fill=#1,rotate=#2] (0,0) --
+(0.2cm,0) -- (0.2cm,0.2cm) -- (0.0cm,0.2cm);}}
+
 \newrobustcmd*{\mytriangleb}{\tikz{\filldraw[draw=Black,fill=Black,rotate=-90] (0,0) --
 (0.2cm,0) -- (0.1cm,0.2cm);}~}
 
@@ -51,15 +54,17 @@
 
 \definecolor{mycolor}{rgb}{0.02, 0.435, 0.698}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \newcommand{\subtitle}[1]{
-%{\mytriangle{OrangeRed}{-90}~\textbf{\textcolor{NavyBlue}{#1}}}~\mytriangle{OrangeRed}{90}\xrfill[2pt]{1.5pt}[OrangeRed]\\%{\color{OrangeRed}\hrulefill}\\ \mytriangle{BrickRed}{-90}~
-{\textbf{\textcolor{BrickRed}{{#1}}}}\\[-5pt]\noindent
+{\mysquare{BrickRed}{-90}~~\textbf{\textcolor{BrickRed}{\large #1 ~}}}\xrfill[0pt]{2pt}[BrickRed]\\%{\color{OrangeRed}\hrulefill}\\ 
+%\mytriangle{BrickRed}{-90}~
+%{\textbf{\textcolor{BrickRed}{{\large #1}}}}  \\[-5pt]\noindent
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \newcommand{\subtitlea}[2]{
 %{\mytriangle{OrangeRed}{-90}~\textbf{\textcolor{NavyBlue}{#1}}}~\mytriangle{OrangeRed}{90}\xrfill[2pt]{1.5pt}[OrangeRed]\\%{\color{OrangeRed}\hrulefill}\\ \mytriangle{BrickRed}{-90}~
-{\textbf{\textcolor{BrickRed}{{#1}}}}\\[-5pt]
+{\mysquare{BrickRed}{-90}~~\textbf{\textcolor{BrickRed}{\large #1 ~}}}\xrfill[0pt]{2pt}[BrickRed]\\[-5pt]
 \begin{addmargin}[1em]{0em}
 #2
 \end{addmargin}
@@ -90,7 +95,7 @@
 \DeclareFieldFormat{journaltitle}{\textit{#1}}
 \DeclareFieldFormat[article,book,proceedings,inbook,incollection,inproceedings,patent,thesis,unpublished]{title}{\textit{\textcolor{Black}{#1}}}
 \DeclareFieldFormat
-  [article,inbook,incollection,inproceedings,patent,thesis,unpublished]
+  [article,inbook,incollection,proceedings,inproceedings,patent,thesis,unpublished]
   {title}{\mkbibquote{\textcolor{Black}{\bf \textit{#1}}\isdot}}
 \AtEveryBibitem{
 %\clearfield{year}
@@ -98,14 +103,14 @@
 \clearfield{number}
 \clearfield{pages}
 }
-\DeclareFieldFormat{labelnumberwidth}{~~~~~~\mytriangle{Black}{-90}}
+\DeclareFieldFormat{labelnumberwidth}{\mytriangle{Black}{-90}}
 \defbibenvironment{bibliography}
   {\list
      {\printtext[labelnumberwidth]{%
         \printfield{prefixnumber}%
         \printfield{labelnumber}}}
      {\setlength{\labelwidth}{\labelnumberwidth}%
-      \setlength{\leftmargin}{\labelwidth}%
+      \setlength{\leftmargin}{20pt}%
       \setlength{\labelsep}{2pt}%
       \addtolength{\leftmargin}{\labelsep}% 
       \setlength{\itemsep}{\bibitemsep}%
