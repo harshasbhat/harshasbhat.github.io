@@ -246,11 +246,49 @@
     \field{year}{2019}
   \endentry
 
+  \entry{thomas2020}{incollection}{}
+    \name{author}{2}{}{%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Marion\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={Harsha\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=RF}{%
+         family={Rolandone},
+         familyi={R\bibinitperiod},
+         given={Fr{\'e}d{\'e}rique},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ISTE Editions}%
+    }
+    \strng{namehash}{TMYBHS2}
+    \strng{fullhash}{TMYBHS2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{year}
+    \field{booktitle}{Le cycle Sismique}
+    \field{title}{Loi de friction et mod{\'e}lisation num{\'e}rique du cycle
+  sismique}
+    \field{year}{2020}
+  \endentry
+
   \entry{jeandet2020}{article}{}
     \name{author}{4}{}{%
       {{hash=JRL}{%
-         family={Jeandet\bibnamedelima Ribes},
-         familyi={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+         family={Jeandet-Ribes},
+         familyi={J\bibinithyphendelim R\bibinitperiod},
          given={Louise},
          giveni={L\bibinitperiod},
       }}%
@@ -801,8 +839,8 @@
     \list{publisher}{1}{%
       {Oxford University Press}%
     }
-    \strng{namehash}{TMYBHS2}
-    \strng{fullhash}{TMYBHS2}
+    \strng{namehash}{TMYBHS3}
+    \strng{fullhash}{TMYBHS3}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2018}
