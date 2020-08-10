@@ -6,46 +6,46 @@
 \input{preamble.tex}
 \usepackage{fontspec}
 \usepackage{tcolorbox}
-\definecolor{mycolor}{rgb}{0.02, 0.435, 0.698}% Rule colour
+\definecolor{mygray}{rgb}{0.2,0.2,0.2}% Rule colour
 \usepackage{etaremune}
-%\renewcommand*{\bibfont}{\small}
 \usepackage[colorlinks=true,
             linkcolor=gray,
             urlcolor=black,
             citecolor=gray]{hyperref}
+            
+\setlist[description]{%
+  font={\bfseries\sffamily\color{mygray}}, % set the label font
+}
+            
 \begin{document}
-\baselineskip14pt
+\baselineskip15pt
 \setlength{\parskip}{0pt}
-%\setlength\bibitemsep{0.5\baselineskip}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\setmainfont[Mapping=tex-text]{Times New Roman}
+\setmainfont[Mapping=tex-text]{Helvetica}
 \pagestyle{rest}
 \setcounter{page}{1}
 \setcounter{section}{1}
-%\begin{center}
-{\Large \color{BrickRed}\LARGE \textbf{Harsha}} {\Large \color{BrickRed}\LARGE \textit{Suresh}} {\Large \color{BrickRed}\LARGE \textbf{Bhat}} \hfill \textbf{\color{BrickRed}\Large École Normale Supérieure}\\
-%%\end{center}
-%\vspace{-10pt}
-%\begin{flushright}
-\textit{\color{Black}Laboratoire de Géologie} \hfill \textit{\color{Black}www.geologie.ens.fr/${\textrm{\symbol{126}}}$bhat}\\
-\textit{\color{Black}24 Rue Lhomond, 75005, Paris, France} \hfill \textit{\color{Black}Nationality: Indian}\\
-%\end{flushright}
-\vspace{3pt}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\subtitlea{PERSONAL INFORMATION}{
-%\mytriangleb Date of birth: 11 Feb. 1980, Bombay, India\\[3pt]
-%\mytriangleb Nationality: INDIAN\\[3pt]
-%\mytriangleb URL: \url{https://harshasbhat.github.io}}
+\hfill {\Large \color{BrickRed}\LARGE \textbf{Harsha}} {\Large \color{BrickRed}\LARGE \textit{Suresh}} {\Large \color{BrickRed}\LARGE \textbf{Bhat}} \\[-15pt]
 
+\hfill \textit{\color{BrickRed} Chargé de Recherche de Classe Normale, CNRS}\\[-15pt]
+
+\hfill \textit{\color{BrickRed} École Normale Supérieure, Paris}\\[1.5cm]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subtitlea{PERSONAL INFORMATION}{\small
+\vspace{-2pt}
+\mytriangleb Address: Laboratoire de Géologie, 24 Rue Lhomond, 75005, Paris, France\\[3pt]
+\mytriangleb Nationality: Indian\\[3pt]
+\mytriangleb Website: \url{https://harshasbhat.github.io}
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subtitlea{EDUCATION}{\small
 \vspace{-2pt}
 \begin{tabular*}{\textwidth}{c @{\extracolsep{\fill}} llll} 
-{2007/06} & {\bf Ph.D.} & {\it Mechanical Sciences} & {\bf Harvard University, USA} \\[3pt]
-{2002/06} & {\bf M. S.} & {\it Engineering Sciences} & {\bf Harvard University, USA}  
+{2007/06} & { Ph. D.} & {\it Mechanical Sciences} & { Harvard University, USA} \\[3pt]
+{2002/06} & { M. S.} & {\it Engineering Sciences} & { Harvard University, USA} \\[3pt] 
+{2001/06} & { B. E.} & {\it Civil Engineering} & { NITK, India}
 \end{tabular*}
 }
-\vspace{-5pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subtitlea{CURRENT POSITION}{\small
 \begin{tabular}{l l l}
@@ -55,12 +55,13 @@
 \it Visiting Professor in Aeronautics
 \end{tabular}
 }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subtitlea{PAST POSITIONS}{\small
 \begin{tabular}{l l l}
 {\it \mytriangleb Institut de Physique du Globe de Paris, France} & {2012/01~\mytriangle{Black}{-90}~2016/05}&
 \it CNRS Research Scientist \\[4pt]
 {\it \mytriangleb University of Southern California, USA} & {2010/03~\mytriangle{Black}{-90}~2011/12}&
-\it Assistant Professor (Research)  \\[4pt]
+\it Asst. Professor (Research)  \\[4pt]
 {\it \mytriangleb University of Southern California, USA} & {2007/11~\mytriangle{Black}{-90}~2010/03}&
 \it Post Doctoral Fellow  \\[4pt]
 {\it \mytriangleb California Institute of Technology, USA} & {2007/11~\mytriangle{Black}{-90}~2010/03}&
@@ -68,40 +69,33 @@
 {\it \mytriangleb Harvard University, USA} & {2007/05~\mytriangle{Black}{-90}~2007/10}&
 \it Post Doctoral Fellow \\[4pt]
 {\it \mytriangleb Harvard University, USA} & {2001/11~\mytriangle{Black}{-90}~2007/05}&
-\it Graduate Research Associate
+\it Grad. Research Associate
 \end{tabular}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%BrickRed%%%%%%%%%%%%%
 \subtitlea{GRANTS}{ 
-\vspace{-5pt}
 \mytriangleb 2 Million Euros, ERC Consolidator Grant, PERSISMO (865411), Jan 1, 2021-Dec 31, 2025 
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%BrickRed%%%%%%%%%%%%%
 \subtitlea{HONORS AND AWARDS}{ 
-\vspace{-5pt}
 \mytriangleb 2018 CNRS Award for Doctoral Supervision and Research\\
 \mytriangleb 2018 Grand Prix Michel Gouilloud Schlumberger, French Academy of Sciences\\
 \mytriangleb 2003, 2004 \& 2006 Harvard University Certiﬁcate of Distinction in Teaching 
 }
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subtitlea{TEACHING ACTIVITIES$\dagger$}{
-\vspace{-5pt}
-\begin{enumerate*}[label=\textbf{(\arabic*)}]
+\begin{enumerate*}[label=\textit{\arabic*)}]
 \item Mecanique des Milieux Continus \item Active Faults : Geometry \item Seismic Ruptures and Scaling Laws \item  Introduction to Rock Physics \item Mathematical Methods in the Sciences \item Environmental Risks and Disasters \item Ordinary and Partial Differential Equations \item Complex and Fourier Analysis \item Computational Solid and Structural Mechanics \item Solid Mechanics \item Introduction to the Mechanics of Solids \item Mechanics of Fracture  \item  Advanced Geomechanics 
 \end{enumerate*}}
-{\it \hfill $\dagger$ Classes taught with various colleagues at Harvard, Caltech, IPGP and ENS}\\[10pt]
+{\it \hfill $\dagger$ Classes taught with various colleagues at Harvard, Caltech, IPGP and ENS}\\[20pt]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subtitlea{ORGANISATION OF SCIENTIFIC MEETINGS}{
-\vspace{-5pt}
 \mytriangleb June 2019: Coupled Processes In Fracture Propagation In Geo-Materials: From Hydraulic Fractures To Earthquakes: CISM Advanced School, Udine, Italy\\
 \mytriangleb April 2015: Seismological Society of America, Multiscale Modeling and Characterization of Fragmentation and Damage Patterns in Fault Zones\\
 \mytriangleb December 2014: American Geophysical Union, Fault Zone Properties And Processes During Dynamic Ruptures
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subtitlea{INSTITUTIONAL RESPONSIBILITIES}{
-\vspace{-5pt}
 \mytriangleb 2018 Onwards: Team Leader of Faults \& Earthquakes Group, ENS {(\it11 Researchers, 8 postdocs and 8 PhD students)}\\[2pt]
 \mytriangleb 2018-2019: Co-organizer of the Internal Seminar, ENS
 }
@@ -113,9 +107,9 @@
 \setlength\bibitemsep{10pt}
 \printbibliography[segment=1, title={}, heading=none]
 \end{refsegment}
+\vspace{15pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subtitlea{REVIEWING ACTIVITIES }{
-\vspace{-5pt}
 American Geophysical Union
 \hspace{10pt} Seismological Society of America
 \hspace{10pt} International Journal of Fracture
@@ -135,23 +129,22 @@ American Geophysical Union
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subtitlea{MEMBERSHIPS OF SCIENTIFIC SOCIETIES}{
-\vspace{-5pt}
 \mytriangleb American Geophysical Union\\[2pt]
 \mytriangleb European Geophysical Union
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subtitlea{STUDENTS \& POSTDOCS}{\vspace{0.1cm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textbf{\color{BrickRed} ~\textit{\large {Undergraduate Students : 6 weeks long research internship}}}\\[-10pt]
+\textbf{\color{BrickRed} ~\textit{\large {Undergraduate Students : 6 weeks long research internship}}}\\[-1pt]
 \setlist{nolistsep}
-\begin{description}[labelindent=16pt ,labelwidth=2cm, labelsep*=2pt, leftmargin =!, style = standard]%
+\begin{description}[labelindent=16pt ,labelwidth=2cm, labelsep*=2pt, itemsep=8pt,leftmargin =!, style = standard]%
 \item[\mytriangleb Phillipe Danre (2017)] Étude de l’impact des marées sur le glissement sismique et asismique des failles actives \textit{(Co-advised with Dr. R. Jolivet, ENS)}
 \item[\mytriangleb Hugo Lestrelin (2019)] Theoretical investigation of radiation from a size distribution of fractures\textit{(Co-advised with Dr. L. Bruhat, ENS)}
-\item[\mytriangleb Roxane Ferry (2019)] Understanding the relationship between Slow Slip accélérations observed in natural and synthetic GPS \textit{(Co-advised with Dr. J. Jara, ENS)}\\[-5pt]\end{description}
+\item[\mytriangleb Roxane Ferry (2019)] Understanding the relationship between Slow Slip accélérations observed in natural and synthetic GPS \textit{(Co-advised with Dr. J. Jara, ENS)}\\[5pt]\end{description}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textbf{\color{BrickRed} ~\textit{\large {Masters Students : 4-6 month long research internship}}}\\[-10pt]
+\textbf{\color{BrickRed} ~\textit{\large {Masters Students : 4-6 month long research internship}}}\\[-1pt]
 \setlist{nolistsep}
-\begin{description}[labelindent=16pt ,labelwidth=2cm, labelsep*=2pt, leftmargin =!, style = standard]%
+\begin{description}[labelindent=16pt ,labelwidth=2cm, labelsep*=2pt, itemsep=8pt, leftmargin =!, style = standard]%
 \item[\mytriangleb Sonia Fliss (2003)] Fault branching and rupture directivity \textit{(Co-advised with Prof. J. R. Rice \& Dr. R. Dmowska, Harvard)}
 \item[\mytriangleb Marion Olives (2004)] Finite fault branches and rupture dynamics: Is it time to look more carefully at fault maps? \textit{(Co-advised with Prof. J. R. Rice \& Dr. R. Dmowska, Harvard)}
 \item[\mytriangleb Aurelie Baudet (2004)] Finite element modeling of laboratory experiments on impact and shear rupture of pre-faulted specimens \textit{(Co-advised with Prof. J. R. Rice \& Dr. E. L. Templeton, Harvard)}
@@ -163,35 +156,33 @@ American Geophysical Union
 \item[\mytriangleb Luc Illien (2018)] Multiseismic phase characterization in laboratory rock deformation experiments, a Numerical and Experimental study \textit{(Co-advised with Dr. N. Brantut)}
 \item[\mytriangleb Nicolas Mercury (2018)] Modélisation physique de réseaux complexes de failles afin de déterminer l’origine de la loi de Gutenberg-Richter \textit{(Co-advised with Dr. J-A Olive)}
 \item[\mytriangleb Phillipe Danre (2019)] Nonlinear dynamics of faults subjected to periodic loads \textit{(Co-advised with Dr. R. Jolivet, ENS)}
-\item[\mytriangleb Jinhui Cheng (2020)] Analyze modes of slip and related synthetic GPS based on quasi-dynamic earthquake cycle modelling in complex fault networks\\[-5pt]
+\item[\mytriangleb Jinhui Cheng (2020)] Analyze modes of slip and related synthetic GPS based on quasi-dynamic earthquake cycle modelling in complex fault networks\\[5pt]
 \end{description}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textbf{\color{BrickRed} ~\textit{\large {PhD students : Co-supervised}}}\\[-10pt]
+\textbf{\color{BrickRed} ~\textit{\large {PhD students : Co-supervised}}}\\[-1pt]
 \setlist{nolistsep}
-\begin{description}[labelindent=16pt ,labelwidth=2cm, labelsep*=2pt, leftmargin =!, style = standard]%
+\begin{description}[labelindent=16pt ,labelwidth=2cm, labelsep*=2pt, itemsep=8pt,leftmargin =!, style = standard]%
 \item[\mytriangleb Michael Mello (2012)] Identifying the unique ground motion signatures of supershear earthquakes: Theory and experiments, \textit{PhD, Caltech,}~~\textit{Main Advisor : Prof. A. J. Rosakis}
 \item[\mytriangleb Jonathan Mihaly (2013)] Investigation of hypervelocity impact phenomena using real-time concurrent diagnostics, \textit{PhD, Caltech,}~~\textit{Main Advisor : Prof. A. J. Rosakis}
 \item[\mytriangleb François X. Passelègue (2014)] Étude Expérimentale de la Rupture Sismique, \textit{PhD, École Normale Supérieure de Paris,}~~\textit{Main Advisors : Prof. R. Madariaga \& Dr. A. Schubnel}
 \item[\mytriangleb Vahe Gabuchian (2015)] Experimental investigation of thrust fault rupture mechanics, \textit{PhD, Caltech,}~~\textit{Main Advisor : Prof. A. J. Rosakis}
 \item[\mytriangleb Marshall Alan Rogers-Martinez (2019)] Source mechanics of near-field s-wave generation from explosive sources, \textit{PhD, Univ. South. Calif.,}~~\textit{Main Advisor : Prof. C. G. Sammis}
 \item[\mytriangleb Samson Marty (2020)] High frequency radiation and foreshocks during laboratory earthquakes, \textit{PhD, ENS,}~~\textit{Main Advisor : Dr. A. Schubnel}
-\item[\mytriangleb \color{Black}Joseph Michael Flores Cuba (starting 2020)]~~\textit{Main Advisor : Dr. M. Thomas}\\[-5pt]
+\item[\mytriangleb \color{Black}Joseph Michael Flores Cuba (starting 2020)]~~\textit{Main Advisor : Dr. M. Thomas}\\[5pt]
 \end{description}
-\vspace{-5pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textbf{\color{BrickRed} ~\textit{\large {PhD students : Main Supervisor}}}\\[-10pt]
+\textbf{\color{BrickRed} ~\textit{\large {PhD students : Main Supervisor}}}\\[-1pt]
 \setlist{nolistsep}
-\begin{description}[labelindent=16pt ,labelwidth=2cm, labelsep*=2pt, leftmargin =!, style = standard]%
+\begin{description}[labelindent=16pt ,labelwidth=2cm, labelsep*=2pt, itemsep=8pt,leftmargin =!, style = standard]%
 \item[\mytriangleb Pierre Romanet (2017)] Fast algorithms to model quasi-dynamic earthquake cycles in complex fault networks, \textit{PhD, Institut de Physique du Globe de Paris \& École Normale Supérieure,}~~\textit{Co-Advisor : Prof. R. Madariaga},~~\textit{Currently Postdoc at Univ. Tokyo with Prof. S. Ide}
 \item[\mytriangleb Kurama Okubo (2018)] Earthquakes in fault networks and dynamic off-fault fracture networks developed during earthquakes, \textit{PhD, Institut de Physique du Globe de Paris \& École Normale Supérieure,}~~\textit{Co-Advisor : Dr. Y. Klinger},~~\textit{Currently Postdoc at Harvard Univ. with Prof. M. Denolle}
 \item[\mytriangleb \color{Black}Claudia Hulbert (starting 2018)] Machine learning techniques for event identification and simulation of earthquake cycles, \textit{Co-Advisors : Dr. R. Jolivet \& Dr. A. Schubnel}
-\item[\mytriangleb \color{Black}Jinhui Cheng (starting 2021)] Earthquake cycles in 3D fault networks \\[-5pt]
+\item[\mytriangleb \color{Black}Jinhui Cheng (starting 2021)] Earthquake cycles in 3D fault networks \\[5pt]
 \end{description}
-\vspace{-5pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textbf{\color{BrickRed} ~\textit{\large {Post Doctoral Associates}}}\\[-10pt]
+\textbf{\color{BrickRed} ~\textit{\large {Post Doctoral Associates}}}\\[-1pt]
 \setlist{nolistsep}
-\begin{description}[labelindent=16pt ,labelwidth=2cm, labelsep*=2pt, leftmargin =!, style = standard]%
+\begin{description}[labelindent=16pt ,labelwidth=2cm, labelsep*=2pt, itemsep=8pt,leftmargin =!, style = standard]%
 \item[\mytriangleb Marion Thomas (2014-2016)] Dynamic damage and earthquake ruptures, \textit{Co-Advisor : Dr. Y. Klinger}
 \item[\mytriangleb Marion Thomas (May 2018 - Dec. 2018)] Earthquake cycles accounting for off-fault damage, Prestige Marie-Curie Fellow; \textit{Currently CNRS Research Scientist at Univ. Paris VI}
 \item[\mytriangleb Lisa Gordeliy (Jan. 2019 - Oct. 2019)] Hydraulic Fracturing \textit{Co-Advisor : Prof. B. Lecampion}
@@ -201,30 +192,14 @@ American Geophysical Union
 \item[\mytriangleb \color{Black} Carlos Villafuerte (starting 2021)]
 \end{description}
 }
-%\vspace{-5pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subtitle{MANUSCRIPTS}\\
-Over 35 publications in peer reviewed international journals including Nature, Nature Communications and Science. h-index of 17 with an average of 70 citations per year since 2012. \href{https://scholar.google.fr/citations?user=ZHskR34AAAAJ&hl=en}{Google Scholar ID: ZHskR34AAAAJ}\\[12pt]
-\vspace{-1pt}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textbf{\color{BrickRed} ~\textit{\large {Manuscripts in Preparation}}}\\[-15pt]
+Over 35 publications in peer reviewed international journals including Nature, Nature Communications and Science. h-index of 20 with an average of 70 citations per year since 2012. \href{https://scholar.google.fr/citations?user=ZHskR34AAAAJ&hl=en}{Google Scholar ID: ZHskR34AAAAJ}\\[-5pt]
 \begin{refsegment}
-\setlength\bibitemsep{5pt}
-\nocite{romanet2019,jara2020,martinez2019,thomas2019b}\printbibliography[segment=2, title={}, heading=none]
-\end{refsegment}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textbf{\color{BrickRed} ~\textit{\large {Published \& Submitted Manuscripts}}}\\[-15pt]
-\begin{refsegment}
-\setlength\bibitemsep{5pt}
-\nocite{thomas2020,jeandet2020,amlani2020,jolivet2020,okubo2020, okubo2019,marty2019,aubry2018,klinger2018,cruz2018,thomas2018a,romanet2018,gabuchian2017,thomas2017b,passelegue2017,perol2016,passelegue2016b,mello2016,vallage2015,frank2015,siriki2015,mello2014,passelegue2013,bhat2012,bhat2011a,bhat2010a,biegel2010,mello2010,templeton2010,harris2009,sammis2009,templeton2009,dunham2008a,bhat2007a,bhat2007b,bhat2007c,fliss2005,bhat2004}
+\setlength\bibitemsep{10pt}
+\nocite{romanet2019,jara2020,martinez2019,thomas2019b, thomas2020,jeandet2020,amlani2020,jolivet2020,okubo2020, okubo2019,marty2019,aubry2018,klinger2018,cruz2018,thomas2018a,romanet2018,gabuchian2017,thomas2017b,passelegue2017,perol2016,passelegue2016b,mello2016,vallage2015,frank2015,siriki2015,mello2014,passelegue2013,bhat2012,bhat2011a,bhat2010a,biegel2010,mello2010,templeton2010,harris2009,sammis2009,templeton2009,dunham2008a,bhat2007a,bhat2007b,bhat2007c,fliss2005,bhat2004}
 \printbibliography[segment=3, title={}, heading=none]
 \end{refsegment}
-
-%\vspace*{\fill}\hfill \tiny \color{Gray}Last Modified \today
-
-%\subtitle{CONFERENCE ORGANIZATION}
-%\textit{American Geophysical Union, December 2014, Fault Zone Properties And Processes During Dynamic Rupture}\\
-%\textit{Seismological Society of America, April 2015,Multiscale Modeling and Characterization of Fragmentation and Damage Patterns in Fault Zones}\\
-%\normalsize
+\vspace{10pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}

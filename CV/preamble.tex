@@ -57,18 +57,18 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \newcommand{\subtitle}[1]{
-{\mysquare{BrickRed}{-90}~~\textbf{\textcolor{BrickRed}{\large #1 ~}}}\xrfill[0pt]{2pt}[BrickRed]\\%{\color{OrangeRed}\hrulefill}\\ 
-%\mytriangle{BrickRed}{-90}~
-%{\textbf{\textcolor{BrickRed}{{\large #1}}}}  \\[-5pt]\noindent
+{\textbf{\textcolor{BrickRed}{}}}\xrfill[0pt]{0.5pt}[BrickRed]\\[5pt]
+{\textbf{\textcolor{BrickRed}{#1 ~}}}\\[5pt]
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \newcommand{\subtitlea}[2]{
 %{\mytriangle{OrangeRed}{-90}~\textbf{\textcolor{NavyBlue}{#1}}}~\mytriangle{OrangeRed}{90}\xrfill[2pt]{1.5pt}[OrangeRed]\\%{\color{OrangeRed}\hrulefill}\\ \mytriangle{BrickRed}{-90}~
-{\mysquare{BrickRed}{-90}~~\textbf{\textcolor{BrickRed}{\large #1 ~}}}\xrfill[0pt]{2pt}[BrickRed]\\[-5pt]
+{\textbf{\textcolor{BrickRed}{}}}\xrfill[0pt]{0.5pt}[BrickRed]\\[5pt]
+{\textbf{\textcolor{BrickRed}{#1 ~}}}\\[2pt]
 \begin{addmargin}[1em]{0em}
 #2
 \end{addmargin}
-\vspace{10pt}
+\vspace{15pt}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newenvironment{tightcenter}{%
@@ -103,7 +103,7 @@
 \clearfield{number}
 \clearfield{pages}
 }
-\DeclareFieldFormat{labelnumberwidth}{\mytriangle{Black}{-90}}
+\DeclareFieldFormat{labelnumberwidth}{\mytriangle{Black}{-90}~~}
 \defbibenvironment{bibliography}
   {\list
      {\printtext[labelnumberwidth]{%
@@ -114,7 +114,7 @@
       \setlength{\labelsep}{2pt}%
       \addtolength{\leftmargin}{\labelsep}% 
       \setlength{\itemsep}{\bibitemsep}%
-      \setlength\bibhang{10pt}
+      \setlength\bibhang{20pt}
       \setlength{\parsep}{\bibparsep}}%
       \renewcommand*{\makelabel}[1]{\hss##1}}
   {\endlist}
@@ -124,13 +124,13 @@
 
 \fancypagestyle{rest}
 {      
-\fancyhead[L]{}
+\fancyfoot[L]{}
 \fancyhead[R]{}
 \fancyhead[C]{}
 \fancyfoot[C]{[\thepage]}
 \fancyfoot[R]{\tiny \color{Gray}Last Modified \today}
 }
-\setlength{\footskip}{0.5cm}
+\setlength{\footskip}{1.5cm}
 \setlength{\voffset}{0.0cm} 
 \setlength{\headheight}{-6pt} 
 \renewcommand{\headrulewidth}{0.0pt}
