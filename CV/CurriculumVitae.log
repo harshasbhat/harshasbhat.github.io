@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.19)  10 AUG 2020 15:04
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.19)  10 AUG 2020 18:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -1282,23 +1282,23 @@ LaTeX Font Info:    ... okay on input line 20.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* h-part:(L,W,R)=(78.24507pt, 455.24411pt, 64.01869pt)
+* v-part:(T,H,B)=(71.13188pt, 674.33032pt, 99.58464pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=455.24411pt
-* \textheight=702.78308pt
-* \oddsidemargin=-1.1381pt
-* \evensidemargin=-1.1381pt
+* \textheight=674.33032pt
+* \oddsidemargin=5.97508pt
+* \evensidemargin=5.97508pt
 * \topmargin=-38.1381pt
 * \headheight=-6.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=42.67912pt
-* \marginparwidth=59.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1426,96 +1426,99 @@ LaTeX Info: Redefining \nameref on input line 20.
 \openout7 = `CurriculumVitae.out'.
 
 
-Package fontspec Info: Font family 'Helvetica(0)' created for font 'Helvetica'
-(fontspec)             with options [Ligatures=TeX,Mapping=tex-text].
+Package fontspec Info: Font family 'Arial(0)' created for font 'Arial' with
+(fontspec)             options [Ligatures=TeX,Mapping=tex-text].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"Helvetica/AAT:mapping=tex-text;"
+(fontspec)             <->"Arial/OT:script=latn;language=DFLT;mapping=tex-text;
+"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (bx/n) with NFSS spec.:
-(fontspec)             <->"Helvetica/B/AAT:mapping=tex-text;"
+(fontspec)             <->"Arial/B/OT:script=latn;language=DFLT;mapping=tex-tex
+t;"
 (fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->"Helvetica/I/AAT:mapping=tex-text;"
+(fontspec)             <->"Arial/I/OT:script=latn;language=DFLT;mapping=tex-tex
+t;"
 (fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
 (fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
-(fontspec)             <->"Helvetica/BI/AAT:mapping=tex-text;"
+(fontspec)             <->"Arial/BI/OT:script=latn;language=DFLT;mapping=tex-te
+xt;"
 (fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
-LaTeX Info: Redefining \rmfamily on input line 25.
+LaTeX Info: Redefining \rmfamily on input line 26.
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--39
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--40
+
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 48--48
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 48--48
+Overfull \hbox (10.0pt too wide) in paragraph at lines 49--49
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 
  []
 
 
-Overfull \hbox (12.25923pt too wide) in paragraph at lines 74--74
+Overfull \hbox (5.30923pt too wide) in paragraph at lines 75--75
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 
  []
 
-LaTeX Font Info:    Font shape `TU/Helvetica(0)/m/sl' in size <10.95> not avail
-able
-(Font)              Font shape `TU/Helvetica(0)/m/it' tried instead on input li
-ne 89.
+LaTeX Font Info:    Font shape `TU/Arial(0)/m/sl' in size <10> not available
+(Font)              Font shape `TU/Arial(0)/m/it' tried instead on input line 9
+0.
 
 Package Fancyhdr Warning: \headheight is too small (-6.0pt): 
-Make it at least 13.59999pt.
+Make it at least 12.0pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
@@ -1530,153 +1533,134 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 90--96
+Underfull \hbox (badness 10000) in paragraph at lines 91--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 
  []
 
-Package biblatex Info: Reference segment=1 on input line 105.
-Package biblatex Info: Setting label 'refsegment:01' on input line 105.
-Package biblatex Info: Reference segment=0 on input line 109.
+Package biblatex Info: Reference segment=1 on input line 106.
+Package biblatex Info: Setting label 'refsegment:01' on input line 106.
+Package biblatex Info: Reference segment=0 on input line 110.
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 134--134
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Overfull \hbox (10.13057pt too wide) in paragraph at lines 196--196
+[]\TU/Arial(0)/m/n/10 Theoretical investigation of radiation from a size distri
+bution of fractures\TU/Arial(0)/m/it/10 (Co-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-
+Overfull \hbox (3.09605pt too wide) in paragraph at lines 196--196
+[]\TU/Arial(0)/m/n/10 Multiseismic phase characterization in laboratory rock de
+formation experiments,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Overfull \hbox (6.1348pt too wide) in paragraph at lines 196--196
+[]\TU/Arial(0)/m/n/10 Identifying the unique ground motion signatures of supers
+hear earthquakes:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
 
-Overfull \hbox (8.41125pt too wide) in paragraph at lines 194--194
-[]\TU/Helvetica(0)/m/n/10.95 Étude Expérimentale de la Rupture Sismique, \TU/He
-lvetica(0)/m/it/10.95 PhD, École
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
 
-Overfull \hbox (0.14699pt too wide) in paragraph at lines 194--194
-[]\TU/Helvetica(0)/m/n/10.95 Earthquakes in fault networks and dynamic off-faul
-t fracture net-
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+
+ []
+
+
+Overfull \hbox (0.31578pt too wide) in paragraph at lines 196--196
+[]\TU/Arial(0)/m/n/10 Dynamics of subduction zone earthquakes, Prestige Marie-
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Package biblatex Info: Reference segment=2 on input line 200.
+Package biblatex Info: Setting label 'refsegment:02' on input line 200.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-
- []
-
-
-Overfull \hbox (14.22781pt too wide) in paragraph at lines 194--194
-[]\TU/Helvetica(0)/m/n/10.95 Earthquake cycles accounting for off-fault dam-
- []
-
-
-Overfull \hbox (12.55606pt too wide) in paragraph at lines 194--194
-[]\TU/Helvetica(0)/m/n/10.95 Hydraulic Fracturing \TU/Helvetica(0)/m/it/10.95 C
-o-Advisor : Prof. B. Lecam-
- []
-
-
-Overfull \hbox (8.05653pt too wide) in paragraph at lines 194--194
-[]\TU/Helvetica(0)/m/n/10.95 Long term dynamics of subduction zones,   \TU/Helv
-etica(0)/m/it/10.95 Co-Advisor
- []
-
-Package biblatex Info: Reference segment=2 on input line 198.
-Package biblatex Info: Setting label 'refsegment:02' on input line 198.
-
-Package biblatex Warning: Segment '3' not found in section '0' on input line 20
-1.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--201
+Underfull \hbox (badness 10000) in paragraph at lines 198--203
 
  []
 
 [5] [6]
-Overfull \hbox (15.58823pt too wide) in paragraph at lines 201--201
-\TU/Helvetica(0)/bx/it/10.95 Sub-Rayleigh to Supershear Ruptures During Stick-S
-lip Experiments on Crustal Rocks[]\TU/Helvetica(0)/m/n/10.95 ”.
+Overfull \hbox (25.86957pt too wide) in paragraph at lines 203--203
+\TU/Arial(0)/m/it/10 namic Path Selection Along Kinked and Branched Faults[]\TU
+/Arial(0)/m/n/10 ”. \TU/Arial(0)/m/it/10 J. Geophys. Res. \TU/Arial(0)/m/n/10 D
+OI: [][]$[][] [] [][][][] [] [][][][][][][][][][][][]$[][]. 
  []
 
-[7]
-Package biblatex Info: Reference segment=0 on input line 202.
- 
+Package biblatex Info: Reference segment=0 on input line 204.
+
 AED: lastpage setting LastPage
-[8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
+[7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
  (./CurriculumVitae.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 205.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 207.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
 Package rerunfilecheck Info: File `CurriculumVitae.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'CurriculumVitae.run.xml'.
 \openout1 = `CurriculumVitae.run.xml'.
 
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 43164 strings out of 492916
- 851938 string characters out of 6133345
- 1333131 words of memory out of 5000000
- 46669 multiletter control sequences out of 15000+600000
- 539622 words of font info for 85 fonts, out of 8000000 for 9000
+ 43107 strings out of 492916
+ 850873 string characters out of 6133345
+ 1334120 words of memory out of 5000000
+ 46631 multiletter control sequences out of 15000+600000
+ 534902 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 66i,14n,92p,1040b,5177s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,14n,92p,1040b,5179s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CurriculumVitae.pdf (8 pages).
+Output written on CurriculumVitae.pdf (7 pages).

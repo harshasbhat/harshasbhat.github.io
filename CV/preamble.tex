@@ -54,17 +54,17 @@
 
 \definecolor{mycolor}{rgb}{0.02, 0.435, 0.698}
 
+\renewcommand\fbox{\fcolorbox{BrickRed}{white}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \newcommand{\subtitle}[1]{
-{\textbf{\textcolor{BrickRed}{}}}\xrfill[0pt]{0.5pt}[BrickRed]\\[5pt]
-{\textbf{\textcolor{BrickRed}{#1 ~}}}\\[5pt]
+{\textbf{\textcolor{BrickRed}{}}}\xrfill[0pt]{0.5pt}[BrickRed]\\[-2pt]
+\fbox{\textbf{\textcolor{BrickRed}{#1 ~}}}\\[5pt]
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \newcommand{\subtitlea}[2]{
-%{\mytriangle{OrangeRed}{-90}~\textbf{\textcolor{NavyBlue}{#1}}}~\mytriangle{OrangeRed}{90}\xrfill[2pt]{1.5pt}[OrangeRed]\\%{\color{OrangeRed}\hrulefill}\\ \mytriangle{BrickRed}{-90}~
-{\textbf{\textcolor{BrickRed}{}}}\xrfill[0pt]{0.5pt}[BrickRed]\\[5pt]
-{\textbf{\textcolor{BrickRed}{#1 ~}}}\\[2pt]
+{\textbf{\textcolor{BrickRed}{}}}\xrfill[0pt]{0.5pt}[BrickRed]\\[-5pt]
+\fbox{\textbf{\textcolor{BrickRed}{#1 ~}}}\\[2pt]
 \begin{addmargin}[1em]{0em}
 #2
 \end{addmargin}
@@ -96,7 +96,7 @@
 \DeclareFieldFormat[article,book,proceedings,inbook,incollection,inproceedings,patent,thesis,unpublished]{title}{\textit{\textcolor{Black}{#1}}}
 \DeclareFieldFormat
   [article,inbook,incollection,proceedings,inproceedings,patent,thesis,unpublished]
-  {title}{\mkbibquote{\textcolor{Black}{\bf \textit{#1}}\isdot}}
+  {title}{\mkbibquote{\textcolor{Black}{\textit{#1}}\isdot}}
 \AtEveryBibitem{
 %\clearfield{year}
 \clearfield{volume}

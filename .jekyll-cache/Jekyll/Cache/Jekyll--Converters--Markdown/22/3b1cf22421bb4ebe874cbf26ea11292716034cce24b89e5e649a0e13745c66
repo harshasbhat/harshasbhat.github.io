@@ -1,4 +1,4 @@
-I"If<p><a name="top"></a></p>
+I"�f<p><a name="top"></a></p>
 <style>
     #link_bar a { display: inline;margin-right: 0.25em; font-weight: bold; border-radius: 0.7em; padding: 3px 6px; float:center; color:#3047c9; background-color:#fff; border: 1px solid #dce0f2;}
     #link_bar a:hover { display: inline;margin-right: 0.25em; font-weight: bold; border-radius: 0.7em; padding: 3px 6px; float:center; color:#3047c9; background-color:#dce0f2; border: 1px solid #dce0f2; text-decoration:none;}
@@ -17,19 +17,6 @@
 <h2 style="text-decoration: underline; color:black; font-size: 110%; font-weight: bold; text-align: center;" id="articles">Articles</h2>
 
 <!-- 
-2020/2021
-{: style="color:$harvard; font-size: 120%; font-weight: bold; text-align: center;"}
- -->
-
-<blockquote>
-  <p><a href="#top"><img src="/images/top.png" class="responsive" width="75px" align="right" /></a>
-<br />  Loi de friction et modélisation numérique du cycle sismique 
-(2020/2021)<br />M. Y. Thomas &amp; H. S. Bhat<br />
-in <span style="color:#777"><strong><em>Le cycle Sismique</em></strong></span>
-<br />eds. <em>F. Rolandone</em><br /></p>
-</blockquote>
-
-<!-- 
 2020
 {: style="color:$harvard; font-size: 120%; font-weight: bold; text-align: center;"}
  -->
@@ -42,11 +29,29 @@ in <span style="color:#777"><strong><em>Le cycle Sismique</em></strong></span>
  <a href="https://arxiv.org/pdf/1909.12672.pdf"><em>arXiv:1909.12672[physics.geo-ph]</em></a> <br /></p>
 </blockquote>
 
+<!-- 
+2020/2021
+{: style="color:$harvard; font-size: 120%; font-weight: bold; text-align: center;"}
+ -->
+
+<blockquote>
+  <p><a href="#top"><img src="/images/top.png" class="responsive" width="75px" align="right" /></a>
+<br />  Loi de friction et modélisation numérique du cycle sismique 
+(2020/2021)<br />M. Y. Thomas &amp; H. S. Bhat<br />
+in <span style="color:#777"><strong><em>Le Cycle Sismique</em></strong></span>
+<br />eds. <em>F. Rolandone</em><br /></p>
+</blockquote>
+
+<!-- 
+2020
+{: style="color:$harvard; font-size: 120%; font-weight: bold; text-align: center;"}
+ -->
+
 <blockquote>
   <p><a href="#top"><img src="/images/top.png" class="responsive" width="75px" align="right" /></a>
 <br /> <a href="/files/Jeandet-RibesCubasBhat2020a.pdf">“Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle”</a>
 (2020)<br />L. Jeandet-Ribes, N. Cubas, H. S. Bhat &amp; P. Steer<br />
-<span style="color:#000"><strong><em>subm. Geophys. Res. Lett.</em></strong> <br /></span>
+<span style="color:#000"><strong><em>accepted with minor revisions in Geophys. Res. Lett.</em></strong> <br /></span>
  <a href="https://arxiv.org/pdf/2007.06412.pdf"><em>arXiv:2007.06412[physics.geo-ph]</em></a> <br /></p>
 </blockquote>
 
