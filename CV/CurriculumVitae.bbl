@@ -84,45 +84,6 @@
     \field{year}{2012}
   \endentry
 
-  \entry{romanet2019}{article}{}
-    \name{author}{4}{}{%
-      {{hash=RP}{%
-         family={Romanet},
-         familyi={R\bibinitperiod},
-         given={Pierre},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=BHS}{%
-         family={Bhat},
-         familyi={B\bibinitperiod},
-         given={Harsha\bibnamedelima S.},
-         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=CS}{%
-         family={Chaillat},
-         familyi={C\bibinitperiod},
-         given={St{\'e}phanie},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=MR}{%
-         family={Madariaga},
-         familyi={M\bibinitperiod},
-         given={Ra{\`u}l},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{RPBHSCSMR1}
-    \strng{fullhash}{RPBHSCSMR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2019}
-    \field{labeldatesource}{year}
-    \field{title}{Fast algorithms to model quasi-dynamic earthquake cycles in
-  complex fault networks}
-    \field{journaltitle}{to be subm. J. Geophys. Res.}
-    \field{year}{2019}
-  \endentry
-
   \entry{jara2020}{article}{}
     \name{author}{8}{}{%
       {{hash=JJ}{%
@@ -186,66 +147,6 @@
     \field{year}{2020}
   \endentry
 
-  \entry{martinez2019}{article}{}
-    \name{author}{3}{}{%
-      {{hash=RMM}{%
-         family={Rogers-Martinez},
-         familyi={R\bibinithyphendelim M\bibinitperiod},
-         given={Marshall},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=SCG}{%
-         family={Sammis},
-         familyi={S\bibinitperiod},
-         given={Charles\bibnamedelima G.},
-         giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-      {{hash=BHS}{%
-         family={Bhat},
-         familyi={B\bibinitperiod},
-         given={Harsha\bibnamedelima S.},
-         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{RMMSCGBHS1}
-    \strng{fullhash}{RMMSCGBHS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2019}
-    \field{labeldatesource}{year}
-    \field{title}{Seismic Radiation From An Explosion In Rock Having An
-  Anisotropic Distribution Of Fractures}
-    \field{journaltitle}{to be submitted}
-    \field{year}{2019}
-  \endentry
-
-  \entry{thomas2019b}{article}{}
-    \name{author}{2}{}{%
-      {{hash=TMY}{%
-         family={Thomas},
-         familyi={T\bibinitperiod},
-         given={Marion\bibnamedelima Y},
-         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-      {{hash=BHS}{%
-         family={Bhat},
-         familyi={B\bibinitperiod},
-         given={H.\bibnamedelima S.},
-         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{TMYBHS1}
-    \strng{fullhash}{TMYBHS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2019}
-    \field{labeldatesource}{year}
-    \field{title}{Combined effects of fault roughness and off-fault damage on
-  earthquake dynamics}
-    \field{journaltitle}{in prep}
-    \field{year}{2019}
-  \endentry
-
   \entry{thomas2020}{incollection}{}
     \name{author}{2}{}{%
       {{hash=TMY}{%
@@ -272,13 +173,13 @@
     \list{publisher}{1}{%
       {ISTE Editions}%
     }
-    \strng{namehash}{TMYBHS2}
-    \strng{fullhash}{TMYBHS2}
+    \strng{namehash}{TMYBHS1}
+    \strng{fullhash}{TMYBHS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2020}
     \field{labeldatesource}{year}
-    \field{booktitle}{Le cycle Sismique}
+    \field{booktitle}{Le Cycle Sismique}
     \field{title}{Loi de friction et mod{\'e}lisation num{\'e}rique du cycle
   sismique}
     \field{year}{2020}
@@ -319,7 +220,7 @@
     \field{labeldatesource}{year}
     \field{title}{Response of a single fault to transient normal stress change,
   and implications of large erosional events on the seismic cycle}
-    \field{journaltitle}{subm. Geophys. Res. Lett.}
+    \field{journaltitle}{accepted with minor rev. Geophys. Res. Lett.}
     \field{year}{2020}
   \endentry
 
@@ -839,8 +740,8 @@
     \list{publisher}{1}{%
       {Oxford University Press}%
     }
-    \strng{namehash}{TMYBHS3}
-    \strng{fullhash}{TMYBHS3}
+    \strng{namehash}{TMYBHS2}
+    \strng{fullhash}{TMYBHS2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2018}
