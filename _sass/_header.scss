@@ -11,12 +11,13 @@
 
 .site-header a {
     color: $header-text-color;
-    border-bottom: 0.1px;
-}
-.site-header a:hover {
-    color: $header-hover-color;
     border-bottom: 1px;
-    text-decoration: none;
+}
+
+.site-header a:hover {
+    color: $header-text-color;
+    border-bottom: 1px;
+    text-decoration: none;    
 }
 
 .site-title {

@@ -7,6 +7,7 @@ title:
     #link_bar a { display: inline;margin-right: 0.25em; font-weight: bold; border-radius: 0.7em; padding: 3px 6px; float:center; color:#3047c9; background-color:#fff; border: 1px solid #dce0f2;}
     #link_bar a:hover { display: inline;margin-right: 0.25em; font-weight: bold; border-radius: 0.7em; padding: 3px 6px; float:center; color:#3047c9; background-color:#dce0f2; border: 1px solid #dce0f2; text-decoration:none;}
 </style>
+
 <div id="link_bar">
     <a href="{{ base }}/CV/CurriculumVitae.pdf">CV</a>
     <a href="http://scholar.google.com/citations?user={{site.author.scholar}}&hl=en&oi=ao">GScholar</a>
