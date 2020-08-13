@@ -4,7 +4,7 @@
     font-family: $heading-font-family;
     font-size:   $heading-font-size;
     font-weight: $font-weight-bold;
-    text-transform: uppercase;
+//     text-transform: uppercase;
     color: $header-text-color;
     @extend %clearfix;
 }
@@ -15,7 +15,7 @@
 }
 
 .site-header a:hover {
-    color: $header-text-color;
+    color: $header-hover-color;
     border-bottom: 1px;
     text-decoration: none;    
 }
@@ -24,7 +24,7 @@
     margin-top: 1em;
     margin-bottom: 1em;
     float: left;
-    letter-spacing: 2px;
+//     letter-spacing: 2px;
     color: $header-hover-color;
 }
 
@@ -56,7 +56,7 @@
     display: block;
     line-height: 1.2em;
     padding: 4px 10px;
-    color: $header-hover-color;
+    color: $header-text-color;
 }
 
 .site-nav .sub-menu a:hover {
@@ -78,10 +78,8 @@
     right: -10px;
     padding: 4px 0 3px 0;
     position: absolute;
-    text-align: left;
-    text-transform: none;
     top: 28px;
-    min-width: 265px;
+//     min-width: 265px;
     z-index:999;
 }
 
@@ -91,7 +89,8 @@
     height: auto;
     margin: 3px 0;
     padding: 0;
-    text-align: left;
+    text-align: center;
+    font-size:   $small-font-size;
 }
 
 .site-nav li:hover > .sub-menu {

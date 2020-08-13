@@ -1,4 +1,18 @@
 publications:
+    - title:     "Loi de friction et modélisation numérique du cycle sismique"
+      author:    M. Y. Thomas & H. S. Bhat
+      year:    2020
+      journal:    
+      pdf: 		
+      doi:		
+      pubnum:     	39
+      type:         incollection  
+      booktitle:	"Le Cycle Sismique"
+      publisher:	ISTE Editions
+      editor:   F. Rolandone
+      school:	
+      arxiv: 	
+      topics: "friction, earthquake cycles, history"	
     - title:     "Signature of supershear transition seen in damage and aftershock pattern"
       author:    J. Jara, L. Bruhat, S. Antoine, K. Okubo, M. Y. Thomas, Y. Klinger, R. Jolivet & H. S. Bhat
       year:    2020
@@ -12,23 +26,11 @@ publications:
       editor:   
       school:	
       arxiv: 	1909.12672
-    - title:     "Loi de friction et modélisation numérique du cycle sismique"
-      author:    M. Y. Thomas & H. S. Bhat
-      year:    2020/2021
-      journal:    
-      pdf: 		
-      doi:		
-      pubnum:     	
-      type:         incollection   
-      booktitle:	"Le Cycle Sismique"
-      publisher:	ISTE Editions
-      editor:   F. Rolandone
-      school:	
-      arxiv: 	
+      topics: "supershear, damage, fracture mechanics, numerical models, aftershocks"	
     - title:     "Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle"
       author:    L. Jeandet-Ribes, N. Cubas, H. S. Bhat & P. Steer
       year:    2020
-      journal:    accepted with minor revisions in Geophys. Res. Lett.
+      journal:    accepted with minor rev. Geophys. Res. Lett.
       pdf: 		Jeandet-RibesCubasBhat2020a.pdf
       doi:		
       pubnum:     	37
@@ -38,6 +40,7 @@ publications:
       editor:   
       school:	
       arxiv: 	2007.06412
+      topics: "erosion, earthquake cycles, numerical models"	
     - title:     "Supershear Tsunamis and insights from the $M_w$ 7.5 Palu Earthquake"
       author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin
       year:    2020
@@ -51,6 +54,7 @@ publications:
       editor:   
       school:	
       arxiv: 	1910.14547
+      topics: "supershear, tsunami, numerical models, FCM"	
     - title:     "Modeling earthquakes with off-fault damage using the combined finite discrete element method"
       author:    K. Okubo, E. Rougier, Z. Lei & H. S. Bhat
       year:    2020
@@ -64,6 +68,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      topics: "dynamics, damage, kinks, branching, roughness, radiation, numerical models, FDEM"	
     - title:     "Interseismic Loading of Subduction Megathrust Drives Long-Term Uplift in Northern Chile"
       author:    R. Jolivet, M. Simons, Z. Duputel, J.-A. Olive, H. S. Bhat & Q. Bletery
       year:    2020
@@ -77,12 +82,13 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      topics: "earthquake cycles, plasticity"	
     - title:     "Dynamics, radiation and overall energy budget of earthquake rupture with coseismic off-fault damage"
       author:    K. Okubo, H. S. Bhat, E. Rougier, S. Marty, A. Schubnel, Z. Lei, E. E. Knight & Y. Klinger
       year:    2019
       journal:    J. Geophys. Res.
       pdf: 		OkuboBhatRougier2019a.pdf
-      doi:		10.1029/2019JB017304
+      doi:		10. 1029/2019JB017304
       pubnum:     	33
       type:         article  
       booktitle:	""
@@ -90,11 +96,12 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      topics: "dynamics, damage, radiation, energy budget, numerical models, FDEM"	
     - title:     "Origin of high-frequency radiation during laboratory earthquakes"
       author:    S. Marty, F. X. Passelègue, J. Aubry, A. Schubnel, H. S. Bhat & R. Madariaga
       year:    2019
       journal:    Geophys. Res. Lett.
-      pdf: 		MartyPasselegueAubry2019a.pdf
+      pdf: 		MartyPasselègueAubry2019a.pdf
       doi:		10.1029/2018GL080519
       pubnum:     	32
       type:         article  
@@ -103,6 +110,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      topics: "experiments, radiation, back projection"	
     - title:     "Frictional heating processes and energy budget during laboratory earthquakes"
       author:    J. Aubry, F. X. Passelègue, D. Deldicque, F. Girault, S. Marty, A. Lahfid, H. S. Bhat, J. Escartin & A. Schubnel
       year:    2018

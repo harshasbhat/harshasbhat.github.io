@@ -2,5 +2,10 @@
   href: "/about/"
 - title: "Publications"
   href: "/publications/"
+#  subcategories:
+#   - subtitle: "Chronological"
+#     subhref: "/publications/"
+#   - subtitle: "Research Topics"
+#     subhref: "/topics/"
 - title: "Contact"
-  href: "/contact/"
+  href: "/contact/"  
