@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pagemain
 title: null
 permalink: /
 published: true

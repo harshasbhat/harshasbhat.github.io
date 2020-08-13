@@ -15,12 +15,12 @@ title:
 	</div>
 	<div class="section">
 		<div id="link_bar">
-		   <a href="#books">Books</a>
+		   <a href="#books">Edited Books</a>
 		</div>
 	</div>
 	<div class="section">
 		<div id="link_bar">
-		   <a href="#theses">Ph. D. Theses</a>
+		   <a href="#theses">Doctoral Theses</a>
 		</div>
 	</div>
 	<div class="section">
