@@ -1,0 +1,10 @@
+{% assign rawtags = "" %}
+{% for pubs in site.data.pubs.publications %}
+	{% assign ttags = pubs.topics | split: ', ' | join:'|' | append:'|' %}
+	{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% assign uniqTags = rawtags | uniq %}
+
+
