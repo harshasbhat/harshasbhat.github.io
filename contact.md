@@ -12,7 +12,6 @@ Laboratoire de Géologie<br>
 <img src="{{site.baseurl}}/images/email.png" class="responsive">
 
 
-[Directions to reach Ecole Normale Supérieure][gmaps]<br>
 [Directions to my office (Room E203) at Laboratoire de Géologie] [directions] 
 
 
@@ -20,7 +19,7 @@ Laboratoire de Géologie<br>
 
 {% include new-window-fix.html %}
 
-[directions]: {{site.baseurl}}/files/directions.pdf
+[directions]: /directions/
 [gmaps]: https://goo.gl/maps/imridvjJr7GPFYjY8
 
 <style>
