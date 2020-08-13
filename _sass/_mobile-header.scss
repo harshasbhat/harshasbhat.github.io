@@ -16,30 +16,21 @@
 
     .site-nav .menu {
         display: block;
-        left: -13px;
-        min-width: 100px;
-        padding: -5px -5px;
+//         left: -13px;
+//         min-width: 100px;
+//         padding: -5px -5px;
         position: relative;
         right: 3px;
         top: 1px;
         z-index: 1;
-        border-right: none;
-    border-left: none;
-    border-bottom: none;
-    border-top: none;
-    border-radius: 1px 1px;
-    float: left;
+    float: right;
     border: 0px;
     }
 
     .site-nav .menu.open {
         display: block;
-        border-right: none;
-    border-left: none;
-    border-bottom: none;
-    border-top: none;
-    position:relative;
-    margin-bottom: 120px;
+     position:relative;
+//     margin-bottom: 120px;
     }
 
     .site-nav .menu li {
@@ -49,17 +40,17 @@
     position:relative;
     }
 
-    .site-nav ul.menu a {
-        color: $header-text-color;
-    }
-    .site-nav ul.menu a:hover {
-        color: $header-hover-color;
-        display: block;
-        border-right: none;
-    border-left: none;
-    border-bottom: none;
-    border-top: none;
-    }
+ //    .site-nav ul.menu a {
+//         color: $header-text-color;
+//     }
+//     .site-nav ul.menu a:hover {
+//         color: $header-hover-color;
+//         display: block;
+//         border-right: none;
+//     border-left: none;
+//     border-bottom: none;
+//     border-top: none;
+//     }
 
     .site-nav a,
     .site-nav li.current-menu-item > a {

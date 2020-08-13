@@ -3,8 +3,6 @@ layout: page
 permalink: /topics/
 title: 
 ---
-## Research Topics<br>
-{: style="text-decoration: none; color:black; font-size: 120%; font-weight: bold; text-align: center;"}
 
 **This page is being updated...**
 
