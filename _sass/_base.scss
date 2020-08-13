@@ -90,7 +90,7 @@ li {
 
 // Links
 a {
-    color: $blue;
+    color: $url-color;
     text-decoration: none;
     font-weight: italic;
     
@@ -103,7 +103,7 @@ a {
 
 // Blockquotes
 blockquote {
-    background-color: lighten($blue, 49%);
+    background-color: lighten(#f0ece3,5%);
     margin-left: 0.0*$content-width;
     margin-right: 0.0*$content-width;
 //      border: solid lighten($blue, 35.5%);
