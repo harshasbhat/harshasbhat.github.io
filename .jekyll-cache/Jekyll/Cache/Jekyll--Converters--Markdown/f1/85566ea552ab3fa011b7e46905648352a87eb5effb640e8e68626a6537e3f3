@@ -1,0 +1,49 @@
+I"	<script>
+//open external links in a new window
+function external_new_window() {
+    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+    var b = c[a];
+    b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+    }
+}
+//open PDF links in a new window
+function pdf_new_window ()
+{
+    if (!document.getElementsByTagName) return false;
+    var links = document.getElementsByTagName("a");
+    for (var eleLink=0; eleLink < links.length; eleLink ++) {
+    if ((links[eleLink].href.indexOf('.pdf') !== -1)||(links[eleLink].href.indexOf('.doc') !== -1)||(links[eleLink].href.indexOf('.docx') !== -1)) {
+        links[eleLink].onclick =
+        function() {
+            window.open(this.href);
+            return false;
+        }
+    }
+    }
+} 
+pdf_new_window()
+external_new_window();
+</script>
+
+<blockquote>
+  <p>This website was built using a static website generator called Jekyll and is hosted on Github. 
+I forked the website of <a href="https://gchauras.github.io">Gaurav Chaurasia’s</a> and tinkered with CSS and basic content.
+<br /><br />
+First open an account on Github and set up a website for yourself. Follow the instructions <a href="https://pages.github.com">here.</a>
+<br /><br />
+I use GitHub Desktop app to commit changes, pull requests etc. Feel free to use any method that you like.
+<br /><br />
+Now head on over to the instructions to install <a href="https://jekyllrb.com/docs/installation/">Jekyll</a> on your local machine.
+<br /><br />
+<a href="https://github.com/harshasbhat/harshasbhat.github.io/archive/master.zip">Download</a> my website repository, rename it as <em>your-github-username</em>.github.io
+<br /><br />
+Open a terminal, cd to the above directory and run ‘jekyll serve’. Et Voila. Modify the files as you wish.
+<br /><br />
+One big feature is the automatic collection and listing of research topics per paper. 
+If you look at ‘_data/pubs.yml’ you will see that each publication has a topics item. 
+First I collect these topics per paper and display them before each article. All this is accomplished using Liquid in
+‘_includes/collecttags.html’. I then make an array of unique topics (as multiple articles can share topics) and 
+use it to generate the research <a href="/topics/">topics</a> page.</p>
+</blockquote>
+
+:ET

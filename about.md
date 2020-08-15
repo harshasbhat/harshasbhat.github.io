@@ -17,7 +17,11 @@ title:
 {% include new-window-fix.html %}
 > I am a [CNRS] researcher at the [Laboratoire de Géologie] [LG] in [Ecole Normale Supérieure] [ENS]. 
 <br><br>
-I am a solid mechanician and earthquake source physicist by training. After completing my Ph.D at [Harvard University] [1], under the guidance of [Prof. James R. Rice] [2] and [Dr. Renata Dmowska] [3].
+I am a solid mechanician and earthquake source physicist by training. 
+<br><br>
+I obtained my B. E. in Civil Engineering from Karnataka Regional Engineering College in India (now called the [National Institute of Technology Karnataka, Surathkal][NITK]). 
+<br><br>
+I then proceeded to obtain my Ph. D. from [Harvard University] [1], under the supervision of [Prof. James R. Rice] [2] and [Dr. Renata Dmowska] [3].
 <br><br>
 I did my postdoctoral studies jointly between at [Caltech] [4] and the [University of Southern California] [5]. Here I worked with [Prof. Ares J. Rosakis] [7] and [Prof. Charles G. Sammis] [8]. 
 <br><br>
@@ -30,6 +34,7 @@ I was recently awarded an [European Research Council Consolidator Grant][ERC] fo
 {% include new-window-fix.html %}
 
 
+[NITK]: https://www.nitk.ac.in
 [LG]: http://www.geologie.ens.fr
 [ENS]: http://www.ens.fr
 [CNRS]: http://www.cnrs.fr/index.html
