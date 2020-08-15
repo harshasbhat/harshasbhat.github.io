@@ -5,11 +5,10 @@ permalink: /
 published: true
 ---
 
-<!-- <h1 class="animate__animated animate__zoomIn animate__delay-0.1s"> -->
-{% include image.html url="images/BHAT4.jpg" caption="" width="300px" align="center" %}
-<!-- </h1> -->
+<br><br>
+{% include image.html url="images/BHAT4.jpg" caption="" width="190px" align="left" %}
 
-> I am a [CNRS] Research Scientist working at the [Laboratoire de Géologie] [LG] in [Ecole Normale Supérieure] [ENS]. I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology.
+I am a [CNRS] Research Scientist working at the [Laboratoire de Géologie] [LG] in [Ecole Normale Supérieure] [ENS]. I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology.
 
 
 {% include new-window-fix.html %}

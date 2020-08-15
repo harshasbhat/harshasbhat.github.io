@@ -1,0 +1,432 @@
+I"�g
+<div class="container">
+	<div class="section">
+		<div id="link_bar">
+		   <a href="#peer-reviewed-publications">Peer Reviewed Articles</a> 
+		</div>
+	</div>
+	<div class="section">
+		<div id="link_bar">
+		   <a href="#books">Edited Books</a>
+		</div>
+	</div>
+	<div class="section">
+		<div id="link_bar">
+		   <a href="#theses">Doctoral Theses</a>
+		</div>
+	</div>
+	<div class="section">
+		<div id="link_bar">
+		   <a href="/topics/">Research Topics</a>
+		</div>
+	</div>
+</div>
+
+<p><br /></p>
+<h2 style="text-decoration: underline; color:black; font-size: 110%; font-weight: bold; text-align: center;" id="articles">Articles</h2>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p>Loi de friction et modélisation numérique du cycle sismique 
+(2020)<br /><span style="color:#A41034">M. Y. Thomas &amp; <strong>H. S. Bhat</strong><br /></span>
+in <span style="color:#666"><strong><em>Le Cycle Sismique</em></strong></span>
+<br />eds. <em>F. Rolandone</em>
+<br /><span id="link_bar2"><a href="/topics/#earthquake-cycles">EARTHQUAKE CYCLES</a></span><span id="link_bar2"><a href="/topics/#friction">FRICTION</a></span><span id="link_bar2"><a href="/topics/#history">HISTORY</a></span></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/JaraBruhatAntoine2020a.pdf">Signature of supershear transition seen in damage and aftershock pattern</a>
+(2020)<br /><span style="color:#A41034">J. Jara, L. Bruhat, S. Antoine, K. Okubo, M. Y. Thomas, Y. Klinger, R. Jolivet &amp; <strong>H. S. Bhat</strong><br /></span>
+<span style="color:#000"><strong><em>to be submitted</em></strong> <br /></span>
+ <a href="https://arxiv.org/pdf/1909.12672.pdf"><em>arXiv:1909.12672[physics.geo-ph]</em></a> 
+<br /><span id="link_bar2"><a href="/topics/#aftershocks">AFTERSHOCKS</a></span><span id="link_bar2"><a href="/topics/#damage">DAMAGE</a></span><span id="link_bar2"><a href="/topics/#fracture-mechanics">FRACTURE MECHANICS</a></span><span id="link_bar2"><a href="/topics/#numerical-models">NUMERICAL MODELS</a></span><span id="link_bar2"><a href="/topics/#supershear">SUPERSHEAR</a></span></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/Jeandet-RibesCubasBhat2020a.pdf">Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle</a>
+(2020)<br /><span style="color:#A41034">L. Jeandet-Ribes, N. Cubas, <strong>H. S. Bhat</strong> &amp; P. Steer<br /></span>
+<span style="color:#000"><strong><em>accepted with minor rev. Geophys. Res. Lett.</em></strong> <br /></span>
+ <a href="https://arxiv.org/pdf/2007.06412.pdf"><em>arXiv:2007.06412[physics.geo-ph]</em></a> 
+<br /><span id="link_bar2"><a href="/topics/#earthquake-cycles">EARTHQUAKE CYCLES</a></span><span id="link_bar2"><a href="/topics/#erosion">EROSION</a></span><span id="link_bar2"><a href="/topics/#numerical-models">NUMERICAL MODELS</a></span></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/AmlaniBhatSimons2020a.pdf">Supershear Tsunamis and insights from the $M_w$ 7.5 Palu Earthquake</a>
+(2020)<br /><span style="color:#A41034">F. Amlani, <strong>H. S. Bhat</strong>, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna &amp; H. Z. Abidin<br /></span>
+<span style="color:#000"><strong><em>under review in Nat. Geosci.</em></strong> <br /></span>
+ <a href="https://arxiv.org/pdf/1910.14547.pdf"><em>arXiv:1910.14547[physics.geo-ph]</em></a> 
+<br /><span id="link_bar2"><a href="/topics/#fcm">FCM</a></span><span id="link_bar2"><a href="/topics/#numerical-models">NUMERICAL MODELS</a></span><span id="link_bar2"><a href="/topics/#supershear">SUPERSHEAR</a></span><span id="link_bar2"><a href="/topics/#tsunami">TSUNAMI</a></span></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/OkuboRougierLei2020a.pdf">Modeling earthquakes with off-fault damage using the combined finite discrete element method</a>
+(2020)<br /><span style="color:#A41034">K. Okubo, E. Rougier, Z. Lei &amp; <strong>H. S. Bhat</strong><br /></span>
+<span style="color:#000"><strong><em>J. Comp. Part. Mech.</em></strong> <br /></span>
+<a href="https://doi.org/10.1007/s40571-020-00335-4"><em>doi:10.1007/s40571-020-00335-4</em></a>
+<br /><span id="link_bar2"><a href="/topics/#branching">BRANCHING</a></span><span id="link_bar2"><a href="/topics/#damage">DAMAGE</a></span><span id="link_bar2"><a href="/topics/#dynamics">DYNAMICS</a></span><span id="link_bar2"><a href="/topics/#fdem">FDEM</a></span><span id="link_bar2"><a href="/topics/#kinks">KINKS</a></span><span id="link_bar2"><a href="/topics/#numerical-models">NUMERICAL MODELS</a></span><span id="link_bar2"><a href="/topics/#radiation">RADIATION</a></span><span id="link_bar2"><a href="/topics/#roughness">ROUGHNESS</a></span></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/JolivetSimonsDuputel2020a.pdf">Interseismic Loading of Subduction Megathrust Drives Long-Term Uplift in Northern Chile</a>
+(2020)<br /><span style="color:#A41034">R. Jolivet, M. Simons, Z. Duputel, J.-A. Olive, <strong>H. S. Bhat</strong> &amp; Q. Bletery<br /></span>
+<span style="color:#000"><strong><em>Geophys. Res. Lett.</em></strong> <br /></span>
+<a href="https://doi.org/10.1029/2019GL085377"><em>doi:10.1029/2019GL085377</em></a>
+<br /><span id="link_bar2"><a href="/topics/#earthquake-cycles">EARTHQUAKE CYCLES</a></span><span id="link_bar2"><a href="/topics/#plasticity">PLASTICITY</a></span></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/OkuboBhatRougier2019a.pdf">Dynamics, radiation and overall energy budget of earthquake rupture with coseismic off-fault damage</a>
+(2019)<br /><span style="color:#A41034">K. Okubo, <strong>H. S. Bhat</strong>, E. Rougier, S. Marty, A. Schubnel, Z. Lei, E. E. Knight &amp; Y. Klinger<br /></span>
+<span style="color:#000"><strong><em>J. Geophys. Res.</em></strong> <br /></span>
+<a href="https://doi.org/10. 1029/2019JB017304"><em>doi:10. 1029/2019JB017304</em></a>
+<br /><span id="link_bar2"><a href="/topics/#damage">DAMAGE</a></span><span id="link_bar2"><a href="/topics/#dynamics">DYNAMICS</a></span><span id="link_bar2"><a href="/topics/#energy-budget">ENERGY BUDGET</a></span><span id="link_bar2"><a href="/topics/#fdem">FDEM</a></span><span id="link_bar2"><a href="/topics/#numerical-models">NUMERICAL MODELS</a></span><span id="link_bar2"><a href="/topics/#radiation">RADIATION</a></span></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/MartyPasselègueAubry2019a.pdf">Origin of high-frequency radiation during laboratory earthquakes</a>
+(2019)<br /><span style="color:#A41034">S. Marty, F. X. Passelègue, J. Aubry, A. Schubnel, <strong>H. S. Bhat</strong> &amp; R. Madariaga<br /></span>
+<span style="color:#000"><strong><em>Geophys. Res. Lett.</em></strong> <br /></span>
+<a href="https://doi.org/10.1029/2018GL080519"><em>doi:10.1029/2018GL080519</em></a>
+<br /><span id="link_bar2"><a href="/topics/#back-projection">BACK PROJECTION</a></span><span id="link_bar2"><a href="/topics/#experiments">EXPERIMENTS</a></span><span id="link_bar2"><a href="/topics/#radiation">RADIATION</a></span></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/AubryPasselegueDeldicque2018a.pdf">Frictional heating processes and energy budget during laboratory earthquakes</a>
+(2018)<br /><span style="color:#A41034">J. Aubry, F. X. Passelègue, D. Deldicque, F. Girault, S. Marty, A. Lahfid, <strong>H. S. Bhat</strong>, J. Escartin &amp; A. Schubnel<br /></span>
+<span style="color:#000"><strong><em>Geophys. Res. Lett.</em></strong> <br /></span>
+<a href="https://doi.org/10.1029/2018GL079263"><em>doi:10.1029/2018GL079263</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/KlingerOkuboVallage2018a.pdf">Earthquake damage patterns resolve complex rupture processes</a>
+(2018)<br /><span style="color:#A41034">Y. Klinger, K. Okubo, A. Vallage, J. Champenois, A. Delorme, E. Rougier, Z. Lei, E. E. Knight, A. Munjiza, C. Satriano, S. Baize, R. Langridge &amp; <strong>H. S. Bhat</strong><br /></span>
+<span style="color:#000"><strong><em>Geophys. Res. Lett.</em></strong> <br /></span>
+<a href="https://doi.org/10.1029/2018GL078842"><em>doi:10.1029/2018GL078842</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/Cruz-AtienzaVillafuerteBhat2018a.pdf">Rapid tremor migration and pore-pressure waves in subduction zones</a>
+(2018)<br /><span style="color:#A41034">V. M. Cruz-Atienza, C. D. Villafuerte &amp; <strong>H. S. Bhat</strong><br /></span>
+<span style="color:#000"><strong><em>Nat. Commun.</em></strong> <br /></span>
+<a href="https://doi.org/10.1038/s41467-018-05150-3"><em>doi:10.1038/s41467-018-05150-3</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/ThomasBhat2018a.pdf">Dynamic evolution of off-fault medium during an earthquake: a micromechanics based model</a>
+(2018)<br /><span style="color:#A41034">M. Y. Thomas &amp; <strong>H. S. Bhat</strong><br /></span>
+<span style="color:#000"><strong><em>Geophys. J. Int.</em></strong> <br /></span>
+<a href="https://doi.org/10.1093/gji/ggy129"><em>doi:10.1093/gji/ggy129</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/RomanetBhatJolivet2018a.pdf">Fast and slow earthquakes emerge due to fault geometrical complexity</a>
+(2018)<br /><span style="color:#A41034">P. Romanet, <strong>H. S. Bhat</strong>, R. Jolivet &amp; R. Madariaga<br /></span>
+<span style="color:#000"><strong><em>Geophys. Res. Lett.</em></strong> <br /></span>
+<a href="https://doi.org/10.1029/2018GL077579"><em>doi:10.1029/2018GL077579</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/GabuchianRosakisBhat2017a.pdf">Experimental evidence that thrust earthquake ruptures might open faults</a>
+(2017)<br /><span style="color:#A41034">V. Gabuchian, A. J. Rosakis, <strong>H. S. Bhat</strong>, R. Madariaga &amp; H. Kanamori<br /></span>
+<span style="color:#000"><strong><em>Nature</em></strong> <br /></span>
+<a href="https://doi.org/10.1038/nature22045"><em>doi:10.1038/nature22045</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/ThomasBhatKlinger2017a.pdf">Effect of Brittle off-fault Damage on Earthquake Rupture Dynamics</a>
+(2017)<br /><span style="color:#A41034">M. Y. Thomas, <strong>H. S. Bhat</strong> &amp; Y. Klinger<br /></span>
+in <span style="color:#666"><strong><em>Fault Zone Dynamic Processes : Evolution of Fault Properties During Seismic Rupture, Geophysical Monograph 227</em></strong></span>
+<br />eds. <em>Thomas, M. Y., Bhat, H. S., &amp; Mitchell, T. M.</em><a href="https://doi.org/10.1002/9781119156895.ch14"><em>doi:10.1002/9781119156895.ch14</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/PasselegueLatourSchubnel2017a.pdf">Precursory Processes during Laboratory Earthquakes</a>
+(2017)<br /><span style="color:#A41034">F. X. Passelègue, S. Latour, A. Schubnel, S. Nielsen, <strong>H. S. Bhat</strong> &amp; R. Madariaga<br /></span>
+in <span style="color:#666"><strong><em>Fault Zone Dynamic Processes : Evolution of Fault Properties During Seismic Rupture, Geophysical Monograph 227</em></strong></span>
+<br />eds. <em>Thomas, M. Y., Bhat, H. S., &amp; Mitchell, T. M.</em><a href="https://doi.org/10.1002/9781119156895.ch12"><em>doi:10.1002/9781119156895.ch12</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/PerolBhat2016a.pdf">Micromechanics based permeability evolution in brittle materials at high strain rates</a>
+(2016)<br /><span style="color:#A41034">T. Perol &amp; <strong>H. S. Bhat</strong><br /></span>
+<span style="color:#000"><strong><em>Pure Appl. Geophys.</em></strong> <br /></span>
+<a href="https://doi.org/10.1007/s00024-016-1354-4"><em>doi:10.1007/s00024-016-1354-4</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/PasselegueSchubnelNielsen2016a.pdf">Dynamic rupture processes inferred from laboratory microearthquakes</a>
+(2016)<br /><span style="color:#A41034">F. X. Passelègue, A. Schubnel, S. Nielsen, <strong>H. S. Bhat</strong>, D. Deldicque &amp; R. Madariaga<br /></span>
+<span style="color:#000"><strong><em>J. Geophys. Res.</em></strong> <br /></span>
+<a href="https://doi.org/10.1002/2015JB012694"><em>doi:10.1002/2015JB012694</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/MelloBhatRosakis2016a.pdf">Spatiotemporal properties of sub-Rayleigh and supershear rupture velocity fields : Theory and Experiments</a>
+(2016)<br /><span style="color:#A41034">M. Mello, <strong>H. S. Bhat</strong> &amp; A. J. Rosakis<br /></span>
+<span style="color:#000"><strong><em>J. Mech. Phys. Solids</em></strong> <br /></span>
+<a href="https://doi.org/10.1016/j.jmps.2016.02.031"><em>doi:10.1016/j.jmps.2016.02.031</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/VallageKlingerGrandin2015a.pdf">Inelastic surface deformation during the 2013 Mw 7.7 Balochistan, Pakistan, earthquake</a>
+(2015)<br /><span style="color:#A41034">A. Vallage, Y. Klinger, R. Grandin, <strong>H. S. Bhat</strong> &amp; M. Pierrot-Deseilligny<br /></span>
+<span style="color:#000"><strong><em>Geology</em></strong> <br /></span>
+<a href="https://doi.org/10.1130/G37290.1"><em>doi:10.1130/G37290.1</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/FrankShapiroHusker2015a.pdf">Along-fault pore-pressure evolution during a slow-slip event in Guerrero, Mexico</a>
+(2015)<br /><span style="color:#A41034">W. B. Frank, N. M. Shapiro, A. L. Husker, V. Kostoglodov, <strong>H. S. Bhat</strong> &amp; M. Campillo<br /></span>
+<span style="color:#000"><strong><em>Earth Planet. Sc. Lett.</em></strong> <br /></span>
+<a href="https://doi.org/10.1016/j.epsl.2014.12.051"><em>doi:10.1016/j.epsl.2014.12.051</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/SirikiBhatLu2015b.pdf">A Laboratory Earthquake-Based Stochastic Seismic Source Generation Algorithm for Strike-Slip Faults</a>
+(2015)<br /><span style="color:#A41034">H. Siriki, <strong>H. S. Bhat</strong>, X. Lu &amp; S. Krishnan<br /></span>
+<span style="color:#000"><strong><em>Bull. Seism. Soc. Am.</em></strong> <br /></span>
+<a href="https://doi.org/10.1785/0120140110"><em>doi:10.1785/0120140110</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/MelloBhatRosakis2014a.pdf">Reproducing The Supershear Portion Of The 2002 Denali Earthquake Rupture In Laboratory</a>
+(2014)<br /><span style="color:#A41034">M. Mello, <strong>H. S. Bhat</strong>, A. J. Rosakis &amp; H. Kanamori<br /></span>
+<span style="color:#000"><strong><em>Earth Planet. Sc. Lett.</em></strong> <br /></span>
+<a href="https://doi.org/10.1016/j.epsl.2013.11.030"><em>doi:10.1016/j.epsl.2013.11.030</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/PasselegueSchubnelNielsen2013a.pdf">From Sub-Rayleigh to Supershear Ruptures During Stick-Slip Experiments on Crustal Rocks</a>
+(2013)<br /><span style="color:#A41034">F. X. Passelègue, A. Schubnel, S. Nielsen, <strong>H. S. Bhat</strong> &amp; R. Madariaga<br /></span>
+<span style="color:#000"><strong><em>Science</em></strong> <br /></span>
+<a href="https://doi.org/10.1126/science.1235637"><em>doi:10.1126/science.1235637</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/BhatRosakisSammis2012a.pdf">A Micromechanics Based Constitutive Model For Brittle Failure at High Strain Rates</a>
+(2012)<br /><span style="color:#A41034"><strong>H. S. Bhat</strong>, A. J. Rosakis &amp; C. G. Sammis<br /></span>
+<span style="color:#000"><strong><em>J. Appl. Mech.</em></strong> <br /></span>
+<a href="https://doi.org/10.1115/1.4005897"><em>doi:10.1115/1.4005897</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/BhatSammisRosakis2011a.pdf">The Micromechanics of Westerley Granite at Large Compressive Loads</a>
+(2011)<br /><span style="color:#A41034"><strong>H. S. Bhat</strong>, C. G. Sammis &amp; A. J. Rosakis<br /></span>
+<span style="color:#000"><strong><em>Pure Appl. Geophys.</em></strong> <br /></span>
+<a href="https://doi.org/10.1007/s00024-011-0271-9"><em>doi:10.1007/s00024-011-0271-9</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/BhatBiegelRosakis2010a.pdf">The Effect of Asymmetric Damage on Dynamic Shear Rupture Propagation II: With Mismatch in Bulk Elasticity</a>
+(2010)<br /><span style="color:#A41034"><strong>H. S. Bhat</strong>, R. L. Biegel, A. J. Rosakis &amp; C. G. Sammis<br /></span>
+<span style="color:#000"><strong><em>Tectonophysics</em></strong> <br /></span>
+<a href="https://doi.org/10.1016/j.tecto.2010.03.016"><em>doi:10.1016/j.tecto.2010.03.016</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/BiegelBhatSammis2010a.pdf">The Effect of Asymmetric Damage on Dynamic Shear Rupture Propagation I: No Mismatch in Bulk Elasticity</a>
+(2010)<br /><span style="color:#A41034">R. L. Biegel, <strong>H. S. Bhat</strong>, C. G. Sammis &amp; A. J. Rosakis<br /></span>
+<span style="color:#000"><strong><em>Tectonophysics</em></strong> <br /></span>
+<a href="https://doi.org/10.1016/j.tecto.2010.03.020"><em>doi:10.1016/j.tecto.2010.03.020</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/MelloBhatRosakis2010a.pdf">Identifying the unique ground motion signatures of supershear earthquakes: Theory and experiments</a>
+(2010)<br /><span style="color:#A41034">M. Mello, <strong>H. S. Bhat</strong>, A. J. Rosakis &amp; H. Kanamori<br /></span>
+<span style="color:#000"><strong><em>Tectonophysics</em></strong> <br /></span>
+<a href="https://doi.org/10.1016/j.tecto.2010.07.003"><em>doi:10.1016/j.tecto.2010.07.003</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/TempletonBhatDmowska2010a.pdf">Dynamic rupture through a branched fault configuration at Yucca Mountain and resulting ground motions</a>
+(2010)<br /><span style="color:#A41034">E. L. Templeton, <strong>H. S. Bhat</strong>, R. Dmowska &amp; J. R. Rice<br /></span>
+<span style="color:#000"><strong><em>Bull. Seism. Soc. Am.</em></strong> <br /></span>
+<a href="https://doi.org/10.1785/012009012110.1785/0120090121"><em>doi:10.1785/012009012110.1785/0120090121</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/HarrisBarallArchuleta2009a.pdf">The SCEC/USGS dynamic earthquake rupture code verification exercise</a>
+(2009)<br /><span style="color:#A41034">R. A. Harris, M. Barall, R. J. Archuleta, E. M. Dunham, B. Aagaard, J.-P. Ampuero, <strong>H. S. Bhat</strong>, V. Cruz-Atienza, L. Dalguer, P. Dawson, S. M. Day, B. Duan, G. Ely, Y. Kaneko, Y. Kase, N. Lapusta, Y. Liu, S. Ma, D. D. Oglesby, K. B. Olsen, A. Pitarka, S. Song &amp; E. L. Templeton<br /></span>
+<span style="color:#000"><strong><em>Seismol. Res. Lett.</em></strong> <br /></span>
+<a href="https://doi.org/10.1785/gssrl.80.1.119"><em>doi:10.1785/gssrl.80.1.119</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/SammisRosakisBhat2009a.pdf">Effects of Off-fault Damage on Earthquake Rupture Propagation: Experimental Studies</a>
+(2009)<br /><span style="color:#A41034">C. G. Sammis, A. J. Rosakis &amp; <strong>H. S. Bhat</strong><br /></span>
+<span style="color:#000"><strong><em>Pure Appl. Geophys.</em></strong> <br /></span>
+<a href="https://doi.org/10.1007/s00024-009-0512-3"><em>doi:10.1007/s00024-009-0512-3</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/TempletonBaudetBhat2009a.pdf">Finite Element Simulations of Dynamic Shear Rupture Experiments and Dynamic Path Selection Along Kinked and Branched Faults</a>
+(2009)<br /><span style="color:#A41034">E. L. Templeton, A. Baudet, <strong>H. S. Bhat</strong>, R. Dmowska, J. R. Rice, A. J. Rosakis &amp; C. E. Rousseau<br /></span>
+<span style="color:#000"><strong><em>J. Geophys. Res.</em></strong> <br /></span>
+<a href="https://doi.org/10.1029/2008JB006174"><em>doi:10.1029/2008JB006174</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/DunhamBhat2008a.pdf">Attenuation of radiated ground motion and stresses from three-dimensional supershear ruptures</a>
+(2008)<br /><span style="color:#A41034">E. M. Dunham &amp; <strong>H. S. Bhat</strong><br /></span>
+<span style="color:#000"><strong><em>J. Geophys. Res.</em></strong> <br /></span>
+<a href="https://doi.org/10.1029/2007JB005182"><em>doi:10.1029/2007JB005182</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/BhatDmowskaKing2007a.pdf">Off-fault damage patterns due to supershear ruptures with application to the 2001 ${M}_w$ 8.1 Kokoxili (Kunlun) Tibet earthquake</a>
+(2007)<br /><span style="color:#A41034"><strong>H. S. Bhat</strong>, R. Dmowska, G. C. P. King, Y. Klinger &amp; J. R. Rice<br /></span>
+<span style="color:#000"><strong><em>J. Geophys. Res.</em></strong> <br /></span>
+<a href="https://doi.org/10.1029/2006JB004425"><em>doi:10.1029/2006JB004425</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/BhatOlivesDmowska2007a.pdf">Role of fault branches in earthquake rupture dynamics</a>
+(2007)<br /><span style="color:#A41034"><strong>H. S. Bhat</strong>, M. Olives, R. Dmowska &amp; J. R. Rice<br /></span>
+<span style="color:#000"><strong><em>J. Geophys. Res.</em></strong> <br /></span>
+<a href="https://doi.org/10.1029/2007JB005027"><em>doi:10.1029/2007JB005027</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/FlissBhatDmowska2005a.pdf">Fault branching and rupture directivity</a>
+(2005)<br /><span style="color:#A41034">S. Fliss, <strong>H. S. Bhat</strong>, R. Dmowska &amp; J. R. Rice<br /></span>
+<span style="color:#000"><strong><em>J. Geophys. Res.</em></strong> <br /></span>
+<a href="https://doi.org/10.1029/2004JB003368"><em>doi:10.1029/2004JB003368</em></a></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/BhatDmowskaRice2004a.pdf">Dynamic slip transfer from the Denali to Totschunda faults, Alaska: Testing theory for fault branching</a>
+(2004)<br /><span style="color:#A41034"><strong>H. S. Bhat</strong>, R. Dmowska, J. R. Rice &amp; N. Kame<br /></span>
+<span style="color:#000"><strong><em>Bull. Seism. Soc. Am.</em></strong> <br /></span>
+<a href="https://doi.org/10.1785/0120040601"><em>doi:10.1785/0120040601</em></a></p>
+</blockquote>
+
+<p><br /></p>
+<h2 style="text-decoration: underline; color:black; font-size: 110%; font-weight: bold; text-align: center;" id="books">Books</h2>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/ThomasMitchellBhat2017a.pdf">Fault Zone Dynamic Processes : Evolution of Fault Properties During Seismic Rupture, Geophysical Monograph 227</a>
+<br />edited by M. Y. Thomas, T. M. Mitchell, &amp; H. S. Bhat<br />
+American Geophysical Union (AGU)  <br /><a href="https://doi.org/10.1002/9781119156895"><em>doi:10.1002/9781119156895</em></a>  (2017)</p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/BizzarriBhat2012a.pdf">The mechanics of faulting: From laboratory to earthquakes</a>
+<br />edited by A. Bizzarri &amp; H. S. Bhat<br />
+Research Signpost (2012)</p>
+</blockquote>
+
+<p><br /></p>
+<h2 style="text-decoration: underline; color:black; font-size: 110%; font-weight: bold; text-align: center;" id="theses">Theses</h2>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/Marty2020a.pdf">High frequency radiation and foreshocks during laboratory earthquakes</a> (2020)<br />
+<em>S. Marty</em><br />
+<strong>Ecole Normale Supérieure</strong></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/Okubo2018a.pdf">Dynamic earthquake ruptures on multiscale fault and fracture networks</a> (2018)<br />
+<em>K. Okubo</em><br />
+<strong>Institut de Physique du Globe de Paris</strong></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/Romanet2017a.pdf">Fast algorithms to model quasi-dynamic earthquake cycles in complex fault networks</a> (2017)<br />
+<em>P. Romanet</em><br />
+<strong>Institut de Physique du Globe de Paris</strong></p>
+</blockquote>
+
+<p><span id="link_bar3"><a href="#top">[top]</a></span><br /></p>
+
+<blockquote>
+  <p><a href="/files/Bhat2007a.pdf">Role of Geometric Complexities and Off-Fault Damage in Dynamic Rupture Propagation</a> (2007)<br />
+<em>H. S. Bhat</em><br />
+<strong>Harvard University</strong></p>
+</blockquote>
+
+:ET

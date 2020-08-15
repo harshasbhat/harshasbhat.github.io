@@ -45,12 +45,13 @@ title:
 
 {% assign uniqetopics = "" %}
 {% assign uniqetopics = pub.topics | split: ', ' | sort_natural | uniq %} 
+{% assign auth = pub.author %}
 
 <span id="link_bar3"><a href="#top">[top]</a></span><br>
 
-> ({{ j }})  {% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %} {{pub.title}} {% endif %}
-({{pub.year}})<br>{{pub.author}}<br>
-{% if pub.type == "article" %}<span style="color:#000">***{{pub.journal}}*** <br></span>
+>  {% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %} {{pub.title}} {% endif %}
+({{pub.year}})<br>{{pub.author | replace: "H. S. Bhat", "**H. S. Bhat**"}}<br>
+{% if pub.type == "article" %}<span style="color:#444">***{{pub.journal}}*** <br></span>
 {% elsif pub.type == "inproceeding" or pub.type == "incollection" %}in <span style="color:#666">***{{pub.booktitle}}***</span>
 <br>eds. *{{pub.editor}}*{% endif %}{% if pub.doi %}[*doi:{{pub.doi}}*](https://doi.org/{{pub.doi}}){% endif %}{% if pub.arxiv %} [*arXiv:{{pub.arxiv}}[physics.geo-ph]*](https://arxiv.org/pdf/{{pub.arxiv}}.pdf) {% endif %}
 {% if pub.topics %}<br>{% for topic in uniqetopics %}<span id="link_bar2"><a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a></span>{% endfor %}{% endif %}
@@ -65,7 +66,7 @@ title:
 <span id="link_bar3"><a href="#top">[top]</a></span><br>
 
 > {% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %}{{pub.title}} {% endif %}
-<br>edited by {{pub.editor}}<br>
+<br>edited by {{pub.editor | replace: "H. S. Bhat", "**H. S. Bhat**"}}<br>
 {{pub.publisher}} {% if pub.doi %} <br>[*doi:{{pub.doi}}*](https://doi.org/{{pub.doi}})  {% endif %}({{pub.year}}) 
 {% endfor %}
 
@@ -78,7 +79,7 @@ title:
 <span id="link_bar3"><a href="#top">[top]</a></span><br>
 
 > {% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %}{{pub.title}} {% endif %} ({{pub.year}})<br>
-*{{pub.author}}*<br>
+{{pub.author | replace: "H. S. Bhat", "**H. S. Bhat**"}}<br>
 **{{pub.school}}** 
 {% endfor %}
 

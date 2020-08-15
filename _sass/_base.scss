@@ -20,7 +20,7 @@ body {
     background-color: $background;
     margin: 0 $spacing-unit/2;
     -webkit-text-size-adjust: 100%;
-    text-align: left
+    text-align: center
 }
 
 // bold elements
@@ -92,7 +92,7 @@ li {
 a {
     color: $url-color;
     text-decoration: none;
-    font-weight: italic;
+    font-weight: bold;
     
     &:hover {
         color: $url-hover-color;
@@ -121,7 +121,7 @@ blockquote {
     padding-right:  1.0em;
     padding-top:    0.001em;
     padding-bottom: 0.001em;
-    text-align: left;
+    text-align: justify;
 //     -webkit-box-shadow: 22px 31px 14px -18px rgba(77,66,77,0.5);
 // -moz-box-shadow: 22px 31px 14px -18px rgba(77,66,77,0.5);
 // box-shadow: 22px 31px 14px -18px rgba(77,66,77,0.5);
