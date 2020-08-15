@@ -7,8 +7,8 @@ title:
 <div class="container">
 	<div class="section">
 		<div id="link_bar">
-			<a href="{{ base }}/CV/CurriculumVitae.pdf">CV</a>
-			<a href="http://scholar.google.com/citations?user={{site.author.scholar}}&hl=en&oi=ao">GScholar</a>
+			<a href="{{ base }}/CV/CurriculumVitae.pdf">Curriculum Vitae</a>
+			<a href="http://scholar.google.com/citations?user={{site.author.scholar}}&hl=en&oi=ao">Google Scholar</a>
 			<a href="https://orcid.org/0000-0003-0361-1854">ORCID</a>
 		</div>
 	</div>
