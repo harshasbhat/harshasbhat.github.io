@@ -50,11 +50,11 @@ title:
 <span id="link_bar3"><a href="#top">[top]</a></span><br>
 
 >  {% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %} {{pub.title}} {% endif %}
-({{pub.year}})<br>{{pub.author | replace: "H. S. Bhat", "**H. S. Bhat**"}}<br>
-{% if pub.type == "article" %}<span style="color:#444">***{{pub.journal}}*** <br></span>
-{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}in <span style="color:#666">***{{pub.booktitle}}***</span>
-<br>eds. *{{pub.editor}}*{% endif %}{% if pub.doi %}[*doi:{{pub.doi}}*](https://doi.org/{{pub.doi}}){% endif %}{% if pub.arxiv %} [*arXiv:{{pub.arxiv}}[physics.geo-ph]*](https://arxiv.org/pdf/{{pub.arxiv}}.pdf) {% endif %}
-{% if pub.topics %}<br>{% for topic in uniqetopics %}<span id="link_bar2"><a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a></span>{% endfor %}{% endif %}
+<br>{{pub.author | replace: "H. S. Bhat", "**H. S. Bhat**"}}<br>
+{% if pub.type == "article" %}<span style="color:#990000">***{{pub.journal}}*** <br></span>
+{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}in <span style="color:#990000">***{{pub.booktitle}}*** <br></span>
+eds. *{{pub.editor}}*<br>{% endif %}{% if pub.doi %}[*doi:{{pub.doi}}*](https://doi.org/{{pub.doi}}) ({{pub.year}})<br>{% endif %}{% if pub.arxiv %} [*arXiv:{{pub.arxiv}}[physics.geo-ph]*](https://arxiv.org/pdf/{{pub.arxiv}}.pdf) ({{pub.year}})<br>{% endif %}
+{% if pub.topics %}{% for topic in uniqetopics %}<span id="link_bar2"><a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a></span>{% endfor %}{% endif %}
 {% assign j = j | minus: 1 %}
 {% endfor %}
 

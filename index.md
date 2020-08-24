@@ -9,9 +9,10 @@ published: true
 {% include image.html url="images/BHAT4.jpg" caption="" width="190px" align="left" %}
 
 I am a [CNRS] Research Scientist working at the [Laboratoire de Géologie] [LG] in [Ecole Normale Supérieure] [ENS]. I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology.
-
-
 {% include new-window-fix.html %}
+
+
+
 
 [CONTACT]: /contact/
 [BIO]: /bio/
