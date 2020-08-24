@@ -1,4 +1,4 @@
-I"<div class="container">
+I"<div class="container">
 	<div class="section">
 		<div id="link_bar">
 			<a href="/CV/CurriculumVitae.pdf">Curriculum Vitae</a>
@@ -7,13 +7,13 @@
 		</div>
 	</div>
 </div>
-
+<p><br />
 <script>
 //open external links in a new window
 function external_new_window() {
-    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+    for(var c = document.getElementsByTagName("a"), a = 0;a &lt; c.length;a++) {
     var b = c[a];
-    b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+    b.getAttribute("href") &amp;&amp; b.hostname !== location.hostname &amp;&amp; (b.target = "_blank")
     }
 }
 //open PDF links in a new window
@@ -21,7 +21,7 @@ function pdf_new_window ()
 {
     if (!document.getElementsByTagName) return false;
     var links = document.getElementsByTagName("a");
-    for (var eleLink=0; eleLink < links.length; eleLink ++) {
+    for (var eleLink=0; eleLink &lt; links.length; eleLink ++) {
     if ((links[eleLink].href.indexOf('.pdf') !== -1)||(links[eleLink].href.indexOf('.doc') !== -1)||(links[eleLink].href.indexOf('.docx') !== -1)) {
         links[eleLink].onclick =
         function() {
@@ -34,9 +34,7 @@ function pdf_new_window ()
 pdf_new_window()
 external_new_window();
 </script>
-
-<blockquote>
-  <p>I am a <a href="http://www.cnrs.fr/index.html">CNRS</a> researcher at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in <a href="http://www.ens.fr">Ecole Normale Supérieure</a>. 
+I am a <a href="http://www.cnrs.fr/index.html">CNRS</a> researcher at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in <a href="http://www.ens.fr">Ecole Normale Supérieure</a>. 
 <br /><br />
 I am a solid mechanician and earthquake source physicist by training. 
 <br /><br />
@@ -51,7 +49,6 @@ I joined <a href="http://www.cnrs.fr/index.html">CNRS</a> in Jan. 2012 as a Grad
 I have been awarded the <a href="http://www.academie-sciences.fr/fr/Laureats/laureat-2018-du-prix-michel-gouilloud-schlumberger-harsha-suresh-bhat.html">Prix Michel Gouilloud Schlumberger</a> from the <a href="http://www.academie-sciences.fr/fr/">Academié des Sciences</a>. You can watch the ceremony <a href="https://www.youtube.com/watch?v=OVaenZ39o_c&amp;t=2s&amp;frags=pl%2Cwn">here.</a>
 <br /><br />
 I was recently awarded an <a href="https://cordis.europa.eu/project/id/865411">European Research Council Consolidator Grant</a> for the amount of 2.0M€.</p>
-</blockquote>
 
 <script>
 //open external links in a new window

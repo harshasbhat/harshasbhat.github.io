@@ -13,9 +13,9 @@ title:
 		</div>
 	</div>
 </div>
-
+<br>
 {% include new-window-fix.html %}
-> I am a [CNRS] researcher at the [Laboratoire de Géologie] [LG] in [Ecole Normale Supérieure] [ENS]. 
+I am a [CNRS] researcher at the [Laboratoire de Géologie] [LG] in [Ecole Normale Supérieure] [ENS]. 
 <br><br>
 I am a solid mechanician and earthquake source physicist by training. 
 <br><br>
