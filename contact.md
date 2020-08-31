@@ -15,10 +15,6 @@ Laboratoire de Géologie<br>
 [Directions to my office (Room E203) at Laboratoire de Géologie] [directions] 
 
 
-<br>
-
-{% include new-window-fix.html %}
-
 [directions]: /directions/
 [gmaps]: https://goo.gl/maps/imridvjJr7GPFYjY8
 
