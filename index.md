@@ -13,6 +13,7 @@ I am a [CNRS] Research Scientist working at the [Laboratoire de Géologie] [LG] 
 
 
 
+{% include new-window-fix.html %}
 
 [CONTACT]: /contact/
 [BIO]: /bio/

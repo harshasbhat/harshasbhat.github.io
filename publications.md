@@ -83,6 +83,7 @@ eds. *{{pub.editor}}*<br>{% endif %}{% if pub.doi %}[*doi:{{pub.doi}}*](https://
 **{{pub.school}}** 
 {% endfor %}
 
+{% include new-window-fix.html %}
 
 [LG]: http://www.geologie.ens.fr
 [ENS]: http://www.ens.fr
