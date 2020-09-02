@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: 
 ---
-
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 
 {% include collecttags.html %}
 
@@ -31,6 +31,8 @@ title:
 </div>
 
 <br>
+
+
 ## Articles
 {: style="text-decoration: underline; color:black; font-size: 110%; font-weight: bold; text-align: center;"}
 {% assign year = 1980 %}
@@ -47,13 +49,20 @@ title:
 {% assign uniqetopics = pub.topics | split: ', ' | sort_natural | uniq %} 
 {% assign auth = pub.author %}
 
-<span id="link_bar3"><a href="#top">[top]</a></span><br>
-
->  {% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %} {{pub.title}} {% endif %}
+<span id="link_bar3"><a href="#top">[top]</a></span>
+>  {% if pub.arxiv %}<div class="section">
+		<div id="link_bar3">
+		   <a href="https://plu.mx/plum/a/?arxiv={{pub.arxiv}}" data-popup="right" data-size="small" class="plumx-plum-print-popup plum-bigben-theme" data-site="plum" data-hide-when-empty="true"></a>
+		</div>
+	</div>{% endif %}{% if pub.doi %}<div class="section">
+		<div id="link_bar3">
+		   <a href="https://plu.mx/plum/a/?doi={{pub.doi}}" data-popup="right" data-size="small" class="plumx-plum-print-popup plum-bigben-theme" data-site="plum" data-hide-when-empty="true"></a>
+		</div>
+	</div>{% endif %} {% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %} {{pub.title}} {% endif %}
 <br>{{pub.author | replace: "H. S. Bhat", "**H. S. Bhat**"}}<br>
-{% if pub.type == "article" %}<span style="color:#990000">***{{pub.journal}}*** <br></span>
-{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}in <span style="color:#990000">***{{pub.booktitle}}*** <br></span>
-eds. *{{pub.editor}}*<br>{% endif %}{% if pub.doi %}[*doi:{{pub.doi}}*](https://doi.org/{{pub.doi}}) ({{pub.year}})<br>{% endif %}{% if pub.arxiv %} [*arXiv:{{pub.arxiv}}[physics.geo-ph]*](https://arxiv.org/pdf/{{pub.arxiv}}.pdf) ({{pub.year}})<br>{% endif %}
+{% if pub.type == "article" %}<span style="color:#0d667f">***{{pub.journal}}*** <br></span>
+{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}in <span style="color:#0d667f">***{{pub.booktitle}}*** <br></span>
+eds. *{{pub.editor}}*<br>{% endif %}{% if pub.doi %}[doi:{{pub.doi}}](https://doi.org/{{pub.doi}}) ({{pub.year}})<br>{% endif %}{% if pub.arxiv %}[arXiv:{{pub.arxiv}}[physics.geo-ph]](https://arxiv.org/pdf/{{pub.arxiv}}.pdf) ({{pub.year}}) <br>{% endif %}
 {% if pub.topics %}{% for topic in uniqetopics %}<span id="link_bar2"><a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a></span>{% endfor %}{% endif %}
 {% assign j = j | minus: 1 %}
 {% endfor %}

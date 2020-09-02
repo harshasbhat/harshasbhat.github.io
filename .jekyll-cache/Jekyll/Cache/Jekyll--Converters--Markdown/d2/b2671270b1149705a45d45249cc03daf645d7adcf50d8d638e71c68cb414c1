@@ -1,4 +1,4 @@
-I"<div class="container">
+I"�<div class="container">
 	<div class="section">
 		<div id="link_bar">
 			<a href="/CV/CurriculumVitae.pdf">Curriculum Vitae</a>
@@ -34,7 +34,7 @@ function pdf_new_window ()
 pdf_new_window()
 external_new_window();
 </script>
-I am a <a href="http://www.cnrs.fr/index.html">CNRS</a> researcher at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in <a href="http://www.ens.fr">Ecole Normale Supérieure</a>. 
+I am a <a href="http://www.cnrs.fr/index.html">CNRS</a> Research Scientist working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in <a href="http://www.ens.fr">Ecole Normale Supérieure</a>. I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology. 
 <br /><br />
 I am a solid mechanician and earthquake source physicist by training. 
 <br /><br />

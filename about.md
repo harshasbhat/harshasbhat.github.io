@@ -15,7 +15,7 @@ title:
 </div>
 <br>
 {% include new-window-fix.html %}
-I am a [CNRS] researcher at the [Laboratoire de Géologie] [LG] in [Ecole Normale Supérieure] [ENS]. 
+I am a [CNRS] Research Scientist working at the [Laboratoire de Géologie] [LG] in [Ecole Normale Supérieure] [ENS]. I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology. 
 <br><br>
 I am a solid mechanician and earthquake source physicist by training. 
 <br><br>
