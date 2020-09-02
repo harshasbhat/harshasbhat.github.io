@@ -20,7 +20,7 @@ body {
     background-color: $background;
     margin: 0 $spacing-unit/2;
     -webkit-text-size-adjust: 100%;
-    text-align: center
+    text-align: justified
 }
 
 // bold elements
@@ -92,7 +92,6 @@ li {
 a {
     color: $url-color;
     text-decoration: none;
-    font-weight: bold;
     
     &:hover {
         color: $url-hover-color;
@@ -103,15 +102,15 @@ a {
 
 // Blockquotes
 blockquote {
-    background-color: lighten(#f0ece3,5%);
+    background-color: lighten($harvardblue,77%);
     margin-left: 0.0*$content-width;
     margin-right: 0.0*$content-width;
-//      border: solid lighten($blue, 35.5%);
+    border: 0.0px solid lighten(#0d667f, 15.5%);
 //     border-left: 0.1px solid lighten($harvard, 0.5%);
-//     border-top: 0.0px solid lighten($harvard, 79.5%);
+//     border-top: 0.1px solid lighten(#0d667f, 15.5%);
 //     border-right: 0.0px solid lighten($harvard, 79.5%);
-//     border-bottom: 0.1px solid lighten($harvard, 0.5%);
-    border-radius: 1em;
+//     border-bottom: 0.0px solid lighten($harvard, 0.5%);
+    border-radius: 0em;
 //     border-width: 0.1px;
 //     border-left-width: 0.1em;
 //     border-right-width: 0.1em;
