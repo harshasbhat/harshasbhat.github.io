@@ -103,11 +103,12 @@ publications:
       school:	
       arxiv: 	
       topics: "dynamics, damage, radiation, energy budget, numerical models, FDEM"	
+      img: "okubo2.png, okubo3.png"	
     - title:     "Origin of high-frequency radiation during laboratory earthquakes"
       author:    S. Marty, F. X. Passelègue, J. Aubry, A. Schubnel, H. S. Bhat & R. Madariaga
       year:    2019
       journal:    Geophys. Res. Lett.
-      pdf: 		MartyPasselègueAubry2019a.pdf
+      pdf: 		MartyPasselegueAubry2019a.pdf
       doi:		10.1029/2018GL080519
       pubnum:     	32
       type:         article  
@@ -117,6 +118,7 @@ publications:
       school:	
       arxiv: 	
       topics: "experiments, radiation, back projection"	
+      img: marty.png	
     - title:     "Frictional heating processes and energy budget during laboratory earthquakes"
       author:    J. Aubry, F. X. Passelègue, D. Deldicque, F. Girault, S. Marty, A. Lahfid, H. S. Bhat, J. Escartin & A. Schubnel
       year:    2018
@@ -130,6 +132,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: aubry.png	
     - title:     "Earthquake damage patterns resolve complex rupture processes"
       author:    Y. Klinger, K. Okubo, A. Vallage, J. Champenois, A. Delorme, E. Rougier, Z. Lei, E. E. Knight, A. Munjiza, C. Satriano, S. Baize, R. Langridge & H. S. Bhat
       year:    2018
@@ -143,6 +146,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: klinger.png	
     - title:     "Rapid tremor migration and pore-pressure waves in subduction zones"
       author:    V. M. Cruz-Atienza, C. D. Villafuerte & H. S. Bhat
       year:    2018
@@ -156,6 +160,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: villa.png	
     - title:     "Dynamic evolution of off-fault medium during an earthquake: a micromechanics based model"
       author:    M. Y. Thomas & H. S. Bhat
       year:    2018
@@ -169,6 +174,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: marion.png	
     - title:     "Fast and slow earthquakes emerge due to fault geometrical complexity"
       author:    P. Romanet, H. S. Bhat, R. Jolivet & R. Madariaga
       year:    2018
@@ -182,6 +188,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: pierre.png	
     - title:     "Experimental evidence that thrust earthquake ruptures might open faults"
       author:    V. Gabuchian, A. J. Rosakis, H. S. Bhat, R. Madariaga & H. Kanamori
       year:    2017
@@ -195,6 +202,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: vahe.png	
     - title:     "Effect of Brittle off-fault Damage on Earthquake Rupture Dynamics"
       author:    M. Y. Thomas, H. S. Bhat & Y. Klinger
       year:    2017
@@ -205,9 +213,10 @@ publications:
       type:         incollection  
       booktitle:	"Fault Zone Dynamic Processes : Evolution of Fault Properties During Seismic Rupture, Geophysical Monograph 227"
       publisher:	American Geophysical Union (AGU)
-      editor:   Thomas, M. Y., Bhat, H. S., & Mitchell, T. M.
+      editor:   Thomas, M. Y., H. S. Bhat, & Mitchell, T. M.
       school:	
       arxiv: 	
+      img: marion2.png	
     - title:     "Precursory Processes during Laboratory Earthquakes"
       author:    F. X. Passelègue, S. Latour, A. Schubnel, S. Nielsen, H. S. Bhat & R. Madariaga
       year:    2017
@@ -218,9 +227,10 @@ publications:
       type:         incollection  
       booktitle:	"Fault Zone Dynamic Processes : Evolution of Fault Properties During Seismic Rupture, Geophysical Monograph 227"
       publisher:	American Geophysical Union (AGU)
-      editor:   Thomas, M. Y., Bhat, H. S., & Mitchell, T. M.
+      editor:   Thomas, M. Y., H. S. Bhat, & Mitchell, T. M.
       school:	
       arxiv: 	
+      img: franc01.png	
     - title:     "Micromechanics based permeability evolution in brittle materials at high strain rates"
       author:    T. Perol & H. S. Bhat
       year:    2016
@@ -234,6 +244,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: thibaut.png	
     - title:     "Dynamic rupture processes inferred from laboratory microearthquakes"
       author:    F. X. Passelègue, A. Schubnel, S. Nielsen, H. S. Bhat, D. Deldicque & R. Madariaga
       year:    2016
@@ -247,6 +258,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: franc02.png	
     - title:     "Spatiotemporal properties of sub-Rayleigh and supershear rupture velocity fields : Theory and Experiments"
       author:    M. Mello, H. S. Bhat & A. J. Rosakis
       year:    2016
@@ -260,6 +272,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: mello01.png	
     - title:     "Inelastic surface deformation during the 2013 Mw 7.7 Balochistan, Pakistan, earthquake"
       author:    A. Vallage, Y. Klinger, R. Grandin, H. S. Bhat & M. Pierrot-Deseilligny
       year:    2015
@@ -273,6 +286,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: vallage.png	
     - title:     "Along-fault pore-pressure evolution during a slow-slip event in Guerrero, Mexico"
       author:    W. B. Frank, N. M. Shapiro, A. L. Husker, V. Kostoglodov, H. S. Bhat & M. Campillo
       year:    2015
@@ -286,6 +300,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: frank.png	
     - title:     "A Laboratory Earthquake-Based Stochastic Seismic Source Generation Algorithm for Strike-Slip Faults"
       author:    H. Siriki, H. S. Bhat, X. Lu & S. Krishnan
       year:    2015
@@ -299,6 +314,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: hemanth.png	
     - title:     "Reproducing The Supershear Portion Of The 2002 Denali Earthquake Rupture In Laboratory"
       author:    M. Mello, H. S. Bhat, A. J. Rosakis & H. Kanamori
       year:    2014
@@ -312,6 +328,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: mello02.png	
     - title:     "From Sub-Rayleigh to Supershear Ruptures During Stick-Slip Experiments on Crustal Rocks"
       author:    F. X. Passelègue, A. Schubnel, S. Nielsen, H. S. Bhat & R. Madariaga
       year:    2013
@@ -325,6 +342,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: franc03.png	
     - title:     "A Micromechanics Based Constitutive Model For Brittle Failure at High Strain Rates"
       author:    H. S. Bhat, A. J. Rosakis & C. G. Sammis
       year:    2012
@@ -338,6 +356,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: bhat01.png	
     - title:     "The Micromechanics of Westerley Granite at Large Compressive Loads"
       author:    H. S. Bhat, C. G. Sammis & A. J. Rosakis
       year:    2011
@@ -351,6 +370,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: bhat02.png	
     - title:     "The Effect of Asymmetric Damage on Dynamic Shear Rupture Propagation II: With Mismatch in Bulk Elasticity"
       author:    H. S. Bhat, R. L. Biegel, A. J. Rosakis & C. G. Sammis
       year:    2010
@@ -364,6 +384,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: bhat03.png	
     - title:     "The Effect of Asymmetric Damage on Dynamic Shear Rupture Propagation I: No Mismatch in Bulk Elasticity"
       author:    R. L. Biegel, H. S. Bhat, C. G. Sammis & A. J. Rosakis
       year:    2010
@@ -377,6 +398,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: biegel.png	
     - title:     "Identifying the unique ground motion signatures of supershear earthquakes: Theory and experiments"
       author:    M. Mello, H. S. Bhat, A. J. Rosakis & H. Kanamori
       year:    2010
@@ -390,6 +412,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: mello03.png	
     - title:     "Dynamic rupture through a branched fault configuration at Yucca Mountain and resulting ground motions"
       author:    E. L. Templeton, H. S. Bhat, R. Dmowska & J. R. Rice
       year:    2010
@@ -403,6 +426,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: liz01.png	
     - title:     "The SCEC/USGS dynamic earthquake rupture code verification exercise"
       author:    R. A. Harris, M. Barall, R. J. Archuleta, E. M. Dunham, B. Aagaard, J.-P. Ampuero, H. S. Bhat, V. Cruz-Atienza, L. Dalguer, P. Dawson, S. M. Day, B. Duan, G. Ely, Y. Kaneko, Y. Kase, N. Lapusta, Y. Liu, S. Ma, D. D. Oglesby, K. B. Olsen, A. Pitarka, S. Song & E. L. Templeton
       year:    2009
@@ -416,6 +440,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: harris.png	
     - title:     "Effects of Off-fault Damage on Earthquake Rupture Propagation: Experimental Studies"
       author:    C. G. Sammis, A. J. Rosakis & H. S. Bhat
       year:    2009
@@ -429,6 +454,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: sammis.png	
     - title:     "Finite Element Simulations of Dynamic Shear Rupture Experiments and Dynamic Path Selection Along Kinked and Branched Faults"
       author:    E. L. Templeton, A. Baudet, H. S. Bhat, R. Dmowska, J. R. Rice, A. J. Rosakis & C. E. Rousseau
       year:    2009
@@ -442,6 +468,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: liz02.png	
     - title:     "Attenuation of radiated ground motion and stresses from three-dimensional supershear ruptures"
       author:    E. M. Dunham & H. S. Bhat
       year:    2008
@@ -455,6 +482,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: dunham.png	
     - title:     "Off-fault damage patterns due to supershear ruptures with application to the 2001 ${M}_w$ 8.1 Kokoxili (Kunlun) Tibet earthquake"
       author:    H. S. Bhat, R. Dmowska, G. C. P. King, Y. Klinger & J. R. Rice
       year:    2007
@@ -468,6 +496,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: bhat04.png	
     - title:     "Role of fault branches in earthquake rupture dynamics"
       author:    H. S. Bhat, M. Olives, R. Dmowska & J. R. Rice
       year:    2007
@@ -481,6 +510,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: bhat05.png	
     - title:     "Fault branching and rupture directivity"
       author:    S. Fliss, H. S. Bhat, R. Dmowska & J. R. Rice
       year:    2005
@@ -494,6 +524,7 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: fliss.png	
     - title:     "Dynamic slip transfer from the Denali to Totschunda faults, Alaska: Testing theory for fault branching"
       author:    H. S. Bhat, R. Dmowska, J. R. Rice & N. Kame
       year:    2004
@@ -507,4 +538,5 @@ publications:
       editor:   
       school:	
       arxiv: 	
+      img: bhat06.png	
 
