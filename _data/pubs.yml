@@ -13,6 +13,7 @@ publications:
       school:	
       arxiv: 	
       topics: "friction, earthquake cycles, history"	
+      img: mallet.png
     - title:     "Signature of supershear transition seen in damage and aftershock pattern"
       author:    J. Jara, L. Bruhat, S. Antoine, K. Okubo, M. Y. Thomas, Y. Klinger, R. Jolivet & H. S. Bhat
       year:    2020
@@ -27,6 +28,7 @@ publications:
       school:	
       arxiv: 	1909.12672
       topics: "supershear, damage, fracture mechanics, numerical models, aftershocks"	
+      img: theorydamage.png
     - title:     "Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle"
       author:    L. Jeandet-Ribes, N. Cubas, H. S. Bhat & P. Steer
       year:    2020
@@ -41,6 +43,7 @@ publications:
       school:	
       arxiv: 	2007.06412
       topics: "erosion, earthquake cycles, numerical models"	
+      img: erosion.png
     - title:     "Supershear Tsunamis and insights from the $M_w$ 7.5 Palu Earthquake"
       author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin
       year:    2020
@@ -55,6 +58,7 @@ publications:
       school:	
       arxiv: 	1910.14547
       topics: "supershear, tsunami, numerical models, FCM"	
+      img: tsunami.png
     - title:     "Modeling earthquakes with off-fault damage using the combined finite discrete element method"
       author:    K. Okubo, E. Rougier, Z. Lei & H. S. Bhat
       year:    2020
@@ -69,6 +73,7 @@ publications:
       school:	
       arxiv: 	
       topics: "dynamics, damage, kinks, branching, roughness, radiation, numerical models, FDEM"	
+      img: okubo1.png
     - title:     "Interseismic Loading of Subduction Megathrust Drives Long-Term Uplift in Northern Chile"
       author:    R. Jolivet, M. Simons, Z. Duputel, J.-A. Olive, H. S. Bhat & Q. Bletery
       year:    2020
@@ -82,7 +87,8 @@ publications:
       editor:   
       school:	
       arxiv: 	
-      topics: "earthquake cycles, plasticity"	
+      topics: "earthquake cycles, plasticity"
+      img: jolivet.png	
     - title:     "Dynamics, radiation and overall energy budget of earthquake rupture with coseismic off-fault damage"
       author:    K. Okubo, H. S. Bhat, E. Rougier, S. Marty, A. Schubnel, Z. Lei, E. E. Knight & Y. Klinger
       year:    2019

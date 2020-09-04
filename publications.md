@@ -48,48 +48,220 @@ title:
 {% assign uniqetopics = "" %}
 {% assign uniqetopics = pub.topics | split: ', ' | sort_natural | uniq %} 
 {% assign auth = pub.author %}
+<div class="group">
 
-<span id="link_bar3"><a href="#top">[top]</a></span>
->  {% if pub.arxiv %}<div class="section">
-		<div id="link_bar3">
-		   <a href="https://plu.mx/plum/a/?arxiv={{pub.arxiv}}" data-popup="right" data-size="small" class="plumx-plum-print-popup plum-bigben-theme" data-site="plum" data-hide-when-empty="true"></a>
+{% if pub.img %}
+    <div class="lefty">
+    	<br>
+     	●
+		{% if pub.pdf %}
+			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
+		{% else %} 
+			{{pub.title}}
+		{% endif %}
+	</div>	
+
+		
+	<div class="lefty">
+		{{pub.author | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>
+		
+		{% if pub.type == "article" %}
+			<span style="color:grey"><em>{{pub.journal}}</em><br></span>
+		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
+			in <span style="color:grey">{{pub.booktitle}}</span>
+			eds. {{pub.editor}}
+		{% endif %}
+		
+		{% if pub.doi %}
+			<a href="https://doi.org/{{pub.doi}}">doi:{{pub.doi}}</a>
+		{% endif %}
+		
+		{% if pub.arxiv %}
+			<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf">arXiv:{{pub.arxiv}}[physics.geo-ph]</a>
+		{% endif %}
+		
+		({{pub.year}})
+    </div>
+    
+	
+    {% if pub.topics %}
+		<div class="lefty">
+			{% for topic in uniqetopics %}
+				<span id="link_bar2">
+					<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a>
+				</span>
+			{% endfor %}
 		</div>
-	</div>{% endif %}{% if pub.doi %}<div class="section">
-		<div id="link_bar3">
-		   <a href="https://plu.mx/plum/a/?doi={{pub.doi}}" data-popup="right" data-size="small" class="plumx-plum-print-popup plum-bigben-theme" data-site="plum" data-hide-when-empty="true"></a>
-		</div>
-	</div>{% endif %} {% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %} {{pub.title}} {% endif %}
-<br>{{pub.author | replace: "H. S. Bhat", "**H. S. Bhat**"}}<br>
-{% if pub.type == "article" %}<span style="color:#0d667f">***{{pub.journal}}*** <br></span>
-{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}in <span style="color:#0d667f">***{{pub.booktitle}}*** <br></span>
-eds. *{{pub.editor}}*<br>{% endif %}{% if pub.doi %}[doi:{{pub.doi}}](https://doi.org/{{pub.doi}}) ({{pub.year}})<br>{% endif %}{% if pub.arxiv %}[arXiv:{{pub.arxiv}}[physics.geo-ph]](https://arxiv.org/pdf/{{pub.arxiv}}.pdf) ({{pub.year}}) <br>{% endif %}
-{% if pub.topics %}{% for topic in uniqetopics %}<span id="link_bar2"><a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a></span>{% endfor %}{% endif %}
-{% assign j = j | minus: 1 %}
+	{% endif %}
+	
+	<div class="righty">
+    <br>
+			<img src="{{site.baseurl}}/images/{{pub.img}}" class="responsive" width="100%">
+	</div>
+
+	
+{% else %}
+
+    <div class="fully2">
+    <br>
+     	●
+		{% if pub.pdf %}
+			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
+		{% else %} 
+			{{pub.title}}
+		{% endif %}
+		
+		<br>{{pub.author | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>		
+		
+		{% if pub.type == "article" %}
+			<span style="color:grey"><em>{{pub.journal}}</em><br></span>
+		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
+			in <span style="color:grey">{{pub.booktitle}}</span>
+			eds. {{pub.editor}}
+		{% endif %}
+		
+		{% if pub.doi %}
+			<a href="https://doi.org/{{pub.doi}}">doi:{{pub.doi}}</a>
+		{% endif %}
+		
+		{% if pub.arxiv %}
+			<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf">arXiv:{{pub.arxiv}}[physics.geo-ph]</a>
+		{% endif %}
+		
+		({{pub.year}})<br>
+
+    {% if pub.topics %}
+			{% for topic in uniqetopics %}
+				<span id="link_bar2">
+					<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a>
+				</span>
+			{% endfor %}
+	{% endif %}
+	
+	</div>
+
+{% endif %}
+	
+	
+	
+</div>  
+	
 {% endfor %}
 
-<br>
+
+<br><br>
 ## Books
 {: style="text-decoration: underline; color:black; font-size: 110%; font-weight: bold; text-align: center;"}
 
-{% for pub in site.data.books.publications %}
-<span id="link_bar3"><a href="#top">[top]</a></span><br>
 
-> {% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %}{{pub.title}} {% endif %}
-<br>edited by {{pub.editor | replace: "H. S. Bhat", "**H. S. Bhat**"}}<br>
-{{pub.publisher}} {% if pub.doi %} <br>[*doi:{{pub.doi}}*](https://doi.org/{{pub.doi}})  {% endif %}({{pub.year}}) 
+{% for pub in site.data.books.publications %}
+<div class="group">
+
+{% if pub.img %}
+
+    <div class="lefty">
+	    <br>
+     	●
+		{% if pub.pdf %}
+			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
+		{% else %} 
+			{{pub.title}} 
+		{% endif %}
+	</div>	
+
+	<div class="lefty">	
+		edited by {{pub.editor | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>
+		
+		{% if pub.doi %}
+			{{pub.publisher}}<br>
+			<a href="https://doi.org/{{pub.doi}}">doi:{{pub.doi}}</a> ({{pub.year}}) 
+		{% else %}
+			{{pub.publisher}} ({{pub.year}})
+		{% endif %}
+    </div>
+	
+	<div class="righty">
+			<img src="{{site.baseurl}}/images/{{pub.img}}" class="responsive" width="80%">
+	</div>
+
+{% else %}
+
+    <div class="fully2">
+    <br>
+     	●
+		{% if pub.pdf %}
+			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
+		{% else %} 
+			{{pub.title}} 
+		{% endif %}
+		<br>edited by {{pub.editor | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}},
+		
+		{% if pub.doi %}
+			{{pub.publisher}}<br>
+			<a href="https://doi.org/{{pub.doi}}">doi:{{pub.doi}}</a> ({{pub.year}}) 
+		{% else %}
+			{{pub.publisher}} ({{pub.year}})
+		{% endif %}
+		
+	</div>
+{% endif %}		
+</div>
+	
 {% endfor %}
 
-
-<br>
+<br><br>
 ## Theses
 {: style="text-decoration: underline; color:black; font-size: 110%; font-weight: bold; text-align: center;"}
 
-{% for pub in site.data.theses.publications %}
-<span id="link_bar3"><a href="#top">[top]</a></span><br>
 
-> {% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %}{{pub.title}} {% endif %} ({{pub.year}})<br>
-{{pub.author | replace: "H. S. Bhat", "**H. S. Bhat**"}}<br>
-**{{pub.school}}** 
+{% for pub in site.data.theses.publications %}
+<div class="group">
+
+{% if pub.img %}
+
+	<div class="lefty">
+	    <br>
+		●
+		{% if pub.pdf %}
+			<a href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
+		{% else %} 
+			{{pub.title}} 
+		{% endif %}
+	</div>
+	
+	<div class="lefty">	
+		{{pub.author | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>
+		<span style="color:grey">{{pub.school}}</span>
+		{% if pub.doi %}
+			<a href="https://doi.org/{{pub.doi}}">doi:{{pub.doi}}</a>
+		{% endif %}
+		({{pub.year}}) 
+    </div>
+    
+	<div class="righty">
+			<img src="{{site.baseurl}}/images/{{pub.img}}" class="responsive">
+	</div>
+	
+{% else %}
+
+	<div class="fully2">
+		●
+		{% if pub.pdf %}
+			<a href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
+		{% else %} 
+			{{pub.title}} 
+		{% endif %}
+	
+		<br>{{pub.author | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>
+		<span style="color:grey">{{pub.school}}</span>
+		{% if pub.doi %}
+			<a href="https://doi.org/{{pub.doi}}">doi:{{pub.doi}}</a>
+		{% endif %}
+		({{pub.year}}) 
+	</div>	
+{% endif %}
+
+</div>	
 {% endfor %}
 
 {% include new-window-fix.html %}
