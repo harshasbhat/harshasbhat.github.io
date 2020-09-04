@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 $font-weight-normal: 400;
-$font-weight-bold:   450;
+$font-weight-bold:   480;
 
 $base-font-family: "Helvetica Neue";
 $base-font-size:   12pt;
@@ -43,7 +43,7 @@ $header-hover-url:  $harvard;
 $line-color:        $grey-light;
 
 // Width of the content area
-$content-width:    45em;
+$content-width:    55em;
 $content-min-width:15em;
 $mobile:           35em;
 $desktop:          45em;
@@ -130,7 +130,7 @@ $desktop:          45em;
 // 
    .lefty {
         float: left;
-        width: 70%;
+        width: 75%;
         text-align: left;
         vertical-align: top;
         padding-right: 15px;
@@ -143,11 +143,15 @@ $desktop:          45em;
     .righty {
         float: top;
         display: inline-block;
-        width: 25%;
+        width: 20%;
         padding-left: 0px;
-        padding-top: 10px;
+        padding-top: 0px;
         vertical-align: center;
-        text-align: right;        
+        text-align: left;   
+//         -webkit-box-shadow: 0px -1px 10px 3px rgba(191,187,191,1);
+// -moz-box-shadow: 0px -1px 10px 3px rgba(191,187,191,1);
+// box-shadow: 0px -1px 10px 3px rgba(191,187,191,1);
+     
     }
     .fully {
         float: left;
@@ -179,11 +183,13 @@ $desktop:          45em;
     }
     
     .group {
-        border-bottom: 0.0px solid lighten($black, 0.5%);
+//         border: 0.1px solid lighten($black, 0.5%);
+        border-bottom: 0.05px solid lighten($black, 0.5%);
+//         border-top: 0.05px solid lighten($black, 0.5%);
         padding-bottom:20px;
--webkit-box-shadow: -16px 5px 11px -10px rgba(27,28,28,0.59);
--moz-box-shadow: -16px 5px 11px -10px rgba(27,28,28,0.59);
-box-shadow: -16px 5px 11px -10px rgba(27,28,28,0.59);
+// 		-webkit-box-shadow: -16px 5px 11px -10px rgba(27,28,28,0.59);
+// 		-moz-box-shadow: -16px 5px 11px -10px rgba(27,28,28,0.59);
+// 		box-shadow: -16px 5px 11px -10px rgba(27,28,28,0.59);
 }
     
     @media screen and (max-width: 480px) {

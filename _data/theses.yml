@@ -13,6 +13,7 @@ publications:
       school:	Habilitation à Diriger des Recherches, Ecole Normale Supérieure
       arxiv: 	
       topics: ""	
+      img: hdr.png	
     - title:     "High frequency radiation and foreshocks during laboratory earthquakes"
       author:    S. Marty
       year:    2020
@@ -26,6 +27,7 @@ publications:
       editor:
       school:   Ecole Normale Supérieure
       arxiv: 	
+      img: martyphd.png	
     - title:     "Dynamic earthquake ruptures on multiscale fault and fracture networks"
       author:    K. Okubo
       year:    2018
@@ -39,6 +41,7 @@ publications:
       editor:   
       school:	Institut de Physique du Globe de Paris
       arxiv: 	
+      img: okubophd.png	
     - title:     "Fast algorithms to model quasi-dynamic earthquake cycles in complex fault networks"
       author:    P. Romanet
       year:    2017
@@ -52,6 +55,7 @@ publications:
       editor:   
       school:	Institut de Physique du Globe de Paris
       arxiv: 	
+      img: romanetphd.png	
     - title:     "Role of Geometric Complexities and Off-Fault Damage in Dynamic Rupture Propagation"
       author:    H. S. Bhat
       year:    2007
@@ -65,3 +69,4 @@ publications:
       editor:   
       school:	Harvard University
       arxiv: 	
+      img: 

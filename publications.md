@@ -47,6 +47,10 @@ title:
 
 {% assign uniqetopics = "" %}
 {% assign uniqetopics = pub.topics | split: ', ' | sort_natural | uniq %} 
+
+{% assign imgs = "" %}
+{% assign imgs = pub.img | split: ', ' | sort_natural | uniq %} 
+
 {% assign auth = pub.author %}
 <div class="group">
 
@@ -69,7 +73,7 @@ title:
 			<span style="color:grey"><em>{{pub.journal}}</em><br></span>
 		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
 			in <span style="color:grey">{{pub.booktitle}}</span>
-			eds. {{pub.editor}}
+			eds. {{pub.editor | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}
 		{% endif %}
 		
 		{% if pub.doi %}
@@ -96,7 +100,9 @@ title:
 	
 	<div class="righty">
     <br>
-			<img src="{{site.baseurl}}/images/{{pub.img}}" class="responsive" width="100%">
+    	{% for image in imgs %}
+			<img src="{{site.baseurl}}/images/pubimages/{{image}}" class="responsive" width="100%">
+    	{% endfor %}
 	</div>
 
 	
@@ -181,7 +187,8 @@ title:
     </div>
 	
 	<div class="righty">
-			<img src="{{site.baseurl}}/images/{{pub.img}}" class="responsive" width="80%">
+	<br>
+			<img src="{{site.baseurl}}/images/pubimages/{{pub.img}}" class="responsive" width="80%">
 	</div>
 
 {% else %}
@@ -239,7 +246,8 @@ title:
     </div>
     
 	<div class="righty">
-			<img src="{{site.baseurl}}/images/{{pub.img}}" class="responsive">
+			<br>
+			<img src="{{site.baseurl}}/images/pubimages/{{pub.img}}" class="responsive">
 	</div>
 	
 {% else %}
@@ -265,6 +273,17 @@ title:
 {% endfor %}
 
 {% include new-window-fix.html %}
+
+<style>
+.responsive {
+width: 100%; 
+height: 100%; 
+object-fit: contain; 
+max-width: 300px;
+max-height: 150px;
+float: left;
+}
+</style>
 
 [LG]: http://www.geologie.ens.fr
 [ENS]: http://www.ens.fr
