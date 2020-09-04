@@ -12,6 +12,7 @@ publications:
       editor:   M. Y. Thomas, T. M. Mitchell, & H. S. Bhat
       school:	
       arxiv: 	
+      img: book1.png
     - title:     "The mechanics of faulting: From laboratory to earthquakes"
       author:    
       year:    2012
@@ -25,3 +26,4 @@ publications:
       editor:   A. Bizzarri & H. S. Bhat
       school:	
       arxiv: 	
+      img: book2.png

@@ -123,3 +123,76 @@ $desktop:          45em;
   	justify-content: center;
   }
 }
+
+
+// 
+// 
+// 
+   .lefty {
+        float: left;
+        width: 70%;
+        text-align: left;
+        vertical-align: top;
+        padding-right: 15px;
+        padding-bottom:0px;
+        padding-top:0px;
+        padding-left:15px;
+        border-right: 0px solid lighten($harvard, 0.5%);
+        
+    }
+    .righty {
+        float: top;
+        display: inline-block;
+        width: 25%;
+        padding-left: 0px;
+        padding-top: 10px;
+        vertical-align: center;
+        text-align: right;        
+    }
+    .fully {
+        float: left;
+        width: 100%;
+        text-align: left;
+        vertical-align: middle;
+        padding-bottom: 0px;
+        border-bottom: 0.0px solid lighten($black, 0.5%);
+    }
+    .fully2 {
+        float: left;
+        width: 100%;
+        text-align: left;
+        vertical-align: middle;
+        padding-bottom: 0px;
+        padding-top:20px;
+        padding-left:15px;
+        padding-right:15px;
+        border-bottom: 0.0px solid lighten($black, 0.5%);
+    }
+//     img {
+//         max-width: 100%;
+//         height: auto;
+//     }
+    .group:after {
+        content:"";
+        display: table;
+        clear: both;
+    }
+    
+    .group {
+        border-bottom: 0.0px solid lighten($black, 0.5%);
+        padding-bottom:20px;
+-webkit-box-shadow: -16px 5px 11px -10px rgba(27,28,28,0.59);
+-moz-box-shadow: -16px 5px 11px -10px rgba(27,28,28,0.59);
+box-shadow: -16px 5px 11px -10px rgba(27,28,28,0.59);
+}
+    
+    @media screen and (max-width: 480px) {
+        .lefty, .righty {
+            float: none;
+            width: auto;
+        }
+        .righty{
+        display:none;}
+    }
+
+
