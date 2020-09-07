@@ -7,7 +7,7 @@ title:
 **This page is being updated...**
 
 Listed below are my publications sorted by various research topics. 
-You can browse my full list of publications [here][pubs].
+You can browse my full list of publications [here][pubs]
 <br><br>
 
 {% include collecttags.html %}
