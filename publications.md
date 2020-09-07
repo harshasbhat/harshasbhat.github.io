@@ -5,6 +5,7 @@ title:
 ---
 
 {% include collecttags.html %}
+{% include lazyload.html %}
 
 {% assign year = 1980 %}
 {% assign j = site.data.pubs.publications.size %}
@@ -71,7 +72,7 @@ title:
 	<div class="righty">
     <br>
     	{% for image in imgs %}
-			<img src="{{site.baseurl}}/images/pubimages/{{image}}" class="responsive" width="100%">
+			<img src="{{site.baseurl}}/images/pubimages/blank.png" data-echo="{{site.baseurl}}/images/pubimages/{{image}}" class="responsive" width="100%">
     	{% endfor %}
 	</div>
 
