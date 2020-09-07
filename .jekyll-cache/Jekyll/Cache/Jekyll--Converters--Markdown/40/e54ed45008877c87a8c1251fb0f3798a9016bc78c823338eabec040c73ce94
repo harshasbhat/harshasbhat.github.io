@@ -1,3 +1,18 @@
+I"n<div class="captioned-img alignCENTER">
+    <a href="images/BHAT4.jpg">
+    
+    <img src="images/BHAT4.jpg" width="290px" />
+    </a>
+</div>
+
+<!-- 
+<br>
+**RECENT NEWS:**
+
+<br>
+> Our paper on Supershear Tsunamis is now accepted in Nature Geoscience. Read more about it [here][tsunami].
+-->
+
 <script>
 //open external links in a new window
 function external_new_window() {
@@ -24,3 +39,5 @@ function pdf_new_window ()
 pdf_new_window()
 external_new_window();
 </script>
+
+:ET

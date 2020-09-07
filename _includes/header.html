@@ -1,11 +1,19 @@
-<header class="site-header">
-    <a class="site-title" href="{{ site.baseurl }}/"> 
-    <img src="{{ site.baseurl }}/images/mach.png" alt="Harsha S. Bhat" height="50" object-fit="contain">
-    </a>
-    <nav class="site-nav">
-        <a href="#" class="menu-icon menu.open"></a>
-        <div class="trigger"><h1>Main Navigation</h1>
-            {% include nav.html  %}
-        </div>
-    </nav>
-</header>
+<nav class="jmenu">
+  <label for="menu-btn" class="jm-menu-btn jm-icon-menu"></label>
+  <input type="checkbox" id="menu-btn" class="jm-menu-btn">
+  <ul class="jm-collapse">
+{% for menu_item in site.data.menu %}
+ 	{% if menu_item.subcategories != null %}
+ 	   <li class="jm-dropdown">
+	   <a href="{{ menu_item.href | prepend: site.baseurl }}">{{ menu_item.title }}  <i class="fa fa-caret-down"></i></a>
+	   <ul>
+				{% for subcategory in menu_item.subcategories %}
+					<li><a href="{{ subcategory.subhref | prepend: site.baseurl }}">{{ subcategory.subtitle }}</a></li>
+				{% endfor %}
+	   </ul>
+	   </li>
+	{% else %}
+ 		 <li class="jm-dropdown"><a href="{{ menu_item.href }}">{{ menu_item.title }}︎</a></li>
+	{% endif %}
+{% endfor %} 
+</nav>

@@ -1,3 +1,10 @@
+I"¦<div class="captioned-img alignCENTER">
+    <a href="images/BHAT4.jpg">
+    
+    <img src="images/BHAT4.jpg" width="290px" />
+    </a>
+</div>
+
 <script>
 //open external links in a new window
 function external_new_window() {
@@ -24,3 +31,16 @@ function pdf_new_window ()
 pdf_new_window()
 external_new_window();
 </script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+:ET

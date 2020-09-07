@@ -1,0 +1,180 @@
+/* JMenu 1.0 RC1 | MIT License | https://github.com/jamesjohnson280/JMenu */
+
+
+/* Menu bar and fonts */
+
+.jmenu {
+  background: #A41034; /* Dark gray */
+/*   box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, .5); */
+/*   box-sizing: border-box; */
+  line-height: 1;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0px ; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Menu Button */
+input.jm-menu-btn {
+  display: none; /* Hide the checkbox */
+}
+
+input[type='checkbox'].jm-menu-btn ~ .jm-collapse {
+  display: none; /* Hide menu on load */
+}
+
+input[type='checkbox']:checked.jm-menu-btn ~ .jm-collapse {
+  display: block; /* Open when menu button is clicked */
+}
+
+label.jm-menu-btn {
+  background: #A41034; /* Dark gray */
+  color: white; /* Light gray */
+  cursor: pointer;
+  display: block;
+  padding: 16px 15px;
+}
+
+label.jm-menu-btn:hover {
+  color:white;
+}
+
+.jm-collapse {
+  /* Add border between menu and menu button when it's open */
+  border-top: 0px #959595 solid; /* Light Gray */
+}
+
+
+/* Menu Items */
+.jmenu ul,
+.jmenu li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px 3px;
+  float: center;
+}
+
+/* Links */
+.jmenu a {
+  color: white; /* Light gray */
+  display: inline-block;
+  padding: 16px 0px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.jmenu a:hover {
+  color: white; /* White */
+}
+
+/* Submenu Items */
+.jmenu ul ul {
+  display: none; /* Hidden by default */
+}
+
+/* Dropdowns */
+
+.jm-dropdown {
+/*   box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, .5); */
+  float: center;
+  padding: 0px 0px;
+  }
+
+.jm-dropdown:hover ul {
+  display: block;
+}
+
+.jm-dropdown:hover a {
+  /* Make top-level menu item stay highlighted when hovering over children */
+  color: white; 
+}
+
+.jm-dropdown ul {
+  background: #A41034; /* White */
+  padding: 0;
+}
+
+.jm-dropdown ul a,
+.jm-dropdown:hover ul a {
+   color: white; /* Light gray */
+}
+
+.jm-dropdown ul a:hover,
+.jm-dropdown:hover ul a:hover {
+  color: #afe6f1; /* Black*/
+  text-decoration: underline;
+/*   background-color: #afe6f1; /* Light gray */ */
+
+}
+
+/* Tertiary+ Menu Items */
+.jm-dropdown ul ul {
+  border-bottom: 1px #ccc solid; /* Light gray */
+  border-top: 1px #ccc solid;
+  box-shadow: none;
+  margin-bottom: 16px;
+  max-width: 100%;
+  position: relative;
+}
+
+/* Icons */
+.jm-icon-dropdown {
+    border: solid #959595; /* Light gray */
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    margin: 0 0 3px 8px;
+    padding: 3px;
+    transform: rotate(45deg);
+} 
+
+li:hover .jm-icon-dropdown {
+    border-color: #fff; /* White */
+} 
+
+.jm-icon-menu::before {
+  content: '\2630    Menu';
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  
+  /* Menu items */
+  .jmenu li {
+    display: inline-block;
+  }
+  
+  .jmenu a {
+    padding: 16px;
+  }
+  
+  /* Dropdowns */
+  .jm-dropdown {
+    position: relative;
+  }
+  
+  .jm-dropdown li a {
+    display: block;
+    padding: 8px 16px;
+    white-space: nowrap;
+  }
+  
+  .jm-dropdown ul {
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .5);
+    padding: 8px 0;
+    position: absolute;
+    min-width: 100%;
+  }
+  
+  /* Menu Button */
+  input.jm-menu-btn,
+  label.jm-menu-btn {
+    display: none; /* Hide menu button */
+  }
+  
+  input[type='checkbox'].jm-menu-btn ~ .jm-collapse,
+  .jm-collapse {
+    display: block; /* Show menu */
+  }
+
+}

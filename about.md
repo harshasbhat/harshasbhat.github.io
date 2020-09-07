@@ -4,16 +4,6 @@ permalink: /about/
 title: 
 ---
 
-<div class="container">
-	<div class="section">
-		<div id="link_bar">
-			<a href="{{ base }}/CV/CurriculumVitae.pdf">Curriculum Vitae</a>
-			<a href="http://scholar.google.com/citations?user={{site.author.scholar}}&hl=en&oi=ao">Google Scholar</a>
-			<a href="https://orcid.org/0000-0003-0361-1854">ORCID</a>
-		</div>
-	</div>
-</div>
-<br>
 {% include new-window-fix.html %}
 I am a [CNRS] Research Scientist working at the [Laboratoire de Géologie] [LG] in [Ecole Normale Supérieure] [ENS]. I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology. 
 <br><br>
