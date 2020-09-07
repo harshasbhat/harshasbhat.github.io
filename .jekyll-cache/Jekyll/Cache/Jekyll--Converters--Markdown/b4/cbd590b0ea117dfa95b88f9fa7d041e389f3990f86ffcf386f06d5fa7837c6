@@ -1,0 +1,184 @@
+I"�
+<p><br /></p>
+
+<div class="group">
+
+
+
+	<div class="lefty">
+	    <br />
+		●
+		
+			<a href="/files/cover.pdf">Supershear Earthquakes</a>
+		
+	</div>
+	
+	<div class="lefty">	
+		<b>H. S. Bhat</b><br />
+		<span style="color:grey">Habilitation à Diriger des Recherches, Ecole Normale Supérieure</span>
+		
+		(2021) 
+    </div>
+    
+	<div class="righty">
+			<br />
+			<img src="/images/pubimages/hdr.png" class="responsive" />
+	</div>
+	
+
+
+</div>
+
+<div class="group">
+
+
+
+	<div class="lefty">
+	    <br />
+		●
+		
+			<a href="/files/Marty2020a.pdf">High frequency radiation and foreshocks during laboratory earthquakes</a>
+		
+	</div>
+	
+	<div class="lefty">	
+		S. Marty<br />
+		<span style="color:grey">Ecole Normale Supérieure</span>
+		
+		(2020) 
+    </div>
+    
+	<div class="righty">
+			<br />
+			<img src="/images/pubimages/martyphd.png" class="responsive" />
+	</div>
+	
+
+
+</div>
+
+<div class="group">
+
+
+
+	<div class="lefty">
+	    <br />
+		●
+		
+			<a href="/files/Okubo2018a.pdf">Dynamic earthquake ruptures on multiscale fault and fracture networks</a>
+		
+	</div>
+	
+	<div class="lefty">	
+		K. Okubo<br />
+		<span style="color:grey">Institut de Physique du Globe de Paris</span>
+		
+		(2018) 
+    </div>
+    
+	<div class="righty">
+			<br />
+			<img src="/images/pubimages/okubophd.png" class="responsive" />
+	</div>
+	
+
+
+</div>
+
+<div class="group">
+
+
+
+	<div class="lefty">
+	    <br />
+		●
+		
+			<a href="/files/Romanet2017a.pdf">Fast algorithms to model quasi-dynamic earthquake cycles in complex fault networks</a>
+		
+	</div>
+	
+	<div class="lefty">	
+		P. Romanet<br />
+		<span style="color:grey">Institut de Physique du Globe de Paris</span>
+		
+		(2017) 
+    </div>
+    
+	<div class="righty">
+			<br />
+			<img src="/images/pubimages/romanetphd.png" class="responsive" />
+	</div>
+	
+
+
+</div>
+
+<div class="group">
+
+
+
+	<div class="fully2">
+		●
+		
+			<a href="/files/Bhat2007a.pdf">Role of Geometric Complexities and Off-Fault Damage in Dynamic Rupture Propagation</a>
+		
+	
+		<br /><b>H. S. Bhat</b><br />
+		<span style="color:grey">Harvard University</span>
+		
+		(2007) 
+	</div>	
+
+
+</div>
+
+<script>
+//open external links in a new window
+function external_new_window() {
+    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+    var b = c[a];
+    b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+    }
+}
+//open PDF links in a new window
+function pdf_new_window ()
+{
+    if (!document.getElementsByTagName) return false;
+    var links = document.getElementsByTagName("a");
+    for (var eleLink=0; eleLink < links.length; eleLink ++) {
+    if ((links[eleLink].href.indexOf('.pdf') !== -1)||(links[eleLink].href.indexOf('.doc') !== -1)||(links[eleLink].href.indexOf('.docx') !== -1)) {
+        links[eleLink].onclick =
+        function() {
+            window.open(this.href);
+            return false;
+        }
+    }
+    }
+} 
+pdf_new_window()
+external_new_window();
+</script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<style>
+.responsive {
+width: 100%; 
+height: 100%; 
+object-fit: contain; 
+max-width: 300px;
+max-height: 150px;
+float: left;
+}
+</style>
+
+:ET

@@ -1,5 +1,5 @@
 ---
-layout: pagemain
+layout: page
 title: null
 permalink: /
 published: true
@@ -7,8 +7,10 @@ published: true
 
 {% include image.html url="images/BHAT4.jpg" caption="" width="290px" align="CENTER" %}
 
-{% include new-window-fix.html %}
 
+
+{% include new-window-fix.html %}
+[tsunami]: /tsunami/
 [CONTACT]: /contact/
 [BIO]: /bio/
 [CV]: {{ base }}/CV/CurriculumVitae.pdf
@@ -18,3 +20,5 @@ published: true
 [Google Scholar]: http://scholar.google.com/citations?user={{site.author.scholar}}&hl=en&oi=ao
 [CNRS]: http://www.cnrs.fr/index.html
 [ORCID 0000-0003-0361-1854]: https://orcid.org/0000-0003-0361-1854
+
+

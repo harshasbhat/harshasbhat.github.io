@@ -1,3 +1,15 @@
+I"-<div class="captioned-img alignCENTER">
+    <a href="images/BHAT4.jpg">
+    
+    <img src="images/BHAT4.jpg" width="290px" />
+    </a>
+</div>
+
+<p><strong>NEWS</strong></p>
+<blockquote>
+  <p>Our recent paper</p>
+</blockquote>
+
 <script>
 //open external links in a new window
 function external_new_window() {
@@ -24,3 +36,5 @@ function pdf_new_window ()
 pdf_new_window()
 external_new_window();
 </script>
+
+:ET
