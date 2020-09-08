@@ -3,7 +3,12 @@ body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
-    padding: 16px;
+    padding: 0px 0px;
+}
+
+p {
+    margin: 0;
+    padding: 0px 10px;
 }
 
 html {
@@ -18,7 +23,7 @@ body {
     line-height: $base-line-height;
     color:       $text-color;
     background-color: $background;
-    margin: 0 $spacing-unit/2;
+//     margin: 0 $spacing-unit/2;
     -webkit-text-size-adjust: 100%;
     text-align: justified
 }
