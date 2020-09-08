@@ -24,6 +24,8 @@ title:
 {% assign imgs = pub.img | split: ', ' | sort_natural | uniq %} 
 
 {% assign auth = pub.author %}
+
+
 <div class="group">
 
 {% if pub.img %}
