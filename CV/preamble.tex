@@ -92,11 +92,15 @@
  
 \renewbibmacro{in:}{}
 
-\DeclareFieldFormat{journaltitle}{\textit{#1}}
-\DeclareFieldFormat[article,book,proceedings,inbook,incollection,inproceedings,patent,thesis,unpublished]{title}{\textit{\textcolor{Black}{#1}}}
 \DeclareFieldFormat
   [article,inbook,incollection,proceedings,inproceedings,patent,thesis,unpublished]
-  {title}{\mkbibquote{\textcolor{Black}{\textit{#1}}\isdot}}
+  {title}{\mkbibquote{\textcolor{Black}{\textit{#1}}}}
+\DeclareFieldFormat
+  [article,inbook,incollection,proceedings,inproceedings,patent,thesis,unpublished]
+  {journaltitle}{\textcolor{ivy}{\textit{#1}}} 
+\DeclareFieldFormat
+  [article,inbook,incollection,proceedings,inproceedings,patent,thesis,unpublished]
+  {booktitle}{in \textcolor{ivy}{\textit{#1}}}     
 \AtEveryBibitem{
 %\clearfield{year}
 \clearfield{volume}
