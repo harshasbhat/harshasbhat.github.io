@@ -4,9 +4,7 @@ title: null
 permalink: /
 published: true
 ---
-
-{% include image.html url="images/15CBE564-F9CC-485E-96D5-6FF121E890AA.jpeg" caption="" width="290px" align="CENTER" %}
-
+{% include image.html url="images/15CBE564-F9CC-485E-96D5-6FF121E890AA.jpeg" caption="Harsha S. Bhat (9/9/20)" width="290px" align="LEFT" %}
 
 
 {% include new-window-fix.html %}
