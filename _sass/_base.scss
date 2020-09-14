@@ -11,6 +11,11 @@ p {
     padding: 0px 10px;
 }
 
+h1 {
+text-decoration: underline;
+padding-top: 10px;
+}
+
 html {
     overflow-y: scroll;
 }
@@ -97,6 +102,7 @@ li {
 a {
     color: $url-color;
     text-decoration: none;
+    font-weight: bold;
     
     &:hover {
         color: $url-hover-color;

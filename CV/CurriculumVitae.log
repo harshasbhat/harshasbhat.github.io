@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.19)  9 SEP 2020 17:00
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.19)  14 SEP 2020 09:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1458,7 +1458,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--42
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
 
  []
 
@@ -1602,8 +1607,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--236
  []
 
 [4] [5]
+Overfull \hbox (3.90175pt too wide) in paragraph at lines 236--236
+[][]\TU/HelveticaNeue(0)/m/n/10 Bhat, H. S., R. Dmowska, J. R. Rice, and N. Kam
+e (2004). “[]\TU/HelveticaNeue(0)/m/it/10 Dynamic slip transfer from the Denali
+ to Totschunda
+ []
+
 Package biblatex Info: Reference segment=0 on input line 237.
- 
+
 AED: lastpage setting LastPage
 [6]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
@@ -1613,6 +1624,11 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 241.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
 Package rerunfilecheck Info: File `CurriculumVitae.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'CurriculumVitae.run.xml'.
 \openout1 = `CurriculumVitae.run.xml'.
 
@@ -1621,7 +1637,7 @@ Package logreq Info: Writing requests to 'CurriculumVitae.run.xml'.
 Here is how much of TeX's memory you used:
  43135 strings out of 492916
  851702 string characters out of 6133345
- 1338238 words of memory out of 5000000
+ 1338236 words of memory out of 5000000
  46658 multiletter control sequences out of 15000+600000
  534894 words of font info for 57 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
