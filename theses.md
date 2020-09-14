@@ -62,7 +62,7 @@ width: 100%;
 height: 100%; 
 object-fit: contain; 
 max-width: 300px;
-max-height: 150px;
+max-height: 100px;
 float: left;
 }
 </style>
