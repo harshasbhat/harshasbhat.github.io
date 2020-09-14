@@ -12,8 +12,16 @@ p {
 }
 
 h1 {
-text-decoration: underline;
-padding-top: 10px;
+text-decoration: none;
+padding: 3px;
+// -webkit-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
+// -moz-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
+// box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
+    background-color: lighten(#0d667f,50%);
+    border: 0.0px solid lighten(#0d667f, 15.5%);
+    border-radius: 0.5em;
+    color:       #000;
+    font-size:   $base-font-size;
 }
 
 html {
@@ -39,12 +47,12 @@ strong {
 }
 
 //  Headings
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-family: $heading-font-family;
     font-weight: $font-weight-bold;
     font-size:   $heading-font-size;
     line-height: $heading-line-height;
-    color:       $harvard;
+//     color:       $harvard;
 //     text-transform: uppercase;
 }
 
