@@ -44,7 +44,7 @@ publications:
       arxiv: 	2007.06412
       topics: "erosion, earthquake cycles, numerical models"	
       img: erosion.png
-    - title:     "Supershear Tsunamis and insights from the $M_w$ 7.5 Palu Earthquake"
+    - title:     "Supershear Tsunamis and insights from the Mw 7.5 Palu Earthquake"
       author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin
       year:    2020
       journal:    accepted in Nat. Geosci.
@@ -131,6 +131,7 @@ publications:
       publisher:	
       editor:   
       school:	
+      topics: "friction, energy budget, experiments"	
       arxiv: 	
       img: aubry.png	
     - title:     "Earthquake damage patterns resolve complex rupture processes"
@@ -145,6 +146,7 @@ publications:
       publisher:	
       editor:   
       school:	
+      topics: "dynamics, damage, numerical models, FDEM, Image Correlation"	
       arxiv: 	
       img: klinger.png	
     - title:     "Rapid tremor migration and pore-pressure waves in subduction zones"
@@ -159,6 +161,7 @@ publications:
       publisher:	
       editor:   
       school:	
+      topics: "tremor, permeability, Slow Slip"	
       arxiv: 	
       img: villa.png	
     - title:     "Dynamic evolution of off-fault medium during an earthquake: a micromechanics based model"
@@ -173,6 +176,7 @@ publications:
       publisher:	Oxford University Press
       editor:   
       school:	
+      topics: "damage, dynamics, micromechanics"	
       arxiv: 	
       img: marion.png	
     - title:     "Fast and slow earthquakes emerge due to fault geometrical complexity"
@@ -187,6 +191,7 @@ publications:
       publisher:	
       editor:   
       school:	
+      topics: "numerical models, BIEM, H- Matrices, Slow Slip, earthquake cycles"	
       arxiv: 	
       img: pierre.png	
     - title:     "Experimental evidence that thrust earthquake ruptures might open faults"
@@ -201,6 +206,7 @@ publications:
       publisher:	
       editor:   
       school:	
+      topics: "thrust fault, experiments, numerical models, FEM, fault opening"	
       arxiv: 	
       img: vahe.png	
     - title:     "Effect of Brittle off-fault Damage on Earthquake Rupture Dynamics"
@@ -215,6 +221,7 @@ publications:
       publisher:	American Geophysical Union (AGU)
       editor:   Thomas, M. Y., H. S. Bhat, & Mitchell, T. M.
       school:	
+      topics: "dynamics, damage, micromechanics"	
       arxiv: 	
       img: marion2.png	
     - title:     "Precursory Processes during Laboratory Earthquakes"
@@ -229,6 +236,7 @@ publications:
       publisher:	American Geophysical Union (AGU)
       editor:   Thomas, M. Y., H. S. Bhat, & Mitchell, T. M.
       school:	
+      topics: "Slow Slip, experiments, earthquake cycles"	
       arxiv: 	
       img: franc01.png	
     - title:     "Micromechanics based permeability evolution in brittle materials at high strain rates"
@@ -539,4 +547,3 @@ publications:
       school:	
       arxiv: 	
       img: bhat06.png	
-

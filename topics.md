@@ -92,7 +92,6 @@ You can browse my full list of publications [here][pubs]
 		{% endfor %}
 	</div>
 </div> 
-<br>
 {% endif %}
 {% endfor %}
 
