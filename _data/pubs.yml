@@ -17,7 +17,7 @@ publications:
     - title:     "Signature of supershear transition seen in damage and aftershock pattern"
       author:    J. Jara, L. Bruhat, S. Antoine, K. Okubo, M. Y. Thomas, Y. Klinger, R. Jolivet & H. S. Bhat
       year:    2020
-      journal:    to be submitted
+      journal:    submitted to Nat. Comm.
       pdf: 		JaraBruhatAntoine2020a.pdf
       doi:		
       pubnum:     	38
@@ -26,7 +26,7 @@ publications:
       publisher:	
       editor:   
       school:	
-      arxiv: 	1909.12672
+      arxiv: 	1909.12672v2
       topics: "supershear, damage, fracture mechanics, numerical models, aftershocks"	
       img: theorydamage.png
     - title:     "Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle"
@@ -47,7 +47,7 @@ publications:
     - title:     "Supershear Tsunamis and insights from the $M_w$ 7.5 Palu Earthquake"
       author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin
       year:    2020
-      journal:    under review in Nat. Geosci.
+      journal:    accepted in Nat. Geosci.
       pdf: 		AmlaniBhatSimons2020a.pdf
       doi:		
       pubnum:     	36
