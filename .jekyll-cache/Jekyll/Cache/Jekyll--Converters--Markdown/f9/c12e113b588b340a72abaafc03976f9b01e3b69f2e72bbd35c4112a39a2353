@@ -1,0 +1,2465 @@
+I"|�<p><strong>This page is being updated…</strong></p>
+
+<p>Listed below are my publications sorted by various research topics. 
+You can browse my full list of publications <a href="/articles/">here</a>
+<br /><br /></p>
+
+<script>
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+      define(function() {
+        return factory(root);
+      });
+    } else if (typeof exports === 'object') {
+      module.exports = factory;
+    } else {
+      root.echo = factory(root);
+    }
+  })(this, function (root) {
+  
+    'use strict';
+  
+    var echo = {};
+  
+    var callback = function () {};
+  
+    var offset, poll, delay, useDebounce, unload;
+  
+    var isHidden = function (element) {
+      return (element.offsetParent === null);
+    };
+    
+    var inView = function (element, view) {
+      if (isHidden(element)) {
+        return false;
+      }
+  
+      var box = element.getBoundingClientRect();
+      return (box.right >= view.l && box.bottom >= view.t && box.left <= view.r && box.top <= view.b);
+    };
+  
+    var debounceOrThrottle = function () {
+      if(!useDebounce && !!poll) {
+        return;
+      }
+      clearTimeout(poll);
+      poll = setTimeout(function(){
+        echo.render();
+        poll = null;
+      }, delay);
+    };
+  
+    echo.init = function (opts) {
+      opts = opts || {};
+      var offsetAll = opts.offset || 0;
+      var offsetVertical = opts.offsetVertical || offsetAll;
+      var offsetHorizontal = opts.offsetHorizontal || offsetAll;
+      var optionToInt = function (opt, fallback) {
+        return parseInt(opt || fallback, 10);
+      };
+      offset = {
+        t: optionToInt(opts.offsetTop, offsetVertical),
+        b: optionToInt(opts.offsetBottom, offsetVertical),
+        l: optionToInt(opts.offsetLeft, offsetHorizontal),
+        r: optionToInt(opts.offsetRight, offsetHorizontal)
+      };
+      delay = optionToInt(opts.throttle, 250);
+      useDebounce = opts.debounce !== false;
+      unload = !!opts.unload;
+      callback = opts.callback || callback;
+      echo.render();
+      if (document.addEventListener) {
+        root.addEventListener('scroll', debounceOrThrottle, false);
+        root.addEventListener('load', debounceOrThrottle, false);
+      } else {
+        root.attachEvent('onscroll', debounceOrThrottle);
+        root.attachEvent('onload', debounceOrThrottle);
+      }
+    };
+  
+    echo.render = function (context) {
+      var nodes = (context || document).querySelectorAll('[data-echo], [data-echo-background]');
+      var length = nodes.length;
+      var src, elem;
+      var view = {
+        l: 0 - offset.l,
+        t: 0 - offset.t,
+        b: (root.innerHeight || document.documentElement.clientHeight) + offset.b,
+        r: (root.innerWidth || document.documentElement.clientWidth) + offset.r
+      };
+      for (var i = 0; i < length; i++) {
+        elem = nodes[i];
+        if (inView(elem, view)) {
+  
+          if (unload) {
+            elem.setAttribute('data-echo-placeholder', elem.src);
+          }
+  
+          if (elem.getAttribute('data-echo-background') !== null) {
+            elem.style.backgroundImage = 'url(' + elem.getAttribute('data-echo-background') + ')';
+          }
+          else if (elem.src !== (src = elem.getAttribute('data-echo'))) {
+            elem.src = src;
+          }
+  
+          if (!unload) {
+            elem.removeAttribute('data-echo');
+            elem.removeAttribute('data-echo-background');
+          }
+  
+          callback(elem, 'load');
+        }
+        else if (unload && !!(src = elem.getAttribute('data-echo-placeholder'))) {
+  
+          if (elem.getAttribute('data-echo-background') !== null) {
+            elem.style.backgroundImage = 'url(' + src + ')';
+          }
+          else {
+            elem.src = src;
+          }
+  
+          elem.removeAttribute('data-echo-placeholder');
+          callback(elem, 'unload');
+        }
+      }
+      if (!length) {
+        echo.detach();
+      }
+    };
+  
+    echo.detach = function () {
+      if (document.removeEventListener) {
+        root.removeEventListener('scroll', debounceOrThrottle);
+      } else {
+        root.detachEvent('onscroll', debounceOrThrottle);
+      }
+      clearTimeout(poll);
+    };
+  
+    return echo;
+  
+  });
+</script>
+
+<script>
+    echo.init({
+      offset: 2500,
+      throttle: 250,
+      unload: false,
+      callback: function (element, op) {
+        //console.log(element, 'has been', op + 'ed')
+      }
+    });
+</script>
+
+<div class="container">
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#aftershocks"> AFTERSHOCKS </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#back-projection"> BACK PROJECTION </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#branching"> BRANCHING </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#damage"> DAMAGE </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#dynamics"> DYNAMICS </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#earthquake-cycles"> EARTHQUAKE CYCLES </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#energy-budget"> ENERGY BUDGET </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#erosion"> EROSION </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#experiments"> EXPERIMENTS </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#fcm"> FCM </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#fdem"> FDEM </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#fracture-mechanics"> FRACTURE MECHANICS </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#friction"> FRICTION </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#history"> HISTORY </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#kinks"> KINKS </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#numerical-models"> NUMERICAL MODELS </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#plasticity"> PLASTICITY </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#radiation"> RADIATION </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#roughness"> ROUGHNESS </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#supershear"> SUPERSHEAR </a>
+			</div>
+		</div>
+	
+		<div class="section">
+			<div id="link_bar2">
+			   <a href="#tsunami"> TSUNAMI </a>
+			</div>
+		</div>
+	
+</div>
+
+<p><br /><br /></p>
+
+<h1 id="aftershocks" align="center">AFTERSHOCKS</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/JaraBruhatAntoine2020a.pdf">Signature of supershear transition seen in damage and aftershock pattern</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		J. Jara, L. Bruhat, S. Antoine, K. Okubo, M. Y. Thomas, Y. Klinger, R. Jolivet &amp; <b>H. S. Bhat</b><br />
+		
+		
+			<span style="color:grey"><em>submitted to Nat. Comm.</em><br /></span>
+		
+		
+		
+		
+		
+			<a href="https://arxiv.org/pdf/1909.12672v2.pdf">arXiv:1909.12672v2[physics.geo-ph]</a>
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#aftershocks">AFTERSHOCKS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fracture-mechanics">FRACTURE MECHANICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#supershear">SUPERSHEAR</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/theorydamage.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="back-projection" align="center">BACK PROJECTION</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/MartyPasselegueAubry2019a.pdf">Origin of high-frequency radiation during laboratory earthquakes</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		S. Marty, F. X. Passelègue, J. Aubry, A. Schubnel, <b>H. S. Bhat</b> &amp; R. Madariaga<br />
+		
+		
+			<span style="color:grey"><em>Geophys. Res. Lett.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10.1029/2018GL080519">doi:10.1029/2018GL080519</a>
+		
+		
+		
+		
+		(2019)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#back-projection">BACK PROJECTION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#experiments">EXPERIMENTS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/marty.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="branching" align="center">BRANCHING</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/OkuboRougierLei2020a.pdf">Modeling earthquakes with off-fault damage using the combined finite discrete element method</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		K. Okubo, E. Rougier, Z. Lei &amp; <b>H. S. Bhat</b><br />
+		
+		
+			<span style="color:grey"><em>J. Comp. Part. Mech.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10.1007/s40571-020-00335-4">doi:10.1007/s40571-020-00335-4</a>
+		
+		
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#branching">BRANCHING</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#dynamics">DYNAMICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fdem">FDEM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#kinks">KINKS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#roughness">ROUGHNESS</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo1.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="damage" align="center">DAMAGE</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/JaraBruhatAntoine2020a.pdf">Signature of supershear transition seen in damage and aftershock pattern</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		J. Jara, L. Bruhat, S. Antoine, K. Okubo, M. Y. Thomas, Y. Klinger, R. Jolivet &amp; <b>H. S. Bhat</b><br />
+		
+		
+			<span style="color:grey"><em>submitted to Nat. Comm.</em><br /></span>
+		
+		
+		
+		
+		
+			<a href="https://arxiv.org/pdf/1909.12672v2.pdf">arXiv:1909.12672v2[physics.geo-ph]</a>
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#aftershocks">AFTERSHOCKS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fracture-mechanics">FRACTURE MECHANICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#supershear">SUPERSHEAR</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/theorydamage.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/OkuboRougierLei2020a.pdf">Modeling earthquakes with off-fault damage using the combined finite discrete element method</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		K. Okubo, E. Rougier, Z. Lei &amp; <b>H. S. Bhat</b><br />
+		
+		
+			<span style="color:grey"><em>J. Comp. Part. Mech.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10.1007/s40571-020-00335-4">doi:10.1007/s40571-020-00335-4</a>
+		
+		
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#branching">BRANCHING</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#dynamics">DYNAMICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fdem">FDEM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#kinks">KINKS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#roughness">ROUGHNESS</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo1.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/OkuboBhatRougier2019a.pdf">Dynamics, radiation and overall energy budget of earthquake rupture with coseismic off-fault damage</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		K. Okubo, <b>H. S. Bhat</b>, E. Rougier, S. Marty, A. Schubnel, Z. Lei, E. E. Knight &amp; Y. Klinger<br />
+		
+		
+			<span style="color:grey"><em>J. Geophys. Res.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10. 1029/2019JB017304">doi:10. 1029/2019JB017304</a>
+		
+		
+		
+		
+		(2019)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#dynamics">DYNAMICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#energy-budget">ENERGY BUDGET</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fdem">FDEM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo2.png" class="responsive" width="100%" />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo3.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="dynamics" align="center">DYNAMICS</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/OkuboRougierLei2020a.pdf">Modeling earthquakes with off-fault damage using the combined finite discrete element method</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		K. Okubo, E. Rougier, Z. Lei &amp; <b>H. S. Bhat</b><br />
+		
+		
+			<span style="color:grey"><em>J. Comp. Part. Mech.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10.1007/s40571-020-00335-4">doi:10.1007/s40571-020-00335-4</a>
+		
+		
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#branching">BRANCHING</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#dynamics">DYNAMICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fdem">FDEM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#kinks">KINKS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#roughness">ROUGHNESS</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo1.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/OkuboBhatRougier2019a.pdf">Dynamics, radiation and overall energy budget of earthquake rupture with coseismic off-fault damage</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		K. Okubo, <b>H. S. Bhat</b>, E. Rougier, S. Marty, A. Schubnel, Z. Lei, E. E. Knight &amp; Y. Klinger<br />
+		
+		
+			<span style="color:grey"><em>J. Geophys. Res.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10. 1029/2019JB017304">doi:10. 1029/2019JB017304</a>
+		
+		
+		
+		
+		(2019)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#dynamics">DYNAMICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#energy-budget">ENERGY BUDGET</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fdem">FDEM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo2.png" class="responsive" width="100%" />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo3.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="earthquake-cycles" align="center">EARTHQUAKE CYCLES</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		 
+			Loi de friction et modélisation numérique du cycle sismique
+		
+	</div>	
+
+		
+	<div class="lefty">
+		M. Y. Thomas &amp; <b>H. S. Bhat</b><br />
+		
+		
+			in <span style="color:grey">Le Cycle Sismique</span>
+			eds. F. Rolandone
+		
+		
+		
+		
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#earthquake-cycles">EARTHQUAKE CYCLES</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#friction">FRICTION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#history">HISTORY</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/mallet.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/Jeandet-RibesCubasBhat2020a.pdf">Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		L. Jeandet-Ribes, N. Cubas, <b>H. S. Bhat</b> &amp; P. Steer<br />
+		
+		
+			<span style="color:grey"><em>accepted with minor rev. Geophys. Res. Lett.</em><br /></span>
+		
+		
+		
+		
+		
+			<a href="https://arxiv.org/pdf/2007.06412.pdf">arXiv:2007.06412[physics.geo-ph]</a>
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#earthquake-cycles">EARTHQUAKE CYCLES</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#erosion">EROSION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/erosion.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/JolivetSimonsDuputel2020a.pdf">Interseismic Loading of Subduction Megathrust Drives Long-Term Uplift in Northern Chile</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		R. Jolivet, M. Simons, Z. Duputel, J.-A. Olive, <b>H. S. Bhat</b> &amp; Q. Bletery<br />
+		
+		
+			<span style="color:grey"><em>Geophys. Res. Lett.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10.1029/2019GL085377">doi:10.1029/2019GL085377</a>
+		
+		
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#earthquake-cycles">EARTHQUAKE CYCLES</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#plasticity">PLASTICITY</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/jolivet.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="energy-budget" align="center">ENERGY BUDGET</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/OkuboBhatRougier2019a.pdf">Dynamics, radiation and overall energy budget of earthquake rupture with coseismic off-fault damage</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		K. Okubo, <b>H. S. Bhat</b>, E. Rougier, S. Marty, A. Schubnel, Z. Lei, E. E. Knight &amp; Y. Klinger<br />
+		
+		
+			<span style="color:grey"><em>J. Geophys. Res.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10. 1029/2019JB017304">doi:10. 1029/2019JB017304</a>
+		
+		
+		
+		
+		(2019)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#dynamics">DYNAMICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#energy-budget">ENERGY BUDGET</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fdem">FDEM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo2.png" class="responsive" width="100%" />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo3.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="erosion" align="center">EROSION</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/Jeandet-RibesCubasBhat2020a.pdf">Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		L. Jeandet-Ribes, N. Cubas, <b>H. S. Bhat</b> &amp; P. Steer<br />
+		
+		
+			<span style="color:grey"><em>accepted with minor rev. Geophys. Res. Lett.</em><br /></span>
+		
+		
+		
+		
+		
+			<a href="https://arxiv.org/pdf/2007.06412.pdf">arXiv:2007.06412[physics.geo-ph]</a>
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#earthquake-cycles">EARTHQUAKE CYCLES</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#erosion">EROSION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/erosion.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="experiments" align="center">EXPERIMENTS</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/MartyPasselegueAubry2019a.pdf">Origin of high-frequency radiation during laboratory earthquakes</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		S. Marty, F. X. Passelègue, J. Aubry, A. Schubnel, <b>H. S. Bhat</b> &amp; R. Madariaga<br />
+		
+		
+			<span style="color:grey"><em>Geophys. Res. Lett.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10.1029/2018GL080519">doi:10.1029/2018GL080519</a>
+		
+		
+		
+		
+		(2019)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#back-projection">BACK PROJECTION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#experiments">EXPERIMENTS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/marty.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="fcm" align="center">FCM</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/AmlaniBhatSimons2020a.pdf">Supershear Tsunamis and insights from the $M_w$ 7.5 Palu Earthquake</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		F. Amlani, <b>H. S. Bhat</b>, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna &amp; H. Z. Abidin<br />
+		
+		
+			<span style="color:grey"><em>under review in Nat. Geosci.</em><br /></span>
+		
+		
+		
+		
+		
+			<a href="https://arxiv.org/pdf/1910.14547.pdf">arXiv:1910.14547[physics.geo-ph]</a>
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#fcm">FCM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#supershear">SUPERSHEAR</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#tsunami">TSUNAMI</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/tsunami.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="fdem" align="center">FDEM</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/OkuboRougierLei2020a.pdf">Modeling earthquakes with off-fault damage using the combined finite discrete element method</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		K. Okubo, E. Rougier, Z. Lei &amp; <b>H. S. Bhat</b><br />
+		
+		
+			<span style="color:grey"><em>J. Comp. Part. Mech.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10.1007/s40571-020-00335-4">doi:10.1007/s40571-020-00335-4</a>
+		
+		
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#branching">BRANCHING</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#dynamics">DYNAMICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fdem">FDEM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#kinks">KINKS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#roughness">ROUGHNESS</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo1.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/OkuboBhatRougier2019a.pdf">Dynamics, radiation and overall energy budget of earthquake rupture with coseismic off-fault damage</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		K. Okubo, <b>H. S. Bhat</b>, E. Rougier, S. Marty, A. Schubnel, Z. Lei, E. E. Knight &amp; Y. Klinger<br />
+		
+		
+			<span style="color:grey"><em>J. Geophys. Res.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10. 1029/2019JB017304">doi:10. 1029/2019JB017304</a>
+		
+		
+		
+		
+		(2019)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#dynamics">DYNAMICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#energy-budget">ENERGY BUDGET</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fdem">FDEM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo2.png" class="responsive" width="100%" />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo3.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="fracture-mechanics" align="center">FRACTURE MECHANICS</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/JaraBruhatAntoine2020a.pdf">Signature of supershear transition seen in damage and aftershock pattern</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		J. Jara, L. Bruhat, S. Antoine, K. Okubo, M. Y. Thomas, Y. Klinger, R. Jolivet &amp; <b>H. S. Bhat</b><br />
+		
+		
+			<span style="color:grey"><em>submitted to Nat. Comm.</em><br /></span>
+		
+		
+		
+		
+		
+			<a href="https://arxiv.org/pdf/1909.12672v2.pdf">arXiv:1909.12672v2[physics.geo-ph]</a>
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#aftershocks">AFTERSHOCKS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fracture-mechanics">FRACTURE MECHANICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#supershear">SUPERSHEAR</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/theorydamage.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="friction" align="center">FRICTION</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		 
+			Loi de friction et modélisation numérique du cycle sismique
+		
+	</div>	
+
+		
+	<div class="lefty">
+		M. Y. Thomas &amp; <b>H. S. Bhat</b><br />
+		
+		
+			in <span style="color:grey">Le Cycle Sismique</span>
+			eds. F. Rolandone
+		
+		
+		
+		
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#earthquake-cycles">EARTHQUAKE CYCLES</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#friction">FRICTION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#history">HISTORY</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/mallet.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="history" align="center">HISTORY</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		 
+			Loi de friction et modélisation numérique du cycle sismique
+		
+	</div>	
+
+		
+	<div class="lefty">
+		M. Y. Thomas &amp; <b>H. S. Bhat</b><br />
+		
+		
+			in <span style="color:grey">Le Cycle Sismique</span>
+			eds. F. Rolandone
+		
+		
+		
+		
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#earthquake-cycles">EARTHQUAKE CYCLES</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#friction">FRICTION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#history">HISTORY</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/mallet.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="kinks" align="center">KINKS</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/OkuboRougierLei2020a.pdf">Modeling earthquakes with off-fault damage using the combined finite discrete element method</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		K. Okubo, E. Rougier, Z. Lei &amp; <b>H. S. Bhat</b><br />
+		
+		
+			<span style="color:grey"><em>J. Comp. Part. Mech.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10.1007/s40571-020-00335-4">doi:10.1007/s40571-020-00335-4</a>
+		
+		
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#branching">BRANCHING</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#dynamics">DYNAMICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fdem">FDEM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#kinks">KINKS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#roughness">ROUGHNESS</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo1.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="numerical-models" align="center">NUMERICAL MODELS</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/JaraBruhatAntoine2020a.pdf">Signature of supershear transition seen in damage and aftershock pattern</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		J. Jara, L. Bruhat, S. Antoine, K. Okubo, M. Y. Thomas, Y. Klinger, R. Jolivet &amp; <b>H. S. Bhat</b><br />
+		
+		
+			<span style="color:grey"><em>submitted to Nat. Comm.</em><br /></span>
+		
+		
+		
+		
+		
+			<a href="https://arxiv.org/pdf/1909.12672v2.pdf">arXiv:1909.12672v2[physics.geo-ph]</a>
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#aftershocks">AFTERSHOCKS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fracture-mechanics">FRACTURE MECHANICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#supershear">SUPERSHEAR</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/theorydamage.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/Jeandet-RibesCubasBhat2020a.pdf">Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		L. Jeandet-Ribes, N. Cubas, <b>H. S. Bhat</b> &amp; P. Steer<br />
+		
+		
+			<span style="color:grey"><em>accepted with minor rev. Geophys. Res. Lett.</em><br /></span>
+		
+		
+		
+		
+		
+			<a href="https://arxiv.org/pdf/2007.06412.pdf">arXiv:2007.06412[physics.geo-ph]</a>
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#earthquake-cycles">EARTHQUAKE CYCLES</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#erosion">EROSION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/erosion.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/AmlaniBhatSimons2020a.pdf">Supershear Tsunamis and insights from the $M_w$ 7.5 Palu Earthquake</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		F. Amlani, <b>H. S. Bhat</b>, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna &amp; H. Z. Abidin<br />
+		
+		
+			<span style="color:grey"><em>under review in Nat. Geosci.</em><br /></span>
+		
+		
+		
+		
+		
+			<a href="https://arxiv.org/pdf/1910.14547.pdf">arXiv:1910.14547[physics.geo-ph]</a>
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#fcm">FCM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#supershear">SUPERSHEAR</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#tsunami">TSUNAMI</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/tsunami.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/OkuboRougierLei2020a.pdf">Modeling earthquakes with off-fault damage using the combined finite discrete element method</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		K. Okubo, E. Rougier, Z. Lei &amp; <b>H. S. Bhat</b><br />
+		
+		
+			<span style="color:grey"><em>J. Comp. Part. Mech.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10.1007/s40571-020-00335-4">doi:10.1007/s40571-020-00335-4</a>
+		
+		
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#branching">BRANCHING</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#dynamics">DYNAMICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fdem">FDEM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#kinks">KINKS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#roughness">ROUGHNESS</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo1.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/OkuboBhatRougier2019a.pdf">Dynamics, radiation and overall energy budget of earthquake rupture with coseismic off-fault damage</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		K. Okubo, <b>H. S. Bhat</b>, E. Rougier, S. Marty, A. Schubnel, Z. Lei, E. E. Knight &amp; Y. Klinger<br />
+		
+		
+			<span style="color:grey"><em>J. Geophys. Res.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10. 1029/2019JB017304">doi:10. 1029/2019JB017304</a>
+		
+		
+		
+		
+		(2019)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#dynamics">DYNAMICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#energy-budget">ENERGY BUDGET</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fdem">FDEM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo2.png" class="responsive" width="100%" />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo3.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="plasticity" align="center">PLASTICITY</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/JolivetSimonsDuputel2020a.pdf">Interseismic Loading of Subduction Megathrust Drives Long-Term Uplift in Northern Chile</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		R. Jolivet, M. Simons, Z. Duputel, J.-A. Olive, <b>H. S. Bhat</b> &amp; Q. Bletery<br />
+		
+		
+			<span style="color:grey"><em>Geophys. Res. Lett.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10.1029/2019GL085377">doi:10.1029/2019GL085377</a>
+		
+		
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#earthquake-cycles">EARTHQUAKE CYCLES</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#plasticity">PLASTICITY</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/jolivet.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="radiation" align="center">RADIATION</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/OkuboRougierLei2020a.pdf">Modeling earthquakes with off-fault damage using the combined finite discrete element method</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		K. Okubo, E. Rougier, Z. Lei &amp; <b>H. S. Bhat</b><br />
+		
+		
+			<span style="color:grey"><em>J. Comp. Part. Mech.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10.1007/s40571-020-00335-4">doi:10.1007/s40571-020-00335-4</a>
+		
+		
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#branching">BRANCHING</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#dynamics">DYNAMICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fdem">FDEM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#kinks">KINKS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#roughness">ROUGHNESS</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo1.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/OkuboBhatRougier2019a.pdf">Dynamics, radiation and overall energy budget of earthquake rupture with coseismic off-fault damage</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		K. Okubo, <b>H. S. Bhat</b>, E. Rougier, S. Marty, A. Schubnel, Z. Lei, E. E. Knight &amp; Y. Klinger<br />
+		
+		
+			<span style="color:grey"><em>J. Geophys. Res.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10. 1029/2019JB017304">doi:10. 1029/2019JB017304</a>
+		
+		
+		
+		
+		(2019)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#dynamics">DYNAMICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#energy-budget">ENERGY BUDGET</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fdem">FDEM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo2.png" class="responsive" width="100%" />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo3.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/MartyPasselegueAubry2019a.pdf">Origin of high-frequency radiation during laboratory earthquakes</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		S. Marty, F. X. Passelègue, J. Aubry, A. Schubnel, <b>H. S. Bhat</b> &amp; R. Madariaga<br />
+		
+		
+			<span style="color:grey"><em>Geophys. Res. Lett.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10.1029/2018GL080519">doi:10.1029/2018GL080519</a>
+		
+		
+		
+		
+		(2019)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#back-projection">BACK PROJECTION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#experiments">EXPERIMENTS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/marty.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="roughness" align="center">ROUGHNESS</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/OkuboRougierLei2020a.pdf">Modeling earthquakes with off-fault damage using the combined finite discrete element method</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		K. Okubo, E. Rougier, Z. Lei &amp; <b>H. S. Bhat</b><br />
+		
+		
+			<span style="color:grey"><em>J. Comp. Part. Mech.</em><br /></span>
+		
+		
+		
+			<a href="https://doi.org/10.1007/s40571-020-00335-4">doi:10.1007/s40571-020-00335-4</a>
+		
+		
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#branching">BRANCHING</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#dynamics">DYNAMICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fdem">FDEM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#kinks">KINKS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#radiation">RADIATION</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#roughness">ROUGHNESS</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/okubo1.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="supershear" align="center">SUPERSHEAR</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/JaraBruhatAntoine2020a.pdf">Signature of supershear transition seen in damage and aftershock pattern</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		J. Jara, L. Bruhat, S. Antoine, K. Okubo, M. Y. Thomas, Y. Klinger, R. Jolivet &amp; <b>H. S. Bhat</b><br />
+		
+		
+			<span style="color:grey"><em>submitted to Nat. Comm.</em><br /></span>
+		
+		
+		
+		
+		
+			<a href="https://arxiv.org/pdf/1909.12672v2.pdf">arXiv:1909.12672v2[physics.geo-ph]</a>
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#aftershocks">AFTERSHOCKS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#damage">DAMAGE</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#fracture-mechanics">FRACTURE MECHANICS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#supershear">SUPERSHEAR</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/theorydamage.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/AmlaniBhatSimons2020a.pdf">Supershear Tsunamis and insights from the $M_w$ 7.5 Palu Earthquake</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		F. Amlani, <b>H. S. Bhat</b>, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna &amp; H. Z. Abidin<br />
+		
+		
+			<span style="color:grey"><em>under review in Nat. Geosci.</em><br /></span>
+		
+		
+		
+		
+		
+			<a href="https://arxiv.org/pdf/1910.14547.pdf">arXiv:1910.14547[physics.geo-ph]</a>
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#fcm">FCM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#supershear">SUPERSHEAR</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#tsunami">TSUNAMI</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/tsunami.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<h1 id="tsunami" align="center">TSUNAMI</h1>
+
+<div class="group">
+
+
+    <div class="lefty">
+    	<br />
+		
+			<a display:inline="" href="/files/AmlaniBhatSimons2020a.pdf">Supershear Tsunamis and insights from the $M_w$ 7.5 Palu Earthquake</a>
+		
+	</div>	
+
+		
+	<div class="lefty">
+		F. Amlani, <b>H. S. Bhat</b>, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna &amp; H. Z. Abidin<br />
+		
+		
+			<span style="color:grey"><em>under review in Nat. Geosci.</em><br /></span>
+		
+		
+		
+		
+		
+			<a href="https://arxiv.org/pdf/1910.14547.pdf">arXiv:1910.14547[physics.geo-ph]</a>
+		
+		
+		(2020)
+    </div>
+    
+		
+			<div class="lefty">
+				
+					<span id="link_bar2">
+						<a href="/topics/#fcm">FCM</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#numerical-models">NUMERICAL MODELS</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#supershear">SUPERSHEAR</a>
+					</span>
+				
+					<span id="link_bar2">
+						<a href="/topics/#tsunami">TSUNAMI</a>
+					</span>
+				
+			</div>
+		
+	
+	<div class="righty">
+		<br />
+		
+			<img src="/images/pubimages/blank.png" data-echo="/images/pubimages/tsunami.png" class="responsive" width="100%" />
+		
+	</div>
+</div>
+<p><br /></p>
+
+<style>
+.responsive {
+width: 100%; 
+height: 100%; 
+object-fit: contain; 
+max-width: 300px;
+max-height: 150px;
+float: left;
+}
+</style>
+
+:ET
