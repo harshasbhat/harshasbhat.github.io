@@ -11,44 +11,102 @@ You can browse my full list of publications [here][pubs]
 <br><br>
 
 {% include collecttags.html %}
+{% include lazyload.html %}
 
 {% assign sorttags = uniqTags | sort_natural %} 
+
 
 <div class="container">
 	{% for tag in sorttags %}
 		<div class="section">
-			<div id="link_bar">
+			<div id="link_bar2">
 			   <a href="#{{ tag  | slugify }}"> {{ tag | upcase }} </a>
 			</div>
 		</div>
 	{% endfor %}
 </div>
 
-<br>
+<br><br>
 
 {% for tag in sorttags %}
-## {{ tag | upcase }}
-{: style="text-align: center;margin: 0.25em; font-style: italic; font-weight: 450; border-radius: 0.7em; padding: 3px 6px; float:center; color:black; background-color:#fff; text-decoration:italic;"}
-<a name="#{{ tag }}"></a>
+
+<h1 id="{{ tag  | slugify }}" align="center">{{ tag | upcase }}</h1>
+
 
 {% for pub in site.data.pubs.publications %}
 {% assign uniqetopics = "" %}
 {% assign uniqetopics = pub.topics | split: ', ' | sort_natural | uniq %} 
 
-{% if pub.topics contains tag %}
-<span id="link_bar3"><a href="#top">[top]</a></span><br>
+{% assign imgs1 = "" %}
+{% assign imgs1 = pub.img | split: ', ' | sort_natural | uniq %} 
 
-> {% if pub.pdf %}[{{pub.title}}]({{ base }}/files/{{pub.pdf}}){% else %} {{pub.title}} {% endif %}
-({{pub.year}})<br>{{pub.author}}<br>
-{% if pub.type == "article" %}<span style="color:#000">***{{pub.journal}}*** <br></span>
-{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}in <span style="color:#666">***{{pub.booktitle}}***</span>
-<br>eds. *{{pub.editor}}*{% endif %}{% if pub.doi %}[*doi:{{pub.doi}}*](https://doi.org/{{pub.doi}}){% endif %}{% if pub.arxiv %} [*arXiv:{{pub.arxiv}}[physics.geo-ph]*](https://arxiv.org/pdf/{{pub.arxiv}}.pdf){% endif %} 
-{% if pub.topics %}<br>{% for topic in uniqetopics %}<span id="link_bar2"><a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a></span>{% endfor %}{% endif %}
+{% if pub.topics contains tag %}
+<div class="group">
+
+
+    <div class="lefty">
+    	<br>
+		{% if pub.pdf %}
+			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
+		{% else %} 
+			{{pub.title}}
+		{% endif %}
+	</div>	
+
+		
+	<div class="lefty">
+		{{pub.author | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>
+		
+		{% if pub.type == "article" %}
+			<span style="color:grey"><em>{{pub.journal}}</em><br></span>
+		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
+			in <span style="color:grey">{{pub.booktitle}}</span>
+			eds. {{pub.editor | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}
+		{% endif %}
+		
+		{% if pub.doi %}
+			<a href="https://doi.org/{{pub.doi}}">doi:{{pub.doi}}</a>
+		{% endif %}
+		
+		{% if pub.arxiv %}
+			<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf">arXiv:{{pub.arxiv}}[physics.geo-ph]</a>
+		{% endif %}
+		
+		({{pub.year}})
+    </div>
+    
+		{% if pub.topics %}
+			<div class="lefty">
+				{% for topic in uniqetopics %}
+					<span id="link_bar2">
+						<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a>
+					</span>
+				{% endfor %}
+			</div>
+		{% endif %}
+	
+	<div class="righty">
+		<br>
+		{% for image in imgs1 %}
+			<img src="{{site.baseurl}}/images/pubimages/blank.png" data-echo="{{site.baseurl}}/images/pubimages/{{image}}" class="responsive" width="100%">
+		{% endfor %}
+	</div>
+</div> 
+<br>
 {% endif %}
 {% endfor %}
 
-<br>
 {% endfor %}
 
+<style>
+.responsive {
+width: 100%; 
+height: 100%; 
+object-fit: contain; 
+max-width: 300px;
+max-height: 150px;
+float: left;
+}
+</style>
 
 [pubs]: /articles/
