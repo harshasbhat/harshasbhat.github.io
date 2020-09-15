@@ -7,22 +7,28 @@ dl, dd, ol, ul, figure {
 }
 
 p {
-    margin: 0;
-    padding: 0px 10px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+//     padding-right: 50px;
+    text-align: justify;
+
 }
 
 h1 {
 text-decoration: none;
-padding: 3px;
+padding: 5px;
+margin: 0;
 // -webkit-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
 // -moz-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
 // box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
     background-color: lighten(#0d667f,50%);
     border: 0.0px solid lighten(#0d667f, 15.5%);
-    border-radius: 0.5em;
+    border-radius: 0.2em;
     color:       #000;
     font-size:   $base-font-size;
-}
+-webkit-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+-moz-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);}
 
 html {
     overflow-y: scroll;
@@ -121,33 +127,31 @@ a {
 
 // Blockquotes
 blockquote {
-    background-color: lighten($harvardblue,15%);
-    margin-left: 0.0*$content-width;
-    margin-right: 0.0*$content-width;
-    border: 0.0px solid lighten(#0d667f, 15.5%);
-//     border-left: 0.1px solid lighten($harvard, 0.5%);
-//     border-top: 0.1px solid lighten(#0d667f, 15.5%);
-//     border-right: 0.0px solid lighten($harvard, 79.5%);
-//     border-bottom: 0.0px solid lighten($harvard, 0.5%);
-    border-radius: 1em;
-//     border-width: 0.1px;
-//     border-left-width: 0.1em;
-//     border-right-width: 0.1em;
-//     border-bottom-width: 1px solid lighten($harvard, 09.5%);;
-//     border-top-width: 0.1em;
+    background-color: lighten($harvardblue,55%);
+//     margin-left: 0.0*$content-width;
+//     margin-right: 0.0*$content-width;
+//     border: 0.0px solid lighten(#0d667f, 15.5%);
+// //     border-left: 0.1px solid lighten($harvard, 0.5%);
+// //     border-top: 0.1px solid lighten(#0d667f, 15.5%);
+// //     border-right: 0.0px solid lighten($harvard, 79.5%);
+// //     border-bottom: 0.0px solid lighten($harvard, 0.5%);
+//     border-radius: 1em;
+// //     border-width: 0.1px;
+// //     border-left-width: 0.1em;
+// //     border-right-width: 0.1em;
+// //     border-bottom-width: 1px solid lighten($harvard, 09.5%);;
+// //     border-top-width: 0.1em;
     padding-left:   1.0em;
     padding-right:  1.0em;
-    padding-top:    1em;
-    padding-bottom: 1em;
-    text-align: justify;
-    margin-top:2px;
-    margin-bottom:2px;
--webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);//     font-style: italic;
-// :nth-child(odd){
-//    background-color: lighten($blue, 99%);
-// }
+    padding-top:    0.1em;
+    padding-bottom: 0.4em;
+//     text-align: justify;
+//     margin-top:2px;
+//     margin-bottom:2px;
+// -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+// -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+// box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);//     font-style: italic;
+
 }
 
 // Code formatting

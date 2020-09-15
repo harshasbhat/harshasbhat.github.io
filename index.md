@@ -6,16 +6,23 @@ published: true
 ---
 {% include image.html url="images/15CBE564-F9CC-485E-96D5-6FF121E890AA.jpeg" caption="Harsha S. Bhat (9/9/20)" width="290px" align="LEFT" %}
 
- {% include new-window-fix.html %}
-[tsunami]: /tsunami/
-[CONTACT]: /contact/
-[BIO]: /bio/
-[CV]: {{ base }}/CV/CurriculumVitae.pdf
-[directions]: files/directions.pdf
-[LG]: http://www.geologie.ens.fr
-[ENS]: http://www.ens.fr
-[Google Scholar]: http://scholar.google.com/citations?user={{site.author.scholar}}&hl=en&oi=ao
-[CNRS]: http://www.cnrs.fr/index.html
-[ORCID 0000-0003-0361-1854]: https://orcid.org/0000-0003-0361-1854
+<br><br>
+<h1 align="center">Recent News</h1>
+
+> * Our [paper][aftershocks] identifying supershear transition in earthquake off-fault damage zone is now submitted.
+
+> * My HDR thesis on SUpershear Earthquakes is now available [online][hdr].
+
+> * Our [paper][tsunami] on tsunami's induced by supershear earthquakes is accepted in Nature Geoscience.
+
+> * Our [paper][erosion] on the link between erosional events and earthquakes is undergoing minor revision.
+
+{% include new-window-fix.html %}
+[hdr]: files/Bhat2021a.pdf
+[aftershocks]: files/JaraBruhatAntoine2020a.pdf
+[tsunami]: files/AmlaniBhatSimons2020a.pdf
+[erosion]: files/Jeandet-RibesCubasBhat2020a.pdf
+[tsunami2]: /tsunami/explanation/
+
 
 

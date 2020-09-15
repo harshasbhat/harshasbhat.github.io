@@ -5,9 +5,10 @@ title:
 ---
 
 **This page is being updated...**
+<br><br>
 
-Listed below are my publications sorted by various research topics. 
-You can browse my full list of publications [here][pubs]
+
+Listed below are my publications sorted by various research topics. You can browse my full list of publications [here][pubs].
 <br><br>
 
 {% include collecttags.html %}
@@ -29,10 +30,7 @@ You can browse my full list of publications [here][pubs]
 <br><br>
 
 {% for tag in sorttags %}
-
 <h1 id="{{ tag  | slugify }}" align="center">{{ tag | upcase }}</h1>
-
-
 {% for pub in site.data.pubs.publications %}
 {% assign uniqetopics = "" %}
 {% assign uniqetopics = pub.topics | split: ', ' | sort_natural | uniq %} 
@@ -41,7 +39,7 @@ You can browse my full list of publications [here][pubs]
 {% assign imgs1 = pub.img | split: ', ' | sort_natural | uniq %} 
 
 {% if pub.topics contains tag %}
-<div class="group">
+<div class="group1">
 
 
     <div class="lefty">
@@ -94,7 +92,7 @@ You can browse my full list of publications [here][pubs]
 </div> 
 {% endif %}
 {% endfor %}
-
+<br>
 {% endfor %}
 
 <style>
