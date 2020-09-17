@@ -331,60 +331,58 @@ border-radius: 0.5em;
   }
 }
 
-.layout {
-  display: flex;
-  flex-wrap: wrap;
-//   margin-top: -1em; // 1
-//   margin-left: -3.5em; // 1
-  align-items: center;
-  justify-content: center;
-  
-  &:not(:first-of-type) {
-    margin-top: 3em; // 2
-  }
-  
-//   &:nth-child(even) {
-//     flex-direction: row-reverse; // 3
-//   }
-  
-  &__item {
-    padding-top: 1em; // 1
-    padding-left: 10px; // 1
-    padding-right: 10px; // 1
-    
-    &--body {
-      flex-grow: 9999; // 4
-      flex-basis: 15rem; // 5
-    }
-    
-    &--figure {
-      margin-right: auto; // 6
-      flex-grow: 1; // 7
-      
 
-      // By using `max-content` we can get a little
-      // nicer responsive behavior because the image
-      // automatically shrinks if not enough space is
-      // available, but also the column is not getting
-      // to large than the image if a lot of space
-      // is available.
-      @supports (max-width: 700px) {
-        min-width: 15rem; // 5
-        max-width: max-content;
-        flex-basis: 15rem; // 5
-        flex-grow: 99999;
- //          align-items: safe center;
-//           align-self: center;
-//   justify-content: center;
-      }
-    }
-  }
+/* Float four columns side by side */
+.columnimg {
+  float: left;
+  width: 30%;
+  padding: 0 0px;
 }
 
-video {
-  width: 100% !important;
-  height: auto !important;
+.columntxt {
+  float: left;
+  width: 60%;
+  padding: 0 0px;
+}
+/* Remove extra left and right margins, due to padding */
+.row111 {margin: 0 0px; display:flex;flex-direction: row; 
+align-items: safe center; 
+
+ }
+
+/* Clear floats after the columns */
+.row111:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
+/* Responsive columns */
+@media screen and (max-width: 700px) {
+  .columnimg, .columntxt {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .row111 {  flex-direction: column;
+}
+}
 
+/* Style the counter cards */
+.cardimg {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  margin:10px;
+  border-radius: 1em;
+}
+
+.cardtxt {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background-color: lighten(#0d667f,70%);
+  margin:10px;
+  border-radius: 1em;
+}
 

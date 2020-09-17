@@ -11,7 +11,7 @@ published: true
 
 > * Our [paper][aftershocks] identifying supershear transition in earthquake off-fault damage zone is now submitted.
 
-> * My HDR thesis on SUpershear Earthquakes is now available [online][hdr].
+> * My HDR thesis on Supershear Earthquakes is now available [online][hdr].
 
 > * Our [paper][tsunami] on tsunami's induced by supershear earthquakes is accepted in Nature Geoscience.
 
