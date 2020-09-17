@@ -10,8 +10,13 @@ p {
     margin: 10px 10px;
     padding: 10px 10px;
 //     padding-right: 50px;
-    text-align: justify;
+    text-align: left;
 
+}
+
+video {
+  width: 100% !important;
+  height: auto !important;
 }
 
 h1 {
@@ -29,6 +34,41 @@ margin: 0;
 -webkit-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
 -moz-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
 box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);}
+
+
+h2 {
+text-decoration: none;
+padding: 5px;
+margin: 10px;
+// -webkit-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
+// -moz-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
+// box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
+    color: black;
+    border: 0.0px solid lighten(#0d667f, 15.5%);
+    border-radius: .5em;
+//     background-color: lighten(#0d667f,45%);
+    font-size:   125%;
+// -webkit-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+// -moz-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+// -box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+}
+
+h3 {
+text-decoration: none;
+padding: 5px;
+margin: 10px;
+// -webkit-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
+// -moz-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
+// box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
+    color: black;
+    border: 0.0px solid lighten(#0d667f, 15.5%);
+    border-radius: .5em;
+//     background-color: lighten(#0d667f,45%);
+    font-size:   115%;
+// -webkit-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+// -moz-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+// -box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+}
 
 html {
     overflow-y: scroll;
@@ -56,7 +96,7 @@ strong {
 h2, h3, h4, h5, h6 {
     font-family: $heading-font-family;
     font-weight: $font-weight-bold;
-    font-size:   $heading-font-size;
+//     font-size:   $heading-font-size;
     line-height: $heading-line-height;
 //     color:       $harvard;
 //     text-transform: uppercase;
