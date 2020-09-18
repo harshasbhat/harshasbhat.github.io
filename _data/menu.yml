@@ -23,14 +23,14 @@
     - subtitle: "Contact"
       subhref: "/contact/"
 #- title: "TSUNAMI"
-#  href: "/tsunami/explanation"
+#  href: "/tsunami"
 #  subcategories:
-#   - subtitle: "Explanation (EN)"
-#     subhref: "/tsunami/explanation"
-#   - subtitle: "Explanation (FR)"
-#     subhref: "/tsunami/explanationfr"
-#   - subtitle: "DATA"
-#     subhref: "/tsunami/data/"
+#  - subtitle: "Explanation (EN)"
+#    subhref: "/tsunami/explanation"
+#  - subtitle: "Explanation (FR)"
+#    subhref: "/tsunami/explanationfr"
+#  - subtitle: "DATA"
+#    subhref: "/tsunami/data/"
 
       
 
