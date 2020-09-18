@@ -5,5 +5,5 @@
     <img src="{{ include.url }}" height="{{ include.height }}" />
     {% else %}
     <img src="{{ include.url }}" />
-    {% endif %}</a>{% if include.caption %}{{ include.caption }}{% endif %}
+    {% endif %}{% if include.caption %}{{ include.caption }}{% endif %}
 </div>

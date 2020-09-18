@@ -25,10 +25,12 @@
 #- title: "TSUNAMI"
 #  href: "/tsunami/explanation"
 #  subcategories:
-#    - subtitle: "Explanation"
-#      subhref: "/tsunami/explanation"
-#    - subtitle: "DATA"
-#      subhref: "/tsunami/data/"
+#   - subtitle: "Explanation (EN)"
+#     subhref: "/tsunami/explanation"
+#   - subtitle: "Explanation (FR)"
+#     subhref: "/tsunami/explanationfr"
+#   - subtitle: "DATA"
+#     subhref: "/tsunami/data/"
 
       
 
