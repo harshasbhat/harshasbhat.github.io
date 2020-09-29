@@ -90,6 +90,7 @@ Listed below are my publications sorted by various research topics. You can brow
 		{% endfor %}
 	</div>
 </div> 
+<hr style="width:100%;text-align:center;margin-left:0;">
 {% endif %}
 {% endfor %}
 <br>

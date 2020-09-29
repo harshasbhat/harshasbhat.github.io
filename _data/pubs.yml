@@ -1,4 +1,19 @@
 publications:
+    - title:     "Supershear Tsunamis and insights from the Mw 7.5 Palu Earthquake"
+      author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin
+      year:    2020
+      journal:    accepted in principle Nat. Geosci.
+      pdf: 		AmlaniBhatSimons2020a.pdf
+      doi:		
+      pubnum:     	36
+      type:         article  
+      booktitle:	""
+      publisher:	
+      editor:   
+      school:	
+      arxiv: 	1910.14547
+      topics: "supershear, tsunami, numerical models, FCM"	
+      img: tsunami.png
     - title:     "Loi de friction et modélisation numérique du cycle sismique"
       author:    M. Y. Thomas & H. S. Bhat
       year:    2020
@@ -44,21 +59,6 @@ publications:
       arxiv: 	2007.06412v2
       topics: "erosion, earthquake cycles, numerical models"	
       img: erosion.png
-    - title:     "Supershear Tsunamis and insights from the Mw 7.5 Palu Earthquake"
-      author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin
-      year:    2020
-      journal:    accepted in principle Nat. Geosci.
-      pdf: 		AmlaniBhatSimons2020a.pdf
-      doi:		
-      pubnum:     	36
-      type:         article  
-      booktitle:	""
-      publisher:	
-      editor:   
-      school:	
-      arxiv: 	1910.14547
-      topics: "supershear, tsunami, numerical models, FCM"	
-      img: tsunami.png
     - title:     "Modeling earthquakes with off-fault damage using the combined finite discrete element method"
       author:    K. Okubo, E. Rougier, Z. Lei & H. S. Bhat
       year:    2020

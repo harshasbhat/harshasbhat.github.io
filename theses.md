@@ -30,7 +30,7 @@ title:
     
 	<div class="righty">
 			<br>
-			<img src="{{site.baseurl}}/images/pubimages/{{pub.img}}" class="responsive">
+			<img src="{{site.baseurl}}/images/pubimages/{{pub.img}}" class="responsive" width="80%">
 	</div>
 	
 {% else %}
@@ -52,6 +52,8 @@ title:
 {% endif %}
 
 </div>	
+<hr style="width:100%;text-align:center;margin-left:0;">
+
 {% endfor %}
 
 {% include new-window-fix.html %}
@@ -62,7 +64,7 @@ width: 100%;
 height: 100%; 
 object-fit: contain; 
 max-width: 300px;
-max-height: 100px;
+max-height: 150px;
 float: left;
 }
 </style>
