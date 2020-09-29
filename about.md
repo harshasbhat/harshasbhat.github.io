@@ -5,21 +5,24 @@ title:
 ---
 
 {% include new-window-fix.html %}
-I am a [CNRS] Research Scientist working at the [Laboratoire de Géologie] [LG] in [Ecole Normale Supérieure] [ENS]. I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology. 
+I am a [CNRS] Research Scientist working at the [Laboratoire de Géologie] [LG] in 
+[Ecole Normale Supérieure] [ENS]. 
 <br><br>
-I am a solid mechanician and earthquake source physicist by training. 
+I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology. 
 <br><br>
-I obtained my B. E. in Civil Engineering from Karnataka Regional Engineering College in India (now called the [National Institute of Technology Karnataka, Surathkal][NITK]). 
+I am a solid mechanician and earthquake source physicist by training. I obtained my B. E. 
+in Civil Engineering from Karnataka Regional Engineering College in India (now called the 
+[National Institute of Technology Karnataka, Surathkal][NITK]). I then proceeded to obtain 
+my Ph. D. from [Harvard University] [1], under the supervision of [Prof. James R. Rice] [2]
+ and [Dr. Renata Dmowska] [3]. I did my postdoctoral studies jointly between at 
+ [Caltech] [4] and the [University of Southern California] [5]. 
+ Here I worked with [Prof. Ares J. Rosakis] [7] and [Prof. Charles G. Sammis] [8]. 
 <br><br>
-I then proceeded to obtain my Ph. D. from [Harvard University] [1], under the supervision of [Prof. James R. Rice] [2] and [Dr. Renata Dmowska] [3].
-<br><br>
-I did my postdoctoral studies jointly between at [Caltech] [4] and the [University of Southern California] [5]. Here I worked with [Prof. Ares J. Rosakis] [7] and [Prof. Charles G. Sammis] [8]. 
-<br><br>
-I joined [CNRS] in Jan. 2012 as a Grade 1 Research Scientist, and began working at the [Institut de Physique du Globe de Paris (IPGP)] [6] until Apr. 2016.
-<br><br>
-I have been awarded the [Prix Michel Gouilloud Schlumberger] [9] from the [Academié des Sciences] [10]. You can watch the ceremony [here.] [11]
-<br><br>
-I was recently awarded an [European Research Council Consolidator Grant][ERC] for the amount of 2.0M€.
+I joined [CNRS] in Jan. 2012 as a Grade 1 Research Scientist, and began working at the 
+[Institut de Physique du Globe de Paris (IPGP)] [6] until Apr. 2016. I have been awarded 
+the [Prix Michel Gouilloud Schlumberger] [9] from the [Academié des Sciences] [10]. 
+You can watch the ceremony [here.] [11] I was recently awarded an 
+[European Research Council Consolidator Grant][ERC] for the amount of 2.0M€.
 
 {% include new-window-fix.html %}
 

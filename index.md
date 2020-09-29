@@ -4,18 +4,40 @@ title: null
 permalink: /
 published: true
 ---
-{% include image.html url="images/harsha.jpeg" caption="Harsha S. Bhat (9/9/20)" width="290px" align="LEFT" %}
 
-<br><br>
-<h1 align="center">Recent News</h1>
+{% include new-window-fix.html %}
 
-> * Our [paper][aftershocks] identifying supershear transition in earthquake off-fault damage zone is now submitted.
+<div class="row112">
+<div class="columnimg">
+    <div class="cardimg">
+      <img src="{{site.baseurl}}/images/harsha.jpeg"/>
+    </div>    
+</div>
 
-> * My HDR thesis on Supershear Earthquakes is now available [online][hdr].
-
-> * Our [paper][tsunami] on tsunami's induced by supershear earthquakes is accepted in Nature Geoscience.
-
-> * Our [paper][erosion] on the link between erosional events and earthquakes is undergoing minor revision.
+<div class="columntxt">
+{% for news in site.data.news.news %}
+{% if forloop.index <= 4 %}
+{% if news.hl == 1 %} 
+    <div class="cardtxthl"> 
+{% else %}
+	<div class="cardtxtnohl"> 
+{% endif %}       
+      ➤ {{news.title}}
+      {% if news.pdf %} 
+      <span id="link_bar2">
+					<a href="{{ base }}/files/{{news.pdf}}">PDF</a>
+	  </span>
+	  {% endif %}
+	  {% if news.readmore %} 
+      <span id="link_bar2">
+					<a href="{{ base }}/{{news.readmore}}">READ MORE</a>
+	  </span>
+	  {% endif %}
+    </div>   
+{% endif %}     
+{% endfor %}  
+</div>  
+</div>
 
 {% include new-window-fix.html %}
 [hdr]: files/Bhat2021a.pdf
