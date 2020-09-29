@@ -191,7 +191,28 @@ $desktop:          45em;
 // -moz-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.37);
 // box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.37);
 border-radius: 0.0em;
+  border-bottom: 0.01px solid #c9c9c7;
 }
+
+    .grouphl:after {
+        content:"";
+        display: table;
+        clear: both;
+    }
+    
+    .grouphl {
+//         border: 0.1px solid lighten($black, 0.5%);
+//         border-bottom: 0.01px solid lighten($black, 0.5%);
+//         border-top: 0.05px solid lighten($black, 0.5%);
+        padding-bottom:20px;
+// -webkit-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.37);
+// -moz-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.37);
+// box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.37);
+border-radius: 1em;
+  background-color: #fbf5dc;
+  border: 0.01em solid lighten($black, 0.5%);
+}
+
     .group1:after {
         content:"";
         display: table;
@@ -234,7 +255,7 @@ border-radius: 0.0em;
 
 .columntxt {
   float: left;
-  width: 65%;
+  width: 60%;
   padding: 0 0px;
 }
 /* Remove extra left and right margins, due to padding */
@@ -250,6 +271,19 @@ align-items: safe center;
   clear: both;
 }
 
+.columnimg1 {
+  float: left;
+  width: 35%;
+  padding: 0 10px;
+}
+
+.columntxt1 {
+  float: left;
+  width: 65%;
+  padding: 0 0px;
+}
+
+
 .row112 {margin: 0 0px; display:flex;flex-direction: row; 
 align-items: center; 
  }
@@ -263,7 +297,7 @@ align-items: center;
 
 /* Responsive columns */
 @media screen and (max-width: 700px) {
-  .columnimg, .columntxt {
+  .columnimg, .columntxt, .columnimg1, .columntxt1 {
     width: 100%;
     margin-bottom: 20px;
   }
@@ -281,6 +315,15 @@ align-items: center;
   border-radius: 1em;
 }
 
+/* Style the counter cards */
+.cardimg1 {
+//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1px;
+  text-align: center;
+  margin:10px;
+  border-radius: 0em;
+}
+
 .cardtxt {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
@@ -291,12 +334,13 @@ align-items: center;
 }
 
 .cardtxthl {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: left;
-  background-color: #ffff99;
+  background-color: #fbf5dc;
   margin:10px;
   border-radius: 1em;
+  border: 0.01em solid lighten($black, 0.5%);
 }
 
 .cardtxtnohl {
@@ -304,7 +348,8 @@ align-items: center;
   padding: 16px;
   text-align: left;
   background-color: lighten(#0d667f,100%);
-  margin:5px;
+  margin:10px;
   border-radius: 1em;
+  border: 0.0px solid lighten($black, 0.5%);
 }
 

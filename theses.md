@@ -52,7 +52,6 @@ title:
 {% endif %}
 
 </div>	
-<hr style="width:100%;text-align:center;margin-left:0;">
 
 {% endfor %}
 

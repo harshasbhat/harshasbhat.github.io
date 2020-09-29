@@ -1,5 +1,5 @@
 publications:
-    - title:     "Supershear Tsunamis and insights from the Mw 7.5 Palu Earthquake"
+    - title:     "Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake"
       author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin
       year:    2020
       journal:    accepted in principle Nat. Geosci.
@@ -14,6 +14,7 @@ publications:
       arxiv: 	1910.14547
       topics: "supershear, tsunami, numerical models, FCM"	
       img: tsunami.png
+      hl: 1
     - title:     "Loi de friction et modélisation numérique du cycle sismique"
       author:    M. Y. Thomas & H. S. Bhat
       year:    2020
