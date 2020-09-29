@@ -8,13 +8,15 @@ published: true
 {% include new-window-fix.html %}
 
 <div class="row112">
-<div class="columnimg">
-    <div class="cardimg">
-      <img src="{{site.baseurl}}/images/harsha.jpeg"/>
+<div class="columnimg1">
+    <div class="cardimg1">
+      <img src="{{site.baseurl}}/images/tsunami/tsunamibig.png" width="100%"/>
+      <h6>Supershear Tsunami</h6>
     </div>    
 </div>
 
-<div class="columntxt">
+
+<div class="columntxt1">
 {% for news in site.data.news.news %}
 {% if forloop.index <= 4 %}
 {% if news.hl == 1 %} 

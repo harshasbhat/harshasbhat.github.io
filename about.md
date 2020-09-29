@@ -5,6 +5,13 @@ title:
 ---
 
 {% include new-window-fix.html %}
+<div class="columnimg1">
+    <div class="cardimg1">
+      <img src="{{site.baseurl}}/images/harsha.jpeg" width="80%"/>
+    </div>    
+</div>
+
+
 I am a [CNRS] Research Scientist working at the [Laboratoire de Géologie] [LG] in 
 [Ecole Normale Supérieure] [ENS]. 
 <br><br>

@@ -3,6 +3,7 @@ layout: page
 permalink: /articles/
 title: 
 ---
+{% include usemath.html %}
 
 {% include collecttags.html %}
 {% include lazyload.html %}
@@ -25,8 +26,11 @@ title:
 
 {% assign auth = pub.author %}
 
-
+{% if pub.hl == 1 %}
+<div class="grouphl">
+{% else %}
 <div class="group">
+{% endif %}
 
 {% if pub.img %}
     <div class="lefty">
@@ -123,7 +127,6 @@ title:
 	
 	
 </div>  
-<hr style="width:100%;text-align:center;margin-left:0;">
 	
 {% endfor %}
 
