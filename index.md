@@ -15,7 +15,7 @@ published: true
     </div>    
 </div>
 
-
+<h3> Recent News ... </h3>
 <div class="columntxt1">
 {% for news in site.data.news.news %}
 {% if forloop.index <= 4 %}
@@ -24,15 +24,16 @@ published: true
 {% else %}
 	<div class="cardtxtnohl"> 
 {% endif %}       
-      ➤ {{news.title}}
+      {{news.title}}<br>
       {% if news.pdf %} 
-      <span id="link_bar2">
+      &nbsp; ➤ 
+      <span id="link_bar4">
 					<a href="{{ base }}/files/{{news.pdf}}">PDF</a>
 	  </span>
 	  {% endif %}
 	  {% if news.readmore %} 
-      <span id="link_bar2">
-					<a href="{{ base }}/{{news.readmore}}">READ MORE</a>
+      <span id="link_bar4">
+					<a href="{{ base }}/{{news.readmore}}">READ MORE ...</a>
 	  </span>
 	  {% endif %}
     </div>   

@@ -273,19 +273,20 @@ align-items: safe center;
 
 .columnimg1 {
   float: left;
-  width: 35%;
-  padding: 0 10px;
+  width: 45%;
+  padding: 0 0px;
 }
 
 .columntxt1 {
   float: left;
-  width: 65%;
-  padding: 0 0px;
+  width: 77%;
+  padding-left: 5 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 
-.row112 {margin: 0 0px; display:flex;flex-direction: row; 
-align-items: center; 
+.row112 {margin: 0 0px; display:flex;flex-direction: column; 
+align-items: safe center; 
  }
 
 /* Clear floats after the columns */
@@ -335,21 +336,23 @@ align-items: center;
 
 .cardtxthl {
 //   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+  padding: 8px;
   text-align: left;
   background-color: #fbf5dc;
-  margin:10px;
-  border-radius: 1em;
-  border: 0.01em solid lighten($black, 0.5%);
+  margin-left:0px;
+  border-radius: 0em;
+  border-bottom: 0.01px solid lighten($black, 0.5%);
+  font-size: 85%;	
 }
 
 .cardtxtnohl {
 //   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+  padding: 8px;
   text-align: left;
   background-color: lighten(#0d667f,100%);
-  margin:10px;
-  border-radius: 1em;
-  border: 0.0px solid lighten($black, 0.5%);
+  margin-left:0px;
+  border-radius: 0em;
+  border-bottom: 0.01px solid lighten($black, 0.5%);
+  font-size: 85%;
 }
 

@@ -35,6 +35,7 @@ title:
 {% if pub.img %}
     <div class="lefty">
     	<br>
+    	{{j}}. 
 		{% if pub.pdf %}
 			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
 		{% else %} 
@@ -127,7 +128,7 @@ title:
 	
 	
 </div>  
-	
+{% assign j = j | minus:1 %}
 {% endfor %}
 
 
