@@ -10,7 +10,7 @@ published: true
 <div class="row112">
 <div class="columnimg1">
     <div class="cardimg1">
-      <img src="{{site.baseurl}}/images/tsunami/tsunamibig.png" width="100%"/>
+      <img src="{{site.baseurl}}/images/tsunami/tsunami.gif" width="100%"/>
       <h6>Supershear Tsunami</h6>
     </div>    
 </div>
