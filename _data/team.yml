@@ -1,0 +1,44 @@
+team:
+    - name: "Lucile Bruhat"
+      image: lucile.jpg
+      web: https://lucilebruhat.wixsite.com/home
+      email: lucile.bruhat@ens.psl.eu
+      post: CEA-ENS Post-Doctoral Fellow
+      dates: July 2018
+    - name: "Claudia Hulbert"
+      image: claudia.jpg
+      web: https://scholar.google.fr/citations?user=dexGouYAAAAJ&hl=fr
+      email: 
+      post: PhD Canidate
+      dates: October 2018
+    - name: "Ekeabino Momoh"
+      image: eke.jpg
+      web: https://www.researchgate.net/profile/Ekeabino_Momoh
+      email: 
+      post: Post-Doctoral Fellow             
+      dates: February 2019
+    - name: "Joseph M. F. Cuba"
+      image: joseph.jpg
+      web: https://www.researchgate.net/profile/Joseph_Michael_Flores_Cuba
+      email: 
+      post: PhD Canidate (Sorbonne U.)
+      dates: October 2020
+    - name: "Carlos D. Villafuerete"
+      image: carlos.jpg
+      web: https://scholar.google.com.mx/citations?user=7TTyAOwAAAAJ&hl=es
+      email: 
+      post: ERC Post-Doctoral Fellow            
+      dates: January 2021
+    - name: "Michelle Almakari"
+      image: michelle.jpg
+      web: https://scholar.google.com/citations?user=kE4li3YAAAAJ&hl=en
+      email: 
+      post: ERC Post-Doctoral Fellow             
+      dates: January 2021
+    - name: "Jinhui Cheng"
+      image: jinhui.jpg
+      web: 
+      email: 
+      post: PhD Canidate
+      dates: January 2021
+                                    
