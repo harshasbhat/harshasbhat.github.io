@@ -1,0 +1,82 @@
+postdoc:
+    - name: "Marion Y. Thomas"
+      image: marion.jpg
+      web: http://marionthomas.weebly.com
+      post: Chargée de Recherche CNRS
+    - name: "Lisa Gordeliy"
+      image: 
+      web: 
+      post: 
+phd:
+    - name: "Michael Mello"
+      image: 
+      web: 
+      post: 
+    - name: "Jonathan Mihaly"
+      image: 
+      web: 
+      post: 
+    - name: "François X. Passelègue"
+      image: 
+      web: 
+      post: 
+    - name: "Vahe Gabuchian"
+      image: 
+      web: 
+      post: 
+    - name: "Marshall Alan Rogers-Martinez"
+      image: 
+      web: 
+      post: 
+    - name: "Kurama Okubo"
+      image: kurama.jpg
+      web: https://kura-okubo.github.io
+      post: Researcher NIED Japan
+masters:
+    - name: "Sonia Fliss"
+      image: sonia.jpg
+      web: https://perso.ensta-paris.fr/~fliss/Sonia_Fliss_web_page/Accueil.html
+      email: 
+      post: Enseignant Chercheur ENSTA
+    - name: "Marion Olives"
+      image: 
+      web: 
+      email: 
+      post: consultant at Sophis
+    - name: "Aurélie Baudet"
+      image: aurelie.jpg
+      web: 
+      email: 
+      post: Professeur des écoles
+    - name: "Lucile Bruhat"
+      image: lucile.jpg
+      web: https://lucilebruhat.wixsite.com/home
+      post: CEA-ENS Post-Doctoral Fellow
+    - name: "Thibaut Perol"
+      image: perol.jpg
+      web: https://github.com/tperol
+      post: Lead Scientist @gramLabs
+    - name: "Kurama Okubo"
+      image: kurama.jpg
+      web: https://kura-okubo.github.io
+      post: Researcher NIED Japan
+    - name: "Victor Barolle"
+      image: victor.jpg
+      web: https://www.researchgate.net/scientific-contributions/2129255103-Victor-Barolle
+      post: Engineer Greener Wave
+undergrad:                                    
+    - name: "Philippe Danré"
+      image: danre.jpg
+      web: https://www.researchgate.net/profile/Philippe_Danre
+      email: 
+      post: "PhD Canidate: GeoAzur"
+    - name: "Hugo Lestrelin"
+      image: hugo.jpg
+      web: https://www.researchgate.net/profile/Hugo_Lestrelin
+      email: 
+      post: "Masters Canidate: ENS"
+    - name: "Roxanne Ferry"
+      image: 
+      web: 
+      email: 
+      post: "Masters Canidate: ENS"
