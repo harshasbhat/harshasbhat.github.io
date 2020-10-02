@@ -11,7 +11,9 @@
 .cards_item {
   display: flex;
   flex: 30%; 
-  padding: 1rem;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
@@ -28,27 +30,19 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  margin:0px;
 }
-
-/* 
-.card_image {
-  width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
- */
 
 .card_content {
-  padding: 1rem;
+  padding: 0.5rem;
   background: white;
 }
 
 .card_title {
-  color: black;
-  font-size: 1.1rem;
+  color: #0d667f;
+  font-size: 0.875rem;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 0.6px;
   text-align:center;
   text-transform: capitalize;
   margin: 0px;
@@ -56,27 +50,25 @@
 }
 
 .card_text {
-  color: #A41034;
+  color: black;
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;    
-  font-weight: 400;
+  font-weight: 500;
   text-align:center;
   margin: 0px;
   vertical-align: top;
+  font-style: italic;
 }
 .card_text2 {
   color: black;
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;    
-  font-weight: 400;
+  font-weight: 500;
+  font-size:75%;
   text-align:center;
   margin: 0px;
   vertical-align: top;
 }
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
