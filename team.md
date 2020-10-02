@@ -57,7 +57,7 @@ title:
           <h6 class="card_title">{{mem.name}}</h6>
           {% endif %}
           <h6 class="card_text">{{mem.post}}</h6>
-          <h6 class="card_text2">{{mem.dates}} -</h6>
+          <h6 class="card_text3">{{mem.dates}} onwards</h6>
           {% if mem.tweet %} 
           <a href="https://twitter.com/{{mem.tweet}}">
           <img src="{{site.baseurl}}/images/tweet.png" class="responsive" width="10%" align="right"> 
@@ -90,7 +90,7 @@ title:
           <h6 class="card_title">{{mem.name}}</h6>
           {% endif %}
           <h6 class="card_text">{{mem.post}}</h6>
-          <h6 class="card_text2">{{mem.dates}} -</h6>
+          <h6 class="card_text3">{{mem.dates}} onwards</h6>
           {% if mem.tweet %} 
           <a href="https://twitter.com/{{mem.tweet}}">
           <img src="{{site.baseurl}}/images/tweet.png" class="responsive" width="10%" align="right"> 

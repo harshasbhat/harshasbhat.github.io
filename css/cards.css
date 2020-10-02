@@ -1,7 +1,8 @@
 .cards {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center ;
+  align-content: flex-start;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
@@ -11,10 +12,11 @@
 
 .cards_item {
   display: flex;
-  flex: 30%; 
+  flex: 20%; 
   padding: 5px;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: center;
+  align-content: flex-start;
   border: 0.01px solid lighten(black, 0.5%);
 }
 
@@ -24,10 +26,19 @@
     flex-direction: column;
   justify-content: center;
   align-items: center;
+    align-content: center;
   }
   .cards_item {
   justify-content: center;
   align-items: center;
+  align-content: center;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .cards_item {
+flex: 30%; 
   }
 }
 
