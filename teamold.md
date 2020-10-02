@@ -6,8 +6,8 @@ title:
 
 {% include new-window-fix.html %}
 
-<hr>
-<div class="cardtxthl2" text-align="center">Post Doctoral Researchers</div>
+
+<div class="cardtxthl2" text-align="center">Former Post Doctoral Researchers</div>
 <ul class="cards">
 {% for mem in site.data.oldteam.postdoc %}
 <li class="cards_item">
@@ -34,7 +34,7 @@ title:
 {% endfor %}  
 </ul>
 <hr>
-<div class="cardtxthl2" text-align="center">PhD Students</div>
+<div class="cardtxthl2" text-align="center">Former PhD Students</div>
 <ul class="cards">
 {% for mem in site.data.oldteam.phd %}
 <li class="cards_item">
@@ -61,7 +61,7 @@ title:
 {% endfor %}  
 </ul>
 <hr>
-<div class="cardtxthl2" text-align="center">Masters Students</div>
+<div class="cardtxthl2" text-align="center">Former Masters Students</div>
 <ul class="cards">
 {% for mem in site.data.oldteam.masters %}
 <li class="cards_item">
@@ -88,7 +88,7 @@ title:
 {% endfor %}  
 </ul>
 <hr>
-<div class="cardtxthl2" text-align="center">Undergraduate Students</div>
+<div class="cardtxthl2" text-align="center">Former Undergraduate Students</div>
 <ul class="cards">
 {% for mem in site.data.oldteam.undergrad %}
 <li class="cards_item">
