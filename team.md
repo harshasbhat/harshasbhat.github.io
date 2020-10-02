@@ -6,9 +6,11 @@ title:
 
 {% include new-window-fix.html %}
 
-<h1 align="center">Current Members</h1>
 
-<h3 align="center">Post Doctoral Researchers</h3>
+<div class="cardtxt2"> 
+Current Members:    </div>  
+
+<div class="cardtxthl2" text-align="center">Post Doctoral Researchers</div>
 <ul class="cards">
 {% for mem in site.data.team.postdoc %}
 <li class="cards_item">
@@ -25,14 +27,21 @@ title:
           <h6 class="card_title">{{mem.name}}</h6>
           {% endif %}
           <h6 class="card_text">{{mem.post}}</h6>
-          <h6 class="card_text2">{{mem.dates}} -</h6>
+          <h6 class="card_text3">{{mem.dates}} onwards</h6>
+          {% if mem.tweet %} 
+          <a href="https://twitter.com/{{mem.tweet}}">
+          <img src="{{site.baseurl}}/images/tweet.png" class="responsive" width="10%" align="right"> 
+          </a>
+          {% else %}
+          <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="10%" align="right"> 
+          {% endif %}
         </div>
       </div>
 </li>    
 {% endfor %}  
 </ul>
 
-<h3 align="center">PhD Students</h3>
+<div class="cardtxthl2" text-align="center">PhD Students</div>
 <ul class="cards">
 {% for mem in site.data.team.phd %}
 <li class="cards_item">
@@ -50,6 +59,13 @@ title:
           {% endif %}
           <h6 class="card_text">{{mem.post}}</h6>
           <h6 class="card_text2">{{mem.dates}} -</h6>
+          {% if mem.tweet %} 
+          <a href="https://twitter.com/{{mem.tweet}}">
+          <img src="{{site.baseurl}}/images/tweet.png" class="responsive" width="10%" align="right"> 
+          </a>
+          {% else %}
+          <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="10%" align="right"> 
+          {% endif %}
         </div>
       </div>
 </li>    
@@ -75,6 +91,13 @@ title:
           {% endif %}
           <h6 class="card_text">{{mem.post}}</h6>
           <h6 class="card_text2">{{mem.dates}} -</h6>
+          {% if mem.tweet %} 
+          <a href="https://twitter.com/{{mem.tweet}}">
+          <img src="{{site.baseurl}}/images/tweet.png" class="responsive" width="10%" align="right"> 
+          </a>
+          {% else %}
+          <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="10%" align="right"> 
+          {% endif %}
         </div>
       </div>
 </li>    
@@ -83,13 +106,9 @@ title:
 {% endif %}
 
 <br>
-<hr>
-<br>
-
-
-<h1 align="center">Former Members</h1>
-
-<h3 align="center">Post Doctoral Researchers</h3>
+<div class="cardtxt2"> 
+Former Members:    </div>  
+<div class="cardtxthl2" text-align="center">Post Doctoral Researchers</div>
 <ul class="cards">
 {% for mem in site.data.oldteam.postdoc %}
 <li class="cards_item">
@@ -112,7 +131,7 @@ title:
 {% endfor %}  
 </ul>
 
-<h3 align="center">PhD Students</h3>
+<div class="cardtxthl2" text-align="center">PhD Students</div>
 <ul class="cards">
 {% for mem in site.data.oldteam.phd %}
 <li class="cards_item">
@@ -135,7 +154,7 @@ title:
 {% endfor %}  
 </ul>
 
-<h3 align="center">Masters Students</h3>
+<div class="cardtxthl2" text-align="center">Masters Students</div>
 <ul class="cards">
 {% for mem in site.data.oldteam.masters %}
 <li class="cards_item">
@@ -158,7 +177,7 @@ title:
 {% endfor %}  
 </ul>
 
-<h3 align="center">Undergraduate Students</h3>
+<div class="cardtxthl2" text-align="center">Undergraduate Students</div>
 <ul class="cards">
 {% for mem in site.data.oldteam.undergrad %}
 <li class="cards_item">
