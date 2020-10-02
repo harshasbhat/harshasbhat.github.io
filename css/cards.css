@@ -1,25 +1,33 @@
 .cards {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
+  border: 0.px solid black;
 }
 
 .cards_item {
   display: flex;
   flex: 30%; 
   padding: 5px;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-around;
+  border: 0.01px solid lighten(black, 0.5%);
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .cards {
     flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .cards_item {
+  justify-content: center;
+  align-items: center;
   }
 }
 
@@ -71,4 +79,16 @@
   margin: 0px;
   vertical-align: top;
 }
+.card_text3 {
+  color: #76a5f5;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+  font-size:75%;
+  text-align:center;
+  margin: 0px;
+  vertical-align: top;
+}
+
 

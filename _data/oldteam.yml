@@ -4,7 +4,7 @@ postdoc:
       web: http://marionthomas.weebly.com
       post: Chargée de Recherche CNRS
     - name: "Lisa Gordeliy"
-      image: 
+      image: lisa.jpg
       web: 
       post: 
 phd:
@@ -24,7 +24,7 @@ phd:
       image: 
       web: 
       post: 
-    - name: "Marshall Alan Rogers-Martinez"
+    - name: "Pierre Romanet"
       image: 
       web: 
       post: 
@@ -32,6 +32,14 @@ phd:
       image: kurama.jpg
       web: https://kura-okubo.github.io
       post: Researcher NIED Japan
+    - name: "Marshall Alan Rogers-Martinez"
+      image: 
+      web: 
+      post: 
+    - name: "Samson Marty"
+      image: 
+      web: 
+      post: 
 masters:
     - name: "Sonia Fliss"
       image: sonia.jpg
@@ -64,6 +72,31 @@ masters:
       image: victor.jpg
       web: https://www.researchgate.net/scientific-contributions/2129255103-Victor-Barolle
       post: Engineer Greener Wave
+    - name: "Eleni Kolokytha"
+      image: 
+      web: 
+      email: 
+      post: 
+    - name: "Luc Illien"
+      image: 
+      web: 
+      email: 
+      post: 
+    - name: "Nicolas Mercury"
+      image: 
+      web: 
+      email: 
+      post: 
+    - name: "Philippe Danré"
+      image: danre.jpg
+      web: https://www.researchgate.net/profile/Philippe_Danre
+      email: 
+      post: "PhD Canidate: GeoAzur"
+    - name: "Jinhui Cheng"
+      image: jinhui.jpg
+      web: 
+      email: 
+      post: PhD Canidate, ENS
 undergrad:                                    
     - name: "Philippe Danré"
       image: danre.jpg

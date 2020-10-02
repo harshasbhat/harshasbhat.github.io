@@ -12,12 +12,14 @@ postdoc:
       email: 
       post: Post-Doctoral Fellow             
       dates: February 2019
+      tweet: MomohEke
     - name: "Carlos D. Villafuerete"
       image: carlos.jpg
       web: https://scholar.google.com.mx/citations?user=7TTyAOwAAAAJ&hl=es
       email: 
       post: ERC Post-Doctoral Fellow            
       dates: January 2021
+      tweet: cdvu
     - name: "Michelle Almakari"
       image: michelle.jpg
       web: https://scholar.google.com/citations?user=kE4li3YAAAAJ&hl=en
@@ -37,6 +39,7 @@ phd:
       email: 
       post: PhD Canidate (Sorbonne U.)
       dates: October 2020
+      tweet: Jflorescuba
     - name: "Jinhui Cheng"
       image: jinhui.jpg
       web: 
