@@ -11,6 +11,11 @@
       subhref: "/topics/"
 - title: "Group"
   href: "/team/"
+  subcategories:
+    - subtitle: "Current"
+      subhref: "/team/"
+    - subtitle: "Past"
+      subhref: "/teamold/"
 - title: "About"
   href: "/about/"
   subcategories:

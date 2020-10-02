@@ -16,7 +16,7 @@ published: true
 </div>
 
 <div class="columntxt1">
-<h3 style="text-align:right"> Recent News ... </h3>
+<div class="cardtxthl3" text-align="center">Recent News ... </div>
 {% for news in site.data.news.news %}
 {% if forloop.index <= 4 %}
 {% if news.hl == 1 %} 

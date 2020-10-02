@@ -1,45 +1,45 @@
 postdoc:
     - name: "Marion Y. Thomas"
       image: marion.jpg
-      web: http://marionthomas.weebly.com
+      web: https://marionthomas.weebly.com
       post: Chargée de Recherche CNRS
     - name: "Lisa Gordeliy"
       image: lisa.jpg
       web: 
-      post: 
+      post: Postdoc École Polytechnique
 phd:
     - name: "Michael Mello"
-      image: 
-      web: 
-      post: 
+      image: mike.jpg
+      web: https://mce.caltech.edu/people/mello
+      post: Teaching Professor Caltech
     - name: "Jonathan Mihaly"
-      image: 
+      image: jon.jpg
       web: 
-      post: 
+      post: JPL
     - name: "François X. Passelègue"
-      image: 
-      web: 
-      post: 
+      image: pass.jpg
+      web: https://www.fxpasselegue.com
+      post: Ambizione Fellow EPFL
     - name: "Vahe Gabuchian"
-      image: 
-      web: 
-      post: 
+      image: vahe.jpg
+      web: https://www.imdb.com/name/nm4315875/
+      post: Research Scientist Caltech
     - name: "Pierre Romanet"
-      image: 
-      web: 
-      post: 
+      image: pierre.jpg
+      web: https://sites.google.com/view/pierre-romanet/
+      post: Postdoc Univ. Tokyo
     - name: "Kurama Okubo"
       image: kurama.jpg
       web: https://kura-okubo.github.io
       post: Researcher NIED Japan
     - name: "Marshall Alan Rogers-Martinez"
-      image: 
+      image: marshall.jpg
       web: 
-      post: 
+      post: Engineer Joby Aviation
     - name: "Samson Marty"
-      image: 
-      web: 
-      post: 
+      image: samson.jpg
+      web: https://www.researchgate.net/profile/Samson_Marty
+      post: Postdoc Penn State
 masters:
     - name: "Sonia Fliss"
       image: sonia.jpg
@@ -78,15 +78,15 @@ masters:
       email: 
       post: 
     - name: "Luc Illien"
-      image: 
-      web: 
+      image: luc.jpg 
+      web: https://www.gfz-potsdam.de/en/staff/luc-illien/sec46/
       email: 
-      post: 
+      post: "PhD Canidate: GFZ"
     - name: "Nicolas Mercury"
       image: 
       web: 
       email: 
-      post: 
+      post: "PhD Canidate: EOST Strasbourg"
     - name: "Philippe Danré"
       image: danre.jpg
       web: https://www.researchgate.net/profile/Philippe_Danre
@@ -109,7 +109,7 @@ undergrad:
       email: 
       post: "Masters Canidate: ENS"
     - name: "Roxanne Ferry"
-      image: 
+      image: roxanne.jpg
       web: 
       email: 
       post: "Masters Canidate: ENS"

@@ -5,7 +5,7 @@ title:
 ---
 
 {% include new-window-fix.html %}
-<div class="columnimg1">
+<div class="columnimg2">
     <div class="cardimg1">
       <img src="{{site.baseurl}}/images/harsha.jpeg" width="80%"/>
     </div>    
