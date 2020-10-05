@@ -362,7 +362,8 @@ align-items: flex-end;
   margin-right:10px;
   margin-bottom:0px;
   border-radius: 0em;
-  border: 0.01px solid lighten($black, 0.5%);
+  border: 0.0px solid lighten($black, 0.5%);
+  border-bottom: 0.000px solid lighten($black, 0.5%);
   font-size: 85%;	
 }
 
@@ -375,7 +376,8 @@ align-items: flex-end;
   margin-right:10px;
   margin-bottom:0px;
   border-radius: 0em;
-  border: 0.01px solid lighten($black, 0.5%);
+  border: 0.0px solid lighten($black, 0.5%);
+  border-bottom: 0.00px solid lighten($black, 0.5%);
   font-size: 85%;
 }
 

@@ -18,15 +18,15 @@ published: true
 <div class="columntxt1">
 <div class="cardtxthl3" text-align="center">Recent News ... </div>
 {% for news in site.data.news.news %}
-{% if forloop.index <= 4 %}
+{% if forloop.index <= 6 %}
 {% if news.hl == 1 %} 
     <div class="cardtxthl"> 
 {% else %}
 	<div class="cardtxtnohl"> 
 {% endif %}       
-      {{news.title}}<br>
+      ●  {{news.title}}<br>
       {% if news.pdf %} 
-      &nbsp; ➤ 
+      &nbsp;&nbsp;&nbsp;&nbsp;
       <span id="link_bar4">
 					<a href="{{ base }}/files/{{news.pdf}}">PDF</a>
 	  </span>
