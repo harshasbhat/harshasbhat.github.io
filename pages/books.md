@@ -12,7 +12,6 @@ title:
 {% if pub.img %}
 
     <div class="lefty">
-	    <br>
 		{% if pub.pdf %}
 			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
 		{% else %} 
@@ -20,7 +19,7 @@ title:
 		{% endif %}
 	</div>	
 
-	<div class="lefty">	
+	<div class="lefty2">	
 		edited by {{pub.editor | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>
 		
 		{% if pub.doi %}
@@ -32,7 +31,6 @@ title:
     </div>
 	
 	<div class="righty">
-	<br>
 			<img src="{{site.baseurl}}/images/pubimages/{{pub.img}}" class="responsive" width="80%">
 	</div>
 

@@ -1,0 +1,90 @@
+/* Remove extra left and right margins, due to padding */
+.row111 {margin: 0 0px; display:flex;flex-direction: row; 
+align-items: safe center; 
+
+ }
+
+/* Clear floats after the columns */
+.row111:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Float four columns side by side */
+.columnimg {
+  float: left;
+  width: 30%;
+  padding: 0 0px;
+}
+
+.columntxt {
+  float: left;
+  width: 60%;
+  padding: 0 0px;
+}
+
+
+.columnimg2 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+
+/* Style the counter cards */
+.cardimg {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  margin:10px;
+  border-radius: 1em;
+}
+
+
+.cardtxt {
+//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background-color: lighten($harvardblue,70%);
+  margin:10px;
+  border-radius: 1em;
+}
+
+.cardtxt2 {
+//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 0px;
+  text-align: left;
+//   background-color: lighten(#0d667f,70%);
+  margin-left:10px;
+  border-radius: 0em;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: lighten($black, 30%);
+}
+
+
+.cardtxthl2 {
+//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  text-align: left;
+//   background-color: lighten(#0d667f,65%);
+  margin-bottom:10px;
+  margin-top:10px;
+  border-radius: 0em;
+  border: 0.0px solid lighten($black, 0.5%);
+  font-size: 115%;	
+  font-weight:600;
+}
+
+/* Responsive columns */
+@media screen and (max-width: $mobile) {
+  .columnimg, .columntxt, .columnimg1, .columntxt1, .columnimg2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .row111 {  flex-direction: column;
+}
+}
+

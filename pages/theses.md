@@ -11,7 +11,6 @@ title:
 {% if pub.img %}
 
 	<div class="lefty">
-	    <br>
 		{% if pub.pdf %}
 			<a href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
 		{% else %} 
@@ -19,9 +18,9 @@ title:
 		{% endif %}
 	</div>
 	
-	<div class="lefty">	
+	<div class="lefty2">	
 		{{pub.author | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>
-		<span style="color:grey">{{pub.school}}</span>
+		<span><em>{{pub.school}}</em></span>
 		{% if pub.doi %}
 			<a href="https://doi.org/{{pub.doi}}">doi:{{pub.doi}}</a>
 		{% endif %}
@@ -29,7 +28,6 @@ title:
     </div>
     
 	<div class="righty">
-			<br>
 			<img src="{{site.baseurl}}/images/pubimages/{{pub.img}}" class="responsive" width="80%">
 	</div>
 	
@@ -43,7 +41,7 @@ title:
 		{% endif %}
 	
 		<br>{{pub.author | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>
-		<span style="color:grey">{{pub.school}}</span>
+		<span>{{pub.school}}</span>
 		{% if pub.doi %}
 			<a href="https://doi.org/{{pub.doi}}">doi:{{pub.doi}}</a>
 		{% endif %}

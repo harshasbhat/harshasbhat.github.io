@@ -1,0 +1,46 @@
+#topicbtn a
+{ 
+font-size: 60%; 
+display: inline-block; 
+margin-top: 0.1em; 
+margin-right: 0.75em; 
+font-weight: 450; 
+border-radius: 0.7em; 
+padding: 3px 6px; 
+float:center; 
+color:$topicbtntxt; 
+background-color:$topicbtn; 
+}
+
+
+#topicbtn a:hover 
+{ 
+color:$topicbtn; 
+background-color:$topicbtntxt; 
+text-decoration:none;
+}
+
+#topicbtnlst a
+{ 
+font-size: 70%; 
+display: inline-block; 
+margin-top: 0.2em; 
+margin-right: 0.75em; 
+font-weight: 450; 
+border-radius: 0.7em; 
+padding: 6px 6px; 
+float:center; 
+color:$topicbtntxt; 
+background-color:$topicbtn; 
+}
+
+
+#topicbtnlst a:hover 
+{ 
+color:$topicbtn; 
+background-color:$topicbtntxt; 
+text-decoration:none;
+}
+
+
+

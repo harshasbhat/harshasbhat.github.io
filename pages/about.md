@@ -5,15 +5,20 @@ title:
 ---
 
 {% include new-window-fix.html %}
-<div class="columnimg2">
-    <div class="cardimg1">
-      <img src="{{site.baseurl}}/images/harsha.jpeg" width="80%"/>
-    </div>    
-</div>
 
+<ul class="cards">
+<li class="cards_item">
+      <div class="card">
+        <img src="{{site.baseurl}}/images/harsha.jpeg" width="227px"/>
+        <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="5%" align="right">   
+          <h6 class="card_title">Harsha S. Bhat</h6>
+        <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="5%" align="right">   
+      </div>
+</li>    
+</ul>
 
 I am a [CNRS] Research Scientist working at the [Laboratoire de Géologie] [LG] in 
-[Ecole Normale Supérieure] [ENS]. 
+[Ecole Normale Supérieure] [ENS] since May, 2016. 
 <br><br>
 I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology. 
 <br><br>

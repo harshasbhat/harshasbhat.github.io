@@ -4,7 +4,7 @@
 /* Menu bar and fonts */
 
 .jmenu {
-  background: #0d667f; /* Dark gray */
+  background: $menubackground; /* Dark gray */
 /*   box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, .5); */
   box-sizing: border-box;
   line-height: 1;
@@ -14,9 +14,9 @@
   width: 100%; /* Full width */
   padding: 0px 0px;
   text-transform: uppercase;
--webkit-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.57);
--moz-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.57);
-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.57);
+// -webkit-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.57);
+// -moz-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.57);
+// box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.57);
 }
 
 /* Menu Button */
@@ -33,8 +33,8 @@ input[type='checkbox']:checked.jm-menu-btn ~ .jm-collapse {
 }
 
 label.jm-menu-btn {
-  background: #0d667f; /* Dark gray */
-  color: white; /* Light gray */
+  background: $menubackground; /* Dark gray */
+  color: $menulink; /* Light gray */
   cursor: pointer;
   display: block;
   padding: 16px 15px;
@@ -55,22 +55,22 @@ label.jm-menu-btn:hover {
 .jmenu li {
   list-style: none;
   margin: 0px;
-  padding: 0px 3px;
+  padding: 0px 5px;
 /*   float: center; */
 }
 
 /* Links */
 .jmenu a {
-  color: white; /* Light gray */
+  color: $menulink; /* Light gray */
   display: inline-block;
   padding: 16px 0px;
   text-decoration: none;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .jmenu a:hover {
-  color: white; /* White */
+  color: $menulink; /* White */
 }
 
 /* Submenu Items */
@@ -92,25 +92,22 @@ label.jm-menu-btn:hover {
 
 .jm-dropdown:hover a {
   /* Make top-level menu item stay highlighted when hovering over children */
-  color: white; 
+  color: $menulink; 
 }
 
 .jm-dropdown ul {
-  background: #0d667f; /* White */
+  background: $submenubackground; /* White */
   padding: 0;
 }
 
 .jm-dropdown ul a,
 .jm-dropdown:hover ul a {
-   color: white; /* Light gray */
+   color: $submenulink; /* Light gray */
 }
 
 .jm-dropdown ul a:hover,
 .jm-dropdown:hover ul a:hover {
-  color: #afe6f1; /* Black*/
   text-decoration: underline;
-/*   background-color: #afe6f1; /* Light gray */ */
-
 }
 
 /* Tertiary+ Menu Items */

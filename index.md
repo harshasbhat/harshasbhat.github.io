@@ -7,32 +7,36 @@ published: true
 
 {% include new-window-fix.html %}
 
+<br>
+
 <div class="row112">
 <div class="columnimg1">
     <div class="cardimg1">
-      <img src="{{site.baseurl}}/images/tsunami/tsunami.gif" width="100%"/>
       <h6>Supershear Tsunami</h6>
+      <img src="{{site.baseurl}}/images/tsunami/tsunami.gif" width="100%"/>
     </div>    
 </div>
 
 <div class="columntxt1">
-<div class="cardtxthl3" text-align="center">Recent News ... </div>
 {% for news in site.data.news.news %}
 {% if forloop.index <= 6 %}
-{% if news.hl == 1 %} 
-    <div class="cardtxthl"> 
-{% else %}
 	<div class="cardtxtnohl"> 
-{% endif %}       
-      ●  {{news.title}}<br>
+	● 
+		{% if news.hl == 1 %} 
+			<b>{{news.title}}</b>
+		{% else %}
+			 {{news.title}}
+		{% endif %}       
+
+      
       {% if news.pdf %} 
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      <span id="link_bar4">
+      &nbsp;&nbsp;
+      <span id="topicbtn">
 					<a href="{{ base }}/files/{{news.pdf}}">PDF</a>
 	  </span>
 	  {% endif %}
 	  {% if news.readmore %} 
-      <span id="link_bar4">
+      <span id="topicbtn">
 					<a href="{{ base }}/{{news.readmore}}">READ MORE ...</a>
 	  </span>
 	  {% endif %}
