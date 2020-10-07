@@ -20,7 +20,7 @@ Listed below are my publications sorted by various research topics. You can brow
 <div class="container">
 	{% for tag in sorttags %}
 		<div class="section">
-			<div id="link_bar2">
+			<div id="topicbtnlst">
 			   <a href="#{{ tag  | slugify }}"> {{ tag | upcase }} </a>
 			</div>
 		</div>
@@ -30,7 +30,7 @@ Listed below are my publications sorted by various research topics. You can brow
 <br><br>
 
 {% for tag in sorttags %}
-<h1 id="{{ tag  | slugify }}" align="center">{{ tag | upcase }}</h1>
+<div class="cardtxthl2" text-align="center">{{ tag | upcase }}</div>
 {% for pub in site.data.pubs.publications %}
 {% assign uniqetopics = "" %}
 {% assign uniqetopics = pub.topics | split: ', ' | sort_natural | uniq %} 
@@ -52,13 +52,13 @@ Listed below are my publications sorted by various research topics. You can brow
 	</div>	
 
 		
-	<div class="lefty">
+	<div class="lefty2">
 		{{pub.author | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>
 		
 		{% if pub.type == "article" %}
-			<span style="color:grey"><em>{{pub.journal}}</em><br></span>
+			<span ><em>{{pub.journal}}</em><br></span>
 		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
-			in <span style="color:grey">{{pub.booktitle}}</span>
+			in <span >{{pub.booktitle}}</span>
 			eds. {{pub.editor | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}
 		{% endif %}
 		
@@ -76,7 +76,7 @@ Listed below are my publications sorted by various research topics. You can brow
 		{% if pub.topics %}
 			<div class="lefty">
 				{% for topic in uniqetopics %}
-					<span id="link_bar2">
+					<span id="topicbtn">
 						<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a>
 					</span>
 				{% endfor %}

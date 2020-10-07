@@ -9,7 +9,7 @@
 	   <a href="{{ menu_item.href | prepend: site.baseurl }}">{{ menu_item.title }}  <i class="fa fa-caret-down"></i></a>
 	   <ul>
 				{% for subcategory in menu_item.subcategories %}
-					<li><a href="{{ subcategory.subhref | prepend: site.baseurl }}"><i class="fa fa-caret-right"></i> {{ subcategory.subtitle }}</a></li>
+					<li><a href="{{ subcategory.subhref | prepend: site.baseurl }}">{{ subcategory.subtitle }}</a></li>
 				{% endfor %}
 	   </ul>
 	   </li>

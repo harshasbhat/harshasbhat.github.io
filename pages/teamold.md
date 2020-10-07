@@ -24,7 +24,7 @@ title:
           <h6 class="card_title">{{mem.name}}</h6>
           {% endif %}
           {% if mem.post %}
-          <h6 class="card_text">{{mem.post}}</h6>
+          <h6 class="card_text3">{{mem.post}}</h6>
           {% else %}
           <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="10%" align="right"> 
           {% endif %}          
@@ -51,7 +51,7 @@ title:
           <h6 class="card_title">{{mem.name}}</h6>
           {% endif %}
           {% if mem.post %}
-          <h6 class="card_text">{{mem.post}}</h6>
+          <h6 class="card_text3">{{mem.post}}</h6>
           {% else %}
           <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="10%" align="right"> 
           {% endif %}          
@@ -78,7 +78,7 @@ title:
           <h6 class="card_title">{{mem.name}}</h6>
           {% endif %}
           {% if mem.post %}
-          <h6 class="card_text">{{mem.post}}</h6>
+          <h6 class="card_text3">{{mem.post}}</h6>
           {% else %}
           <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="9.5%" align="right"> 
           {% endif %}          
@@ -105,7 +105,7 @@ title:
           <h6 class="card_title">{{mem.name}}</h6>
           {% endif %}
           {% if mem.post %}
-          <h6 class="card_text">{{mem.post}}</h6>
+          <h6 class="card_text3">{{mem.post}}</h6>
           {% else %}
           <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="10%" align="right"> 
           {% endif %}          

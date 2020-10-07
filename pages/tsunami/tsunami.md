@@ -41,18 +41,8 @@ This suggests that rupture speed should be considered in tsunami hazard assessme
 </div>    
 </div>
 
+
 <div class="row111">
-
-<div class="columntxt">
-    <div class="cardimg">
-      <video id="SR" muted autoplay controls autoplay="autoplay">
-		<source src="{{site.baseurl}}/images/tsunami/SR.mp4" type="video/mp4" preload = "auto">
-	  </video>
-      <h6>Subshear Earthquake</h6>
-    </div>    
-</div>
-
-<div class="columntxt">
     <div class="cardimg">
       <video id="SS" muted autoplay controls autoplay="autoplay">
 		<source src="{{site.baseurl}}/images/tsunami/SS.mp4" type="video/mp4" preload = "auto">
@@ -61,7 +51,6 @@ This suggests that rupture speed should be considered in tsunami hazard assessme
     </div>    
 </div>
     
-</div>
 
 <h2 align="center">Supershear Earthquakes</h2>
 <div class="row111">
@@ -121,7 +110,6 @@ This suggests that rupture speed should be considered in tsunami hazard assessme
 <h2 align="center">Tsunami Generation by Supershear Earthquakes</h2>
 
 <div class="row111">
-<div class="columntxt">
     <div class="cardimg">
 	  <video id="SS" muted autoplay controls autoplay="autoplay">
 		<source src="{{site.baseurl}}/images/tsunami/SuperTsunami2_720p.mov" type="video/mp4" preload = "auto">
@@ -129,14 +117,16 @@ This suggests that rupture speed should be considered in tsunami hazard assessme
 	  <h6>Supershear Tsunami</h6>
     </div>    
 </div>
-<div class="columntxt">
+
+
+<div class="row111">
     <div class="cardtxt"> 
       Supershear ruptures manifest shock fronts. These shock fronts carry energy from the fault to large distances without much loss.
       In this work here we show that even if the displacements are small, the very fact that the shock fronts affect a large region is sufficient
       to generate a tsunami. In Palu bay, the bathtub like bathymetry further helped this tsunami become quite large.
     </div>    
 </div>
-</div>    
+   
 
 <hr>
 $^*$ <a href="https://harshasbhat.github.io/files/AmlaniBhatSimons2020a.pdf"> F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin, accepted in Nature Geoscience, arXiv:1910.14547[physics.geo-ph] (2020)</a> <br><br>

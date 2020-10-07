@@ -26,16 +26,10 @@ title:
 
 {% assign auth = pub.author %}
 
-{% if pub.hl == 1 %}
-<div class="grouphl">
-{% else %}
 <div class="group">
-{% endif %}
-
 {% if pub.img %}
     <div class="lefty">
-    	<br>
-    	{{j}}. 
+ 	
 		{% if pub.pdf %}
 			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
 		{% else %} 
@@ -44,13 +38,13 @@ title:
 	</div>	
 
 		
-	<div class="lefty">
+	<div class="lefty2">
 		{{pub.author | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>
 		
 		{% if pub.type == "article" %}
-			<span style="color:grey"><em>{{pub.journal}}</em><br></span>
+			<span ><em>{{pub.journal}}</em><br></span>
 		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
-			in <span style="color:grey">{{pub.booktitle}}</span>
+			in <span >{{pub.booktitle}}</span>
 			eds. {{pub.editor | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}
 		{% endif %}
 		
@@ -67,9 +61,9 @@ title:
     
 	
     {% if pub.topics %}
-		<div class="lefty">
+		<div class="lefty2">
 			{% for topic in uniqetopics %}
-				<span id="link_bar2">
+				<span id="topicbtn">
 					<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a>
 				</span>
 			{% endfor %}
@@ -77,7 +71,6 @@ title:
 	{% endif %}
 	
 	<div class="righty">
-    <br>
     	{% for image in imgs %}
 			<img src="{{site.baseurl}}/images/pubimages/blank.png" data-echo="{{site.baseurl}}/images/pubimages/{{image}}" class="responsive" width="100%">
     	{% endfor %}
@@ -97,9 +90,9 @@ title:
 		<br>{{pub.author | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>		
 		
 		{% if pub.type == "article" %}
-			<span style="color:grey"><em>{{pub.journal}}</em><br></span>
+			<span ><em>{{pub.journal}}</em><br></span>
 		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
-			in <span style="color:grey">{{pub.booktitle}}</span>
+			in <span >{{pub.booktitle}}</span>
 			eds. {{pub.editor}}
 		{% endif %}
 		
@@ -115,7 +108,7 @@ title:
 
     {% if pub.topics %}
 			{% for topic in uniqetopics %}
-				<span id="link_bar2">
+				<span id="topicbtn">
 					<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a>
 				</span>
 			{% endfor %}
@@ -140,8 +133,8 @@ title:
 width: 100%; 
 height: 100%; 
 object-fit: contain; 
-max-width: 300px;
-max-height: 150px;
+max-width: 350px;
+max-height: 200px;
 float: left;
 }
 </style>

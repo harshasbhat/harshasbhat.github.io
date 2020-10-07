@@ -7,7 +7,7 @@
   list-style: none;
   margin: 0;
   padding-bottom: 10px;
-  border: 0.px solid black;
+  border: 0px solid $black;
 }
 
 .cards_item {
@@ -17,11 +17,12 @@
   align-items: flex-start;
   justify-content: center;
   align-content: flex-start;
-  border: 0.01px solid lighten(black, 0.5%);
+  border: 0.0px solid lighten($black, 0.5%);
+//   background-color: $cardcolor;
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: $mobile) {
   .cards {
     flex-direction: column;
   justify-content: center;
@@ -36,15 +37,15 @@
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: $ipad) {
   .cards_item {
 flex: 30%; 
   }
 }
 
 .card {
-  background-color: white;
-  border-radius: 0.25rem;
+  background-color: $cardcolor;
+  border-radius: 0.5rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
@@ -54,12 +55,12 @@ flex: 30%;
 
 .card_content {
   padding: 0.5rem;
-  background: white;
+  background: $cardcolor;
 }
 
 .card_title {
-  color: #0d667f;
-  font-size: 0.875rem;
+  color: $cardname;
+  font-size: 80%;
   font-weight: 700;
   letter-spacing: 0.6px;
   text-align:center;
@@ -69,8 +70,7 @@ flex: 30%;
 }
 
 .card_text {
-  color: black;
-  font-size: 0.875rem;
+  color: $black;
   line-height: 1.5;
   margin-bottom: 1.25rem;    
   font-weight: 500;
@@ -80,7 +80,7 @@ flex: 30%;
   font-style: italic;
 }
 .card_text2 {
-  color: black;
+  color: $black;
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;    
@@ -91,7 +91,7 @@ flex: 30%;
   vertical-align: top;
 }
 .card_text3 {
-  color: #76a5f5;
+  color: $carddate;
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;    
