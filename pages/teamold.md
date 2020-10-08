@@ -13,9 +13,9 @@ title:
 <li class="cards_item">
       <div class="card">
 	    {% if mem.image %}
-        <img src="{{ base }}/images/team/{{mem.image}}" width="227px">
+        <img src="{{ base }}/images/team/{{mem.image}}" width="200px">
         {% else %}
-        <img src="{{ base }}/images/team/dummy.jpg" width="227px">
+        <img src="{{ base }}/images/team/dummy.jpg" width="200px">
         {% endif %}
         <div class="card_content">
           {% if mem.web %} 
@@ -33,16 +33,16 @@ title:
 </li>    
 {% endfor %}  
 </ul>
-<hr>
+
 <div class="cardtxthl2" text-align="center">Former PhD Students</div>
 <ul class="cards">
 {% for mem in site.data.oldteam.phd %}
 <li class="cards_item">
       <div class="card">
 	    {% if mem.image %}
-        <img src="{{ base }}/images/team/{{mem.image}}" width="227px">
+        <img src="{{ base }}/images/team/{{mem.image}}" width="200px">
         {% else %}
-        <img src="{{ base }}/images/team/dummy.jpg" width="227px">
+        <img src="{{ base }}/images/team/dummy.jpg" width="200px">
         {% endif %}
         <div class="card_content">
           {% if mem.web %} 
@@ -60,16 +60,16 @@ title:
 </li>    
 {% endfor %}  
 </ul>
-<hr>
+
 <div class="cardtxthl2" text-align="center">Former Masters Students</div>
 <ul class="cards">
 {% for mem in site.data.oldteam.masters %}
 <li class="cards_item">
       <div class="card">
 	    {% if mem.image %}
-        <img src="{{ base }}/images/team/{{mem.image}}" width="227px">
+        <img src="{{ base }}/images/team/{{mem.image}}" width="200px">
         {% else %}
-        <img src="{{ base }}/images/team/dummy.jpg" width="227px">
+        <img src="{{ base }}/images/team/dummy.jpg" width="200px">
         {% endif %}
         <div class="card_content">
           {% if mem.web %} 
@@ -87,16 +87,16 @@ title:
 </li>    
 {% endfor %}  
 </ul>
-<hr>
+
 <div class="cardtxthl2" text-align="center">Former Undergraduate Students</div>
 <ul class="cards">
 {% for mem in site.data.oldteam.undergrad %}
 <li class="cards_item">
       <div class="card">
 	    {% if mem.image %}
-        <img src="{{ base }}/images/team/{{mem.image}}" width="227px">
+        <img src="{{ base }}/images/team/{{mem.image}}" width="200px">
         {% else %}
-        <img src="{{ base }}/images/team/dummy.jpg" width="227px">
+        <img src="{{ base }}/images/team/dummy.jpg" width="200px">
         {% endif %}
         <div class="card_content">
           {% if mem.web %} 

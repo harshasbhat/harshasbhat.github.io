@@ -3,7 +3,6 @@ layout: page
 permalink: /articles/
 title: 
 ---
-{% include usemath.html %}
 
 {% include collecttags.html %}
 {% include lazyload.html %}
@@ -29,7 +28,7 @@ title:
 <div class="group">
 {% if pub.img %}
     <div class="lefty">
- 	
+ 		
 		{% if pub.pdf %}
 			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
 		{% else %} 
@@ -72,7 +71,7 @@ title:
 	
 	<div class="righty">
     	{% for image in imgs %}
-			<img src="{{site.baseurl}}/images/pubimages/blank.png" data-echo="{{site.baseurl}}/images/pubimages/{{image}}" class="responsive" width="100%">
+			<img src="{{site.baseurl}}/images/pubimages/blank.png" data-echo="{{site.baseurl}}/images/pubimages/{{image}}" class="responsivepubimg">
     	{% endfor %}
 	</div>
 
@@ -127,18 +126,3 @@ title:
 
 
 {% include new-window-fix.html %}
-
-<style>
-.responsive {
-width: 100%; 
-height: 100%; 
-object-fit: contain; 
-max-width: 350px;
-max-height: 200px;
-float: left;
-}
-</style>
-
-[LG]: http://www.geologie.ens.fr
-[ENS]: http://www.ens.fr
-[topics]: /topics/

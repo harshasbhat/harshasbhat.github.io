@@ -6,62 +6,50 @@ title:
 
 {% include new-window-fix.html %}
 
-<ul class="cards">
-<li class="cards_item">
-      <div class="card">
-        <img src="{{site.baseurl}}/images/harsha.jpeg" width="227px"/>
-        <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="5%" align="right">   
-          <h6 class="card_title">Harsha S. Bhat</h6>
-        <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="5%" align="right">   
-      </div>
-</li>    
-</ul>
+<div class="row111">
+<div class="columnimg1">
+	<li class="cards_item">
+    <div class="card">
+      <img src="{{site.baseurl}}/images/harsha.jpeg" width="225px"/>  
+      <h6 class="card_title">Harsha S. Bhat</h6>  
+    </div>
+    </li>
+    
+</div>
 
-I am a [CNRS] Research Scientist working at the [Laboratoire de Géologie] [LG] in 
-[Ecole Normale Supérieure] [ENS] since May, 2016. 
-<br><br>
+
+<div class="columntxt1">
+<p>I am a <a href="http://www.cnrs.fr/index.html">CNRS</a> Research Scientist working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
+<a href="http://www.ens.fr">Ecole Normale Supérieure</a> since May, 2016. 
+<br /><br />
 I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology. 
-<br><br>
+<br /><br />
 I am a solid mechanician and earthquake source physicist by training. I obtained my B. E. 
 in Civil Engineering from Karnataka Regional Engineering College in India (now called the 
-[National Institute of Technology Karnataka, Surathkal][NITK]). I then proceeded to obtain 
-my Ph. D. from [Harvard University] [1], under the supervision of [Prof. James R. Rice] [2]
- and [Dr. Renata Dmowska] [3]. I did my postdoctoral studies jointly between at 
- [Caltech] [4] and the [University of Southern California] [5]. 
- Here I worked with [Prof. Ares J. Rosakis] [7] and [Prof. Charles G. Sammis] [8]. 
-<br><br>
-I joined [CNRS] in Jan. 2012 as a Grade 1 Research Scientist, and began working at the 
-[Institut de Physique du Globe de Paris (IPGP)] [6] until Apr. 2016. I have been awarded 
-the [Prix Michel Gouilloud Schlumberger] [9] from the [Academié des Sciences] [10]. 
-You can watch the ceremony [here.] [11] I was recently awarded an 
-[European Research Council Consolidator Grant][ERC] for the amount of 2.0M€.
-
+<a href="https://www.nitk.ac.in">National Institute of Technology Karnataka, Surathkal</a>). I then proceeded to obtain 
+my Ph. D. from <a href="http://www.harvard.edu">Harvard University</a>, under the supervision of <a href="http://www.seas.harvard.edu/rice">Prof. James R. Rice</a>
+ and <a href="http://www.seas.harvard.edu/dmowska">Dr. Renata Dmowska</a>. I did my postdoctoral studies jointly between at 
+ <a href="http://www.caltech.edu">Caltech</a> and the <a href="http://www.usc.edu">University of Southern California</a>. 
+ Here I worked with <a href="http://rosakis.caltech.edu">Prof. Ares J. Rosakis</a> and <a href="https://dornsife.usc.edu/cf/faculty-and-staff/faculty.cfm?pid=1003669">Prof. Charles G. Sammis</a>. 
+<br /><br />
+I joined <a href="http://www.cnrs.fr/index.html">CNRS</a> in Jan. 2012 as a Grade 1 Research Scientist, and began working at the 
+<a href="http://www.ipgp.fr">Institut de Physique du Globe de Paris (IPGP)</a> until Apr. 2016. I have been awarded 
+the <a href="http://www.academie-sciences.fr/fr/Laureats/laureat-2018-du-prix-michel-gouilloud-schlumberger-harsha-suresh-bhat.html">Prix Michel Gouilloud Schlumberger</a> from the <a href="http://www.academie-sciences.fr/fr/">Academié des Sciences</a>. 
+You can watch the ceremony <a href="https://www.youtube.com/watch?v=OVaenZ39o_c&amp;t=2s&amp;frags=pl%2Cwn">here.</a> I was recently awarded an 
+<a href="https://cordis.europa.eu/project/id/865411">European Research Council Consolidator Grant</a> for the amount of 2.0M€.</p>
 {% include new-window-fix.html %}
+</div>  
 
+</div>
 
-[NITK]: https://www.nitk.ac.in
-[LG]: http://www.geologie.ens.fr
-[ENS]: http://www.ens.fr
-[CNRS]: http://www.cnrs.fr/index.html
-[1]: http://www.harvard.edu
-[2]: http://www.seas.harvard.edu/rice
-[3]: http://www.seas.harvard.edu/dmowska
-[4]: http://www.caltech.edu
-[5]: http://www.usc.edu
-[6]: http://www.ipgp.fr
-[7]: http://rosakis.caltech.edu
-[8]: https://dornsife.usc.edu/cf/faculty-and-staff/faculty.cfm?pid=1003669
-[9]: http://www.academie-sciences.fr/fr/Laureats/laureat-2018-du-prix-michel-gouilloud-schlumberger-harsha-suresh-bhat.html
-[10]: http://www.academie-sciences.fr/fr/
-[11]: https://www.youtube.com/watch?v=OVaenZ39o_c&t=2s&frags=pl%2Cwn
-[CONTACT]: /contact/
-[BIO]: /bio/
-[CV]: {{ base }}/CV/CurriculumVitae.pdf
-[directions]: files/directions.pdf
-[LG]: http://www.geologie.ens.fr
-[ENS]: http://www.ens.fr
-[Google Scholar]: http://scholar.google.com/citations?user={{site.author.scholar}}&hl=en&oi=ao
-[CNRS]: http://www.cnrs.fr/index.html
-[ORCID 0000-0003-0361-1854]: https://orcid.org/0000-0003-0361-1854
-[ERC]: https://cordis.europa.eu/project/id/865411
-
+<style>
+.responsive {
+width: 100%; 
+height: 100%; 
+object-fit: contain; 
+padding-left: 5px;
+max-width: 15px;
+max-height: 100px;
+float: right;
+}
+</style>

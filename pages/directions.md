@@ -5,4 +5,4 @@ title:
 ---
 
 
-<img src="{{site.baseurl}}/images/directions.jpg" class="responsive">
+<img src="{{site.baseurl}}/images/directions.jpg">

@@ -42,5 +42,26 @@ background-color:$topicbtntxt;
 text-decoration:none;
 }
 
+#sectionbtnlst a
+{ 
+font-size: 100%; 
+display: inline-block; 
+margin-top: 0.2em; 
+margin-right: 0.75em; 
+font-weight: 450; 
+border-radius: 0.7em; 
+padding: 6px 10px; 
+color:$white; 
+background-color:$harvard; 
+}
+
+
+#sectionbtnlst a:hover 
+{ 
+color: $harvard; 
+background-color: $white; 
+text-decoration:none;
+}
+
 
 

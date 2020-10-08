@@ -30,7 +30,8 @@ Listed below are my publications sorted by various research topics. You can brow
 <br><br>
 
 {% for tag in sorttags %}
-<div class="cardtxthl2" text-align="center">{{ tag | upcase }}</div>
+
+<div class="topicshl" id="{{ tag  | slugify }}">{{ tag | upcase }}</div>
 {% for pub in site.data.pubs.publications %}
 {% assign uniqetopics = "" %}
 {% assign uniqetopics = pub.topics | split: ', ' | sort_natural | uniq %} 
@@ -39,11 +40,10 @@ Listed below are my publications sorted by various research topics. You can brow
 {% assign imgs1 = pub.img | split: ', ' | sort_natural | uniq %} 
 
 {% if pub.topics contains tag %}
-<div class="group1">
+<div class="group">
 
 
     <div class="lefty">
-    	<br>
 		{% if pub.pdf %}
 			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
 		{% else %} 
@@ -74,7 +74,7 @@ Listed below are my publications sorted by various research topics. You can brow
     </div>
     
 		{% if pub.topics %}
-			<div class="lefty">
+			<div class="lefty2">
 				{% for topic in uniqetopics %}
 					<span id="topicbtn">
 						<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a>
@@ -84,27 +84,15 @@ Listed below are my publications sorted by various research topics. You can brow
 		{% endif %}
 	
 	<div class="righty">
-		<br>
 		{% for image in imgs1 %}
-			<img src="{{site.baseurl}}/images/pubimages/blank.png" data-echo="{{site.baseurl}}/images/pubimages/{{image}}" class="responsive" width="100%">
+			<img src="{{site.baseurl}}/images/pubimages/blank.png" data-echo="{{site.baseurl}}/images/pubimages/{{image}}" class="responsivepubimg">
 		{% endfor %}
 	</div>
 </div> 
-<hr style="width:100%;text-align:center;margin-left:0;">
+
 {% endif %}
 {% endfor %}
 <br>
 {% endfor %}
-
-<style>
-.responsive {
-width: 100%; 
-height: 100%; 
-object-fit: contain; 
-max-width: 300px;
-max-height: 150px;
-float: left;
-}
-</style>
 
 [pubs]: /articles/
