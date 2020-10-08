@@ -31,7 +31,7 @@ title:
     </div>
 	
 	<div class="righty">
-			<img src="{{site.baseurl}}/images/pubimages/{{pub.img}}" class="responsive" width="80%">
+			<img src="{{site.baseurl}}/images/pubimages/{{pub.img}}" class="responsivepubimg">
 	</div>
 
 {% else %}
@@ -60,16 +60,6 @@ title:
 
 {% include new-window-fix.html %}
 
-<style>
-.responsive {
-width: 100%; 
-height: 100%; 
-object-fit: contain; 
-max-width: 300px;
-max-height: 150px;
-float: left;
-}
-</style>
 
 [LG]: http://www.geologie.ens.fr
 [ENS]: http://www.ens.fr

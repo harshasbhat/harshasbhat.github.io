@@ -9,7 +9,7 @@
         padding-left:5px;
         border: 0px solid lighten($harvard, 0.5%);
         font-size: 95%;
-        background-color: $hlcolor;
+//         background-color: $hlcolor;
         
     }
    .lefty2 {
@@ -64,51 +64,46 @@
     .group {
         padding-bottom:20px;
 		border-radius: 0.0em;
-  		border-bottom: 0.0px solid $line-color;
+  		border-bottom: 0.01px solid $line-color;
   		margin:10px;
 }
 
-    .grouphl:after {
-        content:"";
-        display: table;
-        clear: both;
-    }
-    
-    .grouphl {
-        padding-bottom:20px;
-border-radius: 0em;
-  background-color: $hlcolor;
-  border: 0.0em solid lighten($black, 0.5%);
-  margin:10px;
+.topicshl {
+		//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		padding: 8px;
+		text-align: center;
+		margin-bottom:10px;
+		margin-top:10px;
+		border-radius: 0.1em;
+		font-size: 125%;	
+		font-weight:600;
+		color: $harvard;
 }
 
-    .group1:after {
-        content:"";
-        display: table;
-        clear: both;
-    }
-    
-    .group1 {
-        padding-bottom:20px;
-border-radius: 0.0em;
+.responsivepubimg {
+width: 100%; 
+object-fit: contain; 
+max-width: $pubimgwidth;
+max-height: 150px;
+float: left;
 }
 
-    @media screen and (max-width: $mobile) {
-        .lefty, .righty {
-            float: none;
-            width: auto;
-        }
-        .righty{
-        display:none;}
-    }
+@media screen and (max-width: $mobile) {
+	.lefty, .righty {
+		float: none;
+		width: auto;
+	}
+	.righty{
+	display:none;}
+}
 
 .container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap ;
-  justify-content: center;
-  align-items: stretch;
-  align-content: stretch;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap ;
+	justify-content: center;
+	align-items: center;
+	align-content: center ;
 }
 
 .section {
@@ -122,9 +117,13 @@ border-radius: 0.0em;
 @media (max-width: $mobile) { /*breakpoint*/
   .container {
     grid-template-columns: none;
+  justify-content: center;
+  align-items: center;
+    align-content: center;
   }
   .section {
-    align-items: center;
-  	justify-content: center;
+  justify-content: center;
+  align-items: center;
+    align-content: center;
   }
 }

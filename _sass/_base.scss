@@ -58,12 +58,12 @@ margin: 10px;
 
 h3 {
 text-decoration: none;
-padding: 5px;
-margin: 10px;
+padding: 0px;
+margin: 0px;
 // -webkit-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
 // -moz-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
 // box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-    color: black;
+    color: $harvard;
     border: 0.0px solid lighten(#0d667f, 15.5%);
     border-radius: .5em;
 //     background-color: lighten(#0d667f,45%);
@@ -85,6 +85,23 @@ margin: 20px;
     border-radius: .5em;
 //     background-color: lighten(#0d667f,45%);
     font-size:   100%;
+// -webkit-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+// -moz-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+// -box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+}
+
+h5 {
+text-decoration: none;
+padding: 15px;
+margin: 20px;
+// -webkit-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
+// -moz-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
+// box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
+    color: black;
+    border: 0.0px solid lighten(#0d667f, 15.5%);
+    border-radius: .5em;
+//     background-color: lighten(#0d667f,45%);
+    font-size:   93%;
 // -webkit-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
 // -moz-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
 // -box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);

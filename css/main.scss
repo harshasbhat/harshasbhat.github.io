@@ -7,7 +7,7 @@
 $font-weight-normal: 400;
 $font-weight-bold:   600;
 
-$base-font-family: "Helvetica Neue";
+$base-font-family: "Arial";
 $base-font-size:   12pt;
 $base-line-height: 1.5;
 
@@ -44,19 +44,20 @@ $submenubackground: $black;
 $menulink: $white;
 $submenulink: $white;
 $hlcolor: 	#ffffe6;
-$cardcolor: $hlcolor; 
-$cardname: $black;
-$carddate: $grey;
+$cardcolor: $black; 
+$cardname: $white;
+$carddate: $grey-light;
 $topicbtn: #d9d9d9;
 $topicbtntxt: $black;
 $topicbtnhvr: $harvardblue;
+$pubimgwidth: 200px;
 
 // Width of the content area
-$content-width:    60em;
-$content-min-width:15em;
-$mobile:           35em;
-$desktop:          55em;
-$ipad:             45em;
+$content-width:    1024px;
+$content-min-width:320px;
+$mobile:           414px;
+$desktop:          1200px;
+$ipad:             1024px;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {

@@ -28,7 +28,7 @@ title:
     </div>
     
 	<div class="righty">
-			<img src="{{site.baseurl}}/images/pubimages/{{pub.img}}" class="responsive" width="80%">
+			<img src="{{site.baseurl}}/images/pubimages/{{pub.img}}" class="responsivepubimg">
 	</div>
 	
 {% else %}

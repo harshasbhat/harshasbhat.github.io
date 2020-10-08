@@ -1,6 +1,8 @@
 /* Remove extra left and right margins, due to padding */
 .row111 {margin: 0 0px; display:flex;flex-direction: row; 
-align-items: safe center; 
+  align-items: flex-start;
+  justify-content: center ;
+  align-content: flex-start;
 
  }
 
@@ -24,6 +26,12 @@ align-items: safe center;
   padding: 0 0px;
 }
 
+.columntxtauthors {
+  float: left;
+  width: 85%;
+  padding: 10px;
+}
+
 
 .columnimg2 {
   float: left;
@@ -39,6 +47,7 @@ align-items: safe center;
   text-align: center;
   margin:10px;
   border-radius: 1em;
+  max-width: 800px;
 }
 
 
@@ -77,6 +86,19 @@ align-items: safe center;
   font-weight:600;
 }
 
+.containermisc {
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  align-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding-bottom: 10px;
+  border: 0px solid $black;
+}
+
+
 /* Responsive columns */
 @media screen and (max-width: $mobile) {
   .columnimg, .columntxt, .columnimg1, .columntxt1, .columnimg2 {
@@ -85,6 +107,12 @@ align-items: safe center;
   }
   
   .row111 {  flex-direction: column;
+}
+.containermisc {
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    align-content: center;
 }
 }
 

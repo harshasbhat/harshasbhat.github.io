@@ -21,7 +21,8 @@ $^*$ Corresponding author: <img src="{{site.baseurl}}/images/email.png" class="r
 
 <h4 align="Center">To appear in Nature Geoscience</h4>
 <hr>
-For a brief explanation of the paper visit here [EN][tsu1]/[FR][tsu2]. 
+
+A brief explanation of the paper in [English][tsu1]. 
 
 All the data used in the manuscript can be obtained here [(doi:10.5281/zenodo.4066297)][tsu3].
 

@@ -10,11 +10,15 @@ published: true
 <br>
 
 <div class="row112">
+
 <div class="columnimg1">
-    <div class="cardimg1">
-      <h6>Supershear Tsunami</h6>
-      <img src="{{site.baseurl}}/images/tsunami/tsunami.gif" width="100%"/>
-    </div>    
+	<li class="cards_item">
+    <div class="card">
+      <img src="{{site.baseurl}}/images/tsunami/tsunami.gif"/>
+      <h6 class="card_title">Supershear Tsunami</h6>  
+    </div>
+    </li>
+    
 </div>
 
 <div class="columntxt1">
