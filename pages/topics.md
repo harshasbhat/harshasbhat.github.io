@@ -16,7 +16,17 @@ Listed below are my publications sorted by various research topics. You can brow
 
 {% assign sorttags = uniqTags | sort_natural %} 
 
+<div class="dropdown">
+  <button class="dropbtn">Topics <i class="fa fa-caret-down"></i></button>
+  <div class="dropdown-content">
+  	{% for tag in sorttags %}
+ 	<a href="#{{ tag  | slugify }}"> {{ tag | upcase }} </a>
+ 	{% endfor %}
+  </div>
+</div>
 
+
+<!-- 
 <div class="container">
 	{% for tag in sorttags %}
 		<div class="section">
@@ -26,12 +36,13 @@ Listed below are my publications sorted by various research topics. You can brow
 		</div>
 	{% endfor %}
 </div>
+ -->
 
 <br><br>
 
 {% for tag in sorttags %}
-
-<div class="topicshl" id="{{ tag  | slugify }}">{{ tag | upcase }}</div>
+<a id="{{ tag  | slugify }}" class="anchor"></a>
+<div class="topicshl">{{ tag | upcase }}</div>
 {% for pub in site.data.pubs.publications %}
 {% assign uniqetopics = "" %}
 {% assign uniqetopics = pub.topics | split: ', ' | sort_natural | uniq %} 
@@ -94,5 +105,7 @@ Listed below are my publications sorted by various research topics. You can brow
 {% endfor %}
 <br>
 {% endfor %}
+
+{% include new-window-fix.html %}
 
 [pubs]: /articles/

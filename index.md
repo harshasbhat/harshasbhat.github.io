@@ -5,9 +5,7 @@ permalink: /
 published: true
 ---
 
-{% include new-window-fix.html %}
 
-<br>
 
 <div class="row112">
 
@@ -51,11 +49,5 @@ published: true
 </div>
 
 {% include new-window-fix.html %}
-[hdr]: files/Bhat2021a.pdf
-[aftershocks]: files/JaraBruhatAntoine2020a.pdf
-[tsunami]: files/AmlaniBhatSimons2020a.pdf
-[erosion]: files/Jeandet-RibesCubasBhat2020a.pdf
-[tsunami2]: /tsunami/explanation/
-
 
 
