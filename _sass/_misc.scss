@@ -1,6 +1,7 @@
 /* Remove extra left and right margins, due to padding */
-.row111 {margin: 0 0px; display:flex;flex-direction: row; 
-  align-items: flex-start;
+.row111 {margin: 0 0px; display:flex;
+  flex-direction: row; 
+  align-items: center;
   justify-content: center ;
   align-content: flex-start;
 
@@ -30,6 +31,7 @@
   float: left;
   width: 85%;
   padding: 10px;
+  font-size: 85%;
 }
 
 
@@ -47,7 +49,7 @@
   text-align: center;
   margin:10px;
   border-radius: 1em;
-  max-width: 800px;
+  max-width: 700px;
 }
 
 
@@ -55,7 +57,7 @@
 //   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: left;
-  background-color: lighten($harvardblue,70%);
+  background-color: $hlcolor;
   margin:10px;
   border-radius: 1em;
 }
@@ -88,6 +90,7 @@
 
 .containermisc {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center ;
   align-content: center;
@@ -99,6 +102,23 @@
 }
 
 
+.videoWrapper {
+display: flex;
+align-items: center;
+  justify-content: center ;
+  align-content: center;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* Responsive columns */
 @media screen and (max-width: $mobile) {
   .columnimg, .columntxt, .columnimg1, .columntxt1, .columnimg2 {
@@ -106,9 +126,15 @@
     margin-bottom: 20px;
   }
   
-  .row111 {  flex-direction: column;
+  .row111 {  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
+
 .containermisc {
+display: flex;
     flex-direction: column;
   justify-content: center;
   align-items: center;

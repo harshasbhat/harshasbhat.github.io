@@ -8,23 +8,23 @@ published: true
 
 <h2 align="center">Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake$^*$</h2>	
 
-<h5 align="center">
-Faisal Amlani,$^{1}$ Harsha S. Bhat,$^{2}$ Wim J. F. Simons,$^{3}$ Alexandre Schubnel,$^{2}$ Christophe Vigny$^{2}$, Ares J. Rosakis$^{4}$, Joni Efendi$^5$, Ahmed Elbanna$^6$ and Hasanuddin Z. Abidin$^{5,7}$
-</h5>
-
 <div class="row111">
 <div class="columntxtauthors">
 
-$^1$ Department of Aerospace and Mechanical Engineering, University of Southern California, Los Angeles, USA.<br>
-$^2$ Laboratoire de Géologie, École Normale Supérieure, CNRS-UMR 8538, PSL Research University, Paris, France.<br>
-$^3$ Faculty of Aerospace Engineering, Delft University of Technology, Delft, Netherlands.<br>
-$^4$ Graduate Aerospace Laboratories, California Institute of Technology, Pasadena, California, USA.<br>
-$^5$ BIG (Badan Informasi Geospasial / Geospatial Information Agency of Indonesia), Java, Indonesia.<br>
-$^6$ Department of Civil and Environmental Engineering, University of Illinois at Urbana Champaign, USA.<br>
-$^7$ Department of Geodesy and Geomatics Engineering, Institute of Technology Bandung, Indonesia.<br>
-$^*$ Corresponding author: <img src="{{site.baseurl}}/images/email.png" class="responsive"><br>
+Faisal Amlani,$^{1}$ Harsha S. Bhat,$^{2,*}$ Wim J. F. Simons,$^{3}$ Alexandre Schubnel,$^{2}$ Christophe Vigny,$^{2}$ Ares J. Rosakis,$^{4}$ Joni Efendi,$^5$ Ahmed Elbanna,$^6$ and Hasanuddin Z. Abidin$^{5,7}$ <br><br>
+
+(1) Department of Aerospace and Mechanical Engineering, University of Southern California, Los Angeles, USA, 
+(2) Laboratoire de Géologie, École Normale Supérieure, CNRS-UMR 8538, PSL Research University, Paris, France, 
+(3) Faculty of Aerospace Engineering, Delft University of Technology, Delft, Netherlands, 
+(4) Graduate Aerospace Laboratories, California Institute of Technology, Pasadena, California, USA, 
+(5) BIG (Badan Informasi Geospasial / Geospatial Information Agency of Indonesia), Java, Indonesia, 
+(6) Department of Civil and Environmental Engineering, University of Illinois at Urbana Champaign, USA, 
+(7) Department of Geodesy and Geomatics Engineering, Institute of Technology Bandung, Indonesia<br> 
+(*) Corresponding author: <img src="{{site.baseurl}}/images/email.png" class="responsive">
 </div>
 </div>
+
+<h3 align="left" id="one">Abstract</h3>
 <p><b>Hazardous tsunamis are known to be generated predominantly at subduction zones by large earthquakes on dip (vertical)-slip faults.
 However, a moment magnitude, $M_w$, 7.5 earthquake on a strike (lateral)-slip fault in Sulawesi (Indonesia) in 2018 generated a tsunami that devastated the city of Palu.
 The mechanism by which this large tsunami originated from a strike-slip earthquake has been debated.
@@ -54,7 +54,7 @@ This suggests that rupture speed should be considered in tsunami hazard assessme
 <div class="row111">
 <div class="columntxt">
     <div class="cardimg"> 
-      <img src="{{site.baseurl}}/images/tsunami/setting.jpg"/>     
+      <img src="{{site.baseurl}}/images/tsunami/setting.jpg" width="92%"/>     
       <h6>The regional tectonic setting. Image from Ulrich et al. (2019)$^1$</h6> 
     </div>    
 </div>    
@@ -74,20 +74,20 @@ This suggests that rupture speed should be considered in tsunami hazard assessme
 
 
     <div class="cardtxt"> 
-      The magnitude, $M_w$, 7.5 Palu Sulawesi earthquake struck on 28 September 2018 causing wide spread destruction and loss of lives$^2 occurred on a strike (lateral)-slip fault in Sulawesi (Indonesia). This earthquake also generated a tsunami 
+      The magnitude, $M_w$, 7.5 Palu Sulawesi earthquake struck on 28 September 2018 causing wide spread destruction and loss of lives$^2$ occurred on a strike (lateral)-slip fault in Sulawesi (Indonesia). This earthquake also generated a tsunami 
       that devastated the city of Palu. As such strike-slip earthquakes do not involve large vertical movements (compared to the one in Tohoku, Japan during the 2011 earthquake) the cause of this
       tsunami has been a mystery.  
-      <h4 align="center">However, this was a "Supershear" Earthquake</h4>    
     </div>    
     
 </div>
+<h4 align="center">However, this was a "Supershear" Earthquake</h4>    
 
 <hr>
 <h3 align="left" id="two">2. Supershear Earthquakes</h3>
 <div class="row111">
-    <div class="cardimg">
+    <div class="cardimg" style = "max-width:500px">
       <video id="SS" muted autoplay controls autoplay="autoplay">
-		<source src="{{site.baseurl}}/images/tsunami/SS.mp4" type="video/mp4" preload = "auto">
+		<source src="{{site.baseurl}}/images/videos/tsunami/SS.mp4" type="video/mp4" preload = "auto">
 	  </video>
       <h6>Supershear Earthquake</h6>
     </div>    
@@ -113,7 +113,7 @@ This suggests that rupture speed should be considered in tsunami hazard assessme
 <h3 align="left" id="three">3. The Evidence</h3>
 
 <div class="row111">
-    <div class="cardimg">
+    <div class="cardimg" style = "max-width:800px">
       <img src="{{site.baseurl}}/images/tsunami/GPS.png" width="100%"/>
       <h6>Ground Velocity recorded by the PALP GPS station</h6>
     </div>    
@@ -145,23 +145,19 @@ This suggests that rupture speed should be considered in tsunami hazard assessme
       Classical Tsunamis are generated by the large vertical displacement of the sea floor around the fault. Subduction Zone earthquakes are
       typical sources of such tsunamis. Strike-Slip earthquakes, on the other hand, do not displace the ground floor so much.
     </div>    
-    <h4 align="right">Except when they are "Supershear" Earthquakes</h4>    
+<h4 align="right">Except when they are "Supershear" Earthquakes</h4>    
 
 </div>
+
 </div>    
 
 <hr>
 <h3 align="left"  id="five">5. Tsunami Generation by Supershear Earthquakes</h3>
 
-<div class="row111">
-    <div class="cardimg">
-	  <video id="SS" muted autoplay controls autoplay="autoplay">
-		<source src="{{site.baseurl}}/images/tsunami/SuperTsunami2_720p.mov" type="video/mp4" preload = "auto">
-	  </video>
-	  <h6>Supershear Tsunami</h6>
-    </div>    
-</div>
 
+<div class="videoWrapper">
+  <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/5LBeeFE0ezg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>    
 
 <div class="row111">
     <div class="cardtxt"> 
@@ -173,10 +169,11 @@ This suggests that rupture speed should be considered in tsunami hazard assessme
    
 
 <hr>
+<div class="columntxtauthors">
 $^*$ <a href="https://harshasbhat.github.io/files/AmlaniBhatSimons2020a.pdf"> F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin, accepted in principle Nature Geoscience, arXiv:1910.14547[physics.geo-ph] (2020)</a> <br><br>
 $^1$ <a href="https://doi.org/10.1007/s00024-019-02290-5">Ulrich et al. (2019) Coupled, Physics-Based Modeling Reveals Earthquake Displacements are Critical to the 2018 Palu, Sulawesi Tsunami, Pure Appl. Geophys. </a><br><br>
 $^2$ <a href="https://www.nytimes.com/2018/09/28/world/asia/tsunami-palu-indonesia-earthquake.html">NYTimes: Tsunami and Earthquake in Indonesia Kill Nearly 400, Officials Say</a>
-
+</div>
 
 <script type="text/javascript">
   var v1 = document.getElementById("SR"); 
@@ -187,7 +184,7 @@ $^2$ <a href="https://www.nytimes.com/2018/09/28/world/asia/tsunami-palu-indones
 
 <style>
 .responsive {
-  width: 170px;
+  width: 150px;
   max-width: 300px;
   height: auto;
 }
