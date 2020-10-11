@@ -6,6 +6,7 @@ published: true
 ---
 {% include usemath.html %}
 
+<div class="pagewidth">
 <div class="containermisc2">
 			<div id="sectionbtnlst2">
 			   <a href="{{site.baseurl}}/tsunami-en/">English</a>
@@ -13,7 +14,7 @@ published: true
 			</div>
 </div>
 
-<h2 align="center">Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake$^*$</h2>	
+<h2 align="center" style="color:#4181BD">Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake$^*$</h2>	
 
 <div class="row111">
 <div class="columntxtauthors">
@@ -26,13 +27,13 @@ Faisal Amlani,$^{1}$ Harsha S. Bhat,$^{2,*}$ Wim J. F. Simons,$^{3}$ Alexandre S
 (4) Graduate Aerospace Laboratories, California Institute of Technology, Pasadena, California, USA, 
 (5) BIG (Badan Informasi Geospasial / Geospatial Information Agency of Indonesia), Java, Indonesia, 
 (6) Department of Civil and Environmental Engineering, University of Illinois at Urbana Champaign, USA, 
-(7) Department of Geodesy and Geomatics Engineering, Institute of Technology Bandung, Indonesia<br> 
-(*) Corresponding author: <img src="{{site.baseurl}}/images/email.png" class="responsive"><br><br>
+(7) Department of Geodesy and Geomatics Engineering, Institute of Technology Bandung, Indonesia<br> <br>
+* Corresponding author: <img src="{{site.baseurl}}/images/email.png" class="responsive"><br><br>
 Data Availability: <a href="https://doi.org/10.5281/zenodo.4066297"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4066297.svg" alt="DOI"></a>
 </div>
 </div>
 
-<h3 align="left" id="one">Abstract</h3>
+<h3 align="left">Abstract</h3>
 <p><b>On sait que les tsunamis dangereux sont principalement générés dans les zones de subduction par de grands séismes sur des failles de glissement (verticales).
 Cependant, un tremblement de terre d'une magnitude, $M_w$, 7,5 sur une faille de glissement (latérale) à Sulawesi (Indonésie) en 2018 a provoqué un tsunami qui a dévasté la ville de Palu.
 Le mécanisme par lequel ce grand tsunami a pris naissance à la suite d'un tremblement de terre de type "strike-slip" a été débattu.
@@ -189,7 +190,7 @@ $^*$ <a href="https://harshasbhat.github.io/files/AmlaniBhatSimons2020a.pdf"> F.
 $^1$ <a href="https://doi.org/10.1007/s00024-019-02290-5">Ulrich et al. (2019) Coupled, Physics-Based Modeling Reveals Earthquake Displacements are Critical to the 2018 Palu, Sulawesi Tsunami, Pure Appl. Geophys. </a><br><br>
 $^2$ <a href="https://www.nytimes.com/2018/09/28/world/asia/tsunami-palu-indonesia-earthquake.html">NYTimes: Tsunami and Earthquake in Indonesia Kill Nearly 400, Officials Say</a>
 </div>
-
+</div>
 <script type="text/javascript">
   var v1 = document.getElementById("SR"); 
   v1.playbackRate = 0.15; 
