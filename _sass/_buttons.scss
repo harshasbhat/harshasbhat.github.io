@@ -80,6 +80,41 @@ background-color: $white;
 text-decoration:none;
 }
 
+#sectionbtnlst2
+{ 
+font-size: 80%; 
+display: flex; 
+flex-direction: row;
+flex-wrap: wrap;
+// margin-right: 0.75em; 
+// font-weight: 450; 
+// border-radius: 0.7em; 
+ padding: 0px 0px;
+// color:$white; 
+// background-color:$harvard; 
+}
+
+#sectionbtnlst2 a
+{ 
+display: flex; 
+flex-direction: row;
+flex-wrap: wrap;
+margin-top: 0.0em; 
+font-weight: 450; 
+border-radius: 0.0em; 
+padding: 5px 10px; 
+color:$black; 
+background-color:$white; 
+}
+
+
+#sectionbtnlst2 a:hover 
+{ 
+color: $harvard; 
+background-color: $white; 
+text-decoration:underline;
+}
+
 /* Responsive columns */
 @media screen and (max-width: $mobile) {
 

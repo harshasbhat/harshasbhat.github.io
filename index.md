@@ -10,13 +10,12 @@ published: true
 <div class="row112">
 
 <div class="columnimg1">
-	<li class="cards_item">
-    <div class="card">
-      <img src="{{site.baseurl}}/images/tsunami/tsunamibig.png"/>
-      <h6 class="card_title">Supershear Tsunami</h6>  
+	<li class="cards_itemnews">
+    <div class="cardnews">
+      <img src="{{site.baseurl}}/images/tsunami/composite_tsunami.jpg" width="100%"/>
+      <a href="{{ site.baseurl }}/tsunami-en/" class="card_titlenews">Supershear Tsunami</a>  
     </div>
     </li>
-    
 </div>
 
 <div class="columntxt1">
