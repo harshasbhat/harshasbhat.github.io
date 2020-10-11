@@ -12,14 +12,16 @@ published: true
 <div class="columnimg1">
 	<li class="cards_itemnews">
     <div class="cardnews">
+      <a href="{{ site.baseurl }}/tsunami-en/">
       <img src="{{site.baseurl}}/images/tsunami/composite_tsunami.jpg" width="100%"/>
-      <a href="{{ site.baseurl }}/tsunami-en/" class="card_titlenews">Supershear Tsunami</a>  
+      </a> 
+      <a href="#" class="card_titlenews">Supershear Tsunami</a>  
     </div>
     </li>
 </div>
 
 <div class="columntxt1">
-<h3 align="center"  id="four">Updates</h3>
+<h3 align="right">Updates</h3>
 
 {% for news in site.data.news.news %}
 {% if forloop.index <= 6 %}

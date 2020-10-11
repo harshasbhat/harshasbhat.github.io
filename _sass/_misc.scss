@@ -44,7 +44,7 @@
 
 /* Style the counter cards */
 .cardimg {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
   margin:10px;
@@ -114,6 +114,7 @@
   border: 0px solid $black;
 }
 
+div.pagewidth { max-width: 720px; margin: auto; }
 
 .videoWrapper {
 display: flex;

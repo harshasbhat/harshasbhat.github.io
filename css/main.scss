@@ -31,6 +31,7 @@ $harvard:   #A41034;
 $white:		#FFFFFF;
 $black:     #000;
 $harvardblue: #ddf3f5;
+$hlyellow: #ffffe6;
 
 $background:        $white;
 $dark-background:   darken($background, 5%);
@@ -43,7 +44,7 @@ $menubackground:    $black;
 $submenubackground: lighten($black,15%);
 $menulink: $white;
 $submenulink: $white;
-$hlcolor: 	#ffffe6;
+$hlcolor: lighten(#4181BD,45%);	
 $cardcolor: $black; 
 $cardname: $white;
 $carddate: $grey-light;
