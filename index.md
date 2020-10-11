@@ -40,7 +40,7 @@ published: true
 	  {% endif %}
 	  {% if news.readmore %} 
       <span id="topicbtn">
-					<a href="{{ base }}/{{news.readmore}}">READ MORE ...</a>
+					<a href="{{news.readmore}}">READ MORE ...</a>
 	  </span>
 	  {% endif %}
     </div>   
