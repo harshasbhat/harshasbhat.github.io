@@ -99,7 +99,6 @@ float: left;
 
 .container {
 	display: flex;
-	align-items: center;
 	flex-wrap: wrap ;
 	justify-content: center;
 	align-items: center;
@@ -113,7 +112,12 @@ float: left;
   align-content: space-around;
 }
 
-
+.anchor {
+    display:block;
+    padding-top:100px;
+    margin-top:-100px;
+ }
+ 
 @media (max-width: $mobile) { /*breakpoint*/
   .container {
     grid-template-columns: none;
@@ -126,4 +130,50 @@ float: left;
   align-items: center;
     align-content: center;
   }
+}
+
+
+.dropbtn {
+  background-color: $black;
+  color: white;
+  padding: 16px;
+  font-size: 125%;
+  border: none;
+  cursor: pointer;
+  float: center;
+  margin:0 auto;
+  display:block;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-content {
+  display: none;
+  font-size: 85%;
+  position: absolute;
+  background-color: $white;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  max-height:250px;/* you can change as you need it */
+  overflow:auto;/* to get scroll */
+}
+
+.dropdown-content a {
+  padding: 12px 10px;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: $white}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
 }

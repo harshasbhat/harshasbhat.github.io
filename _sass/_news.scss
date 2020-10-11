@@ -3,7 +3,7 @@
 margin: 0 0px; 
 display:flex;
 flex-direction: row; 
-align-items: flex-start;
+align-items: center;
 justify-content: center ; 
  }
 
@@ -19,6 +19,8 @@ justify-content: center ;
 .columnimg1 {
   float: center;
   width: 40%;
+  padding-top: 15px;
+  vertical-align: center;
 }
 
 
@@ -26,6 +28,7 @@ justify-content: center ;
 .cardimg1 {
 //   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding-left: 1px;
+  padding-top: 10px;
   text-align: center;
 //   padding-right:30px;
   border-radius: 0em;
