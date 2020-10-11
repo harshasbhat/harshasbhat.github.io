@@ -3,7 +3,7 @@
 margin: 0 0px; 
 display:flex;
 flex-direction: row; 
-align-items: center;
+align-items: top;
 justify-content: center ; 
  }
 
@@ -18,9 +18,41 @@ justify-content: center ;
 
 .columnimg1 {
   float: center;
-  width: 40%;
+  width: 70%;
   padding-top: 15px;
   vertical-align: center;
+}
+
+.cardnews {
+  background-color: $white;
+  border-radius: 0.0rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin:0px;
+}
+
+.cards_itemnews {
+  display: flex;
+  flex: 20%; 
+  padding: 5px;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: flex-start;
+  border: 0.0px solid lighten($black, 0.5%);
+//   background-color: $cardcolor;
+}
+
+.card_titlenews {
+  color: $black;
+  font-size: 80%;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  margin-bottom: 1.25rem;  
+  text-align:center;
+  text-transform: capitalize;
+  margin: 10px;
+  vertical-align: top;
 }
 
 
