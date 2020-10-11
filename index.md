@@ -12,7 +12,7 @@ published: true
 <div class="columnimg1">
 	<li class="cards_item">
     <div class="card">
-      <img src="{{site.baseurl}}/images/tsunami/tsunami.gif"/>
+      <img src="{{site.baseurl}}/images/tsunami/tsunamibig.png"/>
       <h6 class="card_title">Supershear Tsunami</h6>  
     </div>
     </li>
@@ -20,6 +20,8 @@ published: true
 </div>
 
 <div class="columntxt1">
+<h3 align="center"  id="four">Updates</h3>
+
 {% for news in site.data.news.news %}
 {% if forloop.index <= 6 %}
 	<div class="cardtxtnohl"> 

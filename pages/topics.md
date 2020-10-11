@@ -38,7 +38,6 @@ Listed below are my publications sorted by various research topics. You can brow
 </div>
  -->
 
-<br><br>
 
 {% for tag in sorttags %}
 <a id="{{ tag  | slugify }}" class="anchor"></a>
