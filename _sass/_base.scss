@@ -10,7 +10,6 @@ dl, dd, ol, ul, figure {
 p {
     margin: 10px 10px;
     padding: 10px 10px;
-//     padding-right: 50px;
     text-align: left;
 
 }
@@ -21,22 +20,16 @@ video {
 }
 
 h1 {
-text-decoration: none;
-padding: 5px;
-margin: 0;
-// -webkit-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-// -moz-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-// box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-    background-color: lighten(#0d667f,65%);
-    border: 0.0px solid lighten(#0d667f, 15.5%);
-    border-radius: 1em;
-    color:       #000;
-    font-size:   $base-font-size;
-    text-transform: uppercase;
-    width:25%;
-// -webkit-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
-// -moz-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
-// box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+	text-decoration: none;
+	padding: 5px;
+	margin: 0;
+	background-color: lighten(#0d667f,65%);
+	border: 0.0px solid lighten(#0d667f, 15.5%);
+	border-radius: 1em;
+	color:       #000;
+	font-size:   $base-font-size;
+	text-transform: uppercase;
+	width:25%;
 }
 
 
@@ -44,68 +37,40 @@ h2 {
 text-decoration: none;
 padding: 5px;
 margin: 10px;
-// -webkit-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-// -moz-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-// box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-    color: black;
-    border: 0.0px solid lighten(#0d667f, 15.5%);
-    border-radius: .5em;
-//     background-color: lighten(#0d667f,45%);
-    font-size:   125%;
-// -webkit-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
-// -moz-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
-// -box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+color: black;
+border: 0.0px solid lighten(#0d667f, 15.5%);
+border-radius: .5em;
+font-size:   125%;
 }
 
 h3 {
 text-decoration: none;
-padding-left: 30px;
+padding-left: 20px;
 margin: 0px;
-// -webkit-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-// -moz-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-// box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-    color: #4181BD;
-    border: 0.0px solid lighten(#0d667f, 15.5%);
-    border-radius: .5em;
-//     background-color: lighten(#0d667f,45%);
-    font-size:   115%;
-// -webkit-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
-// -moz-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
-// -box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+color: $textcolor2;
+border: 0.0px solid lighten(#0d667f, 15.5%);
+border-radius: .5em;
+font-size:   115%;
 }
 
 h4 {
 text-decoration: none;
 padding: 15px;
 margin: 20px;
-// -webkit-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-// -moz-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-// box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-    color: black;
-    border: 0.0px solid lighten(#0d667f, 15.5%);
-    border-radius: .5em;
-//     background-color: lighten(#0d667f,45%);
-    font-size:   100%;
-// -webkit-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
-// -moz-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
-// -box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
+color: black;
+border: 0.0px solid lighten(#0d667f, 15.5%);
+border-radius: .5em;
+font-size:   100%;
 }
 
 h5 {
 text-decoration: none;
 padding: 15px;
 margin: 20px;
-// -webkit-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-// -moz-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
-// box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.39);
     color: black;
     border: 0.0px solid lighten(#0d667f, 15.5%);
     border-radius: .5em;
-//     background-color: lighten(#0d667f,45%);
     font-size:   93%;
-// -webkit-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
-// -moz-box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
-// -box-shadow: 0px -6px 2px -5px rgba(177,218,224,1);
 }
 
 
@@ -122,8 +87,7 @@ body {
     line-height: $base-line-height;
     color:       $text-color;
     background-color: $background;
-//     margin: 0 $spacing-unit/2;
-    -webkit-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
     text-align: justified
 }
 
@@ -195,6 +159,7 @@ li {
 // Links
 a {
     color: $url-color;
+    font-style: normal;
     text-decoration: none;
     font-weight: $font-weight-bold;
     

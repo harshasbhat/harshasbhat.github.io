@@ -4,15 +4,15 @@
 @charset "utf-8";
 
   
-$font-weight-normal: 400;
+$font-weight-normal: 200;
 $font-weight-bold:   600;
 
-$base-font-family: "Arial";
+$base-font-family: "Roboto";
 $base-font-size:   12pt;
 $base-line-height: 1.5;
 
 $heading-font-family: $base-font-family;
-$heading-font-size:   14pt;
+$heading-font-size:   13pt;
 $heading-line-height: 1.5;
 
 $small-font-size:  0.875em;
@@ -44,7 +44,8 @@ $menubackground:    $black;
 $submenubackground: lighten($black,15%);
 $menulink: $white;
 $submenulink: $white;
-$hlcolor: lighten(#4181BD,45%);	
+$hlcolor: lighten(#4181BD,45%);
+$textcolor2: lighten(#4181BD,0%);	
 $cardcolor: $black; 
 $cardname: $white;
 $carddate: $grey-light;
