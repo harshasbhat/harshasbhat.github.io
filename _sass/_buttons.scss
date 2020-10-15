@@ -42,6 +42,22 @@ background-color:$topicbtntxt;
 text-decoration:none;
 }
 
+
+#topicshl 
+{ 
+font-size: 80%; 
+display: inline-block; 
+margin-top: 0.1em; 
+margin-right: 0.15em; 
+font-weight: $font-weight-bold; 
+border-radius: 0.7em; 
+padding: 6px 10px; 
+color:$white; 
+background-color:#4181BD; 
+text-shadow: 1px 1px $grey;
+}
+
+
 #sectionbtnlst
 { 
 font-size: 100%; 

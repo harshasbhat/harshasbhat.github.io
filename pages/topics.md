@@ -42,7 +42,11 @@ Listed below are my publications sorted by various research topics. You can brow
 
 {% for tag in sorttags %}
 <a id="{{ tag  | slugify }}" class="anchor"></a>
-<div class="topicshl">{{ tag | upcase }}</div>
+<div id="topicshl">
+{{ tag | upcase }}
+</div>
+
+
 {% for pub in site.data.pubs.publications %}
 {% assign uniqetopics = "" %}
 {% assign uniqetopics = pub.topics | split: ', ' | sort_natural | uniq %} 
@@ -63,7 +67,7 @@ Listed below are my publications sorted by various research topics. You can brow
 	</div>	
 
 		
-	<div class="lefty2">
+	<div class="lefty">
 		{{pub.author | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>
 		
 		{% if pub.type == "article" %}
@@ -103,7 +107,6 @@ Listed below are my publications sorted by various research topics. You can brow
 
 {% endif %}
 {% endfor %}
-<br>
 {% endfor %}
 
 {% include new-window-fix.html %}

@@ -7,18 +7,8 @@ title:
 {% include new-window-fix.html %}
 
 <div class="row111">
-<div class="columnimg1">
-	<li class="cards_item">
-    <div class="card">
       <img src="{{site.baseurl}}/images/harsha.jpeg" width="225px"/>  
-      <h6 class="card_title">Harsha S. Bhat</h6>  
-    </div>
-    </li>
-    
-</div>
-
-
-<div class="columntxt1">
+<div class="columntxt1" style="width: 90%;">
 <p>I am a <a href="http://www.cnrs.fr/index.html">CNRS</a> Research Scientist working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
 <a href="http://www.ens.fr">Ecole Normale Supérieure</a> since May, 2016. 
 <br /><br />
@@ -42,14 +32,3 @@ You can watch the ceremony <a href="https://www.youtube.com/watch?v=OVaenZ39o_c&
 
 </div>
 
-<style>
-.responsive {
-width: 100%; 
-height: 100%; 
-object-fit: contain; 
-padding-left: 5px;
-max-width: 15px;
-max-height: 100px;
-float: right;
-}
-</style>
