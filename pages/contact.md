@@ -10,7 +10,7 @@ Laboratoire de Géologie<br>
 24 rue Lhomond<br>
 75005 Paris, France
 <br><br>
-<img src="{{site.baseurl}}/images/email.png" width="20%"/>
+<img src="{{site.baseurl}}/images/email.png" width="15%"/>
 
 
 [Directions to my office (Room E203) at Laboratoire de Géologie] [directions] 
