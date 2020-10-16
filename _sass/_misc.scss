@@ -114,7 +114,11 @@
   border: 0px solid $black;
 }
 
-div.pagewidth { max-width: 720px; margin: auto; }
+div.pagewidth 
+{ 
+max-width: 800px; 
+margin: auto; 
+}
 
 .videoWrapper {
 display: flex;

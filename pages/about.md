@@ -5,11 +5,11 @@ title:
 ---
 
 {% include new-window-fix.html %}
-
+<div class="pagewidth">
 <div class="row111">
       <img src="{{site.baseurl}}/images/harsha.jpeg" width="225px"/>  
-<div class="columntxt1" style="width: 90%;">
-<p>I am a <a href="http://www.cnrs.fr/index.html">CNRS</a> Research Scientist working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
+<div class="columntxt1" style="width: 100%; text-align:justified;">
+<p style="width: 100%; text-align:center;">I am a <a href="http://www.cnrs.fr/index.html">CNRS</a> Research Scientist working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
 <a href="http://www.ens.fr">Ecole Normale Supérieure</a> since May, 2016. 
 <br /><br />
 I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology. 
@@ -31,4 +31,4 @@ You can watch the ceremony <a href="https://www.youtube.com/watch?v=OVaenZ39o_c&
 </div>  
 
 </div>
-
+</div>

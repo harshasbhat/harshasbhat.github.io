@@ -3,14 +3,15 @@ layout: page
 permalink: /topics/
 title: 
 ---
-
-**This page is being updated...**
+<div class="pagewidthpub">
+<br><br>
+This page is being updated...
 <br><br>
 
 
 
-Listed below are my publications sorted by various research topics. You can browse my full list of publications [here][pubs].
-<br><br>
+Listed below are my publications sorted by various research topics.<br><br> 
+
 
 {% include collecttags.html %}
 {% include lazyload.html %}
@@ -26,26 +27,14 @@ Listed below are my publications sorted by various research topics. You can brow
   </div>
 </div>
 
-
-<!-- 
-<div class="container">
-	{% for tag in sorttags %}
-		<div class="section">
-			<div id="topicbtnlst">
-			   <a href="#{{ tag  | slugify }}"> {{ tag | upcase }} </a>
-			</div>
-		</div>
-	{% endfor %}
-</div>
- -->
-
+<br><br>
 
 {% for tag in sorttags %}
 <a id="{{ tag  | slugify }}" class="anchor"></a>
 <div id="topicshl">
 {{ tag | upcase }}
 </div>
-
+<br><br>
 
 {% for pub in site.data.pubs.publications %}
 {% assign uniqetopics = "" %}
@@ -60,21 +49,18 @@ Listed below are my publications sorted by various research topics. You can brow
 
     <div class="lefty">
 		{% if pub.pdf %}
-			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
+			<a display:inline href="{{ base }}/files/{{pub.pdf}}" style="text-transform:capitalize;">{{pub.title}}</a>
 		{% else %} 
 			{{pub.title}}
 		{% endif %}
-	</div>	
-
-		
-	<div class="lefty">
-		{{pub.author | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>
+		<br>
+		{{pub.author}}<br>
 		
 		{% if pub.type == "article" %}
 			<span ><em>{{pub.journal}}</em><br></span>
 		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
-			in <span >{{pub.booktitle}}</span>
-			eds. {{pub.editor | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}
+			in <span ><em>{{pub.booktitle}}</em><br></span>
+			eds. {{pub.editor}}<br>
 		{% endif %}
 		
 		{% if pub.doi %}
@@ -85,18 +71,17 @@ Listed below are my publications sorted by various research topics. You can brow
 			<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf">arXiv:{{pub.arxiv}}[physics.geo-ph]</a>
 		{% endif %}
 		
-		({{pub.year}})
-    </div>
+		({{pub.year}})<br>
     
 		{% if pub.topics %}
-			<div class="lefty2">
+				<br>
 				{% for topic in uniqetopics %}
 					<span id="topicbtn">
 						<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a>
 					</span>
 				{% endfor %}
-			</div>
 		{% endif %}
+    </div>
 	
 	<div class="righty">
 		{% for image in imgs1 %}
@@ -108,6 +93,8 @@ Listed below are my publications sorted by various research topics. You can brow
 {% endif %}
 {% endfor %}
 {% endfor %}
+
+</div>
 
 {% include new-window-fix.html %}
 

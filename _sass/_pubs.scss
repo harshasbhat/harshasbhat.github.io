@@ -1,26 +1,30 @@
+	div.pagewidthpub 
+	{ 
+	max-width: 900px; 
+	margin: auto; 
+	}
+
    .lefty {
         float: left;
-        width: 75%;
+        width: 70%;
         text-align: left;
         vertical-align: top;
-        padding-right: 15px;
-        padding-bottom:5px;
-        padding-top:0px;
-        padding-left:5px;
+        padding:10px;
         border: 0px solid lighten($harvard, 0.5%);
         font-size: 95%;
-//         background-color: $hlcolor;
+        background-color: $hlcolor;
+        border-radius: 10px;
         
     }
    .lefty2 {
         float: left;
-        width: 70%;
+        width: 65%;
         text-align: left;
         vertical-align: top;
         padding-right: 15px;
         padding-bottom:0px;
         padding-top:0px;
-        padding-left:25px;
+        padding-left:5px;
         border: 0px solid lighten($harvard, 0.5%);
         font-size: 95%;
         
@@ -28,11 +32,12 @@
     .righty {
         float: top;
         display: inline-block;
-        width: 20%;
-        padding-left: 15px;
+        width: 25%;
+        padding-left: 0px;
         padding-top: 0px;
         vertical-align: center;
         text-align: left;  
+        vertical-align: middle;
            
     }
     .fully {
@@ -52,20 +57,21 @@
         padding-top:5px;
         padding-left:5px;
         padding-right:20px;
-        border-bottom: 0.0px solid lighten($black, 0.5%);
+        border: 0.0px solid lighten($black, 0.5%);
     }
 
     .group:after {
         content:"";
         display: table;
         clear: both;
+        vertical-align: middle;
     }
     
     .group {
         padding-bottom:20px;
 		border-radius: 0.0em;
-  		border-bottom: 0.01px solid $line-color;
-  		margin:10px;
+  		border: 0.0px solid $line-color;
+  		margin:0px;
 }
 
 .topicshl {
@@ -75,7 +81,7 @@
 		margin-bottom:10px;
 		margin-top:10px;
 		border-radius: 0.1em;
-		font-size: 125%;	
+		font-size: 125%;		
 		font-weight:600;
 		color: $harvard;
 }
@@ -84,8 +90,9 @@
 width: 100%; 
 object-fit: contain; 
 max-width: $pubimgwidth;
-max-height: 150px;
-float: left;
+max-height: 120px;
+float: right;
+text-align:center;
 }
 
 @media screen and (max-width: $mobile) {

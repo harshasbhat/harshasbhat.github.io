@@ -47,7 +47,7 @@ published: true
 	  {% endif %}
     </div>   
 {% endif %}     
-{% endfor %}  
+{% endfor %} 
 </div>  
 </div>
 
