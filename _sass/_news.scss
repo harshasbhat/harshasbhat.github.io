@@ -124,13 +124,18 @@ div.columntxt1>div:nth-of-type(even) {
 
 /* Responsive columns */
 @media screen and (max-width: $mobile) {
-  .columnimg1, .columntxt1 {
+   .columntxt1 {
     width: 100%;
     margin-bottom: 20px;
     margin-left: -10px;
     padding-right: 0px;
   }
-  
+.columnimg1 {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding-right: 0px;
+  }  
   .row112 {  flex-direction: column;
 }
 }
