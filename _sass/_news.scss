@@ -53,6 +53,7 @@ justify-content: center ;
   text-transform: capitalize;
   margin: 10px;
   vertical-align: top;
+  
 }
 
 
@@ -69,7 +70,7 @@ justify-content: center ;
 .columntxt1 {
   float: right;
   width: 60%;
-  padding-left: 10px;
+  padding-left: 0px;
   padding-top: 0px;
   border-left: solid 0px $black;
   background-color: $white;
@@ -113,12 +114,12 @@ justify-content: center ;
   margin-bottom:0px;
   border-radius: 0em;
   border: 0.0px solid lighten($black, 0.5%);
-  border-bottom: 0.0px solid lighten($black, 0.5%);
   font-size: 90%;
 }
 
 div.columntxt1>div:nth-of-type(even) {
   background: #fff;
+  border: 0.0px solid lighten($black, 0.5%);
 }
 
 /* Responsive columns */
@@ -126,7 +127,7 @@ div.columntxt1>div:nth-of-type(even) {
   .columnimg1, .columntxt1 {
     width: 100%;
     margin-bottom: 20px;
-    padding-left: 0px;
+    margin-left: -10px;
     padding-right: 0px;
   }
   

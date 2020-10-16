@@ -129,7 +129,7 @@ width: 100%;
 height: 100%; 
 object-fit: contain; 
 padding-left: 5px;
-max-width: 15px;
+max-width: 20px;
 max-height: 100px;
 float: right;
 }

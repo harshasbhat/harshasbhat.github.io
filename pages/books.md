@@ -4,23 +4,23 @@ permalink: /books/
 title: 
 ---
 
+<br>
 {% include collecttags.html %}
 
 {% for pub in site.data.books.publications %}
+<div class="pagewidthpub">
 <div class="group">
 
 {% if pub.img %}
 
     <div class="lefty">
 		{% if pub.pdf %}
-			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
+			<a display:inline href="{{ base }}/files/{{pub.pdf}}" style="text-transform:capitalize;">{{pub.title}}</a>
 		{% else %} 
 			{{pub.title}} 
 		{% endif %}
-	</div>	
-
-	<div class="lefty2">	
-		edited by {{pub.editor | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>
+		<br>
+		edited by {{pub.editor}}<br>
 		
 		{% if pub.doi %}
 			{{pub.publisher}}<br>
@@ -58,9 +58,6 @@ title:
 	
 {% endfor %}
 
+</div>
 {% include new-window-fix.html %}
 
-
-[LG]: http://www.geologie.ens.fr
-[ENS]: http://www.ens.fr
-[topics]: /topics/

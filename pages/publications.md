@@ -3,7 +3,7 @@ layout: page
 permalink: /articles/
 title: 
 ---
-
+<br>
 {% include collecttags.html %}
 {% include lazyload.html %}
 
@@ -25,26 +25,25 @@ title:
 
 {% assign auth = pub.author %}
 
+<div class="pagewidthpub">
 <div class="group">
 {% if pub.img %}
     <div class="lefty">
  		
 		{% if pub.pdf %}
-			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
+			<a display:inline href="{{ base }}/files/{{pub.pdf}}" style="text-transform:capitalize;">{{pub.title}}</a>
 		{% else %} 
 			{{pub.title}}
 		{% endif %}
-	</div>	
+		<br>
 
-		
-	<div class="lefty2">
-		{{pub.author | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>
+		{{pub.author}}<br>
 		
 		{% if pub.type == "article" %}
 			<span ><em>{{pub.journal}}</em><br></span>
 		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
-			in <span >{{pub.booktitle}}</span>
-			eds. {{pub.editor | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}
+			in <span ><em>{{pub.booktitle}}</em><br></span>
+			eds. {{pub.editor}}
 		{% endif %}
 		
 		{% if pub.doi %}
@@ -55,20 +54,19 @@ title:
 			<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf">arXiv:{{pub.arxiv}}[physics.geo-ph]</a>
 		{% endif %}
 		
-		({{pub.year}})
+		({{pub.year}}) <br>
+
+		{% if pub.topics %}
+				<br>
+				{% for topic in uniqetopics %}
+					<span id="topicbtn">
+						<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a>
+					</span>
+				{% endfor %}
+		{% endif %}
+
     </div>
-    
-	
-    {% if pub.topics %}
-		<div class="lefty2">
-			{% for topic in uniqetopics %}
-				<span id="topicbtn">
-					<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a>
-				</span>
-			{% endfor %}
-		</div>
-	{% endif %}
-	
+    	
 	<div class="righty">
     	{% for image in imgs %}
 			<img src="{{site.baseurl}}/images/pubimages/blank.png" data-echo="{{site.baseurl}}/images/pubimages/{{image}}" class="responsivepubimg">
@@ -79,7 +77,6 @@ title:
 {% else %}
 
     <div class="fully2">
-    <br>
 		{% if pub.pdf %}
 			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
 		{% else %} 
@@ -105,25 +102,22 @@ title:
 		
 		({{pub.year}})<br>
 
-    {% if pub.topics %}
-			{% for topic in uniqetopics %}
-				<span id="topicbtn">
-					<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a>
-				</span>
-			{% endfor %}
-	{% endif %}
+		{% if pub.topics %}
+				{% for topic in uniqetopics %}
+					<span id="topicbtn">
+						<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a>
+					</span>
+				{% endfor %}
+		{% endif %}
 	
 	</div>
 
 {% endif %}
-	
-	
-	
 </div>  
 {% assign j = j | minus:1 %}
 {% endfor %}
 
 
-
+</div>
 
 {% include new-window-fix.html %}

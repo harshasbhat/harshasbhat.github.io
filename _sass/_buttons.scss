@@ -1,6 +1,6 @@
 #topicbtn a
 { 
-font-size: 60%; 
+font-size: 70%; 
 display: inline-block; 
 margin-top: 0.1em; 
 margin-right: 0.75em; 
@@ -10,6 +10,7 @@ padding: 3px 6px;
 float:center; 
 color:$topicbtntxt; 
 background-color:$topicbtn; 
+border: 1px solid lighten($harvardblue, 0.0%);
 }
 
 

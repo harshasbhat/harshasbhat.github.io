@@ -104,7 +104,7 @@ publications:
       school:	
       arxiv: 	
       topics: "dynamics, damage, radiation, energy budget, numerical models, FDEM"	
-      img: "okubo2.png, okubo3.png"	
+      img: "okubo2.png"	
     - title:     "Origin of high-frequency radiation during laboratory earthquakes"
       author:    S. Marty, F. X. Passelègue, J. Aubry, A. Schubnel, H. S. Bhat & R. Madariaga
       year:    2019
