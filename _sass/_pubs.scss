@@ -5,10 +5,10 @@
 	}
 
    .lefty {
-        float: left;
         width: 70%;
+        display: inline-block;
         text-align: left;
-        vertical-align: top;
+        vertical-align: middle;
         padding:10px;
         border: 0px solid lighten($harvard, 0.5%);
         font-size: 95%;
@@ -20,7 +20,7 @@
         float: left;
         width: 65%;
         text-align: left;
-        vertical-align: top;
+        vertical-align: middle;
         padding-right: 15px;
         padding-bottom:0px;
         padding-top:0px;
@@ -30,16 +30,15 @@
         
     }
     .righty {
-        float: top;
         display: inline-block;
         width: 25%;
         padding-left: 0px;
         padding-top: 0px;
-        vertical-align: center;
-        text-align: left;  
+        text-align: center;  
         vertical-align: middle;
-           
+        border: 0.0px solid lighten($harvard, 0.5%);           
     }
+    
     .fully {
         float: left;
         width: 100%;
@@ -70,6 +69,7 @@
     .group {
         padding-bottom:20px;
 		border-radius: 0.0em;
+        vertical-align: middle;
   		border: 0.0px solid $line-color;
   		margin:0px;
 }
@@ -91,8 +91,10 @@ width: 100%;
 object-fit: contain; 
 max-width: $pubimgwidth;
 max-height: 120px;
-float: right;
-text-align:center;
+align:center;
+vertical-align: middle;
+// box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+
 }
 
 @media screen and (max-width: $mobile) {

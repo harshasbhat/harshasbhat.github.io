@@ -12,10 +12,10 @@ published: true
 <div class="columnimg1">
 	<li class="cards_itemnews">
     <div class="cardnews">
-      <a href="{{ site.baseurl }}/tsunami-en/">
+      <a href="#">
       <img src="{{site.baseurl}}/images/tsunami/composite_tsunami.jpg" width="100%"/>
       </a> 
-      <a href="{{ site.baseurl }}/tsunami-en/" class="card_titlenews">Supershear Tsunami</a>  
+      <a href="#" class="card_titlenews">Supershear Tsunami</a>  
     </div>
     </li>
 </div>
@@ -50,6 +50,7 @@ published: true
 {% endfor %} 
 </div>  
 </div>
+
 
 {% include new-window-fix.html %}
 

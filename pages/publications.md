@@ -69,8 +69,7 @@ title:
     	
 	<div class="righty">
     	{% for image in imgs %}
-			<img src="{{site.baseurl}}/images/pubimages/blank.png" data-echo="{{site.baseurl}}/images/pubimages/{{image}}" class="responsivepubimg">
-    	{% endfor %}
+<img src="{{site.baseurl}}/images/pubimages/blank.png" data-echo="{{site.baseurl}}/images/pubimages/{{image}}" class="responsivepubimg">    	{% endfor %}
 	</div>
 
 	
