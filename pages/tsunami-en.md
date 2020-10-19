@@ -183,7 +183,9 @@ $^1$ <a href="https://doi.org/10.1007/s00024-019-02290-5">Ulrich et al. (2019) C
 $^2$ <a href="https://www.nytimes.com/2018/09/28/world/asia/tsunami-palu-indonesia-earthquake.html">NYTimes: Tsunami and Earthquake in Indonesia Kill Nearly 400, Officials Say</a>
 </div>
 
+{% include new-window-fix.html %}
 </div>
+
 <script type="text/javascript">
   var v1 = document.getElementById("SR"); 
   v1.playbackRate = 0.15; 
@@ -198,11 +200,5 @@ $^2$ <a href="https://www.nytimes.com/2018/09/28/world/asia/tsunami-palu-indones
   height: auto;
 }
 </style>
-{% include new-window-fix.html %}
-[hdr]: files/Bhat2021a.pdf
-[aftershocks]: files/JaraBruhatAntoine2020a.pdf
-[tsunami]: files/AmlaniBhatSimons2020a.pdf
-[erosion]: files/Jeandet-RibesCubasBhat2020a.pdf
-
 
 

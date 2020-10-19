@@ -6,10 +6,10 @@ title:
 
 {% include new-window-fix.html %}
 <div class="pagewidth">
-<div class="row111">
-      <img src="{{site.baseurl}}/images/harsha.jpeg" width="225px"/>  
-<div class="columntxt1" style="width: 100%; text-align:justified;">
-<p style="width: 90%; text-align:left;">I am a <a href="http://www.cnrs.fr/index.html">CNRS</a> Research Scientist working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
+<div class="columntxt1" style="width: 100%; text-align:center;">
+<br>
+<img src="{{site.baseurl}}/images/harsha.jpeg" width="225px"/> 
+<p style="text-align:left;">I am a <a href="http://www.cnrs.fr/index.html">CNRS</a> Research Scientist working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
 <a href="http://www.ens.fr">Ecole Normale Supérieure</a> since May, 2016. 
 <br /><br />
 I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology. 
@@ -27,11 +27,10 @@ I joined <a href="http://www.cnrs.fr/index.html">CNRS</a> in Jan. 2012 as a Grad
 the <a href="http://www.academie-sciences.fr/fr/Laureats/laureat-2018-du-prix-michel-gouilloud-schlumberger-harsha-suresh-bhat.html">Prix Michel Gouilloud Schlumberger</a> from the <a href="http://www.academie-sciences.fr/fr/">Academié des Sciences</a>. 
 You can watch the ceremony <a href="https://www.youtube.com/watch?v=OVaenZ39o_c&amp;t=2s&amp;frags=pl%2Cwn">here.</a> I was recently awarded an 
 <a href="https://cordis.europa.eu/project/id/865411">European Research Council Consolidator Grant</a> for the amount of 2.0M€.</p>
-
-<img src="{{site.baseurl}}/images/combinedlogo.png" height="75px"><br><br>
+<br>
+<img src="{{site.baseurl}}/images/combinedlogo.png" height="75px">
 </div>  
 
-</div>
 
 
 </div>

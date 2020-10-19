@@ -4,10 +4,9 @@ permalink: /website/
 title: 
 ---
 
-{% include new-window-fix.html %}
 
 > This website was built using a static website generator called Jekyll and is hosted on Github. 
-I forked the website of [Gaurav Chaurasia's][gc] and tinkered with CSS and basic content.
+I forked the website of [Gaurav Chaurasia][gc] and tinkered with CSS and basic content.
 <br><br>
 First open an account on Github and set up a website for yourself. Follow the instructions [here.][GHpages]
 <br><br>
@@ -23,7 +22,12 @@ One big feature is the automatic collection and listing of research topics per p
 If you look at '_data/pubs.yml' you will see that each publication has a topics item. 
 First I collect these topics per paper and display them before each article. All this is accomplished using Liquid in
 '_includes/collecttags.html'. I then make an array of unique topics (as multiple articles can share topics) and 
-use it to generate the research [topics] page.
+use it to generate the research [topics] page. 
+
+> Last updated on {{ site.time | date: '%B %-d, %Y' }}
+
+{% include new-window-fix.html %}
+
 
 
 [gc]: https://gchauras.github.io
