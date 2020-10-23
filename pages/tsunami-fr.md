@@ -33,7 +33,7 @@ Data Availability: <a href="https://doi.org/10.5281/zenodo.4066297"><img src="ht
 </div>
 </div>
 
-<h3 align="left">Abstract</h3>
+<h3 align="left">Résumé</h3>
 <p><b>On sait que les tsunamis dangereux sont principalement générés dans les zones de subduction par de grands séismes sur des failles de glissement (verticales).
 Cependant, un tremblement de terre d'une magnitude, $M_w$, 7,5 sur une faille de glissement (latérale) à Sulawesi (Indonésie) en 2018 a provoqué un tsunami qui a dévasté la ville de Palu.
 Le mécanisme par lequel ce grand tsunami a pris naissance à la suite d'un tremblement de terre de type "strike-slip" a été débattu.
@@ -93,14 +93,10 @@ Cela suggère que la vitesse de rupture devrait être prise en compte dans l'év
 
 <hr>
 <h3 align="left" id="two">2. Supershear Séismes</h3>
-<div class="row111">
-    <div class="cardimg" style = "max-width:500px">
-      <video id="SS" muted autoplay controls autoplay="autoplay">
-		<source src="{{site.baseurl}}/images/videos/tsunami/SS.mp4" type="video/mp4" preload = "auto">
-	  </video>
-      <h6>Supershear Earthquake</h6>
-    </div>    
-</div>
+
+<div class="videoWrapper">
+  <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/hMHSsEobbz0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>    
     
 
 
@@ -145,25 +141,19 @@ Cela suggère que la vitesse de rupture devrait être prise en compte dans l'év
 <hr>
 <h3 align="left"  id="four">4. Génération Classique de Tsunamis</h3>
 
-<div class="row111">
-<div class="columntxt">
-    <div class="cardimg">
-	<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/4Xebwzb3dDE?start=12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <h6>Classical Tsunami Generation. Courtesy: Caltech Tectonics Observatory</h6>
-    </div>    
+<div class="videoWrapper">
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/4Xebwzb3dDE?start=12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>    
+<h6>Classical Tsunami Generation. Courtesy: Caltech Tectonics Observatory</h6>
 
-<div class="columntxt">
+<div class="row111">
     <div class="cardtxt"> 
       Les tsunamis classiques sont générés par le grand déplacement vertical du fond marin autour de la faille. 
       Les tremblements de terre de la zone de subduction sont des sources typiques de ces tsunamis. Les tremblements 
       de terre de type "Strike-Slip", en revanche, ne déplacent pas autant le fond de l'océan.
     </div>    
-<h4 align="right">Sauf quand il s'agit de tremblements de terre de type "Supershear".</h4>    
-
 </div>
-
-</div>    
+<h4 align="right">Sauf quand il s'agit de tremblements de terre de type "Supershear".</h4>    
 
 <hr>
 <h3 align="left"  id="five">5. Génération de Tsunamis Par Des Séismes de Type "Supershear"</h3>
