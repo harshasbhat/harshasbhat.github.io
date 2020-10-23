@@ -6,7 +6,7 @@ title:
 
 {% include new-window-fix.html %}
 
-
+<div class="pagewidth">
 <div class="cardtxthl2" text-align="center">Post Doctoral Researchers</div>
 <ul class="cards">
 {% for mem in site.data.team.postdoc %}
@@ -121,7 +121,7 @@ title:
 {% endfor %}  
 </ul>
 {% endif %}
-
+</div>
 
 <style>
 .responsive {
