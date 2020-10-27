@@ -12,10 +12,10 @@ published: true
 <div class="columnimg1">
 	<li class="cards_itemnews">
     <div class="cardnews">
-      <a href="#">
+      <a href="{{site.baseurl}}/tsunami-en/">
       <img src="{{site.baseurl}}/images/tsunami/composite_tsunami.jpg" width="100%"/>
       </a> 
-      <a href="#" class="card_titlenews">Supershear Tsunami</a>  
+      <a href="{{site.baseurl}}/tsunami-en/" class="card_titlenews">Supershear Tsunami</a>  
     </div>
     </li>
 </div>
