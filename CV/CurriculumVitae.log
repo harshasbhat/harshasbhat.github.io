@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.19)  5 OCT 2020 14:15
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.19)  27 OCT 2020 15:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1426,25 +1426,36 @@ LaTeX Info: Redefining \nameref on input line 23.
 \openout7 = `CurriculumVitae.out'.
 
 
-Package fontspec Info: Font family 'HelveticaNeue(0)' created for font
-(fontspec)             'Helvetica Neue' with options
-(fontspec)             [Ligatures=TeX,Mapping=tex-text].
+Package fontspec Info: Font family 'RobotoLight(0)' created for font 'Roboto
+(fontspec)             Light' with options [Ligatures=TeX,Mapping=tex-text].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Helvetica
-(fontspec)             Neue/AAT:mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->"Helvetica
-(fontspec)             Neue/B/AAT:mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Helvetica
-(fontspec)             Neue/I/AAT:mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.: <->"Helvetica
-(fontspec)             Neue/BI/AAT:mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Roboto
+(fontspec)             Light/OT:script=latn;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Roboto
+(fontspec)             Light/OT:script=latn;language=DFLT;+smcp;mapping=tex-tex
+t;"
+(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->"Roboto
+(fontspec)             Light/B/OT:script=latn;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.:
+(fontspec)             <->"Roboto
+(fontspec)             Light/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Roboto
+(fontspec)             Light/I/OT:script=latn;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.:
+(fontspec)             <->"Roboto
+(fontspec)             Light/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-t
+ext;"
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.: <->"Roboto
+(fontspec)             Light/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
+
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+(fontspec)             <->"Roboto
+(fontspec)             Light/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-
+text;"
 
 LaTeX Info: Redefining \rmfamily on input line 29.
 
@@ -1520,10 +1531,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--105
 
  []
 
-LaTeX Font Info:    Font shape `TU/HelveticaNeue(0)/m/sl' in size <10> not avai
-lable
-(Font)              Font shape `TU/HelveticaNeue(0)/m/it' tried instead on inpu
-t line 105.
+LaTeX Font Info:    Font shape `TU/RobotoLight(0)/m/sl' in size <10> not availa
+ble
+(Font)              Font shape `TU/RobotoLight(0)/m/it' tried instead on input 
+line 105.
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
 Make it at least 3.60004pt.
@@ -1580,6 +1591,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--220
  []
 
 
+Overfull \hbox (24.23587pt too wide) in paragraph at lines 220--220
+[]\TU/RobotoLight(0)/m/n/10 Étude Expérimentale de la Rupture Sismique, \TU/Rob
+otoLight(0)/m/it/10 École Normale Supérieure de Paris,  Main
+ []
+
+
+Overfull \hbox (12.45914pt too wide) in paragraph at lines 220--220
+[]\TU/RobotoLight(0)/m/n/10 Source mechanics of near-field s-wave generation fr
+om explosive sources,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 220--220
 
  []
@@ -1594,11 +1622,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--220
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
-
- []
-
 Package biblatex Info: Reference segment=2 on input line 233.
 Package biblatex Info: Setting label 'refsegment:02' on input line 233.
 
@@ -1607,10 +1630,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--236
  []
 
 [4] [5]
-Overfull \hbox (3.90175pt too wide) in paragraph at lines 236--236
-[][]\TU/HelveticaNeue(0)/m/n/10 Bhat, H. S., R. Dmowska, J. R. Rice, and N. Kam
-e (2004). “[]\TU/HelveticaNeue(0)/m/it/10 Dynamic slip transfer from the Denali
- to Totschunda
+Overfull \hbox (4.29263pt too wide) in paragraph at lines 236--236
+[][]\TU/RobotoLight(0)/m/n/10 Dunham, E. M. and H. S. Bhat (2008). “[]\TU/Robot
+oLight(0)/m/it/10 Attenuation of radiated ground motion and stresses from three
+-dimensional
  []
 
 Package biblatex Info: Reference segment=0 on input line 237.
@@ -1630,11 +1653,11 @@ Package logreq Info: Writing requests to 'CurriculumVitae.run.xml'.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 43135 strings out of 492916
- 851702 string characters out of 6133345
+ 43146 strings out of 492916
+ 852403 string characters out of 6133345
  1338236 words of memory out of 5000000
- 46658 multiletter control sequences out of 15000+600000
- 534894 words of font info for 57 fonts, out of 8000000 for 9000
+ 46667 multiletter control sequences out of 15000+600000
+ 534902 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,11n,92p,1040b,5065s stack positions out of 5000i,500n,10000p,200000b,80000s
 
