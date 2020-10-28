@@ -1,3 +1,10 @@
+- title: "Supershear Tsunami"
+  href: "/tsunami-en/"
+  subcategories:
+    - subtitle: "English"
+      subhref: "/tsunami-en/"
+    - subtitle: "Français"
+      subhref: "/tsunami-fr/"
 - title: "Publications"
   href: "/articles/"
   subcategories:

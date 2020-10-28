@@ -3,7 +3,7 @@
 margin: 0 0px; 
 display:flex;
 flex-direction: row; 
-align-items: top;
+align-items: center;
 justify-content: center ; 
  }
 
@@ -19,8 +19,35 @@ justify-content: center ;
 .columnimg1 {
   float: center;
   width: 70%;
-  padding-top: 15px;
+//   padding-top: 15px;
   vertical-align: center;
+}
+
+.newsheading{
+text-decoration: none;
+margin-top: 20px;
+color: $textcolor2;
+font-size:   115%;
+text-align: center;
+font-weight: bold;
+}
+
+.newsheading a {
+color: $textcolor2;
+}
+
+.newsheading a:hover{
+color: $black;
+}
+
+.columntxt1 {
+  float: right;
+  width: 50%;
+  margin-left: 10px;
+  padding-top: 0px;
+  border-left: solid 0px $black;
+  background-color: $white;
+//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .cardnews {
@@ -30,6 +57,9 @@ justify-content: center ;
   flex-direction: column;
   overflow: hidden;
   margin:0px;
+  webkit-box-shadow: 12px 9px 8px -7px rgba(189,189,189,0.64);
+-moz-box-shadow: 12px 9px 8px -7px rgba(189,189,189,0.64);
+box-shadow: 12px 9px 8px -7px rgba(189,189,189,0.64);
 }
 
 .cards_itemnews {
@@ -67,15 +97,6 @@ justify-content: center ;
   border-radius: 0em;
 }
 
-.columntxt1 {
-  float: right;
-  width: 60%;
-  padding-left: 0px;
-  padding-top: 0px;
-  border-left: solid 0px $black;
-  background-color: $white;
-//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
 
 .cardtxthl3{
 //   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -115,6 +136,9 @@ justify-content: center ;
   border-radius: 0em;
   border: 0.0px solid lighten($black, 0.5%);
   font-size: 90%;
+-webkit-box-shadow: 0px 2px 5px 3px rgba(194,194,194,1);
+-moz-box-shadow: 0px 2px 5px 3px rgba(194,194,194,1);
+box-shadow: 0px 2px 5px 3px rgba(194,194,194,1);
 }
 
 div.columntxt1>div:nth-of-type(even) {
