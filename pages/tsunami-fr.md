@@ -176,7 +176,7 @@ Cela suggère que la vitesse de rupture devrait être prise en compte dans l'év
 
 <hr>
 <div class="columntxtauthors">
-$^*$ <a href="https://harshasbhat.github.io/files/AmlaniBhatSimons2020a.pdf"> F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin, accepted in principle Nature Geoscience, arXiv:1910.14547[physics.geo-ph] (2020)</a> <br><br>
+$^*$ <a href="https://harshasbhat.github.io/files/AmlaniBhatSimons2020a.pdf"> F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin, accepted in principle Nature Geoscience, arXiv:1910.14547v3[physics.geo-ph] (2020)</a> <br><br>
 $^1$ <a href="https://doi.org/10.1007/s00024-019-02290-5">Ulrich et al. (2019) Coupled, Physics-Based Modeling Reveals Earthquake Displacements are Critical to the 2018 Palu, Sulawesi Tsunami, Pure Appl. Geophys. </a><br><br>
 $^2$ <a href="https://www.nytimes.com/2018/09/28/world/asia/tsunami-palu-indonesia-earthquake.html">NYTimes: Tsunami and Earthquake in Indonesia Kill Nearly 400, Officials Say</a>
 </div>
