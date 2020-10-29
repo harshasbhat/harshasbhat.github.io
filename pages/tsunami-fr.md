@@ -34,17 +34,34 @@ Data Availability: <a href="https://doi.org/10.5281/zenodo.4066297"><img src="ht
 </div>
 
 <h3 align="left">Résumé</h3>
-<p><b>On sait que les tsunamis dangereux sont principalement générés dans les zones de subduction par de grands séismes sur des failles de glissement (verticales).
-Cependant, un tremblement de terre d'une magnitude, $M_w$, 7,5 sur une faille de glissement (latérale) à Sulawesi (Indonésie) en 2018 a provoqué un tsunami qui a dévasté la ville de Palu.
-Le mécanisme par lequel ce grand tsunami a pris naissance à la suite d'un tremblement de terre de type "strike-slip" a été débattu.
-
-Nous présentons ici des données sur les mouvements du sol en champ proche provenant d'une station GPS qui confirment que le tremblement de terre de Palu de 2018 a atteint une vitesse de cisaillement supérieure, c'est-à-dire une vitesse de rupture supérieure 
-que la vitesse des ondes de cisaillement dans le milieu hôte. Nous étudions l'effet de cette rupture de cisaillement sur la génération de tsunamis en couplant le mouvement du sol à une onde de cisaillement non linéaire 1D 
-modèle de vagues en eaux peu profondes qui tient compte à la fois du déplacement bathymétrique et de la vitesse en fonction du temps. Avec le profil bathymétrique local de la baie de Palu autour d'un marégraphe, 
-nous constatons que ces simulations reproduisent les mouvements du tsunami mesurés par la jauge, avec seulement un réglage minimal des paramètres. 
-
-Nous concluons que les fronts de Mach (choc), générés par la vitesse de cisaillement du tremblement de terre, ont interagi avec la bathymétrie et ont contribué au tsunami. 
-Cela suggère que la vitesse de rupture devrait être prise en compte dans l'évaluation du risque de tsunami.</b></p>
+<p><b>On sait que en principe, les tsunamis dangereux sont principalement
+générés dans les zones de subduction par de grands séismes qui
+produisent un déplacement vertical du plancher océanique. Cependant, un
+tremblement de terre d'une magnitude, $M_w$ 7,5 qui s’est produit à
+Sulawesi (Indonésie) en 2018 sur une faille de glissement latéral a
+provoqué un tsunami qui a dévasté la ville de Palu. Le mécanisme par
+lequel ce grand tsunami a pris naissance à la suite d'un tremblement de
+terre de type "strike-slip" a été débattu. Nous présentons ici des
+données sur les mouvements du sol en champ proche provenant d'une
+station GPS qui confirment que la rupture associée au tremblement de
+terre de Palu de 2018 s’est propagée à une vitesse supérieure à la
+vitesse des ondes de cisaillement dans le milieu hôte. Ce phénomène,
+rare, est qualifié de rupture « supershear ». Nous étudions l'effet de
+cette rupture particulièrement rapidesur la génération de tsunamis en
+couplant le mouvement du sol à une onde de cisaillement non linéaire 
+qui tient compte de cet effet supershear et de la bathymétrie de la baie
+de Palu (modèle simple 1-D en eau peu profonde).Nous constatons que ces
+simulations reproduisent les mouvements du tsunami mesurés par le
+marégraphe situé au port de Palu (Pantoloan), avec seulement un réglage
+minimal des paramètres. Nous concluons que les fronts de Mach (chocs),
+générés par la vitesse de la rupture, ont interagi avec la bathymétrie
+et ont contribué au tsunami. Ces observations valident un nouveau
+mécanisme de génération de Tsunami destructeur, qui peut donc se
+produire non seulement dans les environs d’une zone de subduction mais
+également à proximité d’une faille décrochante, pour peu que la rupture
+soit excessivement rapide. Cela suggère que la vitesse de rupture des
+séismes, et non seulement leur mécanisme, devrait être prise en compte
+dans l'évaluation du risque de tsunami.</b></p>
 
 <hr>
 <div class="containermisc">
@@ -83,9 +100,17 @@ Cela suggère que la vitesse de rupture devrait être prise en compte dans l'év
 
 
     <div class="cardtxt"> 
-      Le séisme de magnitude $M_w$, 7,5 Palu Sulawesi, a frappé le 28 septembre 2018, causant des destructions et des pertes de vies humaines étendues^2$ sur une faille de glissement (latérale) à Sulawesi (Indonésie). Ce tremblement de terre a également généré un tsunami 
-      qui a dévasté la ville de Palu. Comme les séismes de glissement n'impliquent pas de grands mouvements verticaux (par rapport à celui de Tohoku, au Japon, lors du tremblement de terre de 2011), la cause de ce
-      Le tsunami a été un mystère.  
+      Le séisme de magnitude $M_w$ 7,5 de Palu Sulawesi (Indonésie), a
+      frappé le 28 septembre 2018, causant des dégats  importants et de
+      nombreuses pertes de vies humaines.  Ce séisme ne se produit pas
+      sur une subduction mais sur une faille de glissement latéral qui
+      traverse l’Île de Sulawesi. Ce tremblement de terre a également
+      généré un tsunami qui a dévasté la ville de Palu. En règle
+      générale, ce type de séisme (dit en décrochement) ne provoque pas
+      de grands mouvements verticaux du sol et donc pas de Tsunami,
+      contrairement à Tohoku, au Japon, lors du tremblement de terre de
+      2011. La raison  d’un tel tsunami à Palu est donc un peu
+      mystérieuse.  
     </div>    
     
 </div>
@@ -104,14 +129,20 @@ Cela suggère que la vitesse de rupture devrait être prise en compte dans l'év
 
 
     <div class="cardtxt"> 
-      Lorsqu'un tremblement de terre commence à ouvrir une faille, le front du tremblement de terre (la fermeture éclair) 
-      émet constamment des ondes de pression et de cisaillement dans le milieu. Ondes P se déplacent à une vitesse d'environ 5 km/s 
-      (18000 km/h) et les ondes S à environ 3,5 km/s (12600 km/h). Pour les séismes typiques, la vitesse du front est plus lent que 
-      les ondes S. On les appelle des séismes de subshear.
-      
-	  Pour les séismes de type Supershear, en revanche, le front du tremblement de terre se déplace plus rapidement 
-	  que les ondes de cisaillement. Lorsque la barrière de vitesse des ondes S est rompue, des fronts de choc linéaires se manifestent. 
-	  Ils sont exactement semblables au boum sonique que nous entendons dans les avions supersoniques. 
+      Lorsqu'un tremblement de terre commence à ouvrir une faille, le
+      front de propagation de la rupture (le chariot de la fermeture
+      éclair) émet constamment des ondes de pression et de cisaillement
+      dans le milieu. Les ondes P se déplacent à une vitesse d'environ 5
+      km/s (18000 km/h) et les ondes S à environ 3,5 km/s (12600 km/h).
+      Dans le cas d’un séisme typique normal, la vitesse du front est
+      inférieure à celle des ondes S. On les appelle des séismes «
+      subshear ». Pour les séismes de type « Supershear », en revanche,
+      le front de la rupture se déplace plus rapidement que les ondes de
+      cisaillement. Lorsque la barrière de vitesse des ondes S est
+      franchie, des fronts de choc linéaires se manifestent. Ils sont
+      exactement semblables au boum sonique que nous entendons lorsqu’un
+      avion supersonique franchi le mur du son (dépasse la vitesse du
+      son).
     </div>    
     
 </div>
@@ -128,13 +159,18 @@ Cela suggère que la vitesse de rupture devrait être prise en compte dans l'év
 
 <div class="row111">
     <div class="cardtxt"> 
-      Les séismes de type "Supershear" ont une signature unique de mouvement du sol. La façon dont le sol se 
-      déplace parallèlement et perpendiculairement à la faille nous renseigne sur la vitesse à laquelle le 
-      front du tremblement de terre s'est déplacé. Nous avons montré que pour expliquer au mieux le mouvement du 
-      sol enregistré à la station GPS PALP, le tremblement de terre devait être super-coupé. C'est une preuve 
-      incontestable de la vitesse du tremblement de terre.<br><br>
-      
-      C'est d'ailleurs la première fois qu'un tremblement de terre de type Supershear est détecté à l'aide d'une station GPS.
+      Les séismes de type "Supershear" ont une signature unique de
+      mouvement du sol. La façon dont le sol se déplace parallèlement et
+      perpendiculairement à la faille nous renseigne sur la vitesse à
+      laquelle le front de la rupture sismique s'est déplacé. Le
+      déplacement de la station GPS PALP située à l’aéroport de Palu à
+      proximité de la faille, monitoré en continu durant la propagation
+      de la rupture, révèle la nature « supershear » du séisme du 28
+      septembre 2018 : un pic de déplacement parallèle à la faille de
+      l’ordre de 1 m/s prédit pour une rupture supershear et absent dans
+      le cas d’une rupture standard subshear.   C'est  la première fois
+      qu'un tremblement de terre de type Supershear est détecté à l'aide
+      d'une station GPS.
     </div>    
 </div>
 
@@ -148,9 +184,12 @@ Cela suggère que la vitesse de rupture devrait être prise en compte dans l'év
 
 <div class="row111">
     <div class="cardtxt"> 
-      Les tsunamis classiques sont générés par le grand déplacement vertical du fond marin autour de la faille. 
-      Les tremblements de terre de la zone de subduction sont des sources typiques de ces tsunamis. Les tremblements 
-      de terre de type "Strike-Slip", en revanche, ne déplacent pas autant le fond de l'océan.
+      Les tsunamis classiques sont générés par le déplacement vertical
+      du fond marin autour de la faille. Les tremblements de terre de la
+      zone de subduction sont des sources typiques de ces tsunamis. Les
+      tremblements de terre de type "Strike-Slip", en revanche, ne
+      soulèvent pas autant le fond de l'océan puisqu’il s’agit de
+      glissement essentiellement horizontaux.
     </div>    
 </div>
 <h4 align="right">Sauf quand il s'agit de tremblements de terre de type "Supershear".</h4>    
@@ -165,11 +204,13 @@ Cela suggère que la vitesse de rupture devrait être prise en compte dans l'év
 
 <div class="row111">
     <div class="cardtxt"> 
-      Les ruptures de cisaillement manifestent des fronts de choc. Ces fronts de choc transportent 
-      l'énergie de la faille sur de grandes distances sans grande perte. Dans ce travail, nous montrons 
-      que même si les déplacements sont faibles, le simple fait que les fronts de choc affectent une grande 
-      région suffit à générer un tsunami. Dans la baie de Palu, la baignoire, comme la bathymétrie, 
-      a encore contribué à l'ampleur du tsunami.
+      Les ruptures de cisaillement produisent des fronts de choc. Ces
+      fronts de choc transportent l'énergie de la faille sur de grandes
+      distances et sans grande perte. Dans ce travail, nous montrons que
+      même si les déplacements sont faibles, le simple fait que les
+      fronts de choc affectent une grande région suffit à générer un
+      tsunami. Au final, la forme de la baie de Palu, en « baignoire »,
+      a encore contribué à amplifier le tsunami ainsi généré.
     </div>  
 </div>
    
