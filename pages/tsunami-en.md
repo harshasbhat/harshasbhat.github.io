@@ -8,6 +8,7 @@ published: true
 <div class="pagewidth">
 <div class="containermisc2">
 			<div id="sectionbtnlst2">
+			   <a href="https://harshasbhat.github.io/files/AmlaniBhatSimons2020a.pdf">PDF</a>
 			   <a href="{{site.baseurl}}/tsunami-en/">English</a>
 			   <a href="{{site.baseurl}}/tsunami-fr/">Français</a>
 			</div>
