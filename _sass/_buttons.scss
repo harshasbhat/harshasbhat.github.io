@@ -86,14 +86,14 @@ font-weight: $font-weight-bold;
 border-radius: 0.7em; 
 padding: 6px 10px; 
 color:$white; 
-background-color:#4181BD; 
+background-color:$tsunami; 
 text-shadow: 1px 1px $grey;
 }
 
 
 #sectionbtnlst a:hover 
 { 
-color: #4181BD; 
+color: $tsunami; 
 background-color: $white; 
 text-decoration:none;
 text-shadow: 0px 0px $grey;
@@ -147,5 +147,26 @@ display: flex;
 }
 }
 
+#newsbtn a
+{ 
+font-size: 70%; 
+display: inline-block; 
+margin-top: 0.1em; 
+margin-right: 0.75em; 
+font-weight: 450; 
+border-radius: 0.7em; 
+padding: 3px 6px; 
+float:center; 
+color:$white; 
+background-color:$tsunami; 
+border: 1px solid lighten($harvardblue, 0.0%);
+}
 
+
+#newsbtn a:hover 
+{ 
+color:$tsunami; 
+background-color:$white; 
+text-decoration:none;
+}
 
