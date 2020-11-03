@@ -149,23 +149,23 @@ display: flex;
 
 #newsbtn a
 { 
-font-size: 70%; 
+font-size: 75%; 
 display: inline-block; 
 margin-top: 0.1em; 
 margin-right: 0.75em; 
 font-weight: 450; 
-border-radius: 0.7em; 
+border-radius: 0.1em; 
 padding: 3px 6px; 
 float:center; 
 color:$white; 
-background-color:$tsunami; 
-border: 1px solid lighten($harvardblue, 0.0%);
+background-color:$black; 
+border: 1px solid lighten($harvardblue, 100.0%);
 }
 
 
 #newsbtn a:hover 
 { 
-color:$tsunami; 
+color:$black; 
 background-color:$white; 
 text-decoration:none;
 }

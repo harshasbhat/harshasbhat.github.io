@@ -7,7 +7,7 @@ published: true
 
 <div class="archive">
 
-{% for news in site.data.news2.news %}
+{% for news in site.data.news.news %}
 {% if forloop.index == 1 %}
 
 <article class="article">
@@ -48,24 +48,20 @@ published: true
 {% else %}
 
 <article class="article">
-{% if news.image %} 
-<div class="newsimage">
-		<img src="{{site.baseurl}}/images/{{news.image}}" height="200px" />
-</div>
-{% endif %}
-<div class="smallnewsheading">
- {{news.hl}}
-</div>
+	{% if news.image %} 
+		<div class="newsimage">
+				<img src="{{site.baseurl}}/images/{{news.image}}" height="250px" />
+		</div>
+	{% endif %}
+	
+	<div class="smallnewsheading">
+	 {{news.hl}}
+	</div>
 
-	<p> 
-		{{news.txt}}
-	</p>
-
-	<p>
-	<b> 
-		{{news.closing}} 
-	</b>
-	</p>
+	<div class="smallnewstxt"> 
+		{{news.txt}}<br><br>
+		<b> {{news.closing}} </b>
+	</div>
 
 	<div class="buttons"> 
 		{% if news.readmore %} 
