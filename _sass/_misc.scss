@@ -160,3 +160,41 @@ display: flex;
 }
 }
 
+.accordion {
+font-weight: $font-weight-bold; 
+border-radius: 0.7em; 
+padding: 6px 10px; 
+color:$tsunami; 
+background-color:$hlcolor; 
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 13px;
+  transition: 0.8s;
+}
+
+.active, .accordion:hover {
+  background-color: $white;
+  border: 1px solid $tsunami;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: $tsunami;
+  font-weight: bold;
+  float: left;
+  margin-right: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: scroll;
+}

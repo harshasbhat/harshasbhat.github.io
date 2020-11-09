@@ -25,20 +25,26 @@ seismic cycles."
       readmore: https://jflorescuba.wixsite.com/mysite
     - hl: "Erosion & Earthquakes"
       txt: "Our paper on the link between erosional events and earthquakes is
-resubmitted to Geophysical Research Letters after minor revisions"
+finally accepted in Geophysical Research Letters. It was a wild journery from false plagiarism charges to publication in the end!"
       closing: 
       image: pubimages/erosion.png
       readmore: 
       pdf: Jeandet-RibesCubasBhat2020a.pdf
     - hl: "Signature of Supershear Earthquakes"
       txt: "Our paper identifying supershear transition in earthquake off-fault
-damage zone is now submitted to Science Advances"
+damage zone is now under review in Science Advances. Another paper that is going through a long journey!"
       closing: 
       image: pubimages/theorydamage.png
       readmore: 
       pdf: JaraBruhatAntoine2020a.pdf
     - hl: "Supershear Earthquakes"
-      txt: "My HDR thesis on Supershear Earthquakes is now available online"
+      txt: "My Habilitation à Diriger les Recherches (HDR) thesis on Supershear Earthquakes is now available online. What is HDR? And why do we do it in the 21st century? I plan to ask God these questions but I doubt he'd know anything. "
+      closing: 
+      image: pubimages/hdr.png
+      readmore: 
+      pdf: Bhat2021a.pdf
+    - hl: "Blah Blah Blah"
+      txt: "My Habilitation à Diriger les Recherches (HDR) thesis on Supershear Earthquakes is now available online. What is HDR? And why do we do it in the 21st century? I plan to ask God these questions but I doubt he'd know anything. "
       closing: 
       image: pubimages/hdr.png
       readmore: 

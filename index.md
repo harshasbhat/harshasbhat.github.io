@@ -5,6 +5,7 @@ permalink: /
 published: true
 ---
 
+
 <div class="archive">
 
 {% for news in site.data.news.news %}
@@ -21,15 +22,11 @@ published: true
 		<a href="{{site.baseurl}}/{{news.readmore}}">{{news.hl}}</a>
 	</div>
 
-	<p style="color: white;"> 
-		{{news.txt}}
-	</p>
-
-	<p style="color: white; margin-top:30px;margin-bottom:30px">
-	<b> 
-		{{news.closing}} 
-	</b>
-	</p>
+	<div class="mainnewstxt"> 
+		{{news.txt}}<br><br>
+		<b> {{news.closing}} </b>
+	</div>
+	
 
 	<div class="buttons"> 
 		{% if news.readmore %} 
@@ -81,6 +78,5 @@ published: true
 {% endfor %} 
 </div>
 
-{% include new-window-fix.html %}
 
 {% include new-window-fix.html %}

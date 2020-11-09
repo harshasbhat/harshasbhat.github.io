@@ -15,8 +15,10 @@ published: true
 			</div>
 </div>
 
-<h2 align="center" style="color:#4181BD">Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake$^*$</h2>	
+<h2 align="center" style="color:#4181BD; font-size:18pt">Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake$^*$</h2>	
 
+<button class="accordion">Authors & Affiliations</button>
+<div class="panel">
 <div class="row111">
 <div class="columntxtauthors">
 
@@ -33,8 +35,10 @@ Faisal Amlani,$^{1}$ Harsha S. Bhat,$^{2,*}$ Wim J. F. Simons,$^{3}$ Alexandre S
 Data Availability: <a href="https://doi.org/10.5281/zenodo.4066297"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4066297.svg" alt="DOI"></a>
 </div>
 </div>
+</div>
 
-<h3 align="left">Résumé</h3>
+<button class="accordion">Résumé Scientifque</button>
+<div class="panel">
 <p><b>On sait que en principe, les tsunamis dangereux sont principalement
 générés dans les zones de subduction par de grands séismes qui
 produisent un déplacement vertical du plancher océanique. Cependant, un
@@ -64,7 +68,11 @@ soit excessivement rapide. Cela suggère que la vitesse de rupture des
 séismes, et non seulement leur mécanisme, devrait être prise en compte
 dans l'évaluation du risque de tsunami.</b></p>
 
-<hr>
+</div>
+
+
+<br><br><br>
+<h2> Chapitres: </h2>
 <div class="containermisc">
 			<div id="sectionbtnlst">
 			   <a href="#one"> 1. Le Séisme </a>
@@ -75,7 +83,7 @@ dans l'évaluation du risque de tsunami.</b></p>
 			</div>
 </div>
 
-<hr>
+<br><br><br>
 
 <h3 align="left" id="one">1. Le Séisme</h3>
 <div class="row111">
