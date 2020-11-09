@@ -14,10 +14,8 @@
   width: 100%; /* Full width */
   padding: 0px 0px;
   text-transform: uppercase;
-  transition: top 0.7s; /* Transition effect when sliding down (and up) */
-// -webkit-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.57);
-// -moz-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.57);
-// box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.57);
+  transition: top 1s; /* Transition effect when sliding down (and up) */
+  border-radius: 0px;
 }
 
 /* Menu Button */
@@ -63,7 +61,7 @@ label.jm-menu-btn:hover {
 /* Links */
 .jmenu a {
   color: $menulink; /* Light gray */
-  display: inline-block;
+  display: block;
   padding: 8px 0px;
   text-decoration: none;
   font-size: $menu-font-size;
@@ -82,7 +80,6 @@ label.jm-menu-btn:hover {
 /* Dropdowns */
 
 .jm-dropdown {
-/*   box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, .5); */
   float: center;
   padding: 10px 10px;
   }
@@ -108,7 +105,9 @@ label.jm-menu-btn:hover {
 
 .jm-dropdown ul a:hover,
 .jm-dropdown:hover ul a:hover {
-  text-decoration: underline;
+//   text-decoration: underline;
+    background-color: $hlcolor;
+  color:$black;	
 }
 
 /* Tertiary+ Menu Items */

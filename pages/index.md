@@ -30,14 +30,14 @@ published: true
 
 	<div class="buttons"> 
 		{% if news.readmore %} 
-		<span id="newsbtn">
-		<a href="{{site.baseurl}}/{{news.readmore}}">READ MORE ...</a>
-		</span>
+		<div id="newsbtn">
+		<a href="{{news.readmore}}">READ MORE ...</a>
+		</div>
 		{% endif %}
 		{% if news.pdf %} 
-		<span id="newsbtn">
+		<div id="newsbtn">
 		<a href="{{site.baseurl}}/files/{{news.pdf}}">PDF</a>
-		</span>
+		</div>
 		{% endif %}
 	</div>
 </article>
@@ -52,7 +52,13 @@ published: true
 
 	{% if news.image %} 
 		<div class="newsimage">
-				<img src="{{site.baseurl}}/images/{{news.image}}" height="250px" />
+			{% if news.url %} 
+			<a href="{{news.url}}">
+				<img src="{{site.baseurl}}/images/{{news.image}}" height="230px" />
+			</a>
+			{% else %}
+				<img src="{{site.baseurl}}/images/{{news.image}}" height="230px" />
+			{% endif %}	
 		</div>
 	{% endif %}
 
@@ -63,14 +69,14 @@ published: true
 
 	<div class="buttons"> 
 		{% if news.readmore %} 
-		<span id="newsbtn">
+		<div id="newsbtn">
 		<a href="{{news.readmore}}">READ MORE ...</a>
-		</span>
+		</div>
 		{% endif %}
 		{% if news.pdf %} 
-		<span id="newsbtn">
+		<div id="newsbtn">
 		<a href="{{site.baseurl}}/files/{{news.pdf}}">PDF</a>
-		</span>
+		</div>
 		{% endif %}
 	</div>
 </article>

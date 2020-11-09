@@ -14,7 +14,8 @@ prestigious award given by Comité National Français de Géodésie et
 Géophysique."
       closing: "We are proud of you Kurama!"
       image: team/kurama.jpg
-      readmore: http://site.cnfgg.fr/prix-de-geophysique-2020
+      url: https://kura-okubo.github.io/
+      readmore: http://www.geosciences.ens.fr/prix-de-geophysique-2020/
     - hl: "Welcome to the group Joseph"
       txt: "Joseph Flores Cuba has just started his doctoral work at Sorbonne
 University co-supervised between Dr. Marion Thomas, Prof. Laurent
@@ -22,7 +23,7 @@ Jolivet and myself. He will work on modeling damage evolution during
 seismic cycles."
       closing:
       image: team/joseph.jpg
-      readmore: https://jflorescuba.wixsite.com/mysite
+      url: https://jflorescuba.wixsite.com/mysite
     - hl: "Erosion & Earthquakes"
       txt: "Our paper on the link between erosional events and earthquakes is
 finally accepted in Geophysical Research Letters. It was a wild journery from false plagiarism charges to publication in the end!"
