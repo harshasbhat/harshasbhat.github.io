@@ -1,5 +1,5 @@
-- title: "Supershear Tsunami"
-  href: "/tsunami-en/"
+#- title: "Supershear Tsunami"
+#  href: "/tsunami-en/"
 - title: "Publications"
   href: "/articles/"
   subcategories:
@@ -31,8 +31,6 @@
       subhref: "https://orcid.org/0000-0003-0361-1854"
     - subtitle: "Contact"
       subhref: "/contact/"
-    - subtitle: "Directions"
-      subhref: "/directions/"  
     - subtitle: "Website"
       subhref: "/website/"
 #- title: "TSUNAMI"

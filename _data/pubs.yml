@@ -15,6 +15,21 @@ publications:
       topics: "supershear, tsunami, numerical models, FCM"	
       img: tsunami.png
       hl: 1
+    - title:     "Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle"
+      author:    L. Jeandet-Ribes, N. Cubas, H. S. Bhat & P. Steer
+      year:    2020
+      journal:    to appear in Geophys. Res. Lett.
+      pdf: 		Jeandet-RibesCubasBhat2020a.pdf
+      doi:		
+      pubnum:     	37
+      type:         article  
+      booktitle:	""
+      publisher:	
+      editor:   
+      school:	
+      arxiv: 	2007.06412v2
+      topics: "erosion, earthquake cycles, numerical models"	
+      img: erosion.png
     - title:     "Loi de friction et modélisation numérique du cycle sismique"
       author:    M. Y. Thomas & H. S. Bhat
       year:    2020
@@ -45,21 +60,6 @@ publications:
       arxiv: 	1909.12672v2
       topics: "supershear, damage, fracture mechanics, numerical models, aftershocks"	
       img: theorydamage.png
-    - title:     "Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle"
-      author:    L. Jeandet-Ribes, N. Cubas, H. S. Bhat & P. Steer
-      year:    2020
-      journal:    accepted with minor rev. Geophys. Res. Lett.
-      pdf: 		Jeandet-RibesCubasBhat2020a.pdf
-      doi:		
-      pubnum:     	37
-      type:         article  
-      booktitle:	""
-      publisher:	
-      editor:   
-      school:	
-      arxiv: 	2007.06412v2
-      topics: "erosion, earthquake cycles, numerical models"	
-      img: erosion.png
     - title:     "Modeling earthquakes with off-fault damage using the combined finite discrete element method"
       author:    K. Okubo, E. Rougier, Z. Lei & H. S. Bhat
       year:    2020

@@ -45,18 +45,19 @@ published: true
 {% else %}
 
 <article class="article">
-	{% if news.image %} 
-		<div class="newsimage">
-				<img src="{{site.baseurl}}/images/{{news.image}}" height="250px" />
-		</div>
-	{% endif %}
 	
 	<div class="smallnewsheading">
 	 {{news.hl}}
 	</div>
 
+	{% if news.image %} 
+		<div class="newsimage">
+				<img src="{{site.baseurl}}/images/{{news.image}}" height="250px" />
+		</div>
+	{% endif %}
+
 	<div class="smallnewstxt"> 
-		{{news.txt}}<br><br>
+		{{news.txt}}
 		<b> {{news.closing}} </b>
 	</div>
 

@@ -14,7 +14,7 @@
   width: 100%; /* Full width */
   padding: 0px 0px;
   text-transform: uppercase;
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  transition: top 0.7s; /* Transition effect when sliding down (and up) */
 // -webkit-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.57);
 // -moz-box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.57);
 // box-shadow: 0px 5px 5px -4px rgba(0,0,0,0.57);
@@ -64,10 +64,10 @@ label.jm-menu-btn:hover {
 .jmenu a {
   color: $menulink; /* Light gray */
   display: inline-block;
-  padding: 16px 0px;
+  padding: 8px 0px;
   text-decoration: none;
-  font-size: 14px;
-  font-weight: $font-weight-bold;
+  font-size: $menu-font-size;
+  font-weight: 400;
 }
 
 .jmenu a:hover {
@@ -84,7 +84,7 @@ label.jm-menu-btn:hover {
 .jm-dropdown {
 /*   box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, .5); */
   float: center;
-  padding: 0px 0px;
+  padding: 10px 10px;
   }
 
 .jm-dropdown:hover ul {

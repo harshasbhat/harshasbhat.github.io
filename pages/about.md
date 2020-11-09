@@ -16,7 +16,7 @@ title:
 
 <div class="columntxt1" style="width: 100%; text-align:center;">
 <br>
-<img src="{{site.baseurl}}/images/harsha.jpeg" width="225px"/> 
+<img src="{{site.baseurl}}/images/harsha.jpeg" width="250px"/> 
 <p style="text-align:left;">
 I am a <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Research Scientist working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
 <a href="http://www.ens.fr">Ecole Normale Supérieure</a> since May, 2016. I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology. 
