@@ -16,22 +16,10 @@
         border-radius: 10px;
         
     }
-   .lefty2 {
-        float: left;
-        width: 65%;
-        text-align: left;
-        vertical-align: middle;
-        padding-right: 15px;
-        padding-bottom:0px;
-        padding-top:0px;
-        padding-left:5px;
-        border: 0px solid lighten($harvard, 0.5%);
-        font-size: 95%;
-        
-    }
+    
     .righty {
         display: inline-block;
-        width: 25%;
+        width: 20%;
         padding-left: 0px;
         padding-top: 0px;
         text-align: center;  
@@ -39,26 +27,6 @@
         border: 0.0px solid lighten($harvard, 0.5%);           
     }
     
-    .fully {
-        float: left;
-        width: 100%;
-        text-align: left;
-        vertical-align: middle;
-        padding-bottom: 0px;
-        border-bottom: 0.0px solid lighten($black, 0.5%);
-    }
-    .fully2 {
-        float: left;
-        width: 100%;
-        text-align: center;
-        vertical-align: middle;
-        padding-bottom: 0px;
-        padding-top:5px;
-        padding-left:5px;
-        padding-right:20px;
-        border: 0.0px solid lighten($black, 0.5%);
-    }
-
     .group:after {
         content:"";
         display: table;
@@ -87,10 +55,10 @@
 }
 
 .responsivepubimg {
-width: 100%; 
+height: 180px; 
 object-fit: contain; 
-max-width: $pubimgwidth;
-max-height: 120px;
+max-width: 250px;
+// max-height: 120px;
 align:center;
 vertical-align: middle;
 // box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
@@ -106,42 +74,6 @@ vertical-align: middle;
 	display:none;}
 }
 
-.container {
-	display: flex;
-	flex-wrap: wrap ;
-	justify-content: center;
-	align-items: center;
-	align-content: center ;
-}
-
-.section {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-end;
-  align-content: space-around;
-}
-
-.anchor {
-    display:block;
-    padding-top:100px;
-    margin-top:-100px;
- }
- 
-@media (max-width: $mobile) { /*breakpoint*/
-  .container {
-    grid-template-columns: none;
-  justify-content: center;
-  align-items: center;
-    align-content: center;
-  }
-  .section {
-  justify-content: center;
-  align-items: center;
-    align-content: center;
-  }
-}
-
-
 .dropbtn {
   background-color: $black;
   color: white;
@@ -156,7 +88,7 @@ vertical-align: middle;
 
 .dropdown {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
@@ -166,6 +98,7 @@ vertical-align: middle;
   position: absolute;
   background-color: $white;
   min-width: 200px;
+  margin-top:40px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   max-height:250px;/* you can change as you need it */
@@ -184,5 +117,5 @@ vertical-align: middle;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: $black;
 }

@@ -32,6 +32,7 @@ $black:     #000;
 $harvardblue: #ddf3f5;
 $hlyellow: #ffffe6;
 $tsunami: #4181BD;
+$menu-font-size:11pt;
 
 $background:        $white;
 $dark-background:   darken($background, 5%);
@@ -41,18 +42,18 @@ $url-color:         $black;
 $url-hover-color:   $blue;
 $line-color:        $grey-light;
 $menubackground:    $black;
-$submenubackground: lighten($black,15%);
+$submenubackground: darken($tsunami, 22%);//lighten($black,15%);
 $menulink: $white;
 $submenulink: $white;
 $hlcolor: lighten(#4181BD,45%);
 $textcolor2: lighten(#4181BD,0%);	
-$cardcolor: $black; 
+$cardcolor: darken($tsunami, 22%); 
 $cardname: $white;
 $carddate: $grey-light;
 $topicbtn: $white;
 $topicbtntxt: $black;
 $topicbtnhvr: $harvardblue;
-$pubimgwidth: 200px;
+$pubimgwidth: 250px;
 
 // Width of the content area
 $content-width:    1200px;

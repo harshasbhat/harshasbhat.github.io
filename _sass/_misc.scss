@@ -19,6 +19,9 @@
   float: left;
   width: 30%;
   padding: 0 0px;
+  max-width: 400px;
+//   max-height: 300px;
+   object-fit: cover;
 }
 
 .columntxt {
@@ -49,7 +52,9 @@
   text-align: center;
   margin:10px;
   border-radius: 1em;
-  max-width: 700px;
+//   max-width: 700px;
+//   max-height: 400px;
+//  object-fit: cover;
 }
 
 
@@ -151,39 +156,40 @@ align-items: center;
   align-content: center;
 }
 
-.containermisc {
-display: flex;
-    flex-direction: column;
-  justify-content: center;
-  align-items: center;
-    align-content: center;
-}
+// .containermisc {
+// display: flex;
+//     flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//     align-content: center;
+// }
 }
 
 .accordion {
 font-weight: $font-weight-bold; 
 border-radius: 0.7em; 
 padding: 6px 10px; 
-color:$tsunami; 
+color: darken($tsunami,22%); 
 background-color:$hlcolor; 
   cursor: pointer;
   padding: 12px;
   width: 100%;
   border: none;
-  text-align: center;
+  text-align: left;
   outline: none;
-  font-size: 13px;
-  transition: 0.8s;
+  font-size: 13pt;
+  transition: 0.1s;
 }
 
 .active, .accordion:hover {
-  background-color: $white;
-  border: 1px solid $tsunami;
+  color: $white;
+  background-color: $tsunami;
+  border: 0px solid $tsunami;
 }
 
 .accordion:after {
   content: '\002B';
-  color: $tsunami;
+  color: darken($tsunami,22%); ;
   font-weight: bold;
   float: left;
   margin-right: 5px;

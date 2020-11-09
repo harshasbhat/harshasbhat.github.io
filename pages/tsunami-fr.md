@@ -71,8 +71,8 @@ dans l'évaluation du risque de tsunami.</b></p>
 </div>
 
 
-<br><br><br>
-<h2> Chapitres: </h2>
+<button class="accordion">Les Sections</button>
+<div class="panel">
 <div class="containermisc">
 			<div id="sectionbtnlst">
 			   <a href="#one"> 1. Le Séisme </a>
@@ -82,8 +82,7 @@ dans l'évaluation du risque de tsunami.</b></p>
 			   <a href="#five"> 5. Tsunami Supershear </a>
 			</div>
 </div>
-
-<br><br><br>
+</div>
 
 <h3 align="left" id="one">1. Le Séisme</h3>
 <div class="row111">
@@ -208,7 +207,7 @@ dans l'évaluation du risque de tsunami.</b></p>
 
 
 <div class="videoWrapper">
-  <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/5LBeeFE0ezg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/3fJfKwOEzQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>    
 
 <div class="row111">
