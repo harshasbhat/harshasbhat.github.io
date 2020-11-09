@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.19)  27 OCT 2020 15:48
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.19)  10 NOV 2020 00:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1282,14 +1282,14 @@ LaTeX Font Info:    ... okay on input line 23.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(51.21495pt, 495.07797pt, 51.21495pt)
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
 * v-part:(T,H,B)=(42.67912pt, 756.0pt, 46.36772pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=495.07797pt
+* \textwidth=540.60239pt
 * \textheight=756.0pt
-* \oddsidemargin=-21.05504pt
-* \evensidemargin=-21.05504pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-113.59087pt
 * \headheight=60.0pt
 * \headsep=24.0pt
@@ -1426,36 +1426,25 @@ LaTeX Info: Redefining \nameref on input line 23.
 \openout7 = `CurriculumVitae.out'.
 
 
-Package fontspec Info: Font family 'RobotoLight(0)' created for font 'Roboto
+Package fontspec Info: Font family 'PoppinsLight(0)' created for font 'Poppins
 (fontspec)             Light' with options [Ligatures=TeX,Mapping=tex-text].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Roboto
-(fontspec)             Light/OT:script=latn;language=DFLT;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Roboto
-(fontspec)             Light/OT:script=latn;language=DFLT;+smcp;mapping=tex-tex
-t;"
-(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->"Roboto
-(fontspec)             Light/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.:
-(fontspec)             <->"Roboto
-(fontspec)             Light/B/OT:script=latn;language=DFLT;+smcp;mapping=tex-t
-ext;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Roboto
-(fontspec)             Light/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.:
-(fontspec)             <->"Roboto
-(fontspec)             Light/I/OT:script=latn;language=DFLT;+smcp;mapping=tex-t
-ext;"
-(fontspec)             - 'bold italic' (bx/it) with NFSS spec.: <->"Roboto
-(fontspec)             Light/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Poppins
+(fontspec)             Light/OT:script=DFLT;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->"Poppins
+(fontspec)             Light/B/OT:script=DFLT;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Poppins
+(fontspec)             Light/I/OT:script=DFLT;language=DFLT;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.: <->"Poppins
+(fontspec)             Light/BI/OT:script=DFLT;language=DFLT;mapping=tex-text;"
 
-(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
-(fontspec)             <->"Roboto
-(fontspec)             Light/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-
-text;"
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
 LaTeX Info: Redefining \rmfamily on input line 29.
 
@@ -1531,10 +1520,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--105
 
  []
 
-LaTeX Font Info:    Font shape `TU/RobotoLight(0)/m/sl' in size <10> not availa
-ble
-(Font)              Font shape `TU/RobotoLight(0)/m/it' tried instead on input 
-line 105.
+LaTeX Font Info:    Font shape `TU/PoppinsLight(0)/m/sl' in size <10> not avail
+able
+(Font)              Font shape `TU/PoppinsLight(0)/m/it' tried instead on input
+ line 105.
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
 Make it at least 3.60004pt.
@@ -1581,25 +1570,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--220
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
-
+Overfull \hbox (0.40778pt too wide) in paragraph at lines 220--220
+[]\TU/PoppinsLight(0)/m/n/10 The effect of waste water injection on earthquake 
+nucleation in damaged fault zones 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 220--220
 
- []
-
-
-Overfull \hbox (24.23587pt too wide) in paragraph at lines 220--220
-[]\TU/RobotoLight(0)/m/n/10 Étude Expérimentale de la Rupture Sismique, \TU/Rob
-otoLight(0)/m/it/10 École Normale Supérieure de Paris,  Main
- []
-
-
-Overfull \hbox (12.45914pt too wide) in paragraph at lines 220--220
-[]\TU/RobotoLight(0)/m/n/10 Source mechanics of near-field s-wave generation fr
-om explosive sources,
  []
 
 
@@ -1622,6 +1600,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--220
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
+
+ []
+
 Package biblatex Info: Reference segment=2 on input line 233.
 Package biblatex Info: Setting label 'refsegment:02' on input line 233.
 
@@ -1630,14 +1613,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--236
  []
 
 [4] [5]
-Overfull \hbox (4.29263pt too wide) in paragraph at lines 236--236
-[][]\TU/RobotoLight(0)/m/n/10 Dunham, E. M. and H. S. Bhat (2008). “[]\TU/Robot
-oLight(0)/m/it/10 Attenuation of radiated ground motion and stresses from three
--dimensional
- []
-
 Package biblatex Info: Reference segment=0 on input line 237.
-
+ 
 AED: lastpage setting LastPage
 [6]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
@@ -1647,17 +1624,25 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 241.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
 Package rerunfilecheck Info: File `CurriculumVitae.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'CurriculumVitae.run.xml'.
 \openout1 = `CurriculumVitae.run.xml'.
 
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 43146 strings out of 492916
- 852403 string characters out of 6133345
- 1338236 words of memory out of 5000000
- 46667 multiletter control sequences out of 15000+600000
- 534902 words of font info for 58 fonts, out of 8000000 for 9000
+ 43135 strings out of 492916
+ 851956 string characters out of 6133345
+ 1338234 words of memory out of 5000000
+ 46658 multiletter control sequences out of 15000+600000
+ 534894 words of font info for 57 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,11n,92p,1040b,5065s stack positions out of 5000i,500n,10000p,200000b,80000s
 
