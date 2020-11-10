@@ -5,7 +5,11 @@
 
 .jmenu {
   background: $menubackground; /* Dark gray */
-/*   box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, .5); */
+box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 8px 8px rgba(0,0,0,0.11), 
+              0 16px 16px rgba(0,0,0,0.11);
   box-sizing: border-box;
   line-height: 1;
   position: -webkit-sticky; /* Safari */
@@ -16,6 +20,7 @@
   text-transform: uppercase;
   transition: top 1s; /* Transition effect when sliding down (and up) */
   border-radius: 0px;
+  border-bottom: 0px solid $grey-light;
 }
 
 /* Menu Button */
@@ -40,7 +45,7 @@ label.jm-menu-btn {
 }
 
 label.jm-menu-btn:hover {
-  color:white;
+  color:$menulink;
 }
 
 .jm-collapse {
@@ -81,7 +86,7 @@ label.jm-menu-btn:hover {
 
 .jm-dropdown {
   float: center;
-  padding: 10px 10px;
+  padding: 0px 0px;
   }
 
 .jm-dropdown:hover ul {
@@ -136,7 +141,7 @@ li:hover .jm-icon-dropdown {
 
 .jm-icon-menu::before {
   content: '\2630    Harsha S. Bhat';
-  font-size: 20px;
+//   font-size: 20px;
 }
 
 @media (min-width: 768px) {
