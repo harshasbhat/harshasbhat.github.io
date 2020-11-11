@@ -3,7 +3,7 @@ layout: page
 permalink: /articles/
 title: 
 ---
-<br>
+
 {% include collecttags.html %}
 {% include lazyload.html %}
 
@@ -13,10 +13,8 @@ title:
 {% for pub in site.data.pubs.publications %}
 {% if pub.year == year %} 
 {% else %} 
-
 {% assign year = pub.year %}
 {% endif %} 
-
 {% assign uniqetopics = "" %}
 {% assign uniqetopics = pub.topics | split: ', ' | sort_natural | uniq %} 
 
@@ -25,19 +23,23 @@ title:
 
 {% assign auth = pub.author %}
 
-<div class="pagewidthpub">
-<div class="group">
-{% if pub.img %}
-    <div class="lefty">
- 		
+<div class="pubs">
+	<div class="articles">
+    	{% for image in imgs %}
+		<img src="{{site.baseurl}}/images/pubimages/blank.png" data-echo="{{site.baseurl}}/images/pubimages/{{image}}" class="responsivepubimg1">
+		{% endfor %}
+	</div>
+
+   <div class="articles">
+ 	  <span class="pubyear">{{pub.year}}</span>
+		
 		{% if pub.pdf %}
 			<a display:inline href="{{ base }}/files/{{pub.pdf}}" style="text-transform:capitalize;">{{pub.title}}</a>
 		{% else %} 
 			{{pub.title}}
 		{% endif %}
-		<br>
 
-		{{pub.author}}<br>
+		{{pub.author}}
 		
 		{% if pub.type == "article" %}
 			<span ><em>{{pub.journal}}</em><br></span>
@@ -53,70 +55,30 @@ title:
 		{% if pub.arxiv %}
 			<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf">arXiv:{{pub.arxiv}}[physics.geo-ph]</a>
 		{% endif %}
-		
-		({{pub.year}}) <br>
-
-		{% if pub.topics %}
-				<br>
-				{% for topic in uniqetopics %}
-					<span id="topicbtn">
-						<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a>
-					</span>
-				{% endfor %}
+	
+		{% if pub.readmore %} 
+			<div id="newsbtn">
+				<a href="{{ base }}/{{pub.readmore}}">READ MORE ...</a>
+			</div>
 		{% endif %}
+		
+<!-- 		{% if pub.topics %} -->
+<!-- 			<div class="pubbuttons"> -->
+<!-- 				{% for topic in uniqetopics %} -->
+<!-- 					<div id="topicbtn"> -->
+<!-- 						<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a> -->
+<!-- 					</div> -->
+<!-- 				{% endfor %} -->
+<!-- 			</div>	 -->
+<!-- 		{% endif %} -->
 
     </div>
     	
-	<div class="righty">
-    	{% for image in imgs %}
-<img src="{{site.baseurl}}/images/pubimages/blank.png" data-echo="{{site.baseurl}}/images/pubimages/{{image}}" class="responsivepubimg">    	{% endfor %}
-	</div>
 
-	
-{% else %}
-
-    <div class="fully2">
-		{% if pub.pdf %}
-			<a display:inline href="{{ base }}/files/{{pub.pdf}}">{{pub.title}}</a>
-		{% else %} 
-			{{pub.title}}
-		{% endif %}
-		
-		<br>{{pub.author | replace: "H. S. Bhat", "<b>H. S. Bhat</b>"}}<br>		
-		
-		{% if pub.type == "article" %}
-			<span ><em>{{pub.journal}}</em><br></span>
-		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
-			in <span >{{pub.booktitle}}</span>
-			eds. {{pub.editor}}
-		{% endif %}
-		
-		{% if pub.doi %}
-			<a href="https://doi.org/{{pub.doi}}">doi:{{pub.doi}}</a>
-		{% endif %}
-		
-		{% if pub.arxiv %}
-			<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf">arXiv:{{pub.arxiv}}[physics.geo-ph]</a>
-		{% endif %}
-		
-		({{pub.year}})<br>
-
-		{% if pub.topics %}
-				{% for topic in uniqetopics %}
-					<span id="topicbtn">
-						<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a>
-					</span>
-				{% endfor %}
-		{% endif %}
-	
-	</div>
-
-{% endif %}
 </div>  
 {% assign j = j | minus:1 %}
 {% endfor %}
 
 
-</div>
 
 {% include new-window-fix.html %}

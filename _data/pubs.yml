@@ -14,7 +14,7 @@ publications:
       arxiv: 	1910.14547v3
       topics: "supershear, tsunami, numerical models, FCM"	
       img: tsunami.png
-      hl: 1
+      readmore: tsunami-en/
     - title:     "Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle"
       author:    L. Jeandet-Ribes, N. Cubas, H. S. Bhat & P. Steer
       year:    2020

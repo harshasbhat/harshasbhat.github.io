@@ -5,9 +5,8 @@ permalink: /contact/
 published: true
 ---
 
-<br>
 <div class="pagewidth">
-<p>
+<p style="text-align:center">
 Harsha S. Bhat<br>
 Laboratoire de Géologie<br>
 24 rue Lhomond<br>
@@ -15,6 +14,7 @@ Laboratoire de Géologie<br>
 <br>
 <img src="{{site.baseurl}}/images/email.png" width="180px"/>
 </p>
+<br>
 <hr>
 
 <p>

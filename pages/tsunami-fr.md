@@ -95,7 +95,7 @@ dans l'évaluation du risque de tsunami.</b></p>
 
 <div class="columnimg">
     <div class="cardimg">
-      <img src="{{site.baseurl}}/images/tsunami/paluEQ.png"/>
+      <img src="{{site.baseurl}}/images/tsunami/paluEQ.jpg"/>
       <h6>The faults associated with the 2018 Palu earthquake</h6>
     </div>    
 </div>
