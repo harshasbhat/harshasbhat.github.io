@@ -55,15 +55,24 @@
 }
 
 .responsivepubimg {
-height: 180px; 
+width: 180px; 
 object-fit: contain; 
-max-width: 250px;
+max-height: 180px;
+align:center;
+vertical-align: middle;
+}
+
+.responsivepubimg1 {
+width: 180px; 
+object-fit: cover; 
+max-height: 180px;
 // max-height: 120px;
 align:center;
 vertical-align: middle;
 // box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 
 }
+
 
 @media screen and (max-width: $mobile) {
 	.lefty, .righty {
@@ -118,4 +127,74 @@ vertical-align: middle;
 
 .dropdown:hover .dropbtn {
   background-color: $black;
+}
+
+
+// 
+// 
+// 
+.pubs {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 0px;
+  padding:2px;
+  margin-top:10px;
+}
+
+.articles {
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  align-self: top; 
+  background-color: $white; //lighten($grey-light,16%);
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-even;
+  align-items: space-even;
+ }
+
+.articles:nth-child(even) {
+  background-color: $hlcolor;
+  align-items: stretch;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.articles:nth-child(odd) {
+border-right: 1px solid darken($tsunami,10%);
+background-color: $white;
+}
+
+.pubbuttons {
+  display: flex;            /* new */
+  align-items: flex-start;      /* new */
+  justify-content: flex-start; /* new */
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.pubyear {
+color: $tsunami;
+width:auto;
+// text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+  font-weight: 700;
+}
+
+
+@media (max-width: $mobile) {
+  .pubs {
+display: grid;
+  grid-template-columns: 0px 1fr;
+      grid-row-gap: 0px;
+  }
+  .articles {
+    margin-bottom: 0px;
+  }
+  .articles:nth-child(odd) {
+  visibility: hidden;
+}
+  
 }

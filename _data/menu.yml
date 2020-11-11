@@ -9,8 +9,8 @@
       subhref: "/books/"
     - subtitle: "Theses"
       subhref: "/theses/"
-    - subtitle: "Research Topics"
-      subhref: "/topics/"
+#    - subtitle: "Research Topics"
+#      subhref: "/topics/"
 - title: "Group"
   href: "/team/"
   subcategories:

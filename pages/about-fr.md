@@ -14,7 +14,7 @@ title:
 </div>
 <div class="columntxt1" style="width: 100%; text-align:center;">
 <br>
-<img src="{{site.baseurl}}/images/harsha.jpeg" width="250px"/>
+<img src="{{site.baseurl}}/images/harsha.jpeg" width="300px"/>
 <p style="text-align:left;">
 Je suis un <a href="http://www.cnrs.fr/index.html">CNRS</a> Chercheur scientifique travaillant au <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> en
 <a href="http://www.ens.fr">Ecole Normale Supérieure</a> depuis mai 2016. Je travaille principalement à l'interface entre la physique des tremblements de terre et la mécanique des solides en faisant des excursions occasionnelles en mécanique des roches, tectonique et sismologie.
