@@ -23,10 +23,12 @@ get transportation options to reach ENS.
 <br><br>
 
 To reach my office take the elevators marked A, B or C in the plan below. Press 4 if you take 
-elevators A or B. Press 2 if you take C (<i>There is an ongoing 
-international manhunt for the genius who designed this mess</i>). <br><br>
+elevator A. Press 2 if you take elevators B or C. <i>There is an ongoing 
+international manhunt for the genius who designed this mess</i>. <br><br>
 
-I am in room E203 pointed by the arrow below. <br><br><i>If you are surrounded by
+I am in room E203 pointed by the arrow below. <br><br>
+
+<i>If you are surrounded by
 ugly orange walls you are almost there. We are actively looking for the 
 idiot who picked this color.</i>
 </p>
