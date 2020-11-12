@@ -44,7 +44,7 @@ title:
 		{% if pub.type == "article" %}
 			<span ><em>{{pub.journal}}</em><br></span>
 		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
-			in <span ><em>{{pub.booktitle}}</em><br></span>
+			<span >in <em>{{pub.booktitle}}</em><br></span>
 			eds. {{pub.editor}}
 		{% endif %}
 		
