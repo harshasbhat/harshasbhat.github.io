@@ -31,29 +31,29 @@ title:
 	</div>
 
    <div class="articles">
- 	  <span class="pubyear">{{pub.year}}</span>
+<!--  	  <span class="pubyear">{{pub.year}}</span> -->
 		
 		{% if pub.pdf %}
-			<a display:inline href="{{ base }}/files/{{pub.pdf}}" style="text-transform:capitalize;">{{pub.title}}</a>
+			<a display:inline href="{{ base }}/files/{{pub.pdf}}" style="text-transform:capitalize;font-size:100%"><span class="pubyear">{{pub.year}}:</span> {{pub.title}}</a>
 		{% else %} 
-			{{pub.title}}
+			<span class="pubyear">{{pub.year}}:</span> {{pub.title}}
 		{% endif %}
 
-		{{pub.author}}
+		<span style="font-size:85%">{{pub.author}}</span>
 		
 		{% if pub.type == "article" %}
-			<span ><em>{{pub.journal}}</em><br></span>
+			<span style="font-size:85%"><em>{{pub.journal}}</em><br></span>
 		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
-			<span >in <em>{{pub.booktitle}}</em><br></span>
-			eds. {{pub.editor}}
+			<span style="font-size:85%">in <em>{{pub.booktitle}}</em><br></span>
+			<span style="font-size:85%">eds. {{pub.editor}}</span>
 		{% endif %}
 		
 		{% if pub.doi %}
-			<a href="https://doi.org/{{pub.doi}}">doi:{{pub.doi}}</a>
+			<a href="https://doi.org/{{pub.doi}}" style="font-size:85%">doi:{{pub.doi}}</a>
 		{% endif %}
 		
 		{% if pub.arxiv %}
-			<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf">arXiv:{{pub.arxiv}}[physics.geo-ph]</a>
+			<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf" style="font-size:85%">arXiv:{{pub.arxiv}}[physics.geo-ph]</a>
 		{% endif %}
 	
 		{% if pub.readmore %} 

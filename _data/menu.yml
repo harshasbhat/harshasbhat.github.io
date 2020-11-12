@@ -23,15 +23,15 @@
   subcategories:
     - subtitle: "Short Biography"
       subhref: "/about/"
-    - subtitle: "Curriculum Vitae"
-      subhref: "/CV/CurriculumVitae.pdf"
-    - subtitle: "Google Scholar"
-      subhref: "http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"
-    - subtitle: "ORCID"
-      subhref: "https://orcid.org/0000-0003-0361-1854"
+#    - subtitle: "Curriculum Vitae"
+#      subhref: "/CV/CurriculumVitae.pdf"
+#    - subtitle: "Google Scholar"
+#      subhref: "http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"
+#    - subtitle: "ORCID"
+#      subhref: "https://orcid.org/0000-0003-0361-1854"
     - subtitle: "Contact"
       subhref: "/contact/"
-    - subtitle: "Website"
-      subhref: "/website/"
+#    - subtitle: "Website"
+#      subhref: "/website/"
       
 
