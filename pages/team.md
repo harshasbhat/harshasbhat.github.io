@@ -7,6 +7,23 @@ title:
 {% include new-window-fix.html %}
 
 <div class="pagewidth">
+
+<!-- 
+<div class="cardtxthl2" text-align="center">Faculty</div>
+<ul class="cards">
+<li class="cards_item">
+      <div class="card">
+      <img src="{{ base }}/images/harsha.jpeg" width="175px">
+        <div class="card_content">
+          <h6 class="card_title">Harsha S. Bhat</h6>
+          <img src="{{site.baseurl}}/images/blank.png" class="responsive"> 
+          <img src="{{site.baseurl}}/images/blank.png" class="responsive"> 
+        </div>
+      </div>
+</li>    
+</ul>
+ -->
+                
 <div class="cardtxthl2" text-align="center">Post Doctoral Researchers</div>
 <ul class="cards">
 {% for mem in site.data.team.postdoc %}

@@ -6,6 +6,7 @@
   
 $font-weight-normal: 300;
 $font-weight-bold:   600;
+$url-bold: 500;
 $base-font-family: "Poppins";
 $base-font-size:   12pt;
 $base-line-height: 1.5;
@@ -39,7 +40,7 @@ $dark-background:   darken($background, 5%);
 $text-color:        $black;
 $text-light-color:  $grey;
 $url-color:         $black;
-$url-hover-color:   $blue;
+$url-hover-color:   crimson;
 $line-color:        $grey-light;
 $menubackground:    $white;
 $submenubackground: $white;//darken($tsunami, 22%);//lighten($black,15%);
