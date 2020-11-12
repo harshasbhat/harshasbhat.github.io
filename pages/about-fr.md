@@ -5,16 +5,25 @@ title:
 ---
 
 {% include new-window-fix.html %}
+
 <div class="pagewidth">
+
 <div class="containermisc2">
 			<div id="sectionbtnlst2">
 			   <a href="{{site.baseurl}}/about/">English</a>
 			   <a href="{{site.baseurl}}/about-fr/">Français</a>
 			</div>
 </div>
+
+
 <div class="columntxt1" style="width: 100%; text-align:center;">
+<img src="{{site.baseurl}}/images/harsha.jpeg" width="300px"/> <br><br>
+<a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-4x"></i></a>
+<a href="https://orcid.org/0000-0003-0361-1854"><i class="ai ai-orcid-square ai-4x"></i></a>
+<a href="{{site.baseurl}}/CV/CurriculumVitae.pdf"><i class="ai ai-cv-square ai-4x"></i></a>
+</div>  
+
 <br>
-<img src="{{site.baseurl}}/images/harsha.jpeg" width="300px"/>
 <p style="text-align:left;">
 Je suis un <a href="http://www.cnrs.fr/index.html">CNRS</a> Chercheur scientifique travaillant au <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> en
 <a href="http://www.ens.fr">Ecole Normale Supérieure</a> depuis mai 2016. Je travaille principalement à l'interface entre la physique des tremblements de terre et la mécanique des solides en faisant des excursions occasionnelles en mécanique des roches, tectonique et sismologie.
@@ -30,10 +39,11 @@ le <a href="http://www.academie-sciences.fr/fr/Laureats/laureat-2018-du-prix-mic
 Vous pouvez regarder la cérémonie <a href="https://www.youtube.com/watch?v=OVaenZ39o_c&amp;t=2s&amp;frags=pl%2Cwn">ici.</a> J'ai récemment reçu un
 <a href="https://cordis.europa.eu/project/id/865411">European Research Council Consolidator Grant</a> pour un montant de 2.0M€.
 </p>
-<br>
-<img src="{{site.baseurl}}/images/combinedlogo.png" height="75px">
-</div>  
-</div>
 
+<br>
+<div class="columntxt1" style="width: 100%; text-align:center;">
+<img src="{{site.baseurl}}/images/combinedlogo.png" height="75px">
+</div>
+</div>
 
 {% include new-window-fix.html %}

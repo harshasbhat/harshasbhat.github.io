@@ -18,8 +18,13 @@ title:
 
 
 <div class="columntxt1" style="width: 100%; text-align:center;">
+<img src="{{site.baseurl}}/images/harsha.jpeg" width="300px"/> <br><br>
+<a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-4x"></i></a>
+<a href="https://orcid.org/0000-0003-0361-1854"><i class="ai ai-orcid-square ai-4x"></i></a>
+<a href="{{site.baseurl}}/CV/CurriculumVitae.pdf"><i class="ai ai-cv-square ai-4x"></i></a>
+</div>  
+
 <br>
-<img src="{{site.baseurl}}/images/harsha.jpeg" width="300px"/> 
 <p style="text-align:left;">
 I am a <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Research Scientist working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
 <a href="http://www.ens.fr">Ecole Normale Supérieure</a> since May, 2016. I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology. 
@@ -35,9 +40,12 @@ the <a href="http://www.academie-sciences.fr/fr/Laureats/laureat-2018-du-prix-mi
 You can watch the ceremony <a href="https://www.youtube.com/watch?v=OVaenZ39o_c&amp;t=2s&amp;frags=pl%2Cwn">here.</a> I was recently awarded an 
 <a href="https://cordis.europa.eu/project/id/865411">European Research Council Consolidator Grant</a> for the amount of 2.0M€.
 </p>
+
+
 <br>
+<div class="columntxt1" style="width: 100%; text-align:center;">
 <img src="{{site.baseurl}}/images/combinedlogo.png" height="75px">
-</div>  
+</div>
 </div>
 
 {% include new-window-fix.html %}
