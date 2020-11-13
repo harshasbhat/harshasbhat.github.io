@@ -21,29 +21,6 @@ background-color:$topicbtntxt;
 text-decoration:none;
 }
 
-#topicbtnlst a
-{ 
-font-size: 70%; 
-display: inline-block; 
-margin-top: 0.2em; 
-margin-right: 0.75em; 
-font-weight: 450; 
-border-radius: 0.7em; 
-padding: 6px 6px; 
-float:center; 
-color:$topicbtntxt; 
-background-color:$topicbtn; 
-}
-
-
-#topicbtnlst a:hover 
-{ 
-color:$topicbtn; 
-background-color:$topicbtntxt; 
-text-decoration:none;
-}
-
-
 #topicshl 
 { 
 font-size: 80%; 
@@ -59,66 +36,22 @@ text-shadow: 1px 1px $grey;
 }
 
 
+
 #sectionbtnlst
 { 
 font-size: 100%; 
 display: flex; 
-flex-direction: column;
+flex-direction: row;
 flex-wrap: wrap;
-width:100%
-// margin-top: 0.2em; 
-// margin-right: 0.75em; 
-// font-weight: 450; 
-// border-radius: 0.7em; 
-// padding: 6px 10px; 
-// color:$white; 
-// background-color:$harvard; 
+justify-content: space-even;
+padding: 0px 0px;
 }
 
 #sectionbtnlst a
 { 
-font-size: 100%; 
 display: flex; 
 flex-direction: row;
-flex-wrap: wrap;
-margin-top: 0.1em; 
-margin-right: 0.15em; 
-font-weight: $font-weight-bold; 
-border-radius: 0.7em; 
-padding: 6px 10px; 
-color:$white; 
-background-color:$tsunami; 
-// text-shadow: 1px 1px $grey;
-}
-
-
-#sectionbtnlst a:hover 
-{ 
-color: $tsunami; 
-background-color: $white; 
-text-decoration:none;
-text-shadow: 0px 0px $grey;
-
-}
-
-#sectionbtnlst2
-{ 
-font-size: 100%; 
-display: flex; 
-flex-direction: row;
-flex-wrap: wrap;
-// margin-right: 0.75em; 
-// font-weight: 450; 
-// border-radius: 0.7em; 
- padding: 0px 0px;
-// color:$white; 
-// background-color:$harvard; 
-}
-
-#sectionbtnlst2 a
-{ 
-display: flex; 
-flex-direction: row;
+justify-content: space-even;
 flex-wrap: wrap;
 margin-top: 0.0em; 
 font-weight: $font-weight-bold; 
@@ -129,24 +62,12 @@ background-color:$white;
 }
 
 
-#sectionbtnlst2 a:hover 
+#sectionbtnlst a:hover 
 { 
-color: $harvard; 
+color: $url-hover-color; 
 background-color: $white; 
 text-decoration:underline;
 }
-
-// Responsive columns */
-// @media screen and (max-width: $mobile) {
-// 
-// #sectionbtnlst {
-// display: flex;
-//     flex-direction: column;
-//   justify-content: center;
-//   align-items: left;
-//     align-content: center;
-// }
-// }
 
 #newsbtn a
 { 

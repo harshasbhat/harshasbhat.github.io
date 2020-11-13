@@ -6,151 +6,123 @@ title:
 
 {% include new-window-fix.html %}
 
-<div class="pagewidth">
-
-<!-- 
-<div class="cardtxthl2" text-align="center">Faculty</div>
-<ul class="cards">
-<li class="cards_item">
-      <div class="card">
-      <img src="{{ base }}/images/harsha.jpeg" width="175px">
-        <div class="card_content">
-          <h6 class="card_title">Harsha S. Bhat</h6>
-          <img src="{{site.baseurl}}/images/blank.png" class="responsive"> 
-          <img src="{{site.baseurl}}/images/blank.png" class="responsive"> 
-        </div>
-      </div>
-</li>    
-</ul>
- -->
-                
-<div class="cardtxthl2" text-align="center">Post Doctoral Researchers</div>
-<ul class="cards">
+ 
+<h3>Post Doctoral Researchers</h3>   
+<div class="teams">
 {% for mem in site.data.team.postdoc %}
-<li class="cards_item">
-      <div class="card">
-	    {% if mem.image %}
-        <img src="{{ base }}/images/team/{{mem.image}}" width="175px">
-        {% else %}
-        <img src="{{ base }}/images/team/dummy.jpg" width="175px">
-        {% endif %}
-        <div class="card_content">
-          <h6 class="card_title">{{mem.name}}</h6>
-          <h6 class="card_text3">{{mem.dates}} onwards</h6>
-          
-          {% if mem.web %} 
-          <a href="{{mem.web}}">
-          <img src="{{site.baseurl}}/images/web.png" class="responsive"> 
-          </a>
-          {% else %}
-          <img src="{{site.baseurl}}/images/blank.png" class="responsive"> 
-          {% endif %}  
-         
-          {% if mem.tweet %} 
-          <a href="https://twitter.com/{{mem.tweet}}">
-          <img src="{{site.baseurl}}/images/tweet.png" class="responsive"> 
-          </a>
-          {% else %}
-          <img src="{{site.baseurl}}/images/blank.png" class="responsive"> 
-          {% endif %}
-        
-        </div>
-      </div>
-</li>    
+<div class="member">
+
+	{% if mem.image %}
+		<img src="{{ base }}/images/team/{{mem.image}}" width="175px">
+	{% else %}
+		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
+	{% endif %}
+
+	<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+	<span style="font-size:85%">{{mem.dates}} onwards</span>
+
+	<div class="web">
+		{% if mem.web %} 
+			<a href="{{mem.web}}">
+			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true"></i>
+			</a>
+		{% else %}	
+			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true" style="color:white"></i>
+		{% endif %}  
+
+		{% if mem.tweet %} 
+			<a href="https://twitter.com/{{mem.tweet}}">
+			<i class="fa fa-twitter fa-lg fa-fw" aria-hidden="true"></i>
+			</a>
+		{% else %}	
+			<a href="#">
+			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true" style="color:white"></i>
+			</a>
+		{% endif %}  
+	</div>    
+	
+</div>
 {% endfor %}  
-</ul>
+</div>
 
 
-
-<div class="cardtxthl2" text-align="center">PhD Students</div>
-<ul class="cards">
+<h3>PhD Students</h3>
+<div class="teams">
 {% for mem in site.data.team.phd %}
-<li class="cards_item">
-      <div class="card">
-	    {% if mem.image %}
-        <img src="{{ base }}/images/team/{{mem.image}}" width="175px">
-        {% else %}
-        <img src="{{ base }}/images/team/dummy.jpg" width="175px">
-        {% endif %}
-        <div class="card_content">
-          <h6 class="card_title">{{mem.name}}</h6>
-          <h6 class="card_text3">{{mem.dates}} onwards</h6>
-          
-          {% if mem.web %} 
-          <a href="{{mem.web}}">
-          <img src="{{site.baseurl}}/images/web.png" class="responsive"> 
-          </a>
-          {% else %}
-          <img src="{{site.baseurl}}/images/blank.png" class="responsive"> 
-          {% endif %}  
-         
-          {% if mem.tweet %} 
-          <a href="https://twitter.com/{{mem.tweet}}">
-          <img src="{{site.baseurl}}/images/tweet.png" class="responsive"> 
-          </a>
-          {% else %}
-          <img src="{{site.baseurl}}/images/blank.png" class="responsive"> 
-          {% endif %}
-        
-        </div>
-      </div>
-</li>    
-    
+<div class="member">
+
+	{% if mem.image %}
+		<img src="{{ base }}/images/team/{{mem.image}}" width="175px">
+	{% else %}
+		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
+	{% endif %}
+
+	<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+	<span style="font-size:85%">{{mem.dates}} onwards</span>
+
+	<div class="web">
+		{% if mem.web %} 
+			<a href="{{mem.web}}">
+			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true"></i>
+			</a>
+		{% else %}	
+			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true" style="color:white"></i>
+		{% endif %}  
+
+		{% if mem.tweet %} 
+			<a href="https://twitter.com/{{mem.tweet}}">
+			<i class="fa fa-twitter fa-lg fa-fw" aria-hidden="true"></i>
+			</a>
+		{% else %}	
+			<a href="#">
+			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true" style="color:white"></i>
+			</a>
+		{% endif %}  
+	</div>    
+	
+</div>
 {% endfor %}  
-</ul>
+</div>
 
 {% if site.data.team.masters %}
 
-<div class="cardtxthl2" text-align="center">Masters Students</div>
-<ul class="cards">
+<h3>Masters Students</h3>
+<div class="teams">
 {% for mem in site.data.team.masters %}
-<li class="cards_item">
-      <div class="card">
-	    {% if mem.image %}
-        <img src="{{ base }}/images/team/{{mem.image}}" width="175px">
-        {% else %}
-        <img src="{{ base }}/images/team/dummy.jpg" width="175px">
-        {% endif %}
-        <div class="card_content">
-          <h6 class="card_title">{{mem.name}}</h6>
-          <span class="card_text3">{{mem.dates}} --</span>
-          
-          {% if mem.web %} 
-          <a href="{{mem.web}}">
-          <img src="{{site.baseurl}}/images/web.png" class="responsive"> 
-          </a>
-          {% else %}
-          <img src="{{site.baseurl}}/images/blank.png" class="responsive"> 
-          {% endif %}  
-         
-          {% if mem.tweet %} 
-          <a href="https://twitter.com/{{mem.tweet}}">
-          <img src="{{site.baseurl}}/images/tweet.png" class="responsive"> 
-          </a>
-          {% else %}
-          <img src="{{site.baseurl}}/images/blank.png" class="responsive"> 
-          {% endif %}
-        
-        </div>
-      </div>
-</li>    
-   
+<div class="member">
+
+	{% if mem.image %}
+		<img src="{{ base }}/images/team/{{mem.image}}" width="175px">
+	{% else %}
+		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
+	{% endif %}
+
+	<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+	<span style="font-size:85%">{{mem.dates}} onwards</span>
+
+	<div class="web">
+		{% if mem.web %} 
+			<a href="{{mem.web}}">
+			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true"></i>
+			</a>
+		{% else %}	
+			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true" style="color:white"></i>
+		{% endif %}  
+
+		{% if mem.tweet %} 
+			<a href="https://twitter.com/{{mem.tweet}}">
+			<i class="fa fa-twitter fa-lg fa-fw" aria-hidden="true"></i>
+			</a>
+		{% else %}	
+			<a href="#">
+			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true" style="color:white"></i>
+			</a>
+		{% endif %}  
+	</div>    
+	
+</div>
 {% endfor %}  
-</ul>
-{% endif %}
 </div>
 
-<style>
-.responsive {
-width: 100%; 
-height: 100%; 
-object-fit: contain; 
-padding-left: 5px;
-max-width: 20px;
-max-height: 100px;
-float: right;
-}
-</style>
-
-{% include new-window-fix.html %}
+{% endif %}  
 

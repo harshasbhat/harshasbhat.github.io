@@ -7,19 +7,16 @@ published: true
 {% include usemath.html %}
 
 <div class="pagewidth">
-<div class="containermisc2">
-			<div id="sectionbtnlst2">
-			   <a href="https://harshasbhat.github.io/files/AmlaniBhatSimons2020a.pdf">PDF</a>
-			   <a href="{{site.baseurl}}/tsunami-en/">English</a>
-			   <a href="{{site.baseurl}}/tsunami-fr/">Français</a>
-			</div>
+<div id="sectionbtnlst">
+   <a href="https://harshasbhat.github.io/files/AmlaniBhatSimons2020a.pdf">PDF</a>
+   <a href="{{site.baseurl}}/tsunami-en/">English</a>
+   <a href="{{site.baseurl}}/tsunami-fr/">Français</a>
 </div>
 
 <h2 align="center" style="color:#4181BD; font-size:18pt">Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake$^*$</h2>	
 
 <button class="accordion">Authors & Affiliations</button>
 <div class="panel">
-<div class="row111">
 <div class="columntxtauthors">
 
 Faisal Amlani,$^{1}$ Harsha S. Bhat,$^{2,*}$ Wim J. F. Simons,$^{3}$ Alexandre Schubnel,$^{2}$ Christophe Vigny,$^{2}$ Ares J. Rosakis,$^{4}$ Joni Efendi,$^5$ Ahmed Elbanna,$^6$ and Hasanuddin Z. Abidin$^{5,7}$ <br><br>
@@ -31,9 +28,9 @@ Faisal Amlani,$^{1}$ Harsha S. Bhat,$^{2,*}$ Wim J. F. Simons,$^{3}$ Alexandre S
 (5) BIG (Badan Informasi Geospasial / Geospatial Information Agency of Indonesia), Java, Indonesia, 
 (6) Department of Civil and Environmental Engineering, University of Illinois at Urbana Champaign, USA, 
 (7) Department of Geodesy and Geomatics Engineering, Institute of Technology Bandung, Indonesia<br> <br>
-* Corresponding author: <img src="{{site.baseurl}}/images/email.png" class="responsive"><br><br>
+* Corresponding author: 
+{% include image.html url="/images/email.png" width="150px" align="right" %}<br>
 Data Availability: <a href="https://doi.org/10.5281/zenodo.4066297"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4066297.svg" alt="DOI"></a>
-</div>
 </div>
 </div>
 
@@ -67,188 +64,120 @@ produire non seulement dans les environs d’une zone de subduction mais
 soit excessivement rapide. Cela suggère que la vitesse de rupture des
 séismes, et non seulement leur mécanisme, devrait être prise en compte
 dans l'évaluation du risque de tsunami.</b></p>
-
 </div>
 
 
 <button class="accordion">Les Sections</button>
 <div class="panel">
-<div class="containermisc">
-			<div id="sectionbtnlst">
-			   <a href="#one"> 1. Le Séisme </a>
-			   <a href="#two"> 2. Supershear Séismes </a>
-			   <a href="#three"> 3. Les Preuves </a>
-			   <a href="#four"> 4. Tsunami Classique </a>
-			   <a href="#five"> 5. Tsunami Supershear </a>
-			</div>
-</div>
+	<div id="sectionbtnlst">
+	   <a href="#one"> 1. Le Séisme </a>
+	   <a href="#two"> 2. Supershear Séismes </a>
+	   <a href="#three"> 3. Les Preuves </a>
+	   <a href="#four"> 4. Tsunami Classique </a>
+	   <a href="#five"> 5. Tsunami Supershear </a>
+	</div>
 </div>
 
 <h3 align="left" id="one">1. Le Séisme</h3>
-<div class="row111">
-<div class="columntxt">
-    <div class="cardimg"> 
-      <img src="{{site.baseurl}}/images/tsunami/setting.jpg" width="92%"/>     
-      <h6>The regional tectonic setting. Image from Ulrich et al. (2019)$^1$</h6> 
-    </div>    
-</div>    
 
-<div class="columnimg">
-    <div class="cardimg">
-      <img src="{{site.baseurl}}/images/tsunami/paluEQ.jpg"/>
-      <h6>The faults associated with the 2018 Palu earthquake</h6>
-    </div>    
-</div>
+{% include image.html url="/images/tsunami/setting.jpg" 
+caption="The regional tectonic setting and the faults associated with 
+the 2018 Palu earthquake. Image on left from Ulrich et al. (2019)$^1$." width="100%" align="center" %}
 
-</div>
+Le séisme de magnitude $M_w$ 7,5 de Palu Sulawesi (Indonésie), a
+frappé le 28 septembre 2018, causant des dégats  importants et de
+nombreuses pertes de vies humaines.  Ce séisme ne se produit pas
+sur une subduction mais sur une faille de glissement latéral qui
+traverse l’Île de Sulawesi. Ce tremblement de terre a également
+généré un tsunami qui a dévasté la ville de Palu. En règle
+générale, ce type de séisme (dit en décrochement) ne provoque pas
+de grands mouvements verticaux du sol et donc pas de Tsunami,
+contrairement à Tohoku, au Japon, lors du tremblement de terre de
+2011. La raison  d’un tel tsunami à Palu est donc un peu
+mystérieuse.  
 
-
-
-<div class="row111">
-
-
-    <div class="cardtxt"> 
-      Le séisme de magnitude $M_w$ 7,5 de Palu Sulawesi (Indonésie), a
-      frappé le 28 septembre 2018, causant des dégats  importants et de
-      nombreuses pertes de vies humaines.  Ce séisme ne se produit pas
-      sur une subduction mais sur une faille de glissement latéral qui
-      traverse l’Île de Sulawesi. Ce tremblement de terre a également
-      généré un tsunami qui a dévasté la ville de Palu. En règle
-      générale, ce type de séisme (dit en décrochement) ne provoque pas
-      de grands mouvements verticaux du sol et donc pas de Tsunami,
-      contrairement à Tohoku, au Japon, lors du tremblement de terre de
-      2011. La raison  d’un tel tsunami à Palu est donc un peu
-      mystérieuse.  
-    </div>    
-    
-</div>
 <h4 align="center">Cependant, il s'agissait d'un séismes "Supershear"</h4>    
 
-<hr>
 <h3 align="left" id="two">2. Supershear Séismes</h3>
 
-<div class="videoWrapper">
-  <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/hMHSsEobbz0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>    
-    
+{% include video.html id="hMHSsEobbz0"%}    
+
+<br><br>
+
+Lorsqu'un tremblement de terre commence à ouvrir une faille, le
+front de propagation de la rupture (le chariot de la fermeture
+éclair) émet constamment des ondes de pression et de cisaillement
+dans le milieu. Les ondes P se déplacent à une vitesse d'environ 5
+km/s (18000 km/h) et les ondes S à environ 3,5 km/s (12600 km/h).
+Dans le cas d’un séisme typique normal, la vitesse du front est
+inférieure à celle des ondes S. On les appelle des séismes «
+subshear ». Pour les séismes de type « Supershear », en revanche,
+le front de la rupture se déplace plus rapidement que les ondes de
+cisaillement. Lorsque la barrière de vitesse des ondes S est
+franchie, des fronts de choc linéaires se manifestent. Ils sont
+exactement semblables au boum sonique que nous entendons lorsqu’un
+avion supersonique franchi le mur du son (dépasse la vitesse du
+son).
 
 
-<div class="row111">
-
-
-    <div class="cardtxt"> 
-      Lorsqu'un tremblement de terre commence à ouvrir une faille, le
-      front de propagation de la rupture (le chariot de la fermeture
-      éclair) émet constamment des ondes de pression et de cisaillement
-      dans le milieu. Les ondes P se déplacent à une vitesse d'environ 5
-      km/s (18000 km/h) et les ondes S à environ 3,5 km/s (12600 km/h).
-      Dans le cas d’un séisme typique normal, la vitesse du front est
-      inférieure à celle des ondes S. On les appelle des séismes «
-      subshear ». Pour les séismes de type « Supershear », en revanche,
-      le front de la rupture se déplace plus rapidement que les ondes de
-      cisaillement. Lorsque la barrière de vitesse des ondes S est
-      franchie, des fronts de choc linéaires se manifestent. Ils sont
-      exactement semblables au boum sonique que nous entendons lorsqu’un
-      avion supersonique franchi le mur du son (dépasse la vitesse du
-      son).
-    </div>    
-    
-</div>
-
-<hr>
 <h3 align="left" id="three">3. Les Preuves</h3>
 
-<div class="row111">
-    <div class="cardimg" style = "max-width:800px">
-      <img src="{{site.baseurl}}/images/tsunami/GPS.png" width="100%"/>
-      <h6>Ground Velocity recorded by the PALP GPS station</h6>
-    </div>    
-</div>
+{% include image.html url="/images/tsunami/GPS.png" 
+caption="Ground Velocity recorded by the PALP GPS station." width="100%" align="center" %}
 
-<div class="row111">
-    <div class="cardtxt"> 
-      Les séismes de type "Supershear" ont une signature unique de
-      mouvement du sol. La façon dont le sol se déplace parallèlement et
-      perpendiculairement à la faille nous renseigne sur la vitesse à
-      laquelle le front de la rupture sismique s'est déplacé. Le
-      déplacement de la station GPS PALP située à l’aéroport de Palu à
-      proximité de la faille, monitoré en continu durant la propagation
-      de la rupture, révèle la nature « supershear » du séisme du 28
-      septembre 2018 : un pic de déplacement parallèle à la faille de
-      l’ordre de 1 m/s prédit pour une rupture supershear et absent dans
-      le cas d’une rupture standard subshear.   C'est  la première fois
-      qu'un tremblement de terre de type Supershear est détecté à l'aide
-      d'une station GPS.
-    </div>    
-</div>
+<br><br>
 
-<hr>
+Les séismes de type "Supershear" ont une signature unique de
+mouvement du sol. La façon dont le sol se déplace parallèlement et
+perpendiculairement à la faille nous renseigne sur la vitesse à
+laquelle le front de la rupture sismique s'est déplacé. Le
+déplacement de la station GPS PALP située à l’aéroport de Palu à
+proximité de la faille, monitoré en continu durant la propagation
+de la rupture, révèle la nature « supershear » du séisme du 28
+septembre 2018 : un pic de déplacement parallèle à la faille de
+l’ordre de 1 m/s prédit pour une rupture supershear et absent dans
+le cas d’une rupture standard subshear. <br><br>
+
+C'est  la première fois qu'un tremblement de terre de type Supershear
+est détecté à l'aide d'une station GPS.
+
 <h3 align="left"  id="four">4. Génération Classique de Tsunamis</h3>
 
-<div class="videoWrapper">
-<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/4Xebwzb3dDE?start=12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>    
-<h6>Classical Tsunami Generation. Courtesy: Caltech Tectonics Observatory</h6>
+{% include video.html id="4Xebwzb3dDE?start=12" caption="Classical Tsunami Generation. Courtesy: Caltech Tectonics Observatory"%}
 
-<div class="row111">
-    <div class="cardtxt"> 
-      Les tsunamis classiques sont générés par le déplacement vertical
-      du fond marin autour de la faille. Les tremblements de terre de la
-      zone de subduction sont des sources typiques de ces tsunamis. Les
-      tremblements de terre de type "Strike-Slip", en revanche, ne
-      soulèvent pas autant le fond de l'océan puisqu’il s’agit de
-      glissement essentiellement horizontaux.
-    </div>    
-</div>
+
+Les tsunamis classiques sont générés par le déplacement vertical
+du fond marin autour de la faille. Les tremblements de terre de la
+zone de subduction sont des sources typiques de ces tsunamis. Les
+tremblements de terre de type "Strike-Slip", en revanche, ne
+soulèvent pas autant le fond de l'océan puisqu’il s’agit de
+glissement essentiellement horizontaux.
+
 <h4 align="right">Sauf quand il s'agit de tremblements de terre de type "Supershear".</h4>    
 
-<hr>
 <h3 align="left"  id="five">5. Génération de Tsunamis Par Des Séismes de Type "Supershear"</h3>
 
+{% include video.html id="3fJfKwOEzQ4"%}
 
-<div class="videoWrapper">
-  <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/3fJfKwOEzQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>    
+<br>
 
-<div class="row111">
-    <div class="cardtxt"> 
-      Les ruptures de cisaillement produisent des fronts de choc. Ces
-      fronts de choc transportent l'énergie de la faille sur de grandes
-      distances et sans grande perte. Dans ce travail, nous montrons que
-      même si les déplacements sont faibles, le simple fait que les
-      fronts de choc affectent une grande région suffit à générer un
-      tsunami. Au final, la forme de la baie de Palu, en « baignoire »,
-      a encore contribué à amplifier le tsunami ainsi généré.
-    </div>  
-</div>
-   
+Les ruptures de cisaillement produisent des fronts de choc. Ces
+fronts de choc transportent l'énergie de la faille sur de grandes
+distances et sans grande perte. Dans ce travail, nous montrons que
+même si les déplacements sont faibles, le simple fait que les
+fronts de choc affectent une grande région suffit à générer un
+tsunami. Au final, la forme de la baie de Palu, en « baignoire »,
+a encore contribué à amplifier le tsunami ainsi généré.
 
+<br><br>
 <hr>
 <div class="columntxtauthors">
 $^*$ <a href="https://harshasbhat.github.io/files/AmlaniBhatSimons2020a.pdf"> F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin, accepted in principle Nature Geoscience, arXiv:1910.14547v3[physics.geo-ph] (2020)</a> <br><br>
 $^1$ <a href="https://doi.org/10.1007/s00024-019-02290-5">Ulrich et al. (2019) Coupled, Physics-Based Modeling Reveals Earthquake Displacements are Critical to the 2018 Palu, Sulawesi Tsunami, Pure Appl. Geophys. </a><br><br>
 $^2$ <a href="https://www.nytimes.com/2018/09/28/world/asia/tsunami-palu-indonesia-earthquake.html">NYTimes: Tsunami and Earthquake in Indonesia Kill Nearly 400, Officials Say</a>
 </div>
-</div>
-<script type="text/javascript">
-  var v1 = document.getElementById("SR"); 
-  v1.playbackRate = 0.15; 
-  var v2 = document.getElementById("SS"); 
-  v2.playbackRate = 0.15; 
-</script>
-
-<style>
-.responsive {
-  width: 150px;
-  max-width: 300px;
-  height: auto;
-}
-</style>
 {% include new-window-fix.html %}
-[hdr]: files/Bhat2021a.pdf
-[aftershocks]: files/JaraBruhatAntoine2020a.pdf
-[tsunami]: files/AmlaniBhatSimons2020a.pdf
-[erosion]: files/Jeandet-RibesCubasBhat2020a.pdf
+</div>
 
 
 

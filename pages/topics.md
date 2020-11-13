@@ -96,6 +96,4 @@ Listed below are my publications sorted by various research topics.<br><br>
 
 </div>
 
-{% include new-window-fix.html %}
-
 [pubs]: /articles/

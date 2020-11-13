@@ -31,12 +31,11 @@ title:
 	</div>
 
    <div class="articles">
-<!--  	  <span class="pubyear">{{pub.year}}</span> -->
 		
 		{% if pub.pdf %}
-			<a display:inline href="{{ base }}/files/{{pub.pdf}}" style="text-transform:capitalize;font-size:100%"><span class="pubyear">{{pub.year}}:</span> {{pub.title}}</a>
+			<a display:inline href="{{site.baseurl}}/files/{{pub.pdf}}" style="text-transform:capitalize;font-size:100%"><span class="pubyear">{{pub.year}}: {{pub.title}}</span></a>
 		{% else %} 
-			<span class="pubyear">{{pub.year}}:</span> {{pub.title}}
+			<span class="pubyear">{{pub.year}}:{{pub.title}}</span> 
 		{% endif %}
 
 		<span style="font-size:85%">{{pub.author}}</span>
@@ -78,7 +77,3 @@ title:
 </div>  
 {% assign j = j | minus:1 %}
 {% endfor %}
-
-
-
-{% include new-window-fix.html %}

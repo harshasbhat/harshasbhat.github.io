@@ -1,86 +1,37 @@
-	div.pagewidthpub 
-	{ 
+div.pagewidthpub 
+{ 
 	max-width: 900px; 
 	margin: auto; 
-	}
-
-   .lefty {
-        width: 70%;
-        display: inline-block;
-        text-align: left;
-        vertical-align: middle;
-        padding:10px;
-        border: 0px solid lighten($harvard, 0.5%);
-        font-size: 95%;
-        background-color: $hlcolor;
-        border-radius: 10px;
-        
-    }
-    
-    .righty {
-        display: inline-block;
-        width: 20%;
-        padding-left: 0px;
-        padding-top: 0px;
-        text-align: center;  
-        vertical-align: middle;
-        border: 0.0px solid lighten($harvard, 0.5%);           
-    }
-    
-    .group:after {
-        content:"";
-        display: table;
-        clear: both;
-        vertical-align: middle;
-    }
-    
-    .group {
-        padding-bottom:20px;
-		border-radius: 0.0em;
-        vertical-align: middle;
-  		border: 0.0px solid $line-color;
-  		margin:0px;
 }
 
 .topicshl {
-		//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-		padding: 8px;
-		text-align: center;
-		margin-bottom:10px;
-		margin-top:10px;
-		border-radius: 0.1em;
-		font-size: 125%;		
-		font-weight:600;
-		color: $harvard;
+	//   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 8px;
+	text-align: center;
+	margin-bottom:10px;
+	margin-top:10px;
+	border-radius: 0.1em;
+	font-size: 125%;		
+	font-weight:600;
+	color: $harvard;
 }
 
 .responsivepubimg {
-width: 180px; 
-object-fit: contain; 
-max-height: 180px;
-align:center;
-vertical-align: middle;
+	width: 180px; 
+	object-fit: contain; 
+	max-height: 180px;
+	align:center;
+	vertical-align: middle;
 }
 
 .responsivepubimg1 {
-width: 180px; 
-object-fit: cover; 
-max-height: 180px;
-// max-height: 120px;
-align:center;
-vertical-align: middle;
-// box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
-
-}
-
-
-@media screen and (max-width: $mobile) {
-	.lefty, .righty {
-		float: none;
-		width: auto;
-	}
-	.righty{
-	display:none;}
+	width: 180px; 
+	object-fit: cover; 
+	max-height: 180px;
+	// max-height: 120px;
+	align:center;
+	vertical-align: middle;
+	// box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
 
 .dropbtn {
@@ -129,10 +80,6 @@ vertical-align: middle;
   background-color: $black;
 }
 
-
-// 
-// 
-// 
 .pubs {
   display: grid;
   grid-template-columns: 200px 1fr;
@@ -168,6 +115,14 @@ border-right: 1px solid darken($tsunami,10%);
 background-color: $white;
 }
 
+.articles a {
+  font-weight: normal; //lighten($grey-light,16%);
+ }
+
+.articles  a:hover {
+  text-color: $url-hover-color; //lighten($grey-light,16%);
+ }
+
 .pubbuttons {
   display: flex;            /* new */
   align-items: flex-start;      /* new */
@@ -177,12 +132,10 @@ background-color: $white;
 }
 
 .pubyear {
-color: $tsunami;
 width:auto;
 // text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
-  font-weight: 700;
+font-weight: 600;
 }
-
 
 @media (max-width: $mobile) {
   .pubs {

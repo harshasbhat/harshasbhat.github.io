@@ -4,28 +4,18 @@ permalink: /about/
 title: 
 ---
 
-{% include new-window-fix.html %}
-
-
-<div class="pagewidth">
-
-<div class="containermisc2">
-			<div id="sectionbtnlst2">
-			   <a href="{{site.baseurl}}/about/">English</a>
-			   <a href="{{site.baseurl}}/about-fr/">Français</a>
-			</div>
+<div id="sectionbtnlst">
+   <a href="{{site.baseurl}}/about/">English</a>
+   <a href="{{site.baseurl}}/about-fr/">Français</a>
 </div>
+<br>
+{% include image.html url="/images/harsha.jpeg" width="250px" align="left" %}
 
-
-<div class="columntxt1" style="width: 100%; text-align:center;">
-<img src="{{site.baseurl}}/images/harsha.jpeg" width="300px"/> <br><br>
+<p>
 <a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-4x"></i></a>
 <a href="https://orcid.org/0000-0003-0361-1854"><i class="ai ai-orcid-square ai-4x"></i></a>
 <a href="{{site.baseurl}}/CV/CurriculumVitae.pdf"><i class="ai ai-cv-square ai-4x"></i></a>
-</div>  
-
-<br>
-<p style="text-align:left;">
+<br><br>
 I am a <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Research Scientist working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
 <a href="http://www.ens.fr">Ecole Normale Supérieure</a> since May, 2016. I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology. 
 I am a solid mechanician and earthquake source physicist by training. I obtained my B. E. in Civil Engineering from Karnataka Regional Engineering College in India (now called the 
@@ -41,11 +31,6 @@ You can watch the ceremony <a href="https://www.youtube.com/watch?v=OVaenZ39o_c&
 <a href="https://cordis.europa.eu/project/id/865411">European Research Council Consolidator Grant</a> for the amount of 2.0M€.
 </p>
 
+<br><br>
 
-<br>
-<div class="columntxt1" style="width: 100%; text-align:center;">
-<img src="{{site.baseurl}}/images/combinedlogo.png" height="75px">
-</div>
-</div>
-
-{% include new-window-fix.html %}
+{% include image.html url="/images/combinedlogo.png" height="75px" align="center" %}
