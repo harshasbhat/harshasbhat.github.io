@@ -26,8 +26,6 @@ use it to generate the research [topics] page.
 
 > Last updated on {{ site.time | date: '%B %-d, %Y' }}
 
-{% include new-window-fix.html %}
-
 
 
 [gc]: https://gchauras.github.io

@@ -1,116 +1,42 @@
-.cards {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center ;
-  align-content: flex-start;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding-bottom: 10px;
-  border: 0px solid $black;
+.teams {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-row-gap: 10px;
+  grid-column-gap: 0px;
+  padding:2px;
+  margin-top:10px;
 }
 
-.cards_item {
-  display: flex;
-  flex: 20%; 
-  padding: 5px;
-  align-items: flex-start;
-  justify-content: center;
-  align-content: flex-start;
-  border: 0.0px solid lighten($black, 0.5%);
-//   background-color: $cardcolor;
-}
-
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: $mobile) {
-  .cards {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-    align-content: center;
-  }
-  .cards_item {
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  }
-}
-
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: $ipad) {
-  .cards_item {
-flex: 15%; 
-  }
-}
-
-.card {
-  background-color: $cardcolor;
-  border-radius: 0.0rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+.member {
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  align-self: top; 
+  background-color: $white; //lighten($grey-light,16%);
+  border-radius: 0px;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-  margin:0px;
-}
+  justify-content: space-between;
+  align-items: center;
+ }
 
-.card_content {
-  padding: 0.5rem;
-  background: $cardcolor;
-}
-
-.card_title {
-  color: $cardname;
-  font-size: 80%;
-  font-weight: $font-weight-bold;
-  letter-spacing: 0.6px;
-  margin-bottom: 1.25rem;  
-  text-align:center;
-  text-transform: capitalize;
-  margin: 0px;
-  vertical-align: top;
+.web {
+  display: flex;    
+  flex-direction: row;        /* new */
+  align-items: flex-start;      /* new */
+  justify-content: space-even; /* new */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid $grey-light;
 }
 
 
-.card_text {
-  color: $black;
-  line-height: 1.5;
-  margin-bottom: 1.25rem;    
-  font-weight: $font-weight-normal;
-  text-align:center;
-  margin: 0px;
-  vertical-align: top;
-  font-style: italic;
+@media (max-width: $mobile) {
+  .teams {
+    display: flex;
+    flex-direction: column;
+  }
+  .member {
+    margin-bottom: 10px;
+  }
 }
-.card_text2 {
-  color: $black;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  margin-bottom: 1.25rem;    
-  font-weight: $font-weight-bold;
-  font-size:75%;
-  text-align:center;
-  margin: 0px;
-  vertical-align: top;
-}
-.card_text3 {
-  color: $carddate;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  padding-bottom: 10px;    
-  font-weight: $font-weight-bold;
-  font-size:75%;
-  text-align:center;
-  margin: 0px;
-  vertical-align: top;
-}
-
-.responsivewebimg {
-width: 100%; 
-height: 100%; 
-object-fit: contain; 
-padding-left: 5px;
-max-width: 15px;
-max-height: 100px;
-float: right;
-}
-

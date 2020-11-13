@@ -7,114 +7,102 @@ title:
 {% include new-window-fix.html %}
 
 
-<div class="cardtxthl2" text-align="center">Former Post Doctoral Researchers</div>
-<ul class="cards">
+<h3>Former Post Doctoral Researchers</h3>
+<div class="teams">
 {% for mem in site.data.oldteam.postdoc %}
-<li class="cards_item">
-      <div class="card">
-	    {% if mem.image %}
-        <img src="{{ base }}/images/team/{{mem.image}}" width="200px">
-        {% else %}
-        <img src="{{ base }}/images/team/dummy.jpg" width="200px">
-        {% endif %}
-        <div class="card_content">
-          {% if mem.web %} 
-          <a href="{{mem.web}}" style="text-align: center"><h6 class="card_title">{{mem.name}}</h6></a> 
-          {% else %}
-          <h6 class="card_title">{{mem.name}}</h6>
-          {% endif %}
-          {% if mem.post %}
-          <h6 class="card_text3">{{mem.post}}</h6>
-          {% else %}
-          <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="10%" align="right"> 
-          {% endif %}          
-        </div>
-      </div>
-</li>    
-{% endfor %}  
-</ul>
+<div class="member">
 
-<div class="cardtxthl2" text-align="center">Former PhD Students</div>
-<ul class="cards">
+	{% if mem.image %}
+		<img src="{{ base }}/images/team/{{mem.image}}" width="175px">
+	{% else %}
+		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
+	{% endif %}
+
+	{% if mem.web %} 	
+		<a href="{{mem.web}}">
+			<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+		</a>
+	{% else %}	
+		<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+	{% endif %}  
+
+	<span style="font-size:85%">{{mem.post}}</span>
+	
+</div>
+{% endfor %}  
+</div>
+
+<h3>Former PhD Students</h3>
+<div class="teams">
 {% for mem in site.data.oldteam.phd %}
-<li class="cards_item">
-      <div class="card">
-	    {% if mem.image %}
-        <img src="{{ base }}/images/team/{{mem.image}}" width="200px">
-        {% else %}
-        <img src="{{ base }}/images/team/dummy.jpg" width="200px">
-        {% endif %}
-        <div class="card_content">
-          {% if mem.web %} 
-          <a href="{{mem.web}}" style="text-align: center"><h6 class="card_title">{{mem.name}}</h6></a> 
-          {% else %}
-          <h6 class="card_title">{{mem.name}}</h6>
-          {% endif %}
-          {% if mem.post %}
-          <h6 class="card_text3">{{mem.post}}</h6>
-          {% else %}
-          <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="10%" align="right"> 
-          {% endif %}          
-        </div>
-      </div>
-</li>    
-{% endfor %}  
-</ul>
+<div class="member">
 
-<div class="cardtxthl2" text-align="center">Former Masters Students</div>
-<ul class="cards">
+	{% if mem.image %}
+		<img src="{{ base }}/images/team/{{mem.image}}" width="175px">
+	{% else %}
+		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
+	{% endif %}
+
+	{% if mem.web %} 	
+		<a href="{{mem.web}}">
+			<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+		</a>
+	{% else %}	
+		<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+	{% endif %}  
+
+	<span style="font-size:85%">{{mem.post}}</span>
+	
+</div>
+{% endfor %}  
+</div>
+
+<h3>Former Masters Students</h3>
+<div class="teams">
 {% for mem in site.data.oldteam.masters %}
-<li class="cards_item">
-      <div class="card">
-	    {% if mem.image %}
-        <img src="{{ base }}/images/team/{{mem.image}}" width="200px">
-        {% else %}
-        <img src="{{ base }}/images/team/dummy.jpg" width="200px">
-        {% endif %}
-        <div class="card_content">
-          {% if mem.web %} 
-          <a href="{{mem.web}}" style="text-align: center"><h6 class="card_title">{{mem.name}}</h6></a> 
-          {% else %}
-          <h6 class="card_title">{{mem.name}}</h6>
-          {% endif %}
-          {% if mem.post %}
-          <h6 class="card_text3">{{mem.post}}</h6>
-          {% else %}
-          <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="9.5%" align="right"> 
-          {% endif %}          
-        </div>
-      </div>
-</li>    
-{% endfor %}  
-</ul>
+<div class="member">
 
-<div class="cardtxthl2" text-align="center">Former Undergraduate Students</div>
-<ul class="cards">
+	{% if mem.image %}
+		<img src="{{ base }}/images/team/{{mem.image}}" width="175px">
+	{% else %}
+		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
+	{% endif %}
+
+	{% if mem.web %} 	
+		<a href="{{mem.web}}">
+			<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+		</a>
+	{% else %}	
+		<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+	{% endif %}  
+
+	<span style="font-size:85%">{{mem.post}}</span>
+	
+</div>
+{% endfor %}  
+</div>
+
+<h3>Former Undergraduate Students</h3>
+<div class="teams">
 {% for mem in site.data.oldteam.undergrad %}
-<li class="cards_item">
-      <div class="card">
-	    {% if mem.image %}
-        <img src="{{ base }}/images/team/{{mem.image}}" width="200px">
-        {% else %}
-        <img src="{{ base }}/images/team/dummy.jpg" width="200px">
-        {% endif %}
-        <div class="card_content">
-          {% if mem.web %} 
-          <a href="{{mem.web}}" style="text-align: center"><h6 class="card_title">{{mem.name}}</h6></a> 
-          {% else %}
-          <h6 class="card_title">{{mem.name}}</h6>
-          {% endif %}
-          {% if mem.post %}
-          <h6 class="card_text3">{{mem.post}}</h6>
-          {% else %}
-          <img src="{{site.baseurl}}/images/blank.png" class="responsive" width="10%" align="right"> 
-          {% endif %}          
-        </div>
-      </div>
-</li>    
+<div class="member">
+
+	{% if mem.image %}
+		<img src="{{ base }}/images/team/{{mem.image}}" width="175px">
+	{% else %}
+		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
+	{% endif %}
+
+	{% if mem.web %} 	
+		<a href="{{mem.web}}">
+			<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+		</a>
+	{% else %}	
+		<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+	{% endif %}  
+
+	<span style="font-size:85%">{{mem.post}}</span>
+	
+</div>
 {% endfor %}  
-</ul>
-
-
-{% include new-window-fix.html %}
-
+</div>

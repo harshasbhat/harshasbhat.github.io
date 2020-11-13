@@ -74,7 +74,7 @@ label.jm-menu-btn:hover {
 }
 
 .jmenu a:hover {
-  color: $menulink; /* White */
+  color: $url-hover-color; /* White */
 }
 
 /* Submenu Items */
@@ -95,7 +95,7 @@ label.jm-menu-btn:hover {
 
 .jm-dropdown:hover a {
   /* Make top-level menu item stay highlighted when hovering over children */
-  color: $menulink; 
+  color: $url-hover-color; 
 }
 
 .jm-dropdown ul {

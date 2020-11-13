@@ -5,19 +5,13 @@ permalink: /contact/
 published: true
 ---
 
-<div class="pagewidth">
-<p style="text-align:center">
 Harsha S. Bhat<br>
 Laboratoire de Géologie<br>
 24 rue Lhomond<br>
-75005 Paris, France
-<br>
-<img src="{{site.baseurl}}/images/email.png" width="180px"/>
-</p>
-<br>
+75005 Paris, France<br>
+{% include image.html url="/images/email.png" width="180px" align="left" %}
 <hr>
 
-<p>
 The <a href="https://www.ratp.fr/en/">Paris Metro Website</a> is excellent to 
 get transportation options to reach ENS.
 <br><br>
@@ -31,18 +25,7 @@ I am in room E203 pointed by the arrow below. <br><br>
 <i>If you are surrounded by
 ugly orange walls you are almost there. We are actively looking for the 
 idiot who picked this color.</i>
-</p>
+
 <br>
-<img src="{{site.baseurl}}/images/directions2.jpg" class="center1">
-</div>
+{% include image.html url="/images/directions2.jpg" width="80%" align="center" %}
 
-{% include new-window-fix.html %}
-
-<style>
-.center1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-</style>

@@ -8,7 +8,9 @@ dl, dd, ol, ul, figure {
 }
 
 p {
-    margin: 10px 10px;
+    margin:0px;
+    margin-left: 10px;
+    
 //     padding: 10px 10px;
     text-align: left;
 
@@ -45,7 +47,7 @@ font-size:   125%;
 
 h3 {
 text-decoration: none;
-padding-left: 20px;
+padding-left: 5px;
 margin: 0px;
 color: $textcolor2;
 border: 0.0px solid lighten(#0d667f, 15.5%);
@@ -88,7 +90,6 @@ body {
     color:       $text-color;
     background-color: $background;
    -webkit-text-size-adjust: 100%;
-    text-align: justified
 }
 
 // bold elements

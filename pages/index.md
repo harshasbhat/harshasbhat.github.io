@@ -84,6 +84,3 @@ published: true
 {% endif %}     
 {% endfor %} 
 </div>
-
-
-{% include new-window-fix.html %}

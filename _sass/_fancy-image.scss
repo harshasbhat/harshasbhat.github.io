@@ -1,15 +1,23 @@
 .captioned-img {
     text-align: center;
     border: none;
-    font-size: $vsmall-font-size;
+    font-size: $small-font-size;
     overflow: hidden;
 }
 
 .captioned-img img {
     display: block;
     margin: auto auto;
-    padding: 1em 1em 1em 1em;
+    padding-bottom: 10px;
     border: none;
+}
+
+.captions {
+text-align:center; 
+font-size:$small-font-size;
+padding-top:5px;
+padding-bottom:5px;
+border-bottom:1px solid $grey-light;
 }
 
 .aligncenter {
@@ -19,15 +27,17 @@
 }
 .alignleft {
     float: left;
-    margin-top: -3em;
-    margin-right: 10em;
-    margin-bottom: 3em;
+//     margin-top: -3em;
+    margin-right: 1em;
+    margin-left: 10px;
+//     margin-bottom: 3em;
 }
 .alignright {
     float: right;
-    margin-top: 0;
+//     margin-top: 0;
     margin-left: 1em;
-    margin-bottom: 0.75em;
+    margin-right: 10px;
+//     margin-bottom: 0.75em;
 }
 @include media-query($mobile) {
     .alignleft, .alignright {
