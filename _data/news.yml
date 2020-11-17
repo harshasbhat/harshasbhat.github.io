@@ -11,11 +11,12 @@ trigger a tsunami."
     - hl: "Congratulations Kurama"
       txt: "Dr. Kurama Okubo, former member of the group, recently won a
 prestigious award given by Comité National Français de Géodésie et
-Géophysique."
+Géophysique. You can watch the ceremony (link below) on Nov. 18 starting at 9:30 am Paris time."
       closing: "We are proud of you Kurama!"
       image: team/kurama.jpg
       url: https://kura-okubo.github.io/
       readmore: http://www.geosciences.ens.fr/prix-de-geophysique-2020/
+      watch: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjYxNTQyNTgtZGNjNS00MGI5LTg5NDItZWVmMWFiZmExZmI3%40thread.v2/0?context=%7b%22Tid%22%3a%223876b373-7e2c-4857-b024-53326b5b4bb2%22%2c%22Oid%22%3a%22c3bfaa2b-e685-4364-9fb1-e66da700e1cb%22%7d
     - hl: "Welcome to the group Joseph"
       txt: "Joseph Flores Cuba has just started his doctoral work at Sorbonne
 University co-supervised between Dr. Marion Thomas, Prof. Laurent
