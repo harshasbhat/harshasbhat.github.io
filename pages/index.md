@@ -73,11 +73,19 @@ published: true
 		<a href="{{news.readmore}}">READ MORE ...</a>
 		</div>
 		{% endif %}
+		
 		{% if news.pdf %} 
 		<div id="newsbtn">
 		<a href="{{site.baseurl}}/files/{{news.pdf}}">PDF</a>
 		</div>
 		{% endif %}
+		
+		{% if news.watch %} 
+		<div id="watchbtn">
+		<a href="{{news.watch}}">WATCH!</a>
+		</div>
+		{% endif %}
+		
 	</div>
 </article>
 
