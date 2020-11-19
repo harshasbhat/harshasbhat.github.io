@@ -3,7 +3,7 @@ publications:
       author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin
       year:    2020
       journal:    to appear in Nat. Geosci.
-      pdf: 		AmlaniBhatSimons2020a.pdf
+#      pdf: 		AmlaniBhatSimons2020a.pdf
       doi:		
       pubnum:     	36
       type:         article  
@@ -11,10 +11,10 @@ publications:
       publisher:	
       editor:   
       school:	
-      arxiv: 	1910.14547v3
+#      arxiv: 	1910.14547v3
       topics: "supershear, tsunami, numerical models, FCM"	
       img: tsunami.png
-      readmore: tsunami-en/
+      readmore: tsunami/
     - title:     "Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle"
       author:    L. Jeandet-Ribes, N. Cubas, H. S. Bhat & P. Steer
       year:    2020
