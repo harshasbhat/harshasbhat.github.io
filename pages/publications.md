@@ -47,14 +47,16 @@ title:
 			<span style="font-size:85%">eds. {{pub.editor}}</span>
 		{% endif %}
 		
+		<div class="pubbuttons">
 		{% if pub.doi %}
-			<a href="https://doi.org/{{pub.doi}}" style="font-size:85%">doi:{{pub.doi}}</a>
+			<a href="https://doi.org/{{pub.doi}}" style="font-size:85%">doi:{{pub.doi}}</a>&nbsp;&nbsp; 
 		{% endif %}
 		
 		{% if pub.arxiv %}
 			<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf" style="font-size:85%">arXiv:{{pub.arxiv}}[physics.geo-ph]</a>
 		{% endif %}
-	
+		</div>
+		
 		{% if pub.readmore %} 
 			<div id="newsbtn">
 				<a href="{{ base }}/{{pub.readmore}}">READ MORE ...</a>
