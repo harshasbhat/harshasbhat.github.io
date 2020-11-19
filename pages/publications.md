@@ -35,7 +35,7 @@ title:
 		{% if pub.pdf %}
 			<a display:inline href="{{site.baseurl}}/files/{{pub.pdf}}" style="text-transform:capitalize;font-size:100%"><span class="pubyear">{{pub.year}}: {{pub.title}}</span></a>
 		{% else %} 
-			<span class="pubyear">{{pub.year}}:{{pub.title}}</span> 
+			<span class="pubyear">{{pub.year}}: {{pub.title}}</span> 
 		{% endif %}
 
 		<span style="font-size:85%">{{pub.author}}</span>
