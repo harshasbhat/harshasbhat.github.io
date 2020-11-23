@@ -1,3 +1,20 @@
+{% if include.rounded %}
+<div class="captioned-img-round align{{include.align}}">
+    {% if include.width %}
+    <img src="{{ include.url }}" width="{{ include.width }}" />
+    {% else if include.height %}
+    <img src="{{ include.url }}" height="{{ include.height }}" />
+    {% else %}
+    <img src="{{ include.url }}" />
+    {% endif %}
+    
+    {% if include.caption %}
+    <div class="captions">
+    {{ include.caption }}
+    </div>
+    {% endif %}
+</div>
+{% else %}
 <div class="captioned-img align{{include.align}}">
     {% if include.width %}
     <img src="{{ include.url }}" width="{{ include.width }}" />
@@ -13,4 +30,5 @@
     </div>
     {% endif %}
 </div>
+{% endif %}
 <br>

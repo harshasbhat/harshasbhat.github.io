@@ -43,7 +43,7 @@ font-size: 100%;
 display: flex; 
 flex-direction: row;
 flex-wrap: wrap;
-justify-content: space-even;
+justify-content: flex-end;
 padding: 0px 0px;
 }
 
@@ -51,7 +51,7 @@ padding: 0px 0px;
 { 
 display: flex; 
 flex-direction: row;
-justify-content: space-even;
+justify-content: flex-end;
 flex-wrap: wrap;
 margin-top: 0.0em; 
 font-weight: $font-weight-bold; 
