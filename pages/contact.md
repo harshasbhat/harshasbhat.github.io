@@ -9,7 +9,7 @@ Harsha S. Bhat<br>
 Laboratoire de Géologie<br>
 24 rue Lhomond<br>
 75005 Paris, France<br>
-{% include image.html url="/images/email.png" width="180px" align="left" %}
+<img src="{{ base }}/images/email.png" width="180px">
 <hr>
 
 The <a href="https://www.ratp.fr/en/">Paris Metro Website</a> is excellent to 
@@ -27,5 +27,5 @@ ugly orange walls you are almost there. We are actively looking for the
 idiot who picked this color.</i>
 
 <br>
-{% include image.html url="/images/directions2.jpg" width="80%" align="center" %}
+{% include image.html url="/images/directions.jpg" width="90%" align="center" %}
 

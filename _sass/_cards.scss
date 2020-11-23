@@ -1,3 +1,25 @@
+.harsha {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 0px;
+  padding:2px;
+  margin-top:10px;
+}
+
+.harshaweb {
+  display: flex;    
+  flex-direction: row;        /* new */
+  align-items: flex-start;      /* new */
+  justify-content: space-even; /* new */
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.harshaweb a {
+  padding: 15px;
+}
+  	
 .teams {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -20,6 +42,10 @@
   align-items: center;
  }
 
+.member > img{
+border-radius: 50%;
+}
+
 .web {
   display: flex;    
   flex-direction: row;        /* new */
@@ -32,7 +58,7 @@
 
 
 @media (max-width: $mobile) {
-  .teams {
+  .teams, .harsha {
     display: flex;
     flex-direction: column;
   }

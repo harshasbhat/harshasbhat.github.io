@@ -18,17 +18,17 @@ title:
 		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
 	{% endif %}
 
-	<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+	{% if mem.web %} 	
+		<a href="{{mem.web}}">
+			<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+		</a>
+	{% else %}	
+		<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+	{% endif %}  
+
 	<span style="font-size:85%">{{mem.dates}} onwards</span>
 
 	<div class="web">
-		{% if mem.web %} 
-			<a href="{{mem.web}}">
-			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true"></i>
-			</a>
-		{% else %}	
-			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true" style="color:white"></i>
-		{% endif %}  
 
 		{% if mem.tweet %} 
 			<a href="https://twitter.com/{{mem.tweet}}">
@@ -57,17 +57,17 @@ title:
 		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
 	{% endif %}
 
-	<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+	{% if mem.web %} 	
+		<a href="{{mem.web}}">
+			<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+		</a>
+	{% else %}	
+		<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
+	{% endif %}  
+
 	<span style="font-size:85%">{{mem.dates}} onwards</span>
 
 	<div class="web">
-		{% if mem.web %} 
-			<a href="{{mem.web}}">
-			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true"></i>
-			</a>
-		{% else %}	
-			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true" style="color:white"></i>
-		{% endif %}  
 
 		{% if mem.tweet %} 
 			<a href="https://twitter.com/{{mem.tweet}}">

@@ -12,6 +12,22 @@
     border: none;
 }
 
+.captioned-img-round {
+    text-align: center;
+    border: none;
+    font-size: $small-font-size;
+    overflow: hidden;
+border-radius: 50%;
+}
+
+.captioned-img-round img {
+    display: block;
+    margin: auto auto;
+    padding-bottom: 10px;
+    border: none;
+border-radius: 50%;
+}
+
 .captions {
 text-align:center; 
 font-size:$small-font-size;
