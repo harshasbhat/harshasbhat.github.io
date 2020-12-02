@@ -84,7 +84,7 @@ dans l'évaluation du risque de tsunami.</b></p>
 caption="The regional tectonic setting and the faults associated with 
 the 2018 Palu earthquake. Image on left from Ulrich et al. (2019)$^1$." width="100%" align="center" %}
 
-Le séisme de magnitude $M_w$ 7,5 de Palu Sulawesi (Indonésie), a
+<p>Le séisme de magnitude $M_w$ 7,5 de Palu Sulawesi (Indonésie), a
 frappé le 28 septembre 2018, causant des dégats  importants et de
 nombreuses pertes de vies humaines.  Ce séisme ne se produit pas
 sur une subduction mais sur une faille de glissement latéral qui
@@ -94,17 +94,18 @@ générale, ce type de séisme (dit en décrochement) ne provoque pas
 de grands mouvements verticaux du sol et donc pas de Tsunami,
 contrairement à Tohoku, au Japon, lors du tremblement de terre de
 2011. La raison  d’un tel tsunami à Palu est donc un peu
-mystérieuse.  
+mystérieuse.</p>  
 
 <h4 align="center">Cependant, il s'agissait d'un séismes "Supershear"</h4>    
+
+<div class=ellipsis></div>
 
 <h3 align="left" id="two">2. Supershear Séismes</h3>
 
 {% include video.html id="hMHSsEobbz0"%}    
 
-<br><br>
 
-Lorsqu'un tremblement de terre commence à ouvrir une faille, le
+<p>Lorsqu'un tremblement de terre commence à ouvrir une faille, le
 front de propagation de la rupture (le chariot de la fermeture
 éclair) émet constamment des ondes de pression et de cisaillement
 dans le milieu. Les ondes P se déplacent à une vitesse d'environ 5
@@ -117,17 +118,16 @@ cisaillement. Lorsque la barrière de vitesse des ondes S est
 franchie, des fronts de choc linéaires se manifestent. Ils sont
 exactement semblables au boum sonique que nous entendons lorsqu’un
 avion supersonique franchi le mur du son (dépasse la vitesse du
-son).
+son).</p>
 
+<div class=ellipsis></div>
 
 <h3 align="left" id="three">3. Les Preuves</h3>
 
 {% include image.html url="/images/tsunami/GPS.png" 
 caption="Ground Velocity recorded by the PALP GPS station." width="100%" align="center" %}
 
-<br><br>
-
-Les séismes de type "Supershear" ont une signature unique de
+<p>Les séismes de type "Supershear" ont une signature unique de
 mouvement du sol. La façon dont le sol se déplace parallèlement et
 perpendiculairement à la faille nous renseigne sur la vitesse à
 laquelle le front de la rupture sismique s'est déplacé. Le
@@ -139,21 +139,25 @@ l’ordre de 1 m/s prédit pour une rupture supershear et absent dans
 le cas d’une rupture standard subshear. <br><br>
 
 C'est  la première fois qu'un tremblement de terre de type Supershear
-est détecté à l'aide d'une station GPS.
+est détecté à l'aide d'une station GPS.</p>
+
+<div class=ellipsis></div>
 
 <h3 align="left"  id="four">4. Génération Classique de Tsunamis</h3>
 
 {% include video.html id="4Xebwzb3dDE?start=12" caption="Classical Tsunami Generation. Courtesy: Caltech Tectonics Observatory"%}
 
 
-Les tsunamis classiques sont générés par le déplacement vertical
+<p>Les tsunamis classiques sont générés par le déplacement vertical
 du fond marin autour de la faille. Les tremblements de terre de la
 zone de subduction sont des sources typiques de ces tsunamis. Les
 tremblements de terre de type "Strike-Slip", en revanche, ne
 soulèvent pas autant le fond de l'océan puisqu’il s’agit de
-glissement essentiellement horizontaux.
+glissement essentiellement horizontaux.</p>
 
 <h4 align="right">Sauf quand il s'agit de tremblements de terre de type "Supershear".</h4>    
+
+<div class=ellipsis></div>
 
 <h3 align="left"  id="five">5. Génération de Tsunamis Par Des Séismes de Type "Supershear"</h3>
 
@@ -161,13 +165,13 @@ glissement essentiellement horizontaux.
 
 <br>
 
-Les ruptures de cisaillement produisent des fronts de choc. Ces
+<p>Les ruptures de cisaillement produisent des fronts de choc. Ces
 fronts de choc transportent l'énergie de la faille sur de grandes
 distances et sans grande perte. Dans ce travail, nous montrons que
 même si les déplacements sont faibles, le simple fait que les
 fronts de choc affectent une grande région suffit à générer un
 tsunami. Au final, la forme de la baie de Palu, en « baignoire »,
-a encore contribué à amplifier le tsunami ainsi généré.
+a encore contribué à amplifier le tsunami ainsi généré.</p>
 
 <br><br>
 <hr>
