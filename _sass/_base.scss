@@ -301,3 +301,23 @@ ul.listing li.listing-item a {
 
 	}
 }
+
+.ellipsis {
+  letter-spacing: 12px;
+  text-align: center;
+  overflow: visible;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 64px;
+  display: block;
+  border: 0;
+}
+
+.ellipsis:after {
+  content: "\B7\B7\B7";
+  display: inline-block;
+  margin-left: 0.6em;
+  color: lighten(#0d667f, 15.5%);
+  position: relative;
+  top: -18px;
+}
