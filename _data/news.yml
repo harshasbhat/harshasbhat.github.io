@@ -1,13 +1,13 @@
 news:
-    - hl: "Tsunami Induced By Supershear Earthquakes"
-      txt: "How can strike-slip earthquakes generate devastating tsunamis? We
-address this question by showing that if an earthquake rupture attains
-supershear speed then the shock fronts of this rupture can easily
-trigger a tsunami."
-      closing: "This work will appear soon in Nature Geoscience."
-#      pdf: AmlaniBhatSimons2020a.pdf
-      readmore: tsunami/
-      image: tsunami/composite_tsunami.jpg
+#    - hl: "Tsunami Induced By Supershear Earthquakes"
+#      txt: "How can strike-slip earthquakes generate devastating tsunamis? We
+#address this question by showing that if an earthquake rupture attains
+#supershear speed then the shock fronts of this rupture can easily
+#trigger a tsunami."
+#      closing: "This work will appear soon in Nature Geoscience."
+##      pdf: AmlaniBhatSimons2020a.pdf
+#      readmore: tsunami/
+#      image: tsunami/composite_tsunami.jpg
     - hl: "Congratulations Kurama"
       txt: "Dr. Kurama Okubo, former member of the group, recently won a
 prestigious award given by Comité National Français de Géodésie et
