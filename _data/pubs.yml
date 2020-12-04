@@ -1,20 +1,20 @@
 publications:
-    - title:     "Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake"
-      author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin
-      year:    2020
-      journal:    to appear in Nat. Geosci.
-#      pdf: 		AmlaniBhatSimons2020a.pdf
-      doi:		
-      pubnum:     	36
-      type:         article  
-      booktitle:	""
-      publisher:	
-      editor:   
-      school:	
-#      arxiv: 	1910.14547v3
-      topics: "supershear, tsunami, numerical models, FCM"	
-      img: tsunami.png
-      readmore: tsunami/
+#    - title:     "Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake"
+#      author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin
+#      year:    2020
+#      journal:    to appear in Nat. Geosci.
+##      pdf: 		AmlaniBhatSimons2020a.pdf
+#      doi:		
+#      pubnum:     	36
+#      type:         article  
+#      booktitle:	""
+#      publisher:	
+#      editor:   
+#      school:	
+##      arxiv: 	1910.14547v3
+#      topics: "supershear, tsunami, numerical models, FCM"	
+#      img: tsunami.png
+#      readmore: tsunami/
     - title:     "Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle"
       author:    L. Jeandet-Ribes, N. Cubas, H. S. Bhat & P. Steer
       year:    2020

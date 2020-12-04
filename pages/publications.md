@@ -3,7 +3,6 @@ layout: page
 permalink: /articles/
 title: 
 ---
-
 {% include collecttags.html %}
 {% include lazyload.html %}
 
