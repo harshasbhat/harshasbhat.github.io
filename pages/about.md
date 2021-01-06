@@ -16,7 +16,7 @@ title:
 	<div class="harshaweb">
 		<a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-4x"></i></a>
 		<a href="https://orcid.org/0000-0003-0361-1854"><i class="ai ai-orcid-square ai-4x"></i></a>
-		<a href="{{site.baseurl}}/CV/CurriculumVitae.pdf"><i class="ai ai-cv-square ai-4x"></i></a>
+		<a href="{{site.baseurl}}/files/CurriculumVitae.pdf"><i class="ai ai-cv-square ai-4x"></i></a>
 	</div>
 </div>
 	
