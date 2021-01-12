@@ -1,3 +1,12 @@
+pi:
+    - name: "Harsha S. Bhat"
+      image: harsha.jpg
+      web: https://harshasbhat.github.io
+      email:
+      post:
+      dates:
+      tweet:
+      funded: 1
 postdoc:
     - name: "Lucile Bruhat"
       image: lucile.jpg
@@ -6,50 +15,73 @@ postdoc:
       post: CEA-ENS Post-Doctoral Fellow
       dates: July 2018
       tweet: seismolucy
+      funded: 0
     - name: "Ekeabino Momoh"
       image: eke.jpg
       web: https://www.researchgate.net/profile/Ekeabino_Momoh
-      email: 
-      post: Post-Doctoral Fellow             
+      email:
+      post: Post-Doctoral Fellow
       dates: February 2019
       tweet: MomohEke
-    - name: "Carlos D. Villafuerte"
-      image: carlos.jpg
-      web: https://scholar.google.com.mx/citations?user=7TTyAOwAAAAJ&hl=es
-      email: 
-      post: ERC Post-Doctoral Fellow            
-      dates: January 2021
-      tweet: cdvu
+      funded: 0
     - name: "Michelle Almakari"
       image: michelle.jpg
       web: https://scholar.google.com/citations?user=kE4li3YAAAAJ&hl=en
-      email: 
-      post: ERC Post-Doctoral Fellow             
+      email:
+      post: ERC Post-Doctoral Fellow
       dates: January 2021
+      funded: 1
+    - name: "Carlos D. Villafuerte"
+      image: carlos.jpg
+      web: https://scholar.google.com.mx/citations?user=7TTyAOwAAAAJ&hl=es
+      email:
+      post: ERC Post-Doctoral Fellow
+      dates: February 2021
+      tweet: cdvu
+      funded: 1
 phd:
     - name: "Claudia Hulbert"
       image: claudia.jpg
       web: https://scholar.google.fr/citations?user=dexGouYAAAAJ&hl=fr
-      email: 
+      email:
       post: PhD Canidate
       dates: October 2018
+      funded: 0
+    - name: "Léo Petit"
+      image: leo.jpg
+      web: https://www.researchgate.net/profile/Leo_Petit
+      email:
+      post: PhD Canidate
+      dates: October 2019
+      funded: 0
     - name: "Joseph M. Flores Cuba"
       image: joseph.jpg
       web: https://jflorescuba.wixsite.com/mysite
-      email: 
+      email:
       post: PhD Canidate (Sorbonne U.)
       dates: October 2020
       tweet: Jflorescuba
+      funded: 1
     - name: "Augustin Thomas"
       image: thomas.jpg
       web: https://www.linkedin.com/in/augustin-thomas-60a631112/?originalSubdomain=fr
-      email: 
+      email:
       post: PhD Canidate
       dates: October 2020
-      tweet: 
+      tweet:
+      funded: 1
     - name: "Jinhui Cheng"
       image: jinhui.jpg
-      web: 
-      email: 
+      web:
+      email:
       post: PhD Canidate
+      dates: March 2021
+      funded: 1
+masters:
+    - name: "Roxane Ferry"
+      image: 
+      web: 
+      email:
+      post: 
       dates: January 2021
+      funded: 0
