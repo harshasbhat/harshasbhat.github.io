@@ -47,7 +47,7 @@ published: true
 		
 		{% if news.watch %} 
 		<div id="watchbtn">
-		<a href="{{news.watch}}">WATCH!</a>
+		<a href="{{news.watch}}">WATCH IT ONLINE!</a>
 		</div>
 		{% endif %}
 		
