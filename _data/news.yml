@@ -9,11 +9,13 @@ news:
 #      readmore: tsunami/
 #      image: tsunami/composite_tsunami.jpg
     - hl: "Supershear Earthquakes"
-      txt: "My Habilitation à Diriger les Recherches (HDR) thesis on Supershear Earthquakes is now available online. <br><br> The defense will take place on Friday Jan. 29, 2021 at 4pm Paris time."
+      txt: "My Habilitation à Diriger les Recherches (HDR) thesis on Supershear Earthquakes is now available online. The defense took place on Friday Jan. 29, 2021 at 4pm Paris time.<br><br>
+      What is HDR? And why do we do it in the 21st century? I plan to ask God these questions but I doubt he'd know anything. "
       closing: 
       image: pubimages/hdr.png
-      watch: https://zoom.us/j/95778962430?pwd=UzJzeU5Ja0NSaXpNMGY5K1ZvTnJLUT09 
+      watch: https://youtu.be/WXfIwCO1wa0 
       pdf: Bhat2021a.pdf
+      slides: Bhat2021b.pdf
     - hl: "Congratulations Kurama"
       txt: "Dr. Kurama Okubo, former member of the group, recently won a
 prestigious award given by Comité National Français de Géodésie et
