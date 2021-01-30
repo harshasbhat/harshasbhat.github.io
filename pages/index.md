@@ -51,6 +51,12 @@ published: true
 		</div>
 		{% endif %}
 		
+		{% if news.slides %} 
+		<div id="newsbtn">
+		<a href="{{site.baseurl}}/files/{{news.slides}}">SLIDES</a>
+		</div>
+		{% endif %}
+
 		{% if news.youtube %} 
 		<div id="watchbtn">
 		<a href="{{news.watch}}">YOUTUBE</a>
