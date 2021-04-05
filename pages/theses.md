@@ -13,18 +13,55 @@ title:
 	</div>	
 
 	<div class="articles">
-		{% if pub.pdf %}
-			<a display:inline href="{{ base }}/files/{{pub.pdf}}" style="text-transform:capitalize;font-size:100%"><span class="pubyear">{{pub.year}}: {{pub.title}}</span></a>
-		{% else %} 
-			<span class="pubyear">{{pub.year}}:{{pub.title}}</span> 
-		{% endif %}
+		<span class="pubyear">{{pub.title}} ({{pub.year}})</span> 
 		
 		<span style="font-size:85%">{{pub.author}}</span>
 		<span style="font-size:85%">{{pub.school}}</span>
-		{% if pub.doi %}
-			<a href="https://doi.org/{{pub.doi}}">doi:{{pub.doi}}</a>
+
+		<div class="pubbuttons">
+		
+			{% if pub.pdf %}
+			<div id="newsbtn">
+				<a href="{{site.baseurl}}/files/{{pub.pdf}}" style="font-size:65%">PDF</a>
+			</div>
+			{% endif %}
+			
+			{% if pub.doi %}
+			<div id="newsbtn">
+				<a href="https://doi.org/{{pub.doi}}" style="font-size:65%">DOI</a>
+			</div>
+			{% endif %}
+		
+			{% if pub.arxiv %}
+			<div id="newsbtn">
+				<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf" style="font-size:65%">arXiv</a>
+			</div>
+			{% endif %}
+		
+			{% if pub.readmore %} 
+				<div id="newsbtn">
+					<a href="{{ base }}/{{pub.readmore}}" style="font-size:65%">READ MORE ...</a>
+				</div>
+			{% endif %}
+			
+			
+		{% if pub.slides %} 
+		<div id="newsbtn">
+		<a href="{{site.baseurl}}/files/{{news.slides}}" style="font-size:65%">SLIDES</a>
+		</div>
 		{% endif %}
-    </div>
+		
+		{% if pub.watch %} 
+		<div id="watchbtn">
+		<a href="{{news.watch}}" style="font-size:65%">WATCH IT ONLINE</a>
+		</div>
+		{% endif %}
+
+
+			</div>    	
+
+
+  </div>
     
 </div>	
 

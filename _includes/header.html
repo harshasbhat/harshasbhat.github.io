@@ -2,11 +2,11 @@
   <label for="menu-btn" class="jm-menu-btn jm-icon-menu"></label>
   <input type="checkbox" id="menu-btn" class="jm-menu-btn">
   <ul class="jm-collapse">
-  <li class="jm-dropdown"><a href="/"><i class="fa fa-home fa-lg"></i></a></li>
+  <li class="jm-dropdown"><a href="/" style="font-weight: bold;">HOME</a></li>
 {% for menu_item in site.data.menu %}
  	{% if menu_item.subcategories != null %}
  	   <li class="jm-dropdown">
-	   <a href="{{ menu_item.href | prepend: site.baseurl }}">{{ menu_item.title }}  <i class="fa fa-caret-down"></i></a>
+	   <a href="{{ menu_item.href | prepend: site.baseurl }}" style="font-weight: bold;">{{ menu_item.title }}  <i class="fa fa-caret-down"></i></a>
 	   <ul>
 				{% for subcategory in menu_item.subcategories %}
 					<li><a href="{{ subcategory.subhref | prepend: site.baseurl }}">{{ subcategory.subtitle }}</a></li>
@@ -14,7 +14,7 @@
 	   </ul>
 	   </li>
 	{% else %}
- 		 <li class="jm-dropdown"><a href="{{ menu_item.href }}">{{ menu_item.title }}︎</a></li>
+ 		 <li class="jm-dropdown"><a href="{{ menu_item.href }}" style="font-weight: bold;">{{ menu_item.title }}︎</a></li>
 	{% endif %}
-{% endfor %} 
+{% endfor %}
 </nav>

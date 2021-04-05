@@ -2,71 +2,73 @@ publications:
     - title:     "Supershear Earthquakes"
       author:    H. S. Bhat
       year:    2021
-      journal:    
-      pdf: 		Bhat2021a.pdf
+      journal:
+      watch: https://youtu.be/WXfIwCO1wa0
+      pdf: Bhat2021a.pdf
+      slides: Bhat2021b.pdf
       doi:		
-      pubnum:     	
-      type:         phdthesis  
+      pubnum:
+      type:         phdthesis
       booktitle:	""
-      publisher:	
-      editor:   
+      publisher:
+      editor:
       school:	Habilitation à Diriger des Recherches, Ecole Normale Supérieure
-      arxiv: 	
-      topics: ""	
-      img: hdr.png	
+      arxiv:
+      topics: ""
+      img: hdr.png
     - title:     "High frequency radiation and foreshocks during laboratory earthquakes"
       author:    S. Marty
       year:    2020
-      journal:    
+      journal:
       pdf: 		Marty2020a.pdf
-      doi:		
-      pubnum:     
-      type:         phdthesis  
+      doi:
+      pubnum:
+      type:         phdthesis
       booktitle:
       publisher:
       editor:
       school:   Ecole Normale Supérieure
-      arxiv: 	
-      img: martyphd.png	
+      arxiv:
+      img: martyphd.png
     - title:     "Dynamic earthquake ruptures on multiscale fault and fracture networks"
       author:    K. Okubo
       year:    2018
-      journal:    
+      journal:
       pdf: 		Okubo2018a.pdf
-      doi:		
-      pubnum:     	
-      type:         phdthesis  
+      doi:
+      pubnum:
+      type:         phdthesis
       booktitle:	""
-      publisher:	
-      editor:   
+      publisher:
+      editor:
       school:	Institut de Physique du Globe de Paris
-      arxiv: 	
-      img: okubophd.png	
+      arxiv:
+      img: okubophd.png
     - title:     "Fast algorithms to model quasi-dynamic earthquake cycles in complex fault networks"
       author:    P. Romanet
       year:    2017
-      journal:    
+      journal:
       pdf: 		Romanet2017a.pdf
-      doi:		
-      pubnum:     	
-      type:         phdthesis  
+      doi:
+      pubnum:
+      type:         phdthesis
       booktitle:	""
-      publisher:	
-      editor:   
+      publisher:
+      editor:
       school:	Institut de Physique du Globe de Paris
-      arxiv: 	
-      img: romanetphd.png	
+      arxiv:
+      img: romanetphd.png
     - title:     "Role of Geometric Complexities and Off-Fault Damage in Dynamic Rupture Propagation"
       author:    H. S. Bhat
       year:    2007
-      journal:    
+      journal:
       pdf: 		Bhat2007a.pdf
-      doi:		
-      pubnum:     	
-      type:         phdthesis  
+      doi:
+      pubnum:
+      type:         phdthesis
       booktitle:	""
-      publisher:	
-      editor:   
+      publisher:
+      editor:
       school:	Harvard University
-      arxiv: 	
+      arxiv:
       img: bhatthesis.png

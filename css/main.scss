@@ -3,12 +3,12 @@
 ---
 @charset "utf-8";
 
-  
+
 $font-weight-normal: 300;
 $font-weight-bold:   600;
 $url-bold: 500;
-$base-font-family: "Poppins";
-$base-font-size:   12pt;
+$base-font-family: "Roboto";
+$base-font-size:   14pt;
 $base-line-height: 1.6;
 
 $heading-font-family: $base-font-family;
@@ -47,8 +47,8 @@ $submenubackground: $white;//darken($tsunami, 22%);//lighten($black,15%);
 $menulink: $black;
 $submenulink: $black;
 $hlcolor: lighten(#4181BD,45%);
-$textcolor2: lighten(#4181BD,0%);	
-$cardcolor: darken($tsunami, 22%); 
+$textcolor2: lighten(#4181BD,0%);
+$cardcolor: darken($tsunami, 22%);
 $cardname: $white;
 $carddate: $grey-light;
 $topicbtn: $white;
@@ -87,7 +87,7 @@ $ipad:             1024px;
 .hClass{
     height: 90px;
     width: 200px;
-    
+
     overflow: hidden;
 }
 
@@ -105,4 +105,3 @@ $ipad:             1024px;
 .mClass{
     white-space: normal;
 }
-

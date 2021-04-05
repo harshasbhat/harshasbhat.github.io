@@ -13,12 +13,12 @@
   margin: 0px;
   padding-left: 10px;
   padding-right: 10px;
-  align-self: top; 
+  align-self: top;
   background-color: $hlcolor; //lighten($grey-light,16%);
   border-radius: 7px;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
-              0 2px 2px rgba(0,0,0,0.12), 
-              0 4px 4px rgba(0,0,0,0.12), 
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+              0 2px 2px rgba(0,0,0,0.12),
+              0 4px 4px rgba(0,0,0,0.12),
               0 8px 8px rgba(0,0,0,0.12),
               0 16px 16px rgba(0,0,0,0.12);
   display: flex;
@@ -27,17 +27,17 @@
   align-items: center;
  }
 
-// .article:nth-child(1) {
-//   background-color: $white;
-//   grid-column: 1 / -2;
-//   align-items: stretch;
-//   padding:0px;
-//   box-shadow: 0 0px 0px rgba(0,0,0,0.12), 
-// }
-// 
+.article:nth-child(odd) {
+  background-color: $white;
+  // grid-column: 1 / -2;
+  // align-items: stretch;
+  // padding:0px;
+  // box-shadow: 0 0px 0px rgba(0,0,0,0.12),
+}
+
 // .article:nth-child(2) {
 // background-color: darken($tsunami,22%);
-// align-self: top; 
+// align-self: top;
 // }
 
 @media (max-width: $mobile) {
@@ -49,7 +49,7 @@
   .article {
     margin-bottom: 5px;
   }
-  
+
 }
 
 .buttons {
@@ -107,7 +107,7 @@ margin: 20px;
 text-decoration: none;
 margin: 0px;
 color: darken($tsunami,22%);
-background-color: $hlcolor;
+// background-color: $hlcolor;
 width:100%;
 text-align: center;
 font-size:   14pt;
@@ -124,7 +124,7 @@ padding-bottom:10px;
 text-decoration: none;
 // margin-top: 0px;
 color: $black;
-font-size:   11pt;
+font-size:   90%;
 text-align: left;
 font-weight: 300;
 // margin-bottom: 10px;

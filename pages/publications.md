@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /articles/
-title: 
+title:
 ---
 {% include collecttags.html %}
 {% include lazyload.html %}
@@ -10,15 +10,15 @@ title:
 {% assign j = site.data.pubs.publications.size %}
 
 {% for pub in site.data.pubs.publications %}
-{% if pub.year == year %} 
-{% else %} 
+{% if pub.year == year %}
+{% else %}
 {% assign year = pub.year %}
-{% endif %} 
+{% endif %}
 {% assign uniqetopics = "" %}
-{% assign uniqetopics = pub.topics | split: ', ' | sort_natural | uniq %} 
+{% assign uniqetopics = pub.topics | split: ', ' | sort_natural | uniq %}
 
 {% assign imgs = "" %}
-{% assign imgs = pub.img | split: ', ' | sort_natural | uniq %} 
+{% assign imgs = pub.img | split: ', ' | sort_natural | uniq %}
 
 {% assign auth = pub.author %}
 
@@ -30,50 +30,45 @@ title:
 	</div>
 
    <div class="articles">
-		
-		{% if pub.pdf %}
-			<a display:inline href="{{site.baseurl}}/files/{{pub.pdf}}" style="text-transform:capitalize;font-size:100%"><span class="pubyear">{{pub.year}}: {{pub.title}}</span></a>
-		{% else %} 
-			<span class="pubyear">{{pub.year}}: {{pub.title}}</span> 
-		{% endif %}
+
+		<span class="pubyear">{{pub.title}} ({{pub.year}})</span>
 
 		<span style="font-size:85%">{{pub.author}}</span>
-		
+
 		{% if pub.type == "article" %}
 			<span style="font-size:85%"><em>{{pub.journal}}</em><br></span>
 		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
 			<span style="font-size:85%">in <em>{{pub.booktitle}}</em><br></span>
 			<span style="font-size:85%">eds. {{pub.editor}}</span>
 		{% endif %}
-		
-		<div class="pubbuttons">
-		{% if pub.doi %}
-			<a href="https://doi.org/{{pub.doi}}" style="font-size:85%">doi:{{pub.doi}}</a>&nbsp;&nbsp; 
-		{% endif %}
-		
-		{% if pub.arxiv %}
-			<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf" style="font-size:85%">arXiv:{{pub.arxiv}}[physics.geo-ph]</a>
-		{% endif %}
-		</div>
-		
-		{% if pub.readmore %} 
-			<div id="newsbtn">
-				<a href="{{ base }}/{{pub.readmore}}">READ MORE ...</a>
-			</div>
-		{% endif %}
-		
-<!-- 		{% if pub.topics %} -->
-<!-- 			<div class="pubbuttons"> -->
-<!-- 				{% for topic in uniqetopics %} -->
-<!-- 					<div id="topicbtn"> -->
-<!-- 						<a href="{{ base }}/topics/#{{topic|slugify}}">{{topic | upcase }}</a> -->
-<!-- 					</div> -->
-<!-- 				{% endfor %} -->
-<!-- 			</div>	 -->
-<!-- 		{% endif %} -->
 
+		<div class="pubbuttons">
+
+			{% if pub.pdf %}
+			<div id="newsbtn">
+				<a href="{{site.baseurl}}/files/{{pub.pdf}}" style="font-size:65%">PDF</a>
+			</div>
+			{% endif %}
+
+			{% if pub.doi %}
+			<div id="newsbtn">
+				<a href="https://doi.org/{{pub.doi}}" style="font-size:65%">DOI</a>
+			</div>
+			{% endif %}
+
+			{% if pub.arxiv %}
+			<div id="newsbtn">
+				<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf" style="font-size:65%">arXiv</a>
+			</div>
+			{% endif %}
+
+			{% if pub.readmore %}
+				<div id="newsbtn">
+					<a href="{{ base }}/{{pub.readmore}}" style="font-size:65%">READ MORE ...</a>
+				</div>
+			{% endif %}
+			</div>    	
     </div>
-    	
 
 </div>  
 {% assign j = j | minus:1 %}
