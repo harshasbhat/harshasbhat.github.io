@@ -13,13 +13,19 @@ news:
       closing: 
       image: pubimages/labquake.jpg
       readmore: 
-      pdf: 
+      pdf: MartyBhatAubry2021m.pdf
     - hl: "Signature of Supershear Earthquake Transition"
       txt: "Our paper identifying supershear transition in earthquake off-fault damage zone is submitted to the Proc. Roy. Soc. A. Another paper that is going through a long journey!"
       closing: 
       image: pubimages/theorydamage.png
       readmore: 
-      pdf: 
+      pdf: JaraBruhatThomas2021d.pdf
+    - hl: "Tsunami Dynamics"
+      txt: "Our paper on the link between generic supershear ruptures and tsunamigenesis is now out in the Proc. Natl. Acad. Sci. USA"
+      closing: 
+      image: pubimages/labquake.jpg
+      readmore: 
+      pdf: ElbannaAbdelmeguidMa2021s.pdf
     - hl: "Welcome to the group Jinhui"
       txt: "We are very happy to welcome Jinhui Cheng to the group. She is starting her PhD with us in March 2021."
       closing:
