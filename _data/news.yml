@@ -8,6 +8,18 @@ news:
 ##      pdf: AmlaniBhatSimons2020a.pdf
 #      readmore: tsunami/
 #      image: tsunami/composite_tsunami.jpg
+    - hl: "Dominantly Aseismic Nucleation of Laboratory Earthquakes"
+      txt: "Our paper on the nucleation process of laboratory earthquakes will soon be submitted to the J. Geophys. Res."
+      closing: 
+      image: pubimages/labquake.jpg
+      readmore: 
+      pdf: 
+    - hl: "Signature of Supershear Earthquake Transition"
+      txt: "Our paper identifying supershear transition in earthquake off-fault damage zone is submitted to the Proc. Roy. Soc. A. Another paper that is going through a long journey!"
+      closing: 
+      image: pubimages/theorydamage.png
+      readmore: 
+      pdf: 
     - hl: "Welcome to the group Jinhui"
       txt: "We are very happy to welcome Jinhui Cheng to the group. She is starting her PhD with us in March 2021."
       closing:
@@ -45,10 +57,3 @@ finally accepted in Geophysical Research Letters. It was a wild journery from fa
       image: pubimages/erosion.png
       readmore: 
       pdf: Jeandet-RibesCubasBhat2020a.pdf
-    - hl: "Signature of Supershear Earthquake Transition"
-      txt: "Our paper identifying supershear transition in earthquake off-fault
-damage zone is now under review in Science Advances. Another paper that is going through a long journey!"
-      closing: 
-      image: pubimages/theorydamage.png
-      readmore: 
-      pdf: JaraBruhatAntoine2020a.pdf
