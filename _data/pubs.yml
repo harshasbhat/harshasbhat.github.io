@@ -16,7 +16,7 @@ publications:
 #      img: tsunami.png
 #      readmore: tsunami/
     - title:     "Dominantly Aseismic Nucleation of Laboratory Earthquakes: A Quantitative Investigation"
-      author:    S. Marty, H. S. Bhat, J. Aubry, E. Fukuyama, R. Madariaga & A. Schubnel1
+      author:    S. Marty, H. S. Bhat, J. Aubry, E. Fukuyama, R. Madariaga & A. Schubnel
       year:    2021
       journal:    submitted to the J. Geophys. Res.
       pdf: MartyBhatAubry2021m.pdf
@@ -27,7 +27,7 @@ publications:
       publisher:
       editor:
       school:
-      arxiv: 	
+      arxiv:   2105.04298
       topics: "supershear, damage, fracture mechanics, numerical models, aftershocks"
       img: labquake.jpg
     - title:     "Signature of supershear transition seen in damage and aftershock pattern"
