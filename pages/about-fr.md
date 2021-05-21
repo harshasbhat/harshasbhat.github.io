@@ -13,7 +13,7 @@ title:
 
 <div class="harsha">
 	<div class="member">
-		<img src="{{ base }}/images/harsha.jpeg" width="205px">
+		<img src="{{ base }}/images/harsha.jpeg" width="305px">
 	<div class="harshaweb">
 		<a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-4x"></i></a>
 		<a href="https://orcid.org/0000-0003-0361-1854"><i class="ai ai-orcid-square ai-4x"></i></a>
