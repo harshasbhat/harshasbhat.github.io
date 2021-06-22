@@ -15,11 +15,26 @@ publications:
 #      topics: "supershear, tsunami, numerical models, FCM"
 #      img: tsunami.png
 #      readmore: tsunami/
-    - title:     "Signature of supershear transition seen in damage and aftershock pattern"
-      author:    J. Jara, L. Bruhat, S. Antoine, K. Okubo, M. Y. Thomas, Y. Klinger, R. Jolivet & H. S. Bhat
+    - title:     "Dominantly Aseismic Nucleation of Laboratory Earthquakes: A Quantitative Investigation"
+      author:    S. Marty, H. S. Bhat, J. Aubry, E. Fukuyama, R. Madariaga & A. Schubnel
       year:    2021
-      journal:    to be submitted
-      pdf:
+      journal:    submitted to the J. Geophys. Res.
+      pdf: MartyBhatAubry2021m.pdf
+      doi:
+      pubnum:     	
+      type:         article
+      booktitle:	""
+      publisher:
+      editor:
+      school:
+      arxiv:   2105.04298
+      topics: "supershear, damage, fracture mechanics, numerical models, aftershocks"
+      img: labquake.jpg
+    - title:     "Signature of supershear transition seen in damage and aftershock pattern"
+      author:    J. Jara, L. Bruhat, M. Y. Thomas, S. Antoine, K. Okubo, Y. Klinger, R. Jolivet & H. S. Bhat
+      year:    2021
+      journal:    submitted to the Proc. Roy. Soc. A
+      pdf: JaraBruhatThomas2021d.pdf
       doi:
       pubnum:     	38
       type:         article
@@ -27,15 +42,15 @@ publications:
       publisher:
       editor:
       school:
-      arxiv: 	1909.12672v2
+      arxiv: 	1909.12672v3
       topics: "supershear, damage, fracture mechanics, numerical models, aftershocks"
       img: theorydamage.png
-    - title:     "Anatomy of Strike Slip Fault Tsunami-genesis"
+    - title:     "Anatomy of Strike Slip Fault Tsunami Genesis"
       author:    A. Elbanna, M. Abdelmeguid, X. Ma, F. Amlani, H. S. Bhat, C. Synolakis & A. J. Rosakis
       year:    2021
-      journal:    
-      pdf:
-      doi:
+      journal:  Proc. Natl. Acad. Sci. USA  
+      pdf: ElbannaAbdelmeguidMa2021s.pdf
+      doi: 10.1073/pnas.2025632118
       pubnum:
       type:         article
       booktitle:	""
@@ -45,7 +60,7 @@ publications:
       arxiv:
       topics:  ""
       img: sstsunami3d.jpg
-      Readmore:
+      Readmore:      
     - title:     "Response of a single fault to transient normal stress change, and implications of large erosional events on the seismic cycle"
       author:    L. Jeandet-Ribes, N. Cubas, H. S. Bhat & P. Steer
       year:    2020
