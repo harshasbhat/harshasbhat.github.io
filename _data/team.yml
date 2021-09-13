@@ -8,14 +8,6 @@ pi:
       tweet:
       funded: 1
 postdoc:
-    - name: "Lucile Bruhat"
-      image: lucile.jpg
-      web: https://lucilebruhat.wixsite.com/home
-      email: lucile.bruhat@ens.psl.eu
-      post: CEA-ENS Post-Doctoral Fellow
-      dates: July 2018
-      tweet: seismolucy
-      funded: 0
     - name: "Ekeabino Momoh"
       image: eke.jpg
       web: https://www.researchgate.net/profile/Ekeabino_Momoh
@@ -36,7 +28,7 @@ postdoc:
       web: https://scholar.google.com.mx/citations?user=7TTyAOwAAAAJ&hl=es
       email:
       post: ERC Post-Doctoral Fellow
-      dates: July 2021
+      dates: September 2021
       tweet: cdvu
       funded: 1
 phd:
