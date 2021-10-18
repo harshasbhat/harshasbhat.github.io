@@ -1,24 +1,24 @@
 publications:
-   - title:     "Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake"
-     author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin
-     year:    2020
-     journal:    under review in Nat. Geosci. (since Feb. 19, 2021)
-     doi:
-     pubnum:     	36
-     type:         article
-     booktitle:	""
-     publisher:
-     editor:
-     school:
-     arxiv: 	1910.14547
-     topics: "supershear, tsunami, numerical models, FCM"
-     img: tsunami2.jpg
+    - title:     "Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake"
+      author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin
+      year:    2021
+      journal:    under review in Nat. Geosci. (since Feb. 19, 2021)
+      doi:
+      pubnum:     	36
+      type:         article
+      booktitle:	""
+      publisher:
+      editor:
+      school:
+      arxiv: 	1910.14547
+      topics: "supershear, tsunami, numerical models, FCM"
+      img: tsunami2.jpg
 #      readmore: tsunami/
     - title:     "Signature of supershear transition seen in damage and aftershock pattern"
       author:    J. Jara, L. Bruhat, M. Y. Thomas, S. Antoine, K. Okubo, Y. Klinger, R. Jolivet & H. S. Bhat
       year:    2021
-      journal:    revised manuscript submitted to the Proc. Roy. Soc. A
-      pdf: JaraBruhatThomas2021d.pdf
+      journal:    to appear in Proc. Roy. Soc. A
+#      pdf: JaraBruhatThomas2021d.pdf
       doi:
       pubnum:     	38
       type:         article
@@ -33,7 +33,7 @@ publications:
       author:    S. Marty, H. S. Bhat, J. Aubry, E. Fukuyama, R. Madariaga & A. Schubnel
       year:    2021
       journal:    to be re-submitted to the J. Geophys. Res.
-      pdf: MartyBhatAubry2021m.pdf
+#      pdf: MartyBhatAubry2021m.pdf
       doi:
       pubnum:     	
       type:         article
