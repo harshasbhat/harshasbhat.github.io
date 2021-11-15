@@ -8,18 +8,18 @@ news:
 ##      pdf: AmlaniBhatSimons2020a.pdf
 #      readmore: tsunami/
 #      image: tsunami/composite_tsunami.jpg
+    - hl: "Signature of Supershear Earthquake Transition"
+      txt: "Our paper identifying supershear transition in earthquake off-fault damage zone will appear in the Proc. Roy. Soc. A. on Nov. 17, 2021"
+      closing: 
+      image: ssdamage/ssdamage.jpg
+      readmore: ssdamage/ssdamage-en
+      pdf: JaraBruhatThomas2021d.pdf
     - hl: "Visiting Professor at NISER, India"
       txt: "I am very happy to announce that I have officially accepted the position of visiting Professor at National Institute of Science Education and Research, India."
       closing: 
       image: NISER.png
       readmore: 
       readmore: https://www.niser.ac.in
-    - hl: "Signature of Supershear Earthquake Transition"
-      txt: "Our paper identifying supershear transition in earthquake off-fault damage zone is finally accepted in the Proc. Roy. Soc. A. We spent more than 65% of our time, on this project, in getting the paper published!"
-      closing: 
-      image: pubimages/theorydamage.png
-      readmore: 
-      readmore: https://arxiv.org/pdf/1909.12672.pdf
     - hl: "Welcome to the group Carlos"
       txt: "We are very happy to welcome Carlos Villafuerte to the group. He is starting his postdoc with us in September 2021."
       closing:

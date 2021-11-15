@@ -5,6 +5,7 @@ title:
 ---
 {% include collecttags.html %}
 {% include lazyload.html %}
+{% include usemath.html %}
 
 {% assign year = 1980 %}
 {% assign j = site.data.pubs.publications.size %}

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /website/
+permalink: /websitesetup/
 title:
 ---
 

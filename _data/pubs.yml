@@ -1,4 +1,20 @@
 publications:
+    - title:     "Signature of supershear transition seen in damage and aftershock pattern"
+      author:    J. Jara, L. Bruhat, M. Y. Thomas, S. Antoine, K. Okubo, Y. Klinger, R. Jolivet & H. S. Bhat
+      year:    2021
+      journal:    Proc. Roy. Soc. A
+      doi: 10.1098/rspa.2021.0364
+      pdf: JaraBruhatThomas2021d.pdf
+      pubnum:     	38
+      type:         article
+      booktitle:	""
+      publisher:
+      editor:
+      school:
+      arxiv: 	1909.12672
+      topics: "supershear, damage, fracture mechanics, numerical models, aftershocks"
+      img: ssdamage.jpg
+      readmore: ssdamage/ssdamage-en
     - title:     "Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake"
       author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna & H. Z. Abidin
       year:    2021
@@ -14,21 +30,6 @@ publications:
       topics: "supershear, tsunami, numerical models, FCM"
       img: tsunami2.jpg
 #      readmore: tsunami/
-    - title:     "Signature of supershear transition seen in damage and aftershock pattern"
-      author:    J. Jara, L. Bruhat, M. Y. Thomas, S. Antoine, K. Okubo, Y. Klinger, R. Jolivet & H. S. Bhat
-      year:    2021
-      journal:    to appear in Proc. Roy. Soc. A
-#      pdf: JaraBruhatThomas2021d.pdf
-      doi:
-      pubnum:     	38
-      type:         article
-      booktitle:	""
-      publisher:
-      editor:
-      school:
-      arxiv: 	1909.12672
-      topics: "supershear, damage, fracture mechanics, numerical models, aftershocks"
-      img: theorydamage.png
     - title:     "Dominantly Aseismic Nucleation of Laboratory Earthquakes: A Quantitative Investigation"
       author:    S. Marty, H. S. Bhat, J. Aubry, E. Fukuyama, R. Madariaga & A. Schubnel
       year:    2021
