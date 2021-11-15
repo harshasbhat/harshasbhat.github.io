@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Damage and supershear transition
-permalink: /ssdamage-en
+permalink: /ssdamage/ssdamage-en
 published: true
 ---
 
