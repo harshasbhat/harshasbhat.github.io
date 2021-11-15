@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Damage and supershear transition
-permalink: /ssdamage/ssdamage-fr
+permalink: /ssdamage-fr
 published: true
 ---
 
@@ -9,8 +9,8 @@ published: true
 
 <div class="pagewidth">
 <div id="watchbtn" style="text-align:right;font-size:12pt">
-   <a href="{{site.baseurl}}/ssdamage/ssdamage-en/">English</a>
-   <a href="{{site.baseurl}}/ssdamage/ssdamage-fr/">Français</a>
+   <a href="{{site.baseurl}}/ssdamage-en/">English</a>
+   <a href="{{site.baseurl}}/ssdamage-fr/">Français</a>
    <a href="{{site.baseurl}}/files/JaraBruhatThomas2021d.pdf">PDF</a>
 </div>
 
