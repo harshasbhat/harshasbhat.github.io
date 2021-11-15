@@ -21,7 +21,7 @@ published: true
 <div class="panel">
 <div class="columntxtauthors">
 
-Jorge Jara$^{1}$, Lucile Bruhat$^{1}$, Marion Y. Thomas$^{2}$, Soléne L. Antoine$^{3}$, Kurama Okubo$^{4}$, Esteban Rougier$^{5}$, Ares J. Rosakis$^{6}$, Charles G. Sammis$^{7}$, Yann Klinger$^{3}$, Romain Jolivet$^{1,8}$ and Harsha S. Bhat$^{1}$<br><br>
+Jorge Jara$^{1}$, Lucile Bruhat$^{1}$, Marion Y. Thomas$^{2}$, Solène L. Antoine$^{3}$, Kurama Okubo$^{4}$, Esteban Rougier$^{5}$, Ares J. Rosakis$^{6}$, Charles G. Sammis$^{7}$, Yann Klinger$^{3}$, Romain Jolivet$^{1,8}$ and Harsha S. Bhat$^{1}$<br><br>
 
 1. Laboratoire de Géologie, Département de Géosciences, Ecole Normale Supérieure, CNRS, UMR 8538, PSL Université, Paris, France<br>
 2. Institut des Sciences de la Terre de Paris, Sorbonne Université, CNRS, UMR 7193, Paris, France<br>
