@@ -14,7 +14,7 @@ published: true
    <a href="{{site.baseurl}}/files/JaraBruhatThomas2021d.pdf">PDF</a>
 </div>
 
-<h2 align="center" style="color:#4181BD; font-size:18pt">Signature de la transition supershear dans une zone de endommagement coseismiques</h2>	
+<h2 align="center" style="color:#4181BD; font-size:18pt">Signature de la transition supershear dans une zone d'endommagement cosismiques</h2>	
 <h3 align="center" style="color:#4181BD; font-size:14pt">A publier dans les Proceedings of the Royal Society A.</h3>
 
 <button class="accordion">Auteurs & Affiliations</button>
