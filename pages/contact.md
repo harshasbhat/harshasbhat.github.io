@@ -13,4 +13,7 @@ Laboratoire de Géologie<br>
 
 {% include image.html url="/images/directions.jpg" width="80%" align="center" %}
 The <a href="https://www.ratp.fr/en/">Paris Metro Website</a> is excellent to 
-get transportation options to reach ENS. To reach my office take the elevator marked C or D to the 2nd floor in the plan above. I am in room E208.
+get transportation options to reach ENS. To reach my office take the elevator marked C or D to the 2nd floor in the plan above. I am in room E208. 
+
+When you see a long orange corridor take it. There is an international manhunt for the person who picked this color. But keep walking into the blinding orange light. Eventually you will hit a fork. And as Yogi Berra says it 'just take it'. 
+
