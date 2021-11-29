@@ -63,11 +63,18 @@ title:
 			</div>
 			{% endif %}
 
+			{% if pub.insu %}
+				<div id="watchbtn">
+					<a href="{{pub.insu}}" style="font-size:65%">INSU</a>
+				</div>
+			{% endif %}
+
 			{% if pub.readmore %}
-				<div id="newsbtn">
+				<div id="watchbtn">
 					<a href="{{ base }}/{{pub.readmore}}" style="font-size:65%">READ MORE ...</a>
 				</div>
 			{% endif %}
+
 			</div>    	
     </div>
 
