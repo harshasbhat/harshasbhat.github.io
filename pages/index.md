@@ -32,12 +32,7 @@ published: true
 	</div>
 
 	<div class="buttons">
-		{% if news.readmore %}
-		<div id="newsbtn">
-		<a href="{{news.readmore}}">READ MORE ...</a>
-		</div>
-		{% endif %}
-
+	
 		{% if news.pdf %}
 		<div id="newsbtn">
 		<a href="{{site.baseurl}}/files/{{news.pdf}}">PDF</a>
@@ -59,6 +54,18 @@ published: true
 		{% if news.youtube %}
 		<div id="watchbtn">
 		<a href="{{news.watch}}">YOUTUBE</a>
+		</div>
+		{% endif %}
+
+		{% if news.insu %}
+		<div id="watchbtn">
+		<a href="{{news.insu}}">INSU</a>
+		</div>
+		{% endif %}
+
+		{% if news.readmore %}
+		<div id="newsbtn">
+		<a href="{{news.readmore}}">READ MORE ...</a>
 		</div>
 		{% endif %}
 

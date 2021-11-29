@@ -14,11 +14,11 @@ news:
       image: ssdamage/ssdamage.jpg
       readmore: ssdamage-en
       pdf: JaraBruhatThomas2021d.pdf
+      insu: https://www.insu.cnrs.fr/fr/cnrsinfo/de-nouvelles-preuves-pour-identifier-les-insaisissables-seismes-supershear
     - hl: "Visiting Professor at NISER, India"
       txt: "I am very happy to announce that I have officially accepted the position of visiting Professor at National Institute of Science Education and Research, India."
       closing: 
       image: NISER.png
-      readmore: 
       readmore: https://www.niser.ac.in
     - hl: "Welcome to the group Carlos"
       txt: "We are very happy to welcome Carlos Villafuerte to the group. He is starting his postdoc with us in September 2021."
