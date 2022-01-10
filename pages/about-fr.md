@@ -21,10 +21,23 @@ title:
 	</div>
 </div>
 
-	<div class="member">
-<p>
-Je suis chercheur au CNRS et je travaille au Laboratoire de Géologie de l'Ecole Normale Supérieure depuis mai 2016. Je suis également professeur invité en aérospatiale à Caltech, USA et au National Institute of Science Education and Research, Inde. Je travaille principalement à l'interface entre la physique des tremblements de terre et la mécanique des solides en faisant des excursions occasionnelles dans la mécanique des roches, la tectonique et la sismologie. Je suis mécanicien des solides et physicien des sources sismiques de formation. J'ai obtenu mon B. E. en génie civil au Karnataka Regional Engineering College en Inde (maintenant appelé le National Institute of Technology Karnataka, Surathkal). J'ai ensuite obtenu mon doctorat à l'université de Harvard, sous la supervision du professeur James R. Rice et du docteur Renata Dmowska. J'ai effectué mes études postdoctorales conjointement à Caltech et à l'Université de Californie du Sud. J'y ai travaillé avec le Prof. Ares J. Rosakis et le Prof. Charles G. Sammis. J'ai rejoint le CNRS en janvier 2012 en tant que chercheur de grade 1, et j'ai commencé à travailler à l'Institut de Physique du Globe de Paris (IPGP) jusqu'en avril 2016. J'ai reçu le Prix Michel Gouilloud Schlumberger de l'Académie des Sciences. Vous pouvez regarder la cérémonie ici. J'ai récemment obtenu une subvention de consolidation du Conseil européen de la recherche pour un montant de 2,0M€ pour mon projet PERSISMO.
-</p>
+	<div class="post">
+Je suis un <a href="http://www.cnrs.fr/index.php/en">CNRS</a> chercheur scientifique travaillant au <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> à l'école normale supérieure. 
+	<a href="http://www.ens.fr">École Normale Supérieure</a> depuis mai, 2016. Je suis également professeur invité en aérospatiale à <a href="http://www.caltech.edu">Caltech</a>, aux États-Unis et <a href="https://www.niser.ac.in">National Institute of Science Education and Research</a>, en Inde.
+	<br><br>
+	
+	Je travaille principalement à l'interface entre la physique des tremblements de terre et la mécanique des solides en faisant des excursions occasionnelles dans la mécanique des roches, la tectonique et la sismologie. 
+	Je suis mécanicien des solides et physicien des sources sismiques de formation. J'ai obtenu mon B. E. en génie civil au Karnataka Regional Engineering College en Inde (aujourd'hui appelé l'école d'ingénieurs de l'université de Karnataka). 
+	<a href="https://www.nitk.ac.in">Institut national de technologie du Karnataka, Surathkal</a>). J'ai ensuite procédé à l'obtention de 
+	mon doctorat à <a href="http://www.harvard.edu">l'Université Harvard</a>, sous la supervision de <a href="http://www.seas.harvard.edu/rice">Prof. James R. Rice</a>
+	 et <a href="http://www.seas.harvard.edu/dmowska">Dr. Renata Dmowska</a>. J'ai fait mes études postdoctorales conjointement entre à 
+	 <a href="http://www.caltech.edu">Caltech</a> et l'<a href="http://www.usc.edu">Université de Californie du Sud</a>. 
+	 J'y ai travaillé avec <a href="http://rosakis.caltech.edu">Prof. Ares J. Rosakis</a> et <a href="https://dornsife.usc.edu/cf/faculty-and-staff/faculty.cfm?pid=1003669">Prof. Charles G. Sammis</a>.
+	J'ai rejoint le <a href="http://www.cnrs.fr/index.html">CNRS</a> en janvier 2012 en tant que chercheur scientifique de grade 1, et j'ai commencé à travailler à l'Institut de recherche sur la santé. 
+	<a href="http://www.ipgp.fr">Institut de Physique du Globe de Paris (IPGP)</a> jusqu'en avr. 2016. J'ai obtenu 
+	le <a href="http://www.academie-sciences.fr/fr/Laureats/laureat-2018-du-prix-michel-gouilloud-schlumberger-harsha-suresh-bhat.html">Prix Michel Gouilloud Schlumberger</a> de l'<a href="http://www.academie-sciences.fr/fr/">Académie des Sciences</a>. 
+	Vous pouvez regarder la cérémonie <a href="https://www.youtube.com/watch?v=OVaenZ39o_c&amp;t=2s&amp;frags=pl%2Cwn">ici.</a> J'ai récemment été récompensé d'un 
+	<a href="https://cordis.europa.eu/project/id/865411">subvention de consolidation du Conseil européen de la recherche</a> d'un montant de 2,0M€ pour mon projet <a href="https://persismo.netlify.app">PERSISMO</a>.
 	</div>
 
 </div>
