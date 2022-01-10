@@ -31,14 +31,15 @@ postdoc:
       dates: September 2021
       tweet: cdvu
       funded: 1
-phd:
-    - name: "Claudia Hulbert"
-      image: claudia.jpg
-      web: https://scholar.google.fr/citations?user=dexGouYAAAAJ&hl=fr
+    - name: "Navid Kheirdast"
+      image: navid.jpg
+      web: https://scholar.google.com/citations?user=9ZWA_rAAAAAJ&hl=en
       email:
-      post: PhD Canidate
-      dates: October 2018
-      funded: 0
+      post: ERC Post-Doctoral Fellow
+      dates: March 2022
+      tweet: NavidKheirdast
+      funded: 1      
+phd:
     - name: "Léo Petit"
       image: leo.jpg
       web: https://www.researchgate.net/profile/Leo_Petit
@@ -70,10 +71,3 @@ phd:
       dates: March 2021
       funded: 1
 masters:
-    - name: "Roxane Ferry"
-      image: 
-      web: 
-      email:
-      post: 
-      dates: January 2021
-      funded: 0
