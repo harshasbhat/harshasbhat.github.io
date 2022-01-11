@@ -65,7 +65,7 @@ published: true
 
 		{% if news.readmore %}
 		<div id="newsbtn">
-		<a href="{{news.readmore}}">READ MORE ...</a>
+		<a href="{{news.readmore}}">READ MORE</a>
 		</div>
 		{% endif %}
 
