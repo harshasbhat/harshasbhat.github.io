@@ -37,7 +37,7 @@ Je suis un <a href="http://www.cnrs.fr/index.php/en">CNRS</a> chercheur scientif
 	<a href="http://www.ipgp.fr">Institut de Physique du Globe de Paris (IPGP)</a> jusqu'en avr. 2016. J'ai obtenu 
 	le <a href="http://www.academie-sciences.fr/fr/Laureats/laureat-2018-du-prix-michel-gouilloud-schlumberger-harsha-suresh-bhat.html">Prix Michel Gouilloud Schlumberger</a> de l'<a href="http://www.academie-sciences.fr/fr/">Académie des Sciences</a>. 
 	Vous pouvez regarder la cérémonie <a href="https://www.youtube.com/watch?v=OVaenZ39o_c&amp;t=2s&amp;frags=pl%2Cwn">ici.</a> J'ai récemment été récompensé d'un 
-	<a href="https://cordis.europa.eu/project/id/865411">subvention de consolidation du Conseil européen de la recherche</a> d'un montant de 2,0M€ pour mon projet <a href="https://persismo.netlify.app">PERSISMO</a>.
+	<a href="https://cordis.europa.eu/project/id/865411">ERC Consolidator Grant</a> d'un montant de 2,0M€ pour mon projet <a href="https://persismo.netlify.app">PERSISMO</a>.
 	</div>
 
 </div>
