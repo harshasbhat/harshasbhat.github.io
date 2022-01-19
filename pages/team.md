@@ -84,6 +84,18 @@ title:
 {% endfor %}  
 </div>
 
+<h3>Research Engineer</h3>   
+<div class="teams">
+<div class="member">
+
+	
+		<img src="{{ base }}/images/team/pierpaolo.jpg" width="175px">
+
+		<span style="font-size:90%; font-weight:bold">Pierpaolo Dubernet</span>
+	
+</div> 
+</div>
+
 {% if site.data.team.masters %}
 
 <h3>Masters Students</h3>
