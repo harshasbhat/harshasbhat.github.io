@@ -84,7 +84,7 @@ title:
 {% endfor %}  
 </div>
 
-<h3>Research Engineer</h3>   
+<h3>IT Research Engineer</h3>   
 <div class="teams">
 <div class="member">
 
