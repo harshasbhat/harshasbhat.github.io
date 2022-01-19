@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 
-$font-weight-normal: 300;
+$font-weight-normal: 400;
 $font-weight-bold:   600;
 $url-bold: 500;
 $base-font-family: "Roboto";
@@ -41,12 +41,13 @@ $text-color:        $black;
 $text-light-color:  $grey;
 $url-color:         $black;
 $url-hover-color:   crimson;
+$newsheadingcolor:   rgb(0, 0, 0);
 $line-color:        $grey-light;
 $menubackground:    $white;
 $submenubackground: $white;//darken($tsunami, 22%);//lighten($black,15%);
 $menulink: $black;
 $submenulink: $black;
-$hlcolor: lighten(#035afc56,45%);
+$hlcolor: lighten(#07b7ce56,45%);
 $textcolor2: lighten(#4181BD,0%);
 $cardcolor: darken($tsunami, 22%);
 $cardname: $white;
