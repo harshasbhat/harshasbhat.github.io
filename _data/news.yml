@@ -9,7 +9,7 @@ news:
 #      readmore: tsunami/
 #      image: tsunami/composite_tsunami.jpg
     - hl: "Welcome to the group Navid"
-      txt: "We are very happy to welcome Navid Kheirdast to our team from Iran. Welcome Navid"
+      txt: "We are very happy to welcome Navid Kheirdast to our team from Iran. Welcome Navid!"
       closing:
       image: team/navid.jpg
       url:
