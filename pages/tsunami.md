@@ -8,17 +8,16 @@ published: true
 
 <div class="pagewidth">
 
-<h2 align="center" style="color:#4181BD; font-size:18pt">Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake</h2>	
+<h2 align="center" style="color:#4181BD; font-size:18pt">Supershear shock front contribution to the tsunami from the 2018 $M_w$ 7.5 Palu, Indonesia earthquake</h2>	
 
 <i>F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, 
-A. Elbanna, and H. Z. Abidin</i> (2020)  
-<b>"Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake"</b> 
-to appear in Nature Geoscience, 
-<a href="https://doi.org/10.1038/s41561-020-00665-1">doi: 10.1038/s41561-020-00665-1</a>
+A. Elbanna, P. Dubernet and H. Z. Abidin</i>, to appear in Geophysical Journal International (2022)  
 
 <br><br>
 
-{% include video.html id="VNhhA_3GeNU"%}
+{% include image.html url="/images/tsunami/splash.jpg" width="60%" align="center" %}
+
+<br><br>
 
 <div id="watchbtn" style="text-align:center;font-size:16pt">
 		<a href="{{site.baseurl}}/tsunami-en/">Read more in English</a>
