@@ -1,7 +1,7 @@
 publications:
     - title:     "Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake"
       author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna, P. Dubernet & H. Z. Abidin
-      year:    2021
+      year:    2022
       journal:  Geophys. J. Int.
       doi:
       pdf: AmlaniBhatSimons2022m.pdf
@@ -14,7 +14,7 @@ publications:
       arxiv: 	1910.14547
       topics: "supershear, tsunami, numerical models, FCM"
       img: tsunami2.jpg
-#      readmore: tsunami/
+      readmore: tsunami/
     - title:     "Signature of supershear transition seen in damage and aftershock pattern"
       author:    J. Jara, L. Bruhat, M. Y. Thomas, S. Antoine, K. Okubo, Y. Klinger, R. Jolivet & H. S. Bhat
       year:    2021

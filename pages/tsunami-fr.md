@@ -19,7 +19,7 @@ published: true
 <div class="panel">
 <div class="columntxtauthors">
 
-Faisal Amlani,$^{1}$ Harsha S. Bhat,$^{2,*}$ Wim J. F. Simons,$^{3}$ Alexandre Schubnel,$^{2}$ Christophe Vigny,$^{2}$ Ares J. Rosakis,$^{4}$ Joni Efendi,$^5$ Ahmed Elbanna,$^6$ and Hasanuddin Z. Abidin$^{5,7}$ <br><br>
+Faisal Amlani,$^{1}$ Harsha S. Bhat,$^{2,*}$ Wim J. F. Simons,$^{3}$ Alexandre Schubnel,$^{2}$ Christophe Vigny,$^{2}$ Ares J. Rosakis,$^{4}$ Joni Efendi,$^5$ Ahmed Elbanna,$^6$ Pierpaolo Dubernet,$^{2}$ and Hasanuddin Z. Abidin$^{5,7}$ <br><br>
 
 (1) Department of Aerospace and Mechanical Engineering, University of Southern California, Los Angeles, USA, 
 (2) Laboratoire de Géologie, École Normale Supérieure, CNRS-UMR 8538, PSL Research University, Paris, France, 
@@ -36,34 +36,7 @@ Data Availability: <a href="https://doi.org/10.5281/zenodo.4066297"><img src="ht
 
 <button class="accordion">Résumé Scientifque</button>
 <div class="panel">
-<p><b>On sait que en principe, les tsunamis dangereux sont principalement
-générés dans les zones de subduction par de grands séismes qui
-produisent un déplacement vertical du plancher océanique. Cependant, un
-tremblement de terre d'une magnitude, $M_w$ 7,5 qui s’est produit à
-Sulawesi (Indonésie) en 2018 sur une faille de glissement latéral a
-provoqué un tsunami qui a dévasté la ville de Palu. Le mécanisme par
-lequel ce grand tsunami a pris naissance à la suite d'un tremblement de
-terre de type "strike-slip" a été débattu. Nous présentons ici des
-données sur les mouvements du sol en champ proche provenant d'une
-station GPS qui confirment que la rupture associée au tremblement de
-terre de Palu de 2018 s’est propagée à une vitesse supérieure à la
-vitesse des ondes de cisaillement dans le milieu hôte. Ce phénomène,
-rare, est qualifié de rupture « supershear ». Nous étudions l'effet de
-cette rupture particulièrement rapidesur la génération de tsunamis en
-couplant le mouvement du sol à une onde de cisaillement non linéaire 
-qui tient compte de cet effet supershear et de la bathymétrie de la baie
-de Palu (modèle simple 1-D en eau peu profonde).Nous constatons que ces
-simulations reproduisent les mouvements du tsunami mesurés par le
-marégraphe situé au port de Palu (Pantoloan), avec seulement un réglage
-minimal des paramètres. Nous concluons que les fronts de Mach (chocs),
-générés par la vitesse de la rupture, ont interagi avec la bathymétrie
-et ont contribué au tsunami. Ces observations valident un nouveau
-mécanisme de génération de Tsunami destructeur, qui peut donc se
-produire non seulement dans les environs d’une zone de subduction mais
-également à proximité d’une faille décrochante, pour peu que la rupture
-soit excessivement rapide. Cela suggère que la vitesse de rupture des
-séismes, et non seulement leur mécanisme, devrait être prise en compte
-dans l'évaluation du risque de tsunami.</b></p>
+<p><b>Les tsunamis dangereux sont connus pour être générés principalement dans les zones de subduction. Cependant, le séisme de 2018 $M_w$ 7,5 Palu (Indonésie) sur une faille de glissement de grève a généré un tsunami qui a dévasté la ville de Palu. Le mécanisme par lequel ce tsunami est né d'un tel séisme fait l'objet de débats. Nous présentons ici des données de mouvement du sol (GPS) en champ proche qui confirment que le séisme a atteint une vitesse de surcisaillement, c'est-à-dire une vitesse de rupture supérieure à la vitesse des ondes de cisaillement du milieu hôte. Nous étudions ensuite l'effet de cette rupture supershear sur la génération de tsunamis en couplant le mouvement du sol à un modèle unidimensionnel non linéaire de vagues en eau peu profonde qui tient compte à la fois du déplacement bathymétrique et de la vitesse en fonction du temps. Avec le profil bathymétrique local de la baie de Palu autour d'une station de marée, nos simulations reproduisent l'arrivée et les mouvements du tsunami observés par les caméras CCTV. Nous concluons que les fronts de Mach (chocs), générés par la vitesse de surcisaillement, ont interagi avec la bathymétrie et ont contribué au tsunami. Cela suggère que la vitesse de rupture devrait être prise en compte dans les évaluations des risques de tsunami.</b></p>
 </div>
 
 
@@ -84,17 +57,9 @@ dans l'évaluation du risque de tsunami.</b></p>
 caption="The regional tectonic setting and the faults associated with 
 the 2018 Palu earthquake. Image on left from Ulrich et al. (2019)$^1$." width="100%" align="center" %}
 
-<p>Le séisme de magnitude $M_w$ 7,5 de Palu Sulawesi (Indonésie), a
-frappé le 28 septembre 2018, causant des dégats  importants et de
-nombreuses pertes de vies humaines.  Ce séisme ne se produit pas
-sur une subduction mais sur une faille de glissement latéral qui
-traverse l’Île de Sulawesi. Ce tremblement de terre a également
-généré un tsunami qui a dévasté la ville de Palu. En règle
-générale, ce type de séisme (dit en décrochement) ne provoque pas
-de grands mouvements verticaux du sol et donc pas de Tsunami,
-contrairement à Tohoku, au Japon, lors du tremblement de terre de
-2011. La raison  d’un tel tsunami à Palu est donc un peu
-mystérieuse.</p>  
+<p>Causant des destructions et des pertes de vies$^2$ très étendues, le séisme de Palu de magnitude ($M_w$) 7,5 qui s'est produit le 28 septembre 2018 s'est produit sur une faille de glissement (latéral) de Sulawesi (Indonésie). 
+
+Ce séisme a également généré un tsunami qui a dévasté la ville de Palu. Comme de tels séismes à glissement de grève n'impliquent pas de grands mouvements verticaux (cf. Tohoku, Japon, lors du séisme de 2011), les origines de ce mystérieux tsunami font encore l'objet de débats.</p>  
 
 <h4 align="center">Cependant, il s'agissait d'un séismes "Supershear"</h4>    
 
@@ -161,17 +126,16 @@ glissement essentiellement horizontaux.</p>
 
 <h3 align="left"  id="five">5. Génération de Tsunamis Par Des Séismes de Type "Supershear"</h3>
 
-{% include video.html id="yThD2rGoxd0"%}
+{% include video.html id="YOHl-wmSfkA"%}
 
 <br>
 
-<p>Les ruptures de cisaillement produisent des fronts de choc. Ces
-fronts de choc transportent l'énergie de la faille sur de grandes
-distances et sans grande perte. Dans ce travail, nous montrons que
-même si les déplacements sont faibles, le simple fait que les
-fronts de choc affectent une grande région suffit à générer un
-tsunami. Au final, la forme de la baie de Palu, en « baignoire »,
-a encore contribué à amplifier le tsunami ainsi généré.</p>
+<p>Les ruptures à fort cisaillement manifestent des fronts de choc. Ces fronts de chocs transportent
+l'énergie de la faille sur de grandes distances sans grande perte. Dans ce
+travail, nous montrons que même si les déplacements sont faibles, le seul
+fait que les fronts de chocs affectent une grande région est suffisant pour
+générer un tsunami. Dans la baie de Palu, la bathymétrie semblable à une baignoire a en outre
+contribué à ce que ce tsunami devienne assez important.</p>
 
 <br><br>
 <hr>
