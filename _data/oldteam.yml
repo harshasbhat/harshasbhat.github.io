@@ -1,9 +1,17 @@
 postdoc:
+    - name: "Ekeabino Momoh"
+      image: eke.jpg
+      web: https://www.researchgate.net/profile/Ekeabino_Momoh
+      email:
+      post: Post-Doctoral Fellow
+      dates: February 2019
+      tweet: MomohEke
+      funded: 0
     - name: "Lucile Bruhat"
       image: lucile.jpg
       web: https://lucilebruhat.wixsite.com/home
       email: lucile.bruhat@ens.psl.eu
-      post: Natural Catastrophe Risk Analyst at AXA
+      post: AXA
     - name: "Marion Y. Thomas"
       image: marion.jpg
       web: https://marionthomas.weebly.com

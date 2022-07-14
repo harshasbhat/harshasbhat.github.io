@@ -82,7 +82,7 @@ div.pagewidthpub
 
 .pubs {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 150px 1fr;
   grid-row-gap: 10px;
   grid-column-gap: 0px;
   padding:2px;
@@ -100,6 +100,9 @@ div.pagewidthpub
   flex-direction: column;
   justify-content: space-even;
   align-items: space-even;
+  -webkit-box-shadow: 0px 7px 5px -4px rgba(189,189,189,0.74);
+-moz-box-shadow: 0px 7px 5px -4px rgba(189,189,189,0.74);
+box-shadow: 0px 7px 5px -4px rgba(189,189,189,0.74);
  }
 
 .articles:nth-child(even) {

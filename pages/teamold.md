@@ -13,9 +13,9 @@ title:
 <div class="member">
 
 	{% if mem.image %}
-		<img src="{{ base }}/images/team/{{mem.image}}" width="175px">
+		<img src="{{ base }}/images/team/{{mem.image}}" width="125px">
 	{% else %}
-		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
+		<img src="{{ base }}/images/team/dummy.jpg" width="125px">
 	{% endif %}
 
 	{% if mem.web %} 	
@@ -38,9 +38,9 @@ title:
 <div class="member">
 
 	{% if mem.image %}
-		<img src="{{ base }}/images/team/{{mem.image}}" width="175px">
+		<img src="{{ base }}/images/team/{{mem.image}}" width="125px">
 	{% else %}
-		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
+		<img src="{{ base }}/images/team/dummy.jpg" width="125px">
 	{% endif %}
 
 	{% if mem.web %} 	
@@ -63,9 +63,9 @@ title:
 <div class="member">
 
 	{% if mem.image %}
-		<img src="{{ base }}/images/team/{{mem.image}}" width="175px">
+		<img src="{{ base }}/images/team/{{mem.image}}" width="125px">
 	{% else %}
-		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
+		<img src="{{ base }}/images/team/dummy.jpg" width="125px">
 	{% endif %}
 
 	{% if mem.web %} 	
@@ -88,9 +88,9 @@ title:
 <div class="member">
 
 	{% if mem.image %}
-		<img src="{{ base }}/images/team/{{mem.image}}" width="175px">
+		<img src="{{ base }}/images/team/{{mem.image}}" width="125px">
 	{% else %}
-		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
+		<img src="{{ base }}/images/team/dummy.jpg" width="125px">
 	{% endif %}
 
 	{% if mem.web %} 	

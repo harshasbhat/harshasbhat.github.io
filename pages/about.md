@@ -22,7 +22,7 @@ title:
 	
 	<div class="post">
 		I am a <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Research Scientist working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
-	<a href="http://www.ens.fr">Ecole Normale Supérieure</a> since May, 2016. I am also a visiting Professor in Aerospace at <a href="http://www.caltech.edu">Caltech</a>, USA and <a href="https://www.niser.ac.in">National Institute of Science Education and Research</a>, India.
+	<a href="http://www.ens.fr">Ecole Normale Supérieure</a> and a Professor at <a href="https://portail.polytechnique.edu/lms/en">Laboratoire de Mécanique Solides, Ecole Polytechnique</a>. I am also a visiting Professor in Aerospace at <a href="http://www.caltech.edu">Caltech</a>, USA and <a href="https://www.niser.ac.in">National Institute of Science Education and Research</a>, India.
 	<br><br>
 	
 	I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology. 
