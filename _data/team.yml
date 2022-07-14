@@ -8,14 +8,6 @@ pi:
       tweet:
       funded: 1
 postdoc:
-    - name: "Ekeabino Momoh"
-      image: eke.jpg
-      web: https://www.researchgate.net/profile/Ekeabino_Momoh
-      email:
-      post: Post-Doctoral Fellow
-      dates: February 2019
-      tweet: MomohEke
-      funded: 0
     - name: "Michelle Almakari"
       image: michelle.jpg
       web: https://scholar.google.com/citations?user=kE4li3YAAAAJ&hl=en
@@ -40,13 +32,13 @@ postdoc:
       tweet: NavidKheirdast
       funded: 1      
 phd:
-    - name: "Léo Petit"
-      image: leo.jpg
-      web: https://www.researchgate.net/profile/Leo_Petit
-      email:
-      post: PhD Canidate
-      dates: October 2019
-      funded: 0
+    # - name: "Léo Petit"
+    #   image: leo.jpg
+    #   web: https://www.researchgate.net/profile/Leo_Petit
+    #   email:
+    #   post: PhD Canidate
+    #   dates: October 2019
+    #   funded: 0
     - name: "Joseph M. Flores Cuba"
       image: joseph.jpg
       web: https://jflorescuba.wixsite.com/mysite

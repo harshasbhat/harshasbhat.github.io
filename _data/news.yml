@@ -1,4 +1,10 @@
 news:
+    - hl: "New Responsibility"
+      txt: "I am happy to announce that starting September I'll be taking up an additional position as a teaching Professor at Laboratoire de Mécanique des Solides (LMS) at Ecole Polytechnique."
+      closing: "I am really looking forward to get back to teaching."
+      pdf: 
+      readmore: 
+      image: LMS.jpg
     - hl: "Tsunami Induced By Supershear Earthquakes"
       txt: "How can strike-slip earthquakes generate devastating tsunamis? We address this question in this work. "
       closing: "This work just appeared in Geophys. J. Int."
