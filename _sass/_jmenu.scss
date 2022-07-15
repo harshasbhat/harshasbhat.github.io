@@ -5,11 +5,11 @@
 
 .jmenu {
   background: $menubackground; /* Dark gray */
-box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
-              0 2px 2px rgba(0,0,0,0.11), 
-              0 4px 4px rgba(0,0,0,0.11), 
-              0 8px 8px rgba(0,0,0,0.11), 
-              0 16px 16px rgba(0,0,0,0.11);
+box-shadow: 0 1px 1px rgba(0,0,0,0.01), 
+              0 2px 2px rgba(0,0,0,0.01), 
+              0 4px 4px rgba(0,0,0,0.01), 
+              0 8px 8px rgba(0,0,0,0.01), 
+              0 16px 16px rgba(0,0,0,0.01);
   box-sizing: border-box;
   line-height: 1;
   position: -webkit-sticky; /* Safari */
@@ -74,7 +74,8 @@ label.jm-menu-btn:hover {
 }
 
 .jmenu a:hover {
-  color: $url-hover-color; /* White */
+  text-decoration: none;
+  color: $menulink; /* Light gray */
 }
 
 /* Submenu Items */
@@ -95,7 +96,7 @@ label.jm-menu-btn:hover {
 
 .jm-dropdown:hover a {
   /* Make top-level menu item stay highlighted when hovering over children */
-  color: $url-hover-color; 
+  color: $menulink;
 }
 
 .jm-dropdown ul {

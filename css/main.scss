@@ -7,9 +7,9 @@
 $font-weight-normal: 400;
 $font-weight-bold:   600;
 $url-bold: 500;
-$base-font-family: "Roboto";
+$base-font-family: "Helvetica";
 $base-font-size:   13pt;
-$base-line-height: 1.6;
+$base-line-height: 1.5;
 
 $heading-font-family: $base-font-family;
 $heading-font-size:   12pt;
@@ -32,20 +32,20 @@ $white:		#FFFFFF;
 $black:     #000;
 $harvardblue: #baf1f6;
 $hlyellow: #ffffe6;
-$tsunami: #d9efe4;
+$tsunami: #e5f6ed;
 $menu-font-size:12pt;
 
 $background:        $white;
 $dark-background:   darken($background, 5%);
 $text-color:        $black;
 $text-light-color:  $grey;
-$url-color:         $black;
+$url-color:         #098145;
 $url-hover-color:   crimson;
-$newsheadingcolor:   rgb(0, 0, 0);
+$newsheadingcolor:   #014d27;
 $line-color:        $grey-light;
-$menubackground:    $white;
+$menubackground:    #026433;
 $submenubackground: $white;//darken($tsunami, 22%);//lighten($black,15%);
-$menulink: $black;
+$menulink: $white;
 $submenulink: $black;
 $hlcolor: $tsunami;
 $textcolor2: lighten(#4181BD,0%);
