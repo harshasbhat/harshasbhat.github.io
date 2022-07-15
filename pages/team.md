@@ -13,9 +13,9 @@ title:
 <div class="member">
 
 	{% if mem.image %}
-		<img src="{{ base }}/images/team/{{mem.image}}" width="175px">
+		<img src="{{ base }}/images/team/{{mem.image}}" width="125px">
 	{% else %}
-		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
+		<img src="{{ base }}/images/team/dummy.jpg" width="125px">
 	{% endif %}
 
 	{% if mem.web %} 	
@@ -28,7 +28,7 @@ title:
 
 	<span style="font-size:85%">{{mem.dates}} onwards</span>
 
-	<div class="web">
+	<!-- <div class="web">
 
 		{% if mem.tweet %} 
 			<a href="https://twitter.com/{{mem.tweet}}">
@@ -39,7 +39,7 @@ title:
 			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true" style="color:white"></i>
 			</a>
 		{% endif %}  
-	</div>    
+	</div>     -->
 	
 </div>
 {% endfor %}  
@@ -52,9 +52,9 @@ title:
 <div class="member">
 
 	{% if mem.image %}
-		<img src="{{ base }}/images/team/{{mem.image}}" width="175px">
+		<img src="{{ base }}/images/team/{{mem.image}}" width="125px">
 	{% else %}
-		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
+		<img src="{{ base }}/images/team/dummy.jpg" width="125px">
 	{% endif %}
 
 	{% if mem.web %} 	
@@ -67,7 +67,7 @@ title:
 
 	<span style="font-size:85%">{{mem.dates}} onwards</span>
 
-	<div class="web">
+	<!-- <div class="web">
 
 		{% if mem.tweet %} 
 			<a href="https://twitter.com/{{mem.tweet}}">
@@ -78,7 +78,7 @@ title:
 			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true" style="color:white"></i>
 			</a>
 		{% endif %}  
-	</div>    
+	</div>     -->
 	
 </div>
 {% endfor %}  
@@ -89,7 +89,7 @@ title:
 <div class="member">
 
 	
-		<img src="{{ base }}/images/team/pierpaolo.jpg" width="175px">
+		<img src="{{ base }}/images/team/pierpaolo.jpg" width="125px">
 
 		<span style="font-size:90%; font-weight:bold">Pierpaolo Dubernet</span>
 	
@@ -104,9 +104,9 @@ title:
 <div class="member">
 
 	{% if mem.image %}
-		<img src="{{ base }}/images/team/{{mem.image}}" width="175px">
+		<img src="{{ base }}/images/team/{{mem.image}}" width="125px">
 	{% else %}
-		<img src="{{ base }}/images/team/dummy.jpg" width="175px">
+		<img src="{{ base }}/images/team/dummy.jpg" width="125px">
 	{% endif %}
 
 	<span style="font-size:90%; font-weight:bold">{{mem.name}}</span>
@@ -121,7 +121,7 @@ title:
 			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true" style="color:white"></i>
 		{% endif %}  
 
-		{% if mem.tweet %} 
+		<!-- {% if mem.tweet %} 
 			<a href="https://twitter.com/{{mem.tweet}}">
 			<i class="fa fa-twitter fa-lg fa-fw" aria-hidden="true"></i>
 			</a>
@@ -129,7 +129,7 @@ title:
 			<a href="#">
 			<i class="fa fa-link fa-lg fa-fw" aria-hidden="true" style="color:white"></i>
 			</a>
-		{% endif %}  
+		{% endif %}   -->
 	</div>    
 	
 </div>
