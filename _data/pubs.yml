@@ -15,6 +15,7 @@ publications:
       topics: "supershear, tsunami, numerical models, FCM"
       img: tsunami2.jpg
       readmore: tsunami/
+      insu: https://www.insu.cnrs.fr/fr/cnrsinfo/un-nouveau-mecanisme-pour-la-generation-de-tsunami
     - title:     "Signature of supershear transition seen in damage and aftershock pattern"
       author:    J. Jara, L. Bruhat, M. Y. Thomas, S. Antoine, K. Okubo, Y. Klinger, R. Jolivet & H. S. Bhat
       year:    2021
