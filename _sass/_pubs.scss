@@ -106,7 +106,7 @@ box-shadow: 0px 7px 5px -4px rgba(189,189,189,0.74);
  }
 
 .articles:nth-child(even) {
-  background-color: $hlcolor;
+  background-color: $white;
   align-items: stretch;
   padding-left: 20px;
   padding-top: 10px;
@@ -137,7 +137,8 @@ background-color: $white;
 .pubyear {
 width:auto;
 // text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
-font-weight: 600;
+font-weight: 400;
+color: $url-color;
 }
 
 @media (max-width: $mobile) {

@@ -34,13 +34,13 @@ title:
 
 		<span class="pubyear">{{pub.title}} ({{pub.year}})</span>
 
-		<span style="font-size:85%">{{pub.author}}</span>
+		<span style="font-size:85%">&nbsp;{{pub.author}}</span>
 
 		{% if pub.type == "article" %}
-			<span style="font-size:85%"><em>{{pub.journal}}</em><br></span>
+			<span style="font-size:85%">&nbsp;<em>{{pub.journal}}</em><br></span>
 		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
-			<span style="font-size:85%">in <em>{{pub.booktitle}}</em><br></span>
-			<span style="font-size:85%">eds. {{pub.editor}}</span>
+			<span style="font-size:85%">&nbsp;in <em>{{pub.booktitle}}</em><br></span>
+			<span style="font-size:85%">&nbsp;eds. {{pub.editor}}</span>
 		{% endif %}
 
 
