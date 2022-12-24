@@ -1,4 +1,46 @@
 publications:
+    - title:     "On the importance of 3D stress state in 2D earthquake rupture simulations with off-fault deformation"
+      author:    L. Jeandet Ribes, M. Y. Thomas  & H. S. Bhat
+      year:    2022
+      journal:    submitted to the Geophys. J. Int.
+#      pdf: MartyBhatAubry2021m.pdf
+      doi:
+      pubnum:     	
+      type:         article
+      booktitle:	""
+      publisher:
+      editor:
+      school:
+      arxiv:  
+      img: stressstate.jpg
+    - title:     "Elasto-thermo-visco-plastic numerical modelling from a laboratory to geodynamic scale: implications for convergence-driven experiments"
+      author:    E. Momoh, H. S. Bhat & S. Tait
+      year:    2022
+      journal:    submitted to the Geophys. J. Int.
+#      pdf: MartyBhatAubry2021m.pdf
+      doi:
+      pubnum:     	
+      type:         article
+      booktitle:	""
+      publisher:
+      editor:
+      school:
+      arxiv:  
+      img: shearband.jpg
+    - title:     "Nucleation of laboratory earthquakes: quantitative analysis and scalings"
+      author:    S. Marty, H. S. Bhat, J. Aubry, E. Fukuyama, S. Latour, S. Nielsen, R. Madariaga & A. Schubnel
+      year:    2021
+      journal:    submitted to the J. Geophys. Res.
+#      pdf: MartyBhatAubry2021m.pdf
+      doi:
+      pubnum:     	
+      type:         article
+      booktitle:	""
+      publisher:
+      editor:
+      school:
+      arxiv:  
+      img: labquake.jpg
     - title:     "Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake"
       author:    F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. Elbanna, P. Dubernet & H. Z. Abidin
       year:    2022
@@ -33,21 +75,6 @@ publications:
       img: ssdamage.jpg
       readmore: ssdamage-en
       insu: https://www.insu.cnrs.fr/fr/cnrsinfo/de-nouvelles-preuves-pour-identifier-les-insaisissables-seismes-supershear
-    - title:     "Dominantly Aseismic Nucleation of Laboratory Earthquakes: A Quantitative Investigation"
-      author:    S. Marty, H. S. Bhat, J. Aubry, E. Fukuyama, R. Madariaga & A. Schubnel
-      year:    2021
-      journal:    to be re-submitted to the J. Geophys. Res.
-#      pdf: MartyBhatAubry2021m.pdf
-      doi:
-      pubnum:     	
-      type:         article
-      booktitle:	""
-      publisher:
-      editor:
-      school:
-      arxiv:   2105.04298
-      topics: "supershear, damage, fracture mechanics, numerical models, aftershocks"
-      img: labquake.jpg
     - title:     "Anatomy of Strike Slip Fault Tsunami Genesis"
       author:    A. Elbanna, M. Abdelmeguid, X. Ma, F. Amlani, H. S. Bhat, C. Synolakis & A. J. Rosakis
       year:    2021
