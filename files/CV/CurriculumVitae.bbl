@@ -17,25 +17,6 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{rice1991}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=RJR}{%
-         family={Rice},
-         familyi={R\bibinitperiod},
-         given={James\bibnamedelima R.},
-         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{RJR1}
-    \strng{fullhash}{RJR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1991}
-    \field{labeldatesource}{}
-    \field{title}{Fracture Mechanics: Homework problems}
-    \field{year}{1991}
-  \endentry
-
   \entry{thomas2017a}{proceedings}{}
     \name{editor}{3}{}{%
       {{hash=TMY}{%
@@ -53,7 +34,7 @@
       {{hash=BHS}{%
          family={Bhat},
          familyi={B\bibinitperiod},
-         given={Harsha\bibnamedelima S.},
+         given={H.\bibnamedelima S.},
          giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
     }
@@ -104,7 +85,47 @@
     \field{year}{2012}
   \endentry
 
-  \entry{thomas2022}{incollection}{}
+  \entry{thomas2022a}{incollection}{}
+    \name{author}{2}{}{%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Marion\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={Harsha\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=RF}{%
+         family={Rolandone},
+         familyi={R\bibinitperiod},
+         given={Fr{\'e}d{\'e}rique},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {ISTE Editions (in English}%
+      {French)}%
+    }
+    \strng{namehash}{TMYBHS2}
+    \strng{fullhash}{TMYBHS2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{booktitle}{Le Cycle Sismique}
+    \field{title}{Loi de friction et mod{\'e}lisation num{\'e}rique du cycle
+  sismique}
+    \field{year}{2022}
+  \endentry
+
+  \entry{thomas2022b}{incollection}{}
     \name{author}{2}{}{%
       {{hash=TMY}{%
          family={Thomas},
@@ -135,14 +156,14 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2022}
+    \field{extradate}{1}
     \field{labeldatesource}{}
-    \field{booktitle}{Le Cycle Sismique}
-    \field{title}{Loi de friction et mod{\'e}lisation num{\'e}rique du cycle
-  sismique}
+    \field{booktitle}{Seismic Cycles}
+    \field{title}{Friction Laws and Seismic Cycle Modelling}
     \field{year}{2022}
   \endentry
 
-  \entry{thomas2021}{article}{}
+  \entry{thomas2023}{article}{}
     \name{author}{2}{}{%
       {{hash=TMY}{%
          family={Thomas},
@@ -161,60 +182,392 @@
     \strng{fullhash}{TMYBHS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2021}
+    \field{labelyear}{2023}
     \field{labeldatesource}{}
     \field{title}{Combined effects of fault roughness and off-fault damage on
   earthquake dynamics}
     \field{journaltitle}{in prep}
-    \field{year}{2021}
+    \field{year}{2023}
   \endentry
 
-  \entry{romanet2021}{article}{}
-    \name{author}{4}{}{%
-      {{hash=RP}{%
-         family={Romanet},
-         familyi={R\bibinitperiod},
-         given={Pierre},
-         giveni={P\bibinitperiod},
+  \entry{cuba2023}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FCJ}{%
+         family={Flores-Cuba},
+         familyi={F\bibinithyphendelim C\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={M.\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
       }}%
       {{hash=BHS}{%
          family={Bhat},
          familyi={B\bibinitperiod},
-         given={Harsha\bibnamedelima S.},
+         given={H.\bibnamedelima S.},
          giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
-      {{hash=CS}{%
-         family={Chaillat},
-         familyi={C\bibinitperiod},
-         given={St{\'e}phanie},
-         giveni={S\bibinitperiod},
+    }
+    \strng{namehash}{FCJ+1}
+    \strng{fullhash}{FCJTMYBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{title}{Effect on off-fault damage on stepovers}
+    \field{journaltitle}{in prep}
+    \field{year}{2023}
+  \endentry
+
+  \entry{jeandet2023}{article}{}
+    \name{author}{4}{}{%
+      {{hash=JRL}{%
+         family={Jeandet-Ribes},
+         familyi={J\bibinithyphendelim R\bibinitperiod},
+         given={Louise},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FR}{%
+         family={Ferry},
+         familyi={F\bibinitperiod},
+         given={Roxane},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={M.\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JRL+2}
+    \strng{fullhash}{JRLFRTMYBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{title}{Depth variation of co-seismic damage}
+    \field{journaltitle}{in prep}
+    \field{year}{2023}
+  \endentry
+
+  \entry{kheirdast2023}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KN}{%
+         family={Kheirdast},
+         familyi={K\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Almakari},
+         familyi={A\bibinitperiod},
+         given={Michelle},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VCD}{%
+         family={Villafuerte},
+         familyi={V\bibinitperiod},
+         given={C.\bibnamedelima D.},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KN+1}
+    \strng{fullhash}{KNAMVCDBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{title}{Energy budget of earthquake cycles}
+    \field{journaltitle}{in prep}
+    \field{year}{2023}
+  \endentry
+
+  \entry{villafuerte2023}{article}{}
+    \name{author}{7}{}{%
+      {{hash=VCD}{%
+         family={Villafuerte},
+         familyi={V\bibinitperiod},
+         given={C.\bibnamedelima D.},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=OK}{%
+         family={Okubo},
+         familyi={O\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Almakari},
+         familyi={A\bibinitperiod},
+         given={Michelle},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kheirdast},
+         familyi={K\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Rougier},
+         familyi={R\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
       }}%
       {{hash=MR}{%
          family={Madariaga},
          familyi={M\bibinitperiod},
-         given={Ra{\`u}l},
+         given={R.},
          giveni={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{RP+1}
-    \strng{fullhash}{RPBHSCSMR1}
+    \strng{namehash}{VCD+1}
+    \strng{fullhash}{VCDBHSOKAMKNREMR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2021}
+    \field{labelyear}{2023}
     \field{labeldatesource}{}
-    \field{title}{Fast algorithms to model quasi-dynamic earthquake cycles in
-  complex fault networks}
-    \field{journaltitle}{to be subm. J. Geophys. Res.}
-    \field{year}{2021}
+    \field{title}{Thrust fault dynamics}
+    \field{journaltitle}{in prep}
+    \field{year}{2023}
   \endentry
 
-  \entry{marty2021}{article}{}
-    \name{author}{6}{}{%
+  \entry{cheng2023}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CJ}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Jinhui},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Almakari},
+         familyi={A\bibinitperiod},
+         given={Michelle},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Lecampion},
+         familyi={L\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Peruzzo},
+         familyi={P\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJ+1}
+    \strng{fullhash}{CJAMBHSLBPC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{title}{3D quasi-dynamic earthquake cycles in complex fault systems}
+    \field{journaltitle}{in prep}
+    \field{year}{2023}
+  \endentry
+
+  \entry{almakari2023a}{article}{}
+    \name{author}{5}{}{%
+      {{hash=AM}{%
+         family={Almakari},
+         familyi={A\bibinitperiod},
+         given={Michelle},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kheirdast},
+         familyi={K\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=VCD}{%
+         family={Villafuerte},
+         familyi={V\bibinitperiod},
+         given={C.\bibnamedelima D.},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={M.\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AM+1}
+    \strng{fullhash}{AMKNVCDTMYBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{title}{Full spectrum of slip dynamics of a fault zone: Source}
+    \field{journaltitle}{in prep}
+    \field{year}{2023}
+  \endentry
+
+  \entry{almakari2023b}{article}{}
+    \name{author}{5}{}{%
+      {{hash=AM}{%
+         family={Almakari},
+         familyi={A\bibinitperiod},
+         given={Michelle},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kheirdast},
+         familyi={K\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=VCD}{%
+         family={Villafuerte},
+         familyi={V\bibinitperiod},
+         given={C.\bibnamedelima D.},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={M.\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AM+1}
+    \strng{fullhash}{AMKNVCDTMYBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{title}{Full spectrum of slip dynamics of a fault zone: Synthetics}
+    \field{journaltitle}{in prep}
+    \field{year}{2023}
+  \endentry
+
+  \entry{momoh2022}{article}{}
+    \name{author}{3}{}{%
+      {{hash=ME}{%
+         family={Momoh},
+         familyi={M\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Tait},
+         familyi={T\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ME+1}
+    \strng{fullhash}{MEBHSTS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{title}{Elasto-thermo-visco-plastic numerical modelling from a
+  laboratory to geodynamic scale: implications for convergence-driven
+  experiments}
+    \field{journaltitle}{subm. Geophys. J. Int.}
+    \field{year}{2022}
+  \endentry
+
+  \entry{jeandet2022}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JRL}{%
+         family={Jeandet-Ribes},
+         familyi={J\bibinithyphendelim R\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={M.\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JRL+1}
+    \strng{fullhash}{JRLTMYBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{title}{On the importance of 3D stress state in 2D earthquake rupture
+  simulations with off-fault deformation}
+    \field{journaltitle}{subm. Geophys. J. Int.}
+    \field{year}{2022}
+  \endentry
+
+  \entry{marty2022}{article}{}
+    \name{author}{8}{}{%
       {{hash=MS}{%
          family={Marty},
          familyi={M\bibinitperiod},
          given={S.},
          giveni={S\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schubnel},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
       }}%
       {{hash=BHS}{%
          family={Bhat},
@@ -234,32 +587,38 @@
          given={E.},
          giveni={E\bibinitperiod},
       }}%
+      {{hash=LS}{%
+         family={Latour},
+         familyi={L\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Nielsen},
+         familyi={N\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
       {{hash=MR}{%
          family={Madariaga},
          familyi={M\bibinitperiod},
          given={R.},
          giveni={R\bibinitperiod},
       }}%
-      {{hash=SA}{%
-         family={Schubnel},
-         familyi={S\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
     }
     \strng{namehash}{MS+1}
-    \strng{fullhash}{MSBHSAJFEMRSA1}
+    \strng{fullhash}{MSSABHSAJFELSNSMR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2021}
+    \field{labelyear}{2022}
     \field{labeldatesource}{}
-    \field{title}{Dominantly Aseismic Nucleation of Laboratory Earthquakes: A
-  Quantitative Investigation}
+    \field{title}{Nucleation of laboratory earthquakes: quantitative analysis
+  and scalings}
     \list{institution}{1}{%
       {Ecole Normale Sup{\'e}rieure}%
     }
-    \field{journaltitle}{to be subm. J. Geophys. Res.}
-    \field{year}{2021}
+    \field{journaltitle}{subm. J. Geophys. Res.}
+    \field{year}{2022}
   \endentry
 
   \entry{amlani2022}{article}{}
@@ -521,7 +880,7 @@
          giveni={P\bibinitperiod},
       }}%
     }
-    \strng{namehash}{JRL+1}
+    \strng{namehash}{JRL+2}
     \strng{fullhash}{JRLCNBHSSP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
