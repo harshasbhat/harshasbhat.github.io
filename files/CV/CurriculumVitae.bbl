@@ -108,9 +108,8 @@
          giveni={F\bibinitperiod},
       }}%
     }
-    \list{publisher}{2}{%
-      {ISTE Editions (in English}%
-      {French)}%
+    \list{publisher}{1}{%
+      {ISTE-Wiley}%
     }
     \strng{namehash}{TMYBHS2}
     \strng{fullhash}{TMYBHS2}
@@ -149,7 +148,7 @@
       }}%
     }
     \list{publisher}{1}{%
-      {ISTE Editions}%
+      {ISTE-Wiley}%
     }
     \strng{namehash}{TMYBHS2}
     \strng{fullhash}{TMYBHS2}
@@ -158,8 +157,8 @@
     \field{labelyear}{2022}
     \field{extradate}{1}
     \field{labeldatesource}{}
-    \field{booktitle}{Seismic Cycles}
-    \field{title}{Friction Laws and Seismic Cycle Modelling}
+    \field{booktitle}{The Seismic Cycle: From Observation to Modeling}
+    \field{title}{Friction Laws and Numerical Modeling of the Seismic Cycle}
     \field{year}{2022}
   \endentry
 
