@@ -32,32 +32,38 @@ title:
 
    <div class="articles">
 
-		<span class="pubyear">{{pub.title}} ({{pub.year}})</span>
+		{% if pub.pdf %}
+			<a href="{{site.baseurl}}/files/{{pub.pdf}}" style="font-size:100%"><span>{{pub.title}} ({{pub.year}})</span></a>
+		{% else %}
+		    <span><em>{{pub.title}}</em> ({{pub.year}})</span> 
+		{% endif %}
 
 		<span style="font-size:85%">&nbsp;{{pub.author}}</span>
 
 		{% if pub.type == "article" %}
-			<span style="font-size:85%">&nbsp;<em>{{pub.journal}}</em><br></span>
+			<span style="font-size:85%">&nbsp;<em>{{pub.journal}}</em></span>
+			{% if pub.doi %} <a href="https://doi.org/{{pub.doi}}" style="font-size:85%">DOI:{{pub.doi}}</a> {% endif %}
 		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
-			<span style="font-size:85%">&nbsp;in <em>{{pub.booktitle}}</em><br></span>
+			<span style="font-size:85%">&nbsp;in <em>{{pub.booktitle}}</em></span>
 			<span style="font-size:85%">&nbsp;eds. {{pub.editor}}</span>
+			{% if pub.doi %} <a href="https://doi.org/{{pub.doi}}" style="font-size:85%">DOI:{{pub.doi}}</a> {% endif %}
 		{% endif %}
 
 
 
 		<div class="pubbuttons">
 
-			{% if pub.pdf %}
+			<!-- {% if pub.pdf %}
 			<div id="newsbtn">
 				<a href="{{site.baseurl}}/files/{{pub.pdf}}" style="font-size:65%">PDF</a>
 			</div>
-			{% endif %}
+			{% endif %} -->
 
-			{% if pub.doi %}
+			<!-- {% if pub.doi %}
 			<div id="newsbtn">
 				<a href="https://doi.org/{{pub.doi}}" style="font-size:65%">DOI</a>
 			</div>
-			{% endif %}
+			{% endif %} -->
 
 			{% if pub.arxiv %}
 			<div id="newsbtn">
