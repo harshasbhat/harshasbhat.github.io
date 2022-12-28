@@ -41,10 +41,12 @@ title:
 		<span style="font-size:85%">&nbsp;{{pub.author}}</span>
 
 		{% if pub.type == "article" %}
-			<span style="font-size:85%">&nbsp;<em>{{pub.journal}}</em></span>
-			{% if pub.doi %} <a href="https://doi.org/{{pub.doi}}" style="font-size:85%">DOI:{{pub.doi}}</a> {% endif %}
+			<span style="font-size:85%">&nbsp;<b>{{pub.journal}}</b></span>
+			{% if pub.doi %} 
+				<a href="https://doi.org/{{pub.doi}}" style="font-size:75%">DOI:{{pub.doi}}</a> 
+			{% endif %}
 		{% elsif pub.type == "inproceeding" or pub.type == "incollection" %}
-			<span style="font-size:85%">&nbsp;in <em>{{pub.booktitle}}</em></span>
+			<span style="font-size:85%">&nbsp;in <b>{{pub.booktitle}}</b></span>
 			<span style="font-size:85%">&nbsp;eds. {{pub.editor}}</span>
 			{% if pub.doi %} <a href="https://doi.org/{{pub.doi}}" style="font-size:85%">DOI:{{pub.doi}}</a> {% endif %}
 		{% endif %}
@@ -67,7 +69,7 @@ title:
 
 			{% if pub.arxiv %}
 			<div id="newsbtn">
-				<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf" style="font-size:65%">arXiv</a>
+				<a href="https://arxiv.org/pdf/{{pub.arxiv}}.pdf" style="font-size:65%">arXiv:{{pub.arxiv}}</a>
 			</div>
 			{% endif %}
 

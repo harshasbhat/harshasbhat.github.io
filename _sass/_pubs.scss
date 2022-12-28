@@ -31,7 +31,7 @@ div.pagewidthpub
 	// max-height: 120px;
 	align:center;
 	vertical-align: middle;
-  padding: 1px 1px;
+  padding: 0px 0px;
 	// box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
 }
 
@@ -117,10 +117,14 @@ box-shadow: 0px 7px 5px -4px rgba(189,189,189,0.74);
 .articles:nth-child(odd) {
 // border-right: 1px solid darken($tsunami,10%);
 background-color: $white;
+-webkit-box-shadow: 0px 0px 0px 0px rgba(189,189,189,0.74);
+-moz-box-shadow: 0px 0px 0px 0px rgba(189,189,189,0.74);
+box-shadow: 0px 0px 0px 0px rgba(189,189,189,0.74);
 }
 
 .articles a {
   font-weight: normal; //lighten($grey-light,16%);
+  white-space: nowrap;
  }
 
 .articles  a:hover {

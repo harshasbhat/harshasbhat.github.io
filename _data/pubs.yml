@@ -3,7 +3,6 @@ publications:
       author:    L. Jeandet Ribes, M. Y. Thomas  & H. S. Bhat
       year:    2022
       journal:    submitted to the Geophys. J. Int.
-#      pdf: MartyBhatAubry2021m.pdf
       doi:
       pubnum:     	
       type:         article
@@ -11,13 +10,12 @@ publications:
       publisher:
       editor:
       school:
-      arxiv:  
+      arxiv:  2212.12709
       img: stressstate.jpg
     - title:     "Elasto-thermo-visco-plastic numerical modelling from a laboratory to geodynamic scale: implications for convergence-driven experiments"
       author:    E. Momoh, H. S. Bhat & S. Tait
       year:    2022
       journal:    submitted to the Geophys. J. Int.
-#      pdf: MartyBhatAubry2021m.pdf
       doi:
       pubnum:     	
       type:         article
@@ -25,13 +23,12 @@ publications:
       publisher:
       editor:
       school:
-      arxiv:  
+      arxiv:  2212.12701
       img: shearband.jpg
     - title:     "Nucleation of laboratory earthquakes: quantitative analysis and scalings"
-      author:    S. Marty, H. S. Bhat, J. Aubry, E. Fukuyama, S. Latour, S. Nielsen, R. Madariaga & A. Schubnel
+      author:    S. Marty, A. Schubnel, H. S. Bhat, J. Aubry, E. Fukuyama, S. Latour, S. Nielsen & R. Madariaga
       year:    2022
       journal:    submitted to the J. Geophys. Res.
-#      pdf: MartyBhatAubry2021m.pdf
       doi:
       pubnum:     	
       type:         article
@@ -39,7 +36,7 @@ publications:
       publisher:
       editor:
       school:
-      arxiv:  
+      arxiv: 2105.04298
       img: labquake.jpg
     - title:     "Loi de friction et modélisation numérique du cycle sismique"
       author:    M. Y. Thomas & H. S. Bhat
@@ -136,21 +133,6 @@ publications:
       arxiv: 	2007.06412v2
       topics: "erosion, earthquake cycles, numerical models"
       img: erosion.png
-    - title:     "Loi de friction et modélisation numérique du cycle sismique"
-      author:    M. Y. Thomas & H. S. Bhat
-      year:    2020
-      journal:
-      pdf: 		ThomasBhat2020a.pdf
-      doi:
-      pubnum:     	39
-      type:         incollection
-      booktitle:	"Le Cycle Sismique"
-      publisher:	ISTE Editions
-      editor:   F. Rolandone
-      school:
-      arxiv:
-      topics: "friction, earthquake cycles, history"
-      img: mallet.png
     - title:     "Modeling earthquakes with off-fault damage using the combined finite discrete element method"
       author:    K. Okubo, E. Rougier, Z. Lei & H. S. Bhat
       year:    2020
