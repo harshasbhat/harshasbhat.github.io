@@ -73,6 +73,12 @@ title:
 			</div>
 			{% endif %}
 
+			{% if pub.hal %}
+			<div id="newsbtn">
+				<a href="https://hal.archives-ouvertes.fr/{{pub.hal}}/document" style="font-size:65%">HAL:{{pub.hal}}</a>
+			</div>
+			{% endif %}
+
 			{% if pub.insu %}
 				<div id="watchbtn">
 					<a href="{{pub.insu}}" style="font-size:65%">INSU</a>

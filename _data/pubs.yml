@@ -51,6 +51,7 @@ publications:
       editor:   F. Rolandone
       school:
       arxiv:
+      hal: hal-03923984
       topics: "friction, earthquake cycles, history"
       img: mallet.png
     - title:     "Friction Laws and Numerical Modeling of the Seismic Cycle"
