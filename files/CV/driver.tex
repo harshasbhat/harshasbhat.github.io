@@ -98,13 +98,13 @@
 \renewbibmacro{in:}{}
 \DeclareFieldFormat
   [article,inbook,incollection,proceedings,inproceedings,patent,thesis,unpublished]
-  {title}{\mkbibquote{\textcolor{hgreen}{\textbf{#1}}}}
+  {title}{\mkbibquote{\textcolor{blue}{\textit{#1}}}}
 \DeclareFieldFormat
   [article,inbook,incollection,proceedings,inproceedings,patent,thesis,unpublished]
-  {journaltitle}{\textcolor{harvard}{\textit{#1}}} 
+  {journaltitle}{\textcolor{harvard}{\textbf{#1}}} 
 \DeclareFieldFormat
   [article,inbook,incollection,proceedings,inproceedings,patent,thesis,unpublished]
-  {booktitle}{in \textcolor{harvard}{\textit{#1}}}    
+  {booktitle}{in \textcolor{harvard}{\textbf{#1}}}    
 \AtBeginBibliography{\small}
 \addbibresource{~/Dropbox/Public/CollectedPapers/MasterBibliography.bib}          
 

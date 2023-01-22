@@ -90,8 +90,12 @@ title:
 					<a href="{{ base }}/{{pub.readmore}}" style="font-size:65%">READ MORE ...</a>
 				</div>
 			{% endif %}
+				
+			</div>   
 
-			</div>    	
+			
+
+
     </div>
 
 </div>  
