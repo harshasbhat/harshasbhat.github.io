@@ -79,8 +79,8 @@ font-weight: 450;
 border-radius: 0.1em; 
 padding: 3px 6px; 
 float:center; 
-color:$black; 
-background-color:darken($tsunami,22%); 
+color:$white; 
+background-color:$newsbtncolor; 
 border: 1px solid lighten($harvardblue, 100.0%);
 }
 
@@ -103,8 +103,8 @@ border-radius: 0.1em;
 padding: 3px 6px; 
 float:center; 
 color:$white; 
-background-color:darken($harvard,0%); 
-border: 1px solid lighten($harvardblue, 100.0%);
+background-color:$watchbtncolor; 
+border: 0px solid lighten($harvardblue, 100.0%);
 }
 
 
