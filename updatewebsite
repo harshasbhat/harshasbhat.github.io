@@ -1,4 +1,4 @@
     git pull
-    git add -A
+    git add .
     git commit -a -m "website update"
     git push origin master
