@@ -1,4 +1,10 @@
 news:
+    - hl: "New paper published"
+      txt: "Our new paper 'Nucleation of Laboratory Earthquakes: Quantitative Analysis and Scalings' is now published. Congrats Samson!"
+      closing: ""
+      pdf: MartySchubnelBhat2023a.pdf
+      image: pubimages/labquake.jpg
+      insu: 
     - hl: "New papers submitted"
       txt: "3 new papers on subduction dynamics, laboratory earthquakes and stress state of faults submitted."
       closing: ""
