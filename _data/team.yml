@@ -15,14 +15,6 @@ postdoc:
       post: ERC Post-Doctoral Fellow
       dates: January 2021
       funded: 1
-    - name: "Carlos D. Villafuerte"
-      image: carlos.jpg
-      web: https://scholar.google.com.mx/citations?user=7TTyAOwAAAAJ&hl=es
-      email:
-      post: ERC Post-Doctoral Fellow
-      dates: September 2021
-      tweet: cdvu
-      funded: 1
     - name: "Navid Kheirdast"
       image: navid.jpg
       web: https://kheirdast.github.io
@@ -32,13 +24,6 @@ postdoc:
       tweet: NavidKheirdast
       funded: 1      
 phd:
-    # - name: "Léo Petit"
-    #   image: leo.jpg
-    #   web: https://www.researchgate.net/profile/Leo_Petit
-    #   email:
-    #   post: PhD Canidate
-    #   dates: October 2019
-    #   funded: 0
     - name: "Joseph M. Flores Cuba"
       image: joseph.jpg
       web: https://jflorescuba.wixsite.com/mysite
