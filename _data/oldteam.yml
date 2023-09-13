@@ -20,7 +20,22 @@ postdoc:
       image: lisa.jpg
       web: 
       post: Postdoc École Polytechnique
+    - name: "Carlos D. Villafuerte"
+      image: carlos.jpg
+      web: https://scholar.google.com.mx/citations?user=7TTyAOwAAAAJ&hl=es
+      email:
+      post: ERC Post-Doctoral Fellow
+      dates: September 2021
+      tweet: cdvu
+      funded: 1      
 phd:
+    - name: "Léo Petit"
+      image: leo.jpg
+      web: https://www.researchgate.net/profile/Leo_Petit
+      email:
+      post: PhD Canidate
+      dates: October 2019
+      funded: 0
     - name: "Michael Mello"
       image: mike.jpg
       web: https://mce.caltech.edu/people/mello

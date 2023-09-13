@@ -6,6 +6,8 @@ title:
 
 {% include new-window-fix.html %}
 
+<h3>PERSISMO-IDEAS Group</h3>  
+{% include image.html url="/images/PERSISMO.jpg" width="80%" align="center" %}
  
 <h3>Post Doctoral Researchers</h3>   
 <div class="teams">
