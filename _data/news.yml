@@ -1,4 +1,15 @@
 news:
+    - hl: "New paper accepted"
+      txt: "Our new paper 'On the importance of 3D stress state in 2D earthquake rupture simulations with off-fault deformation' is now published. Congrats Louise!"
+      closing: ""
+      pdf: Jeandet-RibesThomasBhat2023a.pdf
+      image: pubimages/stressstate.jpg
+      insu: 
+    - hl: "Congratulations Carlos on the new job!"
+      txt: "We are very happy and proud of Carlos Villafuerte who will start as an assitant professor at UNAM, Mexico City! "
+      closing:
+      image: team/carlos.jpg
+      readmore: 
     - hl: "New paper published"
       txt: "Our new paper 'Nucleation of Laboratory Earthquakes: Quantitative Analysis and Scalings' is now published. Congrats Samson!"
       closing: ""
