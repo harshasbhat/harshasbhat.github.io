@@ -10,7 +10,7 @@ publications:
       publisher:
       editor:
       school:
-      # arxiv:  2212.12709
+      arxiv:  2212.12709
       img: stressstate.jpg
       pdf: Jeandet-RibesThomasBhat2023a.pdf
     - title:     "Elasto-thermo-visco-plastic numerical modelling from a laboratory to geodynamic scale: implications for convergence-driven experiments"
