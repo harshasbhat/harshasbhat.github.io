@@ -10,6 +10,7 @@ Laboratoire de Géologie<br>
 24 rue Lhomond<br>
 75005 Paris, France<br>
 <img src="{{ base }}/images/email.png" width="180px">
+
 There is an 's' between my first and last names in my email address!
 
 {% include image.html url="/images/directions.png" width="90%" align="center" %}
