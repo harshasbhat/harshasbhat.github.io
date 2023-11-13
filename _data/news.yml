@@ -1,4 +1,9 @@
 news:
+    - hl: "Welcome Caiyuan!"
+      txt: "We are very happy to welcome Caiyuan Fan who will start his PhD with us and Dr. Alexandre Schubnel."
+      closing:
+      image: team/caiyuan.jpg
+      readmore: 
     - hl: "New paper accepted"
       txt: "Our new paper 'On the importance of 3D stress state in 2D earthquake rupture simulations with off-fault deformation' is now published. Congrats Louise!"
       closing: ""

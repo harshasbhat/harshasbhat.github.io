@@ -29,6 +29,14 @@ postdoc:
       tweet: cdvu
       funded: 1      
 phd:
+    - name: "Joseph M. Flores Cuba"
+      image: joseph.jpg
+      web: https://jflorescuba.wixsite.com/mysite
+      email:
+      post: PhD Canidate (Sorbonne U.)
+      dates: October 2020
+      tweet: Jflorescuba
+      funded: 1
     - name: "Léo Petit"
       image: leo.jpg
       web: https://www.researchgate.net/profile/Leo_Petit
