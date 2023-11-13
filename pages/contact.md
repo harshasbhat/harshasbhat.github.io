@@ -11,6 +11,8 @@ Laboratoire de Géologie<br>
 75005 Paris, France<br>
 <img src="{{ base }}/images/email.png" width="180px">
 
+There is an 's' between my first and last names in my email address!
+
 {% include image.html url="/images/directions.png" width="90%" align="center" %}
 The <a href="https://www.ratp.fr/en/">Paris Metro Website</a> is excellent to 
 get transportation options to reach ENS (24 rue Lhomond, red dot above). To reach my office take the elevator marked C or D to the 2nd floor in the plan above. I am in room E208 (green dot above). 
