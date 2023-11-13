@@ -24,20 +24,28 @@ postdoc:
       tweet: NavidKheirdast
       funded: 1      
 phd:
-    - name: "Joseph M. Flores Cuba"
-      image: joseph.jpg
-      web: https://jflorescuba.wixsite.com/mysite
-      email:
-      post: PhD Canidate (Sorbonne U.)
-      dates: October 2020
-      tweet: Jflorescuba
-      funded: 1
-    - name: "Augustin Thomas"
-      image: thomas.jpg
-      web: https://www.linkedin.com/in/augustin-thomas-60a631112/?originalSubdomain=fr
+    - name: "Yishuo Zhou"
+      image: yishuo.jpg
+      web:
       email:
       post: PhD Canidate
-      dates: October 2020
+      dates: February 2024
+      tweet:
+      funded: 1
+    - name: "Caiyuan Fan"
+      image: caiyuan.jpg
+      web: https://www.researchgate.net/profile/Caiyuan-Fan
+      email:
+      post: PhD Canidate
+      dates: November 2023
+      tweet:
+      funded: 1
+    - name: "Thomas Melkior"
+      image: melkior.jpg
+      web: https://fr.linkedin.com/in/thomas-melkior-6a197a19a
+      email:
+      post: PhD Canidate
+      dates: December 2023
       tweet:
       funded: 1
     - name: "Jinhui Cheng"
@@ -46,5 +54,13 @@ phd:
       email:
       post: PhD Canidate
       dates: March 2021
+      funded: 1
+    - name: "Augustin Thomas"
+      image: thomas.jpg
+      web: https://www.linkedin.com/in/augustin-thomas-60a631112/?originalSubdomain=fr
+      email:
+      post: PhD Canidate
+      dates: October 2020
+      tweet:
       funded: 1
 masters:
