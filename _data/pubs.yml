@@ -2,8 +2,8 @@ publications:
     - title:     "On the importance of 3D stress state in 2D earthquake rupture simulations with off-fault deformation"
       author:    L. Jeandet Ribes, M. Y. Thomas  & H. S. Bhat
       year:    2023
-      journal:    to appear in Geophys. J. Int.
-      doi:
+      journal:   Geophys. J. Int.
+      doi: 10.1093/gji/ggad401
       pubnum:     	
       type:         article
       booktitle:	""
@@ -13,17 +13,17 @@ publications:
       arxiv:  2212.12709
       img: stressstate.jpg
       pdf: Jeandet-RibesThomasBhat2023a.pdf
-    - title:     "Elasto-thermo-visco-plastic numerical modelling from a laboratory to geodynamic scale: implications for convergence-driven experiments"
-      author:    E. Momoh, H. S. Bhat & S. Tait
-      year:    2023
-      journal:    to be submitted soon
-      doi:
-      pubnum:     	
-      type:         article
-      booktitle:	""
-      publisher:
-      editor:
-      school:
+    # - title:     "Elasto-thermo-visco-plastic numerical modelling from a laboratory to geodynamic scale: implications for convergence-driven experiments"
+    #   author:    E. Momoh, H. S. Bhat & S. Tait
+    #   year:    2023
+    #   journal:    to be submitted soon
+    #   doi:
+    #   pubnum:     	
+    #   type:         article
+    #   booktitle:	""
+    #   publisher:
+    #   editor:
+    #   school:
       # arxiv:  2212.12701
       img: shearband.jpg
     - title:     "Nucleation of laboratory earthquakes: quantitative analysis and scalings"
