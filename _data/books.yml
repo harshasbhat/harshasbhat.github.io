@@ -1,4 +1,18 @@
 publications:
+    - title:     "The Seismic Cycle: From Observations to Modeling (Coordinated by F. Rolandone)"
+      author:    
+      year:    2023
+      journal:    
+      pdf: 		book.pdf
+      doi:		
+      pubnum:     	
+      type:         proceedings  
+      booktitle:	""
+      publisher:	ISTE-WILEY
+      editor:   F. Rolandone
+      school:	
+      arxiv: 	
+      img: book3.png
     - title:     "Fault Zone Dynamic Processes : Evolution of Fault Properties During Seismic Rupture, Geophysical Monograph 227"
       author:    
       year:    2017
