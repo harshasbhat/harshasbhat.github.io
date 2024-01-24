@@ -16,6 +16,8 @@
 \usepackage{tikz}
 \usepackage{tcolorbox}
 \usepackage{array}
+\usepackage{etaremune}
+
 \usepackage[hypertexnames=false,naturalnames=true]{hyperref}
 \hypersetup{
     bookmarks=true,         % show bookmarks bar?
@@ -37,8 +39,8 @@
 \definecolor{ivy}{RGB}{78,136,199}
 \definecolor{hgreen}{RGB}{148,110,183}
 \definecolor{gray}{rgb}{0.15,0.15,0.15}
-\definecolor{groy}{rgb}{0.0,0.45,0.0}
-\definecolor{grayy}{rgb}{0.5,0.5,0.5}
+\definecolor{groy}{rgb}{0.02, 0.435, 0.698}
+\definecolor{grayy}{rgb}{0.25,0.25,0.25}
 \definecolor{blue}{rgb}{0,0,1}
 \definecolor{green}{rgb}{0.0,0.45,0.0}
 \definecolor{red}{rgb}{1,0,0.0}
@@ -54,6 +56,7 @@
 \newcommand{\gray}[1]{\textcolor{black}{#1}}
 
 
+
 \setlength{\parskip}{8pt}
 \setlength{\parindent}{0.0cm}
 \setlist{noitemsep} 
@@ -65,8 +68,12 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\newcommand{\subtitlec}[1]{
+{\textit{\textcolor{black}{{\ul{#1}}}}}\\[-5pt]\noindent
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \newcommand{\subtitle}[1]{
-{\textbf{\textcolor{harvard}{{#1}}}}\\[-10pt]\noindent
+{\textbf{\textcolor{groy}{{#1}}}}\\[0pt]\noindent
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \newcommand{\subsubtitle}[1]{
@@ -74,38 +81,47 @@
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \newcommand{\subtitlea}[2]{
-{\textbf{\textcolor{harvard}{{#1}}}}\\[-5pt]
+{\textbf{\textcolor{groy}{{#1}}}}\\[-5pt]
 \begin{addmargin}[1em]{0em}
 #2
 \end{addmargin}
 \vspace{5pt}
 }
+
+
+\fancypagestyle{main}{
+\setlength\headheight{65pt} 
+\chead{\makebox[\headwidth][c]{\includegraphics[width=\textwidth]{combinedlogo03.pdf}}}
+\fancyfoot[C]{\footnotesize\color{gray}\thepage}
+\fancyfoot[L]{\footnotesize\color{gray} \mydate\today \ at \currenttime}
+\fancyfoot[R]{\footnotesize\color{gray}Harsha S. Bhat}
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  % left fixed width:
-\newcolumntype{L}[1]{>{\small\color{black}\raggedright\arraybackslash}p{#1}}
+\newcolumntype{L}[1]{>{\color{black}\raggedright\arraybackslash}p{#1}}
 
 % center fixed width:
 \newcolumntype{C}[1]{>{\color{black}\em\centering\arraybackslash}p{#1}}
 \newcolumntype{B}[1]{>{\color{black}\em\raggedright\arraybackslash}p{#1}}
 
 % flush right fixed width:
-\newcolumntype{R}[1]{>{\small\color{ivy}\bfseries\raggedleft\arraybackslash}p{#1}}
-\newcolumntype{A}[1]{>{\small\color{ivy}\bfseries\raggedright\arraybackslash}p{#1}}
-\newcolumntype{D}[1]{>{\footnotesize\color{black}\raggedright\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\\color{ivy}\bfseries\raggedleft\arraybackslash}p{#1}}
+\newcolumntype{A}[1]{>{\color{ivy}\bfseries\raggedright\arraybackslash}p{#1}}
+\newcolumntype{D}[1]{>{\color{black}\raggedright\arraybackslash}p{#1}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[firstinits=true,backend=bibtex,dashed=false,doi=true,natbib=true,isbn=false,url=false,style=authoryear,maxbibnames=99,maxnames=10,maxcitenames=2,sorting=none,sortcites=false]{biblatex}
 \renewbibmacro{in:}{}
 \DeclareFieldFormat
   [article,inbook,incollection,proceedings,inproceedings,patent,thesis,unpublished]
-  {title}{\mkbibquote{\textcolor{blue}{\textit{#1}}}}
+  {title}{\mkbibquote{\textcolor{black}{\textit{#1}}}}
 \DeclareFieldFormat
   [article,inbook,incollection,proceedings,inproceedings,patent,thesis,unpublished]
-  {journaltitle}{\textcolor{harvard}{\textbf{#1}}} 
+  {journaltitle}{\textcolor{groy}{{#1}}} 
 \DeclareFieldFormat
   [article,inbook,incollection,proceedings,inproceedings,patent,thesis,unpublished]
-  {booktitle}{in \textcolor{harvard}{\textbf{#1}}}    
-\AtBeginBibliography{\small}
+  {booktitle}{in \textcolor{groy}{{#1}}}    
+\AtBeginBibliography{}
 \addbibresource{~/Dropbox/Public/CollectedPapers/MasterBibliography.bib}          
 
 \DeclareNameAlias{sortname}{last-first}

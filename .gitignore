@@ -5,3 +5,9 @@ _site
 ._.DS_Store
 **/.DS_Store
 **/._.DS_Store
+**/*.aux
+**/*.gz
+**/*.bbl
+**/*.blg
+**/*.log
+**/*.xml
