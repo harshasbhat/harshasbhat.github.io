@@ -1,4 +1,11 @@
 postdoc:
+    - name: "Michelle Almakari"
+      image: michelle.jpg
+      web: https://michelle-almakari.github.io/michelle-almakari/
+      email:
+      post: ERC Post-Doctoral Fellow
+      dates: January 2021
+      funded: 1
     - name: "Ekeabino Momoh"
       image: eke.jpg
       web: https://www.researchgate.net/profile/Ekeabino_Momoh

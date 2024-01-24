@@ -8,13 +8,14 @@ pi:
       tweet:
       funded: 1
 postdoc:
-    - name: "Michelle Almakari"
-      image: michelle.jpg
-      web: https://michelle-almakari.github.io/michelle-almakari/
+    - name: "Ankit Gupta"
+      image: ankit.jpg
+      web: https://scholar.google.co.in/citations?user=atkiJ00AAAAJ&hl=en
       email:
       post: ERC Post-Doctoral Fellow
-      dates: January 2021
-      funded: 1
+      dates: January 2024
+      tweet: 
+      funded: 1   
     - name: "Navid Kheirdast"
       image: navid.jpg
       web: https://kheirdast.github.io
