@@ -1,4 +1,10 @@
 news:
+    - hl: "New paper accepted"
+      txt: "Our new paper 'A brittle constitutive law for long-term tectonic modeling based on sub-critical crack growth' is now accepted."
+      closing: ""
+      pdf: PetitOliveSchubnel2024a.pdf
+      image: pubimages/scam.png
+      insu: 
     - hl: "Congratulations Eke!"
       txt: "We are very happy announce that Eke, a former postdoc of our group, got the prestigious AXA Fellowship on 'Exploring Geothermal Energy in Young European Volcanic Areas'"
       closing:
