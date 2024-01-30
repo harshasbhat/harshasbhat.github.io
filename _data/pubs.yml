@@ -1,4 +1,18 @@
 publications:
+    - title:     "A brittle constitutive law for long-term tectonic modeling based on sub-critical crack growth"
+      author:    Petit, L., Olive, J.-A., Schubnel, A., Le Pourhiet, L., & Bhat, H. S. 
+      year:    2024
+      journal:   Geochem. Geophys. Geosyst.. 
+      doi: 
+      pubnum:     	
+      type:         article
+      booktitle:	""
+      publisher:
+      editor:
+      school:
+      arxiv:  2401.15784 
+      img: scam.jpg
+      pdf: PetitOliveSchubnel2024a.pdf
     - title:     "On the importance of 3D stress state in 2D earthquake rupture simulations with off-fault deformation"
       author:    L. Jeandet Ribes, M. Y. Thomas  & H. S. Bhat
       year:    2023
