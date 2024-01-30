@@ -5,6 +5,11 @@ news:
       pdf: PetitOliveSchubnel2024a.pdf
       image: pubimages/scam.png
       insu: 
+    - hl: "Welcome Yishuo!"
+      txt: "We are very happy to welcome Yishuo Zhou who will start his PhD with us, Dr. Hideo Aochi and Dr. Alexandre Schubnel."
+      closing:
+      image: team/yishuo.jpg
+      readmore: 
     - hl: "Congratulations Eke!"
       txt: "We are very happy announce that Eke, a former postdoc of our group, got the prestigious AXA Fellowship on 'Exploring Geothermal Energy in Young European Volcanic Areas'"
       closing:
