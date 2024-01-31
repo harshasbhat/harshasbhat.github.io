@@ -1,4 +1,9 @@
 news:
+    - hl: "Welcome Thomas!"
+      txt: "We are very happy to welcome Thomas Melkior who will start his PhD with us and Dr. Faisal Amlani at LMPS in Paris Saclay."
+      closing:
+      image: team/melkior.jpg
+      readmore: 
     - hl: "New paper accepted"
       txt: "Our new paper 'A brittle constitutive law for long-term tectonic modeling based on sub-critical crack growth' is now accepted."
       closing: ""
