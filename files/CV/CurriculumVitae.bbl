@@ -198,7 +198,7 @@
     \field{title}{Towards thermomechanical modelling of lithospheric
   compression including the contribution of volumetric deformation to
   dissipative heating and localization}
-    \field{journaltitle}{to be subm. Geophys. J. Int.}
+    \field{journaltitle}{subm. Geophys. J. Int.}
     \field{year}{2024}
   \endentry
 
@@ -244,7 +244,7 @@
     \field{labeldatesource}{}
     \field{title}{The effect of 3D fault interactions on slow and fast
   earthquakes}
-    \field{journaltitle}{to be submitted}
+    \field{journaltitle}{to be submitted for GRL}
     \field{year}{2024}
   \endentry
 
@@ -290,7 +290,7 @@
     \field{labeldatesource}{}
     \field{title}{FASTDASH, a Quasi-dynamic 3D Seismic Cycle Model by Using
   Boundary Element Method with H-matrices}
-    \field{journaltitle}{to be submitted}
+    \field{journaltitle}{to be submitted for GJI}
     \field{year}{2024}
   \endentry
 
@@ -623,6 +623,51 @@
     \field{title}{Investigating the Impact of Complex Fault Zone Geometries on
   Seismic Rupture Propagation}
     \field{journaltitle}{to be submitted}
+    \field{year}{2024}
+  \endentry
+
+  \entry{petit2024}{article}{}
+    \name{author}{5}{}{%
+      {{hash=PL}{%
+         family={Petit},
+         familyi={P\bibinitperiod},
+         given={L{\'e}o},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=OJA}{%
+         family={Olive},
+         familyi={O\bibinitperiod},
+         given={J-A},
+         giveni={J\bibinithyphendelim A\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Schubnel},
+         familyi={S\bibinitperiod},
+         given={Alexandre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LPL}{%
+         family={Le\bibnamedelima Pourhiet},
+         familyi={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PL+1}
+    \strng{fullhash}{PLOJASALPLBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{title}{A brittle constitutive law for long-term tectonic modeling
+  based on sub-critical crack growth}
+    \field{journaltitle}{to appear in Geochem. Geophys. Geosyst.}
     \field{year}{2024}
   \endentry
 
