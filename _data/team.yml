@@ -25,6 +25,14 @@ postdoc:
       tweet: NavidKheirdast
       funded: 1      
 phd:
+    - name: "Bharath Shanmugasundaram"
+      image: bharath.jpg
+      web:
+      email:
+      post: PhD Canidate
+      dates: October 2024
+      tweet:
+      funded: 1
     - name: "Yishuo Zhou"
       image: yishuo.jpg
       web:
@@ -55,13 +63,5 @@ phd:
       email:
       post: PhD Canidate
       dates: March 2021
-      funded: 1
-    - name: "Augustin Thomas"
-      image: thomas.jpg
-      web: https://www.linkedin.com/in/augustin-thomas-60a631112/?originalSubdomain=fr
-      email:
-      post: PhD Canidate
-      dates: October 2020
-      tweet:
       funded: 1
 masters:
