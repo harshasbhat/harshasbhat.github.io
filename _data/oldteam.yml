@@ -36,6 +36,14 @@ postdoc:
       tweet: cdvu
       funded: 1      
 phd:
+    - name: "Augustin Thomas"
+      image: thomas.jpg
+      web: https://www.linkedin.com/in/augustin-thomas-60a631112/?originalSubdomain=fr
+      email:
+      post: PhD Canidate
+      dates: October 2020
+      tweet:
+      funded: 1
     - name: "Joseph M. Flores Cuba"
       image: joseph.jpg
       web: https://jflorescuba.wixsite.com/mysite
