@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.1.27)  1 APR 2024 18:01
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.1.27)  28 MAY 2024 11:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1642,96 +1642,101 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--63
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--166
+Underfull \hbox (badness 10000) in paragraph at lines 94--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--166
+Underfull \hbox (badness 10000) in paragraph at lines 94--160
 
  []
 
-[2
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--230
+
+ []
+
+Package biblatex Info: Reference segment=1 on input line 235.
+Package biblatex Info: Setting label 'refsegment:01' on input line 235.
+Package biblatex Info: Reference segment=0 on input line 239.
+Package biblatex Info: Reference segment=2 on input line 244.
+Package biblatex Info: Setting label 'refsegment:02' on input line 244.
+Package biblatex Info: Reference segment=0 on input line 248.
+[3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 168--170
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--201
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
-
- []
-
-Package biblatex Info: Reference segment=1 on input line 232.
-Package biblatex Info: Setting label 'refsegment:01' on input line 232.
-Package biblatex Info: Reference segment=0 on input line 236.
-Package biblatex Info: Reference segment=2 on input line 241.
-Package biblatex Info: Setting label 'refsegment:02' on input line 241.
-Package biblatex Info: Reference segment=0 on input line 245.
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 248--250
+Underfull \hbox (badness 10000) in paragraph at lines 251--253
 
  []
 
 
 LaTeX Font Warning: Font shape `TU/HelveticaNeue(0)/b/sc' undefined
-(Font)              using `TU/HelveticaNeue(0)/b/n' instead on input line 251.
+(Font)              using `TU/HelveticaNeue(0)/b/n' instead on input line 254.
 
-Package biblatex Info: Reference segment=3 on input line 252.
-Package biblatex Info: Setting label 'refsegment:03' on input line 252.
-Package biblatex Info: Reference segment=0 on input line 256.
-Package biblatex Info: Reference segment=4 on input line 266.
-Package biblatex Info: Setting label 'refsegment:04' on input line 266.
+Package biblatex Info: Reference segment=3 on input line 255.
+Package biblatex Info: Setting label 'refsegment:03' on input line 255.
+Package biblatex Info: Reference segment=0 on input line 259.
+Package biblatex Info: Reference segment=4 on input line 269.
+Package biblatex Info: Setting label 'refsegment:04' on input line 269.
 
-Overfull \hbox (4.05656pt too wide) in paragraph at lines 269--269
+Overfull \hbox (4.05656pt too wide) in paragraph at lines 272--272
 \TU/HelveticaNeue(0)/m/it/10 cleation of laboratory earthquakes: quantitative a
 nalysis and scalings[]\TU/HelveticaNeue(0)/m/n/10 ”. []J. Geophys. Res.[] 128.e
 2022JB026294.
@@ -1740,13 +1745,13 @@ nalysis and scalings[]\TU/HelveticaNeue(0)/m/n/10 ”. []J. Geophys. Res.[] 128.
 [4
 
 ] [5] [6]
-Overfull \hbox (1.49345pt too wide) in paragraph at lines 269--269
+Overfull \hbox (1.49345pt too wide) in paragraph at lines 272--272
 [][]\TU/HelveticaNeue(0)/m/n/10 Dunham, E. M., \TU/HelveticaNeue(0)/b/sc/10 Bha
 t, H. S., \TU/HelveticaNeue(0)/m/n/10 (2008). “[]\TU/HelveticaNeue(0)/m/it/10 A
 ttenuation of radiated ground motion and stresses from three-dimensional
  []
 
-Package biblatex Info: Reference segment=0 on input line 270.
+Package biblatex Info: Reference segment=0 on input line 273.
 [7] (./CurriculumVitae.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1760,7 +1765,7 @@ Package logreq Info: Writing requests to 'CurriculumVitae.run.xml'.
 Here is how much of TeX's memory you used:
  34013 strings out of 476919
  689056 string characters out of 5821840
- 1482730 words of memory out of 5000000
+ 1479730 words of memory out of 5000000
  53466 multiletter control sequences out of 15000+600000
  406086 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
