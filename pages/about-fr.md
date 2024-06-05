@@ -22,7 +22,7 @@ title:
 </div>
 
 	<div class="post">
-Je suis un <a href="http://www.cnrs.fr/index.php/en">CNRS</a> chercheur scientifique travaillant au <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> à <a href="http://www.ens.fr">École Normale Supérieure</a> et Professor à <a href="https://portail.polytechnique.edu/lms/en">Laboratoire de Mécanique Solides, Ecole Polytechnique</a>. Je suis également professeur invité à <a href="https://www.niser.ac.in">National Institute of Science Education and Research</a>, en Inde.
+Je suis un <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Directeur de Recherche travaillant au <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> à <a href="http://www.ens.fr">École Normale Supérieure</a> et Professor à <a href="https://portail.polytechnique.edu/lms/en">Laboratoire de Mécanique Solides, Ecole Polytechnique</a>. Je suis également professeur invité à <a href="https://www.niser.ac.in">National Institute of Science Education and Research</a>, en Inde.
 	<br><br>
 	
 	Je travaille principalement à l'interface entre la physique des tremblements de terre et la mécanique des solides en faisant des excursions occasionnelles dans la mécanique des roches, la tectonique et la sismologie. 
