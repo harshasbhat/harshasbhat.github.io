@@ -665,8 +665,13 @@
     \field{labeltitlesource}{title}
     \field{labelyear}{2024}
     \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.1029/2023GC011229
+    \endverb
+    \field{pages}{e2023GC011229}
     \field{title}{A brittle constitutive law for long-term tectonic modeling
   based on sub-critical crack growth}
+    \field{volume}{25}
     \field{journaltitle}{to appear in Geochem. Geophys. Geosyst.}
     \field{year}{2024}
   \endentry

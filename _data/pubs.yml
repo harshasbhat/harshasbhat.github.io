@@ -3,7 +3,7 @@ publications:
       author:    Petit, L., Olive, J.-A., Schubnel, A., Le Pourhiet, L., & Bhat, H. S. 
       year:    2024
       journal:   Geochem. Geophys. Geosyst.. 
-      doi: 
+      doi: 10.1029/2023GC011229
       pubnum:     	
       type:         article
       booktitle:	""
@@ -12,7 +12,7 @@ publications:
       school:
       arxiv:  2401.15784 
       img: scam.png
-      pdf: PetitOliveSchubnel2024a.pdf
+      pdf: PetitOliveSchubnel2024b.pdf
     - title:     "On the importance of 3D stress state in 2D earthquake rupture simulations with off-fault deformation"
       author:    L. Jeandet Ribes, M. Y. Thomas  & H. S. Bhat
       year:    2023
