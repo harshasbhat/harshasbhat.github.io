@@ -1,4 +1,18 @@
 publications:
+    - title:     "3D Quasi-dynamic Seismic Cycle Modeling Accelerated by Hierarchical Matrices: Role of Complex Fault Geometry"
+      author:    J. Cheng
+      year:    2024
+      journal:
+      pdf: 		Cheng2024a.pdf
+      doi:
+      pubnum:
+      type:         phdthesis
+      booktitle:
+      publisher:
+      editor:
+      school:   Ecole Normale Supérieure
+      arxiv:
+      img: chengphd.png
     - title:     "Supershear Earthquakes"
       author:    H. S. Bhat
       year:    2021
