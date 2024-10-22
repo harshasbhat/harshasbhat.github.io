@@ -1,4 +1,18 @@
 publications:
+    - title:     "Depth dependence of coseismic off-fault damage and its effects on rupture dynamics"
+      author:    Ferry, R., Thomas, M. Y., Bhat, H. S., & Dubernet, P.
+      year:    2024
+      journal:   Subm. J. Geophys. Res. 
+      doi: 
+      pubnum:     	
+      type:         article
+      booktitle:	""
+      publisher:
+      editor:
+      school:
+      arxiv:  2406.18408
+      img: damagedepth.png
+      pdf: FerryThomasBhat2024a.pdf
     - title:     "A brittle constitutive law for long-term tectonic modeling based on sub-critical crack growth"
       author:    Petit, L., Olive, J.-A., Schubnel, A., Le Pourhiet, L., & Bhat, H. S. 
       year:    2024
