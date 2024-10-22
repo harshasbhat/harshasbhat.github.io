@@ -1,4 +1,12 @@
 news:
+    - hl: "New paper submitted"
+      txt: "New paper on coseismic damage width as a function of depth"
+      closing: ""
+      pdf: 
+      readmore: 
+      image: pubimages/damagedepth.png 
+      pdf: FerryThomasBhat2024a.pdf
+      insu: 
     - hl: "Congrats Jinhui!"
       txt: "Congrats Dr. Jinhui Cheng for successfully defending her thesis on Sep 24, 2024! We are happy for you and ofcourse proud of you. Onwards to your new adventure at Caltech!"
       closing:
