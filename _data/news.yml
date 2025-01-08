@@ -1,5 +1,13 @@
 news:
     - hl: "New paper submitted"
+      txt: "New paper on dilatant plasticity in geodynamic models"
+      closing: ""
+      pdf: 
+      readmore: 
+      image: pubimages/shearband.jpg
+      pdf: MomohBhatTait2024a.pdf
+      insu: 
+    - hl: "New paper submitted"
       txt: "New paper on coseismic damage width as a function of depth"
       closing: ""
       pdf: 
