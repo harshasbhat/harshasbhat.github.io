@@ -1,4 +1,18 @@
 publications:
+    - title:     "Volumetric (dilatant) plasticity in geodynamic models and implications on thermal dissipation and strain localization"
+      author:    E. Momoh, H. S. Bhat, S. Tait & M. Gerbault
+      year:    2024
+      journal:    accepted in Geophys. J. Int.
+      doi:
+      pubnum:     	
+      type:         article
+      booktitle:	""
+      publisher:
+      editor:
+      school:
+      arxiv:  2412.04851
+      pdf: MomohBhatTait2024a.pdf
+      img: shearband.jpg
     - title:     "Depth dependence of coseismic off-fault damage and its effects on rupture dynamics"
       author:    Ferry, R., Thomas, M. Y., Bhat, H. S., & Dubernet, P.
       year:    2024
@@ -13,6 +27,7 @@ publications:
       arxiv:  2406.18408
       img: damagedepth.png
       pdf: FerryThomasBhat2024a.pdf
+      hal: hal-04792583
     - title:     "A brittle constitutive law for long-term tectonic modeling based on sub-critical crack growth"
       author:    Petit, L., Olive, J.-A., Schubnel, A., Le Pourhiet, L., & Bhat, H. S. 
       year:    2024
@@ -41,19 +56,6 @@ publications:
       arxiv:  2212.12709
       img: stressstate.jpg
       pdf: Jeandet-RibesThomasBhat2023a.pdf
-    # - title:     "Elasto-thermo-visco-plastic numerical modelling from a laboratory to geodynamic scale: implications for convergence-driven experiments"
-    #   author:    E. Momoh, H. S. Bhat & S. Tait
-    #   year:    2023
-    #   journal:    to be submitted soon
-    #   doi:
-    #   pubnum:     	
-    #   type:         article
-    #   booktitle:	""
-    #   publisher:
-    #   editor:
-    #   school:
-      # arxiv:  2212.12701
-      img: shearband.jpg
     - title:     "Nucleation of laboratory earthquakes: quantitative analysis and scalings"
       author:    S. Marty, A. Schubnel, H. S. Bhat, J. Aubry, E. Fukuyama, S. Latour, S. Nielsen & R. Madariaga
       year:    2023
