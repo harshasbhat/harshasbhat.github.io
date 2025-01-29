@@ -12,7 +12,21 @@ publications:
       editor:
       school:   Ecole Normale Supérieure
       arxiv:
-      img: chengphd.png
+      img: chengphd.png      
+    - title:     "Earthquake rupture around stepovers in a brittle damage medium"
+      author:    J. Flores-Cuba
+      year:    2023
+      journal:
+      pdf: 		Flores-Cuba2023a.pdf
+      doi:
+      pubnum:
+      type:         phdthesis
+      booktitle:
+      publisher:
+      editor:
+      school:   Sorbonne Université
+      arxiv:
+      img: josephd.jpg
     - title:     "Supershear Earthquakes"
       author:    H. S. Bhat
       year:    2021

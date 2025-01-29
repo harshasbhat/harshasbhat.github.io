@@ -1,5 +1,12 @@
 news:
     - hl: "New paper submitted"
+      txt: "New paper on probability of earthquake fault jumps"
+      closing: ""
+      pdf: 
+      readmore: 
+      image: pubimages/michelprob.jpg
+      pdf: MichelScottiHok2025a.pdf
+    - hl: "New paper submitted"
       txt: "New paper on dilatant plasticity in geodynamic models"
       closing: ""
       pdf: 

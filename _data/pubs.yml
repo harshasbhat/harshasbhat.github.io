@@ -1,4 +1,18 @@
 publications:
+    - title:     "Probability of earthquake fault jumps from physics based criterion"
+      author:    Michel, S., Scotti, O., Hok, S., Bhat, H. S., Kheirdast, N., Romanet, P., Almakari, M., & Cheng, J. 
+      year:    2025
+      journal:    submitted to Earth. Planet. Sci.
+      doi:
+      pubnum:     	
+      type:         article
+      booktitle:	""
+      publisher:
+      editor:
+      school:
+      arxiv:  2501.15948 
+      pdf: MichelScottiHok2025a.pdf
+      img: michelprob.jpg
     - title:     "Volumetric (dilatant) plasticity in geodynamic models and implications on thermal dissipation and strain localization"
       author:    E. Momoh, H. S. Bhat, S. Tait & M. Gerbault
       year:    2024

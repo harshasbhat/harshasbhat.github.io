@@ -21,7 +21,7 @@ title:
 </div>
 	
 	<div class="post">
-		I am a senior <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Research Scientist working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
+		I am a senior <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Research Scientist (Directeur de Recherche) working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
 	<a href="http://www.ens.fr">Ecole Normale Supérieure</a> and a Professor at <a href="https://portail.polytechnique.edu/lms/en">Laboratoire de Mécanique Solides, Ecole Polytechnique</a>. I am also a visiting Professor at <a href="https://www.niser.ac.in">National Institute of Science Education and Research</a>, India.
 	<br><br>
 	
