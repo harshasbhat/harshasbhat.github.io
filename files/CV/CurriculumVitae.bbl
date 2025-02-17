@@ -162,46 +162,6 @@
     \field{year}{2022}
   \endentry
 
-  \entry{momoh2024}{article}{}
-    \name{author}{4}{}{%
-      {{hash=ME}{%
-         family={Momoh},
-         familyi={M\bibinitperiod},
-         given={E.},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=BHS}{%
-         family={Bhat},
-         familyi={B\bibinitperiod},
-         given={H.\bibnamedelima S.},
-         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=TS}{%
-         family={Tait},
-         familyi={T\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=GM}{%
-         family={Gerbault},
-         familyi={G\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{ME+1}
-    \strng{fullhash}{MEBHSTSGM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2024}
-    \field{labeldatesource}{}
-    \field{title}{Towards thermomechanical modelling of lithospheric
-  compression including the contribution of volumetric deformation to
-  dissipative heating and localization}
-    \field{journaltitle}{subm. Geophys. J. Int.}
-    \field{year}{2024}
-  \endentry
-
   \entry{cheng2024b}{article}{}
     \name{author}{5}{}{%
       {{hash=CJ}{%
@@ -324,50 +284,6 @@
     \field{labeldatesource}{}
     \field{title}{Combined effects of fault roughness and off-fault damage on
   earthquake dynamics}
-    \field{journaltitle}{to be submitted}
-    \field{year}{2024}
-  \endentry
-
-  \entry{ferry2024}{article}{}
-    \name{author}{5}{}{%
-      {{hash=FR}{%
-         family={Ferry},
-         familyi={F\bibinitperiod},
-         given={Roxane},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=TMY}{%
-         family={Thomas},
-         familyi={T\bibinitperiod},
-         given={M.\bibnamedelima Y.},
-         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-      {{hash=BHS}{%
-         family={Bhat},
-         familyi={B\bibinitperiod},
-         given={H.\bibnamedelima S.},
-         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=JRL}{%
-         family={Jeandet-Ribes},
-         familyi={J\bibinithyphendelim R\bibinitperiod},
-         given={Louise},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=DP}{%
-         family={Dubernet},
-         familyi={D\bibinitperiod},
-         given={Pierpaolo},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{FR+1}
-    \strng{fullhash}{FRTMYBHSJRLDP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2024}
-    \field{labeldatesource}{}
-    \field{title}{Depth variation of co-seismic damage}
     \field{journaltitle}{to be submitted}
     \field{year}{2024}
   \endentry
@@ -624,6 +540,88 @@
   Seismic Rupture Propagation}
     \field{journaltitle}{to be submitted}
     \field{year}{2024}
+  \endentry
+
+  \entry{momoh2025}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ME}{%
+         family={Momoh},
+         familyi={M\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Tait},
+         familyi={T\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gerbault},
+         familyi={G\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ME+1}
+    \strng{fullhash}{MEBHSTSGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{title}{Volumetric (dilatant) plasticity in geodynamic models and
+  implications on thermal dissipation and strain localization}
+    \field{journaltitle}{to appear in Geophys. J. Int.}
+    \field{year}{2025}
+  \endentry
+
+  \entry{ferry2025}{article}{}
+    \name{author}{4}{}{%
+      {{hash=FR}{%
+         family={Ferry},
+         familyi={F\bibinitperiod},
+         given={Roxane},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TMY}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={M.\bibnamedelima Y.},
+         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DP}{%
+         family={Dubernet},
+         familyi={D\bibinitperiod},
+         given={Pierpaolo},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FR+1}
+    \strng{fullhash}{FRTMYBHSDP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.1029/2024JB029787
+    \endverb
+    \field{title}{Depth Dependence of Coseismic Off-Fault Damage and its
+  Effects on Rupture Dynamics}
+    \field{volume}{e2024JB029787}
+    \field{journaltitle}{J. Geophys. Res.}
+    \field{year}{2025}
   \endentry
 
   \entry{petit2024}{article}{}
