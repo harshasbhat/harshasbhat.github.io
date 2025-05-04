@@ -52,13 +52,13 @@ title:
 			
 		{% if pub.slides %} 
 		<div id="newsbtn">
-		<a href="{{site.baseurl}}/files/{{news.slides}}" style="font-size:65%">SLIDES</a>
+		<a href="{{site.baseurl}}/files/{{pub.slides}}" style="font-size:65%">SLIDES</a>
 		</div>
 		{% endif %}
 		
 		{% if pub.watch %} 
 		<div id="watchbtn">
-		<a href="{{news.watch}}" style="font-size:65%">WATCH IT ONLINE</a>
+		<a href="{{pub.watch}}" style="font-size:65%">WATCH IT ONLINE</a>
 		</div>
 		{% endif %}
 
