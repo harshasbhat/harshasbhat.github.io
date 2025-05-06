@@ -1,8 +1,22 @@
 publications:
+    - title:     "FASTDASH, a Quasi-dynamic 3D Seismic Cycle Model by Using Boundary Element Method with H-matrices"
+      author:    Cheng, J., Almakari, M., Peruzzo, C., Lecampion, B., & Bhat, H. S.
+      year:    2025
+      journal:    submitted to Geophys. J. Int.
+      doi:
+      pubnum:     	
+      type:         article
+      booktitle:	""
+      publisher:
+      editor:
+      school:
+      arxiv:  2505.02398 
+      pdf: ChengAlmakariPeruzzo2025a.pdf
+      img: fastdash.png
     - title:     "Probability of earthquake fault jumps from physics based criterion"
       author:    Michel, S., Scotti, O., Hok, S., Bhat, H. S., Kheirdast, N., Romanet, P., Almakari, M., & Cheng, J. 
       year:    2025
-      journal:    to be submitted
+      journal:    submitted to J. Geophys. Res.
       doi:
       pubnum:     	
       type:         article
@@ -16,8 +30,8 @@ publications:
     - title:     "Volumetric (dilatant) plasticity in geodynamic models and implications on thermal dissipation and strain localization"
       author:    E. Momoh, H. S. Bhat, S. Tait & M. Gerbault
       year:    2025
-      journal:    to appear in Geophys. J. Int.
-      doi:
+      journal:    Geophys. J. Int.
+      doi: 10.1093/gji/ggae463
       pubnum:     	
       type:         article
       booktitle:	""
@@ -25,7 +39,7 @@ publications:
       editor:
       school:
       arxiv:  2412.04851
-      pdf: MomohBhatTait2024a.pdf
+      pdf: MomohBhatTait2024b.pdf
       img: shearband.jpg
     - title:     "Depth dependence of coseismic off-fault damage and its effects on rupture dynamics"
       author:    Ferry, R., Thomas, M. Y., Bhat, H. S., & Dubernet, P.

@@ -1,5 +1,12 @@
 news:
     - hl: "New paper submitted"
+      txt: "New paper on FASTDASH, a simulator for Complex Fault Systems "
+      closing: ""
+      pdf: 
+      readmore: 
+      image: pubimages/fastdash.png
+      pdf: ChengAlmakariPeruzzo2025a.pdf
+    - hl: "New paper submitted"
       txt: "New paper on probability of earthquake fault jumps"
       closing: ""
       pdf: 
@@ -12,7 +19,7 @@ news:
       pdf: 
       readmore: 
       image: pubimages/shearband.jpg
-      pdf: MomohBhatTait2024a.pdf
+      pdf: MomohBhatTait2024b.pdf
       insu: 
     - hl: "New paper accepted"
       txt: "New paper on coseismic damage width as a function of depth"
