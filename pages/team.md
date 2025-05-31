@@ -6,7 +6,7 @@ title:
 
 {% include new-window-fix.html %}
 
-<h3>PERSISMO-IDEAS Group</h3>  
+<h3>PERSISMO Group</h3>  
 {% include image.html url="/images/group2025.jpg" width="80%" align="center" %}
 
 {% include image.html url="/images/PERSISMO.jpg" width="80%" align="center" %}
