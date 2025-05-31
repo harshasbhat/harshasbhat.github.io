@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.20)  31 MAY 2025 11:17
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.20)  31 MAY 2025 15:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1162,66 +1162,62 @@ Package biblatex Info: ... and expl3
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 )))
 
-Package fontspec Info: Could not resolve font "STIX Two Text/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'STIXTwoText(0)' created for font 'STIX Two
-(fontspec)             Text' with options [Ligatures=TeX,Mapping=tex-text].
+Package fontspec Info: Font family 'Helvetica(0)' created for font 'Helvetica'
+(fontspec)             with options [Ligatures=TeX,Mapping=tex-text].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"STIX Two
-(fontspec)             Text/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"STIX Two
-(fontspec)             Text/OT:script=latn;language=dflt;+smcp;mapping=tex-text
-;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"STIX Two
-(fontspec)             Text/I/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
-(fontspec)             <->"STIX Two
-(fontspec)             Text/I/OT:script=latn;language=dflt;+smcp;mapping=tex-te
-xt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"STIX Two
-(fontspec)             Text/BI/OT:script=latn;language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
-(fontspec)             <->"STIX Two
-(fontspec)             Text/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-t
-ext;"
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Helvetica/AAT:mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"Helvetica/B/AAT:mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Helvetica/I/AAT:mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"Helvetica/BI/AAT:mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 \@quotelevel=\count496
 \@quotereset=\count497
 
+
+Package biblatex Warning: Conflicting options.
+(biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
+(biblatex)                Setting 'uniquename=init' on input line 11.
+
 (./CurriculumVitae.aux)
 \openout1 = `CurriculumVitae.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-0.
+1.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1275,7 +1271,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
-Package hyperref Info: Link coloring ON on input line 10.
+Package hyperref Info: Link coloring ON on input line 11.
 
 (./CurriculumVitae.out) (./CurriculumVitae.out)
 \@outlinefile=\write5
@@ -1287,64 +1283,61 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 10.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 10.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 10.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 10.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 10.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 10.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 10.
-LaTeX Font Info:    Redeclaring math accent \check on input line 10.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 10.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 10.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 10.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 10.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 10.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 11.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 11.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 11.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 11.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 11.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 11.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 11.
+LaTeX Font Info:    Redeclaring math accent \check on input line 11.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 11.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 11.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 11.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 11.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 11.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 10.
+(Font)              `operators' in the math version `normal' on input line 11.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/STIXTwoText(0)/m/n on input line 10.
-
+(Font)                  OT1/cmr/m/n --> TU/Helvetica(0)/m/n on input line 11.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 10.
+(Font)              `operators' in the math version `bold' on input line 11.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/STIXTwoText(0)/m/n on input line 10
-.
+(Font)                  OT1/cmr/bx/n --> TU/Helvetica(0)/m/n on input line 11.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/STIXTwoText(0)/m/n --> TU/STIXTwoText(0)/m/n on inpu
-t line 10.
+(Font)                  TU/Helvetica(0)/m/n --> TU/Helvetica(0)/m/n on input li
+ne 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/STIXTwoText(0)/m/it on input line 1
-0.
+(Font)                  OT1/cmr/m/it --> TU/Helvetica(0)/m/it on input line 11.
+
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/STIXTwoText(0)/b/n on input line 10
-.
+(Font)                  OT1/cmr/bx/n --> TU/Helvetica(0)/b/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 10.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 11.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/STIXTwoText(0)/m/n --> TU/STIXTwoText(0)/b/n on inpu
-t line 10.
+(Font)                  TU/Helvetica(0)/m/n --> TU/Helvetica(0)/b/n on input li
+ne 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/STIXTwoText(0)/b/it on input line 
-10.
+(Font)                  OT1/cmr/bx/it --> TU/Helvetica(0)/b/it on input line 11
+.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 10.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 11.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 10.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 11.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1381,177 +1374,173 @@ Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                - Invalid format of field 'month'.
 
 )
-Package biblatex Info: Reference section=0 on input line 10.
-Package biblatex Info: Reference segment=0 on input line 10.
+Package biblatex Info: Reference section=0 on input line 11.
+Package biblatex Info: Reference segment=0 on input line 11.
 File: combinedlogo03.pdf Graphic file (type pdf)
 <use combinedlogo03.pdf>
 
-
-LaTeX Font Warning: Font shape `TU/STIXTwoText(0)/b/n' undefined
-(Font)              using `TU/STIXTwoText(0)/m/n' instead on input line 34.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
+(Font)              <7> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 34.
+(Font)              <5> on input line 30.
 
-Underfull \hbox (badness 10000) in alignment at lines 34--34
+Underfull \hbox (badness 10000) in alignment at lines 30--30
 [][][][] 
  []
 
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 34--34
+Overfull \hbox (10.0pt too wide) in paragraph at lines 30--30
 [][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 35.
+(Font)              <9> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 35.
+(Font)              <6> on input line 31.
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
+Underfull \hbox (badness 10000) in paragraph at lines 31--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
 
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--162
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--162
+Underfull \hbox (badness 10000) in paragraph at lines 92--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 
  []
 
 
-Overfull \vbox (4.57806pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
 
+ []
 
-Overfull \vbox (4.57806pt too high) has occurred while \output is active []
+[2
 
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 173--175
+]
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--195
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
 
  []
 
+Package biblatex Info: Reference segment=1 on input line 232.
+Package biblatex Info: Setting label 'refsegment:01' on input line 232.
+Package biblatex Info: Reference segment=0 on input line 236.
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--232
+Underfull \hbox (badness 10000) in paragraph at lines 238--238
 
  []
 
-Package biblatex Info: Reference segment=1 on input line 237.
-Package biblatex Info: Setting label 'refsegment:01' on input line 237.
-
-Package biblatex Warning: Name format 'last-first' deprecated.
-(biblatex)                Please use 'family-given' instead.
-(biblatex)                Using 'family-given' now.
-
-Package biblatex Info: Reference segment=0 on input line 241.
-Package biblatex Info: Reference segment=2 on input line 246.
-Package biblatex Info: Setting label 'refsegment:02' on input line 246.
-Package biblatex Info: Reference segment=0 on input line 250.
+Package biblatex Info: Reference segment=2 on input line 241.
+Package biblatex Info: Setting label 'refsegment:02' on input line 241.
+Package biblatex Info: Reference segment=0 on input line 245.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 252.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 247.
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--254
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
 
  []
 
+Package biblatex Info: Reference segment=3 on input line 257.
+Package biblatex Info: Setting label 'refsegment:03' on input line 257.
+Package biblatex Info: Reference segment=0 on input line 261.
+Package biblatex Info: Reference segment=4 on input line 264.
+Package biblatex Info: Setting label 'refsegment:04' on input line 264.
+[3
 
-LaTeX Font Warning: Font shape `TU/STIXTwoText(0)/b/sc' undefined
-(Font)              using `TU/STIXTwoText(0)/b/n' instead on input line 255.
-
-Package biblatex Info: Reference segment=3 on input line 256.
-Package biblatex Info: Setting label 'refsegment:03' on input line 256.
-[3]
-Package biblatex Info: Reference segment=0 on input line 260.
-Package biblatex Info: Reference segment=4 on input line 270.
-Package biblatex Info: Setting label 'refsegment:04' on input line 270.
-
-Overfull \hbox (2.1249pt too wide) in paragraph at lines 273--273
-[][]\TU/STIXTwoText(0)/b/sc/10 Elbanna, Ahmed, Abdelmeguid, Mohamed, Ma, Xiao, 
-Amlani, Faisal, Bhat, Harsha S., Synolakis, Costas, and Rosakis,
+]
+Overfull \hbox (4.59486pt too wide) in paragraph at lines 267--267
+\TU/Helvetica(0)/m/it/10 cleation of laboratory earthquakes: quantitative analy
+sis and scalings[]\TU/Helvetica(0)/m/n/10 ”. []J. Geophys. Res.[] 128.e2022JB02
+6294.
  []
 
-[4] [5] [6]
-Package biblatex Info: Reference segment=0 on input line 274.
- [7] (./CurriculumVitae.aux)
+[4]
+Overfull \hbox (12.79375pt too wide) in paragraph at lines 267--267
+\TU/Helvetica(0)/m/it/10 ture processes inferred from laboratory microearthquak
+es[]\TU/Helvetica(0)/m/n/10 ”. []J. Geophys. Res.[] 121. DOI: [][]$[][] [] [][]
+[][] [] [][][][][][][][][][][][]$[][]. 
+ []
+
+
+Overfull \hbox (8.43484pt too wide) in paragraph at lines 267--267
+[][]\TU/Helvetica(0)/m/n/10 Dunham, E. M. and H. S. Bhat (2008). “[]\TU/Helveti
+ca(0)/m/it/10 Attenuation of radiated ground motion and stresses from three-dim
+ensional
+ []
+
+[5]
+Package biblatex Info: Reference segment=0 on input line 268.
+ [6] (./CurriculumVitae.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `CurriculumVitae.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1565,12 +1554,12 @@ Package logreq Info: Writing requests to 'CurriculumVitae.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35347 strings out of 474773
- 734924 string characters out of 5757724
- 1955839 words of memory out of 5000000
- 56965 multiletter control sequences out of 15000+600000
- 560709 words of font info for 62 fonts, out of 8000000 for 9000
+ 35314 strings out of 474773
+ 733068 string characters out of 5757724
+ 1953839 words of memory out of 5000000
+ 56931 multiletter control sequences out of 15000+600000
+ 560733 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 113i,12n,110p,1901b,5068s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 113i,12n,110p,1901b,5065s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CurriculumVitae.pdf (7 pages).
+Output written on CurriculumVitae.pdf (6 pages).

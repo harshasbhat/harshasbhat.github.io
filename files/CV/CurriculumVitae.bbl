@@ -41,7 +41,7 @@
     \list{publisher}{1}{%
       {American Geophysical Union (AGU)}%
     }
-    \strng{namehash}{TMY+3}
+    \strng{namehash}{TMY+2}
     \strng{fullhash}{TMYMTMBHS1}
     \field{labelnamesource}{editor}
     \field{labeltitlesource}{title}
@@ -162,353 +162,19 @@
     \field{year}{2022}
   \endentry
 
-  \entry{cheng2024b}{article}{}
-    \name{author}{5}{}{%
-      {{hash=CJ}{%
-         family={Cheng},
-         familyi={C\bibinitperiod},
-         given={Jinhui},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=AM}{%
-         family={Almakari},
-         familyi={A\bibinitperiod},
-         given={Michelle},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=PC}{%
-         family={Peruzzo},
-         familyi={P\bibinitperiod},
-         given={C.},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=LB}{%
-         family={Lecampion},
-         familyi={L\bibinitperiod},
-         given={B.},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=BHS}{%
-         family={Bhat},
-         familyi={B\bibinitperiod},
-         given={H.\bibnamedelima S.},
-         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CJ+1}
-    \strng{fullhash}{CJAMPCLBBHS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2024}
-    \field{extradate}{2}
-    \field{labeldatesource}{}
-    \field{title}{The effect of 3D fault interactions on slow and fast
-  earthquakes}
-    \field{journaltitle}{to be submitted for GRL}
-    \field{year}{2024}
-  \endentry
-
-  \entry{cheng2024a}{article}{}
-    \name{author}{5}{}{%
-      {{hash=CJ}{%
-         family={Cheng},
-         familyi={C\bibinitperiod},
-         given={Jinhui},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=AM}{%
-         family={Almakari},
-         familyi={A\bibinitperiod},
-         given={Michelle},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=PC}{%
-         family={Peruzzo},
-         familyi={P\bibinitperiod},
-         given={C.},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=LB}{%
-         family={Lecampion},
-         familyi={L\bibinitperiod},
-         given={B.},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=BHS}{%
-         family={Bhat},
-         familyi={B\bibinitperiod},
-         given={H.\bibnamedelima S.},
-         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CJ+1}
-    \strng{fullhash}{CJAMPCLBBHS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2024}
-    \field{extradate}{1}
-    \field{labeldatesource}{}
-    \field{title}{FASTDASH, a Quasi-dynamic 3D Seismic Cycle Model by Using
-  Boundary Element Method with H-matrices}
-    \field{journaltitle}{to be submitted for GJI}
-    \field{year}{2024}
-  \endentry
-
-  \entry{thomas2024}{article}{}
-    \name{author}{3}{}{%
-      {{hash=TMY}{%
-         family={Thomas},
-         familyi={T\bibinitperiod},
-         given={Marion\bibnamedelima Y},
-         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-      {{hash=BHS}{%
-         family={Bhat},
-         familyi={B\bibinitperiod},
-         given={H.\bibnamedelima S.},
-         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=DP}{%
-         family={Dubernet},
-         familyi={D\bibinitperiod},
-         given={Pierpaolo},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{TMY+2}
-    \strng{fullhash}{TMYBHSDP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2024}
-    \field{extradate}{2}
-    \field{labeldatesource}{}
-    \field{title}{Combined effects of fault roughness and off-fault damage on
-  earthquake dynamics}
-    \field{journaltitle}{to be submitted}
-    \field{year}{2024}
-  \endentry
-
-  \entry{almakari2024a}{article}{}
+  \entry{latour2025}{misc}{}
     \name{author}{7}{}{%
-      {{hash=AM}{%
-         family={Almakari},
-         familyi={A\bibinitperiod},
-         given={Michelle},
+      {{hash=LS}{%
+         family={Latour},
+         familyi={L\bibinitperiod},
+         given={Soumaya},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lebihain},
+         familyi={L\bibinitperiod},
+         given={Mathias},
          giveni={M\bibinitperiod},
-      }}%
-      {{hash=KN}{%
-         family={Kheirdast},
-         familyi={K\bibinitperiod},
-         given={N.},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=VCD}{%
-         family={Villafuerte},
-         familyi={V\bibinitperiod},
-         given={C.\bibnamedelima D.},
-         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=TMY}{%
-         family={Thomas},
-         familyi={T\bibinitperiod},
-         given={M.\bibnamedelima Y.},
-         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-      {{hash=BHS}{%
-         family={Bhat},
-         familyi={B\bibinitperiod},
-         given={H.\bibnamedelima S.},
-         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=CJ}{%
-         family={Cheng},
-         familyi={C\bibinitperiod},
-         given={Jinhui},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=DP}{%
-         family={Dubernet},
-         familyi={D\bibinitperiod},
-         given={Pierpaolo},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{AM+1}
-    \strng{fullhash}{AMKNVCDTMYBHSCJDP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2024}
-    \field{labeldatesource}{}
-    \field{title}{Full spectrum of slip dynamics of a fault zone: Source
-  Dynamics}
-    \field{journaltitle}{to be submitted}
-    \field{year}{2024}
-  \endentry
-
-  \entry{villafuerte2024b}{article}{}
-    \name{author}{7}{}{%
-      {{hash=VCD}{%
-         family={Villafuerte},
-         familyi={V\bibinitperiod},
-         given={C.\bibnamedelima D.},
-         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=AM}{%
-         family={Almakari},
-         familyi={A\bibinitperiod},
-         given={Michelle},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=KN}{%
-         family={Kheirdast},
-         familyi={K\bibinitperiod},
-         given={N.},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=TMY}{%
-         family={Thomas},
-         familyi={T\bibinitperiod},
-         given={M.\bibnamedelima Y.},
-         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-      {{hash=BHS}{%
-         family={Bhat},
-         familyi={B\bibinitperiod},
-         given={H.\bibnamedelima S.},
-         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=CJ}{%
-         family={Cheng},
-         familyi={C\bibinitperiod},
-         given={Jinhui},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=DP}{%
-         family={Dubernet},
-         familyi={D\bibinitperiod},
-         given={Pierpaolo},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{VCD+1}
-    \strng{fullhash}{VCDAMKNTMYBHSCJDP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2024}
-    \field{labeldatesource}{}
-    \field{title}{Full spectrum of slip dynamics of a fault zone: Synthetics}
-    \field{journaltitle}{to be submitted}
-    \field{year}{2024}
-  \endentry
-
-  \entry{kheirdast2024}{article}{}
-    \name{author}{6}{}{%
-      {{hash=KN}{%
-         family={Kheirdast},
-         familyi={K\bibinitperiod},
-         given={N.},
-         giveni={N\bibinitperiod},
-      }}%
-      {{hash=AM}{%
-         family={Almakari},
-         familyi={A\bibinitperiod},
-         given={Michelle},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=VCD}{%
-         family={Villafuerte},
-         familyi={V\bibinitperiod},
-         given={C.\bibnamedelima D.},
-         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=BHS}{%
-         family={Bhat},
-         familyi={B\bibinitperiod},
-         given={H.\bibnamedelima S.},
-         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=CJ}{%
-         family={Cheng},
-         familyi={C\bibinitperiod},
-         given={Jinhui},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=DP}{%
-         family={Dubernet},
-         familyi={D\bibinitperiod},
-         given={Pierpaolo},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KN+1}
-    \strng{fullhash}{KNAMVCDBHSCJDP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2024}
-    \field{labeldatesource}{}
-    \field{title}{Full spectrum of slip dynamics of a fault zone: Energy
-  Budget}
-    \field{journaltitle}{to be submitted}
-    \field{year}{2024}
-  \endentry
-
-  \entry{florescuba2024}{article}{}
-    \name{author}{5}{}{%
-      {{hash=FCJ}{%
-         family={Flores-Cuba},
-         familyi={F\bibinithyphendelim C\bibinitperiod},
-         given={J.},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=TMY}{%
-         family={Thomas},
-         familyi={T\bibinitperiod},
-         given={M.\bibnamedelima Y.},
-         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-      {{hash=BHS}{%
-         family={Bhat},
-         familyi={B\bibinitperiod},
-         given={H.\bibnamedelima S.},
-         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=JL}{%
-         family={Jolivet},
-         familyi={J\bibinitperiod},
-         given={L.},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=DP}{%
-         family={Dubernet},
-         familyi={D\bibinitperiod},
-         given={Pierpaolo},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{FCJ+1}
-    \strng{fullhash}{FCJTMYBHSJLDP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2024}
-    \field{labeldatesource}{}
-    \field{title}{Effect on off-fault damage on stepovers}
-    \field{journaltitle}{in prep}
-    \field{year}{2024}
-  \endentry
-
-  \entry{thomas2024b}{article}{}
-    \name{author}{5}{}{%
-      {{hash=TMY}{%
-         family={Thomas},
-         familyi={T\bibinitperiod},
-         given={M.\bibnamedelima Y.},
-         giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
-      }}%
-      {{hash=PTR}{%
-         family={Preca\bibnamedelima Trapani},
-         familyi={P\bibinitperiod\bibinitdelim T\bibinitperiod},
-         given={Rachel},
-         giveni={R\bibinitperiod},
       }}%
       {{hash=BHS}{%
          family={Bhat},
@@ -516,30 +182,160 @@
          given={Harsha\bibnamedelima S.},
          giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
-      {{hash=KY}{%
-         family={Klinger},
-         familyi={K\bibinitperiod},
-         given={Y.},
-         giveni={Y\bibinitperiod},
+      {{hash=TC}{%
+         family={Twardzik},
+         familyi={T\bibinitperiod},
+         given={C{\'e}dric},
+         giveni={C\bibinitperiod},
       }}%
-      {{hash=DP}{%
-         family={Dubernet},
-         familyi={D\bibinitperiod},
-         given={Pierpaolo},
-         giveni={P\bibinitperiod},
+      {{hash=BQ}{%
+         family={Bletery},
+         familyi={B\bibinitperiod},
+         given={Quentin},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=HKW}{%
+         family={Hudnut},
+         familyi={H\bibinitperiod},
+         given={Kenneth\bibnamedelima W.},
+         giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=PF}{%
+         family={Passel{\`e}gue},
+         familyi={P\bibinitperiod},
+         given={Fran{\c c}ois},
+         giveni={F\bibinitperiod},
       }}%
     }
-    \strng{namehash}{TMY+1}
-    \strng{fullhash}{TMYPTRBHSKYDP1}
+    \strng{namehash}{LS+1}
+    \strng{fullhash}{LSLMBHSTCBQHKWPF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2024}
-    \field{extradate}{1}
+    \field{labelyear}{2025}
     \field{labeldatesource}{}
-    \field{title}{Investigating the Impact of Complex Fault Zone Geometries on
-  Seismic Rupture Propagation}
-    \field{journaltitle}{to be submitted}
-    \field{year}{2024}
+    \verb{eprint}
+    \verb 2505.15461v2
+    \endverb
+    \field{title}{Direct Estimation of Earthquake Source Properties from a
+  Single CCTV Camera}
+    \field{eprinttype}{arXiv}
+    \field{year}{2025}
+  \endentry
+
+  \entry{michel2025}{misc}{}
+    \name{author}{8}{}{%
+      {{hash=MS}{%
+         family={Michel},
+         familyi={M\bibinitperiod},
+         given={Sylvain},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SO}{%
+         family={Scotti},
+         familyi={S\bibinitperiod},
+         given={Oona},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hok},
+         familyi={H\bibinitperiod},
+         given={Sebastien},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={Harsha\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kheirdast},
+         familyi={K\bibinitperiod},
+         given={Navid},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Romanet},
+         familyi={R\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Almakari},
+         familyi={A\bibinitperiod},
+         given={Michelle},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Jinhui},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MS+2}
+    \strng{fullhash}{MSSOHSBHSKNRPAMCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \verb{eprint}
+    \verb 2501.15948
+    \endverb
+    \field{title}{Probability of earthquake fault jumps from physics based
+  criterion}
+    \field{journaltitle}{subm. J. Geophys. Res.}
+    \field{eprinttype}{arXiv}
+    \field{year}{2025}
+  \endentry
+
+  \entry{cheng2025}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=CJ}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Jinhui},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Almakari},
+         familyi={A\bibinitperiod},
+         given={Michelle},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Peruzzo},
+         familyi={P\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Lecampion},
+         familyi={L\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJ+1}
+    \strng{fullhash}{CJAMPCLBBHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \verb{eprint}
+    \verb 2505.02398v3
+    \endverb
+    \field{title}{FASTDASH, a Quasi-dynamic 3D Seismic Cycle Model by Using
+  Boundary Element Method with H-matrices}
+    \field{journaltitle}{submitted for GJI}
+    \field{eprinttype}{arXiv}
+    \field{year}{2025}
   \endentry
 
   \entry{momoh2025}{article}{}
@@ -575,9 +371,15 @@
     \field{labeltitlesource}{title}
     \field{labelyear}{2025}
     \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.1093/gji/ggae463
+    \endverb
+    \field{number}{3}
+    \field{pages}{1551\bibrangedash 1578}
     \field{title}{Volumetric (dilatant) plasticity in geodynamic models and
   implications on thermal dissipation and strain localization}
-    \field{journaltitle}{to appear in Geophys. J. Int.}
+    \field{volume}{240}
+    \field{journaltitle}{Geophys. J. Int.}
     \field{year}{2025}
   \endentry
 
