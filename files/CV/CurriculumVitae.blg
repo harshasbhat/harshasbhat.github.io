@@ -17,50 +17,50 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 13120 items from 5000.
+Reallocated field_info (elt_size=4) to 12420 items from 5000.
 Database file #1: CurriculumVitae-blx.bib
 Database file #2: ~/Dropbox/Public/CollectedPapers/MasterBibliography.bib
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 58 entries,
+You've used 53 entries,
             6399 wiz_defined-function locations,
-            1534 strings with 25147 characters,
-and the built_in function-call counts, 809805 in all, are:
-= -- 73337
-> -- 8222
-< -- 1777
-+ -- 25459
-- -- 3710
-* -- 63504
-:= -- 101380
+            1524 strings with 24461 characters,
+and the built_in function-call counts, 743356 in all, are:
+= -- 67326
+> -- 7536
+< -- 1643
++ -- 23461
+- -- 3408
+* -- 58195
+:= -- 93101
 add.period$ -- 0
-call.type$ -- 58
-change.case$ -- 734
+call.type$ -- 53
+change.case$ -- 694
 chr.to.int$ -- 47
-cite$ -- 114
-duplicate$ -- 78486
-empty$ -- 67288
-format.name$ -- 5785
-if$ -- 159603
+cite$ -- 104
+duplicate$ -- 72302
+empty$ -- 61682
+format.name$ -- 5300
+if$ -- 146387
 int.to.chr$ -- 0
-int.to.str$ -- 159
+int.to.str$ -- 144
 missing$ -- 0
-newline$ -- 2845
-num.names$ -- 2549
-pop$ -- 23847
+newline$ -- 2650
+num.names$ -- 2350
+pop$ -- 21779
 preamble$ -- 1
-purify$ -- 1375
+purify$ -- 1284
 quote$ -- 0
-skip$ -- 11419
+skip$ -- 10499
 stack$ -- 0
-substring$ -- 148925
-swap$ -- 11051
-text.length$ -- 1834
+substring$ -- 136451
+swap$ -- 10241
+text.length$ -- 1677
 text.prefix$ -- 12
 top$ -- 1
-type$ -- 1958
+type$ -- 1788
 warning$ -- 0
-while$ -- 11537
+while$ -- 10642
 width$ -- 0
-write$ -- 2788
+write$ -- 2598
