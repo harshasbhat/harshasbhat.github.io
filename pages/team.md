@@ -6,10 +6,6 @@ title:
 
 {% include new-window-fix.html %}
 
-<h3>PERSISMO Group</h3>  
-{% include image.html url="/images/group2025.jpg" width="80%" align="center" %}
-
-{% include image.html url="/images/PERSISMO.jpg" width="80%" align="center" %}
  
 <h3>Post Doctoral Researchers</h3>   
 <div class="teams">
@@ -141,4 +137,10 @@ title:
 </div>
 
 {% endif %}  
+
+
+<h3>PERSISMO Group</h3>  
+{% include image.html url="/images/group2025.jpg" width="100%" align="center" %}
+
+{% include image.html url="/images/PERSISMO.jpg" width="100%" align="center" %}
 

@@ -92,6 +92,50 @@ div.pagewidthpub
   margin-top:10px;
 }
 
+.pubs2 {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  padding:0px;
+  margin-top:0px;
+    align-self: top; 
+    justify-content: space-even;
+  align-items: space-even;
+}
+
+.articles2 {
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 0px;
+  align-self: top; 
+  background-color: $white; //lighten($grey-light,16%);
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-even;
+  align-items: space-even;
+ }
+
+.shadow-hr {
+    position: relative;
+    height: 0;
+    border: none;
+    margin: 40px 0;
+  }
+
+  .shadow-hr::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 4px;
+    transform: scaleY(0.4); /* thinner than 1px */
+    background-color: #04168b;
+    box-shadow: 0 1px 3px rgba(172, 10, 10, 0.15);
+  }
+ 
 .articles {
   margin: 0px;
   padding-left: 0px;

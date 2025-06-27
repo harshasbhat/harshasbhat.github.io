@@ -4,6 +4,17 @@ title: null
 permalink: /
 published: true
 ---
+<h2 align="center" style="color:#04168b; font-size:20pt">Welcome to Harsha S. Bhat's website</h2>	
+
+
+<!-- <div class="articles2"> -->
+{% include image.html url="/images/group2025.jpg" width="100%" align="center" %}
+I am a senior <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Research Scientist (Directeur de Recherche) working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
+<a href="http://www.ens.fr">Ecole Normale Supérieure</a> and a Professor at <a href="https://portail.polytechnique.edu/lms/en">Laboratoire de Mécanique Solides, Ecole Polytechnique</a>. I am also a visiting Professor at <a href="https://www.niser.ac.in">National Institute of Science Education and Research</a>, India.
+<!-- </div>	 -->
+
+
+<h2 align="center" style="color:#04168b; font-size:20pt">News and Updates</h2>	
 
 <div class="archive">
 

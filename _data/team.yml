@@ -8,6 +8,14 @@ pi:
       tweet:
       funded: 1
 postdoc:
+    - name: "Suli Yao"
+      image: suli.jpg
+      web: https://www.ees.cuhk.edu.hk/staff/dr-yao-suli/
+      email:
+      post: ERC Post-Doctoral Fellow
+      dates: September 2025
+      tweet: 
+      funded: 1   
     - name: "Ankit Gupta"
       image: ankit.jpg
       web: https://scholar.google.co.in/citations?user=atkiJ00AAAAJ&hl=en
