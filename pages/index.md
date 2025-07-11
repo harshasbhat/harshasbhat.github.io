@@ -13,6 +13,11 @@ I am a senior <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Research Scient
 <a href="http://www.ens.fr">Ecole Normale Supérieure</a> and a Professor at <a href="https://portail.polytechnique.edu/lms/en">Laboratoire de Mécanique Solides, Ecole Polytechnique</a>.
 <!-- </div>	 -->
 
+<h2 align="center" style="color:#04168b; font-size:20pt"><a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-4x"></i></a>
+		<a href="https://orcid.org/0000-0003-0361-1854"><i class="ai ai-orcid-square ai-4x"></i></a>
+		<a href="{{site.baseurl}}/files/CV/CurriculumVitae.pdf"><i class="ai ai-cv-square ai-4x"></i></a></h2>	
+
+
 
 <h2 align="center" style="color:#04168b; font-size:20pt">News and Updates</h2>	
 
