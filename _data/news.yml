@@ -1,4 +1,11 @@
 news:
+    - hl: To appear in Science "Estimation of Earthquake Properties from a Camera"
+      txt: "On how to obtain earthquake properties from a CCTV camera"
+      closing: ""
+      pdf: 
+      readmore: 
+      image: pubimages/myanmar.png
+      pdf: Latour2025.pdf   
     - hl: "New paper accpeted!"
       txt: "New paper on FASTDASH, a simulator for Complex Fault Systems "
       closing: ""
@@ -6,13 +13,6 @@ news:
       readmore: 
       image: pubimages/turkey.gif
       pdf: ChengAlmakariPeruzzo2025a.pdf
-    - hl: "Estimation of Earthquake Source Properties from a Camera"
-      txt: "On how to obtain earthquake properties from a CCTV camera"
-      closing: ""
-      pdf: 
-      readmore: 
-      image: pubimages/myanmar.png
-      pdf: Latour2025.pdf    
     - hl: "New paper submitted"
       txt: "New paper on probability of earthquake fault jumps"
       closing: ""
