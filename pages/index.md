@@ -8,15 +8,18 @@ published: true
 
 
 <!-- <div class="articles2"> -->
-{% include image.html url="/images/group2025.jpg" width="100%" align="center" %}
+{% include image.html url="/images/group2025.jpg" width="50%" align="center" %}
 I am a senior <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Research Scientist (Directeur de Recherche) working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
 <a href="http://www.ens.fr">Ecole Normale Supérieure</a> and a Professor at <a href="https://portail.polytechnique.edu/lms/en">Laboratoire de Mécanique Solides, Ecole Polytechnique</a>.
 <!-- </div>	 -->
 
-<h2 align="center" style="color:#04168b; font-size:20pt"><a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-4x"></i></a>
-		<a href="https://orcid.org/0000-0003-0361-1854"><i class="ai ai-orcid-square ai-4x"></i></a>
-		<a href="{{site.baseurl}}/files/CV/CurriculumVitae.pdf"><i class="ai ai-cv-square ai-4x"></i></a></h2>	
-
+<h2 align="center" style="color:#04168b; font-size:20pt">
+		<a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+		<a href="https://orcid.org/0000-0003-0361-1854"><i class="ai ai-orcid-square ai-2x"></i></a>
+		<a href="{{site.baseurl}}/files/CV/CurriculumVitae.pdf"><i class="ai ai-cv-square ai-2x"></i></a>
+		<a href="https://www.linkedin.com/in/harshasbhat"><i class="ai ai-inspire-square ai-2x"></i></a>		
+</h2>	
+		
 
 
 <h2 align="center" style="color:#04168b; font-size:20pt">News and Updates</h2>	
