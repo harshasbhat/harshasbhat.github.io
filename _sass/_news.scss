@@ -1,15 +1,30 @@
 
 
+// .archive {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+//   grid-row-gap: 10px;
+//   grid-column-gap: 10px;
+//   padding:1px;
+//   margin-top:1px;
+//   align-items: start;
+// }
+
 .archive {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
-  padding:1px;
-  margin-top:1px;
+  gap: 10px; // Shorthand for both row and column gap
+  padding: 1px;
+  margin-top: 1px;
+  align-items: start; // Cards don't stretch
+  grid-auto-rows: max-content; // Rows size to content
+  align-self: start; // Override the flex stretching
+  height: auto; 
+    justify-content: center; // Centers the grid columns
 }
 
 .article {
+  position: relative; // Essential for ribbon positioning
   margin: 0px;
   padding-left: 5px;
   padding-right: 5px;
@@ -28,6 +43,37 @@
   align-items: center;
  }
 
+ .ribbon-badge {
+  position: absolute;
+  top: -8px; // Move up to leak out of the container
+  left: -12px; // Move further left to leak out
+  background: #e74c3c;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 6px 18px 6px 12px;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  transform: rotate(-3deg);
+  
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    border-left: 8px solid #c0392b;
+    border-bottom: 8px solid transparent;
+  }
+  
+  &::after {
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: 0;
+    border-top: 18px solid #e74c3c;
+    border-right: 8px solid transparent;
+  }
+}
 // .article:nth-child(odd) {
 //   background-color: lighten($grey-light,10%);
   // grid-column: 1 / -2;
@@ -126,7 +172,7 @@ text-decoration: none;
 // margin-top: 0px;
 color: $black;
 font-size:   90%;
-text-align: left;
+text-align: center;
 // font-weight: 300;
 // margin-bottom: 10px;
 padding: 10px;

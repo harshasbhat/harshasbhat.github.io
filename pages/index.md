@@ -4,30 +4,47 @@ title: null
 permalink: /
 published: true
 ---
-<h2 align="center" style="color:#04168b; font-size:20pt">Welcome to Harsha S. Bhat's website</h2>	
+
+<div class="archive">
+<article class="article">
+
+	<div class="smallnewsheading">
+	 Welcome to Harsha S. Bhat's website
+	</div>
 
 
-<!-- <div class="articles2"> -->
-{% include image.html url="/images/group2025.jpg" width="50%" align="center" %}
-I am a senior <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Research Scientist (Directeur de Recherche) working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
-<a href="http://www.ens.fr">Ecole Normale Supérieure</a> and a Professor at <a href="https://portail.polytechnique.edu/lms/en">Laboratoire de Mécanique Solides, Ecole Polytechnique</a>.
-<!-- </div>	 -->
+	<div class="newsimage">
+	<img src="{{site.baseurl}}/images/harsha2.jpg" height="230px" />
+	</div>
 
-<h2 align="center" style="color:#04168b; font-size:20pt">
-		<a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-2x"></i></a>
-		<a href="https://orcid.org/0000-0003-0361-1854"><i class="ai ai-orcid-square ai-2x"></i></a>
-		<a href="{{site.baseurl}}/files/CV/CurriculumVitae.pdf"><i class="ai ai-cv-square ai-2x"></i></a>
-		<a href="https://www.linkedin.com/in/harshasbhat"><i class="ai ai-inspire-square ai-2x"></i></a>		
-</h2>	
-		
+	<div class="smallnewstxt">
+	I am a senior <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Research Scientist (Directeur de Recherche) working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
+	<a href="http://www.ens.fr">Ecole Normale Supérieure</a> and a Professor at <a href="https://portail.polytechnique.edu/lms/en">Laboratoire de Mécanique Solides, Ecole Polytechnique</a>.
+	<br>
+	<a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-3x"></i></a>
+		<a href="https://orcid.org/0000-0003-0361-1854"><i class="ai ai-orcid-square ai-3x"></i></a>
+		<a href="{{site.baseurl}}/files/CV/CurriculumVitae.pdf"><i class="ai ai-cv-square ai-3x"></i></a>
+		<a href="https://www.linkedin.com/in/harshasbhat"><i class="ai ai-inspire-square ai-3x"></i></a>		
+	</div>
+
+	<div id="newsbtn">
+		<a href="https://harshasbhat.github.io/about/">READ MORE... </a>
+	</div>
+	<br>
+</article>
+</div>
 
 
-<h2 align="center" style="color:#04168b; font-size:20pt">News and Updates</h2>	
+<br>
 
 <div class="archive">
 
 {% for news in site.data.news.news %}
 <article class="article">
+
+	{% if news.new == true %}
+    	<div class="ribbon-badge">NEW</div>
+  	{% endif %}
 
 	<div class="smallnewsheading">
 	 {{news.hl}}

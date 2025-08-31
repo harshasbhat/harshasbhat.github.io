@@ -5,7 +5,8 @@ news:
       pdf: 
       readmore: 
       image: pubimages/myanmar.png
-      pdf: Latour2025.pdf   
+      new: true
+      readmore: https://arxiv.org/pdf/2505.15461
     - hl: "New paper accpeted!"
       txt: "New paper on FASTDASH, a simulator for Complex Fault Systems "
       closing: ""
@@ -13,6 +14,7 @@ news:
       readmore: 
       image: pubimages/turkey.gif
       pdf: ChengAlmakariPeruzzo2025a.pdf
+      new: true
     - hl: "New paper submitted"
       txt: "New paper on probability of earthquake fault jumps"
       closing: ""
