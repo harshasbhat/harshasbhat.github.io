@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,8 +16,8 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}
-  \entry{thomas2017a}{proceedings}{}
+\datalist[entry]{none/global//global/global/global}
+  \entry{thomas2017a}{proceedings}{}{}
     \name{editor}{3}{}{%
       {{hash=TMY}{%
          family={Thomas},
@@ -56,7 +56,7 @@
     \field{year}{2017}
   \endentry
 
-  \entry{bizzarri2012}{proceedings}{}
+  \entry{bizzarri2012}{proceedings}{}{}
     \name{editor}{2}{}{%
       {{hash=BA}{%
          family={Bizzarri},
@@ -85,7 +85,7 @@
     \field{year}{2012}
   \endentry
 
-  \entry{thomas2022a}{incollection}{}
+  \entry{thomas2022a}{incollection}{}{}
     \name{author}{2}{}{%
       {{hash=TMY}{%
          family={Thomas},
@@ -124,7 +124,7 @@
     \field{year}{2022}
   \endentry
 
-  \entry{thomas2022b}{incollection}{}
+  \entry{thomas2022b}{incollection}{}{}
     \name{author}{2}{}{%
       {{hash=TMY}{%
          family={Thomas},
@@ -162,7 +162,45 @@
     \field{year}{2022}
   \endentry
 
-  \entry{latour2025}{misc}{}
+  \entry{melkior2025b}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=MT}{%
+         family={Melkior},
+         familyi={M\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BHS}{%
+         family={Bhat},
+         familyi={B\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=AF}{%
+         family={Amlani},
+         familyi={A\bibinitperiod},
+         given={Faisal},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MT+1}
+    \strng{fullhash}{MTBHSAF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \verb{eprint}
+    \verb 2508.20596
+    \endverb
+    \field{title}{Tsunami modeling with dynamic seafloors: a high-order solver
+  validated with shallow water benchmarks}
+    \field{volume}{submitted}
+    \field{journaltitle}{J. Comput. Phys.}
+    \field{eprinttype}{arXiv}
+    \field{year}{2025}
+  \endentry
+
+  \entry{latour2025}{article}{}{}
     \name{author}{7}{}{%
       {{hash=LS}{%
          family={Latour},
@@ -218,11 +256,12 @@
     \endverb
     \field{title}{Direct Estimation of Earthquake Source Properties from a
   Single CCTV Camera}
+    \field{journaltitle}{Science}
     \field{eprinttype}{arXiv}
     \field{year}{2025}
   \endentry
 
-  \entry{michel2025}{misc}{}
+  \entry{michel2025}{article}{}{}
     \name{author}{8}{}{%
       {{hash=MS}{%
          family={Michel},
@@ -284,12 +323,12 @@
     \endverb
     \field{title}{Probability of earthquake fault jumps from physics based
   criterion}
-    \field{journaltitle}{subm. J. Geophys. Res.}
+    \field{journaltitle}{J. Geophys. Res.}
     \field{eprinttype}{arXiv}
     \field{year}{2025}
   \endentry
 
-  \entry{cheng2025}{misc}{}
+  \entry{cheng2025}{article}{}{}
     \name{author}{5}{}{%
       {{hash=CJ}{%
          family={Cheng},
@@ -328,17 +367,20 @@
     \field{labeltitlesource}{title}
     \field{labelyear}{2025}
     \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.1093/gji/ggaf230
+    \endverb
     \verb{eprint}
     \verb 2505.02398v3
     \endverb
     \field{title}{FASTDASH, a Quasi-dynamic 3D Seismic Cycle Model by Using
   Boundary Element Method with H-matrices}
-    \field{journaltitle}{submitted for GJI}
+    \field{journaltitle}{Geophys. J. Int.}
     \field{eprinttype}{arXiv}
     \field{year}{2025}
   \endentry
 
-  \entry{momoh2025}{article}{}
+  \entry{momoh2025}{article}{}{}
     \name{author}{4}{}{%
       {{hash=ME}{%
          family={Momoh},
@@ -383,7 +425,7 @@
     \field{year}{2025}
   \endentry
 
-  \entry{ferry2025}{article}{}
+  \entry{ferry2025}{article}{}{}
     \name{author}{4}{}{%
       {{hash=FR}{%
          family={Ferry},
@@ -426,7 +468,7 @@
     \field{year}{2025}
   \endentry
 
-  \entry{petit2024}{article}{}
+  \entry{petit2024}{article}{}{}
     \name{author}{5}{}{%
       {{hash=PL}{%
          family={Petit},
@@ -476,7 +518,7 @@
     \field{year}{2024}
   \endentry
 
-  \entry{jeandet2023a}{article}{}
+  \entry{jeandet2023a}{article}{}{}
     \name{author}{3}{}{%
       {{hash=JRL}{%
          family={Jeandet-Ribes},
@@ -515,7 +557,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{marty2022}{article}{}
+  \entry{marty2022}{article}{}{}
     \name{author}{8}{}{%
       {{hash=MS}{%
          family={Marty},
@@ -583,7 +625,7 @@
     \field{year}{2023}
   \endentry
 
-  \entry{amlani2022}{article}{}
+  \entry{amlani2022}{article}{}{}
     \name{author}{10}{}{%
       {{hash=AF}{%
          family={Amlani},
@@ -664,7 +706,7 @@
     \field{year}{2022}
   \endentry
 
-  \entry{jara2021}{article}{}
+  \entry{jara2021}{article}{}{}
     \name{author}{8}{}{%
       {{hash=JJ}{%
          family={Jara},
@@ -732,7 +774,7 @@
     \field{year}{2021}
   \endentry
 
-  \entry{elbanna2021}{article}{}
+  \entry{elbanna2021}{article}{}{}
     \name{author}{7}{}{%
       {{hash=EA}{%
          family={Elbanna},
@@ -791,7 +833,7 @@
     \field{year}{2021}
   \endentry
 
-  \entry{bhat2021}{thesis}{}
+  \entry{bhat2021}{thesis}{}{}
     \name{author}{1}{}{%
       {{hash=BHS}{%
          family={Bhat},
@@ -815,7 +857,7 @@
     \field{year}{2021}
   \endentry
 
-  \entry{jeandet2020}{article}{}
+  \entry{jeandet2020}{article}{}{}
     \name{author}{4}{}{%
       {{hash=JRL}{%
          family={Jeandet-Ribes},
@@ -859,7 +901,7 @@
     \field{year}{2020}
   \endentry
 
-  \entry{jolivet2020}{article}{}
+  \entry{jolivet2020}{article}{}{}
     \name{author}{6}{}{%
       {{hash=JR}{%
          family={Jolivet},
@@ -916,7 +958,7 @@
     \field{year}{2020}
   \endentry
 
-  \entry{okubo2020}{article}{}
+  \entry{okubo2020}{article}{}{}
     \name{author}{4}{}{%
       {{hash=OK}{%
          family={Okubo},
@@ -958,7 +1000,7 @@
     \field{year}{2020}
   \endentry
 
-  \entry{okubo2019}{article}{}
+  \entry{okubo2019}{article}{}{}
     \name{author}{8}{}{%
       {{hash=OK}{%
          family={Okubo},
@@ -1025,7 +1067,7 @@
     \field{year}{2019}
   \endentry
 
-  \entry{marty2019}{article}{}
+  \entry{marty2019}{article}{}{}
     \name{author}{6}{}{%
       {{hash=MS}{%
          family={Marty},
@@ -1080,7 +1122,7 @@
     \field{year}{2019}
   \endentry
 
-  \entry{aubry2018}{article}{}
+  \entry{aubry2018}{article}{}{}
     \name{author}{9}{}{%
       {{hash=AJ}{%
          family={Aubry},
@@ -1153,7 +1195,7 @@
     \field{year}{2018}
   \endentry
 
-  \entry{klinger2018}{article}{}
+  \entry{klinger2018}{article}{}{}
     \name{author}{13}{}{%
       {{hash=KY}{%
          family={Klinger},
@@ -1248,7 +1290,7 @@
     \field{year}{2018}
   \endentry
 
-  \entry{cruz2018}{article}{}
+  \entry{cruz2018}{article}{}{}
     \name{author}{3}{}{%
       {{hash=CAVM}{%
          family={Cruz-Atienza},
@@ -1287,7 +1329,7 @@
     \field{year}{2018}
   \endentry
 
-  \entry{thomas2018a}{article}{}
+  \entry{thomas2018a}{article}{}{}
     \name{author}{2}{}{%
       {{hash=TMY}{%
          family={Thomas},
@@ -1323,7 +1365,7 @@
     \field{year}{2018}
   \endentry
 
-  \entry{romanet2018}{article}{}
+  \entry{romanet2018}{article}{}{}
     \name{author}{4}{}{%
       {{hash=RP}{%
          family={Romanet},
@@ -1365,7 +1407,7 @@
     \field{year}{2018}
   \endentry
 
-  \entry{gabuchian2017}{article}{}
+  \entry{gabuchian2017}{article}{}{}
     \name{author}{5}{}{%
       {{hash=GV}{%
          family={Gabuchian},
@@ -1416,7 +1458,7 @@
     \field{year}{2017}
   \endentry
 
-  \entry{thomas2017b}{incollection}{}
+  \entry{thomas2017b}{incollection}{}{}
     \name{author}{3}{}{%
       {{hash=TMY}{%
          family={Thomas},
@@ -1478,7 +1520,7 @@
     \field{year}{2017}
   \endentry
 
-  \entry{passelegue2017}{incollection}{}
+  \entry{passelegue2017}{incollection}{}{}
     \name{author}{6}{}{%
       {{hash=PFX}{%
          family={Passel{\`e}gue},
@@ -1557,7 +1599,7 @@
     \field{year}{2017}
   \endentry
 
-  \entry{perol2016}{article}{}
+  \entry{perol2016}{article}{}{}
     \name{author}{2}{}{%
       {{hash=PT}{%
          family={Perol},
@@ -1588,7 +1630,7 @@
     \field{year}{2016}
   \endentry
 
-  \entry{passelegue2016b}{article}{}
+  \entry{passelegue2016b}{article}{}{}
     \name{author}{6}{}{%
       {{hash=PFX}{%
          family={Passel{\`e}gue},
@@ -1643,7 +1685,7 @@
     \field{year}{2016}
   \endentry
 
-  \entry{mello2016}{article}{}
+  \entry{mello2016}{article}{}{}
     \name{author}{3}{}{%
       {{hash=MM}{%
          family={Mello},
@@ -1681,7 +1723,7 @@
     \field{year}{2016}
   \endentry
 
-  \entry{vallage2015}{article}{}
+  \entry{vallage2015}{article}{}{}
     \name{author}{5}{}{%
       {{hash=VA}{%
          family={Vallage},
@@ -1735,7 +1777,7 @@
     \field{year}{2015}
   \endentry
 
-  \entry{frank2015}{article}{}
+  \entry{frank2015}{article}{}{}
     \name{author}{6}{}{%
       {{hash=FWB}{%
          family={Frank},
@@ -1794,7 +1836,7 @@
     \field{year}{2015}
   \endentry
 
-  \entry{siriki2015}{article}{}
+  \entry{siriki2015}{article}{}{}
     \name{author}{4}{}{%
       {{hash=SH}{%
          family={Siriki},
@@ -1839,7 +1881,7 @@
     \field{year}{2015}
   \endentry
 
-  \entry{mello2014}{article}{}
+  \entry{mello2014}{article}{}{}
     \name{author}{4}{}{%
       {{hash=MM}{%
          family={Mello},
@@ -1883,7 +1925,7 @@
     \field{year}{2014}
   \endentry
 
-  \entry{passelegue2013}{article}{}
+  \entry{passelegue2013}{article}{}{}
     \name{author}{5}{}{%
       {{hash=PFX}{%
          family={Passel{\`e}gue},
@@ -1949,7 +1991,7 @@
     \field{year}{2013}
   \endentry
 
-  \entry{bhat2012}{article}{}
+  \entry{bhat2012}{article}{}{}
     \name{author}{3}{}{%
       {{hash=BHS}{%
          family={Bhat},
@@ -1987,7 +2029,7 @@
     \field{year}{2012}
   \endentry
 
-  \entry{bhat2011a}{article}{}
+  \entry{bhat2011a}{article}{}{}
     \name{author}{3}{}{%
       {{hash=BHS}{%
          family={Bhat},
@@ -2026,7 +2068,7 @@
     \field{year}{2011}
   \endentry
 
-  \entry{bhat2010a}{article}{}
+  \entry{bhat2010a}{article}{}{}
     \name{author}{4}{}{%
       {{hash=BHS}{%
          family={Bhat},
@@ -2069,10 +2111,9 @@
     \field{volume}{493}
     \field{journaltitle}{Tectonophysics}
     \field{year}{2010}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{biegel2010}{article}{}
+  \entry{biegel2010}{article}{}{}
     \name{author}{4}{}{%
       {{hash=BRL}{%
          family={Biegel},
@@ -2118,7 +2159,7 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{mello2010}{article}{}
+  \entry{mello2010}{article}{}{}
     \name{author}{4}{}{%
       {{hash=MM}{%
          family={Mello},
@@ -2162,7 +2203,7 @@
     \field{year}{2010}
   \endentry
 
-  \entry{templeton2010}{article}{}
+  \entry{templeton2010}{article}{}{}
     \name{author}{4}{}{%
       {{hash=TEL}{%
          family={Templeton},
@@ -2208,7 +2249,7 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
-  \entry{harris2009}{article}{}
+  \entry{harris2009}{article}{}{}
     \name{author}{23}{}{%
       {{hash=HRA}{%
          family={Harris},
@@ -2366,7 +2407,7 @@
     \field{year}{2009}
   \endentry
 
-  \entry{sammis2009}{article}{}
+  \entry{sammis2009}{article}{}{}
     \name{author}{3}{}{%
       {{hash=SCG}{%
          family={Sammis},
@@ -2403,7 +2444,7 @@
     \field{year}{2009}
   \endentry
 
-  \entry{templeton2009}{article}{}
+  \entry{templeton2009}{article}{}{}
     \name{author}{7}{}{%
       {{hash=TEL}{%
          family={Templeton},
@@ -2464,7 +2505,7 @@
     \field{year}{2009}
   \endentry
 
-  \entry{dunham2008a}{article}{}
+  \entry{dunham2008a}{article}{}{}
     \name{author}{2}{}{%
       {{hash=DEM}{%
          family={Dunham},
@@ -2519,7 +2560,7 @@
     \field{year}{2008}
   \endentry
 
-  \entry{bhat2007a}{article}{}
+  \entry{bhat2007a}{article}{}{}
     \name{author}{5}{}{%
       {{hash=BHS}{%
          family={Bhat},
@@ -2596,7 +2637,7 @@
     \field{year}{2007}
   \endentry
 
-  \entry{bhat2007b}{article}{}
+  \entry{bhat2007b}{article}{}{}
     \name{author}{4}{}{%
       {{hash=BHS}{%
          family={Bhat},
@@ -2639,7 +2680,7 @@
     \field{year}{2007}
   \endentry
 
-  \entry{bhat2007c}{thesis}{}
+  \entry{bhat2007c}{thesis}{}{}
     \name{author}{1}{}{%
       {{hash=BHS}{%
          family={Bhat},
@@ -2663,7 +2704,7 @@
     \field{year}{2007}
   \endentry
 
-  \entry{fliss2005}{article}{}
+  \entry{fliss2005}{article}{}{}
     \name{author}{4}{}{%
       {{hash=FS}{%
          family={Fliss},
@@ -2706,7 +2747,7 @@
     \field{year}{2005}
   \endentry
 
-  \entry{bhat2004}{article}{}
+  \entry{bhat2004}{article}{}{}
     \name{author}{4}{}{%
       {{hash=BHS}{%
          family={Bhat},

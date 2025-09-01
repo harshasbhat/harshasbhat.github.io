@@ -1,4 +1,12 @@
 postdoc:
+    - name: "Navid Kheirdast"
+      image: navid.jpg
+      web: https://kheirdast.github.io
+      email:
+      post: ERC Post-Doctoral Fellow
+      dates: March 2022
+      tweet: NavidKheirdast
+      funded: 1 
     - name: "Michelle Almakari"
       image: michelle.jpg
       web: https://michelle-almakari.github.io/michelle-almakari/

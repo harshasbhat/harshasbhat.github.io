@@ -13,7 +13,7 @@ postdoc:
       web: https://www.ees.cuhk.edu.hk/staff/dr-yao-suli/
       email:
       post: ERC Post-Doctoral Fellow
-      dates: September 2025
+      dates: October 2025
       tweet: 
       funded: 1   
     - name: "Ankit Gupta"
@@ -23,15 +23,7 @@ postdoc:
       post: ERC Post-Doctoral Fellow
       dates: January 2024
       tweet: 
-      funded: 1   
-    - name: "Navid Kheirdast"
-      image: navid.jpg
-      web: https://kheirdast.github.io
-      email:
-      post: ERC Post-Doctoral Fellow
-      dates: March 2022
-      tweet: NavidKheirdast
-      funded: 1      
+      funded: 1        
 phd:
     - name: "Bharath Shanmugasundaram"
       image: bharath.jpg
