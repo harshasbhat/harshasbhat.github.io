@@ -1,4 +1,18 @@
 publications:
+    - title:     "Tsunami modeling with dynamic seafloors: a high-order solver validated with shallow water benchmarks"
+      author:    T. Melkior, H. S. Bhat, F. Amlani
+      year:    2025
+      journal:    subm. to J. Comp. Phys.
+      doi:
+      pubnum:     	
+      type:         article
+      booktitle:	""
+      publisher:
+      editor:
+      school:
+      arxiv:  2508.20596
+      pdf: MelkiorBhatAmlani2025a.pdf
+      img: tsunami.jpg
     - title:     "Direct Estimation of Earthquake Source Properties from a Single CCTV Camera"
       author:    S. Latour, M. Lebihain, H. S. Bhat, C. Twardzik, Q. Bletery, K. W. Hudnut, F. Passelègue
       year:    2025

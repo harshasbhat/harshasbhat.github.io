@@ -1,5 +1,5 @@
 news:
-    - hl: To appear in Science "Estimation of Earthquake Properties from a Camera"
+    - hl: To appear in Science
       txt: "On how to obtain earthquake properties from a CCTV camera"
       closing: ""
       pdf: 
@@ -7,6 +7,14 @@ news:
       image: pubimages/myanmar.png
       new: true
       readmore: https://arxiv.org/pdf/2505.15461
+    - hl: New paper submitted on tsunami modeling
+      txt: 
+      closing: ""
+      pdf: MelkiorBhatAmlani2025a.pdf
+      readmore: 
+      image: pubimages/tsunami.jpg
+      new: true
+      readmore: 
     - hl: "New paper accpeted!"
       txt: "New paper on FASTDASH, a simulator for Complex Fault Systems "
       closing: ""

@@ -6,7 +6,7 @@ published: true
 ---
 
 <div class="archive">
-<article class="article">
+<article class="article2">
 
 	<div class="smallnewsheading">
 	 Welcome to Harsha S. Bhat's website
@@ -14,13 +14,25 @@ published: true
 
 
 	<div class="newsimage">
-	<img src="{{site.baseurl}}/images/harsha2.jpg" height="230px" />
+	<img src="{{site.baseurl}}/images/harsha2.jpg" height="200px" style="border-radius: 50%;" />
 	</div>
+
+	<br>
+</article>
+
+<article class="article2">
+
+	<div class="smallnewsheading">
+	 
+	</div>
+
+
+	
 
 	<div class="smallnewstxt">
 	I am a senior <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Research Scientist (Directeur de Recherche) working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
 	<a href="http://www.ens.fr">Ecole Normale Supérieure</a> and a Professor at <a href="https://portail.polytechnique.edu/lms/en">Laboratoire de Mécanique Solides, Ecole Polytechnique</a>.
-	<br>
+	<br> <br> <br>
 	<a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-3x"></i></a>
 		<a href="https://orcid.org/0000-0003-0361-1854"><i class="ai ai-orcid-square ai-3x"></i></a>
 		<a href="{{site.baseurl}}/files/CV/CurriculumVitae.pdf"><i class="ai ai-cv-square ai-3x"></i></a>
@@ -32,6 +44,7 @@ published: true
 	</div>
 	<br>
 </article>
+
 </div>
 
 
