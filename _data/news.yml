@@ -7,6 +7,14 @@ news:
       image: pubimages/myanmar.png
       new: true
       readmore: https://arxiv.org/pdf/2505.15461
+    - hl: New paper submitted digital twin for fault zone
+      txt: 
+      closing: ""
+      pdf: AlmakariKheirdastVillafuerte2025a.pdf
+      readmore: 
+      image: pubimages/safar.jpg
+      new: true
+      readmore: 
     - hl: New paper submitted on tsunami modeling
       txt: 
       closing: ""
@@ -22,7 +30,7 @@ news:
       readmore: 
       image: pubimages/turkey.gif
       pdf: ChengAlmakariPeruzzo2025a.pdf
-      new: true
+      new:
     - hl: "New paper submitted"
       txt: "New paper on probability of earthquake fault jumps"
       closing: ""

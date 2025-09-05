@@ -1,4 +1,20 @@
 publications:
+    - title:     "Spectrum of slip dynamics, scaling & statistical laws emerge from simplified model of fault and damage zone architecture"
+      author:    M. Almakari, N. Kheirdast, C. D. Villafuerte, M. Y. Thomas, P. Dubernet, J. Cheng, A. Gupta, P. Romanet, S. Chaillat & H. S. Bhat
+      year:    2025
+      journal:    subm. J. Geophys. Res.
+      pdf: 		AlmakariKheirdastVillafuerte2025a.pdf
+      doi:		
+      pubnum:     	
+      type:         article  
+      booktitle:	""
+      publisher:	
+      editor:   
+      school:	
+      arxiv: 	
+      topics: ""	
+      img: safar.jpg
+      Readmore:
     - title:     "Tsunami modeling with dynamic seafloors: a high-order solver validated with shallow water benchmarks"
       author:    T. Melkior, H. S. Bhat, F. Amlani
       year:    2025
