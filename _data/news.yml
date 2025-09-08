@@ -10,11 +10,10 @@ news:
     - hl: New paper submitted digital twin for fault zone
       txt: 
       closing: ""
-      pdf: AlmakariKheirdastVillafuerte2025a.pdf
-      readmore: 
+      pdf:
+      readmore: https://arxiv.org/abs/2509.04909
       image: pubimages/safar.jpg
       new: true
-      readmore: 
     - hl: New paper submitted on tsunami modeling
       txt: 
       closing: ""
