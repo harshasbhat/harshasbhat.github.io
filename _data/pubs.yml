@@ -1,4 +1,18 @@
 publications:
+    - title:     "Direct Estimation of Earthquake Source Properties from a Single CCTV Camera"
+      author:    S. Latour, M. Lebihain, H. S. Bhat, C. Twardzik, Q. Bletery, K. W. Hudnut, F. Passelègue
+      year:    2025
+      journal:   Science
+      doi: 10.1126/science.adz1705
+      pubnum:     	
+      type:         article
+      booktitle:	""
+      publisher:
+      editor:
+      school:
+      arxiv:  2505.15461
+      pdf: LatourLebihainBhat2025a.pdf
+      img: myanmar.png
     - title:     "Spectrum of slip dynamics, scaling & statistical laws emerge from simplified model of fault and damage zone architecture"
       author:    M. Almakari, N. Kheirdast, C. D. Villafuerte, M. Y. Thomas, P. Dubernet, J. Cheng, A. Gupta, P. Romanet, S. Chaillat & H. S. Bhat
       year:    2025
@@ -29,20 +43,6 @@ publications:
       arxiv:  2508.20596
       pdf: MelkiorBhatAmlani2025a.pdf
       img: tsunami.jpg
-    - title:     "Direct Estimation of Earthquake Source Properties from a Single CCTV Camera"
-      author:    S. Latour, M. Lebihain, H. S. Bhat, C. Twardzik, Q. Bletery, K. W. Hudnut, F. Passelègue
-      year:    2025
-      journal:    to appear in Science
-      doi:
-      pubnum:     	
-      type:         article
-      booktitle:	""
-      publisher:
-      editor:
-      school:
-      arxiv:  2505.15461
-      pdf: Latour2025.pdf
-      img: myanmar.png
     - title:     "FASTDASH, a Quasi-dynamic 3D Seismic Cycle Model by Using Boundary Element Method with H-matrices"
       author:    Cheng, J., Almakari, M., Peruzzo, C., Lecampion, B., & Bhat, H. S.
       year:    2025

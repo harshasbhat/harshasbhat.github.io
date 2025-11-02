@@ -1,12 +1,12 @@
 news:
-    - hl: To appear in Science
-      txt: "On how to obtain earthquake properties from a CCTV camera"
+    - hl: Now in Science!
+      txt: "On how to obtain earthquake friction properties from a single CCTV camera"
       closing: ""
-      pdf: 
+      pdf: LatourLebihainBhat2025a.pdf
       readmore: 
       image: pubimages/myanmar.png
       new: true
-      readmore: https://arxiv.org/pdf/2505.15461
+      readmore:
     - hl: New paper submitted digital twin for fault zone
       txt: 
       closing: ""
