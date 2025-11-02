@@ -14,7 +14,11 @@ published: true
 
 
 	<div class="newsimage">
-	<img src="{{site.baseurl}}/images/harsha2.jpg" height="200px" style="border-radius: 50%;" />
+		<img src="{{site.baseurl}}/images/harsha2.jpg" height="200px" style="border-radius: 50%;" />
+	</div>
+
+	<div id="newsbtn">
+		<a href="https://harshasbhat.github.io/about/">BREIF BIOGRAPHY</a>
 	</div>
 
 	<br>
@@ -31,7 +35,9 @@ published: true
 
 	<div class="smallnewstxt">
 	I am a senior <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Research Scientist (Directeur de Recherche) working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 
-	<a href="http://www.ens.fr">Ecole Normale Supérieure</a> and a Professor at <a href="https://portail.polytechnique.edu/lms/en">Laboratoire de Mécanique Solides, Ecole Polytechnique</a>.
+	<a href="http://www.ens.fr">Ecole Normale Supérieure</a> and a Professor at <a href="https://portail.polytechnique.edu/lms/en">Laboratoire de Mécanique Solides, Ecole Polytechnique</a>. 
+	<br> <br>
+	I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology.
 	<br> <br> <br>
 	<a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-3x"></i></a>
 		<a href="https://orcid.org/0000-0003-0361-1854"><i class="ai ai-orcid-square ai-3x"></i></a>
@@ -39,10 +45,7 @@ published: true
 		<a href="https://www.linkedin.com/in/harshasbhat"><i class="ai ai-inspire-square ai-3x"></i></a>		
 	</div>
 
-	<div id="newsbtn">
-		<a href="https://harshasbhat.github.io/about/">READ MORE... </a>
-	</div>
-	<br>
+
 </article>
 
 </div>
