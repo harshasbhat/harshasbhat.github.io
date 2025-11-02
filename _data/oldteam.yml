@@ -3,7 +3,7 @@ postdoc:
       image: navid.jpg
       web: https://kheirdast.github.io
       email:
-      post: ERC Post-Doctoral Fellow
+      post: Postdoc @ Sorbonne
       dates: March 2022
       tweet: NavidKheirdast
       funded: 1 
@@ -11,14 +11,14 @@ postdoc:
       image: michelle.jpg
       web: https://michelle-almakari.github.io/michelle-almakari/
       email:
-      post: ERC Post-Doctoral Fellow
+      post: Postdoc
       dates: January 2021
       funded: 1
     - name: "Ekeabino Momoh"
       image: eke.jpg
       web: https://www.researchgate.net/profile/Ekeabino_Momoh
       email:
-      post: Post-Doctoral Fellow
+      post: AXA Postdoc Fellow @ Toulouse
       dates: February 2019
       tweet: MomohEke
       funded: 0
@@ -34,12 +34,12 @@ postdoc:
     - name: "Lisa Gordeliy"
       image: lisa.jpg
       web: 
-      post: Postdoc École Polytechnique
+      post: Senior Engineer @ ResFrac
     - name: "Carlos D. Villafuerte"
       image: carlos.jpg
       web: https://scholar.google.com.mx/citations?user=7TTyAOwAAAAJ&hl=es
       email:
-      post: ERC Post-Doctoral Fellow
+      post: Asst. Prof @ UNAM Mexico
       dates: September 2021
       tweet: cdvu
       funded: 1      
@@ -48,22 +48,22 @@ phd:
       image: jinhui.jpg
       web: https://jinhuicheng.wixsite.com/my-site
       email:
-      post: PhD Canidate
+      post: Postdoc @ Caltech
       dates: March 2021 - September 2024
       funded: 1
     - name: "Augustin Thomas"
       image: thomas.jpg
       web: https://www.linkedin.com/in/augustin-thomas-60a631112/?originalSubdomain=fr
       email:
-      post: PhD Canidate
+      post: Research Scientist @ BRGM
       dates: October 2020
-      tweet:
+      tweet: 
       funded: 1
     - name: "Joseph M. Flores Cuba"
       image: joseph.jpg
       web: https://jflorescuba.wixsite.com/mysite
       email:
-      post: PhD Canidate (Sorbonne U.)
+      post: Data Analyst/Scientist @ PowerBI
       dates: October 2020
       tweet: Jflorescuba
       funded: 1
@@ -71,7 +71,7 @@ phd:
       image: leo.jpg
       web: https://www.researchgate.net/profile/Leo_Petit
       email:
-      post: PhD Canidate
+      post: Full Stack Developer @ Station F
       dates: October 2019
       funded: 0
     - name: "Michael Mello"
