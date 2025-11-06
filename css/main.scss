@@ -7,7 +7,7 @@
 $font-weight-normal: 400;
 $font-weight-bold:   600;
 $url-bold: 500;
-$base-font-family: "Helvetica";
+$base-font-family: "Roboto", Arial, "Liberation Sans", DejaVu Sans, sans-serif;
 $base-font-size:   13pt;
 $base-line-height: 1.5;
 
@@ -30,10 +30,10 @@ $red:        #b6321c;
 $harvard:   #A41034;
 $white:		#FFFFFF;
 $black:     #000;
-$harvardblue: #baf1f6;
+$harvardblue: #f2f2df;
 $hlyellow: #ffffe6;
 $tsunami: #e5f6ed;
-$menu-font-size:12pt;
+$menu-font-size:15pt;
 
 $background:        $white;
 $dark-background:   darken($background, 5%);
@@ -43,12 +43,12 @@ $url-color:         #3422aa;
 $url-hover-color:   crimson;
 $newsheadingcolor:   #0a2aac;;
 $line-color:        $grey-light;
-$menubackground:    #04168b;
+$menubackground:    $white;
 $watchbtncolor:    #386cc7;
 $newsbtncolor:    #0b48b1;
 $submenubackground: $white;//darken($tsunami, 22%);//lighten($black,15%);
-$menulink: $white;
-$submenulink: $black;
+$menulink: $newsheadingcolor;
+$submenulink: $newsheadingcolor;
 $hlcolor: #7a8080;
 $textcolor2: lighten(#4181BD,0%);
 $cardcolor: $white;
