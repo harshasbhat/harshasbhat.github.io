@@ -6,19 +6,15 @@ published: true
 ---
 
 <div class="archive">
-<article class="article2">
+<article class="article3">
 
-	<div class="smallnewsheading">
-	 Welcome to Harsha S. Bhat's website
-	</div>
-
-
+	<br>
 	<div class="newsimage">
-		<img src="{{site.baseurl}}/images/harsha2.jpg" height="200px" style="border-radius: 50%;" />
+		<img src="{{site.baseurl}}/images/harsha2.jpg" height="320px" style="border-radius: 50%;" />
 	</div>
 
 	<div id="newsbtn">
-		<a href="https://harshasbhat.github.io/about/">BREIF BIOGRAPHY</a>
+		<a href="{{site.baseurl}}/about/">BREIF BIOGRAPHY</a>
 	</div>
 
 	<br>
@@ -27,11 +23,10 @@ published: true
 <article class="article2">
 
 	<div class="smallnewsheading">
-	 
+	 Welcome to Harsha S. Bhat's website
 	</div>
 
-
-	
+	<br>
 
 	<div class="smallnewstxt">
 	I am a senior <a href="http://www.cnrs.fr/index.php/en">CNRS</a> Research Scientist (Directeur de Recherche) working at the <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a> in 

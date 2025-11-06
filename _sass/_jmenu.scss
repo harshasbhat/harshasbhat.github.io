@@ -5,11 +5,7 @@
 
 .jmenu {
   background: $menubackground; /* Dark gray */
-box-shadow: 0 1px 1px rgba(0,0,0,0.01), 
-              0 2px 2px rgba(0,0,0,0.01), 
-              0 4px 4px rgba(0,0,0,0.01), 
-              0 8px 8px rgba(0,0,0,0.01), 
-              0 16px 16px rgba(0,0,0,0.01);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 15px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   box-sizing: border-box;
   line-height: 1;
   position: -webkit-sticky; /* Safari */
@@ -62,6 +58,8 @@ label.jm-menu-btn:hover {
   list-style: none;
   margin: 0px;
   padding: 0px 5px;
+    font-size: $menu-font-size;
+    text-transform: small-caps;
 /*   float: center; */
 }
 
@@ -71,9 +69,8 @@ label.jm-menu-btn:hover {
   display: block;
   padding: 8px 0px;
   text-decoration: none;
-  font-size: $menu-font-size;
   font-weight: 400;
-}
+  font-variant: small-caps; }
 
 .jmenu a:hover {
   text-decoration: none;
