@@ -1,4 +1,12 @@
 news:
+    - hl: Congrats Kurama!
+      txt: 
+      closing: "Kurama bags another award as the EGU Outstanding Early Career Scientist!"
+      image: team/kurama.png
+      pdf: 
+      readmore: 
+      new: true
+      readmore: https://www.egu.eu/news/1551/egu-announces-the-2026-awards-and-medals/
     - hl: Now in Science!
       txt: "On how to obtain earthquake friction properties from a single CCTV camera"
       closing: ""
@@ -189,7 +197,7 @@ news:
 prestigious award given by Comité National Français de Géodésie et
 Géophysique."
       closing: "We are proud of you Kurama!"
-      image: team/kurama.jpg
+      image: team/kurama.png
       url: https://kura-okubo.github.io/
       readmore: http://www.geosciences.ens.fr/prix-de-geophysique-2020/
       watch:
