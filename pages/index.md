@@ -10,7 +10,7 @@ published: true
 
 	<br>
 	<div class="newsimage">
-		<img src="{{site.baseurl}}/images/harsha2.jpg" height="320px" style="border-radius: 50%;" />
+		<img src="{{site.baseurl}}/images/harsha3.jpg" height="280px" style="border-radius: 20%;" />
 	</div>
 
 	<div id="newsbtn">

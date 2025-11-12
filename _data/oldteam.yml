@@ -95,7 +95,7 @@ phd:
       web: https://sites.google.com/view/pierre-romanet/
       post: Postdoc Univ. Tokyo
     - name: "Kurama Okubo"
-      image: kurama.jpg
+      image: kurama.png
       web: https://kura-okubo.github.io
       post: Researcher NIED Japan
     - name: "Marshall A. Rogers-Martinez"
@@ -135,7 +135,7 @@ masters:
       web: https://github.com/tperol
       post: Lead Scientist @gramLabs
     - name: "Kurama Okubo"
-      image: kurama.jpg
+      image: kurama.png
       web: https://kura-okubo.github.io
       post: Researcher NIED Japan
     - name: "Victor Barolle"
