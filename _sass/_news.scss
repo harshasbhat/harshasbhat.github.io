@@ -66,11 +66,11 @@
   .article3 {
   position: relative; // Essential for ribbon positioning
   margin: 0px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 1px;
+  padding-right: 1px;
   align-self: top;
   background-color: $cardcolor; //lighten($grey-light,16%);
-  border-radius: 10px;
+  border-radius: 1px;
   display: flex;
   flex-direction: column;
   justify-content: space-even;
@@ -209,7 +209,7 @@ font-size:   90%;
 text-align: center;
 // font-weight: 300;
 // margin-bottom: 10px;
-padding: 10px;
+padding: 20px;
 // height:150px;
 // background-color: $hlcolor;
 }
