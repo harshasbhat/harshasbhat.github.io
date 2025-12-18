@@ -25,11 +25,8 @@ title:
 
 <div class="pubs">
 	<div class="articles">
-
-    	<!-- {% for image in imgs %}
-		<img src="{{site.baseurl}}/images/pubimages/blank.png" data-echo="{{site.baseurl}}/images/pubimages/{{image}}" class="responsivepubimg1">
-		{% endfor %} -->
-	</div>
+			<img src="{{site.baseurl}}/images/pubimages/{{pub.img}}" class="responsivepubimg">
+	</div>	
 
    <div class="articles">
 

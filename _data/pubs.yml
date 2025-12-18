@@ -30,7 +30,7 @@ publications:
       img: safar.jpg
       Readmore:
     - title:     "Tsunami modeling with dynamic seafloors: a high-order solver validated with shallow water benchmarks"
-      author:    T. Melkior, H. S. Bhat, F. Amlani
+      author:    T. Melkior, H. S. Bhat & F. Amlani
       year:    2025
       journal:    subm. to J. Comp. Phys.
       doi:

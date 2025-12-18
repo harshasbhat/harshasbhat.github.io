@@ -32,7 +32,7 @@ published: true
 	<br> <br>
 	I work mainly at the interface between Earthquake Physics and Solid Mechanics making occasional excursions into Rock Mechanics, Tectonics and Seismology.
 	<br> <br>
-	I obtained my B. E. in Civil Engineering from the National Institute of Technology Karnataka, India my Ph. D. from Harvard University, followed by postdoctoral work at Caltech and the University of Southern California.	
+	I obtained my B. E. in Civil Engineering from the National Institute of Technology Karnataka, India followed by a Ph. D. from Harvard University and then I did postdoctoral work at Caltech and the University of Southern California.	
 	<br><br>
 
 		<a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-3x"></i></a>
