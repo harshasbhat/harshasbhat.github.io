@@ -89,7 +89,7 @@ title:
 <div class="member">
 
 	
-		<img src="{{ base }}/images/team/pierpaolo.jpg" width="125px">
+		<img src="{{ base }}/images/team/pierpaolo.png" width="125px">
 
 		<span style="font-size:90%; font-weight:bold">Pierpaolo Dubernet</span>
 	
