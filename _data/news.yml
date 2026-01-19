@@ -1,4 +1,10 @@
 news:
+    - hl: "Congrats Pierre and Kurama"
+      txt: "Congrats Pierre Romanet and Kurama Okubo for strating their new jobs as permanent researchers at Cerema, France and NIED, Japan, respectively!"
+      closing:
+      image: team/kuramapierre.jpg
+      closing: 
+      new: true
     - hl: Congrats Kurama!
       txt: 
       closing: "Kurama bags another award as the EGU Outstanding Early Career Scientist and starts as a permanent researcher at NIED, Japan!"
@@ -13,7 +19,7 @@ news:
       pdf: LatourLebihainBhat2025a.pdf
       readmore: 
       image: pubimages/myanmar.png
-      new: true
+      new: false
       readmore:
     - hl: New paper submitted digital twin for fault zone
       txt: 
@@ -21,14 +27,14 @@ news:
       pdf:
       readmore: https://arxiv.org/abs/2509.04909
       image: pubimages/safar.jpg
-      new: true
+      new: 
     - hl: New paper submitted on tsunami modeling
       txt: 
       closing: ""
       pdf: MelkiorBhatAmlani2025a.pdf
       readmore: 
       image: pubimages/tsunami.jpg
-      new: true
+      new: 
       readmore: 
     - hl: "New paper accpeted!"
       txt: "New paper on FASTDASH, a simulator for Complex Fault Systems "
