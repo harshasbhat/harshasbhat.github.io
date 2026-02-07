@@ -1,4 +1,0 @@
-    git pull
-    git add .
-    git commit -a -m "website update"
-    git push origin master
