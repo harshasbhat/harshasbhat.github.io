@@ -31,7 +31,7 @@ title:
    <div class="articles">
 
 		{% if pub.pdf %}
-			<a href="{{site.baseurl}}/files/{{pub.pdf}}" style="font-size:100%"><span>{{pub.title}} ({{pub.year}})</span></a>
+			<a href="https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/CollectedPapers/{{pub.type}}/{{pub.pdf}}" style="font-size:100%"><span>{{pub.title}} ({{pub.year}})</span></a>
 		{% else %}
 		    <span><em>{{pub.title}}</em> ({{pub.year}})</span> 
 		{% endif %}
@@ -52,12 +52,6 @@ title:
 
 
 		<div class="pubbuttons">
-
-			<!-- {% if pub.pdf %}
-			<div id="newsbtn">
-				<a href="{{site.baseurl}}/files/{{pub.pdf}}" style="font-size:65%">PDF</a>
-			</div>
-			{% endif %} -->
 
 			<!-- {% if pub.doi %}
 			<div id="newsbtn">
