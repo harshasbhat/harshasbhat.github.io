@@ -1,4 +1,20 @@
 news:
+    - hl: "Solid earth tides and tremors"
+      txt: "Fault resonance as a mechanism to explain solid earth tides and tremors. Congrats Yishuo on your first paper as a Phd student!"
+      closing:
+      image: pubimages/tides.jpg
+      closing: 
+      new: true
+      pdf: ZhouGuptaAochi2026a.pdf
+      type:         article
+      readmore:
+    - hl: Congrats Kurama!
+      txt: 
+      closing: "Kurama bags another award as the EGU Outstanding Early Career Scientist and starts as a permanent researcher at NIED, Japan!"
+      image: team/kurama.png
+      pdf: 
+      readmore: 
+      new: true
     - hl: "Congrats Pierre and Kurama"
       txt: "Congrats Pierre Romanet and Kurama Okubo for strating their new jobs as permanent researchers at Cerema, France and NIED, Japan, respectively!"
       closing:
@@ -17,6 +33,7 @@ news:
       txt: "On how to obtain earthquake friction properties from a single CCTV camera"
       closing: ""
       pdf: LatourLebihainBhat2025a.pdf
+      type:         article
       readmore: 
       image: pubimages/myanmar.png
       new: false
@@ -32,6 +49,7 @@ news:
       txt: 
       closing: ""
       pdf: MelkiorBhatAmlani2025a.pdf
+      type:         article
       readmore: 
       image: pubimages/tsunami.jpg
       new: 
@@ -43,6 +61,7 @@ news:
       readmore: 
       image: pubimages/turkey.gif
       pdf: ChengAlmakariPeruzzo2025a.pdf
+      type:         article
       new:
     - hl: "New paper submitted"
       txt: "New paper on probability of earthquake fault jumps"
@@ -51,6 +70,7 @@ news:
       readmore: 
       image: pubimages/michelprob.jpg
       pdf: MichelScottiHok2025a.pdf
+      type:         article
     - hl: "New paper accepted"
       txt: "New paper on dilatant plasticity in geodynamic models"
       closing: ""
@@ -58,6 +78,7 @@ news:
       readmore: 
       image: pubimages/shearband.jpg
       pdf: MomohBhatTait2025b.pdf
+      type:         article
       insu: 
     - hl: "New paper accepted"
       txt: "New paper on coseismic damage width as a function of depth"
@@ -66,6 +87,7 @@ news:
       readmore: 
       image: pubimages/damagedepth.png 
       pdf: FerryThomasBhat2025b.pdf
+      type:         article
       insu: 
     - hl: "Congrats Jinhui!"
       txt: "Congrats Dr. Jinhui Cheng for successfully defending her thesis on Sep 24, 2024! We are happy for you and ofcourse proud of you. Onwards to your new adventure at Caltech!"
@@ -73,6 +95,7 @@ news:
       image: team/jinhuidefense.jpg
       readmore: 
       pdf: Cheng2024a.pdf
+      type:         phdthesis
     - hl: "Welcome Thomas!"
       txt: "We are very happy to welcome Thomas Melkior who will start his PhD with us and Dr. Faisal Amlani at LMPS in Paris Saclay."
       closing:
@@ -82,6 +105,7 @@ news:
       txt: "Our new paper 'A brittle constitutive law for long-term tectonic modeling based on sub-critical crack growth' is now accepted."
       closing: ""
       pdf: PetitOliveSchubnel2024a.pdf
+      type:         article
       image: pubimages/scam.png
       insu: 
     - hl: "Welcome Yishuo!"
@@ -108,6 +132,7 @@ news:
       txt: "Our new paper 'On the importance of 3D stress state in 2D earthquake rupture simulations with off-fault deformation' is now published. Congrats Louise!"
       closing: ""
       pdf: Jeandet-RibesThomasBhat2023a.pdf
+      type:         article
       image: pubimages/stressstate.jpg
       insu: 
     - hl: "Congratulations Carlos on the new job!"
@@ -119,6 +144,7 @@ news:
       txt: "Our new paper 'Nucleation of Laboratory Earthquakes: Quantitative Analysis and Scalings' is now published. Congrats Samson!"
       closing: ""
       pdf: MartySchubnelBhat2023a.pdf
+      type:         article
       image: pubimages/labquake.jpg
       insu: 
     - hl: "New papers submitted"
@@ -132,6 +158,7 @@ news:
       txt: "How can strike-slip earthquakes generate devastating tsunamis? We address this question in this work. "
       closing: "This work just appeared in Geophys. J. Int."
       pdf: AmlaniBhatSimons2022m.pdf
+      type:         article
       readmore: tsunami/
       image: tsunami/tsunami.gif
       insu: https://www.insu.cnrs.fr/fr/cnrsinfo/un-nouveau-mecanisme-pour-la-generation-de-tsunami
@@ -162,6 +189,7 @@ news:
       image: ssdamage/ssdamage.jpg
       readmore: ssdamage-en
       pdf: JaraBruhatThomas2021d.pdf
+      type:         article
       insu: https://www.insu.cnrs.fr/fr/cnrsinfo/de-nouvelles-preuves-pour-identifier-les-insaisissables-seismes-supershear
     - hl: "Visiting Professor at NISER, India"
       txt: "I am very happy to announce that I have officially accepted the position of visiting Professor at National Institute of Science Education and Research, India."
@@ -173,18 +201,13 @@ news:
       closing:
       image: team/carlos.jpg
       readmore: https://scholar.google.com.mx/citations?user=7TTyAOwAAAAJ&hl=es
-    - hl: "Dominantly Aseismic Nucleation of Laboratory Earthquakes"
-      txt: "Our paper on the nucleation process of laboratory earthquakes will be  re-submitted to the J. Geophys. Res."
-      closing: 
-      image: pubimages/labquake.jpg
-      readmore: 
-      pdf: MartyBhatAubry2021m.pdf
     - hl: "Tsunami Dynamics"
       txt: "Our paper on the link between generic supershear ruptures and tsunamigenesis is now out in the Proc. Natl. Acad. Sci. USA"
       closing: 
       image: pubimages/sstsunami3d.jpg
       readmore: 
       pdf: ElbannaAbdelmeguidMa2021s.pdf
+      type:         article
     - hl: "Welcome to the group Jinhui"
       txt: "We are very happy to welcome Jinhui Cheng to the group. She is starting her PhD with us in March 2021."
       closing:
@@ -198,6 +221,7 @@ news:
       watch: https://youtu.be/WXfIwCO1wa0 
       pdf: Bhat2021a.pdf
       slides: Bhat2021b.pdf
+      type:         phdthesis
     - hl: "Congratulations Kurama"
       txt: "Dr. Kurama Okubo, former member of the group, recently won a
 prestigious award given by Comité National Français de Géodésie et
@@ -222,3 +246,4 @@ finally accepted in Geophysical Research Letters. It was a wild journery from fa
       image: pubimages/erosion.png
       readmore: 
       pdf: Jeandet-RibesCubasBhat2020a.pdf
+      type:         article

@@ -84,7 +84,7 @@ published: true
 	
 		{% if news.pdf %}
 		<div id="newsbtn">
-		<a href="{{site.baseurl}}/files/{{news.pdf}}">PDF</a>
+		<a href="https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/CollectedPapers/{{news.type}}/{{news.pdf}}">PDF</a>
 		</div>
 		{% endif %}
 
@@ -96,7 +96,7 @@ published: true
 
 		{% if news.slides %}
 		<div id="newsbtn">
-		<a href="{{site.baseurl}}/files/{{news.slides}}">SLIDES</a>
+		<a href="https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/CollectedPapers/{{news.type}}/{{news.slides}}">SLIDES</a>
 		</div>
 		{% endif %}
 
