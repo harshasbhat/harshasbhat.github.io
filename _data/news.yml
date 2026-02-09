@@ -5,7 +5,7 @@ news:
       image: pubimages/tides.jpg
       closing: 
       new: true
-      pdf: ZhouGuptaAochi2026a.pdf
+      pdf: 
       type:         article
       readmore: https://arxiv.org/pdf/2602.06703.pdf
     - hl: Congrats Kurama!
