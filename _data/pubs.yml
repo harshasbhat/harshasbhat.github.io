@@ -2,7 +2,7 @@ publications:
     - title:     "Theoretical Constraints on Tidal Triggering of Slow Earthquakes"
       author:    Y. Zhou, A. Gupta, H. Aochi, A. Schubnel, S. Ide & H. S. Bhat
       year:    2026
-      journal:    subm. J. Geophys. Res.
+      journal:    under review in J. Geophys. Res.
       pdf: 		ZhouGuptaAochi2026a.pdf
       doi:		
       pubnum:     	
@@ -15,6 +15,20 @@ publications:
       topics: ""	
       img: tides.jpg
       Readmore: 
+    - title:     "A rate-and-state friction based criterion for the probability of earthquake fault jumps"
+      author:    Michel, S., Scotti, O., Hok, S., Bhat, H. S., Kheirdast, N., Romanet, P., Almakari, M., & Cheng, J. 
+      year:    2026
+      journal:    under review in J. Geophys. Res.
+      doi: 10.48550/arXiv.2501.15948
+      pubnum:     	
+      type:         article
+      booktitle:	""
+      publisher:
+      editor:
+      school:
+      arxiv:  2501.15948 
+      pdf: MichelScottiHok2026a.pdf
+      img: michelprob.jpg
     - title:     "Direct Estimation of Earthquake Source Properties from a Single CCTV Camera"
       author:    S. Latour, M. Lebihain, H. S. Bhat, C. Twardzik, Q. Bletery, K. W. Hudnut, F. Passelègue
       year:    2025
@@ -32,7 +46,7 @@ publications:
     - title:     "Spectrum of slip dynamics, scaling & statistical laws emerge from simplified model of fault and damage zone architecture"
       author:    M. Almakari, N. Kheirdast, C. D. Villafuerte, M. Y. Thomas, P. Dubernet, J. Cheng, A. Gupta, P. Romanet, S. Chaillat & H. S. Bhat
       year:    2025
-      journal:    subm. J. Geophys. Res.
+      journal:    under review in J. Geophys. Res.
       pdf: 		AlmakariKheirdastVillafuerte2025a.pdf
       doi:		
       pubnum:     	
@@ -48,7 +62,7 @@ publications:
     - title:     "Tsunami modeling with dynamic seafloors: a high-order solver validated with shallow water benchmarks"
       author:    T. Melkior, H. S. Bhat & F. Amlani
       year:    2025
-      journal:    subm. to J. Comp. Phys.
+      journal:    under review in to J. Comp. Phys.
       doi:
       pubnum:     	
       type:         article
@@ -73,20 +87,6 @@ publications:
       arxiv:  2505.02398v3 
       pdf: ChengAlmakariPeruzzo2025a.pdf
       img: fastdash.png
-    - title:     "Probability of earthquake fault jumps from physics based criterion"
-      author:    Michel, S., Scotti, O., Hok, S., Bhat, H. S., Kheirdast, N., Romanet, P., Almakari, M., & Cheng, J. 
-      year:    2025
-      journal:    submitted to J. Geophys. Res.
-      doi:
-      pubnum:     	
-      type:         article
-      booktitle:	""
-      publisher:
-      editor:
-      school:
-      arxiv:  2501.15948 
-      pdf: MichelScottiHok2025a.pdf
-      img: michelprob.jpg
     - title:     "Volumetric (dilatant) plasticity in geodynamic models and implications on thermal dissipation and strain localization"
       author:    E. Momoh, H. S. Bhat, S. Tait & M. Gerbault
       year:    2025
