@@ -5,9 +5,9 @@ news:
       image: pubimages/tides.jpg
       closing: 
       new: true
-      pdf: ZhouGuptaAochi2026a.pdf
+      pdf: 
       type:         article
-      readmore:
+      readmore: https://arxiv.org/pdf/2602.06703.pdf
     - hl: Congrats Kurama!
       txt: 
       closing: "Kurama bags another award as the EGU Outstanding Early Career Scientist and starts as a permanent researcher at NIED, Japan!"
