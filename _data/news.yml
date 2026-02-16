@@ -1,4 +1,11 @@
 news:
+    - hl: Revised paper submitted on a digital twin for fault zone
+      txt: A digital twin for fault volume that reproduces braodband slip dynamics, scaling laws and statistics of earthquakes. Just by accouting for fault geometry!
+      closing: ""
+      pdf:
+      readmore: https://arxiv.org/pdf/2509.04909.pdf
+      image: pubimages/safar2.jpg
+      new: true
     - hl: "Solid earth tides and tremors"
       txt: "Fault resonance as a mechanism to explain solid earth tides and tremors. Congrats Yishuo on your first paper as a Phd student!"
       closing:
@@ -37,14 +44,7 @@ news:
       readmore: 
       image: pubimages/myanmar.png
       new: false
-      readmore:
-    - hl: New paper submitted digital twin for fault zone
-      txt: 
-      closing: ""
-      pdf:
-      readmore: https://arxiv.org/abs/2509.04909
-      image: pubimages/safar.jpg
-      new: 
+      readmore: 
     - hl: New paper submitted on tsunami modeling
       txt: 
       closing: ""
