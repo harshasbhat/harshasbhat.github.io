@@ -67,10 +67,10 @@ published: true
 		<div class="newsimage">
 			{% if news.url %}
 			<a href="{{news.url}}">
-				<img src="{{site.baseurl}}/images/{{news.image}}" height="230px" />
+				<img src="{{site.baseurl}}/images/{{news.image}}" style="height: 230px; width: auto;" />
 			</a>
 			{% else %}
-				<img src="{{site.baseurl}}/images/{{news.image}}" height="230px" />
+				<img src="{{site.baseurl}}/images/{{news.image}}" style="height: 230px; width: auto;" />
 			{% endif %}
 		</div>
 	{% endif %}

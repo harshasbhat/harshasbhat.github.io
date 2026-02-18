@@ -1,4 +1,12 @@
 news:
+    - hl: New paper submitted on 3D geometrical complexities and slip dynamics
+      txt: Slow and fast earthquakes emerge due to fault geometrical complexity. 
+      closing: ""
+      pdf: ChengBhatAlmakari2026a.pdf
+      readmore: 
+      image: pubimages/stepover.jpg
+      new: true
+      type:         article
     - hl: Revised paper submitted on a digital twin for fault zone
       txt: A digital twin for fault volume that reproduces braodband slip dynamics, scaling laws and statistics of earthquakes. Just by accouting for fault geometry!
       closing: ""
@@ -15,26 +23,19 @@ news:
       pdf: 
       type:         article
       readmore: https://arxiv.org/pdf/2602.06703.pdf
-    - hl: Congrats Kurama!
-      txt: 
-      closing: "Kurama bags another award as the EGU Outstanding Early Career Scientist and starts as a permanent researcher at NIED, Japan!"
-      image: team/kurama.png
-      pdf: 
-      readmore: 
-      new: true
     - hl: "Congrats Pierre and Kurama"
       txt: "Congrats Pierre Romanet and Kurama Okubo for strating their new jobs as permanent researchers at Cerema, France and NIED, Japan, respectively!"
       closing:
       image: team/kuramapierre.jpg
       closing: 
-      new: true
+      new: 
     - hl: Congrats Kurama!
       txt: 
       closing: "Kurama bags another award as the EGU Outstanding Early Career Scientist and starts as a permanent researcher at NIED, Japan!"
       image: team/kurama.png
       pdf: 
       readmore: 
-      new: true
+      new: 
       readmore: https://www.egu.eu/news/1551/egu-announces-the-2026-awards-and-medals/
     - hl: Now in Science!
       txt: "On how to obtain earthquake friction properties from a single CCTV camera"

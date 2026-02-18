@@ -1,4 +1,20 @@
 publications:
+    - title:     "Quantifying the Role of 3D Fault Geometry Complexities on Slow and Fast Earthquakes"
+      author:    J. Cheng, H. S. Bhat, M. Almakari, B. Lecampion & P. Dubernet
+      year:    2026
+      journal:    subm. Geophys. Res. Lett.
+      pdf: 		ChengBhatAlmakari2026a.pdf
+      doi:		
+      pubnum:     	
+      type:         article  
+      booktitle:	""
+      publisher:	
+      editor:   
+      school:	
+      arxiv: 	
+      topics: 
+      img: stepover.jpg
+      Readmore: 
     - title:     "Fault volume digital twin to reproduce the full slip spectrum, scaling and statistical laws"
       author:    M. Almakari, N. Kheirdast, C. D. Villafuerte, M. Y. Thomas, P. Dubernet, J. Cheng, A. Gupta, P. Romanet, S. Chaillat & H. S. Bhat
       year:    2026
