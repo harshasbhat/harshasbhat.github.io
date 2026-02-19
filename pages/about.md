@@ -42,7 +42,9 @@ title:
 	I have been awarded 
 	the <a href="http://www.academie-sciences.fr/fr/Laureats/laureat-2018-du-prix-michel-gouilloud-schlumberger-harsha-suresh-bhat.html">Prix Michel Gouilloud Schlumberger</a> from the <a href="http://www.academie-sciences.fr/fr/">Academié des Sciences</a>. 
 	You can watch the ceremony <a href="https://www.youtube.com/watch?v=OVaenZ39o_c&amp;t=2s&amp;frags=pl%2Cwn">here.</a> I was also awarded an 
-	<a href="https://cordis.europa.eu/project/id/865411">European Research Council Consolidator Grant</a> for the amount of 2.0M€ for my project PERSISMO.
+	<a href="https://cordis.europa.eu/project/id/865411">European Research Council Consolidator Grant</a> for the amount of 2.0M€ for my project PERSISMO. 
+	<br><br>
+	<a href="https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/CollectedPapers/bib.html">See my library</a>
 	
 	</div>
 	

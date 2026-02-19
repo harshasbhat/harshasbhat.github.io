@@ -12,8 +12,6 @@ _site
 **/*.log
 **/*.xml
 *.lock
-files/CV/*.aux
 .jekyll-cache
 .codegpt
 .jekyll-cache/*
-CV
