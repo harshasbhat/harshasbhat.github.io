@@ -92,9 +92,8 @@ Mécanique du Milieu continus · Mécanique des Solides · Mécanique de la Rupt
 
 # STUDENTS
 
-## Postdoctoral Associates
 
-| Name | Period | Current Position |
+| Postdoctoral Associates |  | Current Position |
 |:---|:---|:---|
 | [Ankit Gupta (India)]{.current} | 2024–2026 | |
 | [Suli Yao (China)]{.current} | 2025–2027 | |
@@ -106,9 +105,8 @@ Mécanique du Milieu continus · Mécanique des Solides · Mécanique de la Rupt
 | Lisa Gordeliy (Russia) | 2019–2019 | Senior Engineer ResFrac |
 | Marion Y. Thomas (France) | 2014–2016 | CNRS Scientist at Université de Rennes |
 
-## PhD Students
 
-| Name | Period | Current Position |
+| PhD Students | | Current Position |
 |:---|:---|:---|
 | [Bharath Shanmugasundaram (India)]{.current} | 2024–2027 | |
 | [Yishuo Zhou (China)]{.current} | 2024–2027 | |
@@ -127,8 +125,8 @@ Mécanique du Milieu continus · Mécanique des Solides · Mécanique de la Rupt
 | Jonathan Mihaly (USA) | 2008–2013 | Jet Propulsion Laboratory |
 | Michael Mello (USA) | 2007–2012 | Teaching Professor at Caltech |
 
-## Undergraduate and Masters Interns
-
+| Undergraduate and Masters Interns | |  |
+|:---|:---|:---|
 Valentin Marnat (2022) · Roxane Ferry (2021) · Jinhui Cheng (2020) · Phillipe Danre (2019) · Roxane Ferry (2019) · Hugo Lestrelin (2019) · Nicolas Mercury (2018) · Luc Illien (2018) · Phillipe Danre (2017) · Eleni Kolokytha (2015) · Victor Barolle (2015) · Kurama Okubo (2014) · Thibaut Perol (2013) · Lucile Bruhat (2012) · Marion Olives (2004) · Sonia Fliss (2003)
 
 # PAST TEACHING ACTIVITIES†
@@ -151,6 +149,7 @@ Mécanique des Milieux Continus · Active Faults: Geometry · Seismic Ruptures a
 - 2018–2024: Team Leader of Faults & Earthquakes Group, ENS
 - 2018–2019: Co-organizer of the Internal Seminar, ENS
 - 2025: Member HCERES committee for ISterre, Univ. Grenoble
+- 2025 onwards: Member AGU Jason Morgan Award Jury
 
 # REVIEWING ACTIVITIES
 
