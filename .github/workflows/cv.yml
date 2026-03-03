@@ -22,6 +22,7 @@ jobs:
             --citeproc \
             --from markdown+native_spans \
             --css pages/cv/cv.css \
+            --csl pages/cv/author-year.csl \
             --lua-filter pages/cv/letterhead.lua \
             --lua-filter pages/cv/refs-by-type.lua \
             --lua-filter pages/cv/reorder-refs.lua \
