@@ -2,15 +2,10 @@
   format-refs.lua
   Inside every .csl-entry div (produced by --citeproc):
     - Bolds "Bhat" surname token wherever it appears
-    - Makes the article/book title (the Emph block) bold+italic
-    - Colors the journal name in Harvard crimson (#C90016)
-
-  Journal name detection:
-    The journal name is the text run between (title Emph + ". ") and
-    the first token that contains ":" (volume:page) or a Link (DOI).
-    It ends at the last comma-terminated token before volume:page.
-    If no volume:page exists (under-review entries), collect until Link or end.
-    Books ("in ...") and book publishers are not colored.
+    - Renders title in bold+italic
+    - Colors journal name in Harvard crimson (#C90016)
+    - Drops volume:page tokens (e.g. "126:1-20.")
+    - Ensures a space before the DOI link
 ]]
 
 local harvard = "#C90016"
@@ -41,7 +36,7 @@ local function process_inlines(inlines)
 
     elseif state == "authors" then
       if el.t == "Emph" then
-        -- Bold+italic the title
+        -- Bold+italic title
         table.insert(result, raw("<strong><em>"))
         for _, child in ipairs(el.content) do
           if child.t == "Str" then
@@ -67,14 +62,15 @@ local function process_inlines(inlines)
       if el.t == "Str" then
         local t = el.text
         if t == "in" then
-          -- Book chapter — no journal coloring
+          table.insert(result, el)
+          state = "done"
+        elseif t:sub(-1) == "." and t ~= "Int." and not t:match("^[A-Z]") then
+          -- Publisher (e.g. "Wiley.") — don't color
           table.insert(result, el)
           state = "done"
         else
-          -- Start accumulating journal name
           table.insert(journal_words, t)
           if t:sub(-1) == "," then
-            -- Single-word journal ending in comma (e.g. "Nature,")
             flush_journal()
             state = "done"
           else
@@ -90,26 +86,25 @@ local function process_inlines(inlines)
       if el.t == "Str" then
         local t = el.text
         if t:find(":") then
-          -- volume:page — flush journal accumulated so far (strip trailing comma if any)
+          -- volume:page token — flush journal, DROP this token
           flush_journal()
-          table.insert(result, el)
+          -- remove trailing space before vol:page
+          if result[#result] and result[#result].t == "Space" then
+            table.remove(result)
+          end
           state = "done"
         elseif t:sub(-1) == "," then
-          -- Last word of journal name ends with comma
           table.insert(journal_words, t)
           flush_journal()
           state = "done"
         else
-          -- Could be mid-journal word (e.g. "J.", "Geophys.", "Res.")
-          -- or a publisher. Keep accumulating.
           table.insert(journal_words, t)
         end
       elseif el.t == "Space" then
         -- absorbed into journal_words join
 
       elseif el.t == "Link" then
-        -- DOI link reached with no volume:page — under-review entry.
-        -- Flush whatever we have as journal (strip trailing period if present).
+        -- DOI with no volume:page (under-review)
         if #journal_words > 0 then
           local last = journal_words[#journal_words]
           if last:sub(-1) == "." then
@@ -117,6 +112,10 @@ local function process_inlines(inlines)
           end
         end
         flush_journal()
+        -- ensure space before link
+        if result[#result] and result[#result].t ~= "Space" then
+          table.insert(result, pandoc.Space())
+        end
         table.insert(result, el)
         state = "done"
       else
@@ -126,7 +125,20 @@ local function process_inlines(inlines)
       end
 
     else -- done
-      table.insert(result, el)
+      if el.t == "Str" and el.text:find(":") then
+        -- Drop any remaining vol:page tokens
+        if result[#result] and result[#result].t == "Space" then
+          table.remove(result)
+        end
+      elseif el.t == "Link" then
+        -- Ensure space before DOI link
+        if result[#result] and result[#result].t ~= "Space" then
+          table.insert(result, pandoc.Space())
+        end
+        table.insert(result, el)
+      else
+        table.insert(result, el)
+      end
     end
 
   end
