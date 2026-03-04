@@ -35,7 +35,7 @@ jobs:
             --lua-filter pages/cv/year-headers.lua \
             --lua-filter pages/cv/format-refs.lua 
 
-          chromium-browser --headless --disable-gpu \
+          chromium-browser --headless --disable-gpu  --no-sandbox \
             --print-to-pdf=pages/cv/cv.pdf \
             --no-margins \
             --virtual-time-budget=5000 \
