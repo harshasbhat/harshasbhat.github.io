@@ -14,9 +14,8 @@ PANDOC_FLAGS = \
   --bibliography $(BIB) \
   --lua-filter $(CV_DIR)/letterhead.lua \
   --lua-filter $(CV_DIR)/refs-by-type.lua \
-  --lua-filter $(CV_DIR)/reorder-refs.lua \
+  --lua-filter $(CV_DIR)/year-headers.lua \
   --lua-filter $(CV_DIR)/format-refs.lua \
-  --lua-filter $(CV_DIR)/nolinks-refs.lua
 
 CHROME = /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
 

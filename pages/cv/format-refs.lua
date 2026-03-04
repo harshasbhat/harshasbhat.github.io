@@ -1,7 +1,7 @@
 --[[
   format-refs.lua
   Inside every .csl-entry div (produced by --citeproc):
-    - Bolds "Bhat" surname token wherever it appears
+    - Bolds and underlines "Bhat, H. S." wherever it appears
     - Renders title in bold+italic
     - Colors journal name in Harvard crimson (#C90016)
     - Drops volume:page tokens (e.g. "126:1-20.")
@@ -18,25 +18,43 @@ local function process_inlines(inlines)
   local result = {}
   local state = "authors"
   local journal_words = {}
+  local bhat_state = nil   -- nil | "bhat" | "H"
+  local bhat_tokens = {}   -- accumulate raw tokens for possible rollback
+  local suffix = ""        -- trailing comma after "S." if any
 
   local function flush_journal()
     if #journal_words > 0 then
       local text = table.concat(journal_words, " ")
       table.insert(result,
-        raw('<span style="color:' .. harvard .. '">' .. text .. '</span>'))
+        raw('<strong><span style="color:' .. harvard .. '">' .. text .. '</span></strong>'))
       journal_words = {}
     end
   end
 
-  for _, el in ipairs(inlines) do
+  local function flush_bhat_plain()
+    for _, t in ipairs(bhat_tokens) do
+      table.insert(result, t)
+    end
+    bhat_state = nil
+    bhat_tokens = {}
+    suffix = ""
+  end
 
-    -- Bold Bhat anywhere
-    if el.t == "Str" and el.text:match("^Bhat,[,.]?$") then
-      table.insert(result, raw("<strong>" .. el.text .. "</strong>"))
+  local function emit_bhat()
+    -- Emit bold+underline span, then trailing comma if present
+    table.insert(result, raw('<strong style="text-decoration:underline;">Bhat, H. S.</strong>'))
+    if suffix ~= "" then
+      table.insert(result, raw(suffix))
+    end
+    bhat_state = nil
+    bhat_tokens = {}
+    suffix = ""
+  end
 
-    elseif state == "authors" then
+  -- Process each token through the main state machine
+  local function process_main(el)
+    if state == "authors" then
       if el.t == "Emph" then
-        -- Bold+italic title
         table.insert(result, raw("<strong><em>"))
         for _, child in ipairs(el.content) do
           if child.t == "Str" then
@@ -54,7 +72,6 @@ local function process_inlines(inlines)
       end
 
     elseif state == "post_emph" then
-      -- Absorb ". " after title before journal name starts
       table.insert(result, el)
       if el.t == "Space" then state = "maybe_journal" end
 
@@ -65,7 +82,6 @@ local function process_inlines(inlines)
           table.insert(result, el)
           state = "done"
         elseif t:sub(-1) == "." and t ~= "Int." and not t:match("^[A-Z]") then
-          -- Publisher (e.g. "Wiley.") — don't color
           table.insert(result, el)
           state = "done"
         else
@@ -86,9 +102,7 @@ local function process_inlines(inlines)
       if el.t == "Str" then
         local t = el.text
         if t:find(":") then
-          -- volume:page token — flush journal, DROP this token
           flush_journal()
-          -- remove trailing space before vol:page
           if result[#result] and result[#result].t == "Space" then
             table.remove(result)
           end
@@ -101,10 +115,8 @@ local function process_inlines(inlines)
           table.insert(journal_words, t)
         end
       elseif el.t == "Space" then
-        -- absorbed into journal_words join
-
+        -- absorbed
       elseif el.t == "Link" then
-        -- DOI with no volume:page (under-review)
         if #journal_words > 0 then
           local last = journal_words[#journal_words]
           if last:sub(-1) == "." then
@@ -112,7 +124,6 @@ local function process_inlines(inlines)
           end
         end
         flush_journal()
-        -- ensure space before link
         if result[#result] and result[#result].t ~= "Space" then
           table.insert(result, pandoc.Space())
         end
@@ -126,12 +137,10 @@ local function process_inlines(inlines)
 
     else -- done
       if el.t == "Str" and el.text:find(":") then
-        -- Drop any remaining vol:page tokens
         if result[#result] and result[#result].t == "Space" then
           table.remove(result)
         end
       elseif el.t == "Link" then
-        -- Ensure space before DOI link
         if result[#result] and result[#result].t ~= "Space" then
           table.insert(result, pandoc.Space())
         end
@@ -140,8 +149,48 @@ local function process_inlines(inlines)
         table.insert(result, el)
       end
     end
+  end
+
+  for _, el in ipairs(inlines) do
+
+    -- ── Bhat, H. S. detection ─────────────────────────────────
+    if bhat_state == nil then
+      if el.t == "Str" and el.text == "Bhat," then
+        bhat_state = "bhat"
+        bhat_tokens = {el}
+      else
+        process_main(el)
+      end
+
+    elseif bhat_state == "bhat" then
+      if el.t == "Space" then
+        table.insert(bhat_tokens, el)
+      elseif el.t == "Str" and el.text == "H." then
+        bhat_state = "H"
+        table.insert(bhat_tokens, el)
+      else
+        -- not a match
+        flush_bhat_plain()
+        process_main(el)
+      end
+
+    elseif bhat_state == "H" then
+      if el.t == "Space" then
+        table.insert(bhat_tokens, el)
+      elseif el.t == "Str" and (el.text == "S." or el.text == "S.,") then
+        -- Full match — "S." (last author) or "S.," (mid-list)
+        suffix = el.text == "S.," and "," or ""
+        emit_bhat()
+      else
+        flush_bhat_plain()
+        process_main(el)
+      end
+    end
 
   end
+
+  -- Flush any dangling bhat tokens
+  if bhat_state then flush_bhat_plain() end
 
   flush_journal()
   return result

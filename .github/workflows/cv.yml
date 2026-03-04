@@ -32,9 +32,8 @@ jobs:
             --bibliography /tmp/MasterBibliography.bib \
             --lua-filter pages/cv/letterhead.lua \
             --lua-filter pages/cv/refs-by-type.lua \
-            --lua-filter pages/cv/reorder-refs.lua \
-            --lua-filter pages/cv/format-refs.lua \
-            --lua-filter pages/cv/nolinks-refs.lua
+            --lua-filter pages/cv/year-headers.lua \
+            --lua-filter pages/cv/format-refs.lua 
 
           chromium-browser --headless --disable-gpu \
             --print-to-pdf=pages/cv/cv.pdf \
