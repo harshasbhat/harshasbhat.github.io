@@ -1,39 +1,19 @@
 /*
  * cv.css  —  Harsha S. Bhat Curriculum Vitae
- *
- * Replicates the LaTeX driver.tex style:
- *   - groy blue  rgb(0.02, 0.435, 0.698) → #057AB2  for section headings
- *   - MyGray     rgb(0.65, 0.65, 0.65)   → #a6a6a6  for sub-section headings
- *   - Times-like serif body font
- *   - Section headings bold + uppercase, left-rule underline
- *   - Content indented 1em under headings  (\subtitlea addmargin)
- *   - .current class  → groy blue  (current students/postdocs)
- *   - ▶ triangle used directly in Markdown text
- *
- * USAGE (Pandoc):
- *   pandoc cv.md -o cv.html \
-  --standalone --embed-resources \
-  --citeproc \
-  --from markdown+native_spans \
-  --css cv.css \
-  --lua-filter letterhead.lua \
-  --lua-filter refs-by-type.lua \
-  --lua-filter reorder-refs.lua \
-  --lua-filter format-refs.lua \
-  --lua-filter nolinks-refs.lua
-  
+ */
+
 /* ── Fonts ──────────────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
 
 /* ── Variables (LaTeX palette) ──────────────────────────────── */
 :root {
-  --groy:       #057AB2;   /* rgb(0.02, 0.435, 0.698) */
-  --my-gray:    #565454;   /* rgb(0.65, 0.65, 0.65)   */
+  --groy:       #057AB2;
+  --my-gray:    #a6a6a6;
   --body-color: #1a1a1a;
   --page-width: 820px;
   --indent:     1.25em;
   --font:       'EB Garamond', 'Times New Roman', Times, serif;
-  --size:       12pt;
+  --size:       11pt;
   --lh:         1.5;
 }
 
@@ -51,7 +31,7 @@ body {
   padding:      1.5cm 2cm 2.5cm;
 }
 
-/* ── Title block (Pandoc generates from YAML front-matter) ──── */
+/* ── Title block ────────────────────────────────────────────── */
 header, .title-block {
   text-align:    center;
   border-bottom: 0.8pt solid var(--groy);
@@ -82,7 +62,7 @@ header .date, p.date {
   margin-top: 2pt;
 }
 
-/* ── H1 — \subtitlea / \subtitle  (SECTION TITLES) ─────────── */
+/* ── H1 — SECTION TITLES ────────────────────────────────────── */
 h1 {
   font-family:    var(--font);
   font-size:      var(--size);
@@ -96,138 +76,78 @@ h1 {
   padding-bottom: 0;
 }
 
-/* Everything that directly follows an H1 gets the \addmargin indent */
-h1 + *,
-h1 + table,
-h1 + ul,
-h1 + ol,
-h1 + p {
-  margin-left: var(--indent);
-}
+h1 + *, h1 + table, h1 + ul, h1 + ol, h1 + p { margin-left: var(--indent); }
+h1 ~ p, h1 ~ table, h1 ~ ul, h1 ~ ol         { margin-left: var(--indent); }
+h1 ~ h1 ~ p, h1 ~ h1 ~ table,
+h1 ~ h1 ~ ul, h1 ~ h1 ~ ol                   { margin-left: var(--indent); }
 
-/* Subsequent siblings within the same section stay indented.
-   We do this via a wrapper trick; in plain Pandoc output we
-   target the common case where p/table/ul follow directly. */
-h1 ~ p,
-h1 ~ table,
-h1 ~ ul,
-h1 ~ ol {
-  margin-left: var(--indent);
-}
-
-/* Reset indent when a new heading arrives */
-h1 ~ h1 ~ p,
-h1 ~ h1 ~ table,
-h1 ~ h1 ~ ul,
-h1 ~ h1 ~ ol {
-  margin-left: var(--indent);
-}
-
-/* ── H2 — \subsubtitle  (gray italic sub-headings) ─────────── */
+/* ── H2 — gray italic sub-headings ─────────────────────────── */
 h2 {
-  font-family:  var(--font);
-  font-size:    11.5pt;
-  font-weight:  700;
-  font-style:   bold;
-  color:        var(--my-gray);
+  font-family:    var(--font);
+  font-size:      10.5pt;
+  font-weight:    400;
+  font-style:     italic;
+  color:          var(--my-gray);
   text-transform: none;
   letter-spacing: 0;
-  margin-top:   10pt;
-  margin-bottom: 2pt;
-  border:       none;
-  padding:      0;
-  text-align:    left;
-  /* H2 also indented under its parent H1 */
-  margin-left:  var(--indent);
+  margin-top:     10pt;
+  margin-bottom:  2pt;
+  border:         none;
+  padding:        0;
+  margin-left:    var(--indent);
 }
 
-h2 + table,
-h2 + ul,
-h2 + ol,
-h2 + p {
-  margin-left: var(--indent);
-}
+h2 + table, h2 + ul, h2 + ol, h2 + p { margin-left: var(--indent); }
 
 /* ── Paragraphs ─────────────────────────────────────────────── */
-p {
-  margin-bottom: 6pt;
-  margin-top:    0;
-}
+p { margin-bottom: 6pt; margin-top: 0; }
 
 /* ── Tables ─────────────────────────────────────────────────── */
 table {
   border-collapse: collapse;
-  width:           auto;       /* shrink-wrap to content, no forced stretching */
+  width:           auto;
   font-size:       var(--size);
   margin-bottom:   6pt;
 }
 
-/* No visible borders — clean LaTeX tabular look */
-thead tr {
-  border-bottom: 0.5pt solid #ccc;
-}
+thead tr { border-bottom: 0.5pt solid #ccc; }
 
 th {
-  font-weight:    600;
-  text-align:     left;
-  padding:        2pt 8pt 2pt 0;
-  font-style:     normal;
-  white-space:    nowrap;      /* never wrap header cells */
+  font-weight:  600;
+  text-align:   left;
+  padding:      2pt 8pt 2pt 0;
+  font-style:   normal;
+  white-space:  nowrap;
 }
 
 td {
   padding:        1.5pt 8pt 1.5pt 0;
   vertical-align: top;
-  white-space:    nowrap;      /* never wrap any cell */
+  white-space:    nowrap;
 }
 
-/* First column: italic institution/name (matches LaTeX \it) */
-td:first-child, th:first-child {
-  font-style: italic;
-}
+td:first-child, th:first-child { font-style: italic; }
 
-/* Right-align last column (year column) when it's the 4th */
 table.education td:last-child,
-table.education th:last-child {
-  text-align: right;
-}
+table.education th:last-child  { text-align: right; }
 
 /* ── Lists ──────────────────────────────────────────────────── */
-ul {
-  list-style:  none;
-  padding-left: 0;
-  margin-bottom: 6pt;
-}
+ul { list-style: none; padding-left: 0; margin-bottom: 6pt; }
 
 ul li {
-  position:    relative;
+  position:     relative;
   padding-left: 1.2em;
   margin-bottom: 3pt;
 }
 
-ul li::before {
-  content:  '•';
-  position: absolute;
-  left:     0;
-  color:    var(--body-color);
-}
+ul li::before { content: '•'; position: absolute; left: 0; color: var(--body-color); }
 
-ol {
-  padding-left: 2.2em;
-  margin-bottom: 6pt;
-}
+ol { padding-left: 2.2em; margin-bottom: 6pt; }
+ol li { margin-bottom: 2pt; font-style: italic; }
 
-ol li {
-  margin-bottom: 2pt;
-  font-style:    italic;    /* matches \textit{\arabic*)} */
-}
+/* ── Spans ───────────────────────────────────────────────────── */
+.current { color: var(--groy); }
 
-/* ── .current — active students/postdocs in groy blue ───────── */
-.current {
-  color: var(--groy);
-}
-
-/* ── .footnote — small italic right-aligned notes ───────────── */
 .footnote, em.footnote {
   display:    block;
   font-size:  8.5pt;
@@ -237,190 +157,95 @@ ol li {
   margin-top: 2pt;
 }
 
-/* ── ▶ triangle character styling ───────────────────────────── */
-/* The ▶ is used inline in text; make it small & vertically centered */
-body {
-  /* nothing special needed; the character inherits body color */
-}
-
-/* ── Horizontal rule ─────────────────────────────────────────── */
-hr {
-  border:        none;
-  border-top:    0.5pt solid #ccc;
-  margin:        12pt 0;
-}
+/* ── HR ──────────────────────────────────────────────────────── */
+hr { border: none; border-top: 0.5pt solid #ccc; margin: 12pt 0; }
 
 /* ── Links ───────────────────────────────────────────────────── */
-a {
-  color:           inherit;
-  text-decoration: none;
-}
-a:hover {
-  color:           var(--groy);
-  text-decoration: underline;
-}
+a { color: inherit; text-decoration: none; }
+a:hover { color: var(--groy); text-decoration: underline; }
 
 /* ── Print / PDF ─────────────────────────────────────────────── */
-@page {
-  size:   A4;
-  margin: 1.5cm 2cm 2cm 2cm;
-}
-
 @media print {
+  @page {
+    size:          A4;
+    margin-top:    0;
+    margin-bottom: 0;
+    margin-left:   0;
+    margin-right:  0;
+  }
+
   body {
     font-size: 10pt;
     max-width: 100%;
-    padding:   0;
+    padding:   2.2cm 1.6cm;
+    margin:    0 auto;
   }
 
   h1 { page-break-after: avoid; }
   h2 { page-break-after: avoid; }
 
-  /* Allow large tables (students, publications) to break across pages.
-     Only keep avoid on small structural elements. */
-  ul, ol, p {
-    page-break-inside: avoid;
-  }
+  ul, ol, p { page-break-inside: avoid; }
 
-  /* Tables are allowed to break — browser forced a blank page before
-     large tables when avoid was set */
-  table {
-    page-break-inside: auto;
-  }
+  table { page-break-inside: auto; }
 
-  /* Each table row should not itself break mid-row */
   tr {
     page-break-inside: avoid;
-    break-inside: avoid;
+    break-inside:      avoid;
   }
 
   a { color: inherit; }
 }
 
-/* ── Bibliography (citeproc output) ─────────────────────────────
- *
- * Pandoc --citeproc wraps each entry in <div class="csl-entry">
- * inside a <div id="refs"> (or your named div).
- * The structure mirrors the LaTeX biblatex authoryear style.
- */
-
-/* Container */
+/* ── Bibliography ────────────────────────────────────────────── */
 #refs, #refs-books, #refs-chapters {
   margin-left: var(--indent);
   margin-top:  4pt;
 }
 
-/* Individual entry — hanging indent like LaTeX \bibitem */
 .csl-entry {
-  font-size:       var(--size);
-  line-height:     var(--lh);
-  padding-left:    2em;
-  text-indent:     -2em;
-  margin-bottom:   6pt;
+  font-size:     var(--size);
+  line-height:   var(--lh);
+  padding-left:  2em;
+  text-indent:   -2em;
+  margin-bottom: 6pt;
 }
 
-/* Author names: Pandoc citeproc wraps them in no special tag,
-   but your name "Bhat" will be bolded by the CSL if you use a
-   CSL that supports bold-author (see note in Pandoc command below).
-   As a fallback, you can target it via JS or a custom CSL.       */
+.csl-entry em { font-style: italic; color: var(--body-color); }
 
-/* Journal / book title: citeproc wraps in <i> for titles,
-   and uses plain text for journal names.
-   We color <i> inside .csl-entry to mimic \textcolor{groy}.      */
-.csl-entry em {
-  font-style: italic;
-  color:      var(--body-color);   /* article/book titles: black italic */
-}
+.csl-entry a { color: var(--groy); word-break: break-all; }
+.csl-entry a:hover { text-decoration: underline; }
 
-/* Journal names come after the title as plain text — we can't
-   target them directly without a custom CSL, but the groy color
-   is applied via the CSL (see note in Pandoc command).            */
-
-/* DOI links inside bibliography */
-.csl-entry a {
-  color:           var(--groy);
-  word-break:      break-all;
-}
-.csl-entry a:hover {
-  text-decoration: underline;
-}
-
-/* Left border accent on hover — nice UX touch */
 .csl-entry:hover {
   border-left:  2px solid var(--groy);
   padding-left: calc(2em - 2px);
 }
 
 /* ── Responsive ─────────────────────────────────────────────── */
-
-/* Tablet */
 @media (max-width: 860px) {
-  body {
-    padding: 1cm 1.2cm 2cm;
-  }
+  body { padding: 1cm 1.2cm 2cm; }
 }
 
-/* Mobile */
 @media (max-width: 600px) {
-  :root {
-    --size:  10pt;
-    --indent: 0.75em;
-  }
-
-  body {
-    padding: 0.8cm 0.8cm 1.5cm;
-  }
-
-  /* Tables scroll horizontally rather than overflowing */
-  table {
-    display:    block;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  /* Section titles slightly smaller */
-  h1 {
-    font-size: 9.5pt;
-    letter-spacing: 0.04em;
-  }
+  :root { --size: 10pt; --indent: 0.75em; }
+  body  { padding: 0.8cm 0.8cm 1.5cm; }
+  table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  h1    { font-size: 9.5pt; letter-spacing: 0.04em; }
 }
 
-/* ── Letterhead ─────────────────────────────────────────────────
- *
- * When a letterhead image is provided (via --variable letterhead-image=PATH
- * in the Pandoc command, or set in the YAML header), it replaces the
- * default text title block entirely.
- *
- * To use your combinedlogoEN image, run Pandoc with:
- *   --variable letterhead-image="/path/to/combinedlogoEN.png"
- * or set letterhead-image in the YAML front matter.
- *
- * The .letterhead div is injected by the letterhead.lua filter.
- */
-
+/* ── Letterhead ─────────────────────────────────────────────── */
 .letterhead {
-  width:         100%;
-  margin-bottom: 12pt;
-  border-bottom: 0.5pt solid #ccc;
-  padding-bottom: 8pt;
+  width:          100%;
+  margin-bottom:  12pt;
 }
 
-.letterhead img {
-  width:     100%;
-  height:    auto;
-  display:   block;
-}
+.letterhead img { width: 100%; height: auto; display: block; }
 
-/* Hide the default Pandoc title block when letterhead image is present */
 .with-letterhead header,
-.with-letterhead .title-block {
-  display: none;
-}
+.with-letterhead .title-block { display: none; }
 
-/* Text fallback header (shown when no image is set) */
 .cv-text-header {
-  text-align:    center;
-  border-bottom: 0.5pt solid var(--groy);
+  text-align:     center;
+  border-bottom:  0.5pt solid var(--groy);
   padding-bottom: 10pt;
   margin-bottom:  14pt;
 }
@@ -433,31 +258,16 @@ a:hover {
   display:        block;
 }
 
-.cv-text-header .cv-titles {
-  font-size:   9.5pt;
-  font-style:  italic;
-  color:       #444;
-  margin-top:  3pt;
-}
-
-.cv-text-header .cv-address {
-  font-size:  9pt;
-  color:      #666;
-  margin-top: 3pt;
-}
-
-.cv-text-header .cv-web {
-  font-size:  9pt;
-  color:      var(--groy);
-  margin-top: 2pt;
-}
+.cv-text-header .cv-titles { font-size: 9.5pt; font-style: italic; color: #444; margin-top: 3pt; }
+.cv-text-header .cv-address { font-size: 9pt; color: #666; margin-top: 3pt; }
+.cv-text-header .cv-web { font-size: 9pt; color: var(--groy); margin-top: 2pt; }
 
 /* ── PDF Download Button ─────────────────────────────────────── */
-
-.cv-pdf-btn {
+.cv-pdf-btn, a.cv-pdf-btn {
+  text-decoration: none;
   position:       fixed;
   top:            1.5rem;
-  left:           80%;
+  left:           75%;
   transform:      translateX(-50%);
   z-index:        999;
   background:     var(--groy);
@@ -472,15 +282,14 @@ a:hover {
   cursor:         pointer;
   box-shadow:     0 2px 8px rgba(0,0,0,0.18);
   transition:     background 0.15s, box-shadow 0.15s;
-  transition:     background 0.15s, box-shadow 0.15s;
 }
 
 .cv-pdf-btn:hover {
-  background:  #035f8a;
-  box-shadow:  0 3px 12px rgba(0,0,0,0.25);
+  background: #035f8a;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
 }
 
-/* Hide the button when printing */
 @media print {
-  .cv-pdf-btn { display: none; }
+  .cv-pdf-btn, a.cv-pdf-btn {
+  text-decoration: none; display: none; }
 }

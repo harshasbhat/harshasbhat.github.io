@@ -14,18 +14,21 @@ jobs:
           wget -q https://github.com/jgm/pandoc/releases/download/3.1.3/pandoc-3.1.3-1-amd64.deb
           sudo dpkg -i pandoc-3.1.3-1-amd64.deb
 
-       - name: Build cv.html
+      - name: Install Chromium
+        run: sudo apt-get install -y chromium-browser
+
+      - name: Build cv.html and cv.pdf
         run: |
           curl -L "https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/CollectedPapers/MasterBibliography.bib" \
             -o /tmp/MasterBibliography.bib
-          
+
           pandoc pages/cv/cv.md -o pages/cv/cv.html \
             --standalone \
             --embed-resources \
             --citeproc \
             --from markdown+native_spans \
-            --css pages/cv/cv.css \
-            --csl pages/cv/author-year.csl \
+            --css    pages/cv/cv.css \
+            --csl    pages/cv/author-year.csl \
             --bibliography /tmp/MasterBibliography.bib \
             --lua-filter pages/cv/letterhead.lua \
             --lua-filter pages/cv/refs-by-type.lua \
@@ -33,10 +36,16 @@ jobs:
             --lua-filter pages/cv/format-refs.lua \
             --lua-filter pages/cv/nolinks-refs.lua
 
+          chromium-browser --headless --disable-gpu \
+            --print-to-pdf=pages/cv/cv.pdf \
+            --no-margins \
+            --virtual-time-budget=5000 \
+            "$(pwd)/pages/cv/cv.html"
+
       - name: Commit result
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add pages/cv/cv.html
-          git diff --staged --quiet || git commit -m "Auto-build cv.html [skip ci]"
+          git add pages/cv/cv.html pages/cv/cv.pdf
+          git diff --staged --quiet || git commit -m "Auto-build cv.html + cv.pdf [skip ci]"
           git push

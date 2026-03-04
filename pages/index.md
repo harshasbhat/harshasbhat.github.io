@@ -37,7 +37,7 @@ published: true
 
 		<a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar-square ai-3x"></i></a>
 		<a href="https://orcid.org/0000-0003-0361-1854"><i class="ai ai-orcid-square ai-3x"></i></a>
-		<a href="{{site.baseurl}}/pages/cv/cv.html" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a>
+		<a href="{{site.baseurl}}/pages/cv/cv.pdf" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a>
 		<a href="https://www.linkedin.com/in/harshasbhat"><i class="ai ai-inspire-square ai-3x"></i></a>	
 	</div>
 

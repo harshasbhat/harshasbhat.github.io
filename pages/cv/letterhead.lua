@@ -50,8 +50,10 @@ function Pandoc(doc)
   end
 
   -- PDF button (fixed position, hidden on print)
-  local btn_html = '<button class="cv-pdf-btn" onclick="window.print()">⬇ Save as PDF</button>'
+  local btn_html = '<a class="cv-pdf-btn" href="cv.pdf" target="_blank">View PDF</a>'
   table.insert(doc.blocks, pandoc.RawBlock("html", btn_html))
+
+
 
   -- Script to strip DOI extension injections (runs after page load)
   local anti_ext = [[

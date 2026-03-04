@@ -31,7 +31,7 @@ local function process_inlines(inlines)
   for _, el in ipairs(inlines) do
 
     -- Bold Bhat anywhere
-    if el.t == "Str" and el.text:match("^Bhat[,.]?$") then
+    if el.t == "Str" and el.text:match("^Bhat,[,.]?$") then
       table.insert(result, raw("<strong>" .. el.text .. "</strong>"))
 
     elseif state == "authors" then
