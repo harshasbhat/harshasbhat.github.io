@@ -138,20 +138,73 @@ Mécanique des Milieux Continus · Active Faults: Geometry · Seismic Ruptures a
 American Geophysical Union · Seismological Society of America · International Journal of Fracture · Geological Society of America · Science · Nature · Journal of the Mechanics and Physics of Solids · European Journal of Mechanics — A/Solids · Earth and Planetary Science Letters · Geophysical Research Letters · Journal of Structural Geology · Proceedings of the National Academies of Science, USA · Geology · Geophysical Journal International · Journal of Applied Mechanics · National Science Foundation · European Research Council · Nature Communications · Nature Geoscience · Science Advances
 
 <div style="display:none">
-@thomas2017a @bizzarri2012
-@thomas2022a @thomas2022b
-@bhagat2026a @bhagat2026b @kheirdast2026 @garagash2026 @gupta2026 @cheng2026 @zhou2026
-@wang2026 @almakari2026 @melkior2026b @michel2026 @latour2025
-@cheng2025 @momoh2025 @ferry2025 @petit2024 @jeandet2023a
-@marty2022 @amlani2022 @jara2021 @elbanna2021 @bhat2021
-@jeandet2020 @jolivet2020 @okubo2020 @okubo2019 @marty2019
-@aubry2018 @klinger2018 @cruz2018 @thomas2018a @romanet2018
-@gabuchian2017 @thomas2017b @passelegue2017 @perol2016
-@passelegue2016b @mello2016 @vallage2015 @frank2015 @siriki2015
-@mello2014 @passelegue2013 @bhat2012 @bhat2011a @bhat2010a
-@biegel2010 @mello2010 @templeton2010 @harris2009 @sammis2009
-@templeton2009 @dunham2008a @bhat2007a @bhat2007b @bhat2007c
-@fliss2005 @bhat2004
+@thomas2022a
+@thomas2022b
+@thomas2017a
+@bizzarri2012
+@bhagat2026a
+@bhagat2026b
+@kheirdast2026
+@garagash2026
+@gupta2026
+@cheng2026
+@zhou2026
+@wang2026
+@almakari2026
+@melkior2026b
+@michel2026
+@latour2025
+@cheng2025
+@momoh2025
+@ferry2025
+@petit2024
+@jeandet2023a
+@marty2022
+@amlani2022
+@jara2021
+@elbanna2021
+@jeandet2020
+@jolivet2020
+@okubo2020
+@okubo2019
+@marty2019
+@aubry2018
+@klinger2018
+@cruz2018
+@thomas2018a
+@romanet2018
+@gabuchian2017
+@thomas2017b
+@passelegue2017
+@perol2016
+@passelegue2016b
+@mello2016
+@vallage2015
+@frank2015
+@siriki2015
+@mello2014
+@passelegue2013
+@bhat2012
+@bhat2011a
+@bhat2010a
+@biegel2010
+@mello2010
+@templeton2010
+@harris2009
+@sammis2009
+@templeton2009
+@dunham2008a
+@bhat2007a
+@bhat2007b
+@fliss2005
+@bhat2004
+@cheng2024c
+@florescuba2023
+@bhat2021
+@marty2020
+@okubo2018h
+@romanet2017b
+@bhat2007c
 </div>
 
 # BOOKS

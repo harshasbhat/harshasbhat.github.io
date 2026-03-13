@@ -5,14 +5,13 @@
   Edit the two sets below to match your bib keys.
 ]]
 
-local book_keys = {
-  ["ref-thomas2017a"] = true,
-  ["ref-bizzarri2012"] = true,
-}
+local book_keys = {}
 
 local chapter_keys = {
   ["ref-thomas2022a"] = true,
   ["ref-thomas2022b"] = true,
+  ["ref-thomas2017a"] = true,
+  ["ref-bizzarri2012"] = true,
 }
 
 local function is_div(el, id)

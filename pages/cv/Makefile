@@ -4,6 +4,7 @@ CV_MD    = $(CV_DIR)/cv.md
 CV_HTML  = $(CV_DIR)/cv.html
 CV_PDF   = $(CV_DIR)/cv.pdf
 BIB      = $(HOME)/PcloudPublicFolder/CollectedPapers/MasterBibliography.bib
+SYNC     = $(CV_DIR)/sync_mypubs.py
 
 PANDOC_FLAGS = \
   --standalone \
@@ -20,13 +21,16 @@ PANDOC_FLAGS = \
 CHROME = /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
 
 # ── Targets ──────────────────────────────────────────────────────
-.PHONY: all cv pdf clean
+.PHONY: all cv pdf clean sync
 
 all: cv pdf
 
-cv: $(CV_HTML)
+sync:
+	python3 $(SYNC)
 
-$(CV_HTML): $(CV_MD) $(CV_DIR)/cv.css $(CV_DIR)/*.lua
+cv: sync $(CV_HTML)
+
+$(CV_HTML): $(CV_MD) $(CV_DIR)/cv.css $(CV_DIR)/*.lua $(SYNC)
 	pandoc $(CV_MD) -o $(CV_HTML) \
 	  $(PANDOC_FLAGS) \
 	  --embed-resources
