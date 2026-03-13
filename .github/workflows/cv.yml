@@ -16,6 +16,9 @@ jobs:
 
       - name: Install Chromium if needed
         run: command -v chromium-browser || sudo apt-get install -y chromium-browser
+      
+      - name: Sync mypubs.txt → cv.md + refs-by-type.lua
+        run: python3 pages/cv/sync_mypubs.py  
 
       - name: Build cv.html and cv.pdf
         run: |

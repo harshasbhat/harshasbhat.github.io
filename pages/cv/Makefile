@@ -5,6 +5,7 @@ CV_HTML  = $(CV_DIR)/cv.html
 CV_PDF   = $(CV_DIR)/cv.pdf
 BIB      = $(HOME)/PcloudPublicFolder/CollectedPapers/MasterBibliography.bib
 SYNC     = $(CV_DIR)/sync_mypubs.py
+MYPUBS_TXT = ../../mypubs.txt
 
 PANDOC_FLAGS = \
   --standalone \
@@ -26,7 +27,7 @@ CHROME = /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
 all: cv pdf
 
 sync:
-	python3 $(SYNC)
+	python3 $(SYNC) $(MYPUBS_TXT)
 
 cv: sync $(CV_HTML)
 
