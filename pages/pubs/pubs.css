@@ -1,0 +1,334 @@
+/*
+ * cv.css  —  Harsha S. Bhat Curriculum Vitae
+ */
+
+/* ── Fonts ──────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,600;1,400&display=swap');
+
+/* ── Variables (LaTeX palette) ──────────────────────────────── */
+:root {
+  --groy:       #057AB2;
+  --my-gray:    #a6a6a6;
+  --body-color: #1a1a1a;
+  --page-width: 1000px;
+  --indent:     1.25em;
+  --font:       'Roboto', 'Times New Roman', Times, serif;
+  --size:       13pt;
+  --lh:         1.5;
+}
+
+/* ── Reset & Base ───────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family:  var(--font);
+  font-size:    var(--size);
+  line-height:  var(--lh);
+  color:        var(--body-color);
+  background:   #ffffff;
+  max-width:    var(--page-width);
+  margin:       0 auto;
+  padding:      1.5cm 2cm 2.5cm;
+}
+
+/* ── Title block ────────────────────────────────────────────── */
+header, .title-block {
+  text-align:    center;
+  border-bottom: 0.8pt solid var(--groy);
+  padding-bottom: 10pt;
+  margin-bottom:  14pt;
+}
+
+header h1.title, h1.title {
+  font-size:      18pt;
+  font-weight:    600;
+  color:          var(--groy);
+  letter-spacing: 0.05em;
+  text-transform: none;
+  border:         none;
+  margin-bottom:  3pt;
+}
+
+header .subtitle, p.subtitle {
+  font-style:  italic;
+  font-size:   10pt;
+  color:       #555;
+  margin-top:  0;
+}
+
+header .date, p.date {
+  font-size:  9pt;
+  color:      #888;
+  margin-top: 2pt;
+}
+
+/* ── H1 — SECTION TITLES ────────────────────────────────────── */
+h1 {
+  font-family:    var(--font);
+  font-size:      18pt;
+  font-weight:    600;
+  color:          black;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-top:     16pt;
+  margin-bottom:  10pt;
+  border-bottom:  none;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+h1 + *, h1 + table, h1 + ul, h1 + ol, h1 + p { margin-left: var(--indent); }
+h1 ~ p, h1 ~ table, h1 ~ ul, h1 ~ ol         { margin-left: var(--indent); }
+h1 ~ h1 ~ p, h1 ~ h1 ~ table,
+h1 ~ h1 ~ ul, h1 ~ h1 ~ ol                   { margin-left: var(--indent); }
+
+/* ── H2 — gray italic sub-headings ─────────────────────────── */
+h2 {
+  font-family:    var(--font);
+  font-size:      10.5pt;
+  font-weight:    400;
+  font-style:     italic;
+  color:          var(--my-gray);
+  text-transform: none;
+  letter-spacing: 0;
+  margin-top:     10pt;
+  margin-bottom:  2pt;
+  border:         none;
+  padding:        0;
+  margin-left:    var(--indent);
+}
+
+h2 + table, h2 + ul, h2 + ol, h2 + p { margin-left: var(--indent); }
+
+/* ── Paragraphs ─────────────────────────────────────────────── */
+p { margin-bottom: 6pt; margin-top: 0; }
+
+/* ── Tables ─────────────────────────────────────────────────── */
+table {
+  border-collapse: collapse;
+  width:           auto;
+  font-size:       var(--size);
+  margin-bottom:   6pt;
+}
+
+thead tr { border-bottom: 0.5pt solid #ccc; }
+
+th {
+  font-weight:  600;
+  text-align:   left;
+  padding:      2pt 8pt 2pt 0;
+  font-style:   normal;
+  white-space:  nowrap;
+}
+
+td {
+  padding:        1.5pt 8pt 1.5pt 0;
+  vertical-align: top;
+  white-space:    nowrap;
+}
+
+td:first-child, th:first-child { font-style: italic; }
+
+table.education td:last-child,
+table.education th:last-child  { text-align: right; }
+
+/* ── Lists ──────────────────────────────────────────────────── */
+ul { list-style: none; padding-left: 0; margin-bottom: 6pt; }
+
+ul li {
+  position:     relative;
+  padding-left: 1.2em;
+  margin-bottom: 3pt;
+}
+
+ul li::before { content: '•'; position: absolute; left: 0; color: var(--body-color); }
+
+ol { padding-left: 2.2em; margin-bottom: 6pt; }
+ol li { margin-bottom: 2pt; font-style: italic; }
+
+/* ── Spans ───────────────────────────────────────────────────── */
+.current { color: var(--groy); }
+
+.footnote, em.footnote {
+  display:    block;
+  font-size:  8.5pt;
+  font-style: italic;
+  color:      #666;
+  text-align: right;
+  margin-top: 2pt;
+}
+
+/* ── HR ──────────────────────────────────────────────────────── */
+hr { border: none; border-top: 0.5pt solid #ccc; margin: 12pt 0; }
+
+/* ── Links ───────────────────────────────────────────────────── */
+a { color: var(--groy); text-decoration: none; }
+a:hover { color: var(--groy); text-decoration: underline; }
+
+/* ── Print / PDF ─────────────────────────────────────────────── */
+@media print {
+  @page {
+    size:          A4;
+    margin-top:    0;
+    margin-bottom: 0;
+    margin-left:   0;
+    margin-right:  0;
+  }
+  
+  :root {
+    --size: 10pt;
+  }
+
+  body {
+    font-size: 10pt;
+    max-width: 100%;
+    padding:   2.2cm 1.6cm;
+    margin:    0 auto;
+  }
+
+  h1 { page-break-after: avoid; }
+  h2 { page-break-after: avoid; }
+
+  ul, ol, p { page-break-inside: avoid; }
+
+  table { page-break-inside: auto; }
+
+  tr {
+    page-break-inside: avoid;
+    break-inside:      avoid;
+  }
+
+  a { color: inherit; }
+}
+
+/* ── Bibliography ────────────────────────────────────────────── */
+#refs, #refs-books, #refs-chapters {
+  margin-left: var(--indent);
+  margin-top:  4pt;
+}
+
+.csl-entry {
+  font-size:     var(--size);
+  line-height:   var(--lh);
+  padding-left:  2em;
+  text-indent:   -2em;
+  margin-bottom: 6pt;
+}
+
+.csl-entry em { font-style: italic; color: var(--body-color); }
+
+.csl-entry a { color: var(--groy); word-break: break-all; }
+.csl-entry a:hover { text-decoration: underline; }
+
+.csl-entry:hover {
+  border-left:  2px solid var(--groy);
+  padding-left: calc(2em - 2px);
+}
+
+/* ── Responsive ─────────────────────────────────────────────── */
+@media (max-width: 860px) {
+  body { padding: 1cm 1.2cm 2cm; }
+}
+
+@media (max-width: 600px) {
+  :root { --size: 10pt; --indent: 0.75em; }
+  body  { padding: 0.8cm 0.8cm 1.5cm; }
+  table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  h1    { font-size: 9.5pt; letter-spacing: 0.04em; }
+}
+
+/* ── Letterhead ─────────────────────────────────────────────── */
+.letterhead {
+  width:          100%;
+  margin-bottom:  12pt;
+}
+
+.letterhead img { width: 100%; height: auto; display: block; }
+
+.with-letterhead header,
+.with-letterhead .title-block { display: none; }
+
+.cv-text-header {
+  text-align:     center;
+  border-bottom:  0.5pt solid var(--groy);
+  padding-bottom: 10pt;
+  margin-bottom:  14pt;
+}
+
+.cv-text-header .cv-name {
+  font-size:      16pt;
+  font-weight:    600;
+  color:          var(--groy);
+  letter-spacing: 0.05em;
+  display:        block;
+}
+
+.cv-text-header .cv-titles { font-size: 9.5pt; font-style: italic; color: #444; margin-top: 3pt; }
+.cv-text-header .cv-address { font-size: 9pt; color: #666; margin-top: 3pt; }
+.cv-text-header .cv-web { font-size: 9pt; color: var(--groy); margin-top: 2pt; }
+
+/* ── PDF Download Button ─────────────────────────────────────── */
+.cv-pdf-btn, a.cv-pdf-btn {
+  text-decoration: none;
+  position:       fixed;
+  top:            1.5rem;
+  left:           50%;
+  transform:      translateX(-50%);
+  z-index:        999;
+  background:     var(--groy);
+  color:          #fff;
+  border:         none;
+  border-radius:  4px;
+  padding:        8px 20px;
+  font-family:    var(--font);
+  font-size:      9.5pt;
+  font-weight:    600;
+  letter-spacing: 0.04em;
+  cursor:         pointer;
+  box-shadow:     0 2px 8px rgba(0,0,0,0.18);
+  transition:     background 0.15s, box-shadow 0.15s;
+}
+
+.cv-pdf-btn:hover {
+  background: #035f8a;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+}
+
+@media print {
+  .cv-pdf-btn, a.cv-pdf-btn {
+  text-decoration: none; display: none; }
+}
+
+/* ── Publication year headers ────────────────────────────────── */
+.pub-year-header {
+  font-size:     var(--size);
+  font-weight:   600;
+  color:         var(--my-gray);
+  margin-top:    14pt;
+  margin-bottom: 4pt;
+  padding-bottom: 2pt;
+  border-bottom: 0.0pt solid #ccc;
+  text-align:    right;
+}
+
+#pub-search-wrap {
+  position:      sticky;
+  top:           0;
+  z-index:       100;
+  background:    #fff;
+  padding:       10pt 0 8pt;
+  margin-bottom: 10pt;
+  border-bottom: 0px solid #e0e0e0;
+  /* pull flush with body edges to cover full width */
+  margin-left:  -2cm;
+  margin-right: -2cm;
+  padding-left:  3cm;
+  padding-right: 2cm;
+}
+
+#pub-search-inner {
+  display:     flex;
+  align-items: center;
+  gap:         10px;
+  margin-left: var(--indent);  /* align left edge with publication text */
+}
