@@ -68,6 +68,13 @@ csl: author-year.csl
 - 2004 Harvard University Certificate of Distinction in Teaching
 - 2003 Harvard University Certificate of Distinction in Teaching
 
+# SERVICE AND INSTITUTIONAL RESPONSIBILITIES
+
+- 2018–2024: Team Leader of Faults & Earthquakes Group, ENS
+- 2018–2019: Co-organizer of the Internal Seminar, ENS
+- 2025: Member HCERES committee for ISterre, Univ. Grenoble
+- 2025 onwards: Member AGU Jason Morgan Award Jury
+
 # CURRENT TEACHING RESPONSIBILITIES AT ÉCOLE POLYTECHNIQUE†
 
 Mécanique du Milieu continus · Mécanique des Solides · Mécanique de la Rupture · Mécanique des matériaux et des structures
@@ -125,13 +132,6 @@ Mécanique des Milieux Continus · Active Faults: Geometry · Seismic Ruptures a
 - **Jun 2019:** Coupled Processes In Fracture Propagation In Geo-Materials: From Hydraulic Fractures To Earthquakes — CISM Advanced School, Udine, Italy
 - **Apr 2015:** Seismological Society of America, Multiscale Modeling and Characterization of Fragmentation and Damage Patterns in Fault Zones
 - **Dec 2014:** American Geophysical Union, Fault Zone Properties And Processes During Dynamic Ruptures
-
-# INSTITUTIONAL RESPONSIBILITIES
-
-- 2018–2024: Team Leader of Faults & Earthquakes Group, ENS
-- 2018–2019: Co-organizer of the Internal Seminar, ENS
-- 2025: Member HCERES committee for ISterre, Univ. Grenoble
-- 2025 onwards: Member AGU Jason Morgan Award Jury
 
 # REVIEWING ACTIVITIES
 
