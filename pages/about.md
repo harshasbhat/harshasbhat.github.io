@@ -44,7 +44,7 @@ title:
 	You can watch the ceremony <a href="https://www.youtube.com/watch?v=OVaenZ39o_c&amp;t=2s&amp;frags=pl%2Cwn">here.</a> I was also awarded an 
 	<a href="https://cordis.europa.eu/project/id/865411">European Research Council Consolidator Grant</a> for the amount of 2.0M€ for my project PERSISMO. 
 	<br><br>
-	<a href="https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/CollectedPapers/bib.html">See my library</a>
+	<a href="https://pubs-proxy.harshasbhat.workers.dev/bib.html">See my library</a>
 	
 	</div>
 	
