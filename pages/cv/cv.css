@@ -3,7 +3,7 @@
  */
 
 /* ── Fonts ──────────────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,600;1,400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,600;1,400&display=swap'); */
 
 /* ── Variables (LaTeX palette) ──────────────────────────────── */
 :root {
@@ -12,7 +12,7 @@
   --body-color: #1a1a1a;
   --page-width: 1000px;
   --indent:     1.25em;
-  --font:       'Roboto', 'Times New Roman', Times, serif;
+  --font:       'Times New Roman', Times, serif;
   --size:       14pt;
   --lh:         1.5;
 }
