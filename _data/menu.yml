@@ -1,7 +1,7 @@
 #- title: "Supershear Tsunami"
 #  href: "/tsunami-en/"
 - title: "Publications"
-  href: "https://pubs-proxy.harshasbhat.workers.dev"
+  href: "/publications/"
   # subcategories:
   #   - subtitle: "Articles"
   #     subhref: "/articles/"
@@ -24,3 +24,5 @@
   href: "/about/"
 - title: "CV"
   href: "/pages/cv/cv.html"
+- title: "France"
+  href: "/france/"

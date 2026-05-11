@@ -6,15 +6,15 @@
 {% for menu_item in site.data.menu %}
  	{% if menu_item.subcategories != null %}
  	   <li class="jm-dropdown">
-	   <a href="{{ menu_item.href | prepend: site.baseurl }}" style="font-weight: bold;">{{ menu_item.title }}  <i class="fa fa-caret-down"></i></a>
+	   <a href="{{ menu_item.href | prepend: site.baseurl }}" style="font-weight: bold;">{{ menu_item.title}}  <i class="fa fa-caret-down"></i></a>
 	   <ul>
 				{% for subcategory in menu_item.subcategories %}
-					<li><a href="{{ subcategory.subhref | prepend: site.baseurl }}">{{ subcategory.subtitle }}</a></li>
+					<li><a href="{{ subcategory.subhref | prepend: site.baseurl }}">{{ subcategory.subtitle}}</a></li>
 				{% endfor %}
 	   </ul>
 	   </li>
 	{% else %}
- 		 <li class="jm-dropdown"><a href="{{ menu_item.href }}" style="font-weight: bold;">{{ menu_item.title }}︎</a></li>
+ 		 <li class="jm-dropdown"><a href="{{ menu_item.href }}" style="font-weight: bold;">{{ menu_item.title}}</a></li>
 	{% endif %}
 {% endfor %}
 </nav>
