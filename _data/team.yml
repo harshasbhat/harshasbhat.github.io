@@ -23,6 +23,14 @@ postdoc:
       post: ERC Post-Doctoral Fellow
       dates: January 2024
       tweet: 
+      funded: 1    
+    - name: "Mingqi Liu"
+      image: mingqi.jpg
+      web: https://liumq12.github.io
+      email:
+      post: ERC Post-Doctoral Fellow
+      dates: May 2026
+      tweet: 
       funded: 1        
 phd:
     - name: "Bharath Shanmugasundaram"

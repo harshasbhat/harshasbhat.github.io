@@ -1,4 +1,18 @@
 news:
+    - hl: "Welcome to the group Mingqi!"
+      txt: "Minqi Liu will start his postdoc with Jean-Arthur Olive and myself in May 2026. We are very happy to have you Mingqi!"
+      closing:
+      image: team/mingqi.jpg
+      readmore:
+      closing: 
+      new: 
+    - hl: Two new papers accepted on Digital Twin of a fault zone and Tsunami modeling
+      txt: Check out the papers by Almakari et al. (2026) and Melkior et al. (2026) in my Publications page.
+      closing: ""
+      pdf:
+      readmore: 
+      image: pubimages/safar2.jpg
+      new: true
     - hl: New paper submitted on 3D geometrical complexities and slip dynamics
       txt: Slow and fast earthquakes emerge due to fault geometrical complexity. 
       closing: ""
@@ -7,13 +21,6 @@ news:
       image: pubimages/stepover.jpg
       new: true
       type:         article
-    - hl: Revised paper submitted on a digital twin for fault zone
-      txt: A digital twin for fault volume that reproduces braodband slip dynamics, scaling laws and statistics of earthquakes. Just by accouting for fault geometry!
-      closing: ""
-      pdf:
-      readmore: https://arxiv.org/pdf/2509.04909.pdf
-      image: pubimages/safar2.jpg
-      new: true
     - hl: "Solid earth tides and tremors"
       txt: "Fault resonance as a mechanism to explain solid earth tides and tremors. Congrats Yishuo on your first paper as a Phd student!"
       closing:
