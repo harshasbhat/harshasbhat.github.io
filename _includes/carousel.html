@@ -1,0 +1,206 @@
+{%- comment -%}
+  Pure-CSS responsive carousel.
+  Auto-plays with crossfade; click a dot or arrow to take manual control.
+
+  Usage from any page or layout:
+      {% include carousel.html photos=site.data.persismo.photos id="persismo" %}
+
+  Parameters:
+    photos    (required) — array with items {image, alt, caption}
+                           `image` is resolved against /images/team/
+    id        (optional) — unique id prefix when you have multiple carousels
+                           on the same page. Default: "cc"
+    duration  (optional) — seconds each slide is shown. Default: 6
+    height    (optional) — CSS aspect-ratio value. Default: "3 / 2"
+{%- endcomment -%}
+
+{%- assign cid     = include.id       | default: "cc" -%}
+{%- assign dur     = include.duration | default: 6 -%}
+{%- assign ratio   = include.height   | default: "3 / 2" -%}
+{%- assign photos  = include.photos -%}
+{%- assign n       = photos | size -%}
+
+{%- comment -%} percentage of the total loop occupied by one slide {%- endcomment -%}
+{%- assign step       = 100.0 | divided_by: n -%}
+{%- assign fade_in    = 3 -%}                          {%- comment -%} % of loop {%- endcomment -%}
+{%- assign hold_end   = step | minus: fade_in -%}
+{%- assign step_end   = step -%}
+
+<style>
+  /* ---- carousel: {{ cid }} ({{ n }} slides) ---------------------------- */
+  #{{ cid }}{
+    --dur: {{ dur }}s;
+    --fade: .8s;
+    position:relative;
+    width:100%;
+    max-width:1100px;
+    margin:1.5rem auto;
+    aspect-ratio: {{ ratio }};
+    overflow:hidden;
+    border-radius:6px;
+    background:#000;
+    box-shadow:0 2px 14px rgba(0,0,0,.12);
+    font-family:system-ui,-apple-system,sans-serif;
+  }
+  #{{ cid }} > input[type="radio"]{position:absolute;opacity:0;pointer-events:none}
+
+  #{{ cid }} .cc-track{
+    list-style:none;margin:0;padding:0;
+    width:100%;height:100%;position:relative;
+  }
+  #{{ cid }} .cc-slide{
+    position:absolute;inset:0;opacity:0;
+    animation: cc-fade-{{ cid }} calc(var(--dur) * {{ n }}) infinite;
+  }
+  #{{ cid }} .cc-slide img{
+    width:100%;height:100%;
+    object-fit:contain;object-position:center;
+    display:block;
+  }
+  #{{ cid }} .cc-caption{
+    position:absolute;left:0;right:0;bottom:0;
+    padding:.6rem 1rem 2.2rem;
+    color:#fff;
+    background:linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,0));
+    font-size:.9rem;
+    text-shadow:0 1px 2px rgba(0,0,0,.5);
+    pointer-events:none;
+  }
+
+  /* keyframes: each slide visible for 1/{{ n }} of the loop, then hidden */
+  @keyframes cc-fade-{{ cid }}{
+        0%          { opacity: 0 }
+        {{ fade_in }}%   { opacity: 1 }
+        {{ hold_end }}%  { opacity: 1 }
+        {{ step_end }}%  { opacity: 0 }
+      100%          { opacity: 0 }
+  }
+
+  /* stagger each slide's start */
+  {%- for p in photos %}
+  #{{ cid }} .cc-slide:nth-child({{ forloop.index }}){
+    animation-delay: calc(var(--dur) * {{ forloop.index0 }});
+  }
+  {%- endfor %}
+
+  /* manual override: if any radio is checked, stop auto-play and show that slide */
+  #{{ cid }}:has(input:checked) .cc-slide{
+    animation:none; opacity:0;
+    transition:opacity var(--fade) ease;
+  }
+  {%- for p in photos %}
+  #{{ cid }}-{{ forloop.index }}:checked ~ .cc-track .cc-slide:nth-child({{ forloop.index }}){
+    opacity:1;
+  }
+  {%- endfor %}
+
+  /* dots */
+  #{{ cid }} .cc-dots{
+    position:absolute;bottom:14px;left:0;right:0;
+    display:flex;justify-content:center;gap:10px;z-index:3;
+  }
+  #{{ cid }} .cc-dot{
+    width:11px;height:11px;border-radius:50%;
+    background:rgba(255,255,255,.55);
+    border:1px solid rgba(0,0,0,.25);
+    cursor:pointer;
+    transition:background .2s, transform .2s;
+  }
+  #{{ cid }} .cc-dot:hover{transform:scale(1.15)}
+  {%- for p in photos %}
+  #{{ cid }}-{{ forloop.index }}:checked ~ .cc-dots label:nth-child({{ forloop.index }}){
+    background:#fff;
+  }
+  {%- endfor %}
+
+  /* arrows: shown only for the currently-selected slide.
+     when nothing is checked (auto-play), we still show a pair that lets you
+     jump into manual mode at slide 1's neighbours. */
+  #{{ cid }} .cc-arrows{position:absolute;inset:0;pointer-events:none;z-index:2}
+  #{{ cid }} .cc-arrow{
+    pointer-events:auto;
+    position:absolute;top:50%;transform:translateY(-50%);
+    width:38px;height:38px;
+    display:none;
+    align-items:center;justify-content:center;
+    background:rgba(0,0,0,.35);
+    color:#fff;font:18px/1 system-ui,sans-serif;
+    border-radius:50%;cursor:pointer;user-select:none;
+    transition:background .2s;
+  }
+  #{{ cid }} .cc-arrow:hover{background:rgba(0,0,0,.6)}
+  #{{ cid }} .cc-arrow.prev{left:14px}
+  #{{ cid }} .cc-arrow.next{right:14px}
+
+  /* auto-play state: show the "default" arrow pair (jumps to slides N and 2) */
+  #{{ cid }}:not(:has(input:checked)) .cc-arrow.cc-default{display:flex}
+
+  /* manual state: show only the pair for the active slide */
+  {%- for p in photos %}
+    {%- assign idx  = forloop.index -%}
+    {%- assign prev = idx | minus: 1 -%}
+    {%- if prev == 0 %}{% assign prev = n %}{% endif -%}
+    {%- assign next = idx | plus: 1 -%}
+    {%- if next > n %}{% assign next = 1 %}{% endif -%}
+  #{{ cid }}-{{ idx }}:checked ~ .cc-arrows .cc-arrow[data-for="{{ idx }}"]{display:flex}
+  {%- endfor %}
+
+  /* responsive */
+  @media (max-width:600px){
+    #{{ cid }}{aspect-ratio: 4 / 3; margin:1rem 0}
+    #{{ cid }} .cc-arrow{width:32px;height:32px;font-size:15px}
+    #{{ cid }} .cc-dot{width:9px;height:9px}
+    #{{ cid }} .cc-caption{font-size:.8rem;padding-bottom:1.9rem}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    #{{ cid }} .cc-slide{animation:none}
+    #{{ cid }} .cc-slide:nth-child(1){opacity:1}
+  }
+</style>
+
+<div id="{{ cid }}" role="region" aria-roledescription="carousel" aria-label="PERSISMO group photos">
+
+  {%- comment -%} one hidden radio per slide {%- endcomment -%}
+  {%- for p in photos %}
+  <input type="radio" name="{{ cid }}-state" id="{{ cid }}-{{ forloop.index }}">
+  {%- endfor %}
+
+  <ul class="cc-track">
+    {%- for p in photos %}
+    <li class="cc-slide" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ n }}">
+      <img src="{{ site.baseurl }}/images/team/{{ p.image }}"
+           alt="{{ p.alt | default: p.caption | default: 'group photo' }}"
+           loading="lazy">
+      {%- if p.caption and p.caption != "" %}
+      <div class="cc-caption">{{ p.caption }}</div>
+      {%- endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+
+  <div class="cc-arrows" aria-hidden="true">
+    {%- comment -%} default pair (used when no radio is checked) {%- endcomment -%}
+    {%- assign last = n -%}
+    <label class="cc-arrow prev cc-default" for="{{ cid }}-{{ last }}">‹</label>
+    <label class="cc-arrow next cc-default" for="{{ cid }}-2">›</label>
+
+    {%- comment -%} per-slide pairs (used when that slide is selected) {%- endcomment -%}
+    {%- for p in photos %}
+      {%- assign idx  = forloop.index -%}
+      {%- assign prev = idx | minus: 1 -%}
+      {%- if prev == 0 %}{% assign prev = n %}{% endif -%}
+      {%- assign next = idx | plus: 1 -%}
+      {%- if next > n %}{% assign next = 1 %}{% endif -%}
+    <label class="cc-arrow prev" data-for="{{ idx }}" for="{{ cid }}-{{ prev }}" aria-label="Previous photo">‹</label>
+    <label class="cc-arrow next" data-for="{{ idx }}" for="{{ cid }}-{{ next }}" aria-label="Next photo">›</label>
+    {%- endfor %}
+  </div>
+
+  <div class="cc-dots">
+    {%- for p in photos %}
+    <label class="cc-dot" for="{{ cid }}-{{ forloop.index }}"
+           aria-label="Go to photo {{ forloop.index }}"></label>
+    {%- endfor %}
+  </div>
+</div>

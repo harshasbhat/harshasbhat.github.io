@@ -1,0 +1,41 @@
+# PERSISMO group photos.
+# To add a new group photo, just add a new entry below.
+# `image`   — filename under /images/
+# `alt`     — alt text (accessibility, SEO)
+# `caption` — optional overlay text; leave as "" to hide
+photos:
+  - image: group2025.jpg
+    alt: PERSISMO group photo, 2025
+    caption: "2025"
+
+  - image: PERSISMO.jpg
+    alt: PERSISMO group photo
+    caption: ""
+
+  - image: IMG_0562.JPG
+    alt: PERSISMO group photo            # TODO: describe
+    caption: ""                          # TODO: e.g. "2024 retreat"
+
+  - image: IMG_2281.JPG
+    alt: PERSISMO group photo            # TODO: describe
+    caption: ""
+
+  - image: IMG_2411.JPG
+    alt: PERSISMO group photo            # TODO: describe
+    caption: ""
+
+  - image: IMG_2424.JPG
+    alt: PERSISMO group photo            # TODO: describe
+    caption: ""
+
+  - image: KuramaMedal.JPG
+    alt: Kurama Medal                    # TODO: describe
+    caption: "Kurama Medal"
+
+  - image: SatoshiMedal.JPG
+    alt: Satoshi Medal                   # TODO: describe
+    caption: "Satoshi Medal"
+
+  - image: Greece2022.jpg
+    alt: Greece 2022 group photo            # TODO: describe
+    caption: "Greece 2022"

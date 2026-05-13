@@ -139,8 +139,13 @@ title:
 {% endif %}  
 
 
-<h3>PERSISMO Group</h3>  
+<!-- <h3>PERSISMO Group</h3>  
 {% include image.html url="/images/group2025.jpg" width="100%" align="center" %}
 
 {% include image.html url="/images/PERSISMO.jpg" width="100%" align="center" %}
+
+ -->
+
+ <h3>PERSISMO Group</h3>
+{% include carousel.html photos=site.data.group.photos id="persismo" %}
 
