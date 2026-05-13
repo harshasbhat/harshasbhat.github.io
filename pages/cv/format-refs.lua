@@ -8,7 +8,7 @@
     - Ensures a space before the DOI link
 ]]
 
-local harvard = "#C90016"
+local harvard = "#8a8a8a"
 
 local function raw(html)
   return pandoc.RawInline("html", html)

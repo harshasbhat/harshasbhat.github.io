@@ -142,11 +142,10 @@ American Geophysical Union · Seismological Society of America · International 
 @thomas2022b
 @thomas2017a
 @bizzarri2012
+@thomas2026
 @fan2026
 @momoh2026
 @zhou2026c
-@bhagat2026a
-@bhagat2026b
 @kheirdast2026
 @garagash2026
 @gupta2026

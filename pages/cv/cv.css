@@ -221,7 +221,7 @@ a:hover { color: var(--groy); text-decoration: underline; }
 
 .csl-entry:hover {
   border-left:  2px solid var(--groy);
-  padding-left: calc(2em - 2px);
+  padding-left: calc(3em - 2px);
 }
 
 /* ── Responsive ─────────────────────────────────────────────── */
