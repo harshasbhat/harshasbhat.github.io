@@ -39,3 +39,12 @@ photos:
   - image: Greece2022.jpg
     alt: Greece 2022 group photo            # TODO: describe
     caption: "Greece 2022"
+
+ricephotos:
+  - image: RiceHarvardGroup2004.jpg
+    alt: Rice Harvard group photo            # TODO: describe
+    caption: "Rice Harvard 2004"
+
+  - image: RiceHarvardGroup2005.jpg
+    alt: Rice Harvard group photo            # TODO: describe
+    caption: "Rice Harvard 2005"
