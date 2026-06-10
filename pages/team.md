@@ -150,5 +150,5 @@ title:
 {% include carousel.html photos=site.data.group.photos id="persismo" %}
 
 <h3>Prof. Rice's Group at Harvard</h3>
-{% include carousel.html photos=site.data.group.ricephotos id="persismo" %}
+{% include carousel.html photos=site.data.group.ricephotos id="rice" %}
 
