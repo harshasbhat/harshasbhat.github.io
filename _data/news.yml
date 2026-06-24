@@ -6,6 +6,7 @@ news:
       readmore: 
       image: pubimages/yishuotides.png
       new: true
+      type:         article
     - hl: "Welcome to the group Mingqi!"
       txt: "Minqi Liu will start his postdoc with Jean-Arthur Olive and myself in May 2026. We are very happy to have you Mingqi!"
       closing:
@@ -186,7 +187,7 @@ news:
     - hl: "Greece April 18 to 29, 2022"
       txt: "We went to Greece! More details to come soon."
       closing:
-      image: Greece2022.jpg
+      image: team/Greece2022.jpg
       url:
     - hl: "Welcome to the group Navid"
       txt: "We are very happy to welcome Navid Kheirdast to our team from Iran. Welcome Navid!"
