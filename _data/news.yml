@@ -20,14 +20,14 @@ news:
       pdf:
       readmore: 
       image: pubimages/safar2.jpg
-      new: true
+      new: 
     - hl: New paper submitted on 3D geometrical complexities and slip dynamics
       txt: Slow and fast earthquakes emerge due to fault geometrical complexity. 
       closing: ""
       pdf: ChengBhatAlmakari2026a.pdf
       readmore: 
       image: pubimages/stepover.jpg
-      new: true
+      new: 
       type:         article
     - hl: "Solid earth tides and tremors"
       txt: "Fault resonance as a mechanism to explain solid earth tides and tremors. Congrats Yishuo on your first paper as a Phd student!"
