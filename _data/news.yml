@@ -1,11 +1,18 @@
 news:
+    - hl: New paper submitted on Tidal sensitivity of tremors 
+      txt: Tidal sensitivity in a mixed fast and slow earthquake system in northeastern Japan
+      closing: ""
+      pdf: ZhouAochiSchubnel2026a.pdf
+      readmore: 
+      image: pubimages/yishuotides.png
+      new: true
     - hl: "Welcome to the group Mingqi!"
       txt: "Minqi Liu will start his postdoc with Jean-Arthur Olive and myself in May 2026. We are very happy to have you Mingqi!"
       closing:
       image: team/mingqi.jpg
       readmore:
       closing: 
-      new: 
+      new: true
     - hl: Two new papers accepted on Digital Twin of a fault zone and Tsunami modeling
       txt: Check out the papers by Almakari et al. (2026) and Melkior et al. (2026) in my Publications page.
       closing: ""
