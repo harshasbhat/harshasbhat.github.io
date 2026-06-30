@@ -15,5 +15,15 @@ _site
 .jekyll-cache
 .codegpt
 .jekyll-cache/*
-**/cv.pdf
-**/cv.html
+pages/cv/cv-blx.bib
+pages/cv/cv.bcf
+pages/cv/cv.out
+pages/cv/build/cv.bcf
+pages/cv/build/cv.fdb_latexmk
+pages/cv/build/cv.fls
+pages/cv/build/cv.out
+pages/cv/build/cv.pdf
+pages/cv/build/cv.xdv
+pages/cv/old/CurriculumVitae-blx.bib
+pages/cv/old/CurriculumVitae.out
+pages/cv/old/CurriculumVitae.pdf

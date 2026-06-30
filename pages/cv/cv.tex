@@ -1,0 +1,428 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+%      \fulltrue   = complete long-form CV 
+%      \fullfalse  = condensed ~2-page CV %==========================================================================
+\documentclass[10pt]{article}
+
+\newif\iffull
+\fulltrue   
+
+\usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2.cm]{geometry}
+
+\usepackage{fontspec}
+\setmainfont{Helvetica Neue}[Ligatures=TeX]   % warm scholarly serif (body)
+\newfontfamily\hd{Helvetica Neue}[Ligatures=TeX]       % geometric sans (name + headers)
+\newfontfamily\hdlight{Helvetica Neue Light}[Ligatures=TeX]
+\newfontfamily\hdmed{Helvetica Neue}[Ligatures=TeX]
+\newfontfamily\hdspaced{Helvetica Neue}[Ligatures=TeX,LetterSpace=8.0]  % tracked headers
+\usepackage{fancyhdr}
+
+\usepackage[dvipsnames]{xcolor}
+\definecolor{accent}{RGB}{5,111,178}      % signature blue
+\definecolor{accentdk}{RGB}{20,72,112}    % deeper blue for the name
+\definecolor{ink}{RGB}{38,38,42}          % near-black body text
+\definecolor{muted}{RGB}{120,120,128}     % secondary / placements
+\definecolor{rule}{RGB}{205,214,224}      % light hairline
+
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent}
+
+
+\usepackage[backend=biber,style=authoryear,sorting=none,
+            uniquename=init,maxbibnames=99,maxcitenames=2,
+            doi=true,isbn=false,url=false,dashed=false]{biblatex}
+
+\renewbibmacro{in:}{}
+\DeclareFieldFormat{title}{\textit{#1}}
+\DeclareFieldFormat[article,thesis,unpublished,misc]{journaltitle}{\textcolor{accent}{\bfseries #1}}
+\DeclareFieldFormat[incollection,inbook]{booktitle}{\textcolor{accent}{in #1}}
+
+\AtEveryBibitem{\clearfield{eprint}\clearfield{eprinttype}\clearfield{eprintclass}\clearfield{archiveprefix}}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifboolexpr{ test {\ifdefstring{\namepartfamily}{Bhat}} }{\textbf{#1}}{#1}}
+\DeclareNameAlias{author}{family-given}
+\defbibenvironment{timeline}
+  {\list{}
+     {\setlength{\leftmargin}{\dimexpr\datew+\dgap\relax}%
+      \setlength{\labelwidth}{0.7\datew}\setlength{\labelsep}{\dgap}%
+      \setlength{\itemsep}{6pt}\setlength{\parsep}{0pt}%
+      \renewcommand*{\makelabel}[1]{\datestyle##1\hfil}}}
+  {\endlist}
+  {\item[\printfield{year}]}
+
+\addbibresource{/Users/bhat/PcloudPublicFolder/CollectedPapers/MasterBibliography.bib}
+
+\color{ink}
+\setlength{\parindent}{0pt}
+\linespread{1.05}
+\pagestyle{fancy}
+\fancyhf{}                                  
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\fancyfoot[L]{\scriptsize\color{rule} \today}
+\fancyfoot[C]{\scriptsize\color{rule} \thepage}
+\fancyfoot[R]{\scriptsize\itshape \color{rule}Harsha S. Bhat}
+%====================================== macros ======
+
+\newcommand{\cvsection}[1]{%
+  \par\leftskip=0pt\addvspace{21pt}%          
+  \noindent{\hdspaced\fontsize{10.5}{12}\selectfont\color{ink}%
+    \MakeUppercase{\bf #1}}\par
+  \vspace{-12pt}\noindent{\color{rule}\rule{\linewidth}{0.0pt}}\par
+  \addvspace{10pt}\leftskip=\secindent         
+  }
+\newcommand{\cvsectionnote}[2]{%
+  \par\leftskip=0pt\addvspace{11pt}%
+  \noindent{\hdspaced\fontsize{10.5}{12}\selectfont\color{ink}\MakeUppercase{#1}}%
+  \hfill{\normalfont\footnotesize\color{muted}#2}\par
+  \vspace{-2pt}\noindent{\color{rule}\rule{\linewidth}{0.0pt}}\par
+  \addvspace{5pt}\leftskip=\secindent
+}
+
+\newlength{\datew}\setlength{\datew}{2.0cm}
+\newlength{\dgap}\setlength{\dgap}{0.35cm}
+\newlength{\secindent}\setlength{\secindent}{0.55cm}  % indent of body under each heading
+
+\newcommand{\datestyle}{\hd\fontsize{9}{11}\selectfont\color{muted}}
+\newcommand{\daterow}[2]{%
+  \noindent
+  \makebox[\datew][l]{\datestyle\strut \color{accent}#1}%
+  \hspace{\dgap}%
+  \begin{minipage}[t]{\dimexpr\linewidth-\datew-\dgap-\leftskip\relax}\strut\ignorespaces#2\end{minipage}%
+  \par\addvspace{4pt}%
+}
+
+\newcommand{\bull}{\textcolor{accent}{\small$\bullet$}\hspace{4pt}}
+
+\newcommand{\pub}[4]{%
+  \daterow{#1}{#2 \textit{#3}\ \textcolor{accent}{#4}}%
+}
+\newcommand{\me}{\textbf{Bhat, H. S.}}    
+\newcommand{\now}[1]{\textcolor{muted}{#1}}
+
+
+\newcommand{\ctytint}{ink}
+\providecommand{\agencystyle}{\footnotesize\itshape\color{ink}}
+\providecommand{\rolestyle}{\footnotesize}
+\providecommand{\titlestyle}{\footnotesize\itshape\color{ink}}
+% country/region tag: medium weight, small, muted — sits after the agency name
+\newcommand{\cty}[1]{\,\itshape\textcolor{\ctytint}{\footnotesize, #1}}
+\newlength{\rolew}\setlength{\rolew}{4.5em}    % reserved role column width
+\newlength{\colgap}\setlength{\colgap}{0.6em}  % gap before the role column
+ 
+\newcommand{\grantrow}[4]{%
+  \begingroup
+    % pull content toward the year: size the date column to exactly a
+    % 4-digit year and tighten the gap. (Grant rows are single years; widen
+    % \datew if you ever put a date *range* here.)
+    \settowidth{\datew}{\datestyle 0000}%
+    \setlength{\dgap}{2em}%
+    \daterow{#1}{%
+      \leavevmode
+      \rlap{\makebox[\linewidth][r]{\rolestyle #4}}%
+      \begingroup
+        \parindent=0pt
+        \rightskip=\rolew\relax
+        \parfillskip=0pt plus 1fil
+        {\agencystyle #2}\par
+        {\titlestyle #3}\par
+      \endgroup
+    }%
+  \endgroup
+}
+
+\newcommand{\success}[4]{\grantrow{#1}{#2}{``#3''}{#4}}
+% failures: greyed throughout (date included) and shown only in the full CV.
+% Prefixing the year with \color overrides the \color{accent} inside \daterow.
+\newcommand{\fail}[4]{\iffull
+  \begingroup\renewcommand{\ctytint}{black!45}%
+    \grantrow{\color{black!45}#1}{\color{black!45}#2}{\color{black!45}#3}{\color{black!45}#4}%
+  \endgroup\fi}    
+
+%================ header ======
+\begin{document}
+
+\noindent
+\begin{minipage}[b]{0.63\linewidth}
+  \raggedright
+  {\hd\fontsize{27}{30}\selectfont\color{accentdk}\bf Harsha S. Bhat}\\[5pt]
+  {\hdlight\fontsize{10}{14}\selectfont\color{ink}%
+   Directeur de recherche CNRS \& Professeur attaché\\
+   \textit{\color{muted}École Normale Supérieure, Paris}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.37\linewidth}
+  \raggedleft\small\color{muted}
+  Laboratoire de Géologie, \\
+  24 Rue Lhomond, 75005 Paris, France\\
+  \href{https://harshasbhat.github.io}{harshasbhat.github.io}\\
+  ORCID \href{https://orcid.org/0000-0003-0361-1854}{0000-0003-0361-1854}\\
+  Scholar \href{https://scholar.google.com/citations?user=ZHskR34AAAAJ&hl=en}{ZHskR34AAAAJ}
+\end{minipage}
+
+\vspace{-2pt}
+\noindent{\color{muted}\rule{\linewidth}{0.01pt}}
+
+%================================================================ EDUCATION ====
+\cvsection{Education}
+\daterow{2021}{\textbf{H.D.R.}, \textit{Supershear Earthquakes} — École Normale Supérieure, France\,\textsuperscript{$\dagger$}}
+\daterow{2007}{\textbf{Ph.D.}, Mechanical Sciences — Harvard University, USA\,\textsuperscript{$*$}}
+\daterow{2002}{\textbf{M.S.}, Engineering Sciences — Harvard University, USA}
+\daterow{2001}{\textbf{B.E.}, Civil Engineering — NITK, India}
+\vspace{2pt}
+{\footnotesize\itshape\color{muted}\hfill $\dagger$\,Habilitation à Diriger des Recherches \quad $*$\,Supervised by Prof.\ James R. Rice \& Dr. Renata Dmowska}
+
+%========================================================= CURRENT POSITION ===
+\cvsection{Current Positions}
+\daterow{2024 }{\textbf{Directeur de recherche CNRS} — École Normale Supérieure, France}
+\daterow{2026}{\textbf{Professeur attaché} — École Normale Supérieure, France}
+
+
+%=========================================================== PAST POSITIONS ===
+\cvsection{Past Positions}
+\daterow{2022 -- 2026}{{Professeur chargé de cours} — École Polytechnique, France}
+\daterow{2016 -- 2024}{Chargé de recherche CNRS — École Normale Supérieure, France}
+\iffull
+\daterow{2021 -- 2023}{Visiting Professor — NISER, India}
+\fi
+\daterow{2012 -- 2016}{Chargé de recherche CNRS — Institut de Physique du Globe de Paris, France}
+\daterow{2010 -- 2011}{Assistant Professor (Research) — University of Southern California, USA}
+\iffull
+\daterow{2007 -- 2010}{Post-Doctoral Fellow — University of Southern California, USA}
+\daterow{2007 -- 2010}{Visitor in Aeronautics — California Institute of Technology, USA}
+\daterow{2007 -- 2007}{Post-Doctoral Fellow — Harvard University, USA}
+\fi
+\daterow{2001 -- 2007}{Graduate Research Associate — Harvard University, USA}
+
+%================================================================== FUNDING ===
+\cvsection{Funding \& Grants\hfill {\scriptsize\it\MakeLowercase{   $\ast\to$ waiting for results ~~~~~ {\color{muted} Gray $\to$ unsuccessful}}}} 
+
+\success{2026$\ast$}{Agence Nationale de la Recherche -- PRCI\cty{France-HongKong}}{REFRESH: Revisiting Seismic Hazard and Fault Mechanics in Intraplate Regions under Climatic Stresses}{coPI}
+\success{2026$\ast$}{Partenariat Hubert Curien PROCOPE\cty{France–Germany}}{CASPER: Climate-Aware Seismic Hazard from Physics-Based Earthquake-Cycle Models}{coPI}
+\success{2026}{Domaine d'Int\'er\^et Majeur MaTerRE\cty{\^Ile-de-France}}{GEO-PROBE: GPU-Accelerated Multi-Physics Spectral Boundary-Element Modeling of Induced Seismicity during Underground Gas Storage}{coPI}
+
+\success{2024}{Laboratoire de Recherche Conventionn\'e (CEA)\cty{France}}{CLIMSEISM: Climate-Triggered Intraplate Seismicity — Detection and Mechanics}{coPI}
+ 
+\success{2023}{Agence Nationale de la Recherche (AAPG 2022)\cty{France}}{SMEC: Smectite Dehydration — a Key to Fault Mechanics}{coPI} 
+\success{2023}{Partenariat Hubert Curien PROCORE\cty{France–HongKong}}{Earthquake Risks along the Anninghe Fault Zone}{coPI}
+\fail{2022}{Partenariat Hubert Curien Aurora\cty{France–Norway}}{FARM: Fault and Rupture Mechanics}{coPI}
+\success{2022}{CNRS – University of Tokyo\cty{France–Japan}}{SESAME: Seasonal Seismicity — Statistical Analysis and Modeling}{coPI} 
+ 
+\fail{2021}{Centre National d'\'Etudes Spatiales (CNES)\cty{France}}{On the Link between Rupture Velocity and Off-Fault Damage Produced in Earthquakes}{coPI}
+ 
+\fail{2020}{Endeavour Fund (MBIE)\cty{New Zealand}}{Can Earthquake Simulators Forecast Seismic Hazard after the Next Great Alpine Fault Earthquake?}{coPI}
+ 
+\success{2019}{European Research Council, Consolidator Grant\cty{EU}}{PERSISMO: Predicting Energy Release in Fault Systems — Integrating Simulations, Machine Learning and Observations}{PI} 
+\fail{2019}{Institut National des Sciences de l'Univers (CNRS), TelluS-ALEAS\cty{France}}{IRA: Inverting Rupture Velocity Using Damage and Aftershocks}{PI}
+\fail{2019}{Marie Sk\l odowska-Curie ITN (H2020)\cty{EU}}{FRICFAULT: Friction in Faults}{coPI}
+\fail{2019}{\'Emergence (Ville de Paris)\cty{France}}{Inelastic Deformation in the Subduction Zone}{coPI}
+\success{2019}{Laboratoire de Recherche Conventionn\'e (CEA)\cty{France}}{Earthquake Dynamics, Damage \& Tsunamigenesis}{coPI}
+\success{2019}{Aramont Fund (Harvard)\cty{USA}}{Resolving Earthquake Source Mechanisms on Complex Fault Systems (fellow: K. Okubo)}{coPI}
+\success{2019}{Scheme for Promotion of Academic and Research Collaboration (SPARC)\cty{India}}{Novel Explorations on Earthquake Nucleation within Complex Fault Networks}{coPI}
+ 
+%\success{2018}{Agence Nationale de la Recherche\cty{France}}{DISRUPT: Deformation and Earthquake Surface Ruptures}{coPI}
+%\success{2018}{Agence Nationale de la Recherche\cty{France}}{QUEST: Quantifying Time and Spatial Slip Variability in the Earthquake Cycle}{coPI}
+\success{2018}{PRESTIGE Grant\cty{France}}{Seismic Hazard on Thrust Faults Using Physics-Based Models and Surface-Data Analysis (fellow: L. Bruhat)}{host} % host
+\fail{2018}{Thomas Jefferson Fund (FACE Foundation)\cty{France–USA}}{Earthquakes in Complex Fault Networks}{coPI}
+\success{2018}{\'Ecole Normale Sup\'erieure (Actions Incitatives)\cty{France}}{Earthquake Mechanics}{PI}
+ 
+\fail{2017}{Fondation Simone et Cino Del Duca (Acad\'emie des sciences)\cty{France}}{Dynamics of Fault Networks: Physics-Based Models}{PI}
+\fail{2017}{Institut National des Sciences de l'Univers (CNRS), mi-lourds\cty{France}}{Observational and Computational Earthquake Cycles}{PI}
+\fail{2017}{Thomas Jefferson Fund (FACE Foundation)\cty{France–USA}}{Earthquakes in Complex Fault Networks}{coPI}
+ 
+\fail{2016}{Agence Nationale de la Recherche\cty{France}}{LABSEISM: Laboratory Investigation of Earthquakes Triggered by Seismic Waves}{PI}
+\success{2016}{Institut National des Sciences de l'Univers (CNRS), TelluS-ALEAS\cty{France}}{Spontaneous Off-Fault Damage Due to Earthquakes and the Associated Acceleration Spectra}{PI} 
+\success{2016}{Institut de Physique du Globe de Paris (Mobilit\'e)\cty{France}}{FDEM Rupture Modeling at Los Alamos (PhD mobility: K. Okubo)}{coPI} % host
+ 
+\fail{2015}{Agence Nationale de la Recherche\cty{France}}{LABSEISM: Laboratory Investigation of Earthquakes Triggered by Seismic Waves}{coPI}
+\fail{2015}{\'Emergence (Ville de Paris)\cty{France}}{DEED: Deep Earthquake Dynamics}{coPI}
+\fail{2015}{Natural Environment Research Council (Fellowship)\cty{UK}}{Seismic and Aseismic Slip: Properties and Constitutive Behavior of Faults}{coPI}
+\success{2015}{Universit\'e Sorbonne Paris Cit\'e\cty{France}}{Earthquake Ruptures on Complex Fault Systems and Complex Media (PhD fellowship K. Okubo)}{PI} % host
+ 
+\fail{2014}{European Research Council, Starting Grant (H2020)\cty{EU}}{UNITERRA: Unifying On- and Off-Fault Earthquake Models}{PI}
+\fail{2014}{\'Emergence (Ville de Paris)\cty{France}}{Quantifying the Seismic Hazard Associated with Waste-Water Injection}{PI}
+\fail{2014}{Natural Environment Research Council\cty{UK}}{Earthquake Fracture Damage and Feedbacks in the Seismogenic Zone}{coPI}
+\fail{2014}{Agence Nationale de la Recherche\cty{France}}{LIVOGERM: Lithospheric Volcanism and Geothermal Energy at Major Strike-Slip Fault Intersections}{coPI}
+\fail{2014}{Universit\'e Sorbonne Paris Cit\'e\cty{France}}{LABSEISM: Laboratory Investigation of Earthquakes Triggered by Seismic Waves}{coPI}
+ 
+\fail{2013}{European Research Council, Starting Grant\cty{EU}}{SEISMECH: Towards the Next Generation of Mechanical Models of Earthquake Source Physics}{PI}
+\fail{2013}{\'Emergence (Ville de Paris)\cty{France}}{GEOSEISMECH: Integrating Mechanical Models with Geological, Experimental and Seismological Observations}{PI}
+\success{2013}{AXA Research Fund\cty{France}}{Seismic Hazard of the Shallow Portion of Megathrusts (postdoc: N. Cubas)}{host} % host
+\success{2013}{Southern California Earthquake Center (SCEC)\cty{USA}}{Dynamic Formation of Fault-Zone Rocks and Their Influence on Rupture Propagation}{PI} % role?
+ 
+\fail{2012}{Agence Nationale de la Recherche (Chaires d'Excellence)\cty{France}}{GEOSEISMECH: Geological and Seismological Mechanics}{PI}
+\fail{2012}{Agence Nationale de la Recherche (Blanc, SIMI 6)\cty{France}}{GeoSMEC: Geometry of Strike-Slip Faults through Multiple Earthquake Cycles}{PI}
+ 
+\fail{2011}{\'Emergence (Universit\'e Pierre et Marie Curie)\cty{France}}{From Damage to Rupture of Quasi-Brittle Materials: Application to Seismic Faults}{coPI}
+\success{2011}{National Science Foundation (instrumentation)\cty{USA}}{Optical Interferometer Assembly for Time-Resolved Pointwise Stress \& Velocity Measurements in Laboratory Earthquakes}{coPI}
+\success{2011}{Southern California Earthquake Center (SCEC)\cty{USA}}{The Effect of Off-Fault Damage on the Propagation of an Earthquake Rupture}{coPI} 
+ 
+\success{2010}{National Earthquake Hazards Reduction Program (USGS)\cty{USA}}{Geometric Heterogeneities in Rupture Propagation for the Kunlun–Kunlun Pass–Xidatan Fault System}{PI}
+\success{2010}{National Science Foundation\cty{USA}}{A Rate-Dependent Micromechanical Damage Mechanics for Simulating Dynamic Earthquake Ruptures}{PI}
+\success{2010}{National Nuclear Security Administration / U.S. Air Force\cty{USA}}{Generation of High-Frequency P and S Energy by Rock Fracture During a Buried Explosion}{coPI}
+ 
+\fail{2008}{National Science Foundation\cty{USA}}{Laboratory Earthquakes: Characterization of Ground Motion and Stress States in Complex Rupture Scenarios Using High-Resolution Optical Diagnostics}{coPI} 
+\success{2008}{National Science Foundation\cty{USA}}{Micromechanics-Based Modeling of Dynamic Earthquake Rupture in a Structurally Complex Fault Zone}{coPI} 
+
+%================================================================== HONORS =====
+\cvsection{Honors \& Awards}
+\daterow{2018}{Grand Prix Michel Gouilloud Schlumberger — French Academy of Sciences}
+\daterow{2018}{CNRS Award for Doctoral Supervision and Research}
+\iffull
+\daterow{2003 -- 2006}{Harvard University Certificate of Distinction in Teaching (2003, 2004, 2006)}
+\fi
+
+\iffull
+%================================================================ STUDENTS =====
+\cvsection{Students}
+
+{\hdmed\color{gray}\bfseries\itshape  Postdoctoral Associates}\par\vspace{3pt}
+\daterow{2024 -- 2026}{Ankit Gupta (India)}
+\daterow{2025 -- 2027}{Suli Yao (China)}
+\daterow{2022 -- 2025}{Navid Kheirdast (Iran) \hfill \now{Post-Doctoral Fellow, ISTeP}}
+\daterow{2021 -- 2023}{Michelle Almakari (France)}
+\daterow{2021 -- 2023}{Carlos D.\ Villafuerte (Mexico) \hfill \now{Asst.\ Prof., UNAM}}
+\daterow{2019 -- 2022}{Ekeabino Momoh (Nigeria) \hfill \now{AXA Postdoc Fellow}}
+\daterow{2018 -- 2021}{Lucile Bruhat (France) \hfill \now{Nat.\ Catastrophe Risk Analyst, AXA}}
+\daterow{2019 -- 2019}{Lisa Gordeliy (Russia) \hfill \now{Senior Engineer, ResFrac}}
+\daterow{2014 -- 2016}{Marion Y.\ Thomas (France) \hfill \now{CNRS Scientist, Univ.\ de Rennes}}
+
+\vspace{5pt}{\hdmed\color{gray}\bfseries\itshape PhD Students}\par\vspace{3pt}
+\daterow{2024 -- 2027}{Bharath Shanmugasundaram (India)}
+\daterow{2024 -- 2027}{Yishuo Zhou (China)}
+\daterow{2023 -- 2026}{Thomas Melkior (France)}
+\daterow{2023 -- 2027}{Caiyuan Fan (China)}
+\daterow{2021 -- 2024}{Jinhui Cheng (China) \hfill \now{Postdoc, Caltech}}
+\daterow{2020 -- 2023}{Augustin Thomas (France) \hfill \now{Research Scientist, BRGM}}
+\daterow{2020 -- 2023}{Joseph Flores Cuba (Peru) \hfill \now{Data Scientist, PowerBI}}
+\daterow{2018 -- 2021}{Claudia Hulbert (France) \hfill \now{CEO, Geolabe}}
+\daterow{2017 -- 2020}{Samson Marty (France) \hfill \now{Postdoc, Caltech}}
+\daterow{2014 -- 2019}{Marshall A.\ Martinez (USA) \hfill \now{Engineer, Joby Aviation}}
+\daterow{2015 -- 2018}{Kurama Okubo (Japan) \hfill \now{Research Scientist, NIED, Japan}}
+\daterow{2014 -- 2017}{Pierre Romanet (France) \hfill \now{Research Scientist, Cerema, France}}
+\daterow{2010 -- 2015}{Vahe Gabuchian (USA) \hfill \now{Research Scientist, Caltech}}
+\daterow{2011 -- 2014}{François X.\ Passelègue (France) \hfill \now{CNRS Scientist, GeoAzur, Nice}}
+\daterow{2008 -- 2013}{Jonathan Mihaly (USA) \hfill \now{Jet Propulsion Laboratory}}
+\daterow{2007 -- 2012}{Michael Mello (USA) \hfill \now{Teaching Professor, Caltech}}
+
+% \vspace{5pt}{\hdmed\color{gray}\bfseries\itshape Undergraduate \& Masters Interns}\par\vspace{3pt}
+% {Valentin Marnat (2022) \,\textcolor{rule}{\textbar}\, Roxane Ferry (2019, 2021) \,\textcolor{rule}{\textbar}\, Jinhui Cheng (2020) \,\textcolor{rule}{\textbar}\, Phillipe Danre (2017, 2019) \,\textcolor{rule}{\textbar}\, Hugo Lestrelin (2019) \,\textcolor{rule}{\textbar}\, Nicolas Mercury (2018) \,\textcolor{rule}{\textbar}\, Luc Illien (2018) \,\textcolor{rule}{\textbar}\, Eleni Kolokytha (2015) \,\textcolor{rule}{\textbar}\, Victor Barolle (2015) \,\textcolor{rule}{\textbar}\, Kurama Okubo (2014) \,\textcolor{rule}{\textbar}\, Thibaut Perol (2013) \,\textcolor{rule}{\textbar}\, Lucile Bruhat (2012) \,\textcolor{rule}{\textbar}\, Marion Olives (2004) \,\textcolor{rule}{\textbar}\, Sonia Fliss (2003)}
+
+\vspace{5pt}{\hdmed\color{gray}\bfseries\itshape Undergraduate \& Masters Interns}\par\vspace{-6pt}
+
+\newcommand{\intern}[2]{\noindent\hspace{\secindent}%
+  \settowidth{\dimen0}{\datestyle 0000}%
+  \makebox[\dimexpr\dimen0+0.9em][l]{\datestyle\strut\color{accent}#1}{\strut #2}\par\addvspace{3pt}}
+
+\setlength{\columnsep}{0.1em}
+\begin{multicols}{3}
+\raggedright
+\intern{2022}{Valentin Marnat}
+\intern{2021}{Roxane Ferry}
+\intern{2020}{Jinhui Cheng}
+\intern{2019}{Roxane Ferry}
+\intern{2019}{Phillipe Danre}
+\intern{2019}{Hugo Lestrelin}
+\intern{2018}{Nicolas Mercury}
+\intern{2018}{Luc Illien}
+\intern{2017}{Phillipe Danre}
+\intern{2015}{Eleni Kolokytha}
+\intern{2015}{Victor Barolle}
+\intern{2014}{Kurama Okubo}
+\intern{2013}{Thibaut Perol}
+\intern{2012}{Lucile Bruhat}
+\intern{2004}{Marion Olives}
+\intern{2003}{Sonia Fliss}
+\end{multicols}
+
+\else
+%--- compact summary of supervision instead of full rosters ---
+\cvsection{Supervision}
+\daterow{Postdocs}{9 postdoctoral associates \;\textcolor{rule}{\textbar}\; placements incl.\ UNAM, Caltech, AXA, Univ.\ de Rennes}
+\daterow{PhD}{16 doctoral students \;\textcolor{rule}{\textbar}\; placements incl.\ Caltech, NIED, BRGM, GeoAzur, JPL}
+\daterow{Interns}{14 undergraduate \& Masters interns}
+\fi
+
+\iffull
+%================================================================ TEACHING =====
+\cvsection{Teaching}
+{\hdmed\color{gray}\bfseries\itshape Current — École Normale Supérieure}\par\vspace{3pt}
+{Earthquake Source Mechanics \,\textcolor{rule}{\textbar}\, Numerical Methods in Geosciences \,\textcolor{rule}{\textbar}\, Thermodynamics}
+\par\vspace{6pt}
+{\hdmed\color{gray}\bfseries\itshape Past — Harvard, Caltech, IPGP, ENS, École Polytechnique (with various colleagues)}\par\vspace{3pt}
+{Mécanique des Milieux Continus \,\textcolor{rule}{\textbar}\, Active Faults: Geometry \,\textcolor{rule}{\textbar}\, Seismic Ruptures and Scaling Laws \,\textcolor{rule}{\textbar}\, Introduction to Rock Physics \,\textcolor{rule}{\textbar}\, Mathematical Methods in the Sciences \,\textcolor{rule}{\textbar}\, Environmental Risks and Disasters \,\textcolor{rule}{\textbar}\, Ordinary and Partial Differential Equations \,\textcolor{rule}{\textbar}\, Complex and Fourier Analysis \,\textcolor{rule}{\textbar}\, Computational Solid and Structural Mechanics \,\textcolor{rule}{\textbar}\, Solid Mechanics \,\textcolor{rule}{\textbar}\, Introduction to the Mechanics of Solids \,\textcolor{rule}{\textbar}\, Mechanics of Fracture \,\textcolor{rule}{\textbar}\, Advanced Geomechanics \,\textcolor{rule}{\textbar}\, Mécanique de la Fracturation\,\textcolor{rule}{\textbar}\, Mécanique de la Rupture \,\textcolor{rule}{\textbar}\, Mécanique des Matériaux et des Structures}
+
+%=========================================================== MEETINGS/SERVICE ==
+\cvsection{Organization of Scientific Meetings}
+\daterow{Jan 2026}{Earthquake Source: Mechanics, Seismology and Geology Workshop — NISER, India}
+\daterow{2023, 2024}{Across the Time Scales, from Earthquakes to Earthquake Cycle — EGU}
+\daterow{Jun 2019}{Coupled Processes in Fracture Propagation in Geo-Materials — CISM Advanced School, Udine}
+\daterow{Apr 2015}{Multiscale Modeling of Fragmentation \& Damage in Fault Zones — SSA}
+\daterow{Dec 2014}{Fault Zone Properties \& Processes During Dynamic Ruptures — AGU}
+
+\cvsection{Responsibilities \& Service}
+\daterow{2018 -- 2024}{Team Leader, Faults \& Earthquakes Group — ENS}
+\daterow{2018 -- 2019}{Co-organizer, Internal Seminar — ENS}
+\daterow{2025}{Member, HCERES Committee for ISTerre — Univ.\ Grenoble}
+\daterow{2024 -- 2025}{Editor, JTCAM }
+
+\cvsection{Reviewing Activities}
+{American Geophysical Union \,\textcolor{rule}{\textbar}\, Seismological Society of America \,\textcolor{rule}{\textbar}\, Science \,\textcolor{rule}{\textbar}\, Nature \,\textcolor{rule}{\textbar}\, Nature Communications \,\textcolor{rule}{\textbar}\, Nature Geoscience \,\textcolor{rule}{\textbar}\, Science Advances \,\textcolor{rule}{\textbar}\, Proceedings of the National Academy of Sciences \,\textcolor{rule}{\textbar}\, Journal of the Mechanics and Physics of Solids \,\textcolor{rule}{\textbar}\, European Journal of Mechanics -- A/Solids \,\textcolor{rule}{\textbar}\, International Journal of Fracture \,\textcolor{rule}{\textbar}\, Earth and Planetary Science Letters \,\textcolor{rule}{\textbar}\, Geophysical Research Letters \,\textcolor{rule}{\textbar}\, Journal of Structural Geology \,\textcolor{rule}{\textbar}\, Geology \,\textcolor{rule}{\textbar}\, Geophysical Journal International \,\textcolor{rule}{\textbar}\, Journal of Applied Mechanics \,\textcolor{rule}{\textbar}\, Geological Society of America \,\textcolor{rule}{\textbar}\, National Science Foundation \,\textcolor{rule}{\textbar}\, European Research Council}
+\fi
+
+%================================================================== BOOKS ======
+\cvsection{Books}
+\begin{refsegment}
+\nocite{thomas2017a,bizzarri2012}
+\printbibliography[segment=1,env=timeline,heading=none]
+\end{refsegment}
+
+\cvsection{Book Chapters}
+\begin{refsegment}
+\nocite{thomas2022a,thomas2022b}
+\printbibliography[segment=2,env=timeline,heading=none]
+\end{refsegment}
+
+%================================= PUBLICATIONS =======
+\iffull
+  \cvsection{Publications}
+
+  {\hspace*{-\secindent}\hdmed\color{gray}\bfseries\itshape In Preparation}\par\vspace{3pt}
+  \begin{refsegment}
+  \nocite{kheirdast2026, garagash2026, gupta2026, fan2026, momoh2026, bhagat2026a, bhagat2026b}
+  \printbibliography[segment=3,env=timeline,heading=none]
+  \end{refsegment}
+
+  \vspace{5pt}
+  {\hspace*{-\secindent}\hdmed\color{gray}\bfseries\itshape  Under Review}\par\vspace{3pt}
+  \begin{refsegment}
+  \nocite{zhou2026c, yao2026, thomas2026, cheng2026, zhou2026, wang2026}
+  \printbibliography[segment=4,env=timeline,heading=none]
+  \end{refsegment}
+
+  \vspace{5pt}{\hspace*{-\secindent}\hdmed\color{gray}\bfseries\itshape  Published}\par\vspace{3pt}
+  \begin{refsegment}
+  \nocite{almakari2026, melkior2026b, michel2026, latour2025, cheng2025, momoh2025, ferry2025, petit2024, jeandet2023a,
+    marty2022, amlani2022, jara2021, elbanna2021, bhat2021, jeandet2020, jolivet2020,
+    okubo2020, okubo2019, marty2019, aubry2018, klinger2018, cruz2018, thomas2018a,
+    romanet2018, gabuchian2017, thomas2017b, passelegue2017, perol2016, passelegue2016b,
+    mello2016, vallage2015, frank2015, siriki2015, mello2014, passelegue2013, bhat2012,
+    bhat2011a, bhat2010a, biegel2010, mello2010, templeton2010, harris2009, sammis2009,
+    templeton2009, dunham2008a, bhat2007a, bhat2007b, bhat2007c, fliss2005, bhat2004}
+  \printbibliography[segment=5,env=timeline,heading=none]
+  \end{refsegment}
+\else
+  \cvsection{Selected Publications}
+  \begin{refsegment}
+  \nocite{latour2025, cheng2025, almakari2026, amlani2022, elbanna2021,
+    romanet2018, gabuchian2017, passelegue2013, bhat2007a}
+  \printbibliography[segment=3,env=timeline,heading=none]
+  \end{refsegment}
+  \vspace{4pt}
+  {\footnotesize\color{muted}Full publication list at \href{https://harshasbhat.github.io}{harshasbhat.github.io}.}
+\fi
+\end{document}
