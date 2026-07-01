@@ -1,4 +1,12 @@
 news:
+    - hl: New paper submitted on Intraplate eartquake swarms 
+      txt: A High-Resolution Earthquake Catalog Reveals Coupled Fault Interactions and Multiple Controls on Seismicity Migration in an Intraplate Earthquake Swarm
+      closing: ""
+      pdf: BhagatBhattacharyaSreejith2026a.pdf
+      readmore: 
+      image: pubimages/yishuotides.png
+      new: true
+      type:         article
     - hl: New paper submitted on Tidal sensitivity of tremors 
       txt: Tidal sensitivity in a mixed fast and slow earthquake system in northeastern Japan
       closing: ""
