@@ -1,9 +1,7 @@
-%      \fulltrue   = complete long-form CV 
-%      \fullfalse  = condensed ~2-page CV %==========================================================================
+%==========================================================================
+%   Uncomment (the first %) the following line to use with Texshop
+%   % !TEX TS-program = xelatexmk
 \documentclass[10pt]{article}
-
-\newif\iffull
-\fulltrue   
 
 \usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2.cm]{geometry}
 
@@ -143,12 +141,12 @@
 }
 
 \newcommand{\success}[4]{\grantrow{#1}{#2}{``#3''}{#4}}
-% failures: greyed throughout (date included) and shown only in the full CV.
+% failures: greyed throughout (date included).
 % Prefixing the year with \color overrides the \color{accent} inside \daterow.
-\newcommand{\fail}[4]{\iffull
+\newcommand{\fail}[4]{%
   \begingroup\renewcommand{\ctytint}{black!45}%
     \grantrow{\color{black!45}#1}{\color{black!45}#2}{\color{black!45}#3}{\color{black!45}#4}%
-  \endgroup\fi}    
+  \endgroup}    
 
 %================ header ======
 \begin{document}
@@ -171,7 +169,7 @@
 \end{minipage}
 
 \vspace{-2pt}
-\noindent{\color{muted}\rule{\linewidth}{0.01pt}}
+\noindent{\color{muted}\rule{\linewidth}{0.0pt}}
 
 %================================================================ EDUCATION ====
 \cvsection{Education}
@@ -192,16 +190,12 @@
 \cvsection{Past Positions}
 \daterow{2022 -- 2026}{{Professeur chargé de cours} — École Polytechnique, France}
 \daterow{2016 -- 2024}{Chargé de recherche CNRS — École Normale Supérieure, France}
-\iffull
 \daterow{2021 -- 2023}{Visiting Professor — NISER, India}
-\fi
 \daterow{2012 -- 2016}{Chargé de recherche CNRS — Institut de Physique du Globe de Paris, France}
 \daterow{2010 -- 2011}{Assistant Professor (Research) — University of Southern California, USA}
-\iffull
 \daterow{2007 -- 2010}{Post-Doctoral Fellow — University of Southern California, USA}
 \daterow{2007 -- 2010}{Visitor in Aeronautics — California Institute of Technology, USA}
 \daterow{2007 -- 2007}{Post-Doctoral Fellow — Harvard University, USA}
-\fi
 \daterow{2001 -- 2007}{Graduate Research Associate — Harvard University, USA}
 
 %================================================================== FUNDING ===
@@ -278,11 +272,8 @@
 \cvsection{Honors \& Awards}
 \daterow{2018}{Grand Prix Michel Gouilloud Schlumberger — French Academy of Sciences}
 \daterow{2018}{CNRS Award for Doctoral Supervision and Research}
-\iffull
 \daterow{2003 -- 2006}{Harvard University Certificate of Distinction in Teaching (2003, 2004, 2006)}
-\fi
 
-\iffull
 %================================================================ STUDENTS =====
 \cvsection{Students \hfill {\scriptsize\it\MakeLowercase{   $\ast\to$ current students }}}
 
@@ -317,9 +308,6 @@
 \daterow{2008 -- 2013}{Jonathan Mihaly (USA) \hfill \now{Jet Propulsion Laboratory}}
 \daterow{2007 -- 2012}{Michael Mello (USA) \hfill \now{Teaching Professor, Caltech}}
 
-% \vspace{5pt}{\hdmed\color{gray}\bfseries\itshape Undergraduate \& Masters Interns}\par\vspace{3pt}
-% {Valentin Marnat (2022) \,\textcolor{rule}{\textbar}\, Roxane Ferry (2019, 2021) \,\textcolor{rule}{\textbar}\, Jinhui Cheng (2020) \,\textcolor{rule}{\textbar}\, Phillipe Danre (2017, 2019) \,\textcolor{rule}{\textbar}\, Hugo Lestrelin (2019) \,\textcolor{rule}{\textbar}\, Nicolas Mercury (2018) \,\textcolor{rule}{\textbar}\, Luc Illien (2018) \,\textcolor{rule}{\textbar}\, Eleni Kolokytha (2015) \,\textcolor{rule}{\textbar}\, Victor Barolle (2015) \,\textcolor{rule}{\textbar}\, Kurama Okubo (2014) \,\textcolor{rule}{\textbar}\, Thibaut Perol (2013) \,\textcolor{rule}{\textbar}\, Lucile Bruhat (2012) \,\textcolor{rule}{\textbar}\, Marion Olives (2004) \,\textcolor{rule}{\textbar}\, Sonia Fliss (2003)}
-
 \vspace{5pt}{\hdmed\color{gray}\bfseries\itshape Undergraduate \& Masters Interns}\par\vspace{-6pt}
 
 \newcommand{\intern}[2]{\noindent\hspace{\secindent}%
@@ -347,15 +335,6 @@
 \intern{2003}{Sonia Fliss}
 \end{multicols}
 
-\else
-%--- compact summary of supervision instead of full rosters ---
-\cvsection{Supervision}
-\daterow{Postdocs}{9 postdoctoral associates \;\textcolor{rule}{\textbar}\; placements incl.\ UNAM, Caltech, AXA, Univ.\ de Rennes}
-\daterow{PhD}{16 doctoral students \;\textcolor{rule}{\textbar}\; placements incl.\ Caltech, NIED, BRGM, GeoAzur, JPL}
-\daterow{Interns}{14 undergraduate \& Masters interns}
-\fi
-
-\iffull
 %================================================================ TEACHING =====
 \cvsection{Teaching}
 {\hdmed\color{gray}\bfseries\itshape Current — École Normale Supérieure}\par\vspace{3pt}
@@ -380,7 +359,6 @@
 
 \cvsection{Reviewing Activities}
 {American Geophysical Union \,\textcolor{rule}{\textbar}\, Seismological Society of America \,\textcolor{rule}{\textbar}\, Science \,\textcolor{rule}{\textbar}\, Nature \,\textcolor{rule}{\textbar}\, Nature Communications \,\textcolor{rule}{\textbar}\, Nature Geoscience \,\textcolor{rule}{\textbar}\, Science Advances \,\textcolor{rule}{\textbar}\, Proceedings of the National Academy of Sciences \,\textcolor{rule}{\textbar}\, Journal of the Mechanics and Physics of Solids \,\textcolor{rule}{\textbar}\, European Journal of Mechanics -- A/Solids \,\textcolor{rule}{\textbar}\, International Journal of Fracture \,\textcolor{rule}{\textbar}\, Earth and Planetary Science Letters \,\textcolor{rule}{\textbar}\, Geophysical Research Letters \,\textcolor{rule}{\textbar}\, Journal of Structural Geology \,\textcolor{rule}{\textbar}\, Geology \,\textcolor{rule}{\textbar}\, Geophysical Journal International \,\textcolor{rule}{\textbar}\, Journal of Applied Mechanics \,\textcolor{rule}{\textbar}\, Geological Society of America \,\textcolor{rule}{\textbar}\, National Science Foundation \,\textcolor{rule}{\textbar}\, European Research Council}
-\fi
 
 %================================================================== BOOKS ======
 \cvsection{Books}
@@ -396,41 +374,30 @@
 \end{refsegment}
 
 %================================= PUBLICATIONS =======
-\iffull
-  \cvsection{Publications}
+\cvsection{Publications}
 
-  {\hspace*{-\secindent}\hdmed\color{gray}\bfseries\itshape In Preparation}\par\vspace{3pt}
-  \begin{refsegment}
-  \nocite{kheirdast2026, garagash2026, gupta2026b, gupta2026a, fan2026, momoh2026b, momoh2026a, bhagat2026b,bhagat2026a, yao2026b}
-  \printbibliography[segment=3,env=timeline,heading=none]
-  \end{refsegment}
+{\hspace*{-\secindent}\hdmed\color{gray}\bfseries\itshape In Preparation}\par\vspace{3pt}
+\begin{refsegment}
+\nocite{kheirdast2026, garagash2026, gupta2026b, gupta2026a, fan2026, momoh2026b, momoh2026a, bhagat2026b,bhagat2026a, yao2026b}
+\printbibliography[segment=3,env=timeline,heading=none]
+\end{refsegment}
 
-  \vspace{5pt}
-  {\hspace*{-\secindent}\hdmed\color{gray}\bfseries\itshape  Under Review}\par\vspace{3pt}
-  \begin{refsegment}
-  \nocite{zhou2026c, yao2026, thomas2026, cheng2026, zhou2026, wang2026}
-  \printbibliography[segment=4,env=timeline,heading=none]
-  \end{refsegment}
+\vspace{5pt}
+{\hspace*{-\secindent}\hdmed\color{gray}\bfseries\itshape  Under Review}\par\vspace{3pt}
+\begin{refsegment}
+\nocite{zhou2026c, yao2026, thomas2026, cheng2026, zhou2026, wang2026}
+\printbibliography[segment=4,env=timeline,heading=none]
+\end{refsegment}
 
-  \vspace{5pt}{\hspace*{-\secindent}\hdmed\color{gray}\bfseries\itshape  Published}\par\vspace{3pt}
-  \begin{refsegment}
-  \nocite{almakari2026, melkior2026b, michel2026, latour2025, cheng2025, momoh2025, ferry2025, petit2024, jeandet2023a,
-    marty2022, amlani2022, jara2021, elbanna2021, bhat2021, jeandet2020, jolivet2020,
-    okubo2020, okubo2019, marty2019, aubry2018, klinger2018, cruz2018, thomas2018a,
-    romanet2018, gabuchian2017, thomas2017b, passelegue2017, perol2016, passelegue2016b,
-    mello2016, vallage2015, frank2015, siriki2015, mello2014, passelegue2013, bhat2012,
-    bhat2011a, bhat2010a, biegel2010, mello2010, templeton2010, harris2009, sammis2009,
-    templeton2009, dunham2008a, bhat2007a, bhat2007b, bhat2007c, fliss2005, bhat2004}
-  \printbibliography[segment=5,env=timeline,heading=none]
-  \end{refsegment}
-\else
-  \cvsection{Selected Publications}
-  \begin{refsegment}
-  \nocite{latour2025, cheng2025, almakari2026, amlani2022, elbanna2021,
-    romanet2018, gabuchian2017, passelegue2013, bhat2007a}
-  \printbibliography[segment=3,env=timeline,heading=none]
-  \end{refsegment}
-  \vspace{4pt}
-  {\footnotesize\color{muted}Full publication list at \href{https://harshasbhat.github.io}{harshasbhat.github.io}.}
-\fi
+\vspace{5pt}{\hspace*{-\secindent}\hdmed\color{gray}\bfseries\itshape  Published}\par\vspace{3pt}
+\begin{refsegment}
+\nocite{almakari2026, melkior2026b, michel2026, latour2025, cheng2025, momoh2025, ferry2025, petit2024, jeandet2023a,
+  marty2022, amlani2022, jara2021, elbanna2021, bhat2021, jeandet2020, jolivet2020,
+  okubo2020, okubo2019, marty2019, aubry2018, klinger2018, cruz2018, thomas2018a,
+  romanet2018, gabuchian2017, thomas2017b, passelegue2017, perol2016, passelegue2016b,
+  mello2016, vallage2015, frank2015, siriki2015, mello2014, passelegue2013, bhat2012,
+  bhat2011a, bhat2010a, biegel2010, mello2010, templeton2010, harris2009, sammis2009,
+  templeton2009, dunham2008a, bhat2007a, bhat2007b, bhat2007c, fliss2005, bhat2004}
+\printbibliography[segment=5,env=timeline,heading=none]
+\end{refsegment}
 \end{document}

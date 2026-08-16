@@ -20,3 +20,5 @@ pages/cv/cv.tex
 *.bcf
 pages/cv/cv.tex
 pages/cv/cv.fdb_latexmk
+pages/cv/cv.fls
+pages/cv/cv.tex
