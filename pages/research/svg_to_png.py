@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
 """
-svg_to_png.py — convert SVG files to PNG via real Chromium (Playwright).
+svg_to_png.py — convert SVG files to PNG via real Chromium.
 
 Exists as its own step because ImageMagick's SVG rendering (and wkhtmltoimage,
 and macOS's sips/Preview) have all been confirmed to mishandle textPath and
 marker elements on this diagram — silently dropping curved labels or arrows
 rather than erroring. This script only does rasterization; hand the PNGs to
 ImageMagick (or anything else) for GIF assembly, compositing, etc.
+
+Rendering itself is delegated to energy_budget_svg.svg_to_png() — the single
+canonical implementation (Playwright Python API, falling back automatically
+to the `playwright` CLI if the API isn't importable, e.g. under a `pipx`
+install). Kept in one place so this script and master.py can't drift out of
+sync with each other, which happened once during development.
 
 Usage:
     python3 svg_to_png.py stage*.svg
@@ -17,24 +23,17 @@ import argparse
 import glob
 import os
 import sys
-from playwright.sync_api import sync_playwright
+
+import energy_budget_svg as ebs
 
 
 def convert(svg_paths, viewport=(900, 1100), scale=2):
     png_paths = []
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        page = browser.new_page(
-            viewport={"width": viewport[0], "height": viewport[1]},
-            device_scale_factor=scale,
-        )
-        for svg_path in svg_paths:
-            png_path = os.path.splitext(svg_path)[0] + ".png"
-            page.goto(f"file://{os.path.abspath(svg_path)}")
-            page.screenshot(path=png_path)
-            png_paths.append(png_path)
-            print(f"  {svg_path} -> {png_path}")
-        browser.close()
+    for svg_path in svg_paths:
+        png_path = os.path.splitext(svg_path)[0] + ".png"
+        ebs.svg_to_png(svg_path, png_path, viewport=viewport, scale=scale)
+        png_paths.append(png_path)
+        print(f"  {svg_path} -> {png_path}")
     return png_paths
 
 
