@@ -4,15 +4,7 @@
 # Order here does not matter — the page always sorts by year (newest first).
 #
 # ── Articles ─────────────────────────────────────────────────────────────────
-#fan2026
-#momoh2026a
-#momoh2026b
-#bhagat2026a 
-#bhagat2026b 
-#kheirdast2026 
-#garagash2026 
-#gupta2026a
-#gupta2026b
+momoh2026b
 bhagat2026a 
 zhou2026c
 yao2026
