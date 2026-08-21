@@ -1,4 +1,20 @@
 news:
+    - hl: New paper on tectonic origin of volcanism
+      txt: Far-field Africa-Eurasia compression can localize deformational heating near the Moho, offering a tectonic origin for Massif Central and Eifel volcanism.
+      closing: ""
+      pdf: MomohTaitBhat2026d.pdf
+      readmore: 
+      image: pubimages/eke3.jpg
+      new: true
+      type:         article
+    - hl: New paper explaining Lesser Antilles topography
+      txt: Plate buckling and deformational heating during subduction initiation produce a Moho-level thermal anomaly explaining Lesser Antilles topography and arc location.
+      closing: ""
+      pdf: MomohTaitBhat2026b.pdf
+      readmore: 
+      image: pubimages/eke2.png
+      new: true
+      type:         article
     - hl: New paper submitted on Intraplate eartquake swarms 
       txt: A High-Resolution Earthquake Catalog Reveals Coupled Fault Interactions and Multiple Controls on Seismicity Migration in an Intraplate Earthquake Swarm
       closing: ""
@@ -13,7 +29,6 @@ news:
       pdf: ZhouAochiSchubnel2026a.pdf
       readmore: 
       image: pubimages/yishuotides.png
-      new: true
       type:         article
     - hl: "Welcome to the group Mingqi!"
       txt: "Minqi Liu will start his postdoc with Jean-Arthur Olive and myself in May 2026. We are very happy to have you Mingqi!"
@@ -21,7 +36,6 @@ news:
       image: team/mingqi.jpg
       readmore:
       closing: 
-      new: true
     - hl: Two new papers accepted on Digital Twin of a fault zone and Tsunami modeling
       txt: Check out the papers by Almakari et al. (2026) and Melkior et al. (2026) in my Publications page.
       closing: ""
