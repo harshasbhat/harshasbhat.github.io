@@ -35,7 +35,7 @@ postdoc:
 phd:
     - name: "Bharath Shanmugasundaram"
       image: bharath.jpg
-      web:
+      web: https://www.semanticscholar.org/author/B.-Shanmugasundaram/35035851?year%5B0%5D=2020&year%5B1%5D=2024&fos%5B0%5D=geology&fos%5B1%5D=engineering&sort=influence
       email:
       post: PhD Canidate
       dates: October 2024
@@ -43,7 +43,7 @@ phd:
       funded: 1
     - name: "Yishuo Zhou"
       image: yishuo.jpg
-      web:
+      web: https://www.semanticscholar.org/author/Yishuo-Zhou/2409594664
       email:
       post: PhD Canidate
       dates: February 2024
@@ -51,7 +51,7 @@ phd:
       funded: 1
     - name: "Caiyuan Fan"
       image: caiyuan.jpg
-      web: https://www.researchgate.net/profile/Caiyuan-Fan
+      web: https://www.semanticscholar.org/author/Caiyuan-Fan/2350337167
       email:
       post: PhD Canidate
       dates: November 2023
@@ -59,7 +59,7 @@ phd:
       funded: 1
     - name: "Thomas Melkior"
       image: melkior.jpg
-      web: https://fr.linkedin.com/in/thomas-melkior-6a197a19a
+      web: https://www.semanticscholar.org/author/Thomas-Melkior/2217819888
       email:
       post: PhD Canidate
       dates: December 2023

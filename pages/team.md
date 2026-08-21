@@ -91,7 +91,10 @@ title:
 	
 		<img src="{{ base }}/images/team/pierpaolo.png" width="125px">
 
-		<span style="font-size:90%; font-weight:bold">Pierpaolo Dubernet</span>
+		<a href="https://scholar.google.com/citations?hl=fr&user=TGM0uh0AAAAJ&view_op=list_works&sortby=pubdate">
+			<span style="font-size:90%; font-weight:bold">Pierpaolo Dubernt</span>
+		</a>
+
 	
 </div> 
 </div>

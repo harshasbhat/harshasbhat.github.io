@@ -57,16 +57,17 @@
     object-fit:contain;object-position:center;
     display:block;
   }
-  #{{ cid }} .cc-caption{
+#{{ cid }} .cc-caption{
     position:absolute;left:0;right:0;bottom:0;
-    padding:.6rem 1rem 2.2rem;
+    padding:.6rem 1rem;
+    padding-bottom: calc(40px + 6px + 6px + .6rem); /* thumb height + top/bottom padding of strip + breathing room */
     color:#fff;
     background:linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,0));
     font-size:.9rem;
     text-shadow:0 1px 2px rgba(0,0,0,.5);
     pointer-events:none;
+    z-index:1;
   }
-
   /* keyframes: each slide visible for 1/{{ n }} of the loop, then hidden */
   @keyframes cc-fade-{{ cid }}{
         0%          { opacity: 0 }
@@ -117,20 +118,27 @@
      when nothing is checked (auto-play), we still show a pair that lets you
      jump into manual mode at slide 1's neighbours. */
   #{{ cid }} .cc-arrows{position:absolute;inset:0;pointer-events:none;z-index:2}
-  #{{ cid }} .cc-arrow{
+#{{ cid }} .cc-arrow{
     pointer-events:auto;
-    position:absolute;top:50%;transform:translateY(-50%);
-    width:38px;height:38px;
+    position:absolute;top:0;bottom:0;
+    width:15%;
+    min-width:44px;
+    max-width:70px;
     display:none;
-    align-items:center;justify-content:center;
-    background:rgba(0,0,0,.35);
-    color:#fff;font:18px/1 system-ui,sans-serif;
-    border-radius:50%;cursor:pointer;user-select:none;
+    align-items:center;
+    color:#fff;font:22px/1 system-ui,sans-serif;
+    cursor:pointer;user-select:none;
+    background:linear-gradient(to right, rgba(0,0,0,.25), rgba(0,0,0,0));
     transition:background .2s;
   }
-  #{{ cid }} .cc-arrow:hover{background:rgba(0,0,0,.6)}
-  #{{ cid }} .cc-arrow.prev{left:14px}
-  #{{ cid }} .cc-arrow.next{right:14px}
+  #{{ cid }} .cc-arrow.prev{
+    left:0;justify-content:flex-start;padding-left:10px;
+  }
+  #{{ cid }} .cc-arrow.next{
+    right:0;justify-content:flex-end;padding-right:10px;
+    background:linear-gradient(to left, rgba(0,0,0,.25), rgba(0,0,0,0));
+  }
+  #{{ cid }} .cc-arrow:hover{background-color:rgba(0,0,0,.15)}
 
   /* auto-play state: show the "default" arrow pair (jumps to slides N and 2) */
   #{{ cid }}:not(:has(input:checked)) .cc-arrow.cc-default{display:flex}
@@ -144,6 +152,45 @@
     {%- if next > n %}{% assign next = 1 %}{% endif -%}
   #{{ cid }}-{{ idx }}:checked ~ .cc-arrows .cc-arrow[data-for="{{ idx }}"]{display:flex}
   {%- endfor %}
+
+    /* thumbnail strip */
+  #{{ cid }} .cc-thumbs{
+    position:absolute;left:0;right:0;bottom:0;
+    display:flex;gap:6px;
+    padding:6px 8px;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+    z-index:5;
+    background:linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,0) 100%);
+    scrollbar-width:thin;
+  }
+  #{{ cid }} .cc-thumb{
+    flex:0 0 auto;
+    width:56px;height:40px;
+    border-radius:4px;
+    overflow:hidden;
+    cursor:pointer;
+    opacity:.55;
+    border:2px solid transparent;
+    transition:opacity .2s, border-color .2s;
+  }
+  #{{ cid }} .cc-thumb img{
+    width:100%;height:100%;object-fit:cover;display:block;
+  }
+  #{{ cid }} .cc-thumb:hover{opacity:.85}
+  {%- for p in photos %}
+  #{{ cid }}-{{ forloop.index }}:checked ~ .cc-thumbs .cc-thumb:nth-child({{ forloop.index }}){
+    opacity:1;border-color:#fff;
+  }
+  {%- endfor %}
+
+@media (max-width:600px){
+    #{{ cid }} .cc-thumb{width:44px;height:32px}
+    #{{ cid }} .cc-caption{
+      padding-bottom: calc(32px + 6px + 6px + .5rem);
+      font-size:.8rem;
+    }
+  }
 
   /* responsive */
   @media (max-width:600px){
@@ -203,4 +250,50 @@
            aria-label="Go to photo {{ forloop.index }}"></label>
     {%- endfor %}
   </div>
+
+    <div class="cc-thumbs" role="tablist" aria-label="Jump to photo">
+    {%- for p in photos %}
+    <label class="cc-thumb" for="{{ cid }}-{{ forloop.index }}"
+           aria-label="Go to photo {{ forloop.index }}">
+      <img src="{{ site.baseurl }}/images/team/{{ p.image }}"
+           alt="{{ p.alt | default: p.caption | default: 'thumbnail' }}"
+           loading="lazy">
+    </label>
+    {%- endfor %}
+  </div>
+
+<script>
+  (function(){
+    var el = document.getElementById("{{ cid }}");
+    if (!el) return;
+    var startX = 0, startY = 0, threshold = 40;
+
+    el.addEventListener("touchstart", function(e){
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+    }, {passive: true});
+
+    el.addEventListener("touchend", function(e){
+      var dx = e.changedTouches[0].clientX - startX;
+      var dy = e.changedTouches[0].clientY - startY;
+
+      if (Math.abs(dx) < threshold || Math.abs(dx) < Math.abs(dy)) return;
+
+      var radios = el.querySelectorAll('input[name="{{ cid }}-state"]');
+      var n = radios.length;
+      var current = -1;
+      radios.forEach(function(r, i){ if (r.checked) current = i; });
+      if (current === -1) current = 0;
+
+      var next;
+      if (dx < 0) {
+        next = (current + 1) % n;
+      } else {
+        next = (current - 1 + n) % n;
+      }
+      radios[next].checked = true;
+    }, {passive: true});
+  })();
+  </script>
+
 </div>
