@@ -516,8 +516,9 @@ def build_diagram(width=800, height=980, highlight_A=None, highlight_B=None,
         center = cimg
     else:
         center = (
-            f'<text x="{cx}" y="{cy-6}" font-family="Helvetica" font-weight="600" font-size="15" fill="#EDEAE2" text-anchor="middle">Observable</text>\n'
-            f'<text x="{cx}" y="{cy+14}" font-family="Helvetica" font-weight="600" font-size="15" fill="#EDEAE2" text-anchor="middle">Energy Budget</text>'
+            f'<text x="{cx}" y="{cy-6}" font-family="Helvetica" font-weight="600" font-size="15" fill="#0d0d0d" text-anchor="middle">Observable</text>\n'
+            f'<text x="{cx}" y="{cy+12}" font-family="Helvetica" font-weight="600" font-size="15" fill="#0d0d0d" text-anchor="middle">Energy Budget</text>'
+            f'<text x="{cx}" y="{cy+30}" font-family="Helvetica" font-weight="600" font-size="15" fill="#0d0d0d" text-anchor="middle">Fault System</text>'
         )
 
     # Tight crop: the diagram is radially symmetric around (cx, cy), so the

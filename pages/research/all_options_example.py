@@ -48,7 +48,7 @@ e.SEGMENT_IMAGES.update(MASTER_IMAGES)
 e.CENTER_IMAGE = DUMMY
 
 # --- The one flag ---
-SHOW_IMAGES = True   # False = no Ring B images render at all, regardless of MASTER_IMAGES
+SHOW_IMAGES = False   # False = no Ring B images render at all, regardless of MASTER_IMAGES
 
 # --- The sequence to render. Only ids listed here can ever show an image —
 # --- an id in MASTER_IMAGES that's NOT in SEQUENCE_IDS never appears. ---
@@ -59,64 +59,64 @@ SEQUENCE_IDS = ['potential', 'radiated', 'dissipated', 'offfault_damage', 'sourc
 # 1. Full diagram — every Ring B id that's ever going to matter, fully
 #    highlighted, images shown per SHOW_IMAGES. SVG + matching PNG.
 # ============================================================================
-svg1 = e.build_diagram(
-    highlight_B=set(SEQUENCE_IDS) & e.ALL_IDS_B,
-    show_images=(set(SEQUENCE_IDS) & set(MASTER_IMAGES)) if SHOW_IMAGES else None,
-)
-svg1_path, png1_path = e.save_diagram(svg1, 'opt_1_full', base_dir=OUTPUT_DIR)
+# svg1 = e.build_diagram(
+#     highlight_B=set(SEQUENCE_IDS) & e.ALL_IDS_B,
+#     show_images=(set(SEQUENCE_IDS) & set(MASTER_IMAGES)) if SHOW_IMAGES else None,
+# )
+# svg1_path, png1_path = e.save_diagram(svg1, 'opt_1_full', base_dir=OUTPUT_DIR)
 
-# ============================================================================
-# 2. Sequential (staged) rendering — images_follow_sequence ties each image
-#    to the exact stage its own id is called, per SHOW_IMAGES.
-#    Every stage gets both an SVG and a matching PNG automatically.
-# ============================================================================
-svg_paths, png_paths = e.render_sequence(
-    SEQUENCE_IDS, prefix='opt_2_seq_',
-    images_follow_sequence=SHOW_IMAGES,
-    base_dir=OUTPUT_DIR,
-)
+# # ============================================================================
+# # 2. Sequential (staged) rendering — images_follow_sequence ties each image
+# #    to the exact stage its own id is called, per SHOW_IMAGES.
+# #    Every stage gets both an SVG and a matching PNG automatically.
+# # ============================================================================
+# svg_paths, png_paths = e.render_sequence(
+#     SEQUENCE_IDS, prefix='opt_2_seq_',
+#     images_follow_sequence=SHOW_IMAGES,
+#     base_dir=OUTPUT_DIR,
+# )
 
-# ============================================================================
-# 3. GIF version of 2. (Reuses the PNGs render_sequence already made — no
-#    duplicate rendering.)
-# ============================================================================
-gif3_path = e.render_gif(
-    SEQUENCE_IDS, gif_name='opt_3_sequence', prefix='opt_3_seq_',
-    images_follow_sequence=SHOW_IMAGES,
-    base_dir=OUTPUT_DIR,
-)
+# # ============================================================================
+# # 3. GIF version of 2. (Reuses the PNGs render_sequence already made — no
+# #    duplicate rendering.)
+# # ============================================================================
+# gif3_path = e.render_gif(
+#     SEQUENCE_IDS, gif_name='opt_3_sequence', prefix='opt_3_seq_',
+#     images_follow_sequence=SHOW_IMAGES,
+#     base_dir=OUTPUT_DIR,
+# )
 
-# ============================================================================
-# 4. Step 3, center replaced by an IMAGE.
-# ============================================================================
-gif4_path = e.render_gif(
-    SEQUENCE_IDS, gif_name='opt_4_sequence_center_image', prefix='opt_4_seq_',
-    images_follow_sequence=SHOW_IMAGES,
-    show_center_image=True,
-    base_dir=OUTPUT_DIR,
-)
+# # ============================================================================
+# # 4. Step 3, center replaced by an IMAGE.
+# # ============================================================================
+# gif4_path = e.render_gif(
+#     SEQUENCE_IDS, gif_name='opt_4_sequence_center_image', prefix='opt_4_seq_',
+#     images_follow_sequence=SHOW_IMAGES,
+#     show_center_image=True,
+#     base_dir=OUTPUT_DIR,
+# )
 
-# ============================================================================
-# 5. Step 3, center replaced by TEXT.
-# ============================================================================
-gif5_path = e.render_gif(
-    SEQUENCE_IDS, gif_name='opt_5_sequence_center_text', prefix='opt_5_seq_',
-    images_follow_sequence=SHOW_IMAGES,
-    center_text=['Fault', 'Energy Budget'],
-    base_dir=OUTPUT_DIR,
-)
+# # ============================================================================
+# # 5. Step 3, center replaced by TEXT.
+# # ============================================================================
+# gif5_path = e.render_gif(
+#     SEQUENCE_IDS, gif_name='opt_5_sequence_center_text', prefix='opt_5_seq_',
+#     images_follow_sequence=SHOW_IMAGES,
+#     center_text=['Fault', 'Energy Budget'],
+#     base_dir=OUTPUT_DIR,
+# )
 
-# ============================================================================
-# 6. background_color — None (default) stays transparent; any CSS color
-#    gives an opaque background sized exactly to the auto-computed crop.
-# ============================================================================
+# # ============================================================================
+# # 6. background_color — None (default) stays transparent; any CSS color
+# #    gives an opaque background sized exactly to the auto-computed crop.
+# # ============================================================================
 svg6 = e.build_diagram(background_color='#FFFFFF')
-svg6_path, png6_path = e.save_diagram(svg6, 'opt_6_background_white', base_dir=OUTPUT_DIR)
+svg6_path, png6_path = e.save_diagram(svg6, 'energy_budget_diagram', base_dir=OUTPUT_DIR)
 
-print(f"Done. Output under: {OUTPUT_DIR}/{{svg,png,gif}}/")
-print(f"  1: {svg1_path}  +  {png1_path}")
-print(f"  2: {len(svg_paths)} staged SVGs + {len(png_paths)} matching PNGs")
-print(f"  3: {gif3_path}")
-print(f"  4: {gif4_path}")
-print(f"  5: {gif5_path}")
-print(f"  6: {svg6_path}  +  {png6_path}")
+# print(f"Done. Output under: {OUTPUT_DIR}/{{svg,png,gif}}/")
+# print(f"  1: {svg1_path}  +  {png1_path}")
+# print(f"  2: {len(svg_paths)} staged SVGs + {len(png_paths)} matching PNGs")
+# print(f"  3: {gif3_path}")
+# print(f"  4: {gif4_path}")
+# print(f"  5: {gif5_path}")
+# print(f"  6: {svg6_path}  +  {png6_path}")

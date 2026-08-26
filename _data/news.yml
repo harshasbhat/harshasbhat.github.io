@@ -56,7 +56,7 @@ news:
       closing:
       image: pubimages/tides.jpg
       closing: 
-      new: true
+      new: false
       pdf: 
       type:         article
       readmore: https://arxiv.org/pdf/2602.06703.pdf
