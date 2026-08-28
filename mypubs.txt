@@ -4,6 +4,7 @@
 # Order here does not matter — the page always sorts by year (newest first).
 #
 # ── Articles ─────────────────────────────────────────────────────────────────
+fan2026
 momoh2026a
 momoh2026b
 bhagat2026a 

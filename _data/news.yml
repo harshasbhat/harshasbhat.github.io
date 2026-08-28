@@ -1,4 +1,12 @@
 news:
+    - hl: New paper on laboratory ruptures
+      txt: We provide direct experimental evidence transition in fault weakening mechanisms due to fault structure evolution.
+      closing: ""
+      pdf: FanLinAubry2026a.pdf
+      readmore: 
+      image: pubimages/eke3.jpg
+      new: true
+      type:         article
     - hl: New paper on tectonic origin of volcanism
       txt: Far-field Africa-Eurasia compression can localize deformational heating near the Moho, offering a tectonic origin for Massif Central and Eifel volcanism.
       closing: ""
