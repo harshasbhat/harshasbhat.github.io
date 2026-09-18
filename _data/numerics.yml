@@ -1,0 +1,12 @@
+- { n: "1",  date: 2026-09-11, tag: Theory, topic: "Foundations — root-finding & time integration" }
+- { n: "2",  date: 2026-09-18, tag: Coding, topic: "Foundations" }
+- { n: "3",  date: 2026-10-09, tag: Theory, topic: "FD — thermal pressurization I" }
+- { n: "4",  date: 2026-10-16, tag: Coding, topic: "FD" }
+- { n: "5",  date: 2026-10-23, tag: Theory, topic: "FV — thermal pressurization II", vacances: true }
+- { n: "6",  date: 2026-10-30, tag: Coding, topic: "FV", vacances: true }
+- { n: "7",  date: 2026-11-06, tag: Theory, topic: "BEM — elastic interaction matrix" }
+- { n: "8",  date: 2026-11-13, tag: Coding, topic: "BEM" }
+- { n: "9",  date: 2026-11-20, tag: Theory, topic: "Coupling — mechanics + TP + dilatancy + adaptive integration" }
+- { n: "10", date: 2026-12-04, tag: Coding, topic: "Coupling" }
+- { n: "11", date: 2026-12-11, tag: Theory, topic: "Synthesis — multi-patch assembly & benchmarking" }
+- { n: "12", date: 2026-12-18, tag: Coding, topic: "Synthesis" }

@@ -1,0 +1,13 @@
+- { n: "1",  date: 2026-09-11, tag: Harsha,   topic: "Continuum Mechanics & Math Primer" }
+- { n: "2",  date: 2026-09-18, tag: Harsha,   topic: "Elastodynamics I: The Wave Equation" }
+- { n: "3",  date: 2026-10-09, tag: Harsha,   topic: "Elastodynamics II: Green's Functions & Representation Theorem" }
+- { n: "4",  date: 2026-10-16, tag: Pierre,   topic: "Far-Field Radiation & the Seismic Source" }
+- { n: "5",  date: 2026-10-23, tag: Pierre,   topic: "Kinematic Source Models", vacances: true }
+- { n: "6",  date: 2026-10-30, tag: Harsha,   topic: "Fracture Mechanics Fundamentals", vacances: true }
+- { n: "7",  date: 2026-11-06, tag: Harsha,   topic: "Friction Laws" }
+- { n: "8",  date: 2026-11-13, tag: Carolina, topic: "Laboratory Friction" }
+- { n: "9",  date: 2026-11-20, tag: Harsha,   topic: "The Dynamic Rupture Problem" }
+- { n: "10", date: 2026-12-04, tag: Harsha,   topic: "Supershear Rupture" }
+- { n: "11", date: 2026-12-11, tag: Harsha,   topic: "Slow-to-Fast Slip Spectrum" }
+- { n: "12", date: 2026-12-18, tag: Pierre,   topic: "Energy Budget & Statistical Seismicity" }
+- { n: "13", date: 2027-01-08, tag: "Carolina & Harsha", topic: "Laboratory Earthquakes" }

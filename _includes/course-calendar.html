@@ -1,0 +1,256 @@
+{% assign cal_id = include.id | default: "course-calendar" %}
+<div id="{{ cal_id }}" class="course-calendar"></div>
+
+<style>
+#{{ cal_id }} {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  max-width: 900px;
+  margin: 1.5em 0;
+}
+
+#{{ cal_id }} .cal-months {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5em;
+}
+
+#{{ cal_id }} .cal-month h4 {
+  margin: 0 0 0.5em;
+  font-size: 1em;
+  font-weight: 600;
+  color: #1a4d8f;
+  text-align: center;
+}
+
+#{{ cal_id }} table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85em;
+}
+
+#{{ cal_id }} th {
+  padding: 4px 2px;
+  text-align: center;
+  color: #888;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+#{{ cal_id }} td {
+  padding: 0;
+  text-align: center;
+  height: 34px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+#{{ cal_id }} td.session {
+  color: #fff;
+  font-weight: 600;
+  cursor: default;
+  position: relative;
+}
+
+#{{ cal_id }} td.session .session-num {
+  position: absolute;
+  top: 1px;
+  right: 3px;
+  font-size: 0.6em;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+#{{ cal_id }} td.empty {
+  color: transparent;
+}
+
+#{{ cal_id }} .cal-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2em;
+  margin-top: 1em;
+  font-size: 0.8em;
+  color: #555;
+}
+
+#{{ cal_id }} .cal-key span.swatch {
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 3px;
+  margin-right: 0.3em;
+  vertical-align: middle;
+}
+
+#{{ cal_id }} .cal-legend {
+  margin-top: 1.2em;
+  font-size: 0.85em;
+  line-height: 1.6;
+}
+
+#{{ cal_id }} .cal-legend .session-row {
+  display: flex;
+  gap: 0.6em;
+  align-items: baseline;
+  padding: 2px 0;
+}
+
+#{{ cal_id }} .cal-legend .num {
+  display: inline-block;
+  min-width: 1.6em;
+  height: 1.6em;
+  line-height: 1.6em;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+#{{ cal_id }} .cal-legend .tag-label {
+  color: #666;
+  font-size: 0.85em;
+}
+</style>
+
+<script>
+(function () {
+  const sessions = {{ include.sessions | jsonify }};
+  const vacancesColor = "{{ include.vacances_color | default: '#c0783a' }}";
+  const palette = {{ include.colors | jsonify | default: "[]" }};
+  const defaultPalette = ["#1a4d8f", "#2e7d32", "#7b3fa0", "#b0392b", "#0f7a8c"];
+
+  const byDate = {};
+  sessions.forEach(s => { byDate[s.date] = s; });
+
+  // assign a color per unique tag, in order of first appearance
+  const tagColors = {};
+  let paletteIdx = 0;
+  sessions.forEach(s => {
+    if (!tagColors[s.tag]) {
+      tagColors[s.tag] = (palette && palette.length)
+        ? (palette[Object.keys(tagColors).length] || defaultPalette[paletteIdx % defaultPalette.length])
+        : defaultPalette[paletteIdx % defaultPalette.length];
+      paletteIdx++;
+    }
+  });
+
+  function colorFor(s) {
+    return s.vacances ? vacancesColor : tagColors[s.tag];
+  }
+
+  function monthRange(list) {
+    const dates = list.map(s => new Date(s.date + "T00:00:00"));
+    const min = new Date(Math.min.apply(null, dates));
+    const max = new Date(Math.max.apply(null, dates));
+    const months = [];
+    let y = min.getFullYear(), m = min.getMonth();
+    while (y < max.getFullYear() || (y === max.getFullYear() && m <= max.getMonth())) {
+      months.push([y, m]);
+      m++;
+      if (m > 11) { m = 0; y++; }
+    }
+    return months;
+  }
+
+  const monthNames = ["January","February","March","April","May","June",
+    "July","August","September","October","November","December"];
+
+  function pad(n) { return n < 10 ? "0" + n : "" + n; }
+
+  function buildMonth(year, month) {
+    const wrap = document.createElement("div");
+    wrap.className = "cal-month";
+
+    const h4 = document.createElement("h4");
+    h4.textContent = monthNames[month] + " " + year;
+    wrap.appendChild(h4);
+
+    const table = document.createElement("table");
+    const thead = document.createElement("thead");
+    const headRow = document.createElement("tr");
+    ["S","M","T","W","T","F","S"].forEach(d => {
+      const th = document.createElement("th");
+      th.textContent = d;
+      headRow.appendChild(th);
+    });
+    thead.appendChild(headRow);
+    table.appendChild(thead);
+
+    const tbody = document.createElement("tbody");
+    const firstDay = new Date(year, month, 1).getDay();
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+    let day = 1;
+    for (let row = 0; row < 6 && day <= daysInMonth; row++) {
+      const tr = document.createElement("tr");
+      for (let col = 0; col < 7; col++) {
+        const td = document.createElement("td");
+        if ((row === 0 && col < firstDay) || day > daysInMonth) {
+          td.className = "empty";
+          td.textContent = "-";
+        } else {
+          const dateStr = year + "-" + pad(month + 1) + "-" + pad(day);
+          const session = byDate[dateStr];
+          if (session) {
+            td.className = "session";
+            td.style.backgroundColor = colorFor(session);
+            td.title = session.topic + " (" + session.tag + ")";
+            td.textContent = day;
+
+            const badge = document.createElement("span");
+            badge.className = "session-num";
+            badge.textContent = session.n;
+            td.appendChild(badge);
+          } else {
+            td.textContent = day;
+          }
+          day++;
+        }
+        tr.appendChild(td);
+      }
+      tbody.appendChild(tr);
+    }
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+    return wrap;
+  }
+
+  const root = document.getElementById("{{ cal_id }}");
+  const monthsWrap = document.createElement("div");
+  monthsWrap.className = "cal-months";
+  monthRange(sessions).forEach(([y, m]) => monthsWrap.appendChild(buildMonth(y, m)));
+  root.appendChild(monthsWrap);
+
+  const key = document.createElement("div");
+  key.className = "cal-key";
+  Object.keys(tagColors).forEach(tag => {
+    const span = document.createElement("span");
+    span.innerHTML = '<span class="swatch" style="background:' + tagColors[tag] + '"></span>' + tag;
+    key.appendChild(span);
+  });
+  if (sessions.some(s => s.vacances)) {
+    const span = document.createElement("span");
+    span.innerHTML = '<span class="swatch" style="background:' + vacancesColor + '"></span>Vacances';
+    key.appendChild(span);
+  }
+  root.appendChild(key);
+
+  const legend = document.createElement("div");
+  legend.className = "cal-legend";
+  sessions.forEach(s => {
+    const row = document.createElement("div");
+    row.className = "session-row";
+    const num = document.createElement("span");
+    num.className = "num";
+    num.style.backgroundColor = colorFor(s);
+    num.textContent = s.n;
+    const text = document.createElement("span");
+    text.innerHTML = s.topic + ' <span class="tag-label">— ' + s.tag + '</span>';
+    row.appendChild(num);
+    row.appendChild(text);
+    legend.appendChild(row);
+  });
+  root.appendChild(legend);
+})();
+</script>
