@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="91.0 230.0 618.0 618.0" width="618" height="618">
+
+<defs>
+<path id="curvelbl1" d="M 458.96 423.14 A 130.0 130.0 0 0 1 515.86 480.04" fill="none"/>
+<path id="curvelbl2" d="M 452.50 657.93 A 130.0 130.0 0 0 0 518.93 591.50" fill="none"/>
+<path id="curvelbl3" d="M 276.02 578.11 A 130.0 130.0 0 0 1 276.02 499.89" fill="none"/>
+<path id="curvelbl4" d="M 463.70 290.13 A 256.8925 256.8925 0 0 1 530.93 317.98" fill="none"/>
+<path id="curvelbl5" d="M 434.67 303.43 A 238.1075 238.1075 0 0 1 542.06 347.91" fill="none"/>
+<marker id="arrowhead0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5FB7C7"/></marker>
+<path id="curvelbl6" d="M 606.50 407.36 A 244.8925 244.8925 0 0 1 639.10 486.07" fill="none"/>
+<path id="curvelbl7" d="M 570.71 390.74 A 226.1075 226.1075 0 0 1 625.55 523.12" fill="none"/>
+<path id="curvelbl8" d="M 618.55 626.73 A 235.5 235.5 0 0 0 633.13 572.30" fill="none"/>
+<path id="curvelbl9" d="M 556.87 742.43 A 256.8925 256.8925 0 0 0 603.43 695.87" fill="none"/>
+<path id="curvelbl10" d="M 542.24 729.95 A 238.1075 238.1075 0 0 0 590.95 681.24" fill="none"/>
+<marker id="arrowhead1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#B83511"/></marker>
+<path id="curvelbl11" d="M 411.31 783.63 A 244.8925 244.8925 0 0 0 512.52 756.51" fill="none"/>
+<path id="curvelbl12" d="M 410.48 764.86 A 226.1075 226.1075 0 0 0 503.86 739.84" fill="none"/>
+<path id="curvelbl13" d="M 281.47 753.29 A 244.8925 244.8925 0 0 0 369.94 782.04" fill="none"/>
+<path id="curvelbl14" d="M 273.24 726.23 A 226.1075 226.1075 0 0 0 392.50 764.98" fill="none"/>
+<path id="curvelbl15" d="M 199.03 661.77 A 235.5 235.5 0 0 0 221.14 692.19" fill="none"/>
+<path id="curvelbl16" d="M 169.45 490.96 A 235.5 235.5 0 0 0 169.45 587.04" fill="none"/>
+<path id="curvelbl17" d="M 190.03 432.35 A 235.5 235.5 0 0 1 233.69 372.27" fill="none"/>
+<path id="curvelbl18" d="M 306.41 312.70 A 244.8925 244.8925 0 0 1 342.70 300.91" fill="none"/>
+<path id="curvelbl19" d="M 292.76 339.94 A 226.1075 226.1075 0 0 1 369.75 314.92" fill="none"/>
+
+</defs>
+<path d="M 405.58 379.10 A 160 160 0 0 1 559.90 533.42 L 499.94 535.51 A 100 100 0 0 0 403.49 439.06 Z" fill="#5FB7C7" fill-opacity="0.82" stroke="#f0f2f0" stroke-width="1"></path>
+<path d="M 559.90 544.58 A 160 160 0 0 1 405.58 698.90 L 403.49 638.94 A 100 100 0 0 0 499.94 542.49 Z" fill="#B83511" fill-opacity="0.82" stroke="#f0f2f0" stroke-width="1"></path>
+<path d="M 394.42 698.90 A 160 160 0 0 1 394.42 379.10 L 396.51 439.06 A 100 100 0 0 0 396.51 638.94 Z" fill="#177612" fill-opacity="0.82" stroke="#f0f2f0" stroke-width="1"></path>
+<path d="M 409.95 254.17 A 285.0 285.0 0 0 1 594.37 330.56 L 543.22 385.42 A 210 210 0 0 0 407.33 329.13 Z" fill="#5FB7C7" fill-opacity="0.65" stroke="#f0f2f0" stroke-width="1"><title>Source &amp; Ground Motion — radiation, attenuation</title></path>
+<path d="M 590.88 361.00 A 261.0 261.0 0 0 1 660.84 529.89 L 609.87 531.67 A 210 210 0 0 0 553.58 395.78 Z" fill="#82A9B3" fill-opacity="0.28" stroke="#f0f2f0" stroke-width="1"><title>Tsunami &amp; Far-Field Coupling — radiated → ocean</title></path>
+<path d="M 660.84 548.11 A 261.0 261.0 0 0 1 630.45 661.53 L 585.42 637.59 A 210 210 0 0 0 609.87 546.33 Z" fill="#A6756A" fill-opacity="0.28" stroke="#f0f2f0" stroke-width="1"><title>intensive properties</title></path>
+<path d="M 641.69 690.03 A 285.0 285.0 0 0 1 551.03 780.69 L 511.28 717.09 A 210 210 0 0 0 578.09 650.28 Z" fill="#B83511" fill-opacity="0.65" stroke="#f0f2f0" stroke-width="1"><title>geometry of dissipation</title></path>
+<path d="M 522.53 769.45 A 261.0 261.0 0 0 1 409.11 799.84 L 407.33 748.87 A 210 210 0 0 0 498.59 724.42 Z" fill="#A6756A" fill-opacity="0.28" stroke="#f0f2f0" stroke-width="1"><title>geodynamic</title></path>
+<path d="M 390.89 799.84 A 261.0 261.0 0 0 1 254.05 755.38 L 282.57 713.10 A 210 210 0 0 0 392.67 748.87 Z" fill="#668F6B" fill-opacity="0.28" stroke="#f0f2f0" stroke-width="1"><title>steady, assumed</title></path>
+<path d="M 239.31 744.67 A 261.0 261.0 0 0 1 154.74 628.27 L 202.66 610.82 A 210 210 0 0 0 270.71 704.48 Z" fill="#668F6B" fill-opacity="0.28" stroke="#f0f2f0" stroke-width="1"><title>Tidal loading</title></path>
+<path d="M 149.11 610.94 A 261.0 261.0 0 0 1 149.11 467.06 L 198.14 481.12 A 210 210 0 0 0 198.14 596.88 Z" fill="#668F6B" fill-opacity="0.28" stroke="#f0f2f0" stroke-width="1"><title>Hydrological loading</title></path>
+<path d="M 154.74 449.73 A 261.0 261.0 0 0 1 239.31 333.33 L 270.71 373.52 A 210 210 0 0 0 202.66 467.18 Z" fill="#668F6B" fill-opacity="0.28" stroke="#f0f2f0" stroke-width="1"><title>stress transfer, injection</title></path>
+<path d="M 254.05 322.62 A 261.0 261.0 0 0 1 390.89 278.16 L 392.67 329.13 A 210 210 0 0 0 282.57 364.90 Z" fill="#668F6B" fill-opacity="0.28" stroke="#f0f2f0" stroke-width="1"><title>stress redistribution</title></path>
+
+<line x1="463.53" y1="385.64" x2="476.35" y2="354.69" stroke="#5FB7C7" stroke-opacity="1.0" stroke-width="2" marker-end="url(#arrowhead0)"/>
+<line x1="517.38" y1="656.38" x2="541.07" y2="680.07" stroke="#B83511" stroke-opacity="1.0" stroke-width="2" marker-end="url(#arrowhead1)"/>
+<text font-family="Helvetica" font-weight="600" font-size="17" fill="#0E1013" fill-opacity="1.0" dominant-baseline="middle"><textPath href="#curvelbl1" startOffset="50%" text-anchor="middle">Radiated</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="17" fill="#0E1013" fill-opacity="1.0" dominant-baseline="middle"><textPath href="#curvelbl2" startOffset="50%" text-anchor="middle">Dissipated</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="17" fill="#0E1013" fill-opacity="1.0" dominant-baseline="middle"><textPath href="#curvelbl3" startOffset="50%" text-anchor="middle">Potential</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#EDEAE2" fill-opacity="1.0" dominant-baseline="middle"><textPath href="#curvelbl4" startOffset="50%" text-anchor="middle">Source &amp;</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#EDEAE2" fill-opacity="1.0" dominant-baseline="middle"><textPath href="#curvelbl5" startOffset="50%" text-anchor="middle">Ground Motion</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#BBBEBE" fill-opacity="0.45" dominant-baseline="middle"><textPath href="#curvelbl6" startOffset="50%" text-anchor="middle">Tsunami &amp;</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#BBBEBE" fill-opacity="0.45" dominant-baseline="middle"><textPath href="#curvelbl7" startOffset="50%" text-anchor="middle">Far-Field Coupling</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#BBBEBE" fill-opacity="0.45" dominant-baseline="middle"><textPath href="#curvelbl8" startOffset="50%" text-anchor="middle">Friction</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#EDEAE2" fill-opacity="1.0" dominant-baseline="middle"><textPath href="#curvelbl9" startOffset="50%" text-anchor="middle">Damage</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#EDEAE2" fill-opacity="1.0" dominant-baseline="middle"><textPath href="#curvelbl10" startOffset="50%" text-anchor="middle">Off-Fault</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#BBBEBE" fill-opacity="0.45" dominant-baseline="middle"><textPath href="#curvelbl11" startOffset="50%" text-anchor="middle">Viscous Flow</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#BBBEBE" fill-opacity="0.45" dominant-baseline="middle"><textPath href="#curvelbl12" startOffset="50%" text-anchor="middle">Long-Term /</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#BBBEBE" fill-opacity="0.45" dominant-baseline="middle"><textPath href="#curvelbl13" startOffset="50%" text-anchor="middle">/ Plate Rate</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#BBBEBE" fill-opacity="0.45" dominant-baseline="middle"><textPath href="#curvelbl14" startOffset="50%" text-anchor="middle">Constant Stress</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#BBBEBE" fill-opacity="0.45" dominant-baseline="middle"><textPath href="#curvelbl15" startOffset="50%" text-anchor="middle">Tidal</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#BBBEBE" fill-opacity="0.45" dominant-baseline="middle"><textPath href="#curvelbl16" startOffset="50%" text-anchor="middle">Hydrological</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#BBBEBE" fill-opacity="0.45" dominant-baseline="middle"><textPath href="#curvelbl17" startOffset="50%" text-anchor="middle">Transient</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#BBBEBE" fill-opacity="0.45" dominant-baseline="middle"><textPath href="#curvelbl18" startOffset="50%" text-anchor="middle">Fault</textPath></text>
+<text font-family="Helvetica" font-weight="600" font-size="14.45" fill="#BBBEBE" fill-opacity="0.45" dominant-baseline="middle"><textPath href="#curvelbl19" startOffset="50%" text-anchor="middle">Interaction</textPath></text>
+<text x="400.0" y="533.0" font-family="Helvetica" font-weight="600" font-size="15" fill="#0d0d0d" text-anchor="middle">Observable</text>
+<text x="400.0" y="553.0" font-family="Helvetica" font-weight="600" font-size="15" fill="#0d0d0d" text-anchor="middle">Energy Budget</text>
+</svg>

@@ -70,21 +70,21 @@ SEQUENCE_IDS = ['potential', 'radiated', 'dissipated', 'offfault_damage', 'sourc
 # #    to the exact stage its own id is called, per SHOW_IMAGES.
 # #    Every stage gets both an SVG and a matching PNG automatically.
 # # ============================================================================
-# svg_paths, png_paths = e.render_sequence(
-#     SEQUENCE_IDS, prefix='opt_2_seq_',
-#     images_follow_sequence=SHOW_IMAGES,
-#     base_dir=OUTPUT_DIR,
-# )
+svg_paths, png_paths = e.render_sequence(
+    SEQUENCE_IDS, prefix='opt_2_seq_',
+    images_follow_sequence=SHOW_IMAGES,
+    base_dir=OUTPUT_DIR,
+)
 
 # # ============================================================================
 # # 3. GIF version of 2. (Reuses the PNGs render_sequence already made — no
 # #    duplicate rendering.)
 # # ============================================================================
-# gif3_path = e.render_gif(
-#     SEQUENCE_IDS, gif_name='opt_3_sequence', prefix='opt_3_seq_',
-#     images_follow_sequence=SHOW_IMAGES,
-#     base_dir=OUTPUT_DIR,
-# )
+gif3_path = e.render_gif(
+    SEQUENCE_IDS, gif_name='opt_3_sequence', prefix='opt_3_seq_',
+    images_follow_sequence=SHOW_IMAGES,
+    base_dir=OUTPUT_DIR,
+)
 
 # # ============================================================================
 # # 4. Step 3, center replaced by an IMAGE.
