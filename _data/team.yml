@@ -37,7 +37,7 @@ phd:
       image: bharath.jpg
       web: https://www.semanticscholar.org/author/B.-Shanmugasundaram/35035851?year%5B0%5D=2020&year%5B1%5D=2024&fos%5B0%5D=geology&fos%5B1%5D=engineering&sort=influence
       email:
-      post: PhD Canidate
+      post: PhD Candidate
       dates: October 2024
       tweet:
       funded: 1
@@ -45,7 +45,7 @@ phd:
       image: yishuo.jpg
       web: https://ystdddtsv5v.github.io
       email:
-      post: PhD Canidate
+      post: PhD Candidate
       dates: February 2024
       tweet:
       funded: 1
@@ -53,7 +53,7 @@ phd:
       image: caiyuan.jpg
       web: https://www.semanticscholar.org/author/Caiyuan-Fan/2350337167
       email:
-      post: PhD Canidate
+      post: PhD Candidate
       dates: November 2023
       tweet:
       funded: 1
@@ -61,8 +61,13 @@ phd:
       image: melkior.jpg
       web: https://www.semanticscholar.org/author/Thomas-Melkior/2217819888
       email:
-      post: PhD Canidate
+      post: PhD Candidate
       dates: December 2023
       tweet:
       funded: 1
 masters:
+engineer:
+    - name: "Pierpaolo Dubernt"
+      image: pierpaolo.png
+      web: https://scholar.google.com/citations?hl=fr&user=TGM0uh0AAAAJ&view_op=list_works&sortby=pubdate
+      post: Research Engineer

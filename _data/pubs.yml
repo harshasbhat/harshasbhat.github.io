@@ -87,7 +87,7 @@ publications:
       editor:
       school:
       arxiv:  2508.20596
-      pdf: MelkiorBhatAmlani2025a.pdf
+      pdf: MelkiorBhatAmlani2026a.pdf
       img: tsunami.jpg
     - title:     "FASTDASH, a Quasi-dynamic 3D Seismic Cycle Model by Using Boundary Element Method with H-matrices"
       author:    Cheng, J., Almakari, M., Peruzzo, C., Lecampion, B., & Bhat, H. S.
@@ -194,7 +194,7 @@ publications:
       author:    M. Y. Thomas & H. S. Bhat
       year:    2022
       journal:
-      pdf: 		ThomasBhat2022b.pdf
+      pdf: 		ThomasBhat2022c.pdf
       doi:
       pubnum:     	39
       type:         incollection
@@ -319,7 +319,7 @@ publications:
       author:    S. Marty, F. X. Passelègue, J. Aubry, A. Schubnel, H. S. Bhat & R. Madariaga
       year:    2019
       journal:    Geophys. Res. Lett.
-      pdf: 		MartyPasselègueAubry2019a.pdf
+      pdf: 		MartyPassele%CC%80gueAubry2019a.pdf
       doi:		10.1029/2018GL080519
       pubnum:     	32
       type:         article
@@ -334,7 +334,7 @@ publications:
       author:    J. Aubry, F. X. Passelègue, D. Deldicque, F. Girault, S. Marty, A. Lahfid, H. S. Bhat, J. Escartin & A. Schubnel
       year:    2018
       journal:    Geophys. Res. Lett.
-      pdf: 		AubryPasselegueDeldicque2018a.pdf
+      pdf: 		AubryPassele%CC%80gueDeldicque2018a.pdf
       doi:		10.1029/2018GL079263
       pubnum:     	31
       type:         article
@@ -439,7 +439,7 @@ publications:
       author:    F. X. Passelègue, S. Latour, A. Schubnel, S. Nielsen, H. S. Bhat & R. Madariaga
       year:    2017
       journal:
-      pdf: 		PasselegueLatourSchubnel2017a.pdf
+      pdf: 		Passele%CC%80gueLatourSchubnel2017a.pdf
       doi:		10.1002/9781119156895.ch12
       pubnum:     	24
       type:         incollection
@@ -468,7 +468,7 @@ publications:
       author:    F. X. Passelègue, A. Schubnel, S. Nielsen, H. S. Bhat, D. Deldicque & R. Madariaga
       year:    2016
       journal:    J. Geophys. Res.
-      pdf: 		PasselegueSchubnelNielsen2016a.pdf
+      pdf: 		Passele%CC%80gueSchubnelNielsen2016a.pdf
       doi:		10.1002/2015JB012694
       pubnum:     	22
       type:         article
@@ -552,7 +552,7 @@ publications:
       author:    F. X. Passelègue, A. Schubnel, S. Nielsen, H. S. Bhat & R. Madariaga
       year:    2013
       journal:    Science
-      pdf: 		PasselegueSchubnelNielsen2013a.pdf
+      pdf: 		Passele%CC%80gueSchubnelNielsen2013a.pdf
       doi:		10.1126/science.1235637
       pubnum:     	16
       type:         article

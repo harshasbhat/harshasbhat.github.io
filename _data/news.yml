@@ -1,6 +1,6 @@
 news:
     - hl: New paper on laboratory ruptures
-      txt: We provide direct experimental evidence transition in fault weakening mechanisms due to fault structure evolution.
+      txt: We provide direct experimental evidence of a transition in fault weakening mechanisms due to fault structure evolution.
       closing: ""
       pdf: FanLinAubry2026a.pdf
       readmore: 
@@ -23,7 +23,7 @@ news:
       image: pubimages/eke2.png
       new: true
       type:         article
-    - hl: New paper submitted on Intraplate eartquake swarms 
+    - hl: New paper submitted on Intraplate earthquake swarms 
       txt: A High-Resolution Earthquake Catalog Reveals Coupled Fault Interactions and Multiple Controls on Seismicity Migration in an Intraplate Earthquake Swarm
       closing: ""
       pdf: BhagatBhattacharyaSreejith2026a.pdf
@@ -39,7 +39,7 @@ news:
       image: pubimages/yishuotides.png
       type:         article
     - hl: "Welcome to the group Mingqi!"
-      txt: "Minqi Liu will start his postdoc with Jean-Arthur Olive and myself in May 2026. We are very happy to have you Mingqi!"
+      txt: "Mingqi Liu will start his postdoc with Jean-Arthur Olive and myself in May 2026. We are very happy to have you Mingqi!"
       closing:
       image: team/mingqi.jpg
       readmore:
@@ -60,7 +60,7 @@ news:
       new: 
       type:         article
     - hl: "Solid earth tides and tremors"
-      txt: "Fault resonance as a mechanism to explain solid earth tides and tremors. Congrats Yishuo on your first paper as a Phd student!"
+      txt: "Fault resonance as a mechanism to explain solid earth tides and tremors. Congrats Yishuo on your first paper as a PhD student!"
       closing:
       image: pubimages/tides.jpg
       closing: 
@@ -69,7 +69,7 @@ news:
       type:         article
       readmore: https://arxiv.org/pdf/2602.06703.pdf
     - hl: "Congrats Pierre and Kurama"
-      txt: "Congrats Pierre Romanet and Kurama Okubo for strating their new jobs as permanent researchers at Cerema, France and NIED, Japan, respectively!"
+      txt: "Congrats Pierre Romanet and Kurama Okubo for starting their new jobs as permanent researchers at Cerema, France and NIED, Japan, respectively!"
       closing:
       image: team/kuramapierre.jpg
       closing: 
@@ -94,7 +94,7 @@ news:
     - hl: New paper submitted on tsunami modeling
       txt: 
       closing: ""
-      pdf: MelkiorBhatAmlani2025a.pdf
+      pdf: MelkiorBhatAmlani2026a.pdf
       type:         article
       readmore: 
       image: pubimages/tsunami.jpg
@@ -115,7 +115,7 @@ news:
       pdf: 
       readmore: 
       image: pubimages/michelprob.jpg
-      pdf: MichelScottiHok2025a.pdf
+      pdf: MichelScottiHok2026a.pdf
       type:         article
     - hl: "New paper accepted"
       txt: "New paper on dilatant plasticity in geodynamic models"

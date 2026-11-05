@@ -36,7 +36,7 @@ published: true
 		{% endif %}
 		{% if news.pdf %} 
 		<div id="newsbtn">
-		<a href="{{site.baseurl}}/files/{{news.pdf}}">PDF</a>
+		<a href="https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/CollectedPapers/{{ news.type | default: 'article' }}/{{news.pdf}}">PDF</a>
 		</div>
 		{% endif %}
 	</div>
@@ -76,7 +76,7 @@ published: true
 		
 		{% if news.pdf %} 
 		<div id="newsbtn">
-		<a href="{{site.baseurl}}/files/{{news.pdf}}">PDF</a>
+		<a href="https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/CollectedPapers/{{ news.type | default: 'article' }}/{{news.pdf}}">PDF</a>
 		</div>
 		{% endif %}
 		

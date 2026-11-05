@@ -151,40 +151,40 @@ masters:
       image: luc.jpg 
       web: https://www.gfz-potsdam.de/en/staff/luc-illien/sec46/
       email: 
-      post: "PhD Canidate: GFZ"
+      post: "PhD Candidate: GFZ"
     - name: "Nicolas Mercury"
       image: 
       web: 
       email: 
-      post: "PhD Canidate: EOST Strasbourg"
+      post: "PhD Candidate: EOST Strasbourg"
     - name: "Philippe Danré"
       image: danre.jpg
       web: https://www.researchgate.net/profile/Philippe_Danre
       email: 
-      post: "PhD Canidate: GeoAzur"
+      post: "PhD Candidate: GeoAzur"
     - name: "Jinhui Cheng"
       image: jinhui.jpg
       web: 
       email: 
-      post: PhD Canidate, ENS
+      post: PhD Candidate, ENS
     - name: "Roxane Ferry"
       image: 
       web: 
       email:
-      post: "Masters Canidate: PSL"
+      post: "Masters Candidate: PSL"
 undergrad:                                    
     - name: "Philippe Danré"
       image: danre.jpg
       web: https://www.researchgate.net/profile/Philippe_Danre
       email: 
-      post: "PhD Canidate: GeoAzur"
+      post: "PhD Candidate: GeoAzur"
     - name: "Hugo Lestrelin"
       image: hugo.jpg
       web: https://www.researchgate.net/profile/Hugo_Lestrelin
       email: 
-      post: "Masters Canidate: ENS"
+      post: "Masters Candidate: ENS"
     - name: "Roxane Ferry"
       image:
       web: 
       email: 
-      post: "Masters Canidate: ENS"
+      post: "Masters Candidate: ENS"

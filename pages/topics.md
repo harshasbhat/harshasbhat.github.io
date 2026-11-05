@@ -49,7 +49,7 @@ Listed below are my publications sorted by various research topics.<br><br>
 
     <div class="lefty">
 		{% if pub.pdf %}
-			<a display:inline href="{{ base }}/files/{{pub.pdf}}" style="text-transform:capitalize;">{{pub.title}}</a>
+			<a display:inline href="https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/CollectedPapers/{{ pub.type | default: 'article' }}/{{pub.pdf}}" style="text-transform:capitalize;">{{pub.title}}</a>
 		{% else %} 
 			{{pub.title}}
 		{% endif %}
