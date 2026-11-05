@@ -1,0 +1,12 @@
+{%- assign mem = include.mem -%}
+<li class="person">
+  <img src="{{ site.baseurl }}/images/team/{{ mem.image | default: 'dummy.jpg' }}" alt="" loading="lazy" width="200" height="200">
+  {%- if mem.web %}
+  <a class="name" href="{{ mem.web }}">{{ mem.name }}</a>
+  {%- else %}
+  <span class="name">{{ mem.name }}</span>
+  {%- endif %}
+  {%- if include.role and include.role != "" %}
+  <span class="role">{{ include.role }}</span>
+  {%- endif %}
+</li>

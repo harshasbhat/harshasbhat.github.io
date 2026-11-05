@@ -13,7 +13,7 @@ published: true
    <a href="{{site.baseurl}}/tsunami-fr/">Français</a>
 </div>
 
-<h2 align="center" style="color:#4181BD; font-size:18pt">Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake</h2>	
+<h2 align="center" style="color:var(--accent); font-size:18pt">Supershear shock front contributions to the tsunami from the 2018 $M_w$ 7.5 Palu earthquake</h2>	
 
 <button class="accordion">Authors & Affiliations</button>
 <div class="panel">

@@ -1,74 +1,65 @@
 <script>
+// Light / dark switch. With nothing saved, the page follows the system setting.
+(function () {
+  var root = document.documentElement;
+  var btn = document.getElementById("theme-toggle");
+  var mq = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementsByTagName("nav")[0].style.top = "0";
-  } else {
-    document.getElementsByTagName("nav")[0].style.top = "-55px";
+  function current() {
+    var t = root.getAttribute("data-theme");
+    if (t === "light" || t === "dark") return t;
+    return mq && mq.matches ? "dark" : "light";
   }
-  prevScrollpos = currentScrollPos;
-}
-
-const scrollToTopButton = document.getElementById('js-top');
-
-// Let's set up a function that shows our scroll-to-top button if we scroll beyond the height of the initial window.
-const scrollFunc = () => {
-  // Get the current scroll value
-  let y = window.scrollY;
-  
-  // If the scroll value is greater than the window height, let's add a class to the scroll-to-top button to show it!
-  if (y > 20) {
-    scrollToTopButton.className = "top-link show";
-  } else {
-    scrollToTopButton.className = "top-link hide";
+  function label() {
+    if (!btn) return;
+    var next = current() === "dark" ? "light" : "dark";
+    btn.setAttribute("aria-label", "Switch to " + next + " theme");
+    btn.setAttribute("title", "Switch to " + next + " theme");
   }
-};
-
-window.addEventListener("scroll", scrollFunc);
-
-const scrollToTop = () => {
-  // Let's set a variable for the number of pixels we are from the top of the document.
-  const c = document.documentElement.scrollTop || document.body.scrollTop;
-  
-  // If that number is greater than 0, we'll scroll back to 0, or the top of the document.
-  // We'll also animate that scroll with requestAnimationFrame:
-  // https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
-  if (c > 0) {
-    window.requestAnimationFrame(scrollToTop);
-    // ScrollTo takes an x and a y coordinate.
-    // Increase the '10' value to get a smoother/slower scroll!
-    window.scrollTo(0, c - c / 5);
+  function announce() {
+    label();
+    document.dispatchEvent(new CustomEvent("themechange", { detail: current() }));
   }
-};
+  if (btn) {
+    btn.addEventListener("click", function () {
+      var next = current() === "dark" ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      try { localStorage.setItem("theme", next); } catch (e) {}
+      announce();
+    });
+  }
+  if (mq && mq.addEventListener) mq.addEventListener("change", announce);
+  label();
+})();
 
-// When the button is clicked, run our ScrolltoTop function above!
-scrollToTopButton.onclick = function(e) {
-  e.preventDefault();
-  scrollToTop();
-}
+// On phones the nav scrolls sideways: bring the current page's link into view.
+(function () {
+  var nav = document.querySelector(".site-nav"), cur = nav && nav.querySelector('[aria-current="page"]');
+  if (nav && cur && nav.scrollWidth > nav.clientWidth) nav.scrollLeft = cur.offsetLeft - nav.offsetLeft - 16;
+})();
 
-
-// Accordion
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
+// Back-to-top link: shown once the reader has scrolled a screen.
+(function () {
+  var top = document.getElementById("js-top");
+  if (!top) return;
+  function onScroll() { top.classList.toggle("show", window.scrollY > window.innerHeight * 0.8); }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  top.addEventListener("click", function (e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
   });
-}
-</script>
+  onScroll();
+})();
 
-<script data-require="jquery" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-<script src="/js/fitvideo.js"></script>
-<script>
-$("main").fitVids();
+// Accordions used on the older research pages.
+(function () {
+  var acc = document.getElementsByClassName("accordion");
+  for (var i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      panel.style.display = panel.style.display === "block" ? "none" : "block";
+    });
+  }
+})();
 </script>

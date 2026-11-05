@@ -1,20 +1,22 @@
-<nav class="jmenu">
-  <label for="menu-btn" class="jm-menu-btn jm-icon-menu"></label>
-  <input type="checkbox" id="menu-btn" class="jm-menu-btn">
-  <ul class="jm-collapse">
-  <li class="jm-dropdown"><a href="/" style="font-weight: bold;">Welcome</a></li>
-{% for menu_item in site.data.menu %}
- 	{% if menu_item.subcategories != null %}
- 	   <li class="jm-dropdown">
-	   <a href="{{ menu_item.href | prepend: site.baseurl }}" style="font-weight: bold;">{{ menu_item.title}}  <i class="fa fa-caret-down"></i></a>
-	   <ul>
-				{% for subcategory in menu_item.subcategories %}
-					<li><a href="{{ subcategory.subhref | prepend: site.baseurl }}">{{ subcategory.subtitle}}</a></li>
-				{% endfor %}
-	   </ul>
-	   </li>
-	{% else %}
- 		 <li class="jm-dropdown"><a href="{{ menu_item.href }}" style="font-weight: bold;">{{ menu_item.title}}</a></li>
-	{% endif %}
-{% endfor %}
-</nav>
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="{{ site.baseurl }}/">Harsha S. Bhat</a>
+
+    <nav class="site-nav" aria-label="Site">
+      {% for item in site.data.menu %}
+        {% assign current = false %}
+        {% if item.match %}
+          {% for m in item.match %}{% if page.url contains m %}{% assign current = true %}{% endif %}{% endfor %}
+        {% elsif page.url == item.href %}
+          {% assign current = true %}
+        {% endif %}
+        <a href="{{ item.href | prepend: site.baseurl }}"{% if current %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+
+    <button class="theme-toggle" type="button" id="theme-toggle" aria-label="Switch to dark theme" title="Switch theme">
+      <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>

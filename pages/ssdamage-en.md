@@ -11,11 +11,11 @@ published: true
 <div id="watchbtn" style="text-align:right;font-size12pt">
    <a href="{{site.baseurl}}/ssdamage-en">English</a>
    <a href="{{site.baseurl}}/ssdamage-fr">Français</a>
-   <a href="{{site.baseurl}}/files/JaraBruhatThomas2021d.pdf">PDF</a>
+   <a href="https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/CollectedPapers/article/JaraBruhatThomas2021d.pdf">PDF</a>
 </div>
 
-<h2 align="center" style="color:#11BD; font-size18pt">Signature of transition to supershear rupture speed in coseismic off-fault damage zone</h2>	
-<h3 align="center" style="color:#000000; font-size14pt">Proceedings of the Royal Society A.</h3>
+<h2 align="center" style="color:var(--accent); font-size:18pt">Signature of transition to supershear rupture speed in coseismic off-fault damage zone</h2>	
+<h3 align="center" style="font-size:14pt">Proceedings of the Royal Society A.</h3>
 
 <button class="accordion">Authors & Affiliations</button>
 <div class="panel">

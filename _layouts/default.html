@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html>
-  <body>
-  {% include head.html %}
+<html lang="{{ page.lang | default: 'en' }}">
+{% include head.html %}
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  {% include header.html %}
 
-  <div class="page">
-    {% include header.html %}
-	
+  <main id="content">
     {{ content }}
+  </main>
 
-	<a class="top-link hide" href="" id="js-top"> TOP </a>
+  {% include footer.html %}
 
-	{% include new-window-fix.html %}
-  
-  </div>
-  
+  <a class="top-link" href="#content" id="js-top">Back to top ↑</a>
 
-   {% include scripts.html %}
-
+  {% include new-window-fix.html %}
+  {% include scripts.html %}
 </body>
-
 </html>

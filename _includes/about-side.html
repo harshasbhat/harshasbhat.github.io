@@ -1,0 +1,13 @@
+<aside class="about-side">
+  <img src="{{ site.baseurl }}/images/harsha.jpg" alt="Portrait of Harsha S. Bhat" width="800" height="936">
+  <nav class="lang" aria-label="Language">
+    <a href="{{ site.baseurl }}/about/" lang="en"{% if page.lang != "fr" %} aria-current="page"{% endif %}>English</a>
+    <a href="{{ site.baseurl }}/about-fr/" lang="fr"{% if page.lang == "fr" %} aria-current="page"{% endif %}>Français</a>
+  </nav>
+  <ul class="pills">
+    <li><a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&amp;hl=en">Google Scholar</a></li>
+    <li><a href="https://orcid.org/0000-0003-0361-1854">ORCID</a></li>
+    <li><a href="{{ site.baseurl }}/pages/cv/cv.pdf">CV</a></li>
+    <li><a href="https://www.linkedin.com/in/harshasbhat">LinkedIn</a></li>
+  </ul>
+</aside>

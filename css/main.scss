@@ -3,161 +3,79 @@
 ---
 @charset "utf-8";
 
-
+// Legacy variables, still used by the older partials imported at the end.
 $font-weight-normal: 400;
 $font-weight-bold:   600;
-$url-bold: 500;
-$base-font-family: Arial, "Liberation Sans", DejaVu Sans, sans-serif;
-$base-font-size:   13pt;
-$base-line-height: 1.5;
-
-$heading-font-family: $base-font-family;
-$heading-font-size:   12pt;
-$heading-line-height: 1.0;
-
-$small-font-size:  10pt;
-$vsmall-font-size: 8pt;
-$spacing-unit:     1.5em;
-
-$grey-vlight:#fefefe;
+$base-font-family:   "Avenir Next", "Avenir", "Nunito Sans", Helvetica, Arial, sans-serif;
+$base-font-size:     17px;
+$small-font-size:    14px;
+$vsmall-font-size:   12px;
+$spacing-unit:       1.5em;
 $grey-light: #ccc;
 $grey:       #666;
-$grey-dark:  #444;
-$grey-vdark: #111;
-$blue:       #3047c9;
-$orange:     #ca6c18;
-$red:        #b6321c;
-$harvard:   #A41034;
-$white:		#FFFFFF;
-$black:     #000;
+$white:      #FFFFFF;
+$black:      #000;
 $harvardblue: #f2f2df;
-$hlyellow: #ffffe6;
-$tsunami: #e5f6ed;
-$menu-font-size:15pt;
-
-$background:        $white;
-$dark-background:   darken($background, 5%);
-$text-color:        $black;
-$text-light-color:  $grey;
-$url-color:         #3422aa;
-$url-hover-color:   crimson;
-$newsheadingcolor:   #0a2aac;;
-$line-color:        $grey-light;
-$menubackground:    $white;
-$watchbtncolor:    #386cc7;
-$newsbtncolor:    #0b48b1;
-$submenubackground: $white;//darken($tsunami, 22%);//lighten($black,15%);
-$menulink: $newsheadingcolor;
-$submenulink: $newsheadingcolor;
-$hlcolor: #7a8080;
-$textcolor2: lighten(#4181BD,0%);
-$cardcolor: $white;
-$cardname: $white;
-$carddate: $grey-light;
+$harvard:    #A41034;
+$tsunami:    #e5f6ed;
+$hlcolor:    #7a8080;
+$url-color:  #0e5a61;
+$url-hover-color: #0e5a61;
+$text-color: #141c1b;
+$text-light-color: #5a6765;
+$newsbtncolor:  #0e5a61;
+$watchbtncolor: #0e5a61;
 $topicbtn: $white;
 $topicbtntxt: $black;
-$topicbtnhvr: $harvardblue;
 $pubimgwidth: 250px;
-
-// Width of the content area
-$content-width:    1000px;
-$content-width-all: 1000px;
-$content-min-width:320px;
-$mobile:           414px;
-$desktop:          1200px;
-$ipad:             1024px;
+$mobile: 520px;
 
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) { @content; }
 }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
+// New design
 @import
-    "base",
-    "footer",
-    "page",
-    "syntax-highlighting",
-    "fancy-image",
-    "cards",
-    "jmenu",
-    "misc",
-    "pubs",
-    "buttons",
-    "news"
-;
+  "tokens",
+  "base",
+  "home",
+  "pages";
 
-.hClass{
-    height: 90px;
-    width: 200px;
+// Older pages (tsunami, damage, topics, theses) still use these classes.
+@import
+  "fancy-image",
+  "misc",
+  "pubs",
+  "buttons";
 
-    overflow: hidden;
+// Keep legacy buttons and accordions inside the new palette.
+#newsbtn a, #watchbtn a {
+  font-size: 13px; font-weight: 700; letter-spacing: .04em;
+  background: transparent; color: var(--accent); border: 1px solid var(--rule); border-radius: 999px; padding: 4px 12px;
 }
+#newsbtn a:hover, #watchbtn a:hover { background: transparent; color: var(--accent); border-color: var(--accent); }
+.accordion { background: var(--sunken); color: var(--ink); border-radius: 8px; font-family: var(--sans); }
+.active, .accordion:hover { background: var(--rule); color: var(--ink); }
+.captions { border-bottom-color: var(--rule); color: var(--muted); }
 
-.hClass p{
-    padding-left: 20px;
+// Older publication lists (/articles/, /theses/, /books/, /topics/) and research pages:
+// map their hard-coded whites and blues onto the theme so they read in dark mode too.
+.articles, .articles2,
+.articles:nth-child(even), .articles:nth-child(odd) {
+  background-color: var(--surface);
+  color: var(--ink);
+  box-shadow: none;
 }
-
-.iClass{
-    font-style: oblinque;
-    color: rgb(136, 136, 136);
-	font-family: Arial,Liberation Sans,DejaVu Sans,sans-serif;
-    margin-left: -20px;
-}
-
-.mClass{
-    white-space: normal;
-}
-
-/* Course schedule table styling */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.5em 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 0.95em;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-}
-
-table thead tr {
-  background-color: #1a4d8f;
-  color: #ffffff;
-  text-align: left;
-}
-
-table th,
-table td {
-  padding: 10px 14px;
-  border: 1px solid #dcdcdc;
-}
-
-table th {
-  font-weight: 600;
-}
-
-table tbody tr:nth-of-type(even) {
-  background-color: #f4f7fb;
-}
-
-table tbody tr:hover {
-  background-color: #eaf1fb;
-  transition: background-color 0.15s ease-in-out;
-}
-
-table td:first-child,
-table th:first-child {
-  text-align: center;
-  width: 3em;
-}
-
-table td:nth-child(2),
-table th:nth-child(2) {
-  white-space: nowrap;
-}
-
-table td:nth-child(3),
-table th:nth-child(3) {
-  text-align: center;
-  font-weight: 500;
-}
+.articles { border-bottom: 1px solid var(--rule); }
+.responsivepubimg, .responsivepubimg1 { background: var(--figure); border-radius: 4px; }
+.pubyear { color: var(--accent); }
+.shadow-hr::before { background-color: var(--rule); box-shadow: none; }
+.dropdown-content { background-color: var(--surface); border: 1px solid var(--rule); }
+.dropdown-content a:hover { background-color: var(--sunken); }
+.dropbtn { background-color: var(--surface); color: var(--ink); border: 1px solid var(--rule); }
+#topicbtn a { background-color: var(--surface); color: var(--ink); border-color: var(--rule); }
+#topicbtn a:hover { background-color: var(--ink); color: var(--bg); }
+#topicshl { background-color: var(--accent); color: var(--bg); text-shadow: none; }
+#sectionbtnlst a { background-color: transparent; color: var(--ink); }
+.prose img[src*="pubimages"], .prose .captioned-img img { background: var(--figure); }
+.panel { background: transparent; color: var(--ink); }

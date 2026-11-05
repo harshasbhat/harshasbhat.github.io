@@ -8,7 +8,7 @@ published: true
 
 <div class="pagewidth">
 
-<h2 align="center" style="color:#4181BD; font-size:18pt">Supershear shock front contribution to the tsunami from the 2018 $M_w$ 7.5 Palu, Indonesia earthquake</h2>	
+<h2 align="center" style="color:var(--accent); font-size:18pt">Supershear shock front contribution to the tsunami from the 2018 $M_w$ 7.5 Palu, Indonesia earthquake</h2>	
 
 F. Amlani, H. S. Bhat, W. J. F. Simons, A. Schubnel, C. Vigny, A. J. Rosakis, J. Efendi, A. E. Elbanna, P. Dubernet & H. Z. Abidin<br> <b>Supershear shock front contribution to the tsunami from the 2018 Mw 7.5 Palu, Indonesia earthquake</b>, <i>Geophysical Journal International</i>, Volume 230, Issue 3, September 2022, Pages 2089–2097, <a href="https://doi.org/10.1093/gji/ggac162">doi: 10.1093/gji/ggac162</a> 
 

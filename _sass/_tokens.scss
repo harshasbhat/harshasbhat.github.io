@@ -1,0 +1,53 @@
+// ---------------------------------------------------------------------------
+// Design tokens. Every colour on the site comes from here.
+// Light values on :root; the two dark blocks redefine the same tokens.
+//   - no data-theme attribute  -> follow the system setting
+//   - data-theme="light|dark"  -> the visitor's choice from the header switch
+// ---------------------------------------------------------------------------
+:root {
+  --bg:       #f4f6f5;   // granite paper
+  --surface:  #ffffff;
+  --sunken:   #eaeeec;
+  --ink:      #141c1b;
+  --muted:    #5a6765;
+  --rule:     #d8dfdc;
+  --accent:   #0e5a61;   // deep fault-zone teal: links, focus, the S-wave
+  --new:      #a35c16;   // only for "New" markers
+  --figure:   #ffffff;   // tiles behind figures and logos drawn on white
+  --trace:    #8a9a97;
+  --stage:    #1b2322;   // photo carousel letterbox
+
+  --sans: "Avenir Next", "Avenir", "Nunito Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --step--1: 0.875rem;
+  --step-0:  1rem;
+  --step-1:  1.1875rem;
+  --step-2:  1.5rem;
+  --step-3:  clamp(2rem, 4.2vw, 2.75rem);
+  --step-4:  clamp(2.25rem, 5vw, 3.25rem);
+
+  --gutter: 56px;
+  --side: 260px;
+}
+
+@mixin dark-tokens {
+  --bg:       #0e1413;
+  --surface:  #151e1d;
+  --sunken:   #111918;
+  --ink:      #e3eae8;
+  --muted:    #97a5a2;
+  --rule:     #25312f;
+  --accent:   #72c3c7;
+  --new:      #e3a25c;
+  --figure:   #ffffff;
+  --trace:    #5d6e6b;
+  --stage:    #0a0f0e;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { @include dark-tokens; }
+}
+:root[data-theme="dark"] { @include dark-tokens; }
+:root[data-theme="light"] { color-scheme: light; }
