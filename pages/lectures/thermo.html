@@ -1,76 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thermodynamics Lecture Notes</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 600px;
-            margin: 100px auto;
-            padding: 20px;
-            text-align: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            min-height: 100vh;
-        }
-        .container {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 40px;
-            border-radius: 10px;
-            color: #333;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-        }
-        h1 {
-            color: #333;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            color: #666;
-            margin-bottom: 30px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 15px 40px;
-            margin: 20px;
-            background-color: #667eea;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
-            font-weight: 600;
-            transition: all 0.3s;
-        }
-        .btn:hover {
-            background-color: #764ba2;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-        }
-        .info {
-            margin-top: 30px;
-            color: #666;
-            font-size: 14px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>📚 Thermodynamics Lecture Notes</h1>
-        <p>Click below to view or download the latest lecture notes.</p>
-        <a href="https://e.pcloud.link/publink/show?code=XZJNSIZGwqHTYTYSmm7sg83XzVvOYa8FihV" class="btn">
-            📄 Notes
-        </a>
-        <a href="https://e.pcloud.link/publink/show?code=XZ7VBIZoN0uh1br1K8lJKa7p2WmMSqzdnf7" class="btn">
-            📄 Extras
-        </a>        
-        <div class="info">
-            <p>The notes are hosted on pCloud.</p>
-            <p>Last updated: <span id="date"></span></p>
-        </div>
-    </div>
-    <script>
-        document.getElementById('date').textContent = new Date().toLocaleDateString();
-    </script>
-</body>
-</html>
+---
+layout: page
+title: Thermodynamics of deformable solids
+kicker: Lecture notes
+intro: View or download the latest lecture notes. The notes are hosted on pCloud.
+---
+
+<div class="buttons-row">
+  <a class="button" href="https://e.pcloud.link/publink/show?code=XZJNSIZGwqHTYTYSmm7sg83XzVvOYa8FihV">Notes ↗</a>
+  <a class="button secondary" href="https://e.pcloud.link/publink/show?code=XZ7VBIZoN0uh1br1K8lJKa7p2WmMSqzdnf7">Extras ↗</a>
+</div>
+
+<p class="updated"><a href="{{ site.baseurl }}/teaching/">← All teaching</a></p>

@@ -1,0 +1,33 @@
+---
+layout: page
+permalink: /teamold/
+title: Former members
+kicker: PERSISMO
+intro: Postdocs and students who have worked with me, and where they are now.
+wide: true
+---
+
+{% assign groups = "postdoc|Postdoctoral researchers,phd|PhD students,masters|Master's students,undergrad|Undergraduate students" | split: "," %}
+{% for g in groups %}
+  {% assign parts = g | split: "|" %}
+  {% assign key = parts[0] %}
+  {% assign list = site.data.oldteam[key] %}
+  {% if list %}
+<section class="section" aria-labelledby="old-{{ key }}">
+  <h2 class="label" id="old-{{ key }}">{{ parts[1] }}</h2>
+  <ul class="people people-compact">
+    {% for mem in list %}
+    <li class="person">
+      <img src="{{ site.baseurl }}/images/team/{{ mem.image | default: 'dummy.jpg' }}" alt="" loading="lazy" width="200" height="200">
+      <div>
+        {% if mem.web %}<a class="name" href="{{ mem.web }}">{{ mem.name }}</a>{% else %}<span class="name">{{ mem.name }}</span>{% endif %}
+        {% if mem.post %}<span class="role">{{ mem.post }}</span>{% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+  {% endif %}
+{% endfor %}
+
+<p class="more-link"><a href="{{ site.baseurl }}/team/">← Current group</a></p>
