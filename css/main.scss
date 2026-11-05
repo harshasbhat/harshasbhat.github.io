@@ -16,7 +16,6 @@ $grey:       #666;
 $white:      #FFFFFF;
 $black:      #000;
 $harvardblue: #f2f2df;
-$harvard:    #A41034;
 $tsunami:    #e5f6ed;
 $hlcolor:    #7a8080;
 $url-color:  #0e5a61;
@@ -27,7 +26,6 @@ $newsbtncolor:  #0e5a61;
 $watchbtncolor: #0e5a61;
 $topicbtn: $white;
 $topicbtntxt: $black;
-$pubimgwidth: 250px;
 $mobile: 520px;
 
 @mixin media-query($device) {
@@ -41,11 +39,10 @@ $mobile: 520px;
   "home",
   "pages";
 
-// Older pages (tsunami, damage, topics, theses) still use these classes.
+// Older pages (tsunami, damage) still use these classes.
 @import
   "fancy-image",
   "misc",
-  "pubs",
   "buttons";
 
 // Keep legacy buttons and accordions inside the new palette.
@@ -57,25 +54,6 @@ $mobile: 520px;
 .accordion { background: var(--sunken); color: var(--ink); border-radius: 8px; font-family: var(--sans); }
 .active, .accordion:hover { background: var(--rule); color: var(--ink); }
 .captions { border-bottom-color: var(--rule); color: var(--muted); }
-
-// Older publication lists (/articles/, /theses/, /books/, /topics/) and research pages:
-// map their hard-coded whites and blues onto the theme so they read in dark mode too.
-.articles, .articles2,
-.articles:nth-child(even), .articles:nth-child(odd) {
-  background-color: var(--surface);
-  color: var(--ink);
-  box-shadow: none;
-}
-.articles { border-bottom: 1px solid var(--rule); }
-.responsivepubimg, .responsivepubimg1 { background: var(--figure); border-radius: 4px; }
-.pubyear { color: var(--accent); }
-.shadow-hr::before { background-color: var(--rule); box-shadow: none; }
-.dropdown-content { background-color: var(--surface); border: 1px solid var(--rule); }
-.dropdown-content a:hover { background-color: var(--sunken); }
-.dropbtn { background-color: var(--surface); color: var(--ink); border: 1px solid var(--rule); }
-#topicbtn a { background-color: var(--surface); color: var(--ink); border-color: var(--rule); }
-#topicbtn a:hover { background-color: var(--ink); color: var(--bg); }
-#topicshl { background-color: var(--accent); color: var(--bg); text-shadow: none; }
 #sectionbtnlst a { background-color: transparent; color: var(--ink); }
-.prose img[src*="pubimages"], .prose .captioned-img img { background: var(--figure); }
+.prose .captioned-img img { background: var(--figure); }
 .panel { background: transparent; color: var(--ink); }
