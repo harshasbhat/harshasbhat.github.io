@@ -8,16 +8,14 @@ published: true
 <section class="wrap split hero" aria-labelledby="name">
   <figure class="portrait">
     <img src="{{ site.baseurl }}/images/harsha.jpg" alt="Portrait of Harsha S. Bhat" width="800" height="936">
-    <figcaption>Leads the PERSISMO group, Paris</figcaption>
   </figure>
   <div class="id">
     <h1 id="name">Harsha S. Bhat</h1>
     <p class="roles">
       <span>Directeur de Recherche, <a href="http://www.cnrs.fr/index.php/en">CNRS</a> · <a href="http://www.geologie.ens.fr">Laboratoire de Géologie</a>, <a href="http://www.ens.fr">École Normale Supérieure</a></span>
-      <span>Professor, <a href="https://portail.polytechnique.edu/lms/en">Laboratoire de Mécanique des Solides</a>, École Polytechnique</span>
+      <span>Teaching Professor, <a href="http://www.ens.fr">École Normale Supérieure</a></span>
     </p>
-    <p class="lede">I study how faults break, at the interface between earthquake physics and solid mechanics.</p>
-    <p class="bio">With occasional excursions into rock mechanics, tectonics and seismology. B.E. in Civil Engineering from NIT Karnataka, Ph.D. from Harvard University, postdoctoral work at Caltech and the University of Southern California.</p>
+    <p class="bio">I study how faults break, at the interface between earthquake physics and solid mechanics with occasional excursions into rock mechanics, tectonics and seismology. B.E. in Civil Engineering from NIT Karnataka, Ph.D. from Harvard University, postdoctoral work at Caltech and the University of Southern California.</p>
     <ul class="pills">
       <li><a href="http://scholar.google.com/citations?user=ZHskR34AAAAJ&amp;hl=en">Google Scholar</a></li>
       <li><a href="https://orcid.org/0000-0003-0361-1854">ORCID</a></li>
@@ -27,26 +25,11 @@ published: true
   </div>
 </section>
 
-<div class="wrap" aria-hidden="true">
-  <canvas class="trace" id="trace"></canvas>
-  <div class="trace-labels"><span style="left:14%">P</span><span style="left:46%">S</span><span style="left:66%">Coda</span></div>
-</div>
 
-<section class="wrap split research" aria-labelledby="research-label">
-  <h2 class="label" id="research-label">Research</h2>
-  <div>
-    <ul class="themes">
-      {% for t in site.data.research.themes %}<li>{{ t }}</li>{% endfor %}
-    </ul>
-    <p class="methods">{{ site.data.research.methods }}</p>
-  </div>
-</section>
 
-<section class="wrap split news" aria-labelledby="news-label">
-  <div class="news-head">
-    <h2 class="label" id="news-label">News</h2>
-    <p>Papers, submissions and group updates. The full list is on the <a href="{{ site.baseurl }}/publications/">publications page</a>.</p>
-  </div>
+
+<section class="wrap news" aria-labelledby="news-label">
+
 
   <ul class="news-list">
   {% for news in site.data.news.news limit: 10 %}
@@ -62,7 +45,7 @@ published: true
       <figure class="thumb thumb-empty"></figure>
       {% endif %}
       <div class="news-body">
-        <p class="meta"><span>{{ kind }}</span>{% if news.new == true %}<span class="is-new">New</span>{% endif %}</p>
+        <!-- <p class="meta">{% if news.new == true %}<span class="is-new">New</span>{% endif %}</p> -->
         <h3>{{ news.hl }}</h3>
         <p class="news-txt">{{ news.txt }}{% if news.closing and news.closing != "" %} {{ news.closing }}{% endif %}</p>
         {% capture links %}{% if news.pdf %}<a href="https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/CollectedPapers/{{ news.type | default: 'article' }}/{{ news.pdf }}">PDF</a>{% endif %}{% if news.slides %}<a href="https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/CollectedPapers/{{ news.type }}/{{ news.slides }}">Slides</a>{% endif %}{% if news.watch %}<a href="{{ news.watch }}">Watch</a>{% endif %}{% if news.insu %}<a href="{{ news.insu }}">INSU</a>{% endif %}{% if news.readmore %}{% if news.readmore contains "://" %}<a href="{{ news.readmore }}">Read more</a>{% else %}<a href="{{ site.baseurl }}/{{ news.readmore | remove_first: '/' }}">Read more</a>{% endif %}{% endif %}{% endcapture %}
@@ -74,38 +57,3 @@ published: true
   </ul>
 </section>
 
-<script>
-// Seismogram divider: seeded noise, a P onset, a larger S onset and a decaying coda.
-(function () {
-  var c = document.getElementById("trace");
-  if (!c) return;
-  function rand(seed) { return function () { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; }; }
-  function draw() {
-    var dpr = window.devicePixelRatio || 1, w = c.clientWidth, h = c.clientHeight;
-    if (!w) return;
-    c.width = Math.round(w * dpr); c.height = Math.round(h * dpr);
-    var g = c.getContext("2d"); g.setTransform(dpr, 0, 0, dpr, 0, 0); g.clearRect(0, 0, w, h);
-    var cs = getComputedStyle(document.documentElement);
-    var muted = cs.getPropertyValue("--trace").trim(), acc = cs.getPropertyValue("--accent").trim();
-    var r = rand(20121), mid = h / 2, n = Math.max(200, Math.floor(w * 1.5)), tP = 0.14, tS = 0.46, pts = [];
-    for (var i = 0; i < n; i++) {
-      var t = i / (n - 1), a = 0.035;
-      if (t > tP) a += 0.28 * Math.exp(-(t - tP) * 9);
-      if (t > tS) a += 1.0 * Math.exp(-(t - tS) * 5.5);
-      var osc = Math.sin(i * 0.9 + r() * 2) * 0.6 + (r() - 0.5) * 0.8;
-      pts.push([t * w, mid - a * osc * (h * 0.46)]);
-    }
-    g.lineWidth = 1.1; g.lineJoin = "round";
-    function seg(from, to, color) {
-      g.strokeStyle = color; g.beginPath();
-      for (var i = from; i <= to; i++) { var p = pts[i]; if (i === from) g.moveTo(p[0], p[1]); else g.lineTo(p[0], p[1]); }
-      g.stroke();
-    }
-    var iS = Math.floor(tS * (n - 1)), iE = Math.floor(0.62 * (n - 1));
-    seg(0, iS, muted); seg(iS, iE, acc); seg(iE, n - 1, muted);
-  }
-  draw();
-  window.addEventListener("resize", draw);
-  document.addEventListener("themechange", draw);
-})();
-</script>

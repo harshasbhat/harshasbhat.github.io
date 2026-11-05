@@ -1,9 +1,7 @@
 ---
 layout: page
 permalink: /team/
-title: Group
-kicker: PERSISMO
-intro: Postdocs, PhD students and engineers working on earthquake physics with me at ENS Paris.
+intro: 
 wide: true
 ---
 
@@ -41,7 +39,7 @@ wide: true
 
 {% if site.data.team.engineer %}
 <section class="section" aria-labelledby="g-eng">
-  <h2 class="label" id="g-eng">Research engineers</h2>
+  <h2 class="label" id="g-eng">Research engineer</h2>
   <ul class="people">
     {% for mem in site.data.team.engineer %}
       {% include person.html mem=mem role=mem.post %}
@@ -50,10 +48,12 @@ wide: true
 </section>
 {% endif %}
 
+<p class="more-link"><a href="{{ site.baseurl }}/teamold/">Former group members →</a></p>
+
+
 <section class="section" aria-labelledby="g-photos">
   <div>
     <h2 class="label" id="g-photos">PERSISMO group</h2>
-    <p class="section-note">Group photos over the years.</p>
   </div>
   <div class="group-photos">
     {% include carousel.html photos=site.data.group.photos id="persismo" label="PERSISMO group photos" height="16 / 10" %}
@@ -63,11 +63,9 @@ wide: true
 <section class="section" aria-labelledby="g-rice">
   <div>
     <h2 class="label" id="g-rice">Prof. Rice's group</h2>
-    <p class="section-note">Harvard, where I did my PhD.</p>
   </div>
   <div class="group-photos">
     {% include carousel.html photos=site.data.group.ricephotos id="rice" label="Rice group photos, Harvard" height="2 / 1" %}
   </div>
 </section>
 
-<p class="more-link"><a href="{{ site.baseurl }}/teamold/">Former group members →</a></p>

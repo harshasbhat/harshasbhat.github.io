@@ -38,8 +38,8 @@
 .methods { margin: 14px 0 0; color: var(--muted); font-size: 15px; }
 
 .news { padding-block: 48px 72px; }
-.news-head { display: flex; flex-direction: column; gap: 10px; }
-.news-head p { margin: 0; color: var(--muted); font-size: 14.5px; max-width: 24ch; }
+.news-head { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px;}
+.news-head p { margin: 0; color: var(--muted); font-size: 14.5px; }
 
 .news-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
 .news-item {
@@ -58,7 +58,7 @@
 .is-new { color: var(--new); }
 .is-new::before { content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: currentColor; margin-right: 6px; vertical-align: 1px; }
 .news-item h3 { margin: 0; font-size: var(--step-1); line-height: 1.3; font-weight: 700; letter-spacing: -.005em; }
-.news-txt { margin: 0; opacity: .86; max-width: 65ch; }
+.news-txt { margin: 0; opacity: .86; }
 .news-links { margin: 4px 0 0; display: flex; flex-wrap: wrap; gap: 4px 20px; font-size: 14.5px; }
 .news-links a::after { content: " \2197"; font-weight: 500; }
 
