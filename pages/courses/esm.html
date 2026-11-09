@@ -3,16 +3,11 @@ layout: page
 permalink: /courses/esm
 title: Earthquake Source Mechanics
 kicker: ENS Paris · with Pierre Dublanchet and Carolina Giorgetti
+intro: Syllabus, lecture notes and the session calendar. There are going to be plenty of typos and errors; please contact me for more information.
 wide: true
 ---
 
-<ul class="resource-list">
-  <li><a href="https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/Teaching/ENS/Earthquake2026/Syllabus/esm.pdf">Course syllabus</a></li>
-  <li><a href="https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/Teaching/ENS/Earthquake2026/latex/master.pdf">Lecture notes on earthquake source mechanics</a></li>
-</ul>
-
-<h2>Calendar</h2>
-
-{% include course-calendar.html id="esm-calendar" sessions=site.data.esm %}
+{% include course.html course=site.data.esm id="esm-calendar" %}
 
 <p class="updated">Last updated on {{ site.time | date: '%B %-d, %Y' }}</p>
+

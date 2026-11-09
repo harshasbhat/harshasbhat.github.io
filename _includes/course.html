@@ -1,0 +1,30 @@
+{%- comment -%}
+  Course materials and calendar, all read from one data file.
+  Usage:  {% include course.html course=site.data.courses.numerics id="numerics" %}
+{%- endcomment -%}
+{%- assign c = include.course -%}
+
+<ul class="resource-list">
+  {%- for r in c.links %}
+  <li><a href="{% if r.url %}{{ r.url }}{% else %}{{ c.base }}{{ r.file }}{% endif %}">{{ r.title }}</a></li>
+  {%- endfor %}
+  {%- if c.notebooks and c.notebooks.size > 0 %}
+  <li>
+    <details class="nb-menu">
+      <summary>Jupyter notebooks</summary>
+      <ul class="nb-list">
+        {%- for nb in c.notebooks %}
+        {%- if nb.url %}{% assign nb_href = nb.url %}{% else %}{% capture nb_href %}{{ c.base }}{{ nb.file }}{% endcapture %}{% endif %}
+        {%- assign nb_name = nb_href | split: "/" | last %}
+        <li><a href="{{ nb_href }}">{{ nb.title }}<span class="nb-file">{{ nb_name }}</span></a></li>
+        {%- endfor %}
+      </ul>
+    </details>
+  </li>
+  {%- endif %}
+</ul>
+
+{% if c.sessions %}
+<h2>Calendar</h2>
+{% include course-calendar.html id=include.id sessions=c.sessions %}
+{% endif %}

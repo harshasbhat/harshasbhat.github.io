@@ -1,12 +1,34 @@
-- { n: "1",  date: 2026-09-11, tag: Theory, topic: "Foundations — root-finding & time integration" }
-- { n: "2",  date: 2026-09-18, tag: Coding, topic: "Foundations" }
-- { n: "3",  date: 2026-10-09, tag: Theory, topic: "FD — thermal pressurization I" }
-- { n: "4",  date: 2026-10-16, tag: Coding, topic: "FD" }
-- { n: "5",  date: 2026-10-23, tag: Theory, topic: "FV — thermal pressurization II"}
-- { n: "6",  date: 2026-10-30, tag: Coding, topic: "FV"}
-- { n: "7",  date: 2026-11-06, tag: Theory, topic: "BEM — elastic interaction matrix" }
-- { n: "8",  date: 2026-11-13, tag: Coding, topic: "BEM" }
-- { n: "9",  date: 2026-11-20, tag: Theory, topic: "Coupling — mechanics + TP + dilatancy + adaptive integration" }
-- { n: "10", date: 2026-12-04, tag: Coding, topic: "Coupling" }
-- { n: "11", date: 2026-12-11, tag: Theory, topic: "Synthesis — multi-patch assembly & benchmarking" }
-- { n: "12", date: 2026-12-18, tag: Coding, topic: "Synthesis" }
+# Numerical Methods (ENS Paris) — everything that changes from year to year.
+# Next year: change `base` to the new pCloud folder, update the files and the sessions.
+
+base: https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/Teaching/ENS/Numerical2026/
+
+# Rows at the top of the page. `file` is relative to `base`;
+# use `url:` instead of `file:` for a full address (e.g. a GitHub repo).
+links:
+  - title: Course syllabus
+    file: Syllabus/numerical.pdf
+  - title: Lecture notes on numerical methods
+    file: latex/master.pdf
+
+# The "Jupyter notebooks" dropdown, in this order. Leave empty ([]) to hide it.
+notebooks:
+  - title: Newton–Raphson
+    file: jupyter/newton_method.ipynb
+  - title: ODE solutions
+    file: jupyter/euler_RK4_method.ipynb
+
+# The calendar. tag decides the colour; vacances: true marks a holiday week.
+sessions:
+  - { n: "1",  date: 2026-09-11, tag: Theory, topic: "Foundations — root-finding & time integration" }
+  - { n: "2",  date: 2026-09-18, tag: Coding, topic: "Foundations" }
+  - { n: "3",  date: 2026-10-09, tag: Theory, topic: "FD — thermal pressurization I" }
+  - { n: "4",  date: 2026-10-16, tag: Coding, topic: "FD" }
+  - { n: "5",  date: 2026-10-23, tag: Theory, topic: "FV — thermal pressurization II"}
+  - { n: "6",  date: 2026-10-30, tag: Coding, topic: "FV"}
+  - { n: "7",  date: 2026-11-06, tag: Theory, topic: "BEM — elastic interaction matrix" }
+  - { n: "8",  date: 2026-11-13, tag: Coding, topic: "BEM" }
+  - { n: "9",  date: 2026-11-20, tag: Theory, topic: "Coupling — mechanics + TP + dilatancy + adaptive integration" }
+  - { n: "10", date: 2026-12-04, tag: Coding, topic: "Coupling" }
+  - { n: "11", date: 2026-12-11, tag: Theory, topic: "Synthesis — multi-patch assembly & benchmarking" }
+  - { n: "12", date: 2026-12-18, tag: Coding, topic: "Synthesis" }
