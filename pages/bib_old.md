@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: /bib/
+permalink: /bib_old/
 ---
 <html>
 <head>
