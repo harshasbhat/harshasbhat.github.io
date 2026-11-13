@@ -1,7 +1,9 @@
 # Numerical Methods (ENS Paris) — everything that changes from year to year.
 # Next year: change `base` to the new pCloud folder, update the files and the sessions.
 
-base: https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/Teaching/ENS/Numerical2026/
+# base: https://filedn.eu/lg5rE6ReEB4XtX4pGFBGRh4/Teaching/ENS/Numerical2026/
+# base: https://github.com/harshasbhat/Numerical2026/raw/main/
+base: https://cdn.jsdelivr.net/gh/harshasbhat/Numerical2026@main/
 
 # Rows at the top of the page. `file` is relative to `base`;
 # use `url:` instead of `file:` for a full address (e.g. a GitHub repo).

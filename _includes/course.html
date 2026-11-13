@@ -16,11 +16,33 @@
         {%- for nb in c.notebooks %}
         {%- if nb.url %}{% assign nb_href = nb.url %}{% else %}{% capture nb_href %}{{ c.base }}{{ nb.file }}{% endcapture %}{% endif %}
         {%- assign nb_name = nb_href | split: "/" | last %}
-        <li><a href="{{ nb_href }}">{{ nb.title }}<span class="nb-file">{{ nb_name }}</span></a></li>
+        <li><a href="{{ nb_href }}" data-download download="{{ nb_name }}">{{ nb.title }}<span class="nb-file">{{ nb_name }}</span></a></li>
         {%- endfor %}
       </ul>
     </details>
   </li>
+  <script>
+  if (!window.nbDownloadReady) {
+    window.nbDownloadReady = true;
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('a[data-download]');
+      if (!a) return;
+      e.preventDefault();
+      fetch(a.href)
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.blob(); })
+        .then(function (blob) {
+          var l = document.createElement('a');
+          l.href = URL.createObjectURL(blob);
+          l.download = a.getAttribute('download') || a.href.split('/').pop();
+          document.body.appendChild(l);
+          l.click();
+          l.remove();
+          URL.revokeObjectURL(l.href);
+        })
+        .catch(function () { window.location.href = a.href; });
+    });
+  }
+  </script>
   {%- endif %}
 </ul>
 
