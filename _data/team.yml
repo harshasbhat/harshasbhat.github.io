@@ -31,7 +31,16 @@ postdoc:
       post: ERC Post-Doctoral Fellow
       dates: May 2026
       tweet: 
-      funded: 1        
+      funded: 1  
+visitor:
+    - name: "Parva Shoaeifar"
+      image: parva.png
+      web: https://geosciences.univ-rennes.fr/actualites/parva-schoaeifar-post-doctorante-dans-lequipe-tectonique
+      email:
+      post: Visiting Postdoc
+      dates: July 2026
+      tweet:
+      funded: 1      
 phd:
     - name: "Bharath Shanmugasundaram"
       image: bharath.jpg

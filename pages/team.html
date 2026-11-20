@@ -48,6 +48,17 @@ wide: true
 </section>
 {% endif %}
 
+{% if site.data.team.visitor %}
+<section class="section" aria-labelledby="g-eng">
+  <h2 class="label" id="g-eng">Visitors</h2>
+  <ul class="people">
+    {% for mem in site.data.team.visitor %}
+      {% include person.html mem=mem role=mem.post %}
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
 <p class="more-link"><a href="{{ site.baseurl }}/teamold/">Former group members →</a></p>
 
 
