@@ -19,6 +19,8 @@ notebooks:
     file: jupyter/newton_method.ipynb
   - title: ODE solutions
     file: jupyter/euler_RK4_method.ipynb
+  - title: Spring Block Slider
+    file: jupyter/simple_seismic_model.ipynb
 
 # The calendar. tag decides the colour; vacances: true marks a holiday week.
 sessions:
