@@ -21,6 +21,8 @@ notebooks:
     file: jupyter/euler_RK4_method.ipynb
   - title: Spring Block Slider
     file: jupyter/simple_seismic_model.ipynb
+  - title: Corrected Spring Block Slider Model
+    file: jupyter/simple_seismic_model_corr.ipynb
 
 # The calendar. tag decides the colour; vacances: true marks a holiday week.
 sessions:
